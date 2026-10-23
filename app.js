@@ -84,7 +84,10 @@
   // ---------- header / filters ----------
   function initChrome() {
     const sel = $("#lesson");
-    sel.innerHTML = LESSONS.map(l => `<option value="${l.id}">${esc(l.title)} (${l.cards.length})</option>`).join("");
+    const opt = l => `<option value="${l.id}">${esc(l.title)} (${l.cards.length})</option>`;
+    const book = LESSONS.filter(l => l.id < 100), extra = LESSONS.filter(l => l.id >= 100);
+    sel.innerHTML = `<optgroup label="Kompass DaF B2">${book.map(opt).join("")}</optgroup>` +
+      (extra.length ? `<optgroup label="Zusatz: B1 / B2 (nicht im Buch)">${extra.map(opt).join("")}</optgroup>` : "");
     sel.value = store.lesson;
     sel.onchange = () => { store.lesson = +sel.value; persist(); state.sections.clear(); renderChips(); setMode(state.mode); };
 
@@ -133,6 +136,8 @@
     const stars = L.cards.filter(c => store.starred[c.id]).length;
     const mw = Object.keys(mbox().w).length, mg = Object.keys(mbox().g).length;
     $("#stats").textContent = `${L.title}: ${known} / ${total} gelernt · ${stars} markiert · ${mw + mg} Fehler offen`;
+    const note = $("#lessonNote");
+    if (note) { note.textContent = L.note || ""; note.hidden = !L.note; }
     const badge = $("#mbadge");
     if (badge) { badge.textContent = mw + mg; badge.hidden = !(mw + mg); }
   }
