@@ -2155,7 +2155,7 @@
    "id": "L8-g15",
    "t": "t2",
    "type": "gap",
-   "q": "Man kann Kalorien verbrauchen, ___ man die Treppe statt den Aufzug nimmt. (ein Wort)",
+   "q": "Man kann Kalorien verbrauchen, ___ man die Treppe statt den Aufzug nimmt. (Modalsatz, ein Wort)",
    "a": [
     "indem"
    ],
@@ -2273,10 +2273,11 @@
    "type": "gap",
    "q": "Die Smartwatch mag teuer sein, ___ sie ist sehr nützlich. (Gegenargument)",
    "a": [
-    "aber"
+    "aber",
+    "doch"
    ],
-   "de": "mögen …, aber: Das Gegenargument folgt mit aber.",
-   "fa": "در ساختار mögen …, aber استدلال مخالف با aber می‌آید."
+   "de": "mögen …, aber: Das Gegenargument folgt mit aber (auch möglich: doch).",
+   "fa": "در ساختار mögen …, aber استدلال مخالف با aber (یا doch) می‌آید."
   }
  ]
 });

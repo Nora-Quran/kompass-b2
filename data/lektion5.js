@@ -2354,10 +2354,11 @@
    "a": [
     "sodass",
     "weshalb",
-    "weswegen"
+    "weswegen",
+    "wodurch"
    ],
-   "de": "Das Verb (mussten) steht am Ende → Nebensatz mit der Folge: sodass (auch weshalb/weswegen möglich).",
-   "fa": "فعل (mussten) در آخر است؛ جمله‌ی وابسته‌ی نتیجه: sodass (weshalb یا weswegen هم درست است)."
+   "de": "Das Verb (mussten) steht am Ende → Nebensatz mit der Folge: sodass (auch weshalb/weswegen/wodurch möglich).",
+   "fa": "فعل (mussten) در آخر است؛ جمله‌ی وابسته‌ی نتیجه: sodass (weshalb، weswegen یا wodurch هم درست است)."
   }
  ]
 });

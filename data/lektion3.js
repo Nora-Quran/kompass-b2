@@ -1716,8 +1716,8 @@
     },
     {
      "head": "jedoch / dagegen / doch (zweiter Hauptsatz)",
-     "de": "jedoch, dagegen und doch nennen den Gegensatz im zweiten Hauptsatz. Am Satzanfang (Position 1) folgt direkt das Verb, dann das Subjekt. jedoch und dagegen können auch nach dem Verb im Satz stehen: Ich dagegen bin ehrlich. / Er hat jedoch nichts gesagt.",
-     "fa": "jedoch (اما)، dagegen (در مقابل) و doch (ولی) تضاد را در جمله‌ی اصلی دوم بیان می‌کنند. اگر اول جمله بیایند، فعل بلافاصله بعد از آن‌ها و فاعل بعد از فعل می‌آید. jedoch و dagegen می‌توانند وسط جمله، بعد از فعل یا بعد از فاعل هم بیایند.",
+     "de": "jedoch, dagegen und doch nennen den Gegensatz im zweiten Hauptsatz. Am Satzanfang (Position 1) folgt direkt das Verb, dann das Subjekt. doch steht aber oft auch wie aber auf Position 0: Doch das Zubehör fehlte. jedoch und dagegen können auch nach dem Verb oder direkt nach dem Subjekt stehen: Ich dagegen bin ehrlich. / Er hat jedoch nichts gesagt.",
+     "fa": "jedoch (اما)، dagegen (در مقابل) و doch (ولی) تضاد را در جمله‌ی اصلی دوم بیان می‌کنند. اگر اول جمله بیایند، فعل بلافاصله بعد از آن‌ها و فاعل بعد از فعل می‌آید. البته doch اغلب مثل aber در جایگاه صفر هم می‌آید: Doch das Zubehör fehlte. jedoch و dagegen می‌توانند وسط جمله، بعد از فعل یا بعد از فاعل هم بیایند.",
      "ex": [
       [
        "Kinder lügen selten. Erwachsene lügen dagegen fast täglich.",
@@ -1824,8 +1824,8 @@
     },
     {
      "head": "Modalverben im Zielsatz vermeiden",
-     "de": "In damit- und um … zu-Sätzen benutzt man normalerweise keine Modalverben wie wollen, sollen oder können, denn der Zweck steckt schon in der Konjunktion.",
-     "fa": "در جمله‌های damit و um … zu معمولاً فعل‌های وجهی مثل wollen، sollen یا können نمی‌آوریم، چون معنای هدف در خود حرف ربط هست.",
+     "de": "In damit- und um … zu-Sätzen benutzt man normalerweise keine Modalverben wie wollen, sollen oder möchten, denn der Zweck steckt schon in der Konjunktion. können ist aber möglich: …, damit du schlafen kannst.",
+     "fa": "در جمله‌های damit و um … zu معمولاً فعل‌های وجهی مثل wollen، sollen یا möchten نمی‌آوریم (können مشکلی ندارد: damit du schlafen kannst)، چون معنای هدف در خود حرف ربط هست.",
      "ex": [
       [
        "Falsch: …, damit er pünktlich kommen soll. → Richtig: …, damit er pünktlich kommt.",
@@ -1835,8 +1835,8 @@
     },
     {
      "head": "zu / zum / zur + Nomen (Dativ)",
-     "de": "In der Schriftsprache nennt man den Zweck oft mit zu + Nomen. Aus dem Verb wird ein Nomen: Infinitiv als Nomen (das Lernen → zum Lernen) oder ein Nomen auf -ung (schützen → der Schutz, verteidigen → die Verteidigung → zur Verteidigung). zu + dem = zum, zu + der = zur.",
-     "fa": "در زبان نوشتاری هدف را اغلب با zu + اسم بیان می‌کنیم. از فعل یک اسم می‌سازیم: مصدرِ اسم‌شده (das Lernen ← zum Lernen) یا اسمی با پسوند ‎-ung (verteidigen ← die Verteidigung ← zur Verteidigung). zu + dem = zum و zu + der = zur.",
+     "de": "In der Schriftsprache nennt man den Zweck oft mit zu + Nomen. Aus dem Verb wird ein Nomen: Infinitiv als Nomen (das Lernen → zum Lernen) oder ein anderes Nomen, oft auf -ung (verteidigen → die Verteidigung → zur Verteidigung; schützen → der Schutz → zum Schutz). zu + dem = zum, zu + der = zur.",
+     "fa": "در زبان نوشتاری هدف را اغلب با zu + اسم بیان می‌کنیم. از فعل یک اسم می‌سازیم: مصدرِ اسم‌شده (das Lernen ← zum Lernen) یا اسمی دیگر، اغلب با پسوند ‎-ung (schützen ← der Schutz؛ verteidigen ← die Verteidigung ← zur Verteidigung). zu + dem = zum و zu + der = zur.",
      "ex": [
       [
        "Um ihr Revier zu verteidigen, brüllen die Affen. → Zur Verteidigung ihres Reviers brüllen die Affen.",
@@ -2041,10 +2041,11 @@
    "type": "gap",
    "q": "Das Produkt ist zwar teuer, ___ die Qualität ist sehr gut. (zweiter Teil)",
    "a": [
-    "aber"
+    "aber",
+    "doch"
    ],
-   "de": "zwar … aber; aber steht auf Position 0, danach Subjekt – Verb.",
-   "fa": "zwar … aber؛ aber در جایگاه صفر است و بعد از آن فاعل و فعل می‌آید."
+   "de": "zwar … aber (oder zwar … doch); aber/doch steht auf Position 0, danach Subjekt – Verb.",
+   "fa": "zwar … aber (یا zwar … doch)؛ aber/doch در جایگاه صفر است و بعد از آن فاعل و فعل می‌آید."
   },
   {
    "id": "L3-g13",
@@ -2164,10 +2165,11 @@
    "type": "gap",
    "q": "Wir brauchen mehr Zeit ___ Auswerten (das Auswerten) der Umfrage.",
    "a": [
-    "zum"
+    "zum",
+    "fürs"
    ],
-   "de": "Nominalisierter Infinitiv ist neutral: zu + dem = zum Auswerten.",
-   "fa": "مصدرِ اسم‌شده خنثی است: zu + dem = zum Auswerten."
+   "de": "Nominalisierter Infinitiv ist neutral: zu + dem = zum Auswerten (auch möglich: fürs Auswerten).",
+   "fa": "مصدرِ اسم‌شده خنثی است: zu + dem = zum Auswerten (fürs Auswerten هم درست است)."
   },
   {
    "id": "L3-g22",

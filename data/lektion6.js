@@ -1665,11 +1665,11 @@
     },
     {
      "head": "Adjektiv + Nomen und lange Komposita",
-     "de": "Auch Adjektive können Bestimmungswort sein (die Fachkraft, das Hochhaus). Lange Komposita liest man am besten von hinten nach vorne.",
-     "fa": "صفت هم می‌تواند بخش اول باشد (das Hochhaus). اسم‌های مرکبِ طولانی را بهتر است از آخر به اول تجزیه کنیم.",
+     "de": "Auch Adjektive können Bestimmungswort sein (die Großstadt, das Hochhaus). Lange Komposita liest man am besten von hinten nach vorne.",
+     "fa": "صفت هم می‌تواند بخش اول باشد (die Großstadt، das Hochhaus). اسم‌های مرکبِ طولانی را بهتر است از آخر به اول تجزیه کنیم.",
      "ex": [
       [
-       "die Studien|berat|ung → Beratung für das Studium",
+       "die Studien|beratung → Beratung für das Studium",
        "مشاوره‌ی تحصیلی ← مشاوره برای تحصیل"
       ],
       [
@@ -1707,7 +1707,7 @@
     [
      "Adjektiv + Nomen",
      "Adjektiv ohne Endung",
-     "die Fachhochschule",
+     "das Hochhaus",
      "صفت بدون پسوند"
     ]
    ]
@@ -2100,7 +2100,8 @@
    "type": "gap",
    "q": "Die Studierenden, mit ___ ich in der Lerngruppe bin, sind sehr nett. (Relativpronomen)",
    "a": [
-    "denen"
+    "denen",
+    "welchen"
    ],
    "de": "mit + Dativ Plural → denen.",
    "fa": "mit + Dativ جمع ← denen."
@@ -2111,10 +2112,10 @@
    "type": "mc",
    "q": "Wir machen eine Exkursion. – Oh, ___ weiß ich noch nichts.",
    "opts": [
-    "darüber",
+    "darauf",
     "davon",
     "damit",
-    "dazu"
+    "dafür"
    ],
    "a": 1,
    "de": "etwas wissen von → davon.",
@@ -2156,7 +2157,7 @@
    "type": "mc",
    "q": "___ denkst du gerade nach? – Über meine Zukunft.",
    "opts": [
-    "Über was",
+    "Über wen",
     "Worüber",
     "Darüber",
     "Wovon"

@@ -1914,7 +1914,7 @@
    "id": "L7-g10",
    "t": "t2",
    "type": "mc",
-   "q": "Sie sagt: „Ich habe keine Zeit.“ → Sie sagt, sie ___ keine Zeit.",
+   "q": "Sie sagt: „Ich habe keine Zeit.“ → Sie sagt, sie ___ keine Zeit. (Konjunktiv)",
    "opts": [
     "hat",
     "habe",
@@ -1929,7 +1929,7 @@
    "id": "L7-g11",
    "t": "t2",
    "type": "gap",
-   "q": "Er sagt: „Ich bin müde.“ → Er sagt, er ___ müde. (sein)",
+   "q": "Er sagt: „Ich bin müde.“ → Er sagt, er ___ müde. (sein, Konjunktiv)",
    "a": [
     "sei"
    ],
@@ -1940,7 +1940,7 @@
    "id": "L7-g12",
    "t": "t2",
    "type": "gap",
-   "q": "Die Ärztin sagt: „Der Patient muss weniger Salz essen.“ → Die Ärztin sagt, der Patient ___ weniger Salz essen. (müssen)",
+   "q": "Die Ärztin sagt: „Der Patient muss weniger Salz essen.“ → Die Ärztin sagt, der Patient ___ weniger Salz essen. (müssen, Konjunktiv)",
    "a": [
     "müsse"
    ],
@@ -1951,7 +1951,7 @@
    "id": "L7-g13",
    "t": "t2",
    "type": "mc",
-   "q": "Die Kunden sagen: „Wir kaufen nur Bio-Produkte.“ → Die Kunden sagen, sie ___ nur Bio-Produkte.",
+   "q": "Die Kunden sagen: „Wir kaufen nur Bio-Produkte.“ → Die Kunden sagen, sie ___ nur Bio-Produkte. (Konjunktiv)",
    "opts": [
     "kaufen",
     "kaufe",
@@ -1966,7 +1966,7 @@
    "id": "L7-g14",
    "t": "t2",
    "type": "gap",
-   "q": "Er sagte: „Ich aß zu viel.“ → Er sagte, er ___ zu viel gegessen. (haben)",
+   "q": "Er sagte: „Ich aß zu viel.“ → Er sagte, er ___ zu viel gegessen. (haben, Konjunktiv)",
    "a": [
     "habe"
    ],
@@ -1977,7 +1977,7 @@
    "id": "L7-g15",
    "t": "t2",
    "type": "gap",
-   "q": "Sie sagte: „Ich bin nach Hause gegangen.“ → Sie sagte, sie ___ nach Hause gegangen. (sein)",
+   "q": "Sie sagte: „Ich bin nach Hause gegangen.“ → Sie sagte, sie ___ nach Hause gegangen. (sein, Konjunktiv)",
    "a": [
     "sei"
    ],
@@ -1988,7 +1988,7 @@
    "id": "L7-g16",
    "t": "t2",
    "type": "mc",
-   "q": "Der Sprecher sagt: „Das Produkt wird bald verkauft.“ → Der Sprecher sagt, das Produkt ___ bald verkauft.",
+   "q": "Der Sprecher sagt: „Das Produkt wird bald verkauft.“ → Der Sprecher sagt, das Produkt ___ bald verkauft. (Konjunktiv)",
    "opts": [
     "wird",
     "werde",
@@ -2003,7 +2003,7 @@
    "id": "L7-g17",
    "t": "t2",
    "type": "gap",
-   "q": "Die Firma erklärt: „Wir haben die Kennzeichnung verbessert.“ → Die Firma erklärt, sie ___ die Kennzeichnung verbessert. (haben)",
+   "q": "Die Firma erklärt: „Wir haben die Kennzeichnung verbessert.“ → Die Firma erklärt, sie ___ die Kennzeichnung verbessert. (haben, Konjunktiv)",
    "a": [
     "habe"
    ],
@@ -2044,7 +2044,7 @@
    "id": "L7-g20",
    "t": "t2",
    "type": "gap",
-   "q": "Sie sagt: „Es gibt zu viel Zucker in Limonaden.“ → Sie sagt, es ___ zu viel Zucker in Limonaden. (geben)",
+   "q": "Sie sagt: „Es gibt zu viel Zucker in Limonaden.“ → Sie sagt, es ___ zu viel Zucker in Limonaden. (geben, Konjunktiv)",
    "a": [
     "gebe"
    ],
@@ -2066,7 +2066,7 @@
    "id": "L7-g22",
    "t": "t2",
    "type": "mc",
-   "q": "Die Verbraucher sagen: „Wir haben keine Lust auf Fertiggerichte.“ → Die Verbraucher sagen, sie ___ keine Lust auf Fertiggerichte.",
+   "q": "Die Verbraucher sagen: „Wir haben keine Lust auf Fertiggerichte.“ → Die Verbraucher sagen, sie ___ keine Lust auf Fertiggerichte. (Konjunktiv)",
    "opts": [
     "haben",
     "habe",
@@ -2081,7 +2081,7 @@
    "id": "L7-g23",
    "t": "t2",
    "type": "gap",
-   "q": "Der Experte sagt: „Man kann viele Lebensmittel länger essen.“ → Der Experte sagt, man ___ viele Lebensmittel länger essen. (können)",
+   "q": "Der Experte sagt: „Man kann viele Lebensmittel länger essen.“ → Der Experte sagt, man ___ viele Lebensmittel länger essen. (können, Konjunktiv)",
    "a": [
     "könne"
    ],

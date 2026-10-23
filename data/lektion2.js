@@ -1567,8 +1567,8 @@
     },
     {
      "head": "Passiv möglich oder nicht?",
-     "de": "Ein normales Passiv mit Subjekt bildet man nur mit Verben, die ein Akkusativobjekt haben (bauen, planen, gießen). Verben ohne Akkusativobjekt wie zunehmen, wachsen, schaden + D oder Verben der Bewegung (fahren, gehen) bilden kein solches Passiv. Auch haben, bekommen, kennen und Reflexivverben bilden kein Passiv.",
-     "fa": "مجهولِ معمولی با فاعل فقط با فعل‌هایی ساخته می‌شود که مفعول مستقیم (Akkusativ) دارند (bauen، planen، gießen). فعل‌های بدون مفعول مستقیم مثل zunehmen، wachsen، schaden + D یا فعل‌های حرکتی (fahren، gehen) چنین مجهولی ندارند. haben، bekommen، kennen و فعل‌های انعکاسی هم مجهول نمی‌شوند.",
+     "de": "Ein normales Passiv mit Subjekt bildet man nur mit Verben, die ein Akkusativobjekt haben (bauen, planen, gießen). Verben ohne Akkusativobjekt wie zunehmen, wachsen, schaden + D oder Verben der Bewegung ohne Objekt (gehen, kommen) bilden kein solches Passiv. Auch haben, bekommen, kennen und Reflexivverben bilden kein Passiv.",
+     "fa": "مجهولِ معمولی با فاعل فقط با فعل‌هایی ساخته می‌شود که مفعول مستقیم (Akkusativ) دارند (bauen، planen، gießen). فعل‌های بدون مفعول مستقیم مثل zunehmen، wachsen، schaden + D یا فعل‌های حرکتیِ بدون مفعول (gehen، kommen) چنین مجهولی ندارند. haben، bekommen، kennen و فعل‌های انعکاسی هم مجهول نمی‌شوند.",
      "ex": [
       [
        "Der Verkehr hat stark zugenommen. → kein Passiv möglich",
@@ -1608,9 +1608,9 @@
     ],
     [
      "kein Passiv",
-     "ohne Akkusativobjekt",
+     "ohne Akkusativobjekt; auch haben, bekommen",
      "zunehmen, wachsen, haben",
-     "فعل بدون مفعول مستقیم"
+     "فعل بدون مفعول مستقیم؛ همچنین haben و bekommen"
     ]
    ]
   },
@@ -1835,7 +1835,7 @@
    "id": "L2-g3",
    "t": "t1",
    "type": "mc",
-   "q": "Der Gemeinschaftsgarten wird ___ den Nachbarn gepflegt.",
+   "q": "Der Gemeinschaftsgarten wird ___ vielen Nachbarn gepflegt.",
    "opts": [
     "durch",
     "von",

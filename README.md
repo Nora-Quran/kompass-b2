@@ -2,13 +2,10 @@
 
 Quizlet-style flashcards, grammar explanations and a mistakes trainer for **Kompass DaF B2** (Klett). Every word has a German synonym, an example sentence and a Persian (فارسی) translation. Grammar is explained in German and Persian.
 
-**Current content:** Lektion 1, which has:
-- 134 words from the official lesson word list (sections A–D)
-- 40 extra words from the listening texts and the lesson test (section E)
-- 2 grammar topics: *Gründe ausdrücken* and *Alternativen nennen*
-- 22 grammar exercises
-
-Lektionen 2–10 can be added as extra data files.
+**Content:**
+- **Lektion 1–10** (the whole book): 1,772 cards from the official lesson word lists, plus extra words from the listening texts and lesson tests. Each lesson also has grammar explained in German and Persian, and 229 exercises in total.
+- **Zusatz B1** (6 sets, 1,281 cards): words from the official Goethe B1 word list that are neither in the Goethe A2 list nor in the book.
+- **Zusatz B2** (3 sets, 566 cards): my own selection of core B2 words by topic, plus verbs with prepositions and Nomen-Verb-Verbindungen. No official B2 word list exists.
 
 ## Modes
 
