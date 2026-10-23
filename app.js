@@ -495,8 +495,9 @@
     if (!G.queue.length) return renderQuizDone(box);
     const q = G.queue[0];
     const topic = (lesson().grammar || []).find(t => t.id === q.t);
+    if (q.type === "mc" && !G.order) G.order = shuffle(q.opts.map((_, k) => k));   // random option order per question
     const body = q.type === "mc"
-      ? `<div class="choices gchoices">${q.opts.map((o, k) => `<button class="choice" data-k="${k}"><span class="k">${k + 1}</span>${esc(o)}</button>`).join("")}</div>`
+      ? `<div class="choices gchoices">${G.order.map((k, pos) => `<button class="choice" data-k="${k}"><span class="k">${pos + 1}</span>${esc(q.opts[k])}</button>`).join("")}</div>`
       : `<form class="answer-box" id="gf" autocomplete="off"><input id="gans" lang="de" spellcheck="false" autocapitalize="off" placeholder="Antwort …" aria-label="Antwort"><button class="btn primary" type="submit">Prüfen</button></form>`;
     box.innerHTML = `
       ${G.review ? `<div class="banner"><b>Grammatikfehler wiederholen</b> · <span class="fa">مرور سؤال‌هایی که اشتباه جواب دادی</span></div>` : ""}
@@ -543,7 +544,7 @@
     $("#gcont").focus();
     updateStats();
   }
-  function nextQuiz() { const G = state.gquiz; G.queue.shift(); G.done = false; renderQuiz(); }
+  function nextQuiz() { const G = state.gquiz; G.queue.shift(); G.done = false; G.order = null; renderQuiz(); }
   function renderQuizDone(box) {
     const G = state.gquiz;
     const pct = G.total ? Math.round(100 * G.right / G.total) : 0;
