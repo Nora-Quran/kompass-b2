@@ -2,7 +2,6 @@
 (window.LESSONS = window.LESSONS || []).push({
  "id": 1,
  "title": "Lektion 1",
- "theme": "Lernen",
  "sections": [
   {
    "id": "A",
@@ -19,6 +18,10 @@
   {
    "id": "D",
    "title": "In einer Lerngruppe oder allein?"
+  },
+  {
+   "id": "E",
+   "title": "Zusatz: Wörter aus Hörtexten und Test"
   }
  ],
  "cards": [
@@ -1227,6 +1230,864 @@
    "syn": "der Pluspunkt ≠ der Minuspunkt",
    "de": "Jede Lernmethode hat Vor- und Nachteile.",
    "fas": "هر روش یادگیری مزایا و معایبی دارد."
+  },
+  {
+   "id": "L1-135",
+   "s": "E",
+   "w": "die Klage, -n",
+   "fa": "شکایت، گلایه",
+   "syn": "die Beschwerde, der Vorwurf",
+   "de": "Es gibt immer mehr Klagen über die schlechte Handschrift der Schüler.",
+   "fas": "شکایت‌ها از دست‌خط بد دانش‌آموزان مدام بیشتر می‌شود."
+  },
+  {
+   "id": "L1-136",
+   "s": "E",
+   "w": "die Überlegung, -en",
+   "fa": "تأمل، ملاحظه",
+   "syn": "der Gedanke, die Erwägung",
+   "de": "Nach langer Überlegung hat sie sich für Medizin entschieden.",
+   "fas": "پس از مدت‌ها فکر کردن، او پزشکی را انتخاب کرد."
+  },
+  {
+   "id": "L1-137",
+   "s": "E",
+   "w": "der Lernprozess, -e",
+   "fa": "فرایند یادگیری",
+   "syn": "das Lernen, die Lernentwicklung",
+   "de": "Fehler sind ein normaler Teil des Lernprozesses.",
+   "fas": "اشتباه بخش طبیعیِ فرایند یادگیری است."
+  },
+  {
+   "id": "L1-138",
+   "s": "E",
+   "w": "wissenschaftlich",
+   "fa": "علمی",
+   "syn": "akademisch, fachlich fundiert",
+   "de": "Dafür gibt es noch keine wissenschaftlichen Beweise.",
+   "fas": "هنوز هیچ مدرک علمی برای آن وجود ندارد."
+  },
+  {
+   "id": "L1-139",
+   "s": "E",
+   "w": "belegen",
+   "fa": "ثابت کردن، مستند کردن",
+   "syn": "beweisen, nachweisen",
+   "de": "Die Studie belegt, dass Pausen das Lernen fördern.",
+   "fas": "این پژوهش ثابت می‌کند که استراحت به یادگیری کمک می‌کند."
+  },
+  {
+   "id": "L1-140",
+   "s": "E",
+   "w": "die Verarbeitung (nur Sg.)",
+   "fa": "پردازش",
+   "syn": "die Bearbeitung",
+   "de": "Die Verarbeitung neuer Informationen braucht Zeit.",
+   "fas": "پردازش اطلاعات جدید زمان می‌برد."
+  },
+  {
+   "id": "L1-141",
+   "s": "E",
+   "w": "die Schreibmotorik (nur Sg.)",
+   "fa": "مهارت حرکتی نوشتن",
+   "syn": "die Feinmotorik beim Schreiben",
+   "de": "Kinder müssen ihre Schreibmotorik erst trainieren.",
+   "fas": "کودکان اول باید مهارت حرکتی نوشتن را تمرین کنند."
+  },
+  {
+   "id": "L1-142",
+   "s": "E",
+   "w": "die Lernersprache, -n",
+   "fa": "زبان میانیِ زبان‌آموز",
+   "syn": "die Interimssprache",
+   "de": "Jede Lernersprache hat ihre eigenen typischen Fehler.",
+   "fas": "زبان میانیِ هر زبان‌آموز اشتباه‌های خاص خودش را دارد."
+  },
+  {
+   "id": "L1-143",
+   "s": "E",
+   "w": "die Fossilisierung / fossilisiert",
+   "fa": "تثبیت‌شدن اشتباه (فسیل‌شدگی)",
+   "syn": "die Verfestigung von Fehlern",
+   "de": "Wenn niemand korrigiert, kann ein Fehler fossilisiert werden.",
+   "fas": "اگر کسی تصحیح نکند، ممکن است یک اشتباه تثبیت شود."
+  },
+  {
+   "id": "L1-144",
+   "s": "E",
+   "w": "die Betonung, -en",
+   "fa": "تکیه (در تلفظ)، تأکید",
+   "syn": "der Akzent, die Hervorhebung",
+   "de": "Bei „übersetzen“ verändert die Betonung die Bedeutung.",
+   "fas": "در «übersetzen» تکیه‌ی کلمه معنا را عوض می‌کند."
+  },
+  {
+   "id": "L1-145",
+   "s": "E",
+   "w": "der / die Lernende, -n",
+   "fa": "یادگیرنده، زبان‌آموز",
+   "syn": "der Lerner, der Kursteilnehmer",
+   "de": "Die Lernenden arbeiten heute in kleinen Gruppen.",
+   "fas": "زبان‌آموزان امروز در گروه‌های کوچک کار می‌کنند."
+  },
+  {
+   "id": "L1-146",
+   "s": "E",
+   "w": "die Korrektur, -en",
+   "fa": "تصحیح",
+   "syn": "die Verbesserung, die Berichtigung",
+   "de": "Die Korrektur der Tests dauert eine Woche.",
+   "fas": "تصحیح آزمون‌ها یک هفته طول می‌کشد."
+  },
+  {
+   "id": "L1-147",
+   "s": "E",
+   "w": "das Vorstellungsgespräch, -e",
+   "fa": "مصاحبه‌ی شغلی",
+   "syn": "das Bewerbungsgespräch",
+   "de": "Morgen habe ich ein Vorstellungsgespräch bei einer Bank.",
+   "fas": "فردا در یک بانک مصاحبه‌ی شغلی دارم."
+  },
+  {
+   "id": "L1-148",
+   "s": "E",
+   "w": "die Fehlerkultur (nur Sg.)",
+   "fa": "فرهنگ برخورد با اشتباه",
+   "syn": "der Umgang mit Fehlern",
+   "de": "In unserer Firma gibt es eine offene Fehlerkultur.",
+   "fas": "در شرکت ما با اشتباه‌ها برخوردی باز و پذیرا می‌شود."
+  },
+  {
+   "id": "L1-149",
+   "s": "E",
+   "w": "die Fremdsprachendidaktik (nur Sg.)",
+   "fa": "روش‌شناسی آموزش زبان خارجی",
+   "syn": "die Sprachdidaktik",
+   "de": "Sie hat Fremdsprachendidaktik in Leipzig studiert.",
+   "fas": "او در لایپزیگ رشته‌ی آموزش زبان خارجی خوانده است."
+  },
+  {
+   "id": "L1-150",
+   "s": "E",
+   "w": "die Fortbildung, -en",
+   "fa": "دوره‌ی آموزش تکمیلی",
+   "syn": "die Weiterbildung, die Schulung",
+   "de": "Die Lehrer besuchen eine Fortbildung zum Thema Aussprache.",
+   "fas": "معلم‌ها در یک دوره‌ی آموزش تکمیلی درباره‌ی تلفظ شرکت می‌کنند."
+  },
+  {
+   "id": "L1-151",
+   "s": "E",
+   "w": "der Impulsvortrag, -e",
+   "fa": "سخنرانی کوتاهِ آغازگر بحث",
+   "syn": "der Kurzvortrag, das Einstiegsreferat",
+   "de": "Nach einem kurzen Impulsvortrag diskutieren wir in Gruppen.",
+   "fas": "بعد از یک سخنرانی کوتاهِ آغازین، در گروه‌ها بحث می‌کنیم."
+  },
+  {
+   "id": "L1-152",
+   "s": "E",
+   "w": "der Umgang mit + D",
+   "fa": "نحوه‌ی برخورد با",
+   "syn": "die Behandlung, die Handhabung",
+   "de": "Der richtige Umgang mit Fehlern ist beim Lernen wichtig.",
+   "fas": "برخورد درست با اشتباه در یادگیری مهم است."
+  },
+  {
+   "id": "L1-153",
+   "s": "E",
+   "w": "der Linguist, -en",
+   "fa": "زبان‌شناس",
+   "syn": "der Sprachwissenschaftler",
+   "de": "Ein Linguist erforscht, wie Sprachen funktionieren.",
+   "fas": "زبان‌شناس بررسی می‌کند که زبان‌ها چطور کار می‌کنند."
+  },
+  {
+   "id": "L1-154",
+   "s": "E",
+   "w": "der Versuch, -e",
+   "fa": "تلاش؛ آزمایش",
+   "syn": "der Anlauf; das Experiment",
+   "de": "Beim zweiten Versuch hat er die Prüfung bestanden.",
+   "fas": "او در تلاش دوم امتحان را قبول شد."
+  },
+  {
+   "id": "L1-155",
+   "s": "E",
+   "w": "die Fachliteratur (nur Sg.)",
+   "fa": "منابع تخصصی",
+   "syn": "die Fachbücher, die Fachtexte",
+   "de": "Für die Hausarbeit muss ich viel Fachliteratur lesen.",
+   "fas": "برای مقاله‌ی درسی باید منابع تخصصی زیادی بخوانم."
+  },
+  {
+   "id": "L1-156",
+   "s": "E",
+   "w": "Ängste abbauen",
+   "fa": "ترس‌ها را کم کردن",
+   "syn": "Ängste verringern, jdm. die Angst nehmen",
+   "de": "Eine freundliche Atmosphäre hilft, Ängste abzubauen.",
+   "fas": "فضای دوستانه به کم شدن ترس‌ها کمک می‌کند."
+  },
+  {
+   "id": "L1-157",
+   "s": "E",
+   "w": "das Verständnis (nur Sg.)",
+   "fa": "درک، فهم؛ همدلی",
+   "syn": "das Verstehen; die Einsicht",
+   "de": "Handschriftliche Notizen verbessern das Verständnis.",
+   "fas": "یادداشت‌های دست‌نویس درک مطلب را بهتر می‌کنند."
+  },
+  {
+   "id": "L1-158",
+   "s": "E",
+   "w": "die Atmosphäre, -n",
+   "fa": "فضا، جو",
+   "syn": "die Stimmung, das Klima",
+   "de": "Im Kurs herrscht eine entspannte Atmosphäre.",
+   "fas": "در کلاس جوّ آرامی حاکم است."
+  },
+  {
+   "id": "L1-159",
+   "s": "E",
+   "w": "kooperativ",
+   "fa": "همکارانه، اهل همکاری",
+   "syn": "hilfsbereit, gemeinschaftlich",
+   "de": "Kooperatives Lernen stärkt die Gruppe.",
+   "fas": "یادگیری همکارانه گروه را قوی‌تر می‌کند."
+  },
+  {
+   "id": "L1-160",
+   "s": "E",
+   "w": "peinlich",
+   "fa": "خجالت‌آور",
+   "syn": "unangenehm, beschämend",
+   "de": "Es war mir peinlich, dass ich das Wort falsch ausgesprochen habe.",
+   "fas": "خجالت کشیدم که کلمه را اشتباه تلفظ کردم."
+  },
+  {
+   "id": "L1-161",
+   "s": "E",
+   "w": "die Formulierung, -en",
+   "fa": "عبارت‌پردازی، بیان",
+   "syn": "der Ausdruck, die Wortwahl",
+   "de": "Diese Formulierung klingt zu umgangssprachlich.",
+   "fas": "این عبارت‌پردازی بیش از حد محاوره‌ای است."
+  },
+  {
+   "id": "L1-162",
+   "s": "E",
+   "w": "der Speicherort, -e",
+   "fa": "محل ذخیره",
+   "syn": "der Ablageort, der Speicherplatz",
+   "de": "Wähle einen Speicherort für die Datei.",
+   "fas": "برای فایل یک محل ذخیره انتخاب کن."
+  },
+  {
+   "id": "L1-163",
+   "s": "E",
+   "w": "sich einen Überblick verschaffen",
+   "fa": "دید کلی به دست آوردن",
+   "syn": "sich orientieren, sich informieren",
+   "de": "Zuerst verschaffe ich mir einen Überblick über das Kapitel.",
+   "fas": "اول یک دید کلی از فصل به دست می‌آورم."
+  },
+  {
+   "id": "L1-164",
+   "s": "E",
+   "w": "die Mitschrift, -en",
+   "fa": "جزوه، یادداشت‌های کلاس",
+   "syn": "die Notizen, das Protokoll",
+   "de": "Kannst du mir deine Mitschrift von gestern leihen?",
+   "fas": "می‌توانی جزوه‌ی دیروزت را به من قرض بدهی؟"
+  },
+  {
+   "id": "L1-165",
+   "s": "E",
+   "w": "das Studienergebnis, -se",
+   "fa": "نتیجه‌ی پژوهش",
+   "syn": "das Forschungsergebnis",
+   "de": "Die Studienergebnisse überraschen viele Lehrkräfte.",
+   "fas": "نتایج این پژوهش بسیاری از معلمان را شگفت‌زده می‌کند."
+  },
+  {
+   "id": "L1-166",
+   "s": "E",
+   "w": "das duale Studium",
+   "fa": "تحصیل دوگانه (دانشگاه همراه کار در شرکت)",
+   "syn": "Studium mit Praxisphasen im Betrieb",
+   "de": "Im dualen Studium verdient man schon Geld.",
+   "fas": "در تحصیل دوگانه از همان ابتدا درآمد داری."
+  },
+  {
+   "id": "L1-167",
+   "s": "E",
+   "w": "der Minijob, -s",
+   "fa": "کار پاره‌وقت کم‌ساعت",
+   "syn": "der Nebenjob, die geringfügige Beschäftigung",
+   "de": "Neben dem Studium hat sie einen Minijob im Café.",
+   "fas": "او در کنار تحصیل در یک کافه کار پاره‌وقت دارد."
+  },
+  {
+   "id": "L1-168",
+   "s": "E",
+   "w": "das Streaming-Angebot, -e",
+   "fa": "سرویس پخش آنلاین",
+   "syn": "der Streamingdienst, die Mediathek",
+   "de": "Filme im Original findet man bei vielen Streaming-Angeboten.",
+   "fas": "فیلم به زبان اصلی را در بسیاری از سرویس‌های پخش آنلاین می‌شود پیدا کرد."
+  },
+  {
+   "id": "L1-169",
+   "s": "E",
+   "w": "der Fachtext, -e",
+   "fa": "متن تخصصی",
+   "syn": "der wissenschaftliche Text",
+   "de": "Fachtexte sind oft schwer zu verstehen.",
+   "fas": "متن‌های تخصصی اغلب سخت فهمیده می‌شوند."
+  },
+  {
+   "id": "L1-170",
+   "s": "E",
+   "w": "der Fremdsprachenunterricht (nur Sg.)",
+   "fa": "آموزش زبان خارجی",
+   "syn": "der Sprachunterricht",
+   "de": "Der Fremdsprachenunterricht beginnt heute schon in der Grundschule.",
+   "fas": "امروزه آموزش زبان خارجی از دبستان شروع می‌شود."
+  },
+  {
+   "id": "L1-171",
+   "s": "E",
+   "w": "die Kompetenz, -en",
+   "fa": "توانایی، صلاحیت",
+   "syn": "die Fähigkeit, das Können",
+   "de": "Sprachliche Kompetenzen sind im Beruf sehr gefragt.",
+   "fas": "توانایی‌های زبانی در کار خیلی خواهان دارند."
+  },
+  {
+   "id": "L1-172",
+   "s": "E",
+   "w": "die Förderung, -en",
+   "fa": "پشتیبانی، تقویت",
+   "syn": "die Unterstützung",
+   "de": "Die Schule bietet eine besondere Förderung für schwache Schüler an.",
+   "fas": "مدرسه برای دانش‌آموزان ضعیف پشتیبانی ویژه‌ای ارائه می‌دهد."
+  },
+  {
+   "id": "L1-173",
+   "s": "E",
+   "w": "die Zielgruppe, -n",
+   "fa": "گروه هدف",
+   "syn": "die Adressaten (Pl.)",
+   "de": "Die Zielgruppe des Kurses sind Studierende.",
+   "fas": "گروه هدف این دوره دانشجویان هستند."
+  },
+  {
+   "id": "L1-174",
+   "s": "E",
+   "w": "die Muttersprache, -n",
+   "fa": "زبان مادری",
+   "syn": "die Erstsprache",
+   "de": "Meine Muttersprache ist Persisch.",
+   "fas": "زبان مادری من فارسی است."
+  }
+ ],
+ "grammar": [
+  {
+   "id": "t1",
+   "title": "Gründe ausdrücken",
+   "title_fa": "بیان دلیل",
+   "goal_de": "Man nennt einen Grund mit einem Satz (weil, da, denn), mit einem Adverb (deshalb, nämlich) oder mit einem Nomen (wegen, aufgrund). Wichtig ist jedes Mal die Position des Verbs.",
+   "goal_fa": "دلیل را می‌توان با یک جمله (weil، da، denn)، با یک قید (deshalb، nämlich) یا با یک اسم (wegen، aufgrund) بیان کرد. نکته‌ی اصلی در هر حالت جای فعل است.",
+   "rules": [
+    {
+     "head": "weil / da + Nebensatz",
+     "de": "weil und da leiten einen Nebensatz ein: Das konjugierte Verb steht am Ende. Mit da nennt man oft einen Grund, den der Hörer schon kennt; da-Sätze stehen meistens am Satzanfang.",
+     "fa": "weil و da جمله‌ی وابسته می‌سازند: فعل صرف‌شده به آخر جمله می‌رود. da بیشتر برای دلیلی به کار می‌رود که شنونده از قبل می‌داند، و معمولاً اول جمله می‌آید.",
+     "ex": [
+      [
+       "Ich lerne jeden Tag, weil ich im Herbst die Prüfung mache.",
+       "هر روز درس می‌خوانم، چون پاییز امتحان دارم."
+      ],
+      [
+       "Da du schon hier bist, können wir anfangen.",
+       "حالا که این‌جایی، می‌توانیم شروع کنیم."
+      ]
+     ]
+    },
+    {
+     "head": "denn + Hauptsatz",
+     "de": "denn verbindet zwei Hauptsätze und steht auf Position 0. Danach kommt die normale Wortstellung: Subjekt – Verb. Der denn-Satz steht immer nach dem ersten Satz.",
+     "fa": "denn دو جمله‌ی اصلی را به هم وصل می‌کند و جایگاه صفر دارد؛ یعنی بعد از آن ترتیب عادی می‌آید: اول فاعل، بعد فعل. جمله‌ی denn همیشه بعد از جمله‌ی اول می‌آید.",
+     "ex": [
+      [
+       "Ich bleibe heute zu Hause, denn ich bin krank.",
+       "امروز در خانه می‌مانم، چون بیمارم."
+      ]
+     ]
+    },
+    {
+     "head": "nämlich (im zweiten Satz)",
+     "de": "nämlich nennt den Grund im zweiten Hauptsatz. Es steht nach dem konjugierten Verb, nie am Satzanfang. Typisch für die gesprochene Sprache.",
+     "fa": "nämlich دلیل را در جمله‌ی اصلی دوم بیان می‌کند. بعد از فعل صرف‌شده می‌آید و هرگز اول جمله نمی‌نشیند. بیشتر در زبان گفتاری رایج است.",
+     "ex": [
+      [
+       "Ich komme heute nicht. Ich muss nämlich arbeiten.",
+       "امروز نمی‌آیم. آخه باید کار کنم."
+      ]
+     ]
+    },
+    {
+     "head": "deshalb / deswegen / darum / daher / aus diesem Grund",
+     "de": "Diese Adverbien nennen die Folge. Stehen sie auf Position 1, folgt direkt das Verb und dann das Subjekt (Inversion).",
+     "fa": "این قیدها نتیجه را بیان می‌کنند (به همین دلیل). اگر اول جمله بیایند، فعل بلافاصله بعد از آن‌ها می‌آید و فاعل بعد از فعل (جابه‌جایی).",
+     "ex": [
+      [
+       "Ich will in Berlin studieren, deshalb lerne ich Deutsch.",
+       "می‌خواهم در برلین درس بخوانم، به همین دلیل آلمانی یاد می‌گیرم."
+      ],
+      [
+       "Der Kurs war voll. Aus diesem Grund habe ich online gelernt.",
+       "کلاس پر بود. به همین دلیل آنلاین یاد گرفتم."
+      ]
+     ]
+    },
+    {
+     "head": "wegen / aufgrund + Genitiv",
+     "de": "Mit wegen und aufgrund (+ Genitiv) nennt man den Grund mit einem Nomen statt mit einem Satz. Das ist typisch für die Schriftsprache. In der Umgangssprache hört man auch wegen + Dativ. Möglich ist auch aufgrund von + Dativ.",
+     "fa": "با wegen و aufgrund (+ حالت Genitiv) دلیل را با یک اسم بیان می‌کنیم، نه با جمله. این شکل در زبان نوشتاری رایج است. در گفتار گاهی wegen را با Dativ هم می‌شنوید. aufgrund von + Dativ هم درست است.",
+     "ex": [
+      [
+       "Wegen des Regens bleiben wir zu Hause.",
+       "به‌خاطر باران در خانه می‌مانیم."
+      ],
+      [
+       "Weil er krank war, … → Wegen seiner Krankheit …",
+       "چون بیمار بود … ← به‌خاطر بیماری‌اش …"
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "weil / da",
+     "Nebensatz",
+     "… , weil ich krank bin.",
+     "فعل در آخر"
+    ],
+    [
+     "denn",
+     "Hauptsatz (Pos. 0)",
+     "… , denn ich bin krank.",
+     "فاعل + فعل"
+    ],
+    [
+     "deshalb / deswegen",
+     "Hauptsatz (Pos. 1)",
+     "… , deshalb bleibe ich zu Hause.",
+     "فعل بلافاصله بعدش"
+    ],
+    [
+     "nämlich",
+     "Hauptsatz (nach dem Verb)",
+     "Ich bin nämlich krank.",
+     "بعد از فعل"
+    ],
+    [
+     "wegen / aufgrund",
+     "+ Genitiv (Nomen)",
+     "Wegen meiner Krankheit …",
+     "اسم، نه جمله"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Alternativen nennen",
+   "title_fa": "بیان جایگزین («به‌جای …»)",
+   "goal_de": "Man sagt, dass etwas anderes gemacht wird als erwartet: mit (an)statt … zu, anstatt dass, statt / anstelle + Nomen oder stattdessen.",
+   "goal_fa": "می‌گوییم کار دیگری به‌جای کار مورد انتظار انجام می‌شود: با (an)statt … zu، با anstatt dass، با statt / anstelle + اسم، یا با stattdessen.",
+   "rules": [
+    {
+     "head": "(an)statt … zu + Infinitiv",
+     "de": "Man benutzt (an)statt … zu, wenn beide Teile dasselbe Subjekt haben. Der Infinitiv mit zu steht am Ende. Bei trennbaren Verben steht zu in der Mitte: fernzusehen, abzuschreiben.",
+     "fa": "وقتی فاعل هر دو بخش یکی است، از (an)statt … zu استفاده می‌کنیم. مصدر با zu در آخر می‌آید. در فعل‌های جداشدنی zu وسط فعل می‌نشیند: fernzusehen، abzuschreiben.",
+     "ex": [
+      [
+       "Statt fernzusehen, liest sie ein Buch.",
+       "به‌جای تلویزیون دیدن، کتاب می‌خواند."
+      ],
+      [
+       "Er lernt mit einer App, anstatt Vokabeln abzuschreiben.",
+       "به‌جای رونویسی لغت‌ها، با یک اپلیکیشن یاد می‌گیرد."
+      ]
+     ]
+    },
+    {
+     "head": "anstatt dass + Nebensatz",
+     "de": "anstatt dass leitet einen Nebensatz ein (Verb am Ende). Man braucht es vor allem, wenn die Subjekte verschieden sind.",
+     "fa": "anstatt dass جمله‌ی وابسته می‌سازد (فعل در آخر). بیشتر وقتی لازم است که فاعل‌های دو بخش با هم فرق دارند.",
+     "ex": [
+      [
+       "Anstatt dass der Lehrer alles erklärt, recherchieren die Studierenden selbst.",
+       "به‌جای اینکه استاد همه‌چیز را توضیح بدهد، دانشجوها خودشان تحقیق می‌کنند."
+      ]
+     ]
+    },
+    {
+     "head": "statt / anstelle + Genitiv · anstelle von + Dativ",
+     "de": "Mit statt oder anstelle (+ Genitiv) ersetzt man ein Nomen durch ein anderes. Ohne Artikel nimmt man oft anstelle von + Dativ.",
+     "fa": "با statt یا anstelle (+ Genitiv) یک اسم را جایگزین اسم دیگری می‌کنیم. اگر حرف تعریف نباشد، معمولاً anstelle von + Dativ به کار می‌رود.",
+     "ex": [
+      [
+       "Statt eines Wörterbuchs benutze ich eine App.",
+       "به‌جای فرهنگ لغت از یک اپلیکیشن استفاده می‌کنم."
+      ],
+      [
+       "Anstelle von Prüfungen gibt es Projekte.",
+       "به‌جای امتحان، پروژه وجود دارد."
+      ]
+     ]
+    },
+    {
+     "head": "stattdessen (Adverb)",
+     "de": "stattdessen steht im zweiten Hauptsatz. Auf Position 1 folgt direkt das Verb.",
+     "fa": "stattdessen (به‌جایش) در جمله‌ی اصلی دوم می‌آید. اگر اول جمله باشد، فعل بلافاصله بعد از آن می‌آید.",
+     "ex": [
+      [
+       "Ich hatte keine Zeit für den Kurs. Stattdessen habe ich Podcasts gehört.",
+       "برای کلاس وقت نداشتم. به‌جایش پادکست گوش دادم."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "(an)statt … zu",
+     "gleiches Subjekt",
+     "Statt zu lernen, schläft er.",
+     "فاعل یکی"
+    ],
+    [
+     "anstatt dass",
+     "Nebensatz",
+     "Anstatt dass er lernt, …",
+     "فعل در آخر"
+    ],
+    [
+     "statt / anstelle",
+     "+ Genitiv",
+     "statt eines Buches",
+     "اسم"
+    ],
+    [
+     "stattdessen",
+     "Hauptsatz (Pos. 1)",
+     "Stattdessen schläft er.",
+     "فعل بلافاصله بعدش"
+    ]
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "L1-g1",
+   "t": "t1",
+   "type": "mc",
+   "q": "Ich lerne jeden Tag, ___ ich die Prüfung bestehen will.",
+   "opts": [
+    "weil",
+    "deshalb",
+    "denn",
+    "wegen"
+   ],
+   "a": 0,
+   "de": "Das Verb (will) steht am Ende → Nebensatz → weil.",
+   "fa": "فعل (will) در آخر جمله است، پس جمله وابسته است و weil لازم است."
+  },
+  {
+   "id": "L1-g2",
+   "t": "t1",
+   "type": "mc",
+   "q": "Ich will die Prüfung bestehen, ___ lerne ich jeden Tag.",
+   "opts": [
+    "weil",
+    "deshalb",
+    "denn",
+    "da"
+   ],
+   "a": 1,
+   "de": "Direkt nach der Lücke steht das Verb (lerne) → deshalb mit Inversion.",
+   "fa": "بلافاصله بعد از جای خالی فعل آمده (lerne)، پس deshalb درست است."
+  },
+  {
+   "id": "L1-g3",
+   "t": "t1",
+   "type": "mc",
+   "q": "Sie bleibt heute zu Hause, ___ sie ist krank.",
+   "opts": [
+    "weil",
+    "deshalb",
+    "denn",
+    "nämlich"
+   ],
+   "a": 2,
+   "de": "Nach der Lücke: Subjekt + Verb (sie ist) → Hauptsatz, Position 0 → denn.",
+   "fa": "بعد از جای خالی اول فاعل و بعد فعل آمده؛ جمله اصلی است، پس denn."
+  },
+  {
+   "id": "L1-g4",
+   "t": "t1",
+   "type": "mc",
+   "q": "___ des schlechten Wetters fällt der Ausflug aus.",
+   "opts": [
+    "Weil",
+    "Wegen",
+    "Denn",
+    "Deshalb"
+   ],
+   "a": 1,
+   "de": "Danach kommt ein Nomen im Genitiv (des Wetters), kein Satz → wegen.",
+   "fa": "بعدش اسم در حالت Genitiv آمده، نه جمله؛ پس wegen."
+  },
+  {
+   "id": "L1-g5",
+   "t": "t1",
+   "type": "mc",
+   "q": "Er kann heute nicht kommen. Er muss ___ arbeiten.",
+   "opts": [
+    "deshalb",
+    "weil",
+    "nämlich",
+    "denn"
+   ],
+   "a": 2,
+   "de": "nämlich steht nach dem Verb und nennt den Grund.",
+   "fa": "nämlich بعد از فعل می‌آید و دلیل را می‌گوید."
+  },
+  {
+   "id": "L1-g6",
+   "t": "t1",
+   "type": "mc",
+   "q": "___ du schon hier bist, kannst du mir gleich helfen.",
+   "opts": [
+    "Da",
+    "Denn",
+    "Deshalb",
+    "Wegen"
+   ],
+   "a": 0,
+   "de": "Bekannter Grund am Satzanfang, Verb am Ende (bist) → da.",
+   "fa": "دلیلی که معلوم است، اول جمله آمده و فعل (bist) در آخر است؛ پس da."
+  },
+  {
+   "id": "L1-g7",
+   "t": "t1",
+   "type": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "opts": [
+    "Er hat Fieber, deshalb bleibt er zu Hause.",
+    "Er hat Fieber, deshalb er bleibt zu Hause.",
+    "Er hat Fieber, denn bleibt er zu Hause.",
+    "Er hat Fieber, weil bleibt er zu Hause."
+   ],
+   "a": 0,
+   "de": "Nach deshalb folgt direkt das Verb: deshalb bleibt er.",
+   "fa": "بعد از deshalb فعل بلافاصله می‌آید: deshalb bleibt er."
+  },
+  {
+   "id": "L1-g8",
+   "t": "t1",
+   "type": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "opts": [
+    "Ich lerne Deutsch, weil ich in Wien studieren möchte.",
+    "Ich lerne Deutsch, weil ich möchte in Wien studieren.",
+    "Ich lerne Deutsch, denn ich in Wien studieren möchte.",
+    "Ich lerne Deutsch, wegen ich in Wien studieren möchte."
+   ],
+   "a": 0,
+   "de": "weil + konjugiertes Verb (möchte) am Ende.",
+   "fa": "weil و فعل صرف‌شده (möchte) در آخر جمله."
+  },
+  {
+   "id": "L1-g9",
+   "t": "t1",
+   "type": "mc",
+   "q": "Weil es stark regnet, fällt das Spiel aus. – Gleiche Bedeutung mit wegen:",
+   "opts": [
+    "Wegen des starken Regens fällt das Spiel aus.",
+    "Wegen es stark regnet, fällt das Spiel aus.",
+    "Wegen der starke Regen fällt das Spiel aus.",
+    "Wegen dem starken Regen, das Spiel fällt aus."
+   ],
+   "a": 0,
+   "de": "wegen + Genitiv: des starken Regens; danach steht das Verb auf Position 2.",
+   "fa": "wegen + Genitiv: des starken Regens؛ بعد از آن فعل در جایگاه دوم می‌آید."
+  },
+  {
+   "id": "L1-g10",
+   "t": "t2",
+   "type": "mc",
+   "q": "___ ins Kino zu gehen, lernen wir für den Test.",
+   "opts": [
+    "Statt",
+    "Anstatt dass",
+    "Stattdessen",
+    "Wegen"
+   ],
+   "a": 0,
+   "de": "Gleiches Subjekt (wir) und zu-Infinitiv → statt … zu.",
+   "fa": "فاعل یکی است (wir) و مصدر با zu آمده؛ پس statt … zu."
+  },
+  {
+   "id": "L1-g11",
+   "t": "t2",
+   "type": "mc",
+   "q": "___ der Professor alles erklärt, sollen die Studierenden selbst recherchieren.",
+   "opts": [
+    "Statt",
+    "Anstatt dass",
+    "Anstelle",
+    "Stattdessen"
+   ],
+   "a": 1,
+   "de": "Verschiedene Subjekte und Verb am Ende (erklärt) → anstatt dass.",
+   "fa": "فاعل‌ها متفاوت‌اند و فعل در آخر است؛ پس anstatt dass."
+  },
+  {
+   "id": "L1-g12",
+   "t": "t2",
+   "type": "mc",
+   "q": "___ eines Wörterbuchs benutzt er eine App.",
+   "opts": [
+    "Anstelle",
+    "Anstatt dass",
+    "Stattdessen",
+    "Denn"
+   ],
+   "a": 0,
+   "de": "Nomen im Genitiv (eines Wörterbuchs) → anstelle (oder statt) + Genitiv.",
+   "fa": "اسم در حالت Genitiv آمده؛ پس anstelle (یا statt) + Genitiv."
+  },
+  {
+   "id": "L1-g13",
+   "t": "t2",
+   "type": "mc",
+   "q": "Er hatte keine Zeit für den Kurs. ___ hat er Podcasts gehört.",
+   "opts": [
+    "Anstatt",
+    "Stattdessen",
+    "Statt zu",
+    "Anstelle von"
+   ],
+   "a": 1,
+   "de": "Neuer Hauptsatz, danach direkt das Verb (hat) → stattdessen.",
+   "fa": "جمله‌ی اصلی جدید است و فعل (hat) بلافاصله آمده؛ پس stattdessen."
+  },
+  {
+   "id": "L1-g14",
+   "t": "t2",
+   "type": "mc",
+   "q": "Sie liest, anstatt dass sie fernsieht. – Gleiche Bedeutung mit statt … zu:",
+   "opts": [
+    "Sie liest, statt fernzusehen.",
+    "Sie liest, statt zu fernsehen.",
+    "Sie liest, statt fernsieht.",
+    "Sie liest, statt dass zu fernsehen."
+   ],
+   "a": 0,
+   "de": "Trennbares Verb: zu steht zwischen Präfix und Verb → fernzusehen.",
+   "fa": "فعل جداشدنی است: zu بین پیشوند و فعل می‌آید ← fernzusehen."
+  },
+  {
+   "id": "L1-g15",
+   "t": "t1",
+   "type": "gap",
+   "q": "Ich bin müde, ___ ich habe schlecht geschlafen.",
+   "a": [
+    "denn"
+   ],
+   "de": "Nach der Lücke: Subjekt + Verb → denn.",
+   "fa": "بعد از جای خالی فاعل و فعل آمده؛ پس denn."
+  },
+  {
+   "id": "L1-g16",
+   "t": "t1",
+   "type": "gap",
+   "q": "Wegen ___ Krankheit (seine) konnte er nicht kommen.",
+   "a": [
+    "seiner"
+   ],
+   "de": "wegen + Genitiv, feminin → seiner Krankheit.",
+   "fa": "wegen + Genitiv؛ Krankheit مؤنث است، پس seiner."
+  },
+  {
+   "id": "L1-g17",
+   "t": "t1",
+   "type": "gap",
+   "q": "Aufgrund ___ Streiks (der Streik) fallen viele Züge aus.",
+   "a": [
+    "des"
+   ],
+   "de": "aufgrund + Genitiv, maskulin → des Streiks.",
+   "fa": "aufgrund + Genitiv؛ Streik مذکر است، پس des Streiks."
+  },
+  {
+   "id": "L1-g18",
+   "t": "t1",
+   "type": "gap",
+   "q": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte. (Nebensatz)",
+   "a": [
+    "weil",
+    "da"
+   ],
+   "de": "Verb am Ende → weil oder da.",
+   "fa": "فعل در آخر است ← weil یا da."
+  },
+  {
+   "id": "L1-g19",
+   "t": "t2",
+   "type": "gap",
+   "q": "Statt Vokabeln nur auswendig ___ (lernen), schreibt sie eigene Sätze.",
+   "a": [
+    "zu lernen"
+   ],
+   "de": "statt … zu + Infinitiv → zu lernen.",
+   "fa": "statt … zu + مصدر ← zu lernen."
+  },
+  {
+   "id": "L1-g20",
+   "t": "t2",
+   "type": "gap",
+   "q": "Er schaut Serien auf Deutsch, anstatt Lehrbücher ___ (lesen).",
+   "a": [
+    "zu lesen"
+   ],
+   "de": "anstatt … zu + Infinitiv → zu lesen.",
+   "fa": "anstatt … zu + مصدر ← zu lesen."
+  },
+  {
+   "id": "L1-g21",
+   "t": "t2",
+   "type": "gap",
+   "q": "Anstelle ___ Prüfung (die) schreiben wir eine Hausarbeit.",
+   "a": [
+    "der"
+   ],
+   "de": "anstelle + Genitiv, feminin → der Prüfung.",
+   "fa": "anstelle + Genitiv؛ Prüfung مؤنث است، پس der."
+  },
+  {
+   "id": "L1-g22",
+   "t": "t2",
+   "type": "gap",
+   "q": "Er ruft nicht an. ___ schreibt er eine Nachricht. (به‌جایش)",
+   "a": [
+    "stattdessen"
+   ],
+   "de": "Neuer Hauptsatz, Verb direkt danach → stattdessen.",
+   "fa": "جمله‌ی اصلی جدید و فعل بلافاصله بعد از آن ← stattdessen."
   }
  ]
 });
