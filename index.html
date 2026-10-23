@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kompass DaF B2 · Karteikarten</title>
+<meta name="description" content="Karteikarten für Kompass DaF B2 – Wortschatz mit Synonymen, Beispielsätzen und persischer Übersetzung.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231f5f8b'/><text x='50' y='68' font-size='54' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>B2</text></svg>">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">B2</span>
+    <div>
+      <h1>Kompass DaF B2</h1>
+      <p class="fa sub">کارت‌های لغت با مترادف، جمله‌ی نمونه و ترجمه‌ی فارسی</p>
+    </div>
+  </div>
+  <div class="top-controls">
+    <select id="lesson" aria-label="Lektion"></select>
+    <button id="themeBtn" class="icon-btn" title="Hell / Dunkel" aria-label="Hell / Dunkel"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  </div>
+</header>
+
+<nav class="modes" role="tablist">
+  <button data-mode="cards" class="active" role="tab">Karteikarten <span class="fa">کارت</span></button>
+  <button data-mode="learn" role="tab">Lernen <span class="fa">چندگزینه‌ای</span></button>
+  <button data-mode="write" role="tab">Schreiben <span class="fa">نوشتن</span></button>
+  <button data-mode="list" role="tab">Liste <span class="fa">فهرست</span></button>
+</nav>
+
+<section class="filters">
+  <div class="chips" id="sections"></div>
+  <div class="opts">
+    <label class="toggle"><input type="checkbox" id="dirToggle"><span>Vorderseite: <b id="dirLabel">Deutsch</b></span></label>
+    <label class="toggle"><input type="checkbox" id="starOnly"><span>★ nur markierte</span></label>
+    <label class="toggle"><input type="checkbox" id="unknownOnly"><span>nur ungelernt</span></label>
+  </div>
+</section>
+
+<main id="app"></main>
+
+<footer class="foot">
+  <span id="stats"></span>
+  <span class="keys">Tastatur: <kbd>Leertaste</kbd> umdrehen · <kbd>←</kbd><kbd>→</kbd> blättern · <kbd>1</kbd> noch nicht · <kbd>2</kbd> gewusst · <kbd>S</kbd> markieren · <kbd>A</kbd> vorlesen</span>
+  <span class="src">Wortliste: offizieller Lektionswortschatz (Ernst Klett Sprachen). Synonyme, Sätze und Übersetzungen: eigene Ausarbeitung.</span>
+</footer>
+
+<script src="data/lektion1.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
