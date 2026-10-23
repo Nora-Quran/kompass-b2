@@ -137,7 +137,11 @@
     const mw = Object.keys(mbox().w).length, mg = Object.keys(mbox().g).length;
     $("#stats").textContent = `${L.title}: ${known} / ${total} gelernt · ${stars} markiert · ${mw + mg} Fehler offen`;
     const note = $("#lessonNote");
-    if (note) { note.textContent = L.note || ""; note.hidden = !L.note; }
+    if (note) {
+      const [de, fa] = (L.note || "").split(" · ");
+      note.innerHTML = L.note ? `${esc(de)}${fa ? `<span class="fa">${esc(fa)}</span>` : ""}` : "";
+      note.hidden = !L.note;
+    }
     const badge = $("#mbadge");
     if (badge) { badge.textContent = mw + mg; badge.hidden = !(mw + mg); }
   }
@@ -449,7 +453,12 @@
   function renderGrammar() {
     const L = lesson();
     const topics = L.grammar || [];
-    if (!topics.length) { app.innerHTML = `<div class="panel empty">Für diese Lektion gibt es noch keine Grammatik.</div>`; return; }
+    if (!topics.length) {
+      app.innerHTML = L.id >= 100
+        ? `<div class="panel empty">Dieser Zusatz-Wortschatz hat keinen Grammatikteil. Die Grammatik findest du in Lektion 1–10.<br><span class="fa">این بخش فقط واژگان است؛ گرامر در درس‌های ۱ تا ۱۰ است.</span></div>`
+        : `<div class="panel empty">Für diese Lektion gibt es noch keine Grammatik.</div>`;
+      return;
+    }
     const tabs = `<div class="gtabs">
       <button class="chip ${state.gview === "explain" ? "on" : ""}" data-gv="explain">Erklärung · <span class="fa">توضیح</span></button>
       <button class="chip ${state.gview === "quiz" ? "on" : ""}" data-gv="quiz">Übungen · <span class="fa">تمرین</span> (${(L.quiz || []).length})</button>

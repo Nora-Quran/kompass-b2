@@ -230,3 +230,4 @@ select, .icon-btn { background: var(--panel); border: 1px solid var(--line); bor
 
 .lesson-note { margin: 0 0 12px; font-size: 13px; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 10px; padding: 8px 12px; }
 .lesson-note[hidden] { display: none; }
+.lesson-note .fa { display: block; text-align: right; margin-top: 4px; }
