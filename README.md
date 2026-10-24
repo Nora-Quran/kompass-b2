@@ -28,7 +28,13 @@ The A1/A2 words come from the official Goethe-Zertifikat A2 word list, which con
 Other features:
 - Front side can be **Deutsch** or **Persisch**.
 - Filter by section (A–D), by starred cards or by unlearned cards.
-- German read-aloud (🔊, key `A`).
+- **Read-aloud everywhere (🔊):**
+  - every word, synonym and example sentence
+  - the answers in Lernen and Schreiben
+  - grammar examples and tables, and the complete correct sentence after each grammar exercise
+  - the mistakes list and the word list
+
+  Keys: `A` reads the word, `B` the sentence. You can turn on "automatisch vorlesen" (read the German word automatically) and "langsam" (slower speech). Read-aloud uses the device's built-in German voice (Web Speech API); the page shows a hint if the device has none.
 - Dark mode.
 - Progress is saved in the browser.
 

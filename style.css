@@ -249,3 +249,10 @@ select, .icon-btn { background: var(--panel); border: 1px solid var(--line); bor
   .top-controls select { min-width: 0; width: 0; flex: 1 1 auto; }
   .top-controls .icon-btn, .levels { flex: none; }
 }
+
+/* ---- audio ---- */
+.say { cursor: pointer; border-radius: 6px; }
+.say:hover { background: var(--brand-soft); }
+.sol.full { margin-top: 8px; }
+.mrow .say { font-size: 13px; padding: 0 2px; }
+.tts-opt[hidden] { display: none; }

@@ -24,6 +24,8 @@
     dir: saved.dir || "de",
     lesson: saved.lesson || (LESSONS[0] && LESSONS[0].id),
     theme: saved.theme || null,
+    auto: !!saved.auto,   // read the German word aloud automatically
+    slow: !!saved.slow,   // slower speech
   };
   const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch { /* private mode etc. */ } };
 
@@ -68,20 +70,53 @@
   }
 
   // ---------- speech ----------
-  const hasTTS = "speechSynthesis" in window;
-  let deVoice = null;
+  // Uses the browser's built-in speech synthesis (Web Speech API) with a German voice.
+  const hasTTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  let deVoice = null, voicesLoaded = false;
   function pickVoice() {
     if (!hasTTS) return;
     const v = speechSynthesis.getVoices();
-    deVoice = v.find(x => /^de(-|_)DE/i.test(x.lang)) || v.find(x => /^de/i.test(x.lang)) || null;
+    if (v.length) voicesLoaded = true;
+    // prefer good-quality German voices when several exist
+    const de = v.filter(x => /^de([-_]|$)/i.test(x.lang));
+    deVoice = de.find(x => /de[-_]DE/i.test(x.lang) && /google|natural|enhanced|premium|anna|petra|helena|katja|conrad/i.test(x.name))
+      || de.find(x => /de[-_]DE/i.test(x.lang)) || de[0] || null;
+    updateVoiceNote();
   }
-  if (hasTTS) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+  if (hasTTS) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; setTimeout(() => { voicesLoaded = true; pickVoice(); }, 2500); }
   function speak(text) {
-    if (!hasTTS) return;
+    if (!hasTTS || !text) return;
+    text = String(text).replace(/_{2,}/g, " … ").replace(/\s+/g, " ").trim();
+    if (!text) return;
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "de-DE"; if (deVoice) u.voice = deVoice; u.rate = 0.92;
+    u.lang = "de-DE"; if (deVoice) u.voice = deVoice;
+    u.rate = store.slow ? 0.7 : 0.95;
     speechSynthesis.speak(u);
+  }
+  // Text to read aloud for a headword: drop grammar notes and plural markers, read both parts of "A / B" and "A ≠ B".
+  function noParens(t) { let o; do { o = t; t = t.replace(/\s*\([^()]*\)/g, " "); } while (t !== o); return t.replace(/\s+([,.!?;:])/g, "$1"); }
+  function sayWord(w) {
+    return noParens(w).split(/\s*[\/≠;]\s*/)
+      .map(p => p.replace(/,.*$/, "").replace(/\s*\+\s*[ADG]\b.*$/, "").replace(/[~=≈]/g, " ").replace(/\s+/g, " ").trim())
+      .filter(Boolean).join(", ");
+  }
+  const sayText = t => noParens(String(t)).replace(/\b(vgl\.|ugs\.)/g, " ").replace(/[≈≠=~]/g, ",").replace(/\s+/g, " ").replace(/^[\s,]+|[\s,]+$/g, "");
+  const sayBtn = (text, cls = "say", title = "Vorlesen") =>
+    hasTTS && text ? `<button type="button" class="${cls}" data-say="${esc(text)}" title="${title}" aria-label="${title}">🔊</button>` : "";
+  function updateVoiceNote() {
+    let n = document.getElementById("voiceNote");
+    const show = !hasTTS || (voicesLoaded && !deVoice);
+    if (!show) { if (n) n.hidden = true; return; }
+    if (!n) {
+      n = document.createElement("p"); n.id = "voiceNote"; n.className = "lesson-note";
+      const app = document.getElementById("app"); if (!app) return;
+      app.parentNode.insertBefore(n, app);
+    }
+    n.innerHTML = !hasTTS
+      ? `Dein Browser unterstützt keine Sprachausgabe. Bitte Chrome, Edge oder Safari benutzen.<span class="fa">مرورگر شما از خواندن متن پشتیبانی نمی‌کند؛ لطفاً از Chrome، Edge یا Safari استفاده کنید.</span>`
+      : `Auf diesem Gerät ist keine deutsche Stimme installiert – die Aussprache kann falsch klingen. Installiere „Deutsch“ in den Sprach- bzw. Text-zu-Sprache-Einstellungen deines Geräts.<span class="fa">روی این دستگاه صدای آلمانی نصب نیست و تلفظ ممکن است درست نباشد. در تنظیمات دستگاه، بخش زبان / تبدیل متن به گفتار، زبان آلمانی را نصب کنید.</span>`;
+    n.hidden = false;
   }
   function cleanWord(w) {
     return w.replace(/\([^)]*\)/g, "").split(/\s*[\/≠]\s*/)[0]
@@ -112,6 +147,10 @@
     dir.onchange = () => { store.dir = dir.checked ? "fa" : "de"; persist(); updateDirLabel(); restart(); };
     updateDirLabel();
     $("#starOnly").onchange = e => { state.starOnly = e.target.checked; restart(); };
+    const au = $("#autoSay"), sl = $("#slowSay");
+    if (au) { au.checked = store.auto; au.onchange = () => { store.auto = au.checked; persist(); }; }
+    if (sl) { sl.checked = store.slow; sl.onchange = () => { store.slow = sl.checked; persist(); speak("langsam und deutlich"); }; }
+    if (!hasTTS) document.querySelectorAll(".tts-opt").forEach(x => x.hidden = true);
     $("#unknownOnly").onchange = e => { state.unknownOnly = e.target.checked; restart(); };
     renderChips();
   }
@@ -184,8 +223,8 @@
 
   function backDetails(c) {
     return `
-      <div class="row"><div class="lab">Synonym(e)</div><div class="syn">${esc(c.syn)}</div></div>
-      <div class="row"><div class="lab">Beispiel <button class="say" data-say="${esc(c.de)}" title="Vorlesen" aria-label="Vorlesen">🔊</button></div>
+      <div class="row"><div class="lab">Synonym(e) ${sayBtn(sayText(c.syn))}</div><div class="syn">${esc(c.syn)}</div></div>
+      <div class="row"><div class="lab">Beispiel ${sayBtn(c.de, "say", "Satz vorlesen (B)")}</div>
         <div class="ex">${esc(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div></div>`;
   }
 
@@ -206,7 +245,7 @@
           <div class="face front">
             <span class="corner">${c.s} · ${esc(sec ? sec.title : "")}</span>
             <div class="tools">
-              ${!faFront && hasTTS ? `<button class="tool" data-say="${esc(cleanWord(c.w))}" title="Vorlesen (A)">🔊</button>` : ""}
+              ${!faFront ? sayBtn(sayWord(c.w), "tool", "Vorlesen (A)") : ""}
               <button class="tool star ${star}" data-star="${c.id}" title="Markieren (S)">★</button>
             </div>
             ${front}
@@ -214,7 +253,7 @@
           </div>
           <div class="face back">
             <div class="tools">
-              ${hasTTS ? `<button class="tool" data-say="${esc(cleanWord(c.w))}" title="Vorlesen (A)">🔊</button>` : ""}
+              ${sayBtn(sayWord(c.w), "tool", "Vorlesen (A)")}
               <button class="tool star ${star}" data-star="${c.id}" title="Markieren (S)">★</button>
             </div>
             <div class="head"><span class="hw">${esc(c.w)}</span><span class="mean fa">${esc(c.fa)}</span></div>
@@ -244,8 +283,13 @@
     const sh = $("#shuf"); if (sh) sh.onclick = () => { shuffleOn = !shuffleOn; restart(); };
     $("#reset").onclick = () => restart(state.review ? { deck: mistakeCards() } : {});
     addSwipe(card);
+    if (store.auto && !faFront && !state.flipped) speak(sayWord(c.w));
   }
-  function flip() { state.flipped = !state.flipped; const c = $("#card"); if (c) c.classList.toggle("flipped", state.flipped); }
+  function flip() {
+    state.flipped = !state.flipped; const el = $("#card"); if (el) el.classList.toggle("flipped", state.flipped);
+    const c = state.deck[state.i];
+    if (store.auto && state.flipped && store.dir === "fa" && c) speak(sayWord(c.w));
+  }
   function go(step) {
     const n = state.i + step;
     if (n < 0) return;
@@ -280,7 +324,7 @@
   }
   function missedList(cards) {
     return `<div class="missed"><div class="lab">Diese Wörter hast du nicht gewusst · <span class="fa">این کلمه‌ها را بلد نبودی</span></div>
-      ${cards.map(c => `<div class="mrow"><b>${esc(c.w)}</b><span class="fa">${esc(c.fa)}</span></div>`).join("")}</div>`;
+      ${cards.map(c => `<div class="mrow"><span><b>${esc(c.w)}</b> ${sayBtn(sayWord(c.w))}</span><span class="fa">${esc(c.fa)}</span></div>`).join("")}</div>`;
   }
   function addSwipe(el) {
     let x0 = null, y0 = null;
@@ -316,13 +360,14 @@
       <div class="panel">
         <div class="q"><div class="lab">${faFront ? "Welches deutsche Wort passt? · <span class='fa'>کدام کلمه‌ی آلمانی؟</span>" : "Was bedeutet das? · <span class='fa'>معنی‌اش چیست؟</span>"}</div>
           ${prompt}
-          ${!faFront && hasTTS ? `<button class="say" data-say="${esc(cleanWord(c.w))}">🔊</button>` : ""}
+          ${!faFront ? sayBtn(sayWord(c.w)) : ""}
         </div>
         <div class="choices">${optHtml}</div>
         <div class="feedback" id="fb"></div>
       </div>`;
     bindCommon(app);
     app.querySelectorAll(".choice").forEach(b => b.onclick = () => answerLearn(b.dataset.id));
+    if (store.auto && !faFront) speak(sayWord(c.w));
   }
   function answerLearn(id) {
     const L = state.learn; if (L.answered) return;
@@ -338,13 +383,15 @@
       const first = !L.wrongSet.has(c.id);
       if (first) { L.right++; L.n++; }
       wordRight(c, first);
-      fb.innerHTML = `<span class="ok">Richtig! · <span class="fa">درست است!</span></span>`;
+      fb.innerHTML = `<span class="ok">Richtig! · <span class="fa">درست است!</span></span> <b>${esc(c.w)}</b> ${sayBtn(sayWord(c.w))}`;
+      bindCommon(fb);
+      if (store.auto) speak(sayWord(c.w));
       setTimeout(() => nextLearn(false), 750);
     } else {
       if (!L.wrongSet.has(c.id)) { L.wrongSet.add(c.id); L.wrongCards.push(c); L.n++; }
       wordWrong(c);
       fb.innerHTML = `<span class="no">Leider falsch. · <span class="fa">اشتباه بود.</span></span><div class="reveal" style="text-align:left">
-        <b>${esc(c.w)}</b> — <span class="fa">${esc(c.fa)}</span>${backDetails(c)}</div>
+        <b>${esc(c.w)}</b> ${sayBtn(sayWord(c.w))} — <span class="fa">${esc(c.fa)}</span>${backDetails(c)}</div>
         <div style="margin-top:12px"><button class="btn primary" id="cont">Weiter (Enter)</button></div>`;
       bindCommon(fb);
       $("#cont").onclick = () => nextLearn(true);
@@ -418,7 +465,8 @@
     const close = !ok && v && acc.some(a => lev(a, v) <= (a.length > 6 ? 2 : 1));
     inp.classList.add(ok ? "right" : "wrong"); inp.readOnly = true;
     const fb = $("#fb");
-    const reveal = `<div class="reveal" style="text-align:left"><b>${esc(c.w)}</b> — <span class="fa">${esc(c.fa)}</span>${backDetails(c)}</div>`;
+    const reveal = `<div class="reveal" style="text-align:left"><b>${esc(c.w)}</b> ${sayBtn(sayWord(c.w))} — <span class="fa">${esc(c.fa)}</span>${backDetails(c)}</div>`;
+    if (store.auto) speak(sayWord(c.w));
     if (ok) {
       W.right++; wordRight(c);
       fb.innerHTML = `<span class="ok">Richtig! · <span class="fa">درست است!</span></span>${reveal}<div style="margin-top:12px"><button class="btn primary" id="cont">Weiter (Enter)</button></div>`;
@@ -480,10 +528,10 @@
               <h3>${esc(r.head)}</h3>
               <p>${esc(r.de)}</p>
               <p class="fa rfa">${esc(r.fa)}</p>
-              ${r.ex.map(([de, fa]) => `<div class="gex"><div class="ex">${esc(de)} ${hasTTS ? `<button class="say" data-say="${esc(de.replace(/…|→.*$/g, ""))}">🔊</button>` : ""}</div><div class="exfa fa">${esc(fa)}</div></div>`).join("")}
+              ${r.ex.map(([de, fa]) => `<div class="gex"><div class="ex">${esc(de)} ${sayBtn(de.replace(/…/g, " ").replace(/→/g, ". "))}</div><div class="exfa fa">${esc(fa)}</div></div>`).join("")}
             </section>`).join("")}
           ${t.table ? `<div class="lab" style="margin-top:14px">Überblick · <span class="fa">جمع‌بندی</span></div>
-            <div class="tbl-wrap"><table class="gtable">${t.table.map(r => `<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td><i>${esc(r[2])}</i></td><td class="fa">${esc(r[3])}</td></tr>`).join("")}</table></div>` : ""}
+            <div class="tbl-wrap"><table class="gtable">${t.table.map(r => `<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td><i>${esc(r[2])}</i> ${sayBtn(r[2].replace(/…/g, " ").replace(/→/g, ". "))}</td><td class="fa">${esc(r[3])}</td></tr>`).join("")}</table></div>` : ""}
           <div class="actions-left"><button class="btn primary" data-startq="${t.id}">Übungen zu „${esc(t.title)}“</button></div>
         </article>`).join("") +
         `<div class="actions" style="justify-content:center;display:flex;margin-top:12px"><button class="btn primary" data-startq="">Alle Übungen starten · <span class="fa">شروع همه‌ی تمرین‌ها</span></button></div>`;
@@ -554,11 +602,29 @@
     $("#gfb").innerHTML = `
       <span class="${ok ? "ok" : "no"}">${ok ? "Richtig! · <span class='fa'>درست است!</span>" : "Leider falsch. · <span class='fa'>اشتباه بود.</span>"}</span>
       ${ok ? "" : `<div class="sol">Lösung: <b>${esc(solution)}</b></div>`}
+      ${fullSentence(q) ? `<div class="sol full"><i>${esc(fullSentence(q))}</i> ${sayBtn(fullSentence(q), "say", "Satz anhören")}</div>` : ""}
       <div class="explain"><div>${esc(q.de)}</div><div class="fa">${esc(q.fa)}</div></div>
       <div style="margin-top:12px"><button class="btn primary" id="gcont">Weiter (Enter)</button></div>`;
     $("#gcont").onclick = nextQuiz;
     $("#gcont").focus();
     updateStats();
+  }
+  // The complete, correct sentence of a grammar question (for reading aloud).
+  function fullSentence(q) {
+    const ans = q.type === "mc" ? q.opts[q.a] : q.a[0];
+    let t = q.q;
+    if (/→/.test(t)) t = t.split("→").pop();                      // transformation tasks: keep the target sentence
+    t = noParens(t).trim();                                       // drop hints like "(lernen)"
+    if (!/_{3}/.test(t)) {
+      // e.g. "Welcher Satz ist richtig?" – the correct option itself is the sentence
+      return q.type === "mc" && /\s/.test(ans) && !/[=+]/.test(q.q) ? ans.replace(/^…\s*/, "") : "";
+    }
+    if (/[=+]/.test(t)) return ans;
+    const blanks = t.match(/_{3,}/g).length, parts = String(ans).split(/\s+/);
+    if (blanks > 1 && parts.length === blanks) { let k = 0; t = t.replace(/_{3,}/g, () => parts[k++]); }
+    else { let first = true; t = t.replace(/_{3,}/g, () => (first ? (first = false, ans) : "")); }
+    t = t.replace(/^„|“$/g, "").replace(/…/g, " ").replace(/\s+([,.!?])/g, "$1").replace(/\s+/g, " ").trim();
+    return t;
   }
   function nextQuiz() { const G = state.gquiz; G.queue.shift(); G.done = false; G.order = null; renderQuiz(); }
   function renderQuizDone(box) {
@@ -570,7 +636,7 @@
         <div class="score">${pct}%</div>
         <div>${G.right} von ${G.total} richtig</div>
         ${G.wrong.length ? `<div class="missed"><div class="lab">Falsch beantwortet · <span class="fa">سؤال‌هایی که اشتباه جواب دادی</span></div>
-          ${G.wrong.map(q => `<div class="mrow"><span>${esc(q.q)}</span><b>${esc(q.type === "mc" ? q.opts[q.a] : q.a.join(" / "))}</b></div>`).join("")}</div>` : ""}
+          ${G.wrong.map(q => `<div class="mrow"><span>${esc(q.q)} ${sayBtn(fullSentence(q))}</span><b>${esc(q.type === "mc" ? q.opts[q.a] : q.a.join(" / "))}</b></div>`).join("")}</div>` : ""}
         <div class="actions">
           ${G.wrong.length ? `<button class="btn primary" id="gwrong">Falsche wiederholen (${G.wrong.length})</button>` : ""}
           <button class="btn" id="gagain">Alle noch einmal</button>
@@ -601,7 +667,7 @@
             <button class="btn" data-review="write">Schreiben</button></div>` : ""}
         </div>
         ${cards.length ? `<div class="mlist">${sorted.map(c => `
-          <div class="mrow"><span><b>${esc(c.w)}</b> <span class="cnt">×${m.w[c.id]}</span></span><span class="fa">${esc(c.fa)}</span>
+          <div class="mrow"><span><b>${esc(c.w)}</b> ${sayBtn(sayWord(c.w))} <span class="cnt">×${m.w[c.id]}</span></span><span class="fa">${esc(c.fa)}</span>
           <button class="link" data-del-w="${c.id}" title="Entfernen">✕</button></div>`).join("")}</div>`
           : `<div class="empty">Keine offenen Wortfehler. 🎉 <span class="fa">هیچ اشتباهی در لغت‌ها نداری.</span></div>`}
       </section>
@@ -610,7 +676,7 @@
           ${qs.length ? `<div class="mbtns"><button class="btn primary" id="greview">Grammatikfehler wiederholen</button></div>` : ""}
         </div>
         ${qs.length ? `<div class="mlist">${qs.map(q => `
-          <div class="mrow"><span>${esc(q.q)} <span class="cnt">×${m.g[q.id]}</span></span><b>${esc(q.type === "mc" ? q.opts[q.a] : q.a.join(" / "))}</b>
+          <div class="mrow"><span>${esc(q.q)} ${sayBtn(fullSentence(q))} <span class="cnt">×${m.g[q.id]}</span></span><b>${esc(q.type === "mc" ? q.opts[q.a] : q.a.join(" / "))}</b>
           <button class="link" data-del-g="${q.id}" title="Entfernen">✕</button></div>`).join("")}</div>`
           : `<div class="empty">Keine offenen Grammatikfehler. <span class="fa">اشتباه گرامری نداری.</span></div>`}
       </section>
@@ -642,7 +708,7 @@
           <div><div class="w">${esc(c.w)}${store.known[c.id] ? '<span class="known-dot" title="gelernt"></span>' : ""}
             ${hasTTS ? `<button class="say" data-say="${esc(cleanWord(c.w))}">🔊</button>` : ""}</div>
             <div class="m fa" style="text-align:left">${esc(c.fa)}</div><div class="s">≈ ${esc(c.syn)}</div></div>
-          <div class="col2"><div class="e">${esc(c.de)}</div><div class="ef fa">${esc(c.fas)}</div></div>
+          <div class="col2"><div class="e">${esc(c.de)} ${sayBtn(c.de)}</div><div class="ef fa">${esc(c.fas)}</div></div>
         </div>`;
       });
       $("#lst").innerHTML = count ? html : `<div class="empty">Nichts gefunden.</div>`;
@@ -677,7 +743,8 @@
       else if (e.key === "1") judge(false);
       else if (e.key === "2") judge(true);
       else if (e.key.toLowerCase() === "s") { const b = $(`[data-star="${c.id}"]`); if (b) b.click(); }
-      else if (e.key.toLowerCase() === "a") speak(cleanWord(c.w));
+      else if (e.key.toLowerCase() === "a") speak(sayWord(c.w));
+      else if (e.key.toLowerCase() === "b") speak(c.de);
     } else if (state.mode === "learn" && state.learn) {
       if (/^[1-4]$/.test(e.key) && !state.learn.answered) { const b = app.querySelectorAll(".choice")[+e.key - 1]; if (b) b.click(); }
     } else if (state.mode === "grammar" && state.gview === "quiz" && state.gquiz && !state.gquiz.done) {
@@ -685,6 +752,7 @@
     }
   });
 
+  window.KompassDebug = { fullSentence, sayWord };   // used by automated tests
   if (!LESSONS.length) { app.innerHTML = `<div class="panel empty">Die Inhalte werden gerade erstellt – bitte später noch einmal vorbeischauen.<br><span class="fa">محتوای این بخش در حال آماده‌سازی است.</span></div>`; return; }
   initChrome();
   restart();
