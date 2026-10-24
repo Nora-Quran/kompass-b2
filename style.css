@@ -231,3 +231,21 @@ select, .icon-btn { background: var(--panel); border: 1px solid var(--line); bor
 .lesson-note { margin: 0 0 12px; font-size: 13px; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 10px; padding: 8px 12px; }
 .lesson-note[hidden] { display: none; }
 .lesson-note .fa { display: block; text-align: right; margin-top: 4px; }
+
+/* ---- level switcher (A1 / A2 / B2) ---- */
+.levels { display: flex; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 3px; gap: 2px; }
+.levels a { text-decoration: none; color: var(--muted); font-weight: 700; font-size: 13px; padding: 6px 9px; border-radius: 8px; }
+.levels a:hover { color: var(--ink); background: var(--brand-soft); }
+.levels a.on { background: var(--brand); color: #fff; }
+:root[data-theme="dark"] .levels a.on { color: #0f141c; }
+@media (max-width: 640px) {
+  .top { flex-wrap: wrap; }
+  .top-controls { width: 100%; }
+  .top-controls select { flex: 1; max-width: none; }
+  .levels a { padding: 6px 8px; }
+}
+@media (max-width: 640px) {
+  .top-controls { display: flex; min-width: 0; }
+  .top-controls select { min-width: 0; width: 0; flex: 1 1 auto; }
+  .top-controls .icon-btn, .levels { flex: none; }
+}

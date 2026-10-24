@@ -1,4 +1,4 @@
-/* Kompass DaF B2 – Karteikarten, Grammatik & Fehlertraining. No build step, no dependencies. */
+/* Deutsch A1 / A2 / B2 – Karteikarten, Grammatik & Fehlertraining. No build step, no dependencies. */
 (() => {
   "use strict";
 
@@ -7,7 +7,14 @@
   const app = $("#app");
 
   // ---------- storage (safe) ----------
-  const KEY = "kompass-b2-flashcards-v1";
+  // Per-site settings (A1 / A2 / B2). The B2 root page has no SITE object, so it keeps its original storage key.
+  const SITE = Object.assign({
+    key: "kompass-b2-flashcards-v1",
+    bookLabel: "Kompass DaF B2",
+    extraLabel: "Zusatz: B1 / B2 (nicht im Buch)",
+    noGrammarExtra: "Dieser Zusatz-Wortschatz hat keinen Grammatikteil. Die Grammatik findest du in Lektion 1–10.<br><span class=\"fa\">این بخش فقط واژگان است؛ گرامر در درس‌های ۱ تا ۱۰ است.</span>",
+  }, window.SITE || {});
+  const KEY = SITE.key;
   const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
   const saved = load();
   const store = {
@@ -86,8 +93,8 @@
     const sel = $("#lesson");
     const opt = l => `<option value="${l.id}">${esc(l.title)} (${l.cards.length})</option>`;
     const book = LESSONS.filter(l => l.id < 100), extra = LESSONS.filter(l => l.id >= 100);
-    sel.innerHTML = `<optgroup label="Kompass DaF B2">${book.map(opt).join("")}</optgroup>` +
-      (extra.length ? `<optgroup label="Zusatz: B1 / B2 (nicht im Buch)">${extra.map(opt).join("")}</optgroup>` : "");
+    sel.innerHTML = `<optgroup label="${esc(SITE.bookLabel)}">${book.map(opt).join("")}</optgroup>` +
+      (extra.length ? `<optgroup label="${esc(SITE.extraLabel)}">${extra.map(opt).join("")}</optgroup>` : "");
     sel.value = store.lesson;
     sel.onchange = () => { store.lesson = +sel.value; persist(); state.sections.clear(); renderChips(); setMode(state.mode); };
 
@@ -455,7 +462,7 @@
     const topics = L.grammar || [];
     if (!topics.length) {
       app.innerHTML = L.id >= 100
-        ? `<div class="panel empty">Dieser Zusatz-Wortschatz hat keinen Grammatikteil. Die Grammatik findest du in Lektion 1–10.<br><span class="fa">این بخش فقط واژگان است؛ گرامر در درس‌های ۱ تا ۱۰ است.</span></div>`
+        ? `<div class="panel empty">${SITE.noGrammarExtra}</div>`
         : `<div class="panel empty">Für diese Lektion gibt es noch keine Grammatik.</div>`;
       return;
     }
@@ -678,7 +685,7 @@
     }
   });
 
-  if (!LESSONS.length) { app.innerHTML = `<div class="panel empty">Keine Daten gefunden.</div>`; return; }
+  if (!LESSONS.length) { app.innerHTML = `<div class="panel empty">Die Inhalte werden gerade erstellt – bitte später noch einmal vorbeischauen.<br><span class="fa">محتوای این بخش در حال آماده‌سازی است.</span></div>`; return; }
   initChrome();
   restart();
 })();
