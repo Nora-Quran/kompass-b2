@@ -1058,7 +1058,7 @@
    "opts": [
     "uns",
     "dich",
-    "ihn",
+    "ihr",
     "euch"
    ],
    "a": 3,

@@ -603,8 +603,8 @@
    "rules": [
     {
      "head": "weil + Nebensatz (Grund)",
-     "de": "Ein weil-Satz antwortet auf die Frage Warum?. weil ist eine Konjunktion für Nebensätze: Das konjugierte Verb steht ganz am Ende. Vor weil steht immer ein Komma.",
-     "fa": "جمله‌ی weil به سؤال «چرا؟» جواب می‌دهد و معنایش «چون / زیرا» است. weil جمله‌ی وابسته (Nebensatz) می‌سازد، پس فعل صرف‌شده از جای همیشگی‌اش (جایگاه دوم) به آخر جمله منتقل می‌شود. قبل از weil همیشه ویرگول می‌گذاریم. در جواب کوتاه به Warum? هم می‌توان فقط با جمله‌ی weil جواب داد.",
+     "de": "Ein weil-Satz antwortet auf die Frage Warum?. weil ist eine Konjunktion für Nebensätze: Das konjugierte Verb steht ganz am Ende. Zwischen Hauptsatz und weil-Satz steht immer ein Komma.",
+     "fa": "جمله‌ی weil به سؤال «چرا؟» جواب می‌دهد و معنایش «چون / زیرا» است. weil جمله‌ی وابسته (Nebensatz) می‌سازد، پس فعل صرف‌شده از جای همیشگی‌اش (جایگاه دوم) به آخر جمله منتقل می‌شود. بین جمله‌ی اصلی و جمله‌ی weil همیشه ویرگول می‌گذاریم. در جواب کوتاه به Warum? هم می‌توان فقط با جمله‌ی weil جواب داد.",
      "ex": [
       [
        "Ich bewerbe mich bei der Firma, weil das Gehalt gut ist.",
@@ -1078,7 +1078,8 @@
    "type": "gap",
    "q": "Es regnet, ___ fahre ich mit dem Fahrrad ins Büro. (Gegensatz)",
    "a": [
-    "trotzdem"
+    "trotzdem",
+    "dennoch"
    ],
    "de": "Gegensatz + Verb direkt danach → trotzdem.",
    "fa": "انتظار نداریم با باران دوچرخه‌سواری کند؛ تضاد است، پس trotzdem."
@@ -1126,7 +1127,8 @@
    "type": "gap",
    "q": "Das Gehalt ist niedrig. Ich arbeite ___ gern in diesem Team. (Gegensatz)",
    "a": [
-    "trotzdem"
+    "trotzdem",
+    "dennoch"
    ],
    "de": "trotzdem kann auch nach dem Verb stehen.",
    "fa": "trotzdem می‌تواند بعد از فعل هم بیاید؛ معنا تضاد است."

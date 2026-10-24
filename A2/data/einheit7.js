@@ -540,7 +540,7 @@
    "rules": [
     {
      "head": "Höfliche Fragen mit könnte / würde",
-     "de": "Eine höfliche Bitte ist oft eine Frage: Könnten Sie …? / Würden Sie …? Das Modalverb steht auf Position 1, der Infinitiv am Ende. Mit bitte klingt es noch freundlicher.",
+     "de": "Eine höfliche Bitte ist oft eine Frage: Könnten Sie …? / Würden Sie …? Das konjugierte Verb (könnte / würde) steht auf Position 1, der Infinitiv am Ende. Mit bitte klingt es noch freundlicher.",
      "fa": "درخواست مؤدبانه معمولاً به شکل سؤال است: Könnten Sie …? یا Würden Sie …? فعل صرف‌شده اول جمله می‌آید و مصدرِ فعل اصلی به آخر جمله می‌رود. معنایش چیزی مثل «ممکن است…؟ / لطف می‌کنید…؟» است. اگر bitte هم اضافه کنید، از امر ساده (Geben Sie mir …!) خیلی مؤدبانه‌تر می‌شود.",
      "ex": [
       [

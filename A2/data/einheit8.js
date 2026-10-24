@@ -840,8 +840,8 @@
     },
     {
      "head": "wenn als Bedingung (= falls)",
-     "de": "wenn kann auch eine Bedingung nennen: Nur wenn A passiert, passiert auch B. Dann bedeutet wenn ungefähr falls.",
-     "fa": "wenn علاوه بر معنی زمانی، معنی «اگر» هم دارد و شرط را بیان می‌کند (مثل falls). یعنی نتیجه‌ی جمله‌ی اصلی فقط در صورتی رخ می‌دهد که جمله‌ی wenn درست باشد. als هرگز معنی شرط ندارد.",
+     "de": "wenn kann auch eine Bedingung nennen: Wenn A passiert, dann passiert B. Dann bedeutet wenn ungefähr falls.",
+     "fa": "wenn علاوه بر معنی زمانی، معنی «اگر» هم دارد و شرط را بیان می‌کند (مثل falls). یعنی اگر جمله‌ی wenn درست باشد، نتیجه‌ی جمله‌ی اصلی رخ می‌دهد. als هرگز معنی شرط ندارد.",
      "ex": [
       [
        "Wenn du jeden Tag übst, bestehst du die Prüfung.",

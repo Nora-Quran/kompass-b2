@@ -1,8 +1,15 @@
-# Kompass DaF B2 · Karteikarten
+# Deutsch A1 · A2 · B2 · Karteikarten
 
 Quizlet-style flashcards, grammar explanations and a mistakes trainer for **Kompass DaF B2** (Klett). Every word has a German synonym, an example sentence and a Persian (فارسی) translation. Grammar is explained in German and Persian.
 
-**Content:**
+**Levels (switch in the header):**
+- **B2** (start page `/`): Kompass DaF B2, Lektion 1–10, plus extra B1/B2 vocabulary.
+- **A1** (`/A1/`): 10 thematic units, 810 cards, 20 grammar topics, 214 exercises.
+- **A2** (`/A2/`): 10 thematic units, 687 cards, 20 grammar topics, 214 exercises.
+
+The A1/A2 words come from the official Goethe-Zertifikat A2 word list, which contains the whole basic vocabulary. It is split into A1 and A2 by the Start Deutsch 1 level. Progress is saved separately for each level.
+
+**B2 content:**
 - **Lektion 1–10** (the whole book): 1,772 cards from the official lesson word lists, plus extra words from the listening texts and lesson tests. Each lesson also has grammar explained in German and Persian, and 229 exercises in total.
 - **Zusatz B1** (6 sets, 1,281 cards): words from the official Goethe B1 word list that are neither in the Goethe A2 list nor in the book.
 - **Zusatz B2** (3 sets, 566 cards): my own selection of core B2 words by topic, plus verbs with prepositions and Nomen-Verb-Verbindungen. No official B2 word list exists.

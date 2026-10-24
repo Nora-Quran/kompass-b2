@@ -882,7 +882,7 @@
    "rules": [
     {
      "head": "Der Artikel im Dativ",
-     "de": "Im Dativ ändert sich der Artikel: der → dem, das → dem, die → der. Plural: die → den, und das Nomen bekommt -n.",
+     "de": "Im Dativ ändert sich der Artikel: der → dem, das → dem, die → der. Plural: die → den, und das Nomen bekommt -n (nicht bei Plural auf -n oder -s).",
      "fa": "در داتیو حرف تعریف عوض می‌شود: اسم‌های مذکر و خنثی dem می‌گیرند (ein → einem)، اسم‌های مؤنث der (eine → einer). در جمع حرف تعریف den است و خود اسم هم اگر به n یا s ختم نشود یک -n می‌گیرد: mit den Kindern. دقت کنید که der برای مؤنث در داتیو با der مذکرِ حالت فاعلی فرق دارد.",
      "ex": [
       [

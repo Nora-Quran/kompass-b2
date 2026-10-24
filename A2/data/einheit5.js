@@ -985,7 +985,7 @@
    "q": "Hast du Angst vor der Operation? – Ja, ich habe ein bisschen Angst ___.",
    "opts": [
     "davor",
-    "vor ihr",
+    "vor es",
     "wovor",
     "darauf"
    ],

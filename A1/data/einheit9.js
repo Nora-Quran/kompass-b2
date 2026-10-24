@@ -1018,7 +1018,7 @@
     "dich",
     "euch",
     "eure",
-    "ihr"
+    "du"
    ],
    "a": 1,
    "de": "ihr (Kinder) → Dativ: euch.",

@@ -748,7 +748,7 @@
     },
     {
      "head": "Partizip II: ge-…-t und ge-…-en",
-     "de": "Regelmäßige Verben: ge- + Stamm + -t (machen → gemacht). Unregelmäßige Verben: ge- + Stamm + -en (fliegen → geflogen).",
+     "de": "Regelmäßige Verben: ge- + Stamm + -t (machen → gemacht). Unregelmäßige Verben: ge- + Stamm + -en, oft mit anderem Vokal (fliegen → geflogen).",
      "fa": "فعل‌های باقاعده: ge + ریشه + t (machen ← gemacht، arbeiten ← gearbeitet؛ اگر ریشه به t یا d ختم شود، et می‌گیرد). فعل‌های بی‌قاعده: ge + ریشه + en و ریشه اغلب تغییر می‌کند (fliegen ← geflogen، werden ← geworden). شکل فعل‌های بی‌قاعده را باید حفظ کرد.",
      "ex": [
       [

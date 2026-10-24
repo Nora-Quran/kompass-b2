@@ -958,7 +958,7 @@
    "rules": [
     {
      "head": "Präfix ans Ende",
-     "de": "Das Verb steht auf Position 2. Der Präfix (auf, an …) steht am Ende.",
+     "de": "Das Verb steht auf Position 2. Das Präfix (auf, an …) steht am Ende.",
      "fa": "قسمت اصلی فعل صرف می‌شود و مثل همیشه در جایگاه دوم جمله قرار می‌گیرد. پیشوند (مثلاً auf، an، aus، mit، ein) جدا می‌شود و به انتهای جمله می‌رود. بین این دو قسمت هر چیزی می‌تواند بیاید، مثل زمان یا مکان؛ مثل یک «قاب» که بقیه‌ی جمله داخل آن است.",
      "ex": [
       [
@@ -988,7 +988,7 @@
     },
     {
      "head": "Fragen und Imperativ",
-     "de": "Auch in Fragen und im Imperativ steht der Präfix am Ende.",
+     "de": "Auch in Fragen und im Imperativ steht das Präfix am Ende.",
      "fa": "در سؤال بله/خیر، فعل به جایگاه اول می‌آید و در سؤال با کلمه‌ی پرسشی (wann، wie lange …) به جایگاه دوم؛ اما در هر دو حالت پیشوند در آخر جمله است. در امر (دستور) هم همین‌طور: Steh auf!",
      "ex": [
       [
@@ -1283,7 +1283,7 @@
    "a": [
     "stehst"
    ],
-   "de": "du stehst … auf. Der Präfix auf steht am Ende.",
+   "de": "du stehst … auf. Das Präfix auf steht am Ende.",
    "fa": "صیغه‌ی du از stehen می‌شود stehst؛ پیشوند auf در آخر جمله است."
   },
   {
@@ -1412,7 +1412,7 @@
    "id": "L5-g13",
    "t": "t2",
    "type": "gap",
-   "q": "Wir haben ___ Freitag frei. (ein Wort)",
+   "q": "Wir haben ___ Freitag frei. (Präposition + Artikel, ein Wort)",
    "a": [
     "am"
    ],

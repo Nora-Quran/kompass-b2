@@ -1137,7 +1137,7 @@
     "bin",
     "habe",
     "war",
-    "hatte"
+    "ist"
    ],
    "a": 1,
    "de": "Reflexive Verben bilden das Perfekt immer mit haben.",

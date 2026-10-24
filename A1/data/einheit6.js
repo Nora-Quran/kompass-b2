@@ -763,7 +763,7 @@
     [
      "lieber (als)",
      "Vergleich: 2 Dinge",
-     "Ich tanze lieber als ich singe.",
+     "Ich trinke lieber Tee als Kaffee.",
      "ترجیح می‌دهم"
     ],
     [
