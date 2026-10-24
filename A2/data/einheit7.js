@@ -781,12 +781,12 @@
    "id": "L7-g3",
    "t": "t1",
    "type": "gap",
-   "q": "Es ___ schön, wenn wir ein Zimmer mit Seeblick bekommen. (sein, Konjunktiv II)",
+   "q": "Ein Zimmer mit Seeblick ___ wirklich schön. (sein, Konjunktiv II)",
    "a": [
     "wäre"
    ],
-   "de": "Konjunktiv II von sein (es) → wäre.",
-   "fa": "Konjunktiv II فعل sein برای es می‌شود wäre."
+   "de": "Konjunktiv II von sein (3. Person Singular) → wäre.",
+   "fa": "Konjunktiv II فعل sein برای سوم‌شخص مفرد می‌شود wäre."
   },
   {
    "id": "L7-g4",
