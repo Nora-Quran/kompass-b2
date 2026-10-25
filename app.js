@@ -761,7 +761,7 @@
     return `<div class="row coll${compact ? " compact" : ""}"><div class="lab">Wendungen · <span class="fa">اصطلاحات پرکاربرد</span></div>
       <ul class="colls">${c.c.map(([de, fa]) => `<li><span class="cde">${sent(de)}</span> ${sayBtn(sayText(de))}<span class="cfa fa">${esc(fa)}</span></li>`).join("")}</ul></div>`;
   }
-  const TOKRE = /([A-Za-zÄÖÜäöüßéèêàâçñ]+(?:-[A-Za-zÄÖÜäöüßéèêàâçñ]+)*)/;
+  const TOKRE = /([A-Za-zÄÖÜäöüßéèêàâçñışğ]+(?:-[A-Za-zÄÖÜäöüßéèêàâçñışğ]+)*)/;
   function sent(text) {
     return String(text).split(TOKRE).map((p, i) => (i % 2 ? `<span class="tok">${esc(p)}</span>` : esc(p))).join("");
   }
