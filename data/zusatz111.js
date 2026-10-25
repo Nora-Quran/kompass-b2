@@ -28,7 +28,21 @@
    "fa": "قرارداد کار",
    "syn": "der Anstellungsvertrag, der Dienstvertrag",
    "de": "Lesen Sie den Arbeitsvertrag genau, bevor Sie ihn unterschreiben.",
-   "fas": "قبل از امضای قرارداد کار، آن را با دقت بخوانید."
+   "fas": "قبل از امضای قرارداد کار، آن را با دقت بخوانید.",
+   "c": [
+    [
+     "einen Arbeitsvertrag unterschreiben",
+     "قرارداد کار را امضا کردن"
+    ],
+    [
+     "einen Arbeitsvertrag abschließen",
+     "قرارداد کار بستن"
+    ],
+    [
+     "laut Arbeitsvertrag",
+     "طبق قرارداد کار"
+    ]
+   ]
   },
   {
    "id": "L111-2",
@@ -37,7 +51,21 @@
    "fa": "دوره‌ی آزمایشی",
    "syn": "die Einarbeitungszeit, die Testphase",
    "de": "In der Probezeit kann man mit einer Frist von zwei Wochen kündigen.",
-   "fas": "در دوره‌ی آزمایشی می‌توان با مهلت دو هفته استعفا داد."
+   "fas": "در دوره‌ی آزمایشی می‌توان با مهلت دو هفته استعفا داد.",
+   "c": [
+    [
+     "in der Probezeit sein",
+     "در دوره‌ی آزمایشی بودن"
+    ],
+    [
+     "die Probezeit bestehen",
+     "دوره‌ی آزمایشی را با موفقیت گذراندن"
+    ],
+    [
+     "eine Probezeit von sechs Monaten",
+     "دوره‌ی آزمایشی شش‌ماهه"
+    ]
+   ]
   },
   {
    "id": "L111-3",
@@ -46,7 +74,21 @@
    "fa": "موقت، مدت‌دار",
    "syn": "zeitlich begrenzt, auf Zeit",
    "de": "Sie hat zunächst nur einen befristeten Vertrag für ein Jahr bekommen.",
-   "fas": "او فعلاً فقط یک قرارداد موقت یک‌ساله گرفته است."
+   "fas": "او فعلاً فقط یک قرارداد موقت یک‌ساله گرفته است.",
+   "c": [
+    [
+     "ein befristeter Vertrag",
+     "قرارداد موقت"
+    ],
+    [
+     "befristet eingestellt sein",
+     "به‌صورت موقت استخدام شدن"
+    ],
+    [
+     "auf ein Jahr befristet",
+     "محدود به یک سال"
+    ]
+   ]
   },
   {
    "id": "L111-4",
@@ -55,7 +97,21 @@
    "fa": "دائمی، بدون محدودیت زمانی",
    "syn": "fest, dauerhaft",
    "de": "Nach zwei Jahren wurde sein Vertrag endlich unbefristet verlängert.",
-   "fas": "بعد از دو سال قراردادش بالاخره به‌صورت دائمی تمدید شد."
+   "fas": "بعد از دو سال قراردادش بالاخره به‌صورت دائمی تمدید شد.",
+   "c": [
+    [
+     "ein unbefristeter Vertrag",
+     "قرارداد دائمی"
+    ],
+    [
+     "unbefristet angestellt sein",
+     "به‌صورت دائمی استخدام بودن"
+    ],
+    [
+     "eine unbefristete Stelle",
+     "شغل دائمی"
+    ]
+   ]
   },
   {
    "id": "L111-5",
@@ -64,7 +120,21 @@
    "fa": "مصاحبه‌ی استخدامی",
    "syn": "das Vorstellungsgespräch, das Jobinterview",
    "de": "Im Bewerbungsgespräch sollte man seine Stärken mit Beispielen belegen.",
-   "fas": "در مصاحبه‌ی استخدامی باید نقاط قوت خود را با مثال ثابت کرد."
+   "fas": "در مصاحبه‌ی استخدامی باید نقاط قوت خود را با مثال ثابت کرد.",
+   "c": [
+    [
+     "ein Bewerbungsgespräch führen",
+     "مصاحبه‌ی استخدامی انجام دادن"
+    ],
+    [
+     "zu einem Bewerbungsgespräch eingeladen werden",
+     "به مصاحبه‌ی استخدامی دعوت شدن"
+    ],
+    [
+     "sich auf ein Bewerbungsgespräch vorbereiten",
+     "برای مصاحبه‌ی استخدامی آماده شدن"
+    ]
+   ]
   },
   {
    "id": "L111-6",
@@ -73,7 +143,21 @@
    "fa": "کارفرما",
    "syn": "der Dienstgeber, das Unternehmen",
    "de": "Der Arbeitgeber ist verpflichtet, für die Sicherheit am Arbeitsplatz zu sorgen.",
-   "fas": "کارفرما موظف است امنیت محل کار را تأمین کند."
+   "fas": "کارفرما موظف است امنیت محل کار را تأمین کند.",
+   "c": [
+    [
+     "den Arbeitgeber wechseln",
+     "کارفرما را عوض کردن"
+    ],
+    [
+     "ein attraktiver Arbeitgeber",
+     "کارفرمای جذاب"
+    ],
+    [
+     "Arbeitgeber und Arbeitnehmer",
+     "کارفرما و کارگر"
+    ]
+   ]
   },
   {
    "id": "L111-7",
@@ -82,7 +166,21 @@
    "fa": "قرارداد جمعی کار",
    "syn": "die Tarifvereinbarung, der Kollektivvertrag",
    "de": "Laut Tarifvertrag haben die Beschäftigten Anspruch auf 30 Urlaubstage.",
-   "fas": "طبق قرارداد جمعی کار، کارکنان حق ۳۰ روز مرخصی دارند."
+   "fas": "طبق قرارداد جمعی کار، کارکنان حق ۳۰ روز مرخصی دارند.",
+   "c": [
+    [
+     "einen Tarifvertrag aushandeln",
+     "قرارداد جمعی کار را مذاکره کردن"
+    ],
+    [
+     "nach Tarifvertrag bezahlt werden",
+     "طبق قرارداد جمعی حقوق گرفتن"
+    ],
+    [
+     "der Tarifvertrag gilt für + A",
+     "قرارداد جمعی شامل … می‌شود"
+    ]
+   ]
   },
   {
    "id": "L111-8",
@@ -91,7 +189,21 @@
    "fa": "افزایش حقوق",
    "syn": "die Lohnerhöhung, die Gehaltsanpassung",
    "de": "Nach dem erfolgreichen Projekt bat sie ihren Chef um eine Gehaltserhöhung.",
-   "fas": "بعد از پروژه‌ی موفق، از رئیسش درخواست افزایش حقوق کرد."
+   "fas": "بعد از پروژه‌ی موفق، از رئیسش درخواست افزایش حقوق کرد.",
+   "c": [
+    [
+     "eine Gehaltserhöhung bekommen",
+     "افزایش حقوق گرفتن"
+    ],
+    [
+     "um eine Gehaltserhöhung bitten",
+     "درخواست افزایش حقوق کردن"
+    ],
+    [
+     "eine Gehaltserhöhung fordern",
+     "خواستار افزایش حقوق شدن"
+    ]
+   ]
   },
   {
    "id": "L111-9",
@@ -100,7 +212,21 @@
    "fa": "کار شیفتی",
    "syn": "der Schichtdienst, die Wechselschicht",
    "de": "Schichtarbeit kann auf Dauer den Schlafrhythmus stark stören.",
-   "fas": "کار شیفتی در درازمدت می‌تواند ریتم خواب را به‌شدت مختل کند."
+   "fas": "کار شیفتی در درازمدت می‌تواند ریتم خواب را به‌شدت مختل کند.",
+   "c": [
+    [
+     "in Schichtarbeit arbeiten",
+     "شیفتی کار کردن"
+    ],
+    [
+     "Schichtarbeit leisten",
+     "کار شیفتی انجام دادن"
+    ],
+    [
+     "die Belastung durch Schichtarbeit",
+     "فشار ناشی از کار شیفتی"
+    ]
+   ]
   },
   {
    "id": "L111-10",
@@ -109,7 +235,21 @@
    "fa": "کمبود نیروی متخصص",
    "syn": "der Personalmangel, der Arbeitskräftemangel",
    "de": "Wegen des Fachkräftemangels suchen viele Firmen Personal im Ausland.",
-   "fas": "به دلیل کمبود نیروی متخصص، بسیاری از شرکت‌ها در خارج از کشور دنبال نیرو می‌گردند."
+   "fas": "به دلیل کمبود نیروی متخصص، بسیاری از شرکت‌ها در خارج از کشور دنبال نیرو می‌گردند.",
+   "c": [
+    [
+     "unter Fachkräftemangel leiden",
+     "از کمبود نیروی متخصص رنج بردن"
+    ],
+    [
+     "den Fachkräftemangel bekämpfen",
+     "با کمبود نیروی متخصص مقابله کردن"
+    ],
+    [
+     "der zunehmende Fachkräftemangel",
+     "کمبود فزاینده‌ی نیروی متخصص"
+    ]
+   ]
   },
   {
    "id": "L111-11",
@@ -118,7 +258,21 @@
    "fa": "ارتقا، پیشرفت شغلی",
    "syn": "die Beförderung, der Karrieresprung",
    "de": "Ohne Weiterbildung ist ein beruflicher Aufstieg heute kaum möglich.",
-   "fas": "امروزه بدون آموزش تکمیلی، پیشرفت شغلی تقریباً ممکن نیست."
+   "fas": "امروزه بدون آموزش تکمیلی، پیشرفت شغلی تقریباً ممکن نیست.",
+   "c": [
+    [
+     "der berufliche Aufstieg",
+     "پیشرفت شغلی"
+    ],
+    [
+     "den Aufstieg schaffen",
+     "به ارتقا رسیدن"
+    ],
+    [
+     "Chancen auf Aufstieg",
+     "فرصت‌های پیشرفت"
+    ]
+   ]
   },
   {
    "id": "L111-12",
@@ -127,7 +281,21 @@
    "fa": "آگهی استخدام",
    "syn": "die Stellenausschreibung, das Jobangebot",
    "de": "Ich habe die Stellenanzeige auf einem Online-Portal gefunden.",
-   "fas": "آگهی استخدام را در یک سایت اینترنتی پیدا کردم."
+   "fas": "آگهی استخدام را در یک سایت اینترنتی پیدا کردم.",
+   "c": [
+    [
+     "eine Stellenanzeige aufgeben",
+     "آگهی استخدام دادن"
+    ],
+    [
+     "auf eine Stellenanzeige antworten",
+     "به آگهی استخدام پاسخ دادن"
+    ],
+    [
+     "eine Stellenanzeige lesen",
+     "آگهی استخدام را خواندن"
+    ]
+   ]
   },
   {
    "id": "L111-13",
@@ -136,7 +304,21 @@
    "fa": "گواهی سابقه‌ی کار، توصیه‌نامه‌ی کاری",
    "syn": "die Arbeitsbescheinigung, die Referenz",
    "de": "Ein gutes Arbeitszeugnis erleichtert die Suche nach einer neuen Stelle.",
-   "fas": "یک گواهی سابقه‌ی کار خوب، پیدا کردن شغل جدید را آسان‌تر می‌کند."
+   "fas": "یک گواهی سابقه‌ی کار خوب، پیدا کردن شغل جدید را آسان‌تر می‌کند.",
+   "c": [
+    [
+     "ein gutes Arbeitszeugnis bekommen",
+     "گواهی کاری خوبی گرفتن"
+    ],
+    [
+     "ein Arbeitszeugnis ausstellen",
+     "گواهی سابقه‌ی کار صادر کردن"
+    ],
+    [
+     "ein qualifiziertes Arbeitszeugnis",
+     "گواهی کاری مشروح"
+    ]
+   ]
   },
   {
    "id": "L111-14",
@@ -145,7 +327,21 @@
    "fa": "توانایی کار گروهی",
    "syn": "die Kooperationsfähigkeit, der Teamgeist",
    "de": "In fast jeder Stellenanzeige wird Teamfähigkeit erwartet.",
-   "fas": "تقریباً در هر آگهی استخدامی، توانایی کار گروهی انتظار می‌رود."
+   "fas": "تقریباً در هر آگهی استخدامی، توانایی کار گروهی انتظار می‌رود.",
+   "c": [
+    [
+     "Teamfähigkeit besitzen",
+     "توانایی کار گروهی داشتن"
+    ],
+    [
+     "Teamfähigkeit zeigen",
+     "توانایی کار گروهی نشان دادن"
+    ],
+    [
+     "Teamfähigkeit wird vorausgesetzt",
+     "توانایی کار گروهی الزامی است"
+    ]
+   ]
   },
   {
    "id": "L111-15",
@@ -154,7 +350,21 @@
    "fa": "تحمل فشار کاری",
    "syn": "die Stressresistenz, die Widerstandsfähigkeit",
    "de": "Für diesen Job brauchen Sie eine hohe Belastbarkeit.",
-   "fas": "برای این شغل به تحمل بالای فشار کاری نیاز دارید."
+   "fas": "برای این شغل به تحمل بالای فشار کاری نیاز دارید.",
+   "c": [
+    [
+     "eine hohe Belastbarkeit",
+     "تحمل بالای فشار کاری"
+    ],
+    [
+     "Belastbarkeit beweisen",
+     "تحمل فشار را ثابت کردن"
+    ],
+    [
+     "an die Grenzen der Belastbarkeit kommen",
+     "به مرز تحمل رسیدن"
+    ]
+   ]
   },
   {
    "id": "L111-16",
@@ -163,7 +373,21 @@
    "fa": "حوزه‌ی وظایف",
    "syn": "das Tätigkeitsfeld, der Zuständigkeitsbereich",
    "de": "Zu meinem Aufgabenbereich gehört auch die Betreuung neuer Kunden.",
-   "fas": "رسیدگی به مشتریان جدید هم جزو حوزه‌ی وظایف من است."
+   "fas": "رسیدگی به مشتریان جدید هم جزو حوزه‌ی وظایف من است.",
+   "c": [
+    [
+     "zum Aufgabenbereich gehören",
+     "جزو حوزه‌ی وظایف بودن"
+    ],
+    [
+     "ein breiter Aufgabenbereich",
+     "حوزه‌ی وظایف گسترده"
+    ],
+    [
+     "den Aufgabenbereich erweitern",
+     "حوزه‌ی وظایف را گسترش دادن"
+    ]
+   ]
   },
   {
    "id": "L111-17",
@@ -172,7 +396,21 @@
    "fa": "با کار جدید آشنا شدن، جا افتادن در کار",
    "syn": "sich vertraut machen mit, sich einfinden in",
    "de": "Der neue Kollege hat sich schnell in seine Aufgaben eingearbeitet.",
-   "fas": "همکار جدید خیلی زود با وظایفش آشنا شد."
+   "fas": "همکار جدید خیلی زود با وظایفش آشنا شد.",
+   "c": [
+    [
+     "sich schnell einarbeiten",
+     "سریع با کار آشنا شدن"
+    ],
+    [
+     "sich in ein neues Thema einarbeiten",
+     "خود را با موضوع جدیدی آشنا کردن"
+    ],
+    [
+     "Zeit zum Einarbeiten brauchen",
+     "برای جا افتادن در کار وقت لازم داشتن"
+    ]
+   ]
   },
   {
    "id": "L111-18",
@@ -181,7 +419,21 @@
    "fa": "ارتقا دادن (شغلی)",
    "syn": "aufsteigen lassen, hochstufen",
    "de": "Nach drei Jahren wurde sie zur Abteilungsleiterin befördert.",
-   "fas": "بعد از سه سال، او به مدیر بخش ارتقا یافت."
+   "fas": "بعد از سه سال، او به مدیر بخش ارتقا یافت.",
+   "c": [
+    [
+     "zum Abteilungsleiter befördert werden",
+     "به مدیر بخش ارتقا یافتن"
+    ],
+    [
+     "befördert werden",
+     "ارتقا گرفتن"
+    ],
+    [
+     "jemanden befördern",
+     "کسی را ارتقا دادن"
+    ]
+   ]
   },
   {
    "id": "L111-19",
@@ -190,7 +442,21 @@
    "fa": "مذاکره کردن درباره‌ی",
    "syn": "aushandeln, besprechen",
    "de": "Die Gewerkschaft verhandelt mit den Arbeitgebern über höhere Löhne.",
-   "fas": "اتحادیه با کارفرمایان درباره‌ی دستمزد بیشتر مذاکره می‌کند."
+   "fas": "اتحادیه با کارفرمایان درباره‌ی دستمزد بیشتر مذاکره می‌کند.",
+   "c": [
+    [
+     "über den Preis verhandeln",
+     "درباره‌ی قیمت مذاکره کردن"
+    ],
+    [
+     "hart verhandeln",
+     "سرسختانه مذاکره کردن"
+    ],
+    [
+     "über das Gehalt verhandeln",
+     "درباره‌ی حقوق مذاکره کردن"
+    ]
+   ]
   },
   {
    "id": "L111-20",
@@ -199,7 +465,21 @@
    "fa": "واگذار کردن (کار به دیگران)",
    "syn": "übertragen, abgeben",
    "de": "Eine gute Führungskraft muss Aufgaben delegieren können.",
-   "fas": "یک مدیر خوب باید بتواند کارها را به دیگران واگذار کند."
+   "fas": "یک مدیر خوب باید بتواند کارها را به دیگران واگذار کند.",
+   "c": [
+    [
+     "Aufgaben delegieren",
+     "کارها را واگذار کردن"
+    ],
+    [
+     "Verantwortung delegieren",
+     "مسئولیت را واگذار کردن"
+    ],
+    [
+     "an Mitarbeiter delegieren",
+     "به کارمندان واگذار کردن"
+    ]
+   ]
   },
   {
    "id": "L111-21",
@@ -208,7 +488,21 @@
    "fa": "مأمور کردن به، سفارش دادن",
    "syn": "betrauen mit, anweisen",
    "de": "Der Chef hat mich mit der Organisation der Messe beauftragt.",
-   "fas": "رئیس مرا مأمور برگزاری نمایشگاه کرد."
+   "fas": "رئیس مرا مأمور برگزاری نمایشگاه کرد.",
+   "c": [
+    [
+     "jemanden mit einer Aufgabe beauftragen",
+     "کسی را مأمور انجام کاری کردن"
+    ],
+    [
+     "eine Firma beauftragen",
+     "به یک شرکت سفارش دادن"
+    ],
+    [
+     "beauftragt sein mit + D",
+     "مأمور … بودن"
+    ]
+   ]
   },
   {
    "id": "L111-22",
@@ -217,7 +511,21 @@
    "fa": "دورکاری، کار از خانه",
    "syn": "die Telearbeit, das mobile Arbeiten",
    "de": "Seit der Pandemie arbeiten viele Angestellte zwei Tage pro Woche im Homeoffice.",
-   "fas": "از زمان همه‌گیری، بسیاری از کارمندان دو روز در هفته دورکاری می‌کنند."
+   "fas": "از زمان همه‌گیری، بسیاری از کارمندان دو روز در هفته دورکاری می‌کنند.",
+   "c": [
+    [
+     "im Homeoffice arbeiten",
+     "دورکاری کردن"
+    ],
+    [
+     "ins Homeoffice gehen",
+     "به دورکاری رفتن"
+    ],
+    [
+     "zwei Tage Homeoffice",
+     "دو روز دورکاری"
+    ]
+   ]
   },
   {
    "id": "L111-23",
@@ -226,7 +534,21 @@
    "fa": "شرایط کار",
    "syn": "die Arbeitsverhältnisse, das Arbeitsumfeld",
    "de": "Die Pflegekräfte protestieren gegen schlechte Arbeitsbedingungen.",
-   "fas": "پرستاران به شرایط بد کار اعتراض می‌کنند."
+   "fas": "پرستاران به شرایط بد کار اعتراض می‌کنند.",
+   "c": [
+    [
+     "gute Arbeitsbedingungen",
+     "شرایط کاری خوب"
+    ],
+    [
+     "die Arbeitsbedingungen verbessern",
+     "شرایط کار را بهبود دادن"
+    ],
+    [
+     "unter schlechten Arbeitsbedingungen",
+     "در شرایط کاری بد"
+    ]
+   ]
   },
   {
    "id": "L111-24",
@@ -235,7 +557,21 @@
    "fa": "تعادل کار و زندگی",
    "syn": "das Gleichgewicht zwischen Beruf und Privatleben",
    "de": "Junge Bewerber legen großen Wert auf eine gute Work-Life-Balance.",
-   "fas": "متقاضیان جوان برای تعادل خوب کار و زندگی اهمیت زیادی قائل‌اند."
+   "fas": "متقاضیان جوان برای تعادل خوب کار و زندگی اهمیت زیادی قائل‌اند.",
+   "c": [
+    [
+     "auf die Work-Life-Balance achten",
+     "به تعادل کار و زندگی توجه کردن"
+    ],
+    [
+     "eine gute Work-Life-Balance haben",
+     "تعادل خوبی بین کار و زندگی داشتن"
+    ],
+    [
+     "die Work-Life-Balance verbessern",
+     "تعادل کار و زندگی را بهتر کردن"
+    ]
+   ]
   },
   {
    "id": "L111-25",
@@ -244,7 +580,21 @@
    "fa": "فرسودگی شغلی",
    "syn": "die Erschöpfung, das Ausgebranntsein",
    "de": "Dauerhafter Stress im Job kann zu einem Burnout führen.",
-   "fas": "استرس مداوم در کار می‌تواند به فرسودگی شغلی منجر شود."
+   "fas": "استرس مداوم در کار می‌تواند به فرسودگی شغلی منجر شود.",
+   "c": [
+    [
+     "ein Burnout haben",
+     "دچار فرسودگی شغلی بودن"
+    ],
+    [
+     "an Burnout leiden",
+     "از فرسودگی شغلی رنج بردن"
+    ],
+    [
+     "einem Burnout vorbeugen",
+     "از فرسودگی شغلی پیشگیری کردن"
+    ]
+   ]
   },
   {
    "id": "L111-26",
@@ -253,7 +603,21 @@
    "fa": "آزادکار، فریلنسری",
    "syn": "selbstständig, auf Honorarbasis",
    "de": "Er arbeitet freiberuflich als Übersetzer für mehrere Verlage.",
-   "fas": "او به‌صورت آزادکار برای چند انتشارات مترجمی می‌کند."
+   "fas": "او به‌صورت آزادکار برای چند انتشارات مترجمی می‌کند.",
+   "c": [
+    [
+     "freiberuflich arbeiten",
+     "آزادکار کار کردن"
+    ],
+    [
+     "freiberuflich tätig sein",
+     "به‌صورت فریلنسری فعالیت کردن"
+    ],
+    [
+     "eine freiberufliche Tätigkeit",
+     "فعالیت آزادکاری"
+    ]
+   ]
   },
   {
    "id": "L111-27",
@@ -262,7 +626,21 @@
    "fa": "کار داوطلبانه، فعالیت افتخاری",
    "syn": "die ehrenamtliche Tätigkeit, das freiwillige Engagement",
    "de": "Neben dem Studium übt sie ein Ehrenamt beim Roten Kreuz aus.",
-   "fas": "او در کنار تحصیل در صلیب سرخ کار داوطلبانه انجام می‌دهد."
+   "fas": "او در کنار تحصیل در صلیب سرخ کار داوطلبانه انجام می‌دهد.",
+   "c": [
+    [
+     "ein Ehrenamt übernehmen",
+     "یک کار داوطلبانه به عهده گرفتن"
+    ],
+    [
+     "im Ehrenamt tätig sein",
+     "داوطلبانه فعالیت کردن"
+    ],
+    [
+     "ein Ehrenamt ausüben",
+     "کار افتخاری انجام دادن"
+    ]
+   ]
   },
   {
    "id": "L111-28",
@@ -271,7 +649,21 @@
    "fa": "فشار ضرب‌الاجل",
    "syn": "der Zeitdruck, die Hektik",
    "de": "Kurz vor dem Projektende stehen alle unter enormem Termindruck.",
-   "fas": "کمی قبل از پایان پروژه همه زیر فشار شدید ضرب‌الاجل هستند."
+   "fas": "کمی قبل از پایان پروژه همه زیر فشار شدید ضرب‌الاجل هستند.",
+   "c": [
+    [
+     "unter Termindruck stehen",
+     "زیر فشار ضرب‌الاجل بودن"
+    ],
+    [
+     "unter Termindruck arbeiten",
+     "زیر فشار زمان کار کردن"
+    ],
+    [
+     "großer Termindruck",
+     "فشار زمانی زیاد"
+    ]
+   ]
   },
   {
    "id": "L111-29",
@@ -280,7 +672,21 @@
    "fa": "مهلت فسخ قرارداد",
    "syn": "die Frist, die Auflösungsfrist",
    "de": "Die Kündigungsfrist beträgt in meinem Vertrag drei Monate.",
-   "fas": "مهلت فسخ در قرارداد من سه ماه است."
+   "fas": "مهلت فسخ در قرارداد من سه ماه است.",
+   "c": [
+    [
+     "die Kündigungsfrist einhalten",
+     "مهلت فسخ قرارداد را رعایت کردن"
+    ],
+    [
+     "eine Kündigungsfrist von drei Monaten",
+     "مهلت فسخ سه‌ماهه"
+    ],
+    [
+     "die gesetzliche Kündigungsfrist",
+     "مهلت قانونی فسخ قرارداد"
+    ]
+   ]
   },
   {
    "id": "L111-30",
@@ -289,7 +695,21 @@
    "fa": "غرامت پایان کار",
    "syn": "die Entschädigung, die Ausgleichszahlung",
    "de": "Nach 15 Jahren im Betrieb erhielt er bei der Entlassung eine hohe Abfindung.",
-   "fas": "او پس از ۱۵ سال کار در شرکت، هنگام اخراج غرامت پایان کار بالایی گرفت."
+   "fas": "او پس از ۱۵ سال کار در شرکت، هنگام اخراج غرامت پایان کار بالایی گرفت.",
+   "c": [
+    [
+     "eine Abfindung bekommen",
+     "غرامت پایان کار گرفتن"
+    ],
+    [
+     "eine Abfindung zahlen",
+     "غرامت پایان کار پرداختن"
+    ],
+    [
+     "eine hohe Abfindung",
+     "غرامت هنگفت"
+    ]
+   ]
   },
   {
    "id": "L111-31",
@@ -298,7 +718,21 @@
    "fa": "بازنشستگی",
    "syn": "die Rente, die Pension",
    "de": "Mein Vater geht nächstes Jahr in den Ruhestand.",
-   "fas": "پدرم سال آینده بازنشسته می‌شود."
+   "fas": "پدرم سال آینده بازنشسته می‌شود.",
+   "c": [
+    [
+     "in den Ruhestand gehen",
+     "بازنشسته شدن"
+    ],
+    [
+     "im Ruhestand sein",
+     "بازنشسته بودن"
+    ],
+    [
+     "der vorzeitige Ruhestand",
+     "بازنشستگی پیش از موعد"
+    ]
+   ]
   },
   {
    "id": "L111-32",
@@ -307,7 +741,21 @@
    "fa": "مرخصی والدین",
    "syn": "der Erziehungsurlaub, die Babypause",
    "de": "Immer mehr Väter nehmen nach der Geburt Elternzeit.",
-   "fas": "پدران بیشتر و بیشتری بعد از تولد فرزند مرخصی والدین می‌گیرند."
+   "fas": "پدران بیشتر و بیشتری بعد از تولد فرزند مرخصی والدین می‌گیرند.",
+   "c": [
+    [
+     "in Elternzeit gehen",
+     "به مرخصی والدین رفتن"
+    ],
+    [
+     "Elternzeit nehmen",
+     "مرخصی والدین گرفتن"
+    ],
+    [
+     "in Elternzeit sein",
+     "در مرخصی والدین بودن"
+    ]
+   ]
   },
   {
    "id": "L111-33",
@@ -316,7 +764,21 @@
    "fa": "گواهی استعلاجی، اعلام بیماری",
    "syn": "die Krankschreibung, die Arbeitsunfähigkeitsbescheinigung",
    "de": "Ab dem dritten Tag muss man dem Arbeitgeber eine Krankmeldung vorlegen.",
-   "fas": "از روز سوم باید به کارفرما گواهی استعلاجی ارائه داد."
+   "fas": "از روز سوم باید به کارفرما گواهی استعلاجی ارائه داد.",
+   "c": [
+    [
+     "eine Krankmeldung abgeben",
+     "گواهی استعلاجی تحویل دادن"
+    ],
+    [
+     "eine Krankmeldung einreichen",
+     "گواهی استعلاجی ارائه کردن"
+    ],
+    [
+     "die Krankmeldung vom Arzt",
+     "گواهی استعلاجی پزشک"
+    ]
+   ]
   },
   {
    "id": "L111-34",
@@ -325,7 +787,21 @@
    "fa": "ساعت کاری شناور",
    "syn": "flexible Arbeitszeit, die Arbeitszeitflexibilität",
    "de": "Dank Gleitzeit kann ich meine Kinder morgens selbst zur Schule bringen.",
-   "fas": "به لطف ساعت کاری شناور، می‌توانم صبح‌ها خودم بچه‌هایم را به مدرسه ببرم."
+   "fas": "به لطف ساعت کاری شناور، می‌توانم صبح‌ها خودم بچه‌هایم را به مدرسه ببرم.",
+   "c": [
+    [
+     "Gleitzeit haben",
+     "ساعت کاری شناور داشتن"
+    ],
+    [
+     "in Gleitzeit arbeiten",
+     "با ساعت کاری شناور کار کردن"
+    ],
+    [
+     "das Gleitzeitkonto",
+     "حساب ساعات کاری شناور"
+    ]
+   ]
   },
   {
    "id": "L111-35",
@@ -334,7 +810,21 @@
    "fa": "رفت‌وآمد روزانه کردن (بین خانه و محل کار)",
    "syn": "hin- und herfahren, täglich fahren",
    "de": "Sie pendelt jeden Tag eine Stunde mit dem Zug nach Frankfurt.",
-   "fas": "او هر روز یک ساعت با قطار تا فرانکفورت رفت‌وآمد می‌کند."
+   "fas": "او هر روز یک ساعت با قطار تا فرانکفورت رفت‌وآمد می‌کند.",
+   "c": [
+    [
+     "zur Arbeit pendeln",
+     "برای کار رفت‌وآمد کردن"
+    ],
+    [
+     "täglich pendeln",
+     "هر روز رفت‌وآمد کردن"
+    ],
+    [
+     "zwischen zwei Städten pendeln",
+     "بین دو شهر رفت‌وآمد کردن"
+    ]
+   ]
   },
   {
    "id": "L111-36",
@@ -343,7 +833,21 @@
    "fa": "جو کاری",
    "syn": "das Betriebsklima, die Arbeitsatmosphäre",
    "de": "Ein gutes Arbeitsklima ist vielen wichtiger als ein hohes Gehalt.",
-   "fas": "برای خیلی‌ها جو کاری خوب از حقوق بالا مهم‌تر است."
+   "fas": "برای خیلی‌ها جو کاری خوب از حقوق بالا مهم‌تر است.",
+   "c": [
+    [
+     "ein gutes Arbeitsklima",
+     "جو کاری خوب"
+    ],
+    [
+     "das Arbeitsklima verbessern",
+     "جو کاری را بهتر کردن"
+    ],
+    [
+     "das Arbeitsklima ist angespannt",
+     "جو کاری متشنج است"
+    ]
+   ]
   },
   {
    "id": "L111-37",
@@ -352,16 +856,44 @@
    "fa": "واحد منابع انسانی، کارگزینی",
    "syn": "das Personalwesen, die HR-Abteilung",
    "de": "Schicken Sie Ihre Unterlagen bitte direkt an die Personalabteilung.",
-   "fas": "لطفاً مدارکتان را مستقیماً به واحد منابع انسانی بفرستید."
+   "fas": "لطفاً مدارکتان را مستقیماً به واحد منابع انسانی بفرستید.",
+   "c": [
+    [
+     "sich an die Personalabteilung wenden",
+     "به واحد منابع انسانی مراجعه کردن"
+    ],
+    [
+     "in der Personalabteilung arbeiten",
+     "در کارگزینی کار کردن"
+    ],
+    [
+     "die Personalabteilung informieren",
+     "به واحد منابع انسانی اطلاع دادن"
+    ]
+   ]
   },
   {
    "id": "L111-38",
    "s": "A",
-   "w": "der Werdegang (nur Sg.)",
+   "w": "der Werdegang, ¨-e",
    "fa": "سوابق، مسیر شغلی و تحصیلی",
    "syn": "der Lebenslauf, die Laufbahn",
    "de": "Erzählen Sie uns bitte kurz etwas über Ihren beruflichen Werdegang.",
-   "fas": "لطفاً به‌طور خلاصه درباره‌ی سوابق شغلی‌تان برایمان بگویید."
+   "fas": "لطفاً به‌طور خلاصه درباره‌ی سوابق شغلی‌تان برایمان بگویید.",
+   "c": [
+    [
+     "der berufliche Werdegang",
+     "مسیر شغلی"
+    ],
+    [
+     "der schulische Werdegang",
+     "مسیر تحصیلی"
+    ],
+    [
+     "seinen Werdegang beschreiben",
+     "سوابق خود را شرح دادن"
+    ]
+   ]
   },
   {
    "id": "L111-39",
@@ -370,7 +902,21 @@
    "fa": "نامه‌ی درخواست کار (کاور لتر)",
    "syn": "das Bewerbungsschreiben, das Motivationsschreiben",
    "de": "Im Anschreiben sollten Sie erklären, warum Sie die Stelle interessiert.",
-   "fas": "در نامه‌ی درخواست کار باید توضیح دهید چرا این شغل برایتان جالب است."
+   "fas": "در نامه‌ی درخواست کار باید توضیح دهید چرا این شغل برایتان جالب است.",
+   "c": [
+    [
+     "ein Anschreiben verfassen",
+     "نامه‌ی درخواست کار نوشتن"
+    ],
+    [
+     "im Anschreiben erwähnen",
+     "در کاور لتر ذکر کردن"
+    ],
+    [
+     "Anschreiben und Lebenslauf",
+     "کاور لتر و رزومه"
+    ]
+   ]
   },
   {
    "id": "L111-40",
@@ -379,7 +925,21 @@
    "fa": "صلاحیت، شایستگی برای",
    "syn": "die Befähigung, die Qualifikation",
    "de": "Im Test wird Ihre Eignung für den Pilotenberuf geprüft.",
-   "fas": "در این آزمون صلاحیت شما برای شغل خلبانی بررسی می‌شود."
+   "fas": "در این آزمون صلاحیت شما برای شغل خلبانی بررسی می‌شود.",
+   "c": [
+    [
+     "die Eignung für den Beruf",
+     "صلاحیت برای شغل"
+    ],
+    [
+     "die Eignung prüfen",
+     "صلاحیت را بررسی کردن"
+    ],
+    [
+     "die fachliche Eignung",
+     "صلاحیت تخصصی"
+    ]
+   ]
   },
   {
    "id": "L111-41",
@@ -388,7 +948,21 @@
    "fa": "هدفمند، مصمم",
    "syn": "ehrgeizig, entschlossen",
    "de": "Sie hat ihr Studium sehr zielstrebig in nur sechs Semestern abgeschlossen.",
-   "fas": "او تحصیلاتش را بسیار مصممانه فقط در شش ترم تمام کرد."
+   "fas": "او تحصیلاتش را بسیار مصممانه فقط در شش ترم تمام کرد.",
+   "c": [
+    [
+     "zielstrebig arbeiten",
+     "هدفمند کار کردن"
+    ],
+    [
+     "ein zielstrebiger Mensch",
+     "آدمی مصمم و هدفمند"
+    ],
+    [
+     "zielstrebig auf etwas hinarbeiten",
+     "با جدیت برای چیزی تلاش کردن"
+    ]
+   ]
   },
   {
    "id": "L111-42",
@@ -397,7 +971,21 @@
    "fa": "آمادگی برای تلاش، تعهد کاری",
    "syn": "das Engagement, die Leistungsbereitschaft",
    "de": "Wir danken allen Mitarbeitern für ihre große Einsatzbereitschaft.",
-   "fas": "از همه‌ی کارکنان برای تعهد کاری زیادشان سپاسگزاریم."
+   "fas": "از همه‌ی کارکنان برای تعهد کاری زیادشان سپاسگزاریم.",
+   "c": [
+    [
+     "hohe Einsatzbereitschaft zeigen",
+     "تعهد کاری بالایی نشان دادن"
+    ],
+    [
+     "Einsatzbereitschaft erwarten",
+     "آمادگی برای تلاش را انتظار داشتن"
+    ],
+    [
+     "mit großer Einsatzbereitschaft",
+     "با تعهد زیاد"
+    ]
+   ]
   },
   {
    "id": "L111-43",
@@ -406,7 +994,21 @@
    "fa": "فرد واردشده از رشته‌ی دیگر",
    "syn": "der Seiteneinsteiger, der Branchenwechsler",
    "de": "Wegen des Lehrermangels stellen die Schulen auch Quereinsteiger ein.",
-   "fas": "به دلیل کمبود معلم، مدارس افراد واردشده از رشته‌های دیگر را هم استخدام می‌کنند."
+   "fas": "به دلیل کمبود معلم، مدارس افراد واردشده از رشته‌های دیگر را هم استخدام می‌کنند.",
+   "c": [
+    [
+     "als Quereinsteiger anfangen",
+     "به‌عنوان فردی از رشته‌ی دیگر شروع کردن"
+    ],
+    [
+     "Quereinsteiger willkommen",
+     "از افراد سایر رشته‌ها استقبال می‌شود"
+    ],
+    [
+     "der Quereinstieg in den Beruf",
+     "ورود به شغل از رشته‌ی دیگر"
+    ]
+   ]
   },
   {
    "id": "L111-44",
@@ -415,7 +1017,21 @@
    "fa": "بازآموزی برای شغل جدید",
    "syn": "die Neuqualifizierung, die berufliche Neuorientierung",
    "de": "Nach seinem Unfall machte er eine Umschulung zum Bürokaufmann.",
-   "fas": "بعد از تصادفش، دوره‌ی بازآموزی کارمند اداری را گذراند."
+   "fas": "بعد از تصادفش، دوره‌ی بازآموزی کارمند اداری را گذراند.",
+   "c": [
+    [
+     "eine Umschulung machen",
+     "دوره‌ی بازآموزی گذراندن"
+    ],
+    [
+     "eine Umschulung zum Elektriker",
+     "بازآموزی برای برق‌کاری"
+    ],
+    [
+     "die Umschulung finanzieren",
+     "هزینه‌ی بازآموزی را پرداختن"
+    ]
+   ]
   },
   {
    "id": "L111-45",
@@ -424,7 +1040,21 @@
    "fa": "کار پیمانکاری (اجاره‌ی نیروی کار)",
    "syn": "die Zeitarbeit, die Arbeitnehmerüberlassung",
    "de": "Kritiker meinen, dass Leiharbeit reguläre Arbeitsplätze verdrängt.",
-   "fas": "منتقدان معتقدند کار پیمانکاری جای شغل‌های عادی را می‌گیرد."
+   "fas": "منتقدان معتقدند کار پیمانکاری جای شغل‌های عادی را می‌گیرد.",
+   "c": [
+    [
+     "in Leiharbeit beschäftigt sein",
+     "به‌صورت پیمانکاری استخدام بودن"
+    ],
+    [
+     "über Leiharbeit arbeiten",
+     "از طریق شرکت تأمین نیرو کار کردن"
+    ],
+    [
+     "die Leiharbeit begrenzen",
+     "کار پیمانکاری را محدود کردن"
+    ]
+   ]
   },
   {
    "id": "L111-46",
@@ -433,7 +1063,21 @@
    "fa": "استخدام رسمی و دائم",
    "syn": "die feste Stelle, das unbefristete Arbeitsverhältnis",
    "de": "Nach dem Praktikum hofft er auf eine Festanstellung in der Firma.",
-   "fas": "او بعد از کارآموزی امیدوار است در شرکت استخدام رسمی شود."
+   "fas": "او بعد از کارآموزی امیدوار است در شرکت استخدام رسمی شود.",
+   "c": [
+    [
+     "eine Festanstellung bekommen",
+     "استخدام دائم گرفتن"
+    ],
+    [
+     "eine Festanstellung suchen",
+     "دنبال استخدام رسمی بودن"
+    ],
+    [
+     "in Festanstellung arbeiten",
+     "با استخدام رسمی کار کردن"
+    ]
+   ]
   },
   {
    "id": "L111-47",
@@ -442,7 +1086,21 @@
    "fa": "حقوق درخواستی",
    "syn": "der Gehaltswunsch, die Gehaltserwartung",
    "de": "Bitte nennen Sie in Ihrer Bewerbung auch Ihre Gehaltsvorstellung.",
-   "fas": "لطفاً در درخواستتان حقوق درخواستی خود را هم ذکر کنید."
+   "fas": "لطفاً در درخواستتان حقوق درخواستی خود را هم ذکر کنید.",
+   "c": [
+    [
+     "die Gehaltsvorstellung angeben",
+     "حقوق درخواستی را ذکر کردن"
+    ],
+    [
+     "eine realistische Gehaltsvorstellung",
+     "حقوق درخواستی واقع‌بینانه"
+    ],
+    [
+     "nach der Gehaltsvorstellung fragen",
+     "درباره‌ی حقوق درخواستی پرسیدن"
+    ]
+   ]
   },
   {
    "id": "L111-48",
@@ -451,7 +1109,21 @@
    "fa": "سفر کاری، مأموریت اداری",
    "syn": "die Geschäftsreise, die Dienstfahrt",
    "de": "Die Kosten für die Dienstreise übernimmt selbstverständlich die Firma.",
-   "fas": "هزینه‌های سفر کاری را طبیعتاً شرکت می‌پردازد."
+   "fas": "هزینه‌های سفر کاری را طبیعتاً شرکت می‌پردازد.",
+   "c": [
+    [
+     "auf Dienstreise sein",
+     "در سفر کاری بودن"
+    ],
+    [
+     "eine Dienstreise machen",
+     "سفر کاری رفتن"
+    ],
+    [
+     "die Kosten der Dienstreise",
+     "هزینه‌های سفر کاری"
+    ]
+   ]
   },
   {
    "id": "L111-49",
@@ -460,7 +1132,21 @@
    "fa": "مسئولیت، حیطه‌ی اختیار",
    "syn": "die Verantwortlichkeit, die Kompetenz",
    "de": "Die Zuständigkeiten im Team sollten von Anfang an klar geregelt sein.",
-   "fas": "مسئولیت‌ها در تیم باید از همان ابتدا روشن تعیین شوند."
+   "fas": "مسئولیت‌ها در تیم باید از همان ابتدا روشن تعیین شوند.",
+   "c": [
+    [
+     "in jemandes Zuständigkeit fallen",
+     "در حیطه‌ی مسئولیت کسی بودن"
+    ],
+    [
+     "die Zuständigkeit klären",
+     "مسئولیت را روشن کردن"
+    ],
+    [
+     "klare Zuständigkeiten",
+     "مسئولیت‌های مشخص"
+    ]
+   ]
   },
   {
    "id": "L111-50",
@@ -469,7 +1155,21 @@
    "fa": "دستور جلسه",
    "syn": "die Agenda, das Programm",
    "de": "Als erster Punkt steht das neue Budget auf der Tagesordnung.",
-   "fas": "اولین موضوع دستور جلسه، بودجه‌ی جدید است."
+   "fas": "اولین موضوع دستور جلسه، بودجه‌ی جدید است.",
+   "c": [
+    [
+     "auf der Tagesordnung stehen",
+     "در دستور جلسه بودن"
+    ],
+    [
+     "zur Tagesordnung übergehen",
+     "به دستور جلسه پرداختن، از موضوع گذشتن"
+    ],
+    [
+     "etwas auf die Tagesordnung setzen",
+     "چیزی را در دستور جلسه گذاشتن"
+    ]
+   ]
   },
   {
    "id": "L111-51",
@@ -478,7 +1178,21 @@
    "fa": "حمایت قانونی در برابر اخراج",
    "syn": "der Schutz vor Entlassung, die Arbeitsplatzsicherheit",
    "de": "Schwangere Frauen genießen in Deutschland einen besonderen Kündigungsschutz.",
-   "fas": "زنان باردار در آلمان از حمایت ویژه در برابر اخراج برخوردارند."
+   "fas": "زنان باردار در آلمان از حمایت ویژه در برابر اخراج برخوردارند.",
+   "c": [
+    [
+     "Kündigungsschutz genießen",
+     "از حمایت در برابر اخراج برخوردار بودن"
+    ],
+    [
+     "der gesetzliche Kündigungsschutz",
+     "حمایت قانونی در برابر اخراج"
+    ],
+    [
+     "unter Kündigungsschutz stehen",
+     "تحت حمایت در برابر اخراج بودن"
+    ]
+   ]
   },
   {
    "id": "L111-52",
@@ -487,7 +1201,21 @@
    "fa": "آزار و اذیت روانی در محیط کار",
    "syn": "die Schikane, die Ausgrenzung",
    "de": "Viele Opfer von Mobbing trauen sich nicht, darüber zu sprechen.",
-   "fas": "بسیاری از قربانیان آزار روانی در محیط کار جرئت نمی‌کنند درباره‌اش حرف بزنند."
+   "fas": "بسیاری از قربانیان آزار روانی در محیط کار جرئت نمی‌کنند درباره‌اش حرف بزنند.",
+   "c": [
+    [
+     "Opfer von Mobbing werden",
+     "قربانی آزار در محیط کار شدن"
+    ],
+    [
+     "gegen Mobbing vorgehen",
+     "علیه آزار روانی اقدام کردن"
+    ],
+    [
+     "Mobbing am Arbeitsplatz",
+     "آزار روانی در محل کار"
+    ]
+   ]
   },
   {
    "id": "L111-53",
@@ -496,7 +1224,21 @@
    "fa": "ناتوان از کار، از کار افتاده",
    "syn": "krankgeschrieben, dienstunfähig",
    "de": "Nach der Operation war er sechs Wochen arbeitsunfähig.",
-   "fas": "بعد از جراحی، شش هفته قادر به کار نبود."
+   "fas": "بعد از جراحی، شش هفته قادر به کار نبود.",
+   "c": [
+    [
+     "arbeitsunfähig sein",
+     "ناتوان از کار بودن"
+    ],
+    [
+     "jemanden arbeitsunfähig schreiben",
+     "برای کسی گواهی ناتوانی از کار نوشتن"
+    ],
+    [
+     "dauerhaft arbeitsunfähig",
+     "برای همیشه از کار افتاده"
+    ]
+   ]
   },
   {
    "id": "L111-54",
@@ -505,7 +1247,21 @@
    "fa": "مستقل و با مسئولیت شخصی",
    "syn": "selbstständig, autonom",
    "de": "In unserem Unternehmen arbeiten die Teams weitgehend eigenverantwortlich.",
-   "fas": "در شرکت ما تیم‌ها تا حد زیادی مستقل و با مسئولیت خودشان کار می‌کنند."
+   "fas": "در شرکت ما تیم‌ها تا حد زیادی مستقل و با مسئولیت خودشان کار می‌کنند.",
+   "c": [
+    [
+     "eigenverantwortlich arbeiten",
+     "مستقل و با مسئولیت خود کار کردن"
+    ],
+    [
+     "eigenverantwortlich handeln",
+     "با مسئولیت شخصی عمل کردن"
+    ],
+    [
+     "eigenverantwortliches Lernen",
+     "یادگیری مستقل"
+    ]
+   ]
   },
   {
    "id": "L111-55",
@@ -514,7 +1270,21 @@
    "fa": "به (کاری) پرداختن، مشغول بودن به",
    "syn": "ausüben, betreiben",
    "de": "Neben ihrem Hauptberuf geht sie noch einer kleinen Nebentätigkeit nach.",
-   "fas": "او در کنار شغل اصلی‌اش به یک کار جانبی کوچک هم مشغول است."
+   "fas": "او در کنار شغل اصلی‌اش به یک کار جانبی کوچک هم مشغول است.",
+   "c": [
+    [
+     "einer Tätigkeit nachgehen",
+     "به کاری مشغول بودن"
+    ],
+    [
+     "einer Arbeit nachgehen",
+     "کار کردن، شغلی داشتن"
+    ],
+    [
+     "einem Hobby nachgehen",
+     "به سرگرمی پرداختن"
+    ]
+   ]
   },
   {
    "id": "L111-56",
@@ -523,7 +1293,21 @@
    "fa": "وضعیت اقتصادی، رونق اقتصادی",
    "syn": "die Wirtschaftslage, die Wirtschaftsentwicklung",
    "de": "Die Konjunktur hat sich im letzten Quartal deutlich abgeschwächt.",
-   "fas": "وضعیت اقتصادی در سه‌ماهه‌ی گذشته به‌وضوح تضعیف شده است."
+   "fas": "وضعیت اقتصادی در سه‌ماهه‌ی گذشته به‌وضوح تضعیف شده است.",
+   "c": [
+    [
+     "die Konjunktur ankurbeln",
+     "اقتصاد را رونق دادن"
+    ],
+    [
+     "die Konjunktur schwächelt",
+     "اقتصاد ضعیف شده است"
+    ],
+    [
+     "Konjunktur haben",
+     "رونق داشتن، پرطرفدار بودن"
+    ]
+   ]
   },
   {
    "id": "L111-57",
@@ -532,7 +1316,21 @@
    "fa": "رکود اقتصادی",
    "syn": "der Abschwung, die Wirtschaftskrise",
    "de": "Experten befürchten, dass das Land in eine Rezession rutscht.",
-   "fas": "کارشناسان نگران‌اند که کشور به سمت رکود اقتصادی برود."
+   "fas": "کارشناسان نگران‌اند که کشور به سمت رکود اقتصادی برود.",
+   "c": [
+    [
+     "in eine Rezession geraten",
+     "دچار رکود شدن"
+    ],
+    [
+     "eine tiefe Rezession",
+     "رکود شدید"
+    ],
+    [
+     "die Rezession überwinden",
+     "رکود را پشت سر گذاشتن"
+    ]
+   ]
   },
   {
    "id": "L111-58",
@@ -541,7 +1339,21 @@
    "fa": "تورم",
    "syn": "die Geldentwertung, die Teuerung",
    "de": "Wegen der hohen Inflation können sich viele Familien weniger leisten.",
-   "fas": "به دلیل تورم بالا، بسیاری از خانواده‌ها توان خرید کمتری دارند."
+   "fas": "به دلیل تورم بالا، بسیاری از خانواده‌ها توان خرید کمتری دارند.",
+   "c": [
+    [
+     "die Inflation steigt",
+     "تورم بالا می‌رود"
+    ],
+    [
+     "die Inflation bekämpfen",
+     "با تورم مبارزه کردن"
+    ],
+    [
+     "eine hohe Inflation",
+     "تورم بالا"
+    ]
+   ]
   },
   {
    "id": "L111-59",
@@ -550,7 +1362,21 @@
    "fa": "رشد اقتصادی",
    "syn": "der Aufschwung, die wirtschaftliche Expansion",
    "de": "Die Regierung rechnet für das kommende Jahr mit einem geringen Wirtschaftswachstum.",
-   "fas": "دولت برای سال آینده رشد اقتصادی اندکی را پیش‌بینی می‌کند."
+   "fas": "دولت برای سال آینده رشد اقتصادی اندکی را پیش‌بینی می‌کند.",
+   "c": [
+    [
+     "das Wirtschaftswachstum fördern",
+     "رشد اقتصادی را تقویت کردن"
+    ],
+    [
+     "ein starkes Wirtschaftswachstum",
+     "رشد اقتصادی قوی"
+    ],
+    [
+     "das Wirtschaftswachstum bremsen",
+     "رشد اقتصادی را کند کردن"
+    ]
+   ]
   },
   {
    "id": "L111-60",
@@ -559,7 +1385,21 @@
    "fa": "فروش، گردش مالی",
    "syn": "der Erlös, die Einnahmen",
    "de": "Der Umsatz des Unternehmens ist um zehn Prozent gestiegen.",
-   "fas": "گردش مالی شرکت ده درصد افزایش یافته است."
+   "fas": "گردش مالی شرکت ده درصد افزایش یافته است.",
+   "c": [
+    [
+     "den Umsatz steigern",
+     "فروش را افزایش دادن"
+    ],
+    [
+     "Umsatz machen",
+     "فروش داشتن، درآمد کسب کردن"
+    ],
+    [
+     "der Umsatz sinkt",
+     "فروش کاهش می‌یابد"
+    ]
+   ]
   },
   {
    "id": "L111-61",
@@ -568,7 +1408,21 @@
    "fa": "سهام",
    "syn": "das Wertpapier, der Anteilsschein",
    "de": "Er hat einen Teil seines Geldes in Aktien angelegt.",
-   "fas": "او بخشی از پولش را در سهام سرمایه‌گذاری کرده است."
+   "fas": "او بخشی از پولش را در سهام سرمایه‌گذاری کرده است.",
+   "c": [
+    [
+     "Aktien kaufen",
+     "سهام خریدن"
+    ],
+    [
+     "in Aktien investieren",
+     "در سهام سرمایه‌گذاری کردن"
+    ],
+    [
+     "die Aktie steigt",
+     "ارزش سهام بالا می‌رود"
+    ]
+   ]
   },
   {
    "id": "L111-62",
@@ -577,7 +1431,21 @@
    "fa": "بورس",
    "syn": "der Aktienmarkt, der Finanzmarkt",
    "de": "Nach der Nachricht fielen die Kurse an der Börse stark.",
-   "fas": "پس از این خبر، قیمت‌ها در بورس به‌شدت سقوط کرد."
+   "fas": "پس از این خبر، قیمت‌ها در بورس به‌شدت سقوط کرد.",
+   "c": [
+    [
+     "an der Börse handeln",
+     "در بورس معامله کردن"
+    ],
+    [
+     "an die Börse gehen",
+     "وارد بورس شدن"
+    ],
+    [
+     "die Börse bricht ein",
+     "بورس سقوط می‌کند"
+    ]
+   ]
   },
   {
    "id": "L111-63",
@@ -586,7 +1454,21 @@
    "fa": "سرمایه‌گذار",
    "syn": "der Investor, der Kapitalgeber",
    "de": "Viele Anleger suchen in Krisenzeiten sichere Geldanlagen wie Gold.",
-   "fas": "بسیاری از سرمایه‌گذاران در زمان بحران دنبال سرمایه‌گذاری‌های امن مثل طلا هستند."
+   "fas": "بسیاری از سرمایه‌گذاران در زمان بحران دنبال سرمایه‌گذاری‌های امن مثل طلا هستند.",
+   "c": [
+    [
+     "Anleger verunsichern",
+     "سرمایه‌گذاران را نگران کردن"
+    ],
+    [
+     "private Anleger",
+     "سرمایه‌گذاران خرد"
+    ],
+    [
+     "Anleger ziehen ihr Geld ab",
+     "سرمایه‌گذاران پولشان را بیرون می‌کشند"
+    ]
+   ]
   },
   {
    "id": "L111-64",
@@ -595,7 +1477,21 @@
    "fa": "سرمایه‌گذاری",
    "syn": "die Kapitalanlage, die Geldanlage",
    "de": "Die Investition in erneuerbare Energien soll neue Arbeitsplätze schaffen.",
-   "fas": "قرار است سرمایه‌گذاری در انرژی‌های تجدیدپذیر شغل‌های جدیدی ایجاد کند."
+   "fas": "قرار است سرمایه‌گذاری در انرژی‌های تجدیدپذیر شغل‌های جدیدی ایجاد کند.",
+   "c": [
+    [
+     "eine Investition tätigen",
+     "سرمایه‌گذاری انجام دادن"
+    ],
+    [
+     "eine lohnende Investition",
+     "سرمایه‌گذاری ارزشمند"
+    ],
+    [
+     "Investitionen in die Bildung",
+     "سرمایه‌گذاری در آموزش"
+    ]
+   ]
   },
   {
    "id": "L111-65",
@@ -604,7 +1500,21 @@
    "fa": "سرمایه‌گذاری کردن در",
    "syn": "anlegen in, Geld stecken in",
    "de": "Die Firma investiert jedes Jahr Millionen in die Forschung.",
-   "fas": "این شرکت هر سال میلیون‌ها یورو در پژوهش سرمایه‌گذاری می‌کند."
+   "fas": "این شرکت هر سال میلیون‌ها یورو در پژوهش سرمایه‌گذاری می‌کند.",
+   "c": [
+    [
+     "in Aktien investieren",
+     "در سهام سرمایه‌گذاری کردن"
+    ],
+    [
+     "Zeit investieren in + A",
+     "وقت گذاشتن روی"
+    ],
+    [
+     "viel Geld investieren",
+     "پول زیادی سرمایه‌گذاری کردن"
+    ]
+   ]
   },
   {
    "id": "L111-66",
@@ -613,7 +1523,21 @@
    "fa": "وام",
    "syn": "der Kredit, die Anleihe",
    "de": "Für den Hauskauf haben sie ein Darlehen bei der Bank aufgenommen.",
-   "fas": "برای خرید خانه از بانک وام گرفتند."
+   "fas": "برای خرید خانه از بانک وام گرفتند.",
+   "c": [
+    [
+     "ein Darlehen aufnehmen",
+     "وام گرفتن"
+    ],
+    [
+     "ein Darlehen gewähren",
+     "وام دادن"
+    ],
+    [
+     "ein zinsloses Darlehen",
+     "وام بدون بهره"
+    ]
+   ]
   },
   {
    "id": "L111-67",
@@ -622,7 +1546,21 @@
    "fa": "بدهکاری، میزان بدهی",
    "syn": "die Schuldenlast, die Überschuldung",
    "de": "Die Verschuldung vieler junger Menschen nimmt durch Ratenkäufe zu.",
-   "fas": "بدهکاری بسیاری از جوانان به دلیل خریدهای قسطی رو به افزایش است."
+   "fas": "بدهکاری بسیاری از جوانان به دلیل خریدهای قسطی رو به افزایش است.",
+   "c": [
+    [
+     "die Verschuldung steigt",
+     "بدهی افزایش می‌یابد"
+    ],
+    [
+     "die Verschuldung abbauen",
+     "بدهی را کاهش دادن"
+    ],
+    [
+     "eine hohe Verschuldung",
+     "بدهی بالا"
+    ]
+   ]
   },
   {
    "id": "L111-68",
@@ -631,7 +1569,21 @@
    "fa": "گروه شرکت‌ها، کنسرن",
    "syn": "das Großunternehmen, der Großkonzern",
    "de": "Der Konzern beschäftigt weltweit über 100.000 Mitarbeiter.",
-   "fas": "این گروه شرکت‌ها در سراسر جهان بیش از ۱۰۰ هزار کارمند دارد."
+   "fas": "این گروه شرکت‌ها در سراسر جهان بیش از ۱۰۰ هزار کارمند دارد.",
+   "c": [
+    [
+     "ein internationaler Konzern",
+     "شرکت چندملیتی"
+    ],
+    [
+     "für einen Konzern arbeiten",
+     "برای یک کنسرن کار کردن"
+    ],
+    [
+     "zu einem Konzern gehören",
+     "متعلق به یک گروه شرکت بودن"
+    ]
+   ]
   },
   {
    "id": "L111-69",
@@ -640,7 +1592,21 @@
    "fa": "شرکت‌های کوچک و متوسط",
    "syn": "die kleinen und mittleren Unternehmen, die KMU",
    "de": "Der Mittelstand gilt als Rückgrat der deutschen Wirtschaft.",
-   "fas": "شرکت‌های کوچک و متوسط ستون فقرات اقتصاد آلمان به شمار می‌آیند."
+   "fas": "شرکت‌های کوچک و متوسط ستون فقرات اقتصاد آلمان به شمار می‌آیند.",
+   "c": [
+    [
+     "der deutsche Mittelstand",
+     "شرکت‌های کوچک و متوسط آلمان"
+    ],
+    [
+     "den Mittelstand stärken",
+     "شرکت‌های کوچک و متوسط را تقویت کردن"
+    ],
+    [
+     "zum Mittelstand gehören",
+     "جزو شرکت‌های متوسط بودن"
+    ]
+   ]
   },
   {
    "id": "L111-70",
@@ -649,7 +1615,21 @@
    "fa": "راه‌اندازی کسب‌وکار",
    "syn": "die Unternehmensgründung, das Start-up",
    "de": "Der Staat fördert Existenzgründungen mit günstigen Krediten.",
-   "fas": "دولت از راه‌اندازی کسب‌وکار با وام‌های کم‌بهره حمایت می‌کند."
+   "fas": "دولت از راه‌اندازی کسب‌وکار با وام‌های کم‌بهره حمایت می‌کند.",
+   "c": [
+    [
+     "die Existenzgründung fördern",
+     "راه‌اندازی کسب‌وکار را حمایت کردن"
+    ],
+    [
+     "Beratung zur Existenzgründung",
+     "مشاوره‌ی راه‌اندازی کسب‌وکار"
+    ],
+    [
+     "eine Existenzgründung planen",
+     "راه‌اندازی کسب‌وکار را برنامه‌ریزی کردن"
+    ]
+   ]
   },
   {
    "id": "L111-71",
@@ -658,7 +1638,21 @@
    "fa": "سهم بازار",
    "syn": "die Marktposition, die Marktstellung",
    "de": "Das Start-up konnte seinen Marktanteil innerhalb eines Jahres verdoppeln.",
-   "fas": "این استارتاپ توانست در عرض یک سال سهم بازارش را دو برابر کند."
+   "fas": "این استارتاپ توانست در عرض یک سال سهم بازارش را دو برابر کند.",
+   "c": [
+    [
+     "Marktanteile gewinnen",
+     "سهم بازار به دست آوردن"
+    ],
+    [
+     "Marktanteile verlieren",
+     "سهم بازار را از دست دادن"
+    ],
+    [
+     "einen hohen Marktanteil haben",
+     "سهم بازار بالایی داشتن"
+    ]
+   ]
   },
   {
    "id": "L111-72",
@@ -667,7 +1661,21 @@
    "fa": "زنجیره‌ی تأمین",
    "syn": "die Versorgungskette, die Wertschöpfungskette",
    "de": "Durch die Krise wurden weltweit viele Lieferketten unterbrochen.",
-   "fas": "به دلیل بحران، زنجیره‌های تأمین زیادی در سراسر جهان قطع شد."
+   "fas": "به دلیل بحران، زنجیره‌های تأمین زیادی در سراسر جهان قطع شد.",
+   "c": [
+    [
+     "die Lieferkette unterbrechen",
+     "زنجیره‌ی تأمین را قطع کردن"
+    ],
+    [
+     "Störungen in der Lieferkette",
+     "اختلال در زنجیره‌ی تأمین"
+    ],
+    [
+     "eine globale Lieferkette",
+     "زنجیره‌ی تأمین جهانی"
+    ]
+   ]
   },
   {
    "id": "L111-73",
@@ -676,7 +1684,21 @@
    "fa": "جهانی‌شدن",
    "syn": "die weltweite Vernetzung, die Internationalisierung",
    "de": "Die Globalisierung hat Gewinner und Verlierer hervorgebracht.",
-   "fas": "جهانی‌شدن برندگان و بازندگانی به وجود آورده است."
+   "fas": "جهانی‌شدن برندگان و بازندگانی به وجود آورده است.",
+   "c": [
+    [
+     "die Folgen der Globalisierung",
+     "پیامدهای جهانی‌شدن"
+    ],
+    [
+     "im Zuge der Globalisierung",
+     "در روند جهانی‌شدن"
+    ],
+    [
+     "Gewinner der Globalisierung",
+     "برندگان جهانی‌شدن"
+    ]
+   ]
   },
   {
    "id": "L111-74",
@@ -685,7 +1707,21 @@
    "fa": "ورشکستگی",
    "syn": "die Zahlungsunfähigkeit, der Bankrott",
    "de": "Das Traditionsunternehmen musste im Frühjahr Insolvenz anmelden.",
-   "fas": "این شرکت قدیمی مجبور شد در بهار اعلام ورشکستگی کند."
+   "fas": "این شرکت قدیمی مجبور شد در بهار اعلام ورشکستگی کند.",
+   "c": [
+    [
+     "Insolvenz anmelden",
+     "اعلام ورشکستگی کردن"
+    ],
+    [
+     "vor der Insolvenz stehen",
+     "در آستانه‌ی ورشکستگی بودن"
+    ],
+    [
+     "in die Insolvenz gehen",
+     "ورشکسته شدن"
+    ]
+   ]
   },
   {
    "id": "L111-75",
@@ -694,7 +1730,21 @@
    "fa": "سرمایه",
    "syn": "das Vermögen, die finanziellen Mittel",
    "de": "Für die Gründung eines Restaurants braucht man viel Kapital.",
-   "fas": "برای راه‌اندازی رستوران به سرمایه‌ی زیادی نیاز است."
+   "fas": "برای راه‌اندازی رستوران به سرمایه‌ی زیادی نیاز است.",
+   "c": [
+    [
+     "Kapital investieren",
+     "سرمایه گذاشتن"
+    ],
+    [
+     "Kapital aus etwas schlagen",
+     "از چیزی سود بردن"
+    ],
+    [
+     "das nötige Kapital",
+     "سرمایه‌ی لازم"
+    ]
+   ]
   },
   {
    "id": "L111-76",
@@ -703,7 +1753,21 @@
    "fa": "دارایی، ثروت",
    "syn": "der Besitz, der Reichtum",
    "de": "Ein Prozent der Bevölkerung besitzt einen großen Teil des Vermögens.",
-   "fas": "یک درصد از جمعیت بخش بزرگی از ثروت را در اختیار دارد."
+   "fas": "یک درصد از جمعیت بخش بزرگی از ثروت را در اختیار دارد.",
+   "c": [
+    [
+     "ein Vermögen verdienen",
+     "ثروت هنگفتی به دست آوردن"
+    ],
+    [
+     "ein Vermögen kosten",
+     "بسیار گران بودن"
+    ],
+    [
+     "das gesamte Vermögen",
+     "کل دارایی"
+    ]
+   ]
   },
   {
    "id": "L111-77",
@@ -712,7 +1776,21 @@
    "fa": "پس‌انداز",
    "syn": "das Ersparte, die Rücklagen",
    "de": "Für ihre Weltreise hat sie alle ihre Ersparnisse ausgegeben.",
-   "fas": "او برای سفر دور دنیا همه‌ی پس‌اندازش را خرج کرد."
+   "fas": "او برای سفر دور دنیا همه‌ی پس‌اندازش را خرج کرد.",
+   "c": [
+    [
+     "die Ersparnisse aufbrauchen",
+     "پس‌اندازها را تمام کردن"
+    ],
+    [
+     "von den Ersparnissen leben",
+     "با پس‌انداز زندگی کردن"
+    ],
+    [
+     "seine Ersparnisse anlegen",
+     "پس‌انداز خود را سرمایه‌گذاری کردن"
+    ]
+   ]
   },
   {
    "id": "L111-78",
@@ -721,7 +1799,21 @@
    "fa": "رفاه",
    "syn": "der Reichtum, das Wohlergehen",
    "de": "Der Wohlstand in Europa ist nach dem Krieg stark gewachsen.",
-   "fas": "رفاه در اروپا پس از جنگ به‌شدت افزایش یافت."
+   "fas": "رفاه در اروپا پس از جنگ به‌شدت افزایش یافت.",
+   "c": [
+    [
+     "im Wohlstand leben",
+     "در رفاه زندگی کردن"
+    ],
+    [
+     "zu Wohlstand kommen",
+     "به رفاه رسیدن"
+    ],
+    [
+     "der wachsende Wohlstand",
+     "رفاه رو به رشد"
+    ]
+   ]
   },
   {
    "id": "L111-79",
@@ -730,7 +1822,21 @@
    "fa": "فقر",
    "syn": "die Not, die Bedürftigkeit",
    "de": "Trotz Arbeit leben manche Familien an der Grenze zur Armut.",
-   "fas": "برخی خانواده‌ها با وجود داشتن کار، در مرز فقر زندگی می‌کنند."
+   "fas": "برخی خانواده‌ها با وجود داشتن کار، در مرز فقر زندگی می‌کنند.",
+   "c": [
+    [
+     "in Armut leben",
+     "در فقر زندگی کردن"
+    ],
+    [
+     "die Armut bekämpfen",
+     "با فقر مبارزه کردن"
+    ],
+    [
+     "von Armut bedroht sein",
+     "در معرض فقر بودن"
+    ]
+   ]
   },
   {
    "id": "L111-80",
@@ -739,7 +1845,21 @@
    "fa": "قدرت خرید",
    "syn": "die Finanzkraft, die Konsumfähigkeit",
    "de": "Durch die steigenden Preise sinkt die Kaufkraft der Bürger.",
-   "fas": "با افزایش قیمت‌ها، قدرت خرید شهروندان کاهش می‌یابد."
+   "fas": "با افزایش قیمت‌ها، قدرت خرید شهروندان کاهش می‌یابد.",
+   "c": [
+    [
+     "die Kaufkraft steigt",
+     "قدرت خرید بالا می‌رود"
+    ],
+    [
+     "an Kaufkraft verlieren",
+     "قدرت خرید را از دست دادن"
+    ],
+    [
+     "die Kaufkraft stärken",
+     "قدرت خرید را تقویت کردن"
+    ]
+   ]
   },
   {
    "id": "L111-81",
@@ -748,7 +1868,21 @@
    "fa": "ارز، واحد پول",
    "syn": "das Zahlungsmittel, die Valuta",
    "de": "Der Euro ist die gemeinsame Währung vieler EU-Staaten.",
-   "fas": "یورو واحد پول مشترک بسیاری از کشورهای اتحادیه‌ی اروپا است."
+   "fas": "یورو واحد پول مشترک بسیاری از کشورهای اتحادیه‌ی اروپا است.",
+   "c": [
+    [
+     "eine stabile Währung",
+     "ارز باثبات"
+    ],
+    [
+     "die Währung umtauschen",
+     "ارز را تبدیل کردن"
+    ],
+    [
+     "in fremder Währung bezahlen",
+     "با ارز خارجی پرداختن"
+    ]
+   ]
   },
   {
    "id": "L111-82",
@@ -757,7 +1891,21 @@
    "fa": "نرخ ارز",
    "syn": "der Devisenkurs, der Umrechnungskurs",
    "de": "Wegen des schlechten Wechselkurses ist der Urlaub dieses Jahr teurer.",
-   "fas": "به دلیل نرخ ارز نامناسب، تعطیلات امسال گران‌تر است."
+   "fas": "به دلیل نرخ ارز نامناسب، تعطیلات امسال گران‌تر است.",
+   "c": [
+    [
+     "ein günstiger Wechselkurs",
+     "نرخ ارز مناسب"
+    ],
+    [
+     "der Wechselkurs schwankt",
+     "نرخ ارز نوسان دارد"
+    ],
+    [
+     "zum aktuellen Wechselkurs",
+     "با نرخ ارز فعلی"
+    ]
+   ]
   },
   {
    "id": "L111-83",
@@ -766,7 +1914,21 @@
    "fa": "بازده، سود سرمایه",
    "syn": "der Ertrag, der Gewinn",
    "de": "Aktien bringen langfristig meist eine höhere Rendite als ein Sparbuch.",
-   "fas": "سهام در درازمدت معمولاً بازده بیشتری از حساب پس‌انداز دارد."
+   "fas": "سهام در درازمدت معمولاً بازده بیشتری از حساب پس‌انداز دارد.",
+   "c": [
+    [
+     "eine hohe Rendite",
+     "بازده بالا"
+    ],
+    [
+     "Rendite bringen",
+     "سود دادن"
+    ],
+    [
+     "eine Rendite von fünf Prozent",
+     "بازده پنج درصدی"
+    ]
+   ]
   },
   {
    "id": "L111-84",
@@ -775,7 +1937,21 @@
    "fa": "سودآور، مقرون‌به‌صرفه",
    "syn": "profitabel, lohnend",
    "de": "Der kleine Laden ist leider nicht mehr rentabel.",
-   "fas": "متأسفانه این مغازه‌ی کوچک دیگر سودآور نیست."
+   "fas": "متأسفانه این مغازه‌ی کوچک دیگر سودآور نیست.",
+   "c": [
+    [
+     "rentabel sein",
+     "سودآور بودن"
+    ],
+    [
+     "rentabel arbeiten",
+     "با سوددهی کار کردن"
+    ],
+    [
+     "sich als rentabel erweisen",
+     "سودآور از آب درآمدن"
+    ]
+   ]
   },
   {
    "id": "L111-85",
@@ -784,7 +1960,21 @@
    "fa": "اقتصادی",
    "syn": "ökonomisch, finanziell",
    "de": "Die wirtschaftliche Lage des Landes hat sich verbessert.",
-   "fas": "وضعیت اقتصادی کشور بهتر شده است."
+   "fas": "وضعیت اقتصادی کشور بهتر شده است.",
+   "c": [
+    [
+     "die wirtschaftliche Lage",
+     "وضعیت اقتصادی"
+    ],
+    [
+     "wirtschaftlich denken",
+     "اقتصادی فکر کردن"
+    ],
+    [
+     "wirtschaftlich erfolgreich",
+     "از نظر اقتصادی موفق"
+    ]
+   ]
   },
   {
    "id": "L111-86",
@@ -793,7 +1983,21 @@
    "fa": "پایدار، ماندگار",
    "syn": "umweltverträglich, dauerhaft",
    "de": "Immer mehr Unternehmen versuchen, nachhaltig zu wirtschaften.",
-   "fas": "شرکت‌های بیشتر و بیشتری تلاش می‌کنند به‌صورت پایدار فعالیت اقتصادی کنند."
+   "fas": "شرکت‌های بیشتر و بیشتری تلاش می‌کنند به‌صورت پایدار فعالیت اقتصادی کنند.",
+   "c": [
+    [
+     "nachhaltig wirtschaften",
+     "به‌صورت پایدار اقتصاد را اداره کردن"
+    ],
+    [
+     "nachhaltige Entwicklung",
+     "توسعه‌ی پایدار"
+    ],
+    [
+     "einen nachhaltigen Eindruck hinterlassen",
+     "تأثیری ماندگار گذاشتن"
+    ]
+   ]
   },
   {
    "id": "L111-87",
@@ -802,7 +2006,21 @@
    "fa": "تولید ناخالص داخلی",
    "syn": "das BIP, die Wirtschaftsleistung",
    "de": "Das Bruttoinlandsprodukt ist im Vergleich zum Vorjahr leicht gesunken.",
-   "fas": "تولید ناخالص داخلی در مقایسه با سال قبل کمی کاهش یافته است."
+   "fas": "تولید ناخالص داخلی در مقایسه با سال قبل کمی کاهش یافته است.",
+   "c": [
+    [
+     "das Bruttoinlandsprodukt steigt",
+     "تولید ناخالص داخلی افزایش می‌یابد"
+    ],
+    [
+     "gemessen am Bruttoinlandsprodukt",
+     "نسبت به تولید ناخالص داخلی"
+    ],
+    [
+     "das Bruttoinlandsprodukt pro Kopf",
+     "تولید ناخالص داخلی سرانه"
+    ]
+   ]
   },
   {
    "id": "L111-88",
@@ -811,7 +2029,21 @@
    "fa": "بازار کار",
    "syn": "der Stellenmarkt, die Beschäftigungslage",
    "de": "Auf dem Arbeitsmarkt sind IT-Fachleute besonders gefragt.",
-   "fas": "در بازار کار، متخصصان فناوری اطلاعات به‌ویژه خواهان دارند."
+   "fas": "در بازار کار، متخصصان فناوری اطلاعات به‌ویژه خواهان دارند.",
+   "c": [
+    [
+     "die Lage auf dem Arbeitsmarkt",
+     "وضعیت بازار کار"
+    ],
+    [
+     "auf dem Arbeitsmarkt gefragt sein",
+     "در بازار کار متقاضی داشتن"
+    ],
+    [
+     "der Arbeitsmarkt entspannt sich",
+     "بازار کار آرام‌تر می‌شود"
+    ]
+   ]
   },
   {
    "id": "L111-89",
@@ -820,7 +2052,21 @@
    "fa": "بدهی دولت",
    "syn": "die Staatsschulden, die öffentliche Verschuldung",
    "de": "Die Staatsverschuldung ist durch die Krise stark gestiegen.",
-   "fas": "بدهی دولت به دلیل بحران به‌شدت افزایش یافته است."
+   "fas": "بدهی دولت به دلیل بحران به‌شدت افزایش یافته است.",
+   "c": [
+    [
+     "die Staatsverschuldung senken",
+     "بدهی دولت را کاهش دادن"
+    ],
+    [
+     "die steigende Staatsverschuldung",
+     "بدهی رو به افزایش دولت"
+    ],
+    [
+     "die Staatsverschuldung begrenzen",
+     "بدهی دولت را محدود کردن"
+    ]
+   ]
   },
   {
    "id": "L111-90",
@@ -829,7 +2075,21 @@
    "fa": "اقدام صرفه‌جویانه، ریاضت اقتصادی",
    "syn": "die Kürzung, die Einsparung",
    "de": "Die Sparmaßnahmen der Regierung treffen vor allem Familien.",
-   "fas": "اقدامات ریاضتی دولت بیش از همه به خانواده‌ها آسیب می‌زند."
+   "fas": "اقدامات ریاضتی دولت بیش از همه به خانواده‌ها آسیب می‌زند.",
+   "c": [
+    [
+     "Sparmaßnahmen ergreifen",
+     "اقدامات صرفه‌جویانه انجام دادن"
+    ],
+    [
+     "von Sparmaßnahmen betroffen sein",
+     "تحت تأثیر سیاست‌های ریاضتی بودن"
+    ],
+    [
+     "strenge Sparmaßnahmen",
+     "اقدامات ریاضتی سخت"
+    ]
+   ]
   },
   {
    "id": "L111-91",
@@ -838,7 +2098,21 @@
    "fa": "مالیات‌دهنده",
    "syn": "der Steuerpflichtige, der Bürger",
    "de": "Am Ende muss der Steuerzahler für die Rettung der Banken aufkommen.",
-   "fas": "در نهایت مالیات‌دهنده باید هزینه‌ی نجات بانک‌ها را بپردازد."
+   "fas": "در نهایت مالیات‌دهنده باید هزینه‌ی نجات بانک‌ها را بپردازد.",
+   "c": [
+    [
+     "auf Kosten der Steuerzahler",
+     "به هزینه‌ی مالیات‌دهندگان"
+    ],
+    [
+     "den Steuerzahler belasten",
+     "به مالیات‌دهنده فشار آوردن"
+    ],
+    [
+     "das Geld der Steuerzahler",
+     "پول مالیات‌دهندگان"
+    ]
+   ]
   },
   {
    "id": "L111-92",
@@ -847,7 +2121,21 @@
    "fa": "رونق، شکوفایی اقتصادی",
    "syn": "das Wachstum, der Boom",
    "de": "Nach der Krise erlebte die Wirtschaft einen kräftigen Aufschwung.",
-   "fas": "پس از بحران، اقتصاد رونق چشمگیری را تجربه کرد."
+   "fas": "پس از بحران، اقتصاد رونق چشمگیری را تجربه کرد.",
+   "c": [
+    [
+     "einen Aufschwung erleben",
+     "رونق را تجربه کردن"
+    ],
+    [
+     "der wirtschaftliche Aufschwung",
+     "رونق اقتصادی"
+    ],
+    [
+     "für Aufschwung sorgen",
+     "باعث رونق شدن"
+    ]
+   ]
   },
   {
    "id": "L111-93",
@@ -856,7 +2144,21 @@
    "fa": "بحران مالی",
    "syn": "die Wirtschaftskrise, der Finanzcrash",
    "de": "Die Finanzkrise von 2008 hatte weltweite Folgen.",
-   "fas": "بحران مالی سال ۲۰۰۸ پیامدهای جهانی داشت."
+   "fas": "بحران مالی سال ۲۰۰۸ پیامدهای جهانی داشت.",
+   "c": [
+    [
+     "in der Finanzkrise",
+     "در بحران مالی"
+    ],
+    [
+     "die Finanzkrise bewältigen",
+     "بحران مالی را پشت سر گذاشتن"
+    ],
+    [
+     "von der Finanzkrise betroffen",
+     "آسیب‌دیده از بحران مالی"
+    ]
+   ]
   },
   {
    "id": "L111-94",
@@ -865,7 +2167,21 @@
    "fa": "بازپرداخت کردن (بدهی)",
    "syn": "abbezahlen, zurückzahlen",
    "de": "Sie wollen den Kredit in zehn Jahren vollständig tilgen.",
-   "fas": "آن‌ها می‌خواهند وام را ظرف ده سال به‌طور کامل بازپرداخت کنند."
+   "fas": "آن‌ها می‌خواهند وام را ظرف ده سال به‌طور کامل بازپرداخت کنند.",
+   "c": [
+    [
+     "einen Kredit tilgen",
+     "وام را بازپرداخت کردن"
+    ],
+    [
+     "Schulden tilgen",
+     "بدهی‌ها را پرداختن"
+    ],
+    [
+     "in Raten tilgen",
+     "به‌صورت قسطی بازپرداخت کردن"
+    ]
+   ]
   },
   {
    "id": "L111-95",
@@ -874,7 +2190,21 @@
    "fa": "وام رهنی (با وثیقه‌ی ملک)",
    "syn": "das Baudarlehen, die Immobilienfinanzierung",
    "de": "Das Haus ist noch mit einer Hypothek belastet.",
-   "fas": "این خانه هنوز در رهن وام بانکی است."
+   "fas": "این خانه هنوز در رهن وام بانکی است.",
+   "c": [
+    [
+     "eine Hypothek aufnehmen",
+     "وام رهنی گرفتن"
+    ],
+    [
+     "eine Hypothek abbezahlen",
+     "وام رهنی را تسویه کردن"
+    ],
+    [
+     "mit einer Hypothek belastet",
+     "دارای رهن"
+    ]
+   ]
   },
   {
    "id": "L111-96",
@@ -883,7 +2213,21 @@
    "fa": "ناتوان از پرداخت، ورشکسته",
    "syn": "insolvent, bankrott",
    "de": "Nach monatelangen Verlusten war die Firma zahlungsunfähig.",
-   "fas": "شرکت پس از ماه‌ها زیان، توان پرداخت نداشت."
+   "fas": "شرکت پس از ماه‌ها زیان، توان پرداخت نداشت.",
+   "c": [
+    [
+     "zahlungsunfähig sein",
+     "ناتوان از پرداخت بودن"
+    ],
+    [
+     "sich für zahlungsunfähig erklären",
+     "اعلام ناتوانی از پرداخت کردن"
+    ],
+    [
+     "zahlungsunfähig werden",
+     "ورشکسته شدن"
+    ]
+   ]
   },
   {
    "id": "L111-97",
@@ -892,7 +2236,21 @@
    "fa": "اوراق بهادار",
    "syn": "die Aktie, die Anleihe",
    "de": "Die Bank berät ihre Kunden beim Kauf von Wertpapieren.",
-   "fas": "بانک مشتریانش را در خرید اوراق بهادار راهنمایی می‌کند."
+   "fas": "بانک مشتریانش را در خرید اوراق بهادار راهنمایی می‌کند.",
+   "c": [
+    [
+     "in Wertpapiere investieren",
+     "در اوراق بهادار سرمایه‌گذاری کردن"
+    ],
+    [
+     "Wertpapiere kaufen",
+     "اوراق بهادار خریدن"
+    ],
+    [
+     "mit Wertpapieren handeln",
+     "اوراق بهادار معامله کردن"
+    ]
+   ]
   },
   {
    "id": "L111-98",
@@ -901,7 +2259,21 @@
    "fa": "برون‌سپاری کردن",
    "syn": "verlagern, outsourcen",
    "de": "Viele Firmen lagern ihre Produktion in Länder mit niedrigen Löhnen aus.",
-   "fas": "بسیاری از شرکت‌ها تولیدشان را به کشورهایی با دستمزد پایین منتقل می‌کنند."
+   "fas": "بسیاری از شرکت‌ها تولیدشان را به کشورهایی با دستمزد پایین منتقل می‌کنند.",
+   "c": [
+    [
+     "die Produktion auslagern",
+     "تولید را برون‌سپاری کردن"
+    ],
+    [
+     "ins Ausland auslagern",
+     "به خارج از کشور منتقل کردن"
+    ],
+    [
+     "Daten auslagern",
+     "داده‌ها را به جای دیگری منتقل کردن"
+    ]
+   ]
   },
   {
    "id": "L111-99",
@@ -910,7 +2282,21 @@
    "fa": "ماده‌ی خام",
    "syn": "das Rohmaterial, die Ressource",
    "de": "Deutschland muss viele Rohstoffe aus dem Ausland importieren.",
-   "fas": "آلمان باید بسیاری از مواد خام را از خارج وارد کند."
+   "fas": "آلمان باید بسیاری از مواد خام را از خارج وارد کند.",
+   "c": [
+    [
+     "Rohstoffe gewinnen",
+     "مواد خام استخراج کردن"
+    ],
+    [
+     "knappe Rohstoffe",
+     "مواد خام کمیاب"
+    ],
+    [
+     "reich an Rohstoffen",
+     "غنی از مواد خام"
+    ]
+   ]
   },
   {
    "id": "L111-100",
@@ -919,7 +2305,21 @@
    "fa": "خدمات",
    "syn": "der Service, die Leistung",
    "de": "Der Anteil der Dienstleistungen an der Wirtschaft wächst ständig.",
-   "fas": "سهم خدمات در اقتصاد پیوسته در حال افزایش است."
+   "fas": "سهم خدمات در اقتصاد پیوسته در حال افزایش است.",
+   "c": [
+    [
+     "eine Dienstleistung anbieten",
+     "خدماتی ارائه کردن"
+    ],
+    [
+     "Dienstleistungen in Anspruch nehmen",
+     "از خدمات استفاده کردن"
+    ],
+    [
+     "Waren und Dienstleistungen",
+     "کالاها و خدمات"
+    ]
+   ]
   },
   {
    "id": "L111-101",
@@ -928,7 +2328,21 @@
    "fa": "محاسبه کردن، برآورد کردن",
    "syn": "berechnen, veranschlagen",
    "de": "Wir müssen die Kosten für das Projekt genau kalkulieren.",
-   "fas": "باید هزینه‌های پروژه را دقیق برآورد کنیم."
+   "fas": "باید هزینه‌های پروژه را دقیق برآورد کنیم.",
+   "c": [
+    [
+     "die Kosten kalkulieren",
+     "هزینه‌ها را محاسبه کردن"
+    ],
+    [
+     "knapp kalkulieren",
+     "حساب‌شده و با حاشیه‌ی کم محاسبه کردن"
+    ],
+    [
+     "das Risiko kalkulieren",
+     "ریسک را برآورد کردن"
+    ]
+   ]
   },
   {
    "id": "L111-102",
@@ -937,7 +2351,21 @@
    "fa": "کسری (بودجه)",
    "syn": "das Minus, der Fehlbetrag",
    "de": "Die Stadt hat in diesem Jahr ein Defizit von fünf Millionen Euro.",
-   "fas": "شهر امسال پنج میلیون یورو کسری بودجه دارد."
+   "fas": "شهر امسال پنج میلیون یورو کسری بودجه دارد.",
+   "c": [
+    [
+     "ein Defizit ausgleichen",
+     "کسری را جبران کردن"
+    ],
+    [
+     "ein Defizit aufweisen",
+     "کسری داشتن"
+    ],
+    [
+     "das Defizit im Haushalt",
+     "کسری بودجه"
+    ]
+   ]
   },
   {
    "id": "L111-103",
@@ -946,7 +2374,21 @@
    "fa": "حداقل دستمزد",
    "syn": "die Lohnuntergrenze, der Grundlohn",
    "de": "Der gesetzliche Mindestlohn wurde zum Jahresbeginn erhöht.",
-   "fas": "حداقل دستمزد قانونی از ابتدای سال افزایش یافت."
+   "fas": "حداقل دستمزد قانونی از ابتدای سال افزایش یافت.",
+   "c": [
+    [
+     "den Mindestlohn erhöhen",
+     "حداقل دستمزد را افزایش دادن"
+    ],
+    [
+     "zum Mindestlohn arbeiten",
+     "با حداقل دستمزد کار کردن"
+    ],
+    [
+     "der gesetzliche Mindestlohn",
+     "حداقل دستمزد قانونی"
+    ]
+   ]
   },
   {
    "id": "L111-104",
@@ -955,7 +2397,21 @@
    "fa": "راکد ماندن، درجا زدن",
    "syn": "stillstehen, sich nicht entwickeln",
    "de": "Seit Monaten stagnieren die Verkaufszahlen.",
-   "fas": "ماه‌هاست که آمار فروش راکد مانده است."
+   "fas": "ماه‌هاست که آمار فروش راکد مانده است.",
+   "c": [
+    [
+     "die Wirtschaft stagniert",
+     "اقتصاد راکد مانده است"
+    ],
+    [
+     "die Löhne stagnieren",
+     "دستمزدها ثابت مانده‌اند"
+    ],
+    [
+     "auf hohem Niveau stagnieren",
+     "در سطح بالا ثابت ماندن"
+    ]
+   ]
   },
   {
    "id": "L111-105",
@@ -964,7 +2420,21 @@
    "fa": "کوچک شدن، کاهش یافتن",
    "syn": "abnehmen, zurückgehen",
    "de": "Die Wirtschaft ist im zweiten Quartal um ein Prozent geschrumpft.",
-   "fas": "اقتصاد در سه‌ماهه‌ی دوم یک درصد کوچک شد."
+   "fas": "اقتصاد در سه‌ماهه‌ی دوم یک درصد کوچک شد.",
+   "c": [
+    [
+     "die Wirtschaft schrumpft",
+     "اقتصاد کوچک می‌شود"
+    ],
+    [
+     "um zwei Prozent schrumpfen",
+     "دو درصد کاهش یافتن"
+    ],
+    [
+     "stark schrumpfen",
+     "به‌شدت کاهش یافتن"
+    ]
+   ]
   },
   {
    "id": "L111-106",
@@ -973,7 +2443,21 @@
    "fa": "رشته‌ی تحصیلی",
    "syn": "das Fach, die Studienrichtung",
    "de": "Medizin ist eines der beliebtesten Studienfächer in Deutschland.",
-   "fas": "پزشکی یکی از محبوب‌ترین رشته‌های تحصیلی در آلمان است."
+   "fas": "پزشکی یکی از محبوب‌ترین رشته‌های تحصیلی در آلمان است.",
+   "c": [
+    [
+     "ein Studienfach wählen",
+     "رشته‌ی تحصیلی انتخاب کردن"
+    ],
+    [
+     "das Studienfach wechseln",
+     "رشته‌ی تحصیلی را عوض کردن"
+    ],
+    [
+     "ein beliebtes Studienfach",
+     "رشته‌ی پرطرفدار"
+    ]
+   ]
   },
   {
    "id": "L111-107",
@@ -982,7 +2466,21 @@
    "fa": "دانشگاه، مؤسسه‌ی آموزش عالی",
    "syn": "die Universität, die Fachhochschule",
    "de": "An deutschen Hochschulen werden immer mehr Kurse auf Englisch angeboten.",
-   "fas": "در دانشگاه‌های آلمان دوره‌های بیشتری به زبان انگلیسی ارائه می‌شود."
+   "fas": "در دانشگاه‌های آلمان دوره‌های بیشتری به زبان انگلیسی ارائه می‌شود.",
+   "c": [
+    [
+     "an der Hochschule studieren",
+     "در دانشگاه تحصیل کردن"
+    ],
+    [
+     "eine Hochschule besuchen",
+     "به دانشگاه رفتن"
+    ],
+    [
+     "die Hochschule für Musik",
+     "دانشگاه موسیقی"
+    ]
+   ]
   },
   {
    "id": "L111-108",
@@ -991,7 +2489,21 @@
    "fa": "ثبت‌نام کردن (در دانشگاه)",
    "syn": "sich einschreiben, sich anmelden",
    "de": "Bis Ende September muss ich mich an der Universität immatrikulieren.",
-   "fas": "تا آخر سپتامبر باید در دانشگاه ثبت‌نام کنم."
+   "fas": "تا آخر سپتامبر باید در دانشگاه ثبت‌نام کنم.",
+   "c": [
+    [
+     "sich an der Universität immatrikulieren",
+     "در دانشگاه ثبت‌نام کردن"
+    ],
+    [
+     "sich für ein Fach immatrikulieren",
+     "برای رشته‌ای ثبت‌نام کردن"
+    ],
+    [
+     "immatrikuliert sein",
+     "دانشجوی ثبت‌نام‌شده بودن"
+    ]
+   ]
   },
   {
    "id": "L111-109",
@@ -1000,7 +2512,21 @@
    "fa": "ثبت‌نام",
    "syn": "die Immatrikulation, die Anmeldung",
    "de": "Für die Einschreibung braucht man eine Kopie des Abiturzeugnisses.",
-   "fas": "برای ثبت‌نام به کپی مدرک دیپلم نیاز است."
+   "fas": "برای ثبت‌نام به کپی مدرک دیپلم نیاز است.",
+   "c": [
+    [
+     "die Einschreibung für den Kurs",
+     "ثبت‌نام در دوره"
+    ],
+    [
+     "die Frist für die Einschreibung",
+     "مهلت ثبت‌نام"
+    ],
+    [
+     "die Einschreibung vornehmen",
+     "ثبت‌نام را انجام دادن"
+    ]
+   ]
   },
   {
    "id": "L111-110",
@@ -1009,7 +2535,21 @@
    "fa": "پایان‌نامه",
    "syn": "die Bachelorarbeit, die Masterarbeit",
    "de": "In meiner Abschlussarbeit untersuche ich das Lernverhalten von Kindern.",
-   "fas": "در پایان‌نامه‌ام رفتار یادگیری کودکان را بررسی می‌کنم."
+   "fas": "در پایان‌نامه‌ام رفتار یادگیری کودکان را بررسی می‌کنم.",
+   "c": [
+    [
+     "die Abschlussarbeit schreiben",
+     "پایان‌نامه نوشتن"
+    ],
+    [
+     "die Abschlussarbeit abgeben",
+     "پایان‌نامه را تحویل دادن"
+    ],
+    [
+     "das Thema der Abschlussarbeit",
+     "موضوع پایان‌نامه"
+    ]
+   ]
   },
   {
    "id": "L111-111",
@@ -1018,7 +2558,21 @@
    "fa": "دکترا، دریافت مدرک دکتری",
    "syn": "die Doktorarbeit, die Dissertation",
    "de": "Nach dem Master möchte sie mit der Promotion beginnen.",
-   "fas": "او می‌خواهد بعد از کارشناسی ارشد دوره‌ی دکترا را شروع کند."
+   "fas": "او می‌خواهد بعد از کارشناسی ارشد دوره‌ی دکترا را شروع کند.",
+   "c": [
+    [
+     "eine Promotion anstreben",
+     "هدف گرفتن مدرک دکترا"
+    ],
+    [
+     "die Promotion abschließen",
+     "دکترا را به پایان رساندن"
+    ],
+    [
+     "nach der Promotion",
+     "بعد از دکترا"
+    ]
+   ]
   },
   {
    "id": "L111-112",
@@ -1027,7 +2581,21 @@
    "fa": "دانشجوی دکترا",
    "syn": "der Promovierende, der Promotionsstudent",
    "de": "Der Doktorand arbeitet seit drei Jahren an seiner Dissertation.",
-   "fas": "این دانشجوی دکترا سه سال است روی رساله‌اش کار می‌کند."
+   "fas": "این دانشجوی دکترا سه سال است روی رساله‌اش کار می‌کند.",
+   "c": [
+    [
+     "als Doktorand arbeiten",
+     "به‌عنوان دانشجوی دکترا کار کردن"
+    ],
+    [
+     "einen Doktoranden betreuen",
+     "دانشجوی دکترا را راهنمایی کردن"
+    ],
+    [
+     "Doktorand an der Uni",
+     "دانشجوی دکترای دانشگاه"
+    ]
+   ]
   },
   {
    "id": "L111-113",
@@ -1036,7 +2604,21 @@
    "fa": "بورسیه، کمک‌هزینه‌ی تحصیلی",
    "syn": "die Studienförderung, das Förderungsgeld",
    "de": "Dank eines Stipendiums kann er in Deutschland studieren.",
-   "fas": "او به لطف یک بورسیه می‌تواند در آلمان تحصیل کند."
+   "fas": "او به لطف یک بورسیه می‌تواند در آلمان تحصیل کند.",
+   "c": [
+    [
+     "ein Stipendium bekommen",
+     "بورسیه گرفتن"
+    ],
+    [
+     "sich um ein Stipendium bewerben",
+     "برای بورسیه درخواست دادن"
+    ],
+    [
+     "ein Stipendium vergeben",
+     "بورسیه اعطا کردن"
+    ]
+   ]
   },
   {
    "id": "L111-114",
@@ -1045,7 +2627,21 @@
    "fa": "کمک‌هزینه‌ی دولتی تحصیل در آلمان",
    "syn": "die Ausbildungsförderung, die staatliche Studienförderung",
    "de": "Ohne BAföG könnten sich viele Studierende ihr Studium nicht leisten.",
-   "fas": "بدون کمک‌هزینه‌ی دولتی، بسیاری از دانشجویان از عهده‌ی هزینه‌ی تحصیل برنمی‌آمدند."
+   "fas": "بدون کمک‌هزینه‌ی دولتی، بسیاری از دانشجویان از عهده‌ی هزینه‌ی تحصیل برنمی‌آمدند.",
+   "c": [
+    [
+     "BAföG beantragen",
+     "درخواست بافوگ دادن"
+    ],
+    [
+     "BAföG bekommen",
+     "بافوگ دریافت کردن"
+    ],
+    [
+     "Anspruch auf BAföG haben",
+     "حق دریافت بافوگ داشتن"
+    ]
+   ]
   },
   {
    "id": "L111-115",
@@ -1054,7 +2650,21 @@
    "fa": "شهریه‌ی دانشگاه",
    "syn": "die Semestergebühr, der Studienbeitrag",
    "de": "In den meisten Bundesländern gibt es keine Studiengebühren.",
-   "fas": "در بیشتر ایالت‌ها شهریه‌ی دانشگاه وجود ندارد."
+   "fas": "در بیشتر ایالت‌ها شهریه‌ی دانشگاه وجود ندارد.",
+   "c": [
+    [
+     "Studiengebühren zahlen",
+     "شهریه‌ی دانشگاه پرداختن"
+    ],
+    [
+     "die Studiengebühren abschaffen",
+     "شهریه‌ی دانشگاه را لغو کردن"
+    ],
+    [
+     "Studiengebühren einführen",
+     "شهریه‌ی دانشگاه را برقرار کردن"
+    ]
+   ]
   },
   {
    "id": "L111-116",
@@ -1063,7 +2673,21 @@
    "fa": "نظام آموزشی",
    "syn": "das Bildungswesen, das Schulsystem",
    "de": "Das deutsche Bildungssystem ist von Bundesland zu Bundesland verschieden.",
-   "fas": "نظام آموزشی آلمان از ایالتی به ایالت دیگر متفاوت است."
+   "fas": "نظام آموزشی آلمان از ایالتی به ایالت دیگر متفاوت است.",
+   "c": [
+    [
+     "das deutsche Bildungssystem",
+     "نظام آموزشی آلمان"
+    ],
+    [
+     "das Bildungssystem reformieren",
+     "نظام آموزشی را اصلاح کردن"
+    ],
+    [
+     "Schwächen im Bildungssystem",
+     "ضعف‌های نظام آموزشی"
+    ]
+   ]
   },
   {
    "id": "L111-117",
@@ -1072,7 +2696,21 @@
    "fa": "برابری فرصت‌ها",
    "syn": "die Gleichberechtigung, die Bildungsgerechtigkeit",
    "de": "Kostenlose Bildung ist eine Voraussetzung für Chancengleichheit.",
-   "fas": "آموزش رایگان پیش‌شرط برابری فرصت‌ها است."
+   "fas": "آموزش رایگان پیش‌شرط برابری فرصت‌ها است.",
+   "c": [
+    [
+     "Chancengleichheit schaffen",
+     "برابری فرصت‌ها را ایجاد کردن"
+    ],
+    [
+     "für Chancengleichheit sorgen",
+     "برابری فرصت‌ها را تضمین کردن"
+    ],
+    [
+     "mangelnde Chancengleichheit",
+     "نبود برابری فرصت‌ها"
+    ]
+   ]
   },
   {
    "id": "L111-118",
@@ -1081,7 +2719,21 @@
    "fa": "آموزش اجباری",
    "syn": "die Schulbesuchspflicht, die allgemeine Bildungspflicht",
    "de": "In Deutschland besteht die Schulpflicht für mindestens neun Jahre.",
-   "fas": "در آلمان آموزش اجباری دست‌کم نه سال است."
+   "fas": "در آلمان آموزش اجباری دست‌کم نه سال است.",
+   "c": [
+    [
+     "die allgemeine Schulpflicht",
+     "آموزش اجباری همگانی"
+    ],
+    [
+     "der Schulpflicht unterliegen",
+     "مشمول آموزش اجباری بودن"
+    ],
+    [
+     "die Schulpflicht verletzen",
+     "آموزش اجباری را نقض کردن"
+    ]
+   ]
   },
   {
    "id": "L111-119",
@@ -1090,7 +2742,21 @@
    "fa": "برنامه‌ی درسی",
    "syn": "das Curriculum, der Unterrichtsplan",
    "de": "Programmieren sollte fester Bestandteil des Lehrplans werden.",
-   "fas": "برنامه‌نویسی باید بخش ثابت برنامه‌ی درسی شود."
+   "fas": "برنامه‌نویسی باید بخش ثابت برنامه‌ی درسی شود.",
+   "c": [
+    [
+     "auf dem Lehrplan stehen",
+     "در برنامه‌ی درسی بودن"
+    ],
+    [
+     "den Lehrplan ändern",
+     "برنامه‌ی درسی را تغییر دادن"
+    ],
+    [
+     "laut Lehrplan",
+     "طبق برنامه‌ی درسی"
+    ]
+   ]
   },
   {
    "id": "L111-120",
@@ -1099,7 +2765,21 @@
    "fa": "معلم، مدرس",
    "syn": "der Lehrer, der Pädagoge",
    "de": "An vielen Schulen fehlen qualifizierte Lehrkräfte.",
-   "fas": "در بسیاری از مدارس معلمان واجد شرایط کم است."
+   "fas": "در بسیاری از مدارس معلمان واجد شرایط کم است.",
+   "c": [
+    [
+     "eine qualifizierte Lehrkraft",
+     "معلم واجد شرایط"
+    ],
+    [
+     "Lehrkräfte einstellen",
+     "معلم استخدام کردن"
+    ],
+    [
+     "Mangel an Lehrkräften",
+     "کمبود معلم"
+    ]
+   ]
   },
   {
    "id": "L111-121",
@@ -1108,7 +2788,21 @@
    "fa": "اضطراب امتحان",
    "syn": "das Lampenfieber, die Prüfungsnervosität",
    "de": "Gegen Prüfungsangst helfen gute Vorbereitung und Entspannungsübungen.",
-   "fas": "آمادگی خوب و تمرین‌های آرام‌سازی به مقابله با اضطراب امتحان کمک می‌کند."
+   "fas": "آمادگی خوب و تمرین‌های آرام‌سازی به مقابله با اضطراب امتحان کمک می‌کند.",
+   "c": [
+    [
+     "unter Prüfungsangst leiden",
+     "از اضطراب امتحان رنج بردن"
+    ],
+    [
+     "die Prüfungsangst überwinden",
+     "بر اضطراب امتحان غلبه کردن"
+    ],
+    [
+     "gegen Prüfungsangst",
+     "برای مقابله با اضطراب امتحان"
+    ]
+   ]
   },
   {
    "id": "L111-122",
@@ -1117,7 +2811,21 @@
    "fa": "رد شدن، قبول نشدن",
    "syn": "nicht bestehen, scheitern",
    "de": "Er ist leider zum zweiten Mal durch die Fahrprüfung gefallen.",
-   "fas": "او متأسفانه برای بار دوم در امتحان رانندگی رد شد."
+   "fas": "او متأسفانه برای بار دوم در امتحان رانندگی رد شد.",
+   "c": [
+    [
+     "durch die Prüfung fallen",
+     "در امتحان رد شدن"
+    ],
+    [
+     "mit Pauken und Trompeten durchfallen",
+     "با افتضاح رد شدن"
+    ],
+    [
+     "beim Publikum durchfallen",
+     "با استقبال مردم روبه‌رو نشدن"
+    ]
+   ]
   },
   {
    "id": "L111-123",
@@ -1126,7 +2834,21 @@
    "fa": "نمره‌دهی، ارزشیابی",
    "syn": "die Bewertung, die Beurteilung",
    "de": "Die Benotung der Hausarbeiten dauert meist mehrere Wochen.",
-   "fas": "نمره‌دهی تکالیف پژوهشی معمولاً چند هفته طول می‌کشد."
+   "fas": "نمره‌دهی تکالیف پژوهشی معمولاً چند هفته طول می‌کشد.",
+   "c": [
+    [
+     "eine faire Benotung",
+     "نمره‌دهی منصفانه"
+    ],
+    [
+     "die Benotung der Arbeit",
+     "نمره‌دهی کار"
+    ],
+    [
+     "Kriterien der Benotung",
+     "معیارهای نمره‌دهی"
+    ]
+   ]
   },
   {
    "id": "L111-124",
@@ -1135,7 +2857,21 @@
    "fa": "فشار برای موفقیت (تحصیلی/کاری)",
    "syn": "der Erfolgsdruck, der Stress",
    "de": "Viele Schüler leiden unter starkem Leistungsdruck.",
-   "fas": "بسیاری از دانش‌آموزان از فشار شدید برای موفقیت رنج می‌برند."
+   "fas": "بسیاری از دانش‌آموزان از فشار شدید برای موفقیت رنج می‌برند.",
+   "c": [
+    [
+     "unter Leistungsdruck stehen",
+     "زیر فشار موفقیت بودن"
+    ],
+    [
+     "den Leistungsdruck erhöhen",
+     "فشار برای موفقیت را بیشتر کردن"
+    ],
+    [
+     "hoher Leistungsdruck",
+     "فشار سنگین برای موفقیت"
+    ]
+   ]
   },
   {
    "id": "L111-125",
@@ -1144,7 +2880,21 @@
    "fa": "موفقیت در یادگیری",
    "syn": "der Lernfortschritt, das Lernergebnis",
    "de": "Regelmäßige Wiederholung ist der Schlüssel zum Lernerfolg.",
-   "fas": "مرور منظم کلید موفقیت در یادگیری است."
+   "fas": "مرور منظم کلید موفقیت در یادگیری است.",
+   "c": [
+    [
+     "den Lernerfolg kontrollieren",
+     "موفقیت در یادگیری را بررسی کردن"
+    ],
+    [
+     "der Lernerfolg der Schüler",
+     "موفقیت تحصیلی دانش‌آموزان"
+    ],
+    [
+     "zum Lernerfolg beitragen",
+     "به موفقیت در یادگیری کمک کردن"
+    ]
+   ]
   },
   {
    "id": "L111-126",
@@ -1153,7 +2903,21 @@
    "fa": "تحصیل از راه دور",
    "syn": "das Online-Studium, das Distanzstudium",
    "de": "Neben dem Beruf macht sie ein Fernstudium in Psychologie.",
-   "fas": "او در کنار کارش در رشته‌ی روان‌شناسی از راه دور تحصیل می‌کند."
+   "fas": "او در کنار کارش در رشته‌ی روان‌شناسی از راه دور تحصیل می‌کند.",
+   "c": [
+    [
+     "ein Fernstudium machen",
+     "تحصیل از راه دور کردن"
+    ],
+    [
+     "im Fernstudium studieren",
+     "به‌صورت غیرحضوری تحصیل کردن"
+    ],
+    [
+     "ein berufsbegleitendes Fernstudium",
+     "تحصیل از راه دور همراه با کار"
+    ]
+   ]
   },
   {
    "id": "L111-127",
@@ -1162,7 +2926,21 @@
    "fa": "الزام به حضور در کلاس",
    "syn": "die Präsenzpflicht, die Teilnahmepflicht",
    "de": "In diesem Seminar gibt es eine Anwesenheitspflicht.",
-   "fas": "در این سمینار حضور در کلاس الزامی است."
+   "fas": "در این سمینار حضور در کلاس الزامی است.",
+   "c": [
+    [
+     "es gibt Anwesenheitspflicht",
+     "حضور الزامی است"
+    ],
+    [
+     "die Anwesenheitspflicht abschaffen",
+     "الزام حضور را لغو کردن"
+    ],
+    [
+     "ohne Anwesenheitspflicht",
+     "بدون الزام به حضور"
+    ]
+   ]
   },
   {
    "id": "L111-128",
@@ -1171,7 +2949,21 @@
    "fa": "درس اجباری",
    "syn": "der Pflichtkurs, das Kernfach",
    "de": "Mathematik ist bis zum Abitur ein Pflichtfach.",
-   "fas": "ریاضی تا دیپلم یک درس اجباری است."
+   "fas": "ریاضی تا دیپلم یک درس اجباری است.",
+   "c": [
+    [
+     "ein Pflichtfach belegen",
+     "درس اجباری برداشتن"
+    ],
+    [
+     "Mathe ist Pflichtfach",
+     "ریاضی درس اجباری است"
+    ],
+    [
+     "als Pflichtfach einführen",
+     "به‌عنوان درس اجباری وارد کردن"
+    ]
+   ]
   },
   {
    "id": "L111-129",
@@ -1180,7 +2972,21 @@
    "fa": "درس اختیاری",
    "syn": "das Wahlpflichtfach, der Wahlkurs",
    "de": "Als Wahlfach hat er Spanisch gewählt.",
-   "fas": "او اسپانیایی را به‌عنوان درس اختیاری انتخاب کرد."
+   "fas": "او اسپانیایی را به‌عنوان درس اختیاری انتخاب کرد.",
+   "c": [
+    [
+     "ein Wahlfach wählen",
+     "درس اختیاری انتخاب کردن"
+    ],
+    [
+     "ein Wahlfach belegen",
+     "درس اختیاری برداشتن"
+    ],
+    [
+     "als Wahlfach anbieten",
+     "به‌عنوان درس اختیاری ارائه کردن"
+    ]
+   ]
   },
   {
    "id": "L111-130",
@@ -1189,7 +2995,21 @@
    "fa": "مدرس دانشگاه",
    "syn": "der Hochschullehrer, der Lehrbeauftragte",
    "de": "Die Dozentin bietet jeden Dienstag eine Sprechstunde an.",
-   "fas": "این مدرس هر سه‌شنبه ساعت مشاوره دارد."
+   "fas": "این مدرس هر سه‌شنبه ساعت مشاوره دارد.",
+   "c": [
+    [
+     "als Dozent tätig sein",
+     "به‌عنوان مدرس دانشگاه فعالیت کردن"
+    ],
+    [
+     "der Dozent hält eine Vorlesung",
+     "مدرس سخنرانی درسی ارائه می‌دهد"
+    ],
+    [
+     "einen Dozenten fragen",
+     "از مدرس پرسیدن"
+    ]
+   ]
   },
   {
    "id": "L111-131",
@@ -1198,7 +3018,21 @@
    "fa": "خوابگاه",
    "syn": "das Studentenwohnheim, die Studentenunterkunft",
    "de": "Im Wohnheim teilen sich vier Studierende eine Küche.",
-   "fas": "در خوابگاه چهار دانشجو یک آشپزخانه‌ی مشترک دارند."
+   "fas": "در خوابگاه چهار دانشجو یک آشپزخانه‌ی مشترک دارند.",
+   "c": [
+    [
+     "im Wohnheim wohnen",
+     "در خوابگاه زندگی کردن"
+    ],
+    [
+     "einen Platz im Wohnheim bekommen",
+     "جا در خوابگاه گرفتن"
+    ],
+    [
+     "ins Wohnheim ziehen",
+     "به خوابگاه نقل مکان کردن"
+    ]
+   ]
   },
   {
    "id": "L111-132",
@@ -1207,7 +3041,21 @@
    "fa": "کرسی استادی، گروه آموزشی",
    "syn": "die Professur, das Institut",
    "de": "Sie arbeitet als wissenschaftliche Mitarbeiterin am Lehrstuhl für Soziologie.",
-   "fas": "او به‌عنوان همکار علمی در گروه جامعه‌شناسی کار می‌کند."
+   "fas": "او به‌عنوان همکار علمی در گروه جامعه‌شناسی کار می‌کند.",
+   "c": [
+    [
+     "einen Lehrstuhl innehaben",
+     "کرسی استادی داشتن"
+    ],
+    [
+     "den Lehrstuhl für Physik",
+     "کرسی فیزیک"
+    ],
+    [
+     "am Lehrstuhl arbeiten",
+     "در گروه آموزشی کار کردن"
+    ]
+   ]
   },
   {
    "id": "L111-133",
@@ -1216,7 +3064,21 @@
    "fa": "سالن سخنرانی، تالار درس",
    "syn": "der Vorlesungssaal, das Auditorium",
    "de": "Der Hörsaal war bei der ersten Vorlesung völlig überfüllt.",
-   "fas": "سالن در اولین جلسه‌ی درس کاملاً پر از جمعیت بود."
+   "fas": "سالن در اولین جلسه‌ی درس کاملاً پر از جمعیت بود.",
+   "c": [
+    [
+     "im Hörsaal sitzen",
+     "در تالار درس نشستن"
+    ],
+    [
+     "ein voller Hörsaal",
+     "سالن سخنرانی پر"
+    ],
+    [
+     "in den Hörsaal gehen",
+     "به تالار درس رفتن"
+    ]
+   ]
   },
   {
    "id": "L111-134",
@@ -1225,7 +3087,21 @@
    "fa": "نقل قول کردن",
    "syn": "anführen, wiedergeben",
    "de": "Wer aus einem Buch zitiert, muss immer die Quelle angeben.",
-   "fas": "کسی که از کتابی نقل قول می‌کند، همیشه باید منبع را ذکر کند."
+   "fas": "کسی که از کتابی نقل قول می‌کند، همیشه باید منبع را ذکر کند.",
+   "c": [
+    [
+     "aus einem Buch zitieren",
+     "از کتابی نقل قول کردن"
+    ],
+    [
+     "wörtlich zitieren",
+     "عیناً نقل قول کردن"
+    ],
+    [
+     "richtig zitieren",
+     "درست نقل قول کردن"
+    ]
+   ]
   },
   {
    "id": "L111-135",
@@ -1234,7 +3110,21 @@
    "fa": "فهرست منابع، کتاب‌نامه",
    "syn": "die Bibliografie, das Quellenverzeichnis",
    "de": "Am Ende der Arbeit steht ein vollständiges Literaturverzeichnis.",
-   "fas": "در پایان مقاله یک فهرست منابع کامل آمده است."
+   "fas": "در پایان مقاله یک فهرست منابع کامل آمده است.",
+   "c": [
+    [
+     "das Literaturverzeichnis erstellen",
+     "فهرست منابع را تهیه کردن"
+    ],
+    [
+     "im Literaturverzeichnis angeben",
+     "در فهرست منابع ذکر کردن"
+    ],
+    [
+     "ein vollständiges Literaturverzeichnis",
+     "فهرست منابع کامل"
+    ]
+   ]
   },
   {
    "id": "L111-136",
@@ -1243,7 +3133,21 @@
    "fa": "مسیر تحصیلی",
    "syn": "die Schullaufbahn, der Ausbildungsweg",
    "de": "Über den zweiten Bildungsweg kann man das Abitur auch später nachholen.",
-   "fas": "از طریق مسیر تحصیلی دوم می‌توان دیپلم را بعدها هم گرفت."
+   "fas": "از طریق مسیر تحصیلی دوم می‌توان دیپلم را بعدها هم گرفت.",
+   "c": [
+    [
+     "der zweite Bildungsweg",
+     "مسیر تحصیلی دوم (تحصیل در بزرگسالی)"
+    ],
+    [
+     "einen Bildungsweg einschlagen",
+     "مسیر تحصیلی را در پیش گرفتن"
+    ],
+    [
+     "der klassische Bildungsweg",
+     "مسیر تحصیلی معمول"
+    ]
+   ]
   },
   {
    "id": "L111-137",
@@ -1252,7 +3156,21 @@
    "fa": "مدرک پایان تحصیلات مدرسه",
    "syn": "das Abschlusszeugnis, der Bildungsabschluss",
    "de": "Ohne Schulabschluss ist es schwer, einen Ausbildungsplatz zu finden.",
-   "fas": "بدون مدرک پایان مدرسه پیدا کردن جای کارآموزی دشوار است."
+   "fas": "بدون مدرک پایان مدرسه پیدا کردن جای کارآموزی دشوار است.",
+   "c": [
+    [
+     "den Schulabschluss machen",
+     "مدرک پایان مدرسه را گرفتن"
+    ],
+    [
+     "ohne Schulabschluss",
+     "بدون مدرک مدرسه"
+    ],
+    [
+     "einen guten Schulabschluss haben",
+     "مدرک مدرسه‌ی خوبی داشتن"
+    ]
+   ]
   },
   {
    "id": "L111-138",
@@ -1261,7 +3179,21 @@
    "fa": "استعداد",
    "syn": "das Talent, die Fähigkeit",
    "de": "Schon als Kind zeigte er eine besondere Begabung für Musik.",
-   "fas": "او از کودکی استعداد ویژه‌ای در موسیقی نشان می‌داد."
+   "fas": "او از کودکی استعداد ویژه‌ای در موسیقی نشان می‌داد.",
+   "c": [
+    [
+     "eine Begabung für Musik",
+     "استعداد موسیقی"
+    ],
+    [
+     "eine besondere Begabung haben",
+     "استعداد خاصی داشتن"
+    ],
+    [
+     "die Begabung fördern",
+     "استعداد را پرورش دادن"
+    ]
+   ]
   },
   {
    "id": "L111-139",
@@ -1270,7 +3202,21 @@
    "fa": "مادام‌العمر، در طول زندگی",
    "syn": "lebenslänglich, dauerhaft",
    "de": "In der modernen Arbeitswelt ist lebenslanges Lernen unverzichtbar.",
-   "fas": "در دنیای کار امروز، یادگیری مادام‌العمر ضروری است."
+   "fas": "در دنیای کار امروز، یادگیری مادام‌العمر ضروری است.",
+   "c": [
+    [
+     "lebenslanges Lernen",
+     "یادگیری مادام‌العمر"
+    ],
+    [
+     "lebenslang lernen",
+     "در تمام عمر یاد گرفتن"
+    ],
+    [
+     "lebenslang bekommen",
+     "حبس ابد گرفتن"
+    ]
+   ]
   },
   {
    "id": "L111-140",
@@ -1279,7 +3225,21 @@
    "fa": "(چیزی را) فرا گرفتن، کسب کردن",
    "syn": "erlernen, erwerben",
    "de": "Sie hat sich ihre Programmierkenntnisse selbst angeeignet.",
-   "fas": "او مهارت برنامه‌نویسی‌اش را خودش فرا گرفته است."
+   "fas": "او مهارت برنامه‌نویسی‌اش را خودش فرا گرفته است.",
+   "c": [
+    [
+     "sich Wissen aneignen",
+     "دانش کسب کردن"
+    ],
+    [
+     "sich Fähigkeiten aneignen",
+     "مهارت‌هایی فرا گرفتن"
+    ],
+    [
+     "sich eine Sprache aneignen",
+     "زبانی را فرا گرفتن"
+    ]
+   ]
   },
   {
    "id": "L111-141",
@@ -1288,7 +3248,21 @@
    "fa": "شغل معلمی (رسمی)",
    "syn": "der Lehrerberuf, das Lehramtsstudium",
    "de": "Er studiert Lehramt für Deutsch und Geschichte.",
-   "fas": "او برای معلمی دروس آلمانی و تاریخ تحصیل می‌کند."
+   "fas": "او برای معلمی دروس آلمانی و تاریخ تحصیل می‌کند.",
+   "c": [
+    [
+     "Lehramt studieren",
+     "رشته‌ی دبیری خواندن"
+    ],
+    [
+     "das Lehramt an Gymnasien",
+     "دبیری دبیرستان"
+    ],
+    [
+     "ins Lehramt gehen",
+     "وارد شغل معلمی شدن"
+    ]
+   ]
   },
   {
    "id": "L111-142",
@@ -1297,7 +3271,21 @@
    "fa": "علوم تربیتی، آموزش‌وپرورش",
    "syn": "die Erziehungswissenschaft, die Didaktik",
    "de": "Moderne Pädagogik stellt die Bedürfnisse des Kindes in den Mittelpunkt.",
-   "fas": "علوم تربیتی مدرن نیازهای کودک را در مرکز توجه قرار می‌دهد."
+   "fas": "علوم تربیتی مدرن نیازهای کودک را در مرکز توجه قرار می‌دهد.",
+   "c": [
+    [
+     "Pädagogik studieren",
+     "علوم تربیتی خواندن"
+    ],
+    [
+     "moderne Pädagogik",
+     "علوم تربیتی نوین"
+    ],
+    [
+     "pädagogisch wertvoll",
+     "از نظر تربیتی ارزشمند"
+    ]
+   ]
   },
   {
    "id": "L111-143",
@@ -1306,7 +3294,21 @@
    "fa": "مهدکودک",
    "syn": "die Kindertagesstätte, der Kindergarten",
    "de": "Viele Eltern finden keinen freien Platz in einer Kita.",
-   "fas": "بسیاری از والدین جای خالی در مهدکودک پیدا نمی‌کنند."
+   "fas": "بسیاری از والدین جای خالی در مهدکودک پیدا نمی‌کنند.",
+   "c": [
+    [
+     "in die Kita gehen",
+     "به مهدکودک رفتن"
+    ],
+    [
+     "das Kind in die Kita bringen",
+     "بچه را به مهد بردن"
+    ],
+    [
+     "einen Kitaplatz bekommen",
+     "جا در مهدکودک گرفتن"
+    ]
+   ]
   },
   {
    "id": "L111-144",
@@ -1315,7 +3317,21 @@
    "fa": "مدرسه‌ی تمام‌وقت",
    "syn": "die Ganztagseinrichtung, die Tagesschule",
    "de": "In der Ganztagsschule bekommen die Kinder auch Mittagessen und Hausaufgabenhilfe.",
-   "fas": "در مدرسه‌ی تمام‌وقت، بچه‌ها ناهار و کمک در تکالیف هم دریافت می‌کنند."
+   "fas": "در مدرسه‌ی تمام‌وقت، بچه‌ها ناهار و کمک در تکالیف هم دریافت می‌کنند.",
+   "c": [
+    [
+     "eine Ganztagsschule besuchen",
+     "به مدرسه‌ی تمام‌وقت رفتن"
+    ],
+    [
+     "der Ausbau von Ganztagsschulen",
+     "گسترش مدارس تمام‌وقت"
+    ],
+    [
+     "an der Ganztagsschule",
+     "در مدرسه‌ی تمام‌وقت"
+    ]
+   ]
   },
   {
    "id": "L111-145",
@@ -1324,7 +3340,21 @@
    "fa": "مردود شدن، تکرار پایه",
    "syn": "die Klasse wiederholen, nicht versetzt werden",
    "de": "Wegen schlechter Noten in Mathe ist er in der achten Klasse sitzengeblieben.",
-   "fas": "او به خاطر نمره‌های بد ریاضی در کلاس هشتم مردود شد."
+   "fas": "او به خاطر نمره‌های بد ریاضی در کلاس هشتم مردود شد.",
+   "c": [
+    [
+     "in der Schule sitzenbleiben",
+     "در مدرسه مردود شدن"
+    ],
+    [
+     "einmal sitzenbleiben",
+     "یک بار رفوزه شدن"
+    ],
+    [
+     "auf etwas sitzenbleiben",
+     "روی دست کسی ماندن (فروش نرفتن)"
+    ]
+   ]
   },
   {
    "id": "L111-146",
@@ -1333,7 +3363,21 @@
    "fa": "ارتقا به کلاس بالاتر",
    "syn": "der Aufstieg in die nächste Klasse, das Weiterkommen",
    "de": "Ihre Versetzung in die nächste Klasse ist gefährdet.",
-   "fas": "ارتقای او به کلاس بالاتر در خطر است."
+   "fas": "ارتقای او به کلاس بالاتر در خطر است.",
+   "c": [
+    [
+     "die Versetzung ist gefährdet",
+     "ارتقا به کلاس بالاتر در خطر است"
+    ],
+    [
+     "die Versetzung schaffen",
+     "به کلاس بالاتر رفتن"
+    ],
+    [
+     "die Versetzung in eine andere Abteilung",
+     "انتقال به بخش دیگر"
+    ]
+   ]
   },
   {
    "id": "L111-147",
@@ -1342,7 +3386,21 @@
    "fa": "خرخوانی کردن",
    "syn": "büffeln, intensiv lernen",
    "de": "Vor der Klausur hat sie die ganze Nacht Vokabeln gepaukt.",
-   "fas": "قبل از امتحان کل شب را لغت خرخوانی کرد."
+   "fas": "قبل از امتحان کل شب را لغت خرخوانی کرد.",
+   "c": [
+    [
+     "für die Prüfung pauken",
+     "برای امتحان خرخوانی کردن"
+    ],
+    [
+     "Vokabeln pauken",
+     "لغت حفظ کردن"
+    ],
+    [
+     "die ganze Nacht pauken",
+     "تمام شب خرخوانی کردن"
+    ]
+   ]
   },
   {
    "id": "L111-148",
@@ -1351,7 +3409,21 @@
    "fa": "مدرک ورود به دانشگاه",
    "syn": "das Abitur, die Studienberechtigung",
    "de": "Für ein Universitätsstudium braucht man die allgemeine Hochschulreife.",
-   "fas": "برای تحصیل در دانشگاه به مدرک عمومی ورود به دانشگاه نیاز است."
+   "fas": "برای تحصیل در دانشگاه به مدرک عمومی ورود به دانشگاه نیاز است.",
+   "c": [
+    [
+     "die Hochschulreife erwerben",
+     "مدرک ورود به دانشگاه گرفتن"
+    ],
+    [
+     "die allgemeine Hochschulreife",
+     "مدرک دیپلم کامل ورود به دانشگاه"
+    ],
+    [
+     "mit Hochschulreife",
+     "با مدرک ورود به دانشگاه"
+    ]
+   ]
   },
   {
    "id": "L111-149",
@@ -1360,7 +3432,21 @@
    "fa": "طول دوره‌ی استاندارد تحصیل",
    "syn": "die vorgesehene Studiendauer, die Mindeststudienzeit",
    "de": "Nur wenige schaffen den Bachelor in der Regelstudienzeit.",
-   "fas": "فقط تعداد کمی کارشناسی را در طول دوره‌ی استاندارد تمام می‌کنند."
+   "fas": "فقط تعداد کمی کارشناسی را در طول دوره‌ی استاندارد تمام می‌کنند.",
+   "c": [
+    [
+     "in der Regelstudienzeit",
+     "در طول دوره‌ی استاندارد"
+    ],
+    [
+     "die Regelstudienzeit überschreiten",
+     "از طول دوره‌ی استاندارد فراتر رفتن"
+    ],
+    [
+     "die Regelstudienzeit beträgt sechs Semester",
+     "طول دوره‌ی استاندارد شش ترم است"
+    ]
+   ]
   },
   {
    "id": "L111-150",
@@ -1369,7 +3455,21 @@
    "fa": "واحد درسی، ماژول",
    "syn": "die Lehreinheit, der Studienbaustein",
    "de": "Jedes Modul schließt mit einer Prüfung ab.",
-   "fas": "هر واحد درسی با یک امتحان به پایان می‌رسد."
+   "fas": "هر واحد درسی با یک امتحان به پایان می‌رسد.",
+   "c": [
+    [
+     "ein Modul belegen",
+     "واحد درسی برداشتن"
+    ],
+    [
+     "ein Modul abschließen",
+     "یک ماژول را تمام کردن"
+    ],
+    [
+     "aus mehreren Modulen bestehen",
+     "از چند ماژول تشکیل شدن"
+    ]
+   ]
   },
   {
    "id": "L111-151",
@@ -1378,7 +3478,21 @@
    "fa": "ترم تحصیلی در خارج از کشور",
    "syn": "der Auslandsaufenthalt, das Austauschsemester",
    "de": "Im Auslandssemester hat er seine Spanischkenntnisse stark verbessert.",
-   "fas": "او در ترم تحصیلی خارج از کشور زبان اسپانیایی‌اش را بسیار بهتر کرد."
+   "fas": "او در ترم تحصیلی خارج از کشور زبان اسپانیایی‌اش را بسیار بهتر کرد.",
+   "c": [
+    [
+     "ein Auslandssemester machen",
+     "یک ترم در خارج تحصیل کردن"
+    ],
+    [
+     "ins Auslandssemester gehen",
+     "برای ترم خارجی رفتن"
+    ],
+    [
+     "ein Auslandssemester in Spanien",
+     "ترم تحصیلی در اسپانیا"
+    ]
+   ]
   },
   {
    "id": "L111-152",
@@ -1387,7 +3501,21 @@
    "fa": "فارغ‌التحصیل",
    "syn": "der Abgänger, der Hochschulabsolvent",
    "de": "Absolventen technischer Fächer finden schnell eine Stelle.",
-   "fas": "فارغ‌التحصیلان رشته‌های فنی سریع کار پیدا می‌کنند."
+   "fas": "فارغ‌التحصیلان رشته‌های فنی سریع کار پیدا می‌کنند.",
+   "c": [
+    [
+     "Absolventen der Universität",
+     "فارغ‌التحصیلان دانشگاه"
+    ],
+    [
+     "ein junger Absolvent",
+     "فارغ‌التحصیل جوان"
+    ],
+    [
+     "Stellen für Absolventen",
+     "شغل برای فارغ‌التحصیلان"
+    ]
+   ]
   },
   {
    "id": "L111-153",
@@ -1396,7 +3524,21 @@
    "fa": "(دوره‌ای را) گذراندن، به پایان رساندن",
    "syn": "abschließen, durchlaufen",
    "de": "Sie hat ein Praktikum bei einer großen Bank absolviert.",
-   "fas": "او یک دوره‌ی کارآموزی در یک بانک بزرگ گذرانده است."
+   "fas": "او یک دوره‌ی کارآموزی در یک بانک بزرگ گذرانده است.",
+   "c": [
+    [
+     "ein Studium absolvieren",
+     "تحصیلات را به پایان رساندن"
+    ],
+    [
+     "ein Praktikum absolvieren",
+     "دوره‌ی کارآموزی گذراندن"
+    ],
+    [
+     "eine Prüfung absolvieren",
+     "امتحانی را گذراندن"
+    ]
+   ]
   },
   {
    "id": "L111-154",
@@ -1405,7 +3547,21 @@
    "fa": "کنجکاو، تشنه‌ی دانستن",
    "syn": "neugierig, lernbegierig",
    "de": "Kleine Kinder sind von Natur aus sehr wissbegierig.",
-   "fas": "کودکان خردسال ذاتاً بسیار تشنه‌ی دانستن‌اند."
+   "fas": "کودکان خردسال ذاتاً بسیار تشنه‌ی دانستن‌اند.",
+   "c": [
+    [
+     "ein wissbegieriges Kind",
+     "کودکی کنجکاو"
+    ],
+    [
+     "wissbegierig sein",
+     "تشنه‌ی دانستن بودن"
+    ],
+    [
+     "wissbegierig fragen",
+     "با کنجکاوی پرسیدن"
+    ]
+   ]
   },
   {
    "id": "L111-155",
@@ -1414,7 +3570,21 @@
    "fa": "تدریس سنتی معلم‌محور",
    "syn": "der lehrerzentrierte Unterricht, die Vorlesungsform",
    "de": "Statt Frontalunterricht setzen viele Lehrer heute auf Gruppenarbeit.",
-   "fas": "امروزه بسیاری از معلمان به‌جای تدریس معلم‌محور از کار گروهی استفاده می‌کنند."
+   "fas": "امروزه بسیاری از معلمان به‌جای تدریس معلم‌محور از کار گروهی استفاده می‌کنند.",
+   "c": [
+    [
+     "klassischer Frontalunterricht",
+     "تدریس سنتی معلم‌محور"
+    ],
+    [
+     "im Frontalunterricht",
+     "در تدریس معلم‌محور"
+    ],
+    [
+     "weg vom Frontalunterricht",
+     "دوری از تدریس معلم‌محور"
+    ]
+   ]
   },
   {
    "id": "L111-156",
@@ -1423,7 +3593,21 @@
    "fa": "ترک‌تحصیل‌کرده (مدرسه)",
    "syn": "der Schulabgänger ohne Abschluss, der Aussteiger",
    "de": "Spezielle Programme sollen Schulabbrechern eine zweite Chance geben.",
-   "fas": "برنامه‌های ویژه قرار است به ترک‌تحصیل‌کرده‌ها فرصتی دوباره بدهند."
+   "fas": "برنامه‌های ویژه قرار است به ترک‌تحصیل‌کرده‌ها فرصتی دوباره بدهند.",
+   "c": [
+    [
+     "die Zahl der Schulabbrecher",
+     "تعداد ترک‌تحصیل‌کرده‌ها"
+    ],
+    [
+     "Schulabbrecher unterstützen",
+     "از ترک‌تحصیل‌کرده‌ها حمایت کردن"
+    ],
+    [
+     "Chancen für Schulabbrecher",
+     "فرصت‌ها برای ترک‌تحصیل‌کرده‌ها"
+    ]
+   ]
   },
   {
    "id": "L111-157",
@@ -1432,7 +3616,21 @@
    "fa": "فرضیه",
    "syn": "die Annahme, die Vermutung",
    "de": "Die Forscher wollen ihre Hypothese durch weitere Experimente überprüfen.",
-   "fas": "پژوهشگران می‌خواهند فرضیه‌ی خود را با آزمایش‌های بیشتر بررسی کنند."
+   "fas": "پژوهشگران می‌خواهند فرضیه‌ی خود را با آزمایش‌های بیشتر بررسی کنند.",
+   "c": [
+    [
+     "eine Hypothese aufstellen",
+     "فرضیه مطرح کردن"
+    ],
+    [
+     "eine Hypothese überprüfen",
+     "فرضیه را آزمودن"
+    ],
+    [
+     "die Hypothese bestätigen",
+     "فرضیه را تأیید کردن"
+    ]
+   ]
   },
   {
    "id": "L111-158",
@@ -1441,7 +3639,21 @@
    "fa": "آزمایشگاه",
    "syn": "das Laboratorium, die Versuchsanstalt",
    "de": "Die Proben werden im Labor genau analysiert.",
-   "fas": "نمونه‌ها در آزمایشگاه با دقت تحلیل می‌شوند."
+   "fas": "نمونه‌ها در آزمایشگاه با دقت تحلیل می‌شوند.",
+   "c": [
+    [
+     "im Labor arbeiten",
+     "در آزمایشگاه کار کردن"
+    ],
+    [
+     "im Labor untersuchen",
+     "در آزمایشگاه بررسی کردن"
+    ],
+    [
+     "eine Probe ins Labor schicken",
+     "نمونه‌ای را به آزمایشگاه فرستادن"
+    ]
+   ]
   },
   {
    "id": "L111-159",
@@ -1450,7 +3662,21 @@
    "fa": "نظرسنجی، پرسش‌گری",
    "syn": "die Umfrage, die Erhebung",
    "de": "An der Befragung nahmen über 2.000 Personen teil.",
-   "fas": "بیش از ۲۰۰۰ نفر در این نظرسنجی شرکت کردند."
+   "fas": "بیش از ۲۰۰۰ نفر در این نظرسنجی شرکت کردند.",
+   "c": [
+    [
+     "eine Befragung durchführen",
+     "نظرسنجی انجام دادن"
+    ],
+    [
+     "an einer Befragung teilnehmen",
+     "در نظرسنجی شرکت کردن"
+    ],
+    [
+     "laut einer Befragung",
+     "طبق یک نظرسنجی"
+    ]
+   ]
   },
   {
    "id": "L111-160",
@@ -1459,7 +3685,21 @@
    "fa": "کشف",
    "syn": "der Fund, die Erkenntnis",
    "de": "Die Entdeckung des Penicillins war ein Zufall.",
-   "fas": "کشف پنی‌سیلین یک اتفاق بود."
+   "fas": "کشف پنی‌سیلین یک اتفاق بود.",
+   "c": [
+    [
+     "eine Entdeckung machen",
+     "کشفی کردن"
+    ],
+    [
+     "eine bahnbrechende Entdeckung",
+     "کشف انقلابی"
+    ],
+    [
+     "die Entdeckung Amerikas",
+     "کشف آمریکا"
+    ]
+   ]
   },
   {
    "id": "L111-161",
@@ -1468,7 +3708,21 @@
    "fa": "پیشرفت بزرگ، دستاورد مهم",
    "syn": "der Erfolg, der Meilenstein",
    "de": "Den Medizinern gelang ein Durchbruch in der Krebstherapie.",
-   "fas": "پزشکان به دستاورد مهمی در درمان سرطان رسیدند."
+   "fas": "پزشکان به دستاورد مهمی در درمان سرطان رسیدند.",
+   "c": [
+    [
+     "den Durchbruch schaffen",
+     "به موفقیت بزرگ رسیدن"
+    ],
+    [
+     "ein wissenschaftlicher Durchbruch",
+     "دستاورد علمی مهم"
+    ],
+    [
+     "zum Durchbruch verhelfen",
+     "به موفقیت رساندن"
+    ]
+   ]
   },
   {
    "id": "L111-162",
@@ -1477,7 +3731,21 @@
    "fa": "رد کردن، باطل کردن (با دلیل)",
    "syn": "entkräften, falsifizieren",
    "de": "Die neue Studie widerlegt die bisherige Theorie.",
-   "fas": "مطالعه‌ی جدید نظریه‌ی قبلی را رد می‌کند."
+   "fas": "مطالعه‌ی جدید نظریه‌ی قبلی را رد می‌کند.",
+   "c": [
+    [
+     "eine These widerlegen",
+     "نظریه‌ای را رد کردن"
+    ],
+    [
+     "ein Vorurteil widerlegen",
+     "پیش‌داوری را باطل کردن"
+    ],
+    [
+     "eindeutig widerlegt",
+     "به‌روشنی ردشده"
+    ]
+   ]
   },
   {
    "id": "L111-163",
@@ -1486,7 +3754,21 @@
    "fa": "(داده) جمع‌آوری کردن",
    "syn": "sammeln, ermitteln",
    "de": "Für die Studie wurden Daten von 500 Patienten erhoben.",
-   "fas": "برای این مطالعه داده‌های ۵۰۰ بیمار جمع‌آوری شد."
+   "fas": "برای این مطالعه داده‌های ۵۰۰ بیمار جمع‌آوری شد.",
+   "c": [
+    [
+     "Daten erheben",
+     "داده جمع‌آوری کردن"
+    ],
+    [
+     "Gebühren erheben",
+     "هزینه دریافت کردن"
+    ],
+    [
+     "Einspruch erheben",
+     "اعتراض کردن"
+    ]
+   ]
   },
   {
    "id": "L111-164",
@@ -1495,7 +3777,21 @@
    "fa": "نمونه (آماری)",
    "syn": "die Auswahl, die Probe",
    "de": "Die Stichprobe ist zu klein, um allgemeine Aussagen zu treffen.",
-   "fas": "نمونه برای نتیجه‌گیری کلی خیلی کوچک است."
+   "fas": "نمونه برای نتیجه‌گیری کلی خیلی کوچک است.",
+   "c": [
+    [
+     "eine Stichprobe ziehen",
+     "نمونه گرفتن"
+    ],
+    [
+     "eine repräsentative Stichprobe",
+     "نمونه‌ی معرف"
+    ],
+    [
+     "Stichproben machen",
+     "بازرسی تصادفی انجام دادن"
+    ]
+   ]
   },
   {
    "id": "L111-165",
@@ -1504,7 +3800,21 @@
    "fa": "رویکرد",
    "syn": "die Herangehensweise, die Methode",
    "de": "Das Team verfolgt einen völlig neuen Ansatz in der Alzheimerforschung.",
-   "fas": "این تیم رویکرد کاملاً جدیدی در پژوهش آلزایمر دنبال می‌کند."
+   "fas": "این تیم رویکرد کاملاً جدیدی در پژوهش آلزایمر دنبال می‌کند.",
+   "c": [
+    [
+     "ein neuer Ansatz",
+     "رویکرد جدید"
+    ],
+    [
+     "einen Ansatz verfolgen",
+     "رویکردی را دنبال کردن"
+    ],
+    [
+     "im Ansatz richtig",
+     "در اصل درست"
+    ]
+   ]
   },
   {
    "id": "L111-166",
@@ -1513,7 +3823,21 @@
    "fa": "تأثیر متقابل",
    "syn": "die Interaktion, die gegenseitige Beeinflussung",
    "de": "Man untersucht die Wechselwirkung zwischen Ernährung und Gesundheit.",
-   "fas": "تأثیر متقابل تغذیه و سلامت بررسی می‌شود."
+   "fas": "تأثیر متقابل تغذیه و سلامت بررسی می‌شود.",
+   "c": [
+    [
+     "in Wechselwirkung stehen mit + D",
+     "با … تأثیر متقابل داشتن"
+    ],
+    [
+     "Wechselwirkungen mit anderen Medikamenten",
+     "تداخل با داروهای دیگر"
+    ],
+    [
+     "die Wechselwirkung zwischen + D",
+     "تأثیر متقابل میان"
+    ]
+   ]
   },
   {
    "id": "L111-167",
@@ -1522,7 +3846,21 @@
    "fa": "مجله‌ی تخصصی",
    "syn": "das Fachjournal, das Fachblatt",
    "de": "Die Ergebnisse wurden in einer renommierten Fachzeitschrift veröffentlicht.",
-   "fas": "نتایج در یک مجله‌ی تخصصی معتبر منتشر شد."
+   "fas": "نتایج در یک مجله‌ی تخصصی معتبر منتشر شد.",
+   "c": [
+    [
+     "in einer Fachzeitschrift veröffentlichen",
+     "در مجله‌ی تخصصی منتشر کردن"
+    ],
+    [
+     "eine medizinische Fachzeitschrift",
+     "مجله‌ی تخصصی پزشکی"
+    ],
+    [
+     "einen Artikel in einer Fachzeitschrift lesen",
+     "مقاله‌ای در مجله‌ی تخصصی خواندن"
+    ]
+   ]
   },
   {
    "id": "L111-168",
@@ -1531,7 +3869,21 @@
    "fa": "انتشار، اثر منتشرشده",
    "syn": "die Publikation, der Artikel",
    "de": "Seine neueste Veröffentlichung hat in der Fachwelt viel Aufsehen erregt.",
-   "fas": "تازه‌ترین اثر منتشرشده‌ی او در محافل تخصصی سروصدای زیادی به پا کرد."
+   "fas": "تازه‌ترین اثر منتشرشده‌ی او در محافل تخصصی سروصدای زیادی به پا کرد.",
+   "c": [
+    [
+     "die Veröffentlichung der Ergebnisse",
+     "انتشار نتایج"
+    ],
+    [
+     "eine wissenschaftliche Veröffentlichung",
+     "اثر علمی منتشرشده"
+    ],
+    [
+     "zur Veröffentlichung freigeben",
+     "اجازه‌ی انتشار دادن"
+    ]
+   ]
   },
   {
    "id": "L111-169",
@@ -1540,7 +3892,21 @@
    "fa": "منتشر کردن",
    "syn": "veröffentlichen, herausgeben",
    "de": "Junge Forscher stehen unter Druck, möglichst viel zu publizieren.",
-   "fas": "پژوهشگران جوان زیر فشارند که تا حد ممکن زیاد مقاله منتشر کنند."
+   "fas": "پژوهشگران جوان زیر فشارند که تا حد ممکن زیاد مقاله منتشر کنند.",
+   "c": [
+    [
+     "einen Artikel publizieren",
+     "مقاله منتشر کردن"
+    ],
+    [
+     "Ergebnisse publizieren",
+     "نتایج را منتشر کردن"
+    ],
+    [
+     "in einer Zeitschrift publizieren",
+     "در یک مجله منتشر کردن"
+    ]
+   ]
   },
   {
    "id": "L111-170",
@@ -1549,7 +3915,21 @@
    "fa": "گزارش کارشناسی",
    "syn": "die Expertise, die Stellungnahme",
    "de": "Laut Gutachten ist das Gebäude nicht mehr sicher.",
-   "fas": "طبق گزارش کارشناسی، این ساختمان دیگر ایمن نیست."
+   "fas": "طبق گزارش کارشناسی، این ساختمان دیگر ایمن نیست.",
+   "c": [
+    [
+     "ein Gutachten erstellen",
+     "گزارش کارشناسی تهیه کردن"
+    ],
+    [
+     "ein Gutachten in Auftrag geben",
+     "سفارش گزارش کارشناسی دادن"
+    ],
+    [
+     "laut Gutachten",
+     "طبق گزارش کارشناسی"
+    ]
+   ]
   },
   {
    "id": "L111-171",
@@ -1558,7 +3938,21 @@
    "fa": "نوآوری",
    "syn": "die Neuerung, die Erfindung",
    "de": "Ohne Innovationen verliert ein Unternehmen schnell seine Wettbewerbsfähigkeit.",
-   "fas": "یک شرکت بدون نوآوری به‌سرعت توان رقابتش را از دست می‌دهد."
+   "fas": "یک شرکت بدون نوآوری به‌سرعت توان رقابتش را از دست می‌دهد.",
+   "c": [
+    [
+     "Innovationen fördern",
+     "از نوآوری حمایت کردن"
+    ],
+    [
+     "eine technische Innovation",
+     "نوآوری فنی"
+    ],
+    [
+     "offen für Innovationen",
+     "پذیرای نوآوری"
+    ]
+   ]
   },
   {
    "id": "L111-172",
@@ -1567,7 +3961,21 @@
    "fa": "شبیه‌سازی کردن (ژنتیکی)",
    "syn": "genetisch kopieren, duplizieren",
    "de": "Das Schaf Dolly war das erste geklonte Säugetier.",
-   "fas": "گوسفند دالی نخستین پستاندار شبیه‌سازی‌شده بود."
+   "fas": "گوسفند دالی نخستین پستاندار شبیه‌سازی‌شده بود.",
+   "c": [
+    [
+     "ein Schaf klonen",
+     "گوسفندی را شبیه‌سازی کردن"
+    ],
+    [
+     "Menschen klonen",
+     "انسان شبیه‌سازی کردن"
+    ],
+    [
+     "geklonte Tiere",
+     "حیوانات شبیه‌سازی‌شده"
+    ]
+   ]
   },
   {
    "id": "L111-173",
@@ -1576,7 +3984,21 @@
    "fa": "آزمایش روی حیوانات",
    "syn": "das Tierexperiment, der Versuch am Tier",
    "de": "Tierversuche für Kosmetik sind in der EU verboten.",
-   "fas": "آزمایش روی حیوانات برای لوازم آرایشی در اتحادیه‌ی اروپا ممنوع است."
+   "fas": "آزمایش روی حیوانات برای لوازم آرایشی در اتحادیه‌ی اروپا ممنوع است.",
+   "c": [
+    [
+     "Tierversuche durchführen",
+     "آزمایش روی حیوانات انجام دادن"
+    ],
+    [
+     "gegen Tierversuche",
+     "مخالف آزمایش روی حیوانات"
+    ],
+    [
+     "ohne Tierversuche",
+     "بدون آزمایش روی حیوانات"
+    ]
+   ]
   },
   {
    "id": "L111-174",
@@ -1585,7 +4007,21 @@
    "fa": "بودجه‌ی پژوهشی",
    "syn": "die Fördermittel, die Forschungsmittel",
    "de": "Die Universität hat zusätzliche Forschungsgelder vom Staat erhalten.",
-   "fas": "دانشگاه بودجه‌ی پژوهشی اضافی از دولت دریافت کرده است."
+   "fas": "دانشگاه بودجه‌ی پژوهشی اضافی از دولت دریافت کرده است.",
+   "c": [
+    [
+     "Forschungsgelder beantragen",
+     "درخواست بودجه‌ی پژوهشی دادن"
+    ],
+    [
+     "Forschungsgelder bewilligen",
+     "بودجه‌ی پژوهشی را تصویب کردن"
+    ],
+    [
+     "Forschungsgelder kürzen",
+     "بودجه‌ی پژوهشی را کاهش دادن"
+    ]
+   ]
   },
   {
    "id": "L111-175",
@@ -1594,7 +4030,21 @@
    "fa": "حق ثبت اختراع",
    "syn": "das Schutzrecht, die Lizenz",
    "de": "Das Unternehmen hat ein Patent auf die neue Technologie angemeldet.",
-   "fas": "شرکت برای فناوری جدید درخواست ثبت اختراع داده است."
+   "fas": "شرکت برای فناوری جدید درخواست ثبت اختراع داده است.",
+   "c": [
+    [
+     "ein Patent anmelden",
+     "درخواست ثبت اختراع دادن"
+    ],
+    [
+     "ein Patent erteilen",
+     "حق اختراع اعطا کردن"
+    ],
+    [
+     "ein Patent auf etwas haben",
+     "حق ثبت چیزی را داشتن"
+    ]
+   ]
   },
   {
    "id": "L111-176",
@@ -1603,7 +4053,21 @@
    "fa": "نمونه‌ی اولیه",
    "syn": "das Modell, das Versuchsmodell",
    "de": "Der Prototyp des Elektroautos wurde auf der Messe vorgestellt.",
-   "fas": "نمونه‌ی اولیه‌ی خودروی برقی در نمایشگاه معرفی شد."
+   "fas": "نمونه‌ی اولیه‌ی خودروی برقی در نمایشگاه معرفی شد.",
+   "c": [
+    [
+     "einen Prototyp entwickeln",
+     "نمونه‌ی اولیه ساختن"
+    ],
+    [
+     "den Prototyp testen",
+     "نمونه‌ی اولیه را آزمایش کردن"
+    ],
+    [
+     "der Prototyp eines Autos",
+     "نمونه‌ی اولیه‌ی یک خودرو"
+    ]
+   ]
   },
   {
    "id": "L111-177",
@@ -1612,7 +4076,21 @@
    "fa": "پژوهش کردن، کاوش کردن",
    "syn": "untersuchen, ergründen",
    "de": "Wissenschaftler erforschen seit Jahrzehnten die Ursachen des Klimawandels.",
-   "fas": "دانشمندان دهه‌هاست علل تغییرات اقلیمی را پژوهش می‌کنند."
+   "fas": "دانشمندان دهه‌هاست علل تغییرات اقلیمی را پژوهش می‌کنند.",
+   "c": [
+    [
+     "die Ursachen erforschen",
+     "علت‌ها را بررسی کردن"
+    ],
+    [
+     "gründlich erforschen",
+     "به‌طور کامل پژوهش کردن"
+    ],
+    [
+     "noch nicht erforscht",
+     "هنوز پژوهش‌نشده"
+    ]
+   ]
   },
   {
    "id": "L111-178",
@@ -1621,7 +4099,21 @@
    "fa": "فرض، گمان",
    "syn": "die Vermutung, die Hypothese",
    "de": "Die Annahme, dass Zucker hyperaktiv macht, ist wissenschaftlich nicht belegt.",
-   "fas": "این فرض که شکر باعث بیش‌فعالی می‌شود، از نظر علمی ثابت نشده است."
+   "fas": "این فرض که شکر باعث بیش‌فعالی می‌شود، از نظر علمی ثابت نشده است.",
+   "c": [
+    [
+     "von der Annahme ausgehen, dass",
+     "با این فرض شروع کردن که"
+    ],
+    [
+     "in der Annahme, dass",
+     "با این گمان که"
+    ],
+    [
+     "eine Annahme bestätigen",
+     "فرضی را تأیید کردن"
+    ]
+   ]
   },
   {
    "id": "L111-179",
@@ -1630,7 +4122,21 @@
    "fa": "نتیجه‌گیری",
    "syn": "das Fazit, der Schluss",
    "de": "Aus den Daten lässt sich keine eindeutige Schlussfolgerung ziehen.",
-   "fas": "از این داده‌ها نمی‌توان نتیجه‌گیری قطعی کرد."
+   "fas": "از این داده‌ها نمی‌توان نتیجه‌گیری قطعی کرد.",
+   "c": [
+    [
+     "eine Schlussfolgerung ziehen",
+     "نتیجه‌گیری کردن"
+    ],
+    [
+     "zu der Schlussfolgerung kommen, dass",
+     "به این نتیجه رسیدن که"
+    ],
+    [
+     "eine voreilige Schlussfolgerung",
+     "نتیجه‌گیری عجولانه"
+    ]
+   ]
   },
   {
    "id": "L111-180",
@@ -1639,7 +4145,21 @@
    "fa": "حوزه‌ی تخصصی",
    "syn": "der Fachbereich, die Disziplin",
    "de": "Ihr Fachgebiet ist die Molekularbiologie.",
-   "fas": "حوزه‌ی تخصصی او زیست‌شناسی مولکولی است."
+   "fas": "حوزه‌ی تخصصی او زیست‌شناسی مولکولی است.",
+   "c": [
+    [
+     "auf diesem Fachgebiet",
+     "در این حوزه‌ی تخصصی"
+    ],
+    [
+     "ein Experte auf seinem Fachgebiet",
+     "متخصص در حوزه‌ی خود"
+    ],
+    [
+     "das Fachgebiet wechseln",
+     "حوزه‌ی تخصصی را عوض کردن"
+    ]
+   ]
   },
   {
    "id": "L111-181",
@@ -1648,7 +4168,21 @@
    "fa": "میان‌رشته‌ای",
    "syn": "fächerübergreifend, multidisziplinär",
    "de": "Komplexe Probleme wie der Klimawandel erfordern interdisziplinäre Forschung.",
-   "fas": "مسائل پیچیده‌ای مثل تغییرات اقلیمی به پژوهش میان‌رشته‌ای نیاز دارند."
+   "fas": "مسائل پیچیده‌ای مثل تغییرات اقلیمی به پژوهش میان‌رشته‌ای نیاز دارند.",
+   "c": [
+    [
+     "interdisziplinär arbeiten",
+     "به‌صورت میان‌رشته‌ای کار کردن"
+    ],
+    [
+     "ein interdisziplinäres Projekt",
+     "پروژه‌ی میان‌رشته‌ای"
+    ],
+    [
+     "interdisziplinäre Forschung",
+     "پژوهش میان‌رشته‌ای"
+    ]
+   ]
   },
   {
    "id": "L111-182",
@@ -1657,7 +4191,21 @@
    "fa": "تجربی، مبتنی بر داده",
    "syn": "erfahrungsbasiert, auf Daten gestützt",
    "de": "Diese Behauptung wurde bisher nicht empirisch überprüft.",
-   "fas": "این ادعا تاکنون به‌صورت تجربی بررسی نشده است."
+   "fas": "این ادعا تاکنون به‌صورت تجربی بررسی نشده است.",
+   "c": [
+    [
+     "eine empirische Studie",
+     "مطالعه‌ی تجربی"
+    ],
+    [
+     "empirisch belegt",
+     "به‌طور تجربی اثبات‌شده"
+    ],
+    [
+     "empirische Daten",
+     "داده‌های تجربی"
+    ]
+   ]
   },
   {
    "id": "L111-183",
@@ -1666,7 +4214,21 @@
    "fa": "گویا، معنادار",
    "syn": "bedeutsam, überzeugend",
    "de": "Erst nach mehreren Jahren liegen aussagekräftige Ergebnisse vor.",
-   "fas": "تنها پس از چند سال نتایج گویا به دست می‌آید."
+   "fas": "تنها پس از چند سال نتایج گویا به دست می‌آید.",
+   "c": [
+    [
+     "aussagekräftige Ergebnisse",
+     "نتایج گویا"
+    ],
+    [
+     "eine aussagekräftige Bewerbung",
+     "درخواست کار گویا و قانع‌کننده"
+    ],
+    [
+     "wenig aussagekräftig",
+     "کم‌معنا، نه‌چندان گویا"
+    ]
+   ]
   },
   {
    "id": "L111-184",
@@ -1675,7 +4237,21 @@
    "fa": "معنادار (آماری)، چشمگیر",
    "syn": "bedeutend, erheblich",
    "de": "Zwischen den beiden Gruppen gab es keinen signifikanten Unterschied.",
-   "fas": "بین دو گروه تفاوت معناداری وجود نداشت."
+   "fas": "بین دو گروه تفاوت معناداری وجود نداشت.",
+   "c": [
+    [
+     "ein signifikanter Unterschied",
+     "تفاوت معنادار"
+    ],
+    [
+     "signifikant steigen",
+     "به‌طور چشمگیر افزایش یافتن"
+    ],
+    [
+     "statistisch signifikant",
+     "از نظر آماری معنادار"
+    ]
+   ]
   },
   {
    "id": "L111-185",
@@ -1684,7 +4260,21 @@
    "fa": "پژوهش بنیادی",
    "syn": "die reine Forschung, die theoretische Forschung",
    "de": "Ohne Grundlagenforschung gäbe es viele moderne Technologien nicht.",
-   "fas": "بدون پژوهش بنیادی بسیاری از فناوری‌های مدرن وجود نداشتند."
+   "fas": "بدون پژوهش بنیادی بسیاری از فناوری‌های مدرن وجود نداشتند.",
+   "c": [
+    [
+     "Grundlagenforschung betreiben",
+     "پژوهش بنیادی انجام دادن"
+    ],
+    [
+     "Grundlagenforschung fördern",
+     "از پژوهش بنیادی حمایت کردن"
+    ],
+    [
+     "Ergebnisse der Grundlagenforschung",
+     "نتایج پژوهش بنیادی"
+    ]
+   ]
   },
   {
    "id": "L111-186",
@@ -1693,7 +4283,21 @@
    "fa": "مؤسسه‌ی پژوهشی",
    "syn": "das Forschungsinstitut, das Forschungszentrum",
    "de": "Die Stadt ist ein Zentrum für Hochschulen und Forschungseinrichtungen.",
-   "fas": "این شهر مرکز دانشگاه‌ها و مؤسسات پژوهشی است."
+   "fas": "این شهر مرکز دانشگاه‌ها و مؤسسات پژوهشی است.",
+   "c": [
+    [
+     "eine staatliche Forschungseinrichtung",
+     "مؤسسه‌ی پژوهشی دولتی"
+    ],
+    [
+     "an einer Forschungseinrichtung arbeiten",
+     "در مؤسسه‌ی پژوهشی کار کردن"
+    ],
+    [
+     "Universitäten und Forschungseinrichtungen",
+     "دانشگاه‌ها و مؤسسات پژوهشی"
+    ]
+   ]
   },
   {
    "id": "L111-187",
@@ -1702,7 +4306,21 @@
    "fa": "آزمایش کردن با",
    "syn": "ausprobieren, testen",
    "de": "Die Chemiker experimentieren mit neuen Materialien für Batterien.",
-   "fas": "شیمی‌دانان با مواد جدید برای باتری آزمایش می‌کنند."
+   "fas": "شیمی‌دانان با مواد جدید برای باتری آزمایش می‌کنند.",
+   "c": [
+    [
+     "mit neuen Methoden experimentieren",
+     "با روش‌های جدید آزمایش کردن"
+    ],
+    [
+     "mit Farben experimentieren",
+     "با رنگ‌ها آزمایش کردن"
+    ],
+    [
+     "gern experimentieren",
+     "اهل امتحان کردن چیزهای تازه بودن"
+    ]
+   ]
   },
   {
    "id": "L111-188",
@@ -1711,7 +4329,21 @@
    "fa": "آزمودن، امتحان کردن (در عمل)",
    "syn": "testen, prüfen",
    "de": "Das neue Medikament wird zurzeit an Freiwilligen erprobt.",
-   "fas": "داروی جدید در حال حاضر روی داوطلبان آزموده می‌شود."
+   "fas": "داروی جدید در حال حاضر روی داوطلبان آزموده می‌شود.",
+   "c": [
+    [
+     "in der Praxis erproben",
+     "در عمل آزمودن"
+    ],
+    [
+     "eine Methode erproben",
+     "روشی را آزمودن"
+    ],
+    [
+     "erprobt und bewährt",
+     "آزموده و امتحان‌پس‌داده"
+    ]
+   ]
   },
   {
    "id": "L111-189",
@@ -1720,7 +4352,21 @@
    "fa": "همبستگی",
    "syn": "der Zusammenhang, die Wechselbeziehung",
    "de": "Eine Korrelation bedeutet nicht automatisch einen kausalen Zusammenhang.",
-   "fas": "همبستگی لزوماً به معنای رابطه‌ی علّی نیست."
+   "fas": "همبستگی لزوماً به معنای رابطه‌ی علّی نیست.",
+   "c": [
+    [
+     "eine Korrelation zwischen A und B",
+     "همبستگی بین الف و ب"
+    ],
+    [
+     "eine starke Korrelation",
+     "همبستگی قوی"
+    ],
+    [
+     "eine Korrelation feststellen",
+     "همبستگی‌ای یافتن"
+    ]
+   ]
   },
   {
    "id": "L111-190",
@@ -1729,7 +4375,21 @@
    "fa": "قابل‌قبول، منطقی",
    "syn": "nachvollziehbar, einleuchtend",
    "de": "Seine Erklärung für die Messfehler klingt durchaus plausibel.",
-   "fas": "توضیح او برای خطاهای اندازه‌گیری کاملاً منطقی به نظر می‌رسد."
+   "fas": "توضیح او برای خطاهای اندازه‌گیری کاملاً منطقی به نظر می‌رسد.",
+   "c": [
+    [
+     "plausibel klingen",
+     "منطقی به نظر رسیدن"
+    ],
+    [
+     "eine plausible Erklärung",
+     "توضیح قابل‌قبول"
+    ],
+    [
+     "jemandem etwas plausibel machen",
+     "چیزی را برای کسی قابل‌فهم کردن"
+    ]
+   ]
   },
   {
    "id": "L111-191",
@@ -1738,7 +4398,21 @@
    "fa": "گروه کنترل",
    "syn": "die Vergleichsgruppe, die Referenzgruppe",
    "de": "Die Kontrollgruppe erhielt statt des Medikaments ein Placebo.",
-   "fas": "گروه کنترل به‌جای دارو دارونما دریافت کرد."
+   "fas": "گروه کنترل به‌جای دارو دارونما دریافت کرد.",
+   "c": [
+    [
+     "eine Kontrollgruppe bilden",
+     "گروه کنترل تشکیل دادن"
+    ],
+    [
+     "im Vergleich zur Kontrollgruppe",
+     "در مقایسه با گروه کنترل"
+    ],
+    [
+     "die Kontrollgruppe erhält ein Placebo",
+     "گروه کنترل دارونما می‌گیرد"
+    ]
+   ]
   },
   {
    "id": "L111-192",
@@ -1747,7 +4421,21 @@
    "fa": "آزمودنی",
    "syn": "der Proband, der Teilnehmer",
    "de": "Den Versuchspersonen wurden verschiedene Bilder gezeigt.",
-   "fas": "تصاویر مختلفی به آزمودنی‌ها نشان داده شد."
+   "fas": "تصاویر مختلفی به آزمودنی‌ها نشان داده شد.",
+   "c": [
+    [
+     "Versuchspersonen suchen",
+     "دنبال آزمودنی گشتن"
+    ],
+    [
+     "als Versuchsperson teilnehmen",
+     "به‌عنوان آزمودنی شرکت کردن"
+    ],
+    [
+     "die Versuchspersonen befragen",
+     "از آزمودنی‌ها پرسش کردن"
+    ]
+   ]
   },
   {
    "id": "L111-193",
@@ -1756,7 +4444,21 @@
    "fa": "مقدار اندازه‌گیری‌شده",
    "syn": "das Messergebnis, der Wert",
    "de": "Die Messwerte zeigen einen deutlichen Anstieg der Temperatur.",
-   "fas": "مقادیر اندازه‌گیری‌شده افزایش آشکار دما را نشان می‌دهند."
+   "fas": "مقادیر اندازه‌گیری‌شده افزایش آشکار دما را نشان می‌دهند.",
+   "c": [
+    [
+     "Messwerte erfassen",
+     "مقادیر اندازه‌گیری‌شده را ثبت کردن"
+    ],
+    [
+     "die Messwerte vergleichen",
+     "مقادیر اندازه‌گیری‌شده را مقایسه کردن"
+    ],
+    [
+     "erhöhte Messwerte",
+     "مقادیر بالاتر از حد معمول"
+    ]
+   ]
   },
   {
    "id": "L111-194",
@@ -1765,7 +4467,21 @@
    "fa": "منشأ خطا",
    "syn": "die Fehlerursache, der Störfaktor",
    "de": "Bei Umfragen ist die Formulierung der Fragen eine häufige Fehlerquelle.",
-   "fas": "در نظرسنجی‌ها، نحوه‌ی طرح پرسش‌ها منشأ رایج خطا است."
+   "fas": "در نظرسنجی‌ها، نحوه‌ی طرح پرسش‌ها منشأ رایج خطا است.",
+   "c": [
+    [
+     "eine mögliche Fehlerquelle",
+     "منشأ احتمالی خطا"
+    ],
+    [
+     "Fehlerquellen ausschließen",
+     "منشأهای خطا را حذف کردن"
+    ],
+    [
+     "die Fehlerquelle finden",
+     "منشأ خطا را پیدا کردن"
+    ]
+   ]
   },
   {
    "id": "L111-195",
@@ -1774,7 +4490,21 @@
    "fa": "تحریف کردن، مخدوش کردن",
    "syn": "manipulieren, verzerren",
    "de": "Eine zu kleine Stichprobe kann die Ergebnisse verfälschen.",
-   "fas": "نمونه‌ی خیلی کوچک می‌تواند نتایج را مخدوش کند."
+   "fas": "نمونه‌ی خیلی کوچک می‌تواند نتایج را مخدوش کند.",
+   "c": [
+    [
+     "Ergebnisse verfälschen",
+     "نتایج را مخدوش کردن"
+    ],
+    [
+     "die Wahrheit verfälschen",
+     "حقیقت را تحریف کردن"
+    ],
+    [
+     "ein verfälschtes Bild",
+     "تصویری تحریف‌شده"
+    ]
+   ]
   },
   {
    "id": "L111-196",
@@ -1783,7 +4513,21 @@
    "fa": "ژنوم، ماده‌ی ژنتیکی",
    "syn": "die DNA, die Gene",
    "de": "Forscher haben das Erbgut der Pflanze vollständig entschlüsselt.",
-   "fas": "پژوهشگران ژنوم این گیاه را به‌طور کامل رمزگشایی کرده‌اند."
+   "fas": "پژوهشگران ژنوم این گیاه را به‌طور کامل رمزگشایی کرده‌اند.",
+   "c": [
+    [
+     "das menschliche Erbgut",
+     "ژنوم انسان"
+    ],
+    [
+     "das Erbgut verändern",
+     "ماده‌ی ژنتیکی را تغییر دادن"
+    ],
+    [
+     "das Erbgut entschlüsseln",
+     "ژنوم را رمزگشایی کردن"
+    ]
+   ]
   },
   {
    "id": "L111-197",
@@ -1792,7 +4536,21 @@
    "fa": "فضانوردی، صنعت فضایی",
    "syn": "die Weltraumforschung, die Astronautik",
    "de": "Private Firmen spielen in der Raumfahrt eine immer größere Rolle.",
-   "fas": "شرکت‌های خصوصی نقش روزافزونی در صنعت فضایی ایفا می‌کنند."
+   "fas": "شرکت‌های خصوصی نقش روزافزونی در صنعت فضایی ایفا می‌کنند.",
+   "c": [
+    [
+     "die bemannte Raumfahrt",
+     "فضانوردی سرنشین‌دار"
+    ],
+    [
+     "in der Raumfahrt",
+     "در صنعت فضایی"
+    ],
+    [
+     "die europäische Raumfahrt",
+     "صنعت فضایی اروپا"
+    ]
+   ]
   },
   {
    "id": "L111-198",
@@ -1801,7 +4559,21 @@
    "fa": "علوم طبیعی",
    "syn": "die exakte Wissenschaft, die Naturkunde",
    "de": "Mädchen sollen stärker für Naturwissenschaften begeistert werden.",
-   "fas": "باید دختران را بیشتر به علوم طبیعی علاقه‌مند کرد."
+   "fas": "باید دختران را بیشتر به علوم طبیعی علاقه‌مند کرد.",
+   "c": [
+    [
+     "Naturwissenschaften studieren",
+     "علوم طبیعی خواندن"
+    ],
+    [
+     "die exakten Naturwissenschaften",
+     "علوم دقیقه"
+    ],
+    [
+     "in den Naturwissenschaften",
+     "در علوم طبیعی"
+    ]
+   ]
   },
   {
    "id": "L111-199",
@@ -1810,7 +4582,21 @@
    "fa": "علوم انسانی",
    "syn": "die Humanwissenschaft, die Kulturwissenschaft",
    "de": "Absolventen der Geisteswissenschaften arbeiten oft in Verlagen oder Museen.",
-   "fas": "فارغ‌التحصیلان علوم انسانی اغلب در انتشارات یا موزه‌ها کار می‌کنند."
+   "fas": "فارغ‌التحصیلان علوم انسانی اغلب در انتشارات یا موزه‌ها کار می‌کنند.",
+   "c": [
+    [
+     "Geisteswissenschaften studieren",
+     "علوم انسانی خواندن"
+    ],
+    [
+     "in den Geisteswissenschaften",
+     "در علوم انسانی"
+    ],
+    [
+     "Natur- und Geisteswissenschaften",
+     "علوم طبیعی و انسانی"
+    ]
+   ]
   },
   {
    "id": "L111-200",
@@ -1819,7 +4605,21 @@
    "fa": "اصطلاح تخصصی",
    "syn": "der Terminus, das Fachwort",
    "de": "Der Artikel enthält viele Fachbegriffe, die erklärt werden müssen.",
-   "fas": "این مقاله اصطلاحات تخصصی زیادی دارد که باید توضیح داده شوند."
+   "fas": "این مقاله اصطلاحات تخصصی زیادی دارد که باید توضیح داده شوند.",
+   "c": [
+    [
+     "einen Fachbegriff erklären",
+     "اصطلاح تخصصی را توضیح دادن"
+    ],
+    [
+     "mit Fachbegriffen um sich werfen",
+     "پشت سر هم اصطلاح تخصصی به کار بردن"
+    ],
+    [
+     "ein medizinischer Fachbegriff",
+     "اصطلاح تخصصی پزشکی"
+    ]
+   ]
   },
   {
    "id": "L111-201",
@@ -1828,7 +4628,21 @@
    "fa": "الگوریتم",
    "syn": "das Rechenverfahren, die Rechenvorschrift",
    "de": "Soziale Netzwerke entscheiden mit Algorithmen, welche Beiträge wir sehen.",
-   "fas": "شبکه‌های اجتماعی با الگوریتم‌ها تصمیم می‌گیرند چه پست‌هایی را ببینیم."
+   "fas": "شبکه‌های اجتماعی با الگوریتم‌ها تصمیم می‌گیرند چه پست‌هایی را ببینیم.",
+   "c": [
+    [
+     "einen Algorithmus entwickeln",
+     "الگوریتم طراحی کردن"
+    ],
+    [
+     "nach einem Algorithmus",
+     "بر اساس یک الگوریتم"
+    ],
+    [
+     "der Algorithmus entscheidet",
+     "الگوریتم تصمیم می‌گیرد"
+    ]
+   ]
   }
  ],
  "note": "Zusatz B2: Für B2 gibt es keine offizielle Wortliste – dies ist eine eigene Auswahl wichtiger B2-Wörter, die nicht im Buch und nicht in den Goethe-Listen A2/B1 stehen. · برای B2 فهرست رسمی وجود ندارد؛ این گزینشی از واژه‌های مهم B2 است که در کتاب و فهرست‌های A2/B1 نیستند."

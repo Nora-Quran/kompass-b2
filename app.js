@@ -25,7 +25,10 @@
     lesson: saved.lesson || (LESSONS[0] && LESSONS[0].id),
     theme: saved.theme || null,
     auto: !!saved.auto,   // read the German word aloud automatically
-    slow: !!saved.slow,   // slower speech
+    voice: saved.voice || "",                         // chosen German voice (name)
+    rate: saved.rate || (saved.slow ? 0.75 : 1),      // speech speed
+    play: Object.assign({ ex: true, coll: false, fa: false }, saved.play || {}),
+    dailyDone: saved.dailyDone || {},
   };
   const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch { /* private mode etc. */ } };
 
@@ -72,16 +75,27 @@
   // ---------- speech ----------
   // Uses the browser's built-in speech synthesis (Web Speech API) with a German voice.
   const hasTTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
-  let deVoice = null, voicesLoaded = false;
+  let deVoice = null, faVoice = null, voicesLoaded = false, deVoices = [];
+  // Higher score = more natural voice (cloud / neural voices first).
+  function voiceScore(x) {
+    let s = 0;
+    if (/natural|neural|online|wavenet/i.test(x.name)) s += 6;
+    if (/google/i.test(x.name)) s += 4;
+    if (/premium|enhanced|siri|verbessert/i.test(x.name)) s += 4;
+    if (/katja|conrad|amala|seraphina|florian|anna|petra|helena|markus|yannick|viktoria/i.test(x.name)) s += 1;
+    if (/de[-_]DE/i.test(x.lang)) s += 2;
+    if (/espeak|compact/i.test(x.name)) s -= 5;
+    return s;
+  }
   function pickVoice() {
     if (!hasTTS) return;
     const v = speechSynthesis.getVoices();
     if (v.length) voicesLoaded = true;
-    // prefer good-quality German voices when several exist
-    const de = v.filter(x => /^de([-_]|$)/i.test(x.lang));
-    deVoice = de.find(x => /de[-_]DE/i.test(x.lang) && /google|natural|enhanced|premium|anna|petra|helena|katja|conrad/i.test(x.name))
-      || de.find(x => /de[-_]DE/i.test(x.lang)) || de[0] || null;
+    deVoices = v.filter(x => /^de([-_]|$)/i.test(x.lang)).sort((a, b) => voiceScore(b) - voiceScore(a));
+    deVoice = deVoices.find(x => x.name === store.voice) || deVoices[0] || null;
+    faVoice = v.filter(x => /^fa([-_]|$)/i.test(x.lang)).sort((a, b) => voiceScore(b) - voiceScore(a))[0] || null;
     updateVoiceNote();
+    if (typeof settingsOpen !== "undefined" && settingsOpen) renderSettings();
   }
   if (hasTTS) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; setTimeout(() => { voicesLoaded = true; pickVoice(); }, 2500); }
   function speak(text) {
@@ -91,9 +105,25 @@
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "de-DE"; if (deVoice) u.voice = deVoice;
-    u.rate = store.slow ? 0.7 : 0.95;
+    u.rate = store.rate;
     speechSynthesis.speak(u);
   }
+  // Speak and wait until finished (for the listening mode). A timer covers browsers that never fire "end".
+  function utter(text, lang = "de") {
+    return new Promise(res => {
+      if (!hasTTS || !text) return res();
+      const u = new SpeechSynthesisUtterance(String(text));
+      u.lang = lang === "fa" ? "fa-IR" : "de-DE";
+      const v = lang === "fa" ? faVoice : deVoice; if (v) u.voice = v;
+      u.rate = store.rate;
+      let done = false;
+      const fin = () => { if (!done) { done = true; clearTimeout(t); res(); } };
+      const t = setTimeout(fin, 2000 + String(text).length * 140 / store.rate);
+      u.onend = fin; u.onerror = fin;
+      speechSynthesis.speak(u);
+    });
+  }
+  const wait = ms => new Promise(r => setTimeout(r, ms));
   // Text to read aloud for a headword: drop grammar notes and plural markers, read both parts of "A / B" and "A ≠ B".
   function noParens(t) { let o; do { o = t; t = t.replace(/\s*\([^()]*\)/g, " "); } while (t !== o); return t.replace(/\s+([,.!?;:])/g, "$1"); }
   function sayWord(w) {
@@ -147,10 +177,8 @@
     dir.onchange = () => { store.dir = dir.checked ? "fa" : "de"; persist(); updateDirLabel(); restart(); };
     updateDirLabel();
     $("#starOnly").onchange = e => { state.starOnly = e.target.checked; restart(); };
-    const au = $("#autoSay"), sl = $("#slowSay");
-    if (au) { au.checked = store.auto; au.onchange = () => { store.auto = au.checked; persist(); }; }
-    if (sl) { sl.checked = store.slow; sl.onchange = () => { store.slow = sl.checked; persist(); speak("langsam und deutlich"); }; }
-    if (!hasTTS) document.querySelectorAll(".tts-opt").forEach(x => x.hidden = true);
+    initSettings();
+    if (!(window.TAEGLICH || []).length) { const db = $("#dailyBtn"); if (db) db.hidden = true; }
     $("#unknownOnly").onchange = e => { state.unknownOnly = e.target.checked; restart(); };
     renderChips();
   }
@@ -171,7 +199,8 @@
   function setMode(m, opts = {}) {
     state.mode = m;
     document.querySelectorAll(".modes button").forEach(b => b.classList.toggle("active", b.dataset.mode === m));
-    $(".filters").hidden = (m === "grammar" || m === "mistakes" || !!opts.deck);
+    stopPlay();
+    $(".filters").hidden = (["grammar", "mistakes", "artikel", "verben", "daily"].includes(m) || !!opts.deck);
     if (m === "grammar" && !opts.keepGrammar) { state.gview = "explain"; state.gquiz = null; }
     restart(opts);
     window.scrollTo({ top: 0 });
@@ -210,6 +239,10 @@
       case "write": return renderWrite();
       case "grammar": return renderGrammar();
       case "mistakes": return renderMistakes();
+      case "listen": return renderListen();
+      case "artikel": return renderArtikel();
+      case "verben": return renderVerben();
+      case "daily": return renderDaily();
       default: return renderList();
     }
   }
@@ -224,8 +257,9 @@
   function backDetails(c) {
     return `
       <div class="row"><div class="lab">Synonym(e) ${sayBtn(sayText(c.syn))}</div><div class="syn">${esc(c.syn)}</div></div>
-      <div class="row"><div class="lab">Beispiel ${sayBtn(c.de, "say", "Satz vorlesen (B)")}</div>
-        <div class="ex">${esc(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div></div>`;
+      <div class="row"><div class="lab">Beispiel ${sayBtn(c.de, "say", "Satz vorlesen (B)")} <span class="hint-tap">· Wort antippen = Bedeutung</span></div>
+        <div class="ex">${sent(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div></div>
+      ${collHtml(c)}`;
   }
 
   // ---------- flashcards ----------
@@ -274,7 +308,7 @@
         <button class="link" id="reset">Neu starten</button>
       </div>`;
     const card = $("#card");
-    card.onclick = e => { if (e.target.closest(".tool,.say")) return; flip(); };
+    card.onclick = e => { if (e.target.closest(".tool,.say,.tok")) return; flip(); };
     bindCommon(app);
     $("#prev").onclick = () => go(-1);
     $("#next").onclick = () => go(1);
@@ -528,7 +562,7 @@
               <h3>${esc(r.head)}</h3>
               <p>${esc(r.de)}</p>
               <p class="fa rfa">${esc(r.fa)}</p>
-              ${r.ex.map(([de, fa]) => `<div class="gex"><div class="ex">${esc(de)} ${sayBtn(de.replace(/…/g, " ").replace(/→/g, ". "))}</div><div class="exfa fa">${esc(fa)}</div></div>`).join("")}
+              ${r.ex.map(([de, fa]) => `<div class="gex"><div class="ex">${sent(de)} ${sayBtn(de.replace(/…/g, " ").replace(/→/g, ". "))}</div><div class="exfa fa">${esc(fa)}</div></div>`).join("")}
             </section>`).join("")}
           ${t.table ? `<div class="lab" style="margin-top:14px">Überblick · <span class="fa">جمع‌بندی</span></div>
             <div class="tbl-wrap"><table class="gtable">${t.table.map(r => `<tr><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td><i>${esc(r[2])}</i> ${sayBtn(r[2].replace(/…/g, " ").replace(/→/g, ". "))}</td><td class="fa">${esc(r[3])}</td></tr>`).join("")}</table></div>` : ""}
@@ -708,7 +742,7 @@
           <div><div class="w">${esc(c.w)}${store.known[c.id] ? '<span class="known-dot" title="gelernt"></span>' : ""}
             ${hasTTS ? `<button class="say" data-say="${esc(cleanWord(c.w))}">🔊</button>` : ""}</div>
             <div class="m fa" style="text-align:left">${esc(c.fa)}</div><div class="s">≈ ${esc(c.syn)}</div></div>
-          <div class="col2"><div class="e">${esc(c.de)} ${sayBtn(c.de)}</div><div class="ef fa">${esc(c.fas)}</div></div>
+          <div class="col2"><div class="e">${sent(c.de)} ${sayBtn(c.de)}</div><div class="ef fa">${esc(c.fas)}</div>${collHtml(c, true)}</div>
         </div>`;
       });
       $("#lst").innerHTML = count ? html : `<div class="empty">Nichts gefunden.</div>`;
@@ -716,6 +750,396 @@
     };
     $("#q").oninput = e => draw(e.target.value);
     draw("");
+  }
+
+
+  // =====================================================================
+  //  Common expressions (collocations) and clickable sentence words
+  // =====================================================================
+  function collHtml(c, compact) {
+    if (!c.c || !c.c.length) return "";
+    return `<div class="row coll${compact ? " compact" : ""}"><div class="lab">Wendungen · <span class="fa">اصطلاحات پرکاربرد</span></div>
+      <ul class="colls">${c.c.map(([de, fa]) => `<li><span class="cde">${sent(de)}</span> ${sayBtn(sayText(de))}<span class="cfa fa">${esc(fa)}</span></li>`).join("")}</ul></div>`;
+  }
+  const TOKRE = /([A-Za-zÄÖÜäöüßéèêàâçñ]+(?:-[A-Za-zÄÖÜäöüßéèêàâçñ]+)*)/;
+  function sent(text) {
+    return String(text).split(TOKRE).map((p, i) => (i % 2 ? `<span class="tok">${esc(p)}</span>` : esc(p))).join("");
+  }
+  const GL = window.GLOSSAR || {};
+  let cardIndex = null;
+  const baseOf = w => sayWord(w).split(",")[0].replace(/^(der|die|das|sich)\s+/i, "").trim().toLowerCase();
+  function getCardIndex() {
+    if (cardIndex) return cardIndex;
+    cardIndex = new Map();
+    for (const L of LESSONS) for (const c of L.cards) { const k = baseOf(c.w); if (k && !cardIndex.has(k)) cardIndex.set(k, c); }
+    return cardIndex;
+  }
+  function lookup(tok) {
+    const cap = tok[0].toUpperCase() + tok.slice(1);
+    const g = GL[tok] || GL[tok.toLowerCase()] || GL[cap];
+    const lemma = g ? g[0] : tok;
+    const idx = getCardIndex();
+    const card = idx.get(lemma.toLowerCase()) || idx.get(tok.toLowerCase());
+    return { lemma, fa: g ? g[1] : "", card };
+  }
+  let pop = null;
+  function showGloss(el) {
+    const tok = el.textContent, r = lookup(tok);
+    if (!pop) { pop = document.createElement("div"); pop.className = "gloss-pop"; pop.setAttribute("role", "dialog"); document.body.appendChild(pop); }
+    const lemmaLine = r.lemma && r.lemma.toLowerCase() !== tok.toLowerCase() ? ` <span class="gl-lemma">→ ${esc(r.lemma)}</span>` : "";
+    pop.innerHTML = `<div class="gl-head"><b>${esc(tok)}</b>${lemmaLine} ${sayBtn(r.lemma || tok)}<button class="gl-x" aria-label="Schließen">✕</button></div>
+      ${r.fa ? `<div class="fa gl-fa">${esc(r.fa)}</div>` : ""}
+      ${r.card ? `<div class="gl-card"><span>${esc(r.card.w)}</span><span class="fa">${esc(r.card.fa)}</span></div>` : ""}
+      ${!r.fa && !r.card ? `<div class="gl-none">Keine Übersetzung gefunden · <span class="fa">معنی پیدا نشد</span></div>` : ""}`;
+    bindCommon(pop);
+    pop.querySelector(".gl-x").onclick = hideGloss;
+    document.querySelectorAll(".tok.on").forEach(x => x.classList.remove("on")); el.classList.add("on");
+    pop.style.display = "block";
+    const b = el.getBoundingClientRect(), pw = Math.min(300, innerWidth - 24);
+    pop.style.width = pw + "px";
+    let left = b.left + scrollX + b.width / 2 - pw / 2;
+    left = Math.max(12 + scrollX, Math.min(left, scrollX + innerWidth - pw - 12));
+    pop.style.left = left + "px";
+    const h = pop.offsetHeight;
+    pop.style.top = (b.bottom + 8 + h > innerHeight ? b.top + scrollY - h - 8 : b.bottom + scrollY + 8) + "px";
+  }
+  function hideGloss() { if (pop) pop.style.display = "none"; document.querySelectorAll(".tok.on").forEach(x => x.classList.remove("on")); }
+  document.addEventListener("click", e => {
+    const t = e.target.closest(".tok");
+    if (t) { e.stopPropagation(); showGloss(t); return; }
+    if (pop && !e.target.closest(".gloss-pop")) hideGloss();
+  }, true);
+
+  // =====================================================================
+  //  Settings: voice, speed, auto-play
+  // =====================================================================
+  var settingsOpen = false;
+  function initSettings() {
+    const btn = document.createElement("button");
+    btn.id = "setBtn"; btn.className = "icon-btn"; btn.title = "Stimme & Tempo"; btn.setAttribute("aria-label", "Stimme und Tempo");
+    btn.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>`;
+    $("#themeBtn").before(btn);
+    const sh = document.createElement("div"); sh.id = "settings"; sh.className = "sheet"; sh.hidden = true;
+    document.body.appendChild(sh);
+    btn.onclick = () => { settingsOpen = !settingsOpen; sh.hidden = !settingsOpen; if (settingsOpen) renderSettings(); };
+  }
+  const RATES = [0.75, 1, 1.25, 1.5, 2];
+  function renderSettings() {
+    const sh = $("#settings"); if (!sh) return;
+    const opts = deVoices.map(v => `<option value="${esc(v.name)}" ${deVoice && v.name === deVoice.name ? "selected" : ""}>${esc(v.name)}${voiceScore(v) >= 6 ? " ★" : ""}</option>`).join("");
+    sh.innerHTML = `
+      <div class="sheet-head"><b>Stimme & Tempo</b> <span class="fa">صدا و سرعت</span><button class="gl-x" id="setClose" aria-label="Schließen">✕</button></div>
+      ${!hasTTS ? `<p class="muted">Dein Browser unterstützt keine Sprachausgabe.</p>` : `
+      <label class="lab" for="voiceSel">Deutsche Stimme · <span class="fa">صدای آلمانی</span></label>
+      <div class="row-flex"><select id="voiceSel">${opts || `<option>Keine deutsche Stimme gefunden</option>`}</select>
+        <button class="btn" id="voiceTest">▶ Testen</button></div>
+      <p class="muted small">★ = natürliche Stimme. Am natürlichsten klingen: <b>Microsoft Edge</b> („… Online (Natural)“), <b>Chrome</b> („Google Deutsch“), <b>iPhone/Mac</b> (Stimmen mit „Premium/Verbessert“ in den Einstellungen laden).
+        <span class="fa">بهترین و روان‌ترین صداها: مرورگر Edge (صداهای Natural)، Chrome (Google Deutsch)، و در آیفون/مک صداهای «Premium/پیشرفته» را از تنظیمات دانلود کنید.</span></p>
+      <div class="lab">Tempo · <span class="fa">سرعت</span></div>
+      <div class="chips">${RATES.map(r => `<button class="chip ${store.rate === r ? "on" : ""}" data-rate="${r}">${r}×</button>`).join("")}</div>
+      <label class="toggle" style="margin-top:12px"><input type="checkbox" id="autoSay" ${store.auto ? "checked" : ""}><span>🔊 Wort automatisch vorlesen · <span class="fa">خواندن خودکار</span></span></label>
+      <p class="muted small">Persische Stimme: ${faVoice ? esc(faVoice.name) + " ✓" : "nicht vorhanden – im Hören-Modus wird die Bedeutung nur angezeigt."}</p>`}`;
+    $("#setClose").onclick = () => { settingsOpen = false; sh.hidden = true; };
+    const vs = $("#voiceSel");
+    if (vs) vs.onchange = () => { store.voice = vs.value; persist(); pickVoice(); speak("Hallo! So klinge ich."); };
+    const vt = $("#voiceTest"); if (vt) vt.onclick = () => speak("Guten Tag! Ich lese dir die Wörter und Sätze vor.");
+    sh.querySelectorAll("[data-rate]").forEach(b => b.onclick = () => { store.rate = +b.dataset.rate; persist(); renderSettings(); speak("Das ist mein Tempo."); if (state.mode === "listen") syncListenControls(); });
+    const au = $("#autoSay"); if (au) au.onchange = () => { store.auto = au.checked; persist(); };
+  }
+
+  // =====================================================================
+  //  Listening mode: play all words one after another (1×, 1.5×, 2× …)
+  // =====================================================================
+  state.play = { i: 0, playing: false, token: 0 };
+  function stopPlay() {
+    if (!state.play) return;
+    state.play.playing = false; state.play.token++;
+    if (hasTTS) speechSynthesis.cancel();
+  }
+  function togglePlay() {
+    if (state.play.playing) { stopPlay(); syncListenControls(); return; }
+    if (state.play.i >= state.deck.length) state.play.i = 0;
+    state.play.playing = true; const tok = ++state.play.token;
+    syncListenControls(); playLoop(tok);
+  }
+  async function playLoop(tok) {
+    const alive = () => state.play.playing && tok === state.play.token && state.mode === "listen";
+    const gap = ms => wait(ms / store.rate);
+    while (alive() && state.play.i < state.deck.length) {
+      const c = state.deck[state.play.i];
+      showListenCard();
+      await utter(sayWord(c.w)); if (!alive()) return;
+      await gap(500);
+      if (store.play.fa && faVoice) { await utter(c.fa, "fa"); if (!alive()) return; await gap(400); }
+      if (store.play.ex) { await utter(c.de); if (!alive()) return; await gap(600); }
+      if (store.play.coll && c.c) { for (const [d] of c.c) { await utter(sayText(d)); if (!alive()) return; await gap(300); } }
+      await gap(500);
+      if (!alive()) return;
+      state.play.i++;
+    }
+    if (tok === state.play.token) { state.play.playing = false; if (state.mode === "listen") { if (state.play.i >= state.deck.length) state.play.i = Math.max(0, state.deck.length - 1); syncListenControls(); } }
+  }
+  function renderListen() {
+    const d = state.deck;
+    if (!d.length) { app.innerHTML = emptyMsg(); return; }
+    if (state.play.i >= d.length) state.play.i = 0;
+    app.innerHTML = `
+      <div class="panel listen">
+        <div id="lsProg"></div>
+        <div id="lsCard" class="ls-card"></div>
+        <div class="ls-ctrl">
+          <button class="nav" id="lsPrev" aria-label="Zurück">⏮</button>
+          <button class="btn primary ls-play" id="lsPlay"></button>
+          <button class="nav" id="lsNext" aria-label="Weiter">⏭</button>
+        </div>
+        <div class="ls-opts">
+          <div class="chips" id="lsRates">${RATES.map(r => `<button class="chip" data-rate="${r}">${r}×</button>`).join("")}</div>
+          <label class="toggle"><input type="checkbox" id="lsEx" ${store.play.ex ? "checked" : ""}><span>Beispielsatz · <span class="fa">جمله</span></span></label>
+          <label class="toggle"><input type="checkbox" id="lsColl" ${store.play.coll ? "checked" : ""}><span>Wendungen · <span class="fa">اصطلاحات</span></span></label>
+          <label class="toggle" ${faVoice ? "" : `title="Keine persische Stimme auf diesem Gerät"`}><input type="checkbox" id="lsFa" ${store.play.fa ? "checked" : ""} ${faVoice ? "" : "disabled"}><span>Persisch vorlesen · <span class="fa">خواندن معنی فارسی</span></span></label>
+        </div>
+        <p class="muted small">Leertaste = Start/Pause · Die Liste folgt den Filtern oben (Abschnitte, markiert, ungelernt).
+          <span class="fa">همه‌ی کلمه‌های این درس پشت سر هم پخش می‌شوند؛ سرعت را با دکمه‌های ×۱ تا ×۲ عوض کنید.</span></p>
+      </div>`;
+    $("#lsPlay").onclick = togglePlay;
+    $("#lsPrev").onclick = () => { const was = state.play.playing; stopPlay(); state.play.i = Math.max(0, state.play.i - 1); showListenCard(); if (was) togglePlay(); else syncListenControls(); };
+    $("#lsNext").onclick = () => { const was = state.play.playing; stopPlay(); state.play.i = Math.min(d.length - 1, state.play.i + 1); showListenCard(); if (was) togglePlay(); else syncListenControls(); };
+    app.querySelectorAll("#lsRates [data-rate]").forEach(b => b.onclick = () => { store.rate = +b.dataset.rate; persist(); syncListenControls(); });
+    const bindOpt = (id, key) => { $(id).onchange = e => { store.play[key] = e.target.checked; persist(); }; };
+    bindOpt("#lsEx", "ex"); bindOpt("#lsColl", "coll"); bindOpt("#lsFa", "fa");
+    showListenCard(); syncListenControls();
+  }
+  function showListenCard() {
+    const box = $("#lsCard"); if (!box) return;
+    const d = state.deck, c = d[state.play.i]; if (!c) return;
+    box.innerHTML = `<div class="ls-word">${esc(c.w)} ${sayBtn(sayWord(c.w))}</div>
+      <div class="fa ls-fa">${esc(c.fa)}</div>
+      <div class="ex">${sent(c.de)} ${sayBtn(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div>
+      ${collHtml(c, true)}`;
+    bindCommon(box);
+    const pr = $("#lsProg"); if (pr) pr.innerHTML = progressBar(state.play.i + 1, d.length);
+  }
+  function syncListenControls() {
+    const b = $("#lsPlay"); if (!b) return;
+    b.innerHTML = state.play.playing ? "⏸ Pause" : "▶ Alle abspielen";
+    app.querySelectorAll("#lsRates [data-rate]").forEach(x => x.classList.toggle("on", +x.dataset.rate === store.rate));
+  }
+
+  // =====================================================================
+  //  Article search (der / die / das) and article quiz
+  // =====================================================================
+  function umlaut(n) {
+    return n.replace(/(au|a|o|u)([^aeiouäöü]*(?:e[^aeiouäöü]*)?)$/i, (m, v, rest) => ({ au: "äu", a: "ä", o: "ö", u: "ü", Au: "Äu", A: "Ä", O: "Ö", U: "Ü" }[v] || v) + rest);
+  }
+  function parseNoun(w) {
+    const m = w.match(/^((?:der|die|das)(?:\s*\/\s*(?:der|die|das))?)\s+(.+)$/);
+    if (!m) return null;
+    const arts = m[1].split("/").map(a => a.trim());
+    let rest = m[2];
+    const note = (rest.match(/\(.*?\)/g) || []).join(" ");
+    rest = rest.replace(/\(.*?\)/g, " ").split(/\s+[\/≠]\s+/)[0].trim();
+    let [noun, mark] = rest.split(/\s*,\s*/);
+    noun = (noun || "").trim(); mark = (mark || "").trim();
+    let plural = "";
+    if (/nur\s*Pl/i.test(note)) plural = noun;
+    else if (/nur\s*Sg/i.test(note) && !mark) plural = "";
+    else if (mark === "-") plural = noun;
+    else if (/^¨/.test(mark)) plural = umlaut(noun) + mark.replace(/^¨-?/, "");
+    else if (/^-/.test(mark)) plural = noun + mark.slice(1).split("/")[0];
+    else if (mark) plural = mark.split("/")[0].trim();
+    return { arts, noun, plural, note: note.replace(/[()]/g, ""), mark };
+  }
+  let nounList = null;
+  function getNouns() {
+    if (nounList) return nounList;
+    const seen = new Set(); nounList = [];
+    for (const L of LESSONS) for (const c of L.cards) {
+      const p = parseNoun(c.w); if (!p || !p.noun) continue;
+      const k = p.arts.join("/") + " " + p.noun; if (seen.has(k)) continue; seen.add(k);
+      nounList.push({ ...p, c, set: L.title });
+    }
+    nounList.sort((a, b) => a.noun.localeCompare(b.noun, "de"));
+    return nounList;
+  }
+  state.art = { q: "", f: "", limit: 150, quiz: null };
+  const artTag = a => `<span class="art art-${a}">${a}</span>`;
+  function renderArtikel() {
+    const A = state.art, all = getNouns();
+    if (A.quiz) return renderArtQuiz();
+    const counts = { der: 0, die: 0, das: 0 }; all.forEach(n => n.arts.forEach(a => counts[a]++));
+    app.innerHTML = `
+      <div class="panel">
+        <h2 class="mtitle">Artikel suchen <span class="fa">جستجوی آرتیکل</span></h2>
+        <input class="search" id="artQ" placeholder="Nomen eingeben … z. B. Vorschlag / معنی فارسی" value="${esc(A.q)}" aria-label="Nomen suchen">
+        <div class="chips">
+          <button class="chip ${A.f ? "" : "on"}" data-f="">Alle (${all.length})</button>
+          <button class="chip ${A.f === "der" ? "on" : ""}" data-f="der">${artTag("der")} ${counts.der}</button>
+          <button class="chip ${A.f === "die" ? "on" : ""}" data-f="die">${artTag("die")} ${counts.die}</button>
+          <button class="chip ${A.f === "das" ? "on" : ""}" data-f="das">${artTag("das")} ${counts.das}</button>
+          <button class="btn primary" id="artQuiz" style="margin-left:auto">Artikel üben · <span class="fa">تمرین آرتیکل</span></button>
+        </div>
+      </div>
+      <div class="list" id="artList" style="margin-top:12px"></div>`;
+    const draw = () => {
+      const q = A.q.trim().toLowerCase();
+      const res = all.filter(n => (!A.f || n.arts.includes(A.f)) && (!q || n.noun.toLowerCase().includes(q) || n.c.fa.includes(A.q.trim())));
+      const exact = q ? res.filter(n => n.noun.toLowerCase() === q) : [];
+      const list = exact.concat(res.filter(n => !exact.includes(n)));
+      $("#artList").innerHTML = list.length ? list.slice(0, A.limit).map(n => `
+        <div class="art-row">
+          <div class="art-main">${n.arts.map(artTag).join("/")} <b>${esc(n.noun)}</b> ${sayBtn(n.arts[0] + " " + n.noun)}</div>
+          <div class="art-pl">${n.plural ? `Plural: ${artTag("die")} ${esc(n.plural)}` : `<span class="muted">kein Plural</span>`}${n.note ? ` <span class="muted">(${esc(n.note)})</span>` : ""}</div>
+          <div class="fa art-fa">${esc(n.c.fa)}</div>
+        </div>`).join("") + (list.length > A.limit ? `<div class="empty"><button class="btn" id="artMore">Mehr anzeigen (${list.length - A.limit})</button></div>` : "")
+        : `<div class="empty">Kein Nomen gefunden · <span class="fa">پیدا نشد</span></div>`;
+      bindCommon($("#artList"));
+      const more = $("#artMore"); if (more) more.onclick = () => { A.limit += 300; draw(); };
+    };
+    const qi = $("#artQ"); qi.oninput = () => { A.q = qi.value; A.limit = 150; draw(); };
+    app.querySelectorAll("[data-f]").forEach(b => b.onclick = () => { A.f = b.dataset.f; renderArtikel(); });
+    $("#artQuiz").onclick = () => { A.quiz = { n: 0, right: 0, streak: 0, cur: null, done: false }; renderArtikel(); };
+    draw();
+  }
+  function renderArtQuiz() {
+    const Q = state.art.quiz, all = getNouns().filter(n => n.arts.length === 1 || true);
+    if (!Q.cur) Q.cur = all[Math.floor(Math.random() * all.length)];
+    const n = Q.cur;
+    app.innerHTML = `
+      <div class="panel">
+        <div class="mhead"><h2 class="mtitle" style="margin:0">Artikel üben <span class="fa">تمرین آرتیکل</span></h2>
+          <span class="tally"><span class="g">✓ ${Q.right}</span> / ${Q.n} · 🔥 ${Q.streak}</span></div>
+        <div class="q"><div class="big">___ ${esc(n.noun)}</div><div class="fa" style="margin-top:6px">${esc(n.c.fa)}</div></div>
+        <div class="art-btns">${["der", "die", "das"].map(a => `<button class="choice art-choice art-${a}" data-a="${a}">${a}</button>`).join("")}</div>
+        <div class="feedback" id="aqFb"></div>
+        <div class="subctrl"><button class="link" id="aqBack">Zurück zur Suche</button></div>
+      </div>`;
+    app.querySelectorAll("[data-a]").forEach(b => b.onclick = () => {
+      if (Q.done) return; Q.done = true; Q.n++;
+      const ok = n.arts.includes(b.dataset.a);
+      if (ok) { Q.right++; Q.streak++; } else Q.streak = 0;
+      app.querySelectorAll("[data-a]").forEach(x => { x.disabled = true; if (n.arts.includes(x.dataset.a)) x.classList.add("right"); else if (x === b) x.classList.add("wrong"); });
+      $("#aqFb").innerHTML = `<span class="${ok ? "ok" : "no"}">${ok ? "Richtig!" : "Falsch."}</span> ${n.arts.map(artTag).join("/")} <b>${esc(n.noun)}</b>${n.plural ? ` · Pl. die ${esc(n.plural)}` : ""} ${sayBtn(n.arts[0] + " " + n.noun)}
+        <div style="margin-top:10px"><button class="btn primary" id="aqNext">Weiter (Enter)</button></div>`;
+      bindCommon($("#aqFb"));
+      if (store.auto) speak(n.arts[0] + " " + n.noun);
+      $("#aqNext").onclick = () => { Q.cur = null; Q.done = false; renderArtQuiz(); };
+      $("#aqNext").focus();
+    });
+    $("#aqBack").onclick = () => { state.art.quiz = null; renderArtikel(); };
+  }
+
+  // =====================================================================
+  //  Verbs: conjugation tables for every verb of this level
+  // =====================================================================
+  state.verb = { q: "", sel: null };
+  let verbList = null;
+  function getVerbs() {
+    if (verbList) return verbList;
+    const VB = window.VERBEN || [];
+    const byInf = new Map(); VB.forEach(v => { const k = v.inf; if (!byInf.has(k)) byInf.set(k, []); byInf.get(k).push(v); });
+    const pageInf = new Map();
+    for (const L of LESSONS) for (const c of L.cards) {
+      for (const part of sayWord(c.w).split(",")) {
+        const refl = /^sich\s/.test(part.trim());
+        const words = part.trim().replace(/^sich\s+/, "").split(/\s+/);
+        for (const w of [words[0], words[words.length - 1]]) {
+          if (!w || !byInf.has(w)) continue;
+          const cands = byInf.get(w);
+          const v = cands.find(x => !!x.refl === refl) || cands[0];
+          if (!pageInf.has(v.inf + "|" + (v.refl || ""))) pageInf.set(v.inf + "|" + (v.refl || ""), { v, c });
+        }
+      }
+    }
+    verbList = [...pageInf.values()].sort((a, b) => a.v.inf.localeCompare(b.v.inf, "de"));
+    return verbList;
+  }
+  const verbLabel = v => (v.refl ? "sich " : "") + v.inf;
+  function renderVerben() {
+    const V = state.verb, all = getVerbs();
+    if (!window.Konjugation || !all.length) { app.innerHTML = `<div class="panel empty">Für diese Stufe gibt es noch keine Verbtabellen.</div>`; return; }
+    if (V.sel) return renderVerb(V.sel);
+    app.innerHTML = `
+      <div class="panel">
+        <h2 class="mtitle">Verben konjugieren <span class="fa">صرف فعل‌ها در همه‌ی زمان‌ها</span></h2>
+        <input class="search" id="vbQ" placeholder="Verb suchen … z. B. anfangen / معنی فارسی" value="${esc(V.q)}" aria-label="Verb suchen">
+        <p class="muted small">${all.length} Verben · Präsens, Präteritum, Perfekt, Plusquamperfekt, Futur I/II, Konjunktiv I/II, Imperativ</p>
+      </div>
+      <div class="list" id="vbList" style="margin-top:12px"></div>`;
+    const draw = () => {
+      const q = V.q.trim().toLowerCase();
+      const res = all.filter(({ v, c }) => !q || verbLabel(v).toLowerCase().includes(q) || (v.fa || "").includes(V.q.trim()) || (c.fa || "").includes(V.q.trim()));
+      $("#vbList").innerHTML = res.length ? res.slice(0, 400).map(({ v, c }, i) => {
+        const k = Konjugation.conjugate(v);
+        return `<button class="vb-row" data-i="${all.indexOf(res[i])}"><b>${esc(verbLabel(v))}</b><span class="muted">${esc(k.summary.split(" – ").slice(1).join(" – "))}</span><span class="fa">${esc(v.fa || c.fa)}</span></button>`;
+      }).join("") : `<div class="empty">Kein Verb gefunden · <span class="fa">پیدا نشد</span></div>`;
+      $("#vbList").querySelectorAll("[data-i]").forEach(b => b.onclick = () => { V.sel = all[+b.dataset.i]; renderVerben(); window.scrollTo({ top: 0 }); });
+    };
+    const qi = $("#vbQ"); qi.oninput = () => { V.q = qi.value; draw(); };
+    draw();
+  }
+  function renderVerb({ v, c }) {
+    const k = Konjugation.conjugate(v);
+    const spoken = (pron, form) => (pron.split("/")[0] + " " + form).replace(/!$/, "");
+    app.innerHTML = `
+      <div class="panel">
+        <button class="link" id="vbBack">← Alle Verben</button>
+        <div class="gtitle" style="margin-top:6px"><h2>${esc(verbLabel(v))} ${sayBtn(verbLabel(v))}</h2><span class="fa">${esc(v.fa || c.fa)}</span></div>
+        <p class="vb-sum">${esc(k.summary)} ${sayBtn(k.summary.replace(/ – /g, ", "))}</p>
+        ${c && c.de ? `<div class="ex">${sent(c.de)} ${sayBtn(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div>` : ""}
+      </div>
+      <div class="vb-grid">${k.tenses.map(t => `
+        <section class="panel vb-t">
+          <h3>${esc(t.name)} <span class="fa">${esc(t.fa)}</span></h3>
+          ${t.alt ? `<div class="muted small">${esc(t.alt)}</div>` : ""}
+          <table>${t.rows.map(([p, f]) => `<tr><td class="vb-p">${esc(p)}</td><td>${esc(f)}</td><td>${sayBtn(t.id === "imp" ? f.replace(/!$/, "") : spoken(p, f))}</td></tr>`).join("")}</table>
+        </section>`).join("")}</div>`;
+    bindCommon(app);
+    $("#vbBack").onclick = () => { state.verb.sel = null; renderVerben(); };
+  }
+
+  // =====================================================================
+  //  5 useful sentences a day
+  // =====================================================================
+  state.day = { off: 0, showFa: true };
+  function renderDaily() {
+    const TG = window.TAEGLICH || [];
+    if (!TG.length) { app.innerHTML = `<div class="panel empty">Die Tagessätze gibt es auf der B2-Seite.<br><span class="fa">جمله‌های روزانه در بخش B2 هستند.</span></div>`; return; }
+    const today = Math.floor((Date.now() - new Date().getTimezoneOffset() * 6e4) / 864e5);
+    const idx = (((today + state.day.off) % TG.length) + TG.length) % TG.length;
+    const D = TG[idx];
+    const date = new Date((today + state.day.off) * 864e5);
+    const ds = date.toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+    const done = !!store.dailyDone[D.day];
+    app.innerHTML = `
+      <div class="panel daily">
+        <div class="mhead">
+          <button class="nav" id="dPrev" aria-label="Vorheriger Tag">◀</button>
+          <div class="d-head"><div class="muted small">${state.day.off === 0 ? "Heute" : esc(ds)} · Tag ${D.day} von ${TG.length}</div>
+            <h2 class="mtitle" style="margin:2px 0 0">${esc(D.theme)}</h2><div class="fa">${esc(D.theme_fa)}</div></div>
+          <button class="nav" id="dNext" aria-label="Nächster Tag">▶</button>
+        </div>
+        <div class="d-tools">
+          <button class="btn primary" id="dAll">▶ Alle 5 anhören</button>
+          <label class="toggle"><input type="checkbox" id="dFa" ${state.day.showFa ? "checked" : ""}><span>Übersetzung zeigen · <span class="fa">ترجمه</span></span></label>
+          <button class="btn ${done ? "good" : ""}" id="dDone">${done ? "✓ Gelernt" : "Als gelernt markieren"}</button>
+        </div>
+        <ol class="d-list">${D.s.map((x, i) => `
+          <li><div class="d-de">${sent(x.de)} ${sayBtn(x.de)}</div>
+            ${state.day.showFa ? `<div class="fa d-fa">${esc(x.fa)}</div>` : `<button class="link d-reveal" data-i="${i}">Übersetzung zeigen</button><div class="fa d-fa" hidden>${esc(x.fa)}</div>`}
+            ${x.note ? `<div class="fa d-note">💡 ${esc(x.note)}</div>` : ""}</li>`).join("")}</ol>
+        <p class="muted small">Jeden Tag kommen 5 neue Sätze. Tipp: Satz anhören, laut nachsprechen, dann ohne Übersetzung wiederholen.
+          <span class="fa">هر روز ۵ جمله‌ی تازه؛ بشنوید، بلند تکرار کنید، بعد بدون ترجمه مرور کنید. روی هر کلمه بزنید تا معنی‌اش بیاید.</span></p>
+      </div>`;
+    bindCommon(app);
+    $("#dPrev").onclick = () => { state.day.off--; renderDaily(); };
+    $("#dNext").onclick = () => { state.day.off++; renderDaily(); };
+    $("#dFa").onchange = e => { state.day.showFa = e.target.checked; renderDaily(); };
+    app.querySelectorAll(".d-reveal").forEach(b => b.onclick = () => { b.nextElementSibling.hidden = false; b.remove(); });
+    $("#dDone").onclick = () => { store.dailyDone[D.day] = !done; persist(); renderDaily(); };
+    $("#dAll").onclick = async () => {
+      const tok = ++state.play.token;
+      for (const x of D.s) { if (tok !== state.play.token || state.mode !== "daily") return; await utter(x.de); await wait(700 / store.rate); }
+    };
   }
 
   // ---------- shared bindings ----------
@@ -735,6 +1159,7 @@
   document.addEventListener("keydown", e => {
     if (e.target.matches("input, select, textarea")) return;
     if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (state.mode === "listen" && e.key === " ") { e.preventDefault(); togglePlay(); return; }
     if (state.mode === "cards" && state.i < state.deck.length) {
       const c = state.deck[state.i];
       if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); flip(); }

@@ -10,7 +10,7 @@ Quizlet-style flashcards, grammar explanations and a mistakes trainer for **Komp
 The A1/A2 words come from the official Goethe-Zertifikat A2 word list, which contains the whole basic vocabulary. It is split into A1 and A2 by the Start Deutsch 1 level. Progress is saved separately for each level.
 
 **B2 content:**
-- **Lektion 1–10** (the whole book): 1,772 cards from the official lesson word lists, plus extra words from the listening texts and lesson tests. Each lesson also has grammar explained in German and Persian, and 229 exercises in total.
+- **Lektion 1–10** (the whole book): 2,438 cards. That is 1,772 cards from the official lesson word lists, the listening texts and the lesson tests, plus a new section **F · Themenwortschatz** in every lesson with 60–70 related words that are not in the book (666 in total). Each lesson also has grammar explained in German and Persian, and 229 exercises in total.
 - **Zusatz B1** (6 sets, 1,281 cards): words from the official Goethe B1 word list that are neither in the Goethe A2 list nor in the book.
 - **Zusatz B2** (3 sets, 566 cards): my own selection of core B2 words by topic, plus verbs with prepositions and Nomen-Verb-Verbindungen. No official B2 word list exists.
 
@@ -24,6 +24,10 @@ The A1/A2 words come from the official Goethe-Zertifikat A2 word list, which con
 | **Grammatik** | Explanation of each grammar topic in German and Persian, with examples and an overview table, plus exercises (multiple choice and gap fill) with explanations. |
 | **Fehler** | Every word or grammar question you got wrong, per lesson, with a count. You can practise them again (Lernen / Karteikarten / Schreiben / Grammatik), and each one is removed once you answer it correctly. |
 | **Liste** | Full word list with search and star marks. |
+| **Hören** | Plays all words of the lesson one after another (word, optionally the example sentence, common expressions and the Persian meaning), at 0.75×–2× speed. Space = start/pause. |
+| **Artikel** | Search the article (der/die/das) and plural of every noun on the level, colour-coded, plus an article quiz. |
+| **Verben** | Every verb on the level fully conjugated: Präsens, Präteritum, Perfekt, Plusquamperfekt, Futur I/II, Konjunktiv I and II, Imperativ (1,150 verbs, built by `konjugation.js` from their principal parts). |
+| **Täglich** (B2) | Five useful sentences a day (100 days, by topic), with Persian translation, notes and read-aloud. |
 
 Other features:
 - Front side can be **Deutsch** or **Persisch**.
@@ -34,7 +38,9 @@ Other features:
   - grammar examples and tables, and the complete correct sentence after each grammar exercise
   - the mistakes list and the word list
 
-  Keys: `A` reads the word, `B` the sentence. You can turn on "automatisch vorlesen" (read the German word automatically) and "langsam" (slower speech). Read-aloud uses the device's built-in German voice (Web Speech API); the page shows a hint if the device has none.
+  Keys: `A` reads the word, `B` the sentence. The speaker button in the header opens **Stimme & Tempo**: choose the German voice (natural voices are marked ★ and ranked first), test it, set the speed (0.75×–2×) and turn automatic read-aloud on or off. Read-aloud uses the device's built-in German voice (Web Speech API); the page shows a hint if the device has none.
+- **Common expressions (Wendungen):** every B2 card shows 2–3 frequent collocations with Persian translation and read-aloud.
+- **Tap any word** in an example sentence or expression to see its base form and Persian meaning (glossary of ~12,000 word forms in `shared/glossar.js`).
 - Dark mode.
 - Progress is saved in the browser.
 

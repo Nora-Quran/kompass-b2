@@ -28,12 +28,16 @@
 </header>
 
 <nav class="modes" role="tablist">
-  <button data-mode="cards" class="active" role="tab">Karteikarten <span class="fa">کارت</span></button>
+  <button data-mode="cards" class="active" role="tab">Karten <span class="fa">کارت</span></button>
   <button data-mode="learn" role="tab">Lernen <span class="fa">چندگزینه‌ای</span></button>
   <button data-mode="write" role="tab">Schreiben <span class="fa">نوشتن</span></button>
+  <button data-mode="listen" role="tab">Hören <span class="fa">پخش خودکار</span></button>
   <button data-mode="grammar" role="tab">Grammatik <span class="fa">گرامر</span></button>
   <button data-mode="mistakes" role="tab">Fehler <span class="badge" id="mbadge" hidden>0</span><span class="fa">اشتباه‌ها</span></button>
   <button data-mode="list" role="tab">Liste <span class="fa">فهرست</span></button>
+  <button data-mode="artikel" role="tab">Artikel <span class="fa">der/die/das</span></button>
+  <button data-mode="verben" role="tab">Verben <span class="fa">صرف فعل</span></button>
+  <button data-mode="daily" role="tab" id="dailyBtn">Täglich <span class="fa">۵ جمله‌ی روز</span></button>
 </nav>
 
 <section class="filters">
@@ -42,8 +46,6 @@
     <label class="toggle"><input type="checkbox" id="dirToggle"><span>Vorderseite: <b id="dirLabel">Deutsch</b></span></label>
     <label class="toggle"><input type="checkbox" id="starOnly"><span>★ nur markierte</span></label>
     <label class="toggle"><input type="checkbox" id="unknownOnly"><span>nur ungelernt</span></label>
-    <label class="toggle tts-opt" title="Deutsches Wort automatisch vorlesen"><input type="checkbox" id="autoSay"><span>🔊 automatisch vorlesen</span></label>
-    <label class="toggle tts-opt" title="Langsamer sprechen"><input type="checkbox" id="slowSay"><span>🐢 langsam</span></label>
   </div>
 </section>
 
@@ -52,10 +54,13 @@
 
 <footer class="foot">
   <span id="stats"></span>
-  <span class="keys">Tastatur: <kbd>Leertaste</kbd> umdrehen · <kbd>←</kbd><kbd>→</kbd> blättern · <kbd>1</kbd> noch nicht · <kbd>2</kbd> gewusst · <kbd>S</kbd> markieren · <kbd>A</kbd> Wort vorlesen · <kbd>B</kbd> Satz vorlesen</span>
+  <span class="keys">Tastatur: <kbd>Leertaste</kbd> umdrehen · <kbd>←</kbd><kbd>→</kbd> blättern · <kbd>1</kbd> noch nicht · <kbd>2</kbd> gewusst · <kbd>S</kbd> markieren · <kbd>A</kbd> Wort vorlesen · <kbd>B</kbd> Satz vorlesen · im Hören-Modus <kbd>Leertaste</kbd> Start/Pause · Wort im Satz antippen = Bedeutung</span>
   <span class="src">Wortauswahl: offizielle Goethe-Zertifikat-Wortliste A2 (Grundwortschatz), aufgeteilt in A1 und A2 nach dem Start-Deutsch-1-Niveau. Beispielsätze, Übersetzungen, Grammatik-Erklärungen und Übungen: eigene Ausarbeitung.</span>
 </footer>
 
+<script src="../shared/verben.js"></script>
+<script src="../shared/glossar.js"></script>
+<script src="../konjugation.js"></script>
 <script>window.SITE = { key: "deutsch-a2-flashcards-v1", bookLabel: "Deutsch A2 · Einheiten", extraLabel: "Zusatz", noGrammarExtra: "Dieser Teil hat keinen Grammatikteil." };</script>
 <script src="data/einheit1.js"></script>
 <script src="data/einheit2.js"></script>
