@@ -26,6 +26,10 @@
   {
    "id": "F",
    "title": "Themenwortschatz: Stadtleben, Bauen und Wohnen"
+  },
+  {
+   "id": "T",
+   "title": "Wörter aus den Buchtexten"
   }
  ],
  "cards": [
@@ -5234,161 +5238,3808 @@
      "ویژگی چندفرهنگی داشتن"
     ]
    ]
+  },
+  {
+   "id": "L2-237",
+   "s": "T",
+   "w": "die Gemeinsamkeit, -en",
+   "fa": "شباهت، نقطه‌ی مشترک",
+   "syn": "die Übereinstimmung, die Ähnlichkeit",
+   "de": "Zwischen Hamburg und meiner Heimatstadt gibt es mehr Gemeinsamkeiten, als ich dachte.",
+   "fas": "بین هامبورگ و شهر زادگاهم بیشتر از آنچه فکر می‌کردم شباهت وجود دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "Gemeinsamkeiten haben",
+     "نقاط مشترک داشتن"
+    ],
+    [
+     "Gemeinsamkeiten und Unterschiede",
+     "شباهت‌ها و تفاوت‌ها"
+    ],
+    [
+     "eine wichtige Gemeinsamkeit",
+     "یک شباهت مهم"
+    ]
+   ]
+  },
+  {
+   "id": "L2-238",
+   "s": "T",
+   "w": "verglichen mit + D",
+   "fa": "در مقایسه با",
+   "syn": "im Vergleich zu, gegenüber",
+   "de": "Verglichen mit Teheran wirkt Frankfurt fast wie eine ruhige Kleinstadt.",
+   "fas": "فرانکفورت در مقایسه با تهران تقریباً مثل یک شهر کوچک آرام به نظر می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "verglichen mit früher",
+     "در مقایسه با گذشته"
+    ],
+    [
+     "verglichen mit anderen Städten",
+     "در مقایسه با شهرهای دیگر"
+    ]
+   ]
+  },
+  {
+   "id": "L2-239",
+   "s": "T",
+   "w": "eine Weile",
+   "fa": "مدتی، چندی",
+   "syn": "eine Zeit lang, für einige Zeit",
+   "de": "Nach dem Studium möchte ich eine Weile in einer internationalen Großstadt leben.",
+   "fas": "بعد از تحصیل می‌خواهم مدتی در یک کلان‌شهر بین‌المللی زندگی کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine ganze Weile",
+     "مدت نسبتاً زیادی"
+    ],
+    [
+     "vor einer Weile",
+     "چند وقت پیش"
+    ],
+    [
+     "eine Weile dauern",
+     "مدتی طول کشیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-240",
+   "s": "T",
+   "w": "gestalten (die Zukunft ~)",
+   "fa": "شکل دادن، طراحی کردن (آینده را ساختن)",
+   "syn": "formen, entwickeln",
+   "de": "Junge Architekten wollen die Zukunft der Städte aktiv mitgestalten.",
+   "fas": "معماران جوان می‌خواهند فعالانه در شکل دادن به آینده‌ی شهرها نقش داشته باشند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Zukunft gestalten",
+     "آینده را شکل دادن"
+    ],
+    [
+     "einen Raum gestalten",
+     "فضایی را طراحی کردن"
+    ],
+    [
+     "die Freizeit gestalten",
+     "اوقات فراغت را برنامه‌ریزی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-241",
+   "s": "T",
+   "w": "das Stichwort, -e (meist Pl.)",
+   "fa": "کلیدواژه، یادداشت کوتاه",
+   "syn": "der Stichpunkt, das Schlagwort",
+   "de": "Während des Vortrags notiere ich nur Stichworte und keine ganzen Sätze.",
+   "fas": "در طول سخنرانی فقط کلیدواژه‌ها را یادداشت می‌کنم، نه جمله‌های کامل.",
+   "_t": 1,
+   "c": [
+    [
+     "Stichworte notieren",
+     "کلیدواژه‌ها را یادداشت کردن"
+    ],
+    [
+     "in Stichworten",
+     "به‌صورت خلاصه و کلیدواژه‌ای"
+    ]
+   ]
+  },
+  {
+   "id": "L2-242",
+   "s": "T",
+   "w": "die Spalte, -n",
+   "fa": "ستون (جدول یا صفحه)",
+   "syn": "die Kolumne, die Rubrik",
+   "de": "In die linke Spalte schreibe ich die Unterthemen, rechts die Details.",
+   "fas": "در ستون چپ زیرموضوع‌ها را می‌نویسم و در سمت راست جزئیات را.",
+   "_t": 1,
+   "c": [
+    [
+     "die linke Spalte",
+     "ستون سمت چپ"
+    ],
+    [
+     "in der rechten Spalte",
+     "در ستون سمت راست"
+    ]
+   ]
+  },
+  {
+   "id": "L2-243",
+   "s": "T",
+   "w": "der Aufbau (nur Sg.) (der ~ eines Textes)",
+   "fa": "ساختار (ساختار یک متن)",
+   "syn": "die Struktur, die Gliederung",
+   "de": "Wenn man auf den Aufbau des Vortrags achtet, versteht man die Hauptpunkte leichter.",
+   "fas": "اگر به ساختار سخنرانی توجه کنی، نکته‌های اصلی را راحت‌تر می‌فهمی.",
+   "_t": 1,
+   "c": [
+    [
+     "der Aufbau eines Textes",
+     "ساختار یک متن"
+    ],
+    [
+     "auf den Aufbau achten",
+     "به ساختار توجه کردن"
+    ],
+    [
+     "den Aufbau erläutern",
+     "ساختار را توضیح دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-244",
+   "s": "T",
+   "w": "der Wohnungsmangel (nur Sg.)",
+   "fa": "کمبود مسکن",
+   "syn": "die Wohnungsnot, der Mangel an Wohnraum",
+   "de": "Wegen des Wohnungsmangels werden in vielen Städten neue Hochhäuser geplant.",
+   "fas": "به‌خاطر کمبود مسکن، در بسیاری از شهرها برج‌های جدیدی برنامه‌ریزی می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "akuter Wohnungsmangel",
+     "کمبود شدید مسکن"
+    ],
+    [
+     "den Wohnungsmangel bekämpfen",
+     "با کمبود مسکن مبارزه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-245",
+   "s": "T",
+   "w": "restaurieren",
+   "fa": "مرمت کردن، بازسازی کردن (بنای قدیمی)",
+   "syn": "wiederherstellen, renovieren",
+   "de": "In der Altstadt wurden mehrere historische Häuser aufwendig restauriert.",
+   "fas": "در بافت قدیمی شهر چند خانه‌ی تاریخی با هزینه و دقت زیاد مرمت شدند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Gebäude restaurieren",
+     "یک ساختمان را مرمت کردن"
+    ],
+    [
+     "aufwendig restauriert",
+     "با دقت و هزینه‌ی زیاد مرمت‌شده"
+    ]
+   ]
+  },
+  {
+   "id": "L2-246",
+   "s": "T",
+   "w": "die Veränderung, -en",
+   "fa": "تغییر، دگرگونی",
+   "syn": "der Wandel, die Änderung",
+   "de": "In den letzten Jahren hat meine Heimatstadt große Veränderungen erlebt.",
+   "fas": "در سال‌های اخیر شهر زادگاهم تغییرات بزرگی را تجربه کرده است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine große Veränderung",
+     "یک تغییر بزرگ"
+    ],
+    [
+     "Veränderungen erleben",
+     "تغییراتی را تجربه کردن"
+    ],
+    [
+     "zu einer Veränderung führen",
+     "به تغییری منجر شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-247",
+   "s": "T",
+   "w": "das Stockwerk, -e",
+   "fa": "طبقه (ساختمان)",
+   "syn": "die Etage, das Geschoss",
+   "de": "Die meisten Häuser in der Innenstadt haben höchstens fünf Stockwerke.",
+   "fas": "بیشتر خانه‌های مرکز شهر حداکثر پنج طبقه دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "im dritten Stockwerk",
+     "در طبقه‌ی سوم"
+    ],
+    [
+     "ein Haus mit vier Stockwerken",
+     "خانه‌ای چهارطبقه"
+    ]
+   ]
+  },
+  {
+   "id": "L2-248",
+   "s": "T",
+   "w": "der Stadtteil, -e",
+   "fa": "محله، بخشی از شهر",
+   "syn": "das Stadtviertel, der Bezirk",
+   "de": "St. Pauli ist ein lebendiger Stadtteil mit vielen Bars und Clubs.",
+   "fas": "سنت پائولی محله‌ای پرجنب‌وجوش با بارها و کلوپ‌های زیاد است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein beliebter Stadtteil",
+     "یک محله‌ی محبوب"
+    ],
+    [
+     "in einem ruhigen Stadtteil wohnen",
+     "در محله‌ای آرام زندگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-249",
+   "s": "T",
+   "w": "die Handlung, -en",
+   "fa": "عمل، کنش",
+   "syn": "die Tat, die Aktion",
+   "de": "Im Passivsatz steht die Handlung im Vordergrund, nicht die handelnde Person.",
+   "fas": "در جمله‌ی مجهول خودِ عمل مهم است، نه کسی که آن را انجام می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "die handelnde Person",
+     "شخص انجام‌دهنده"
+    ],
+    [
+     "eine Handlung beschreiben",
+     "عملی را توصیف کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-250",
+   "s": "T",
+   "w": "sich stellen (es stellt sich die Frage)",
+   "fa": "مطرح شدن (پرسش پیش می‌آید)",
+   "syn": "aufkommen, sich ergeben",
+   "de": "Wenn immer mehr Menschen in Städten leben, stellt sich die Frage nach ihrer Versorgung.",
+   "fas": "وقتی آدم‌های بیشتری در شهرها زندگی می‌کنند، این پرسش مطرح می‌شود که چطور تأمین شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Frage stellt sich",
+     "این پرسش مطرح می‌شود"
+    ],
+    [
+     "sich die Frage stellen, ob",
+     "از خود پرسیدن که آیا"
+    ]
+   ]
+  },
+  {
+   "id": "L2-251",
+   "s": "T",
+   "w": "der Transportweg, -e",
+   "fa": "مسیر حمل‌ونقل",
+   "syn": "die Lieferstrecke, der Transport",
+   "de": "Durch kurze Transportwege kommt das Gemüse frisch und günstig in den Supermarkt.",
+   "fas": "به لطف مسیرهای کوتاه حمل‌ونقل، سبزیجات تازه و ارزان به سوپرمارکت می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "kurze Transportwege",
+     "مسیرهای کوتاه حمل‌ونقل"
+    ],
+    [
+     "Transportwege verkürzen",
+     "مسیرهای حمل‌ونقل را کوتاه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-252",
+   "s": "T",
+   "w": "klassisch",
+   "fa": "کلاسیک، سنتی، متداول",
+   "syn": "traditionell, herkömmlich",
+   "de": "Die vertikale Landwirtschaft braucht viel weniger Fläche als die klassische Landwirtschaft.",
+   "fas": "کشاورزی عمودی نسبت به کشاورزی سنتی زمین بسیار کمتری لازم دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "klassische Musik",
+     "موسیقی کلاسیک"
+    ],
+    [
+     "ein klassisches Beispiel",
+     "یک نمونه‌ی کلاسیک"
+    ],
+    [
+     "auf klassische Weise",
+     "به شیوه‌ی سنتی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-253",
+   "s": "T",
+   "w": "das Unterthema, -themen",
+   "fa": "زیرموضوع",
+   "syn": "der Teilaspekt, der Unterpunkt",
+   "de": "Notieren Sie links die Unterthemen und rechts die wichtigsten Details.",
+   "fas": "زیرموضوع‌ها را در سمت چپ و مهم‌ترین جزئیات را در سمت راست یادداشت کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "die Unterthemen ordnen",
+     "زیرموضوع‌ها را مرتب کردن"
+    ],
+    [
+     "ein Unterthema nennen",
+     "زیرموضوعی را نام بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-254",
+   "s": "T",
+   "w": "abdecken",
+   "fa": "پوشاندن، روی چیزی را گرفتن",
+   "syn": "zudecken, verdecken",
+   "de": "Ich decke den Artikel mit einem Blatt ab und erzähle den Inhalt mit meinen Notizen.",
+   "fas": "مقاله را با یک برگه می‌پوشانم و محتوایش را با کمک یادداشت‌هایم تعریف می‌کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "den Text abdecken",
+     "متن را پوشاندن"
+    ],
+    [
+     "mit einem Blatt abdecken",
+     "با یک برگه پوشاندن"
+    ],
+    [
+     "ein Thema abdecken",
+     "موضوعی را پوشش دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-255",
+   "s": "T",
+   "w": "die Rollen tauschen",
+   "fa": "نقش‌ها را عوض کردن",
+   "syn": "die Rollen wechseln",
+   "de": "Zuerst berichtest du, dann tauschen wir die Rollen und ich erzähle.",
+   "fas": "اول تو گزارش می‌دهی، بعد نقش‌ها را عوض می‌کنیم و من تعریف می‌کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "mit jemandem die Rollen tauschen",
+     "با کسی نقش‌ها را عوض کردن"
+    ],
+    [
+     "danach die Rollen tauschen",
+     "بعد از آن نقش‌ها را عوض کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-256",
+   "s": "T",
+   "w": "folgendermaßen",
+   "fa": "به این ترتیب، به شکل زیر",
+   "syn": "so, auf diese Weise",
+   "de": "Ein Gemeinschaftsgarten funktioniert folgendermaßen: Alle Mitglieder arbeiten zusammen auf einer Fläche.",
+   "fas": "یک باغ اشتراکی به این شکل کار می‌کند: همه‌ی اعضا روی یک قطعه زمین با هم کار می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "folgendermaßen funktionieren",
+     "به این شکل کار کردن"
+    ],
+    [
+     "folgendermaßen vorgehen",
+     "به این ترتیب عمل کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-257",
+   "s": "T",
+   "w": "der Verein, -e",
+   "fa": "انجمن، باشگاه",
+   "syn": "der Klub, die Vereinigung",
+   "de": "Unser Stadtgarten wird von einem gemeinnützigen Verein verwaltet.",
+   "fas": "باغ شهری ما توسط یک انجمن غیرانتفاعی اداره می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Verein gründen",
+     "انجمنی تأسیس کردن"
+    ],
+    [
+     "Mitglied in einem Verein sein",
+     "عضو یک انجمن بودن"
+    ],
+    [
+     "einem Verein beitreten",
+     "به انجمنی پیوستن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-258",
+   "s": "T",
+   "w": "der Stadtgärtner, - / die Stadtgärtnerin, -nen",
+   "fa": "باغبان شهری",
+   "syn": "der Hobbygärtner in der Stadt",
+   "de": "Viele Stadtgärtner bauen Tomaten und Kräuter auf ihrem Balkon an.",
+   "fas": "بسیاری از باغبان‌های شهری روی بالکن‌شان گوجه و سبزی معطر می‌کارند.",
+   "_t": 1,
+   "c": [
+    [
+     "begeisterte Stadtgärtner",
+     "باغبان‌های شهری مشتاق"
+    ],
+    [
+     "als Stadtgärtner aktiv sein",
+     "به‌عنوان باغبان شهری فعال بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-259",
+   "s": "T",
+   "w": "stärken (Beziehungen ~)",
+   "fa": "تقویت کردن، محکم کردن (روابط)",
+   "syn": "festigen, verbessern",
+   "de": "Durch die gemeinsame Gartenarbeit konnten die Beziehungen in der Nachbarschaft gestärkt werden.",
+   "fas": "با کار مشترک در باغ، روابط در محله تقویت شد.",
+   "_t": 1,
+   "c": [
+    [
+     "die Gemeinschaft stärken",
+     "همبستگی را تقویت کردن"
+    ],
+    [
+     "das Vertrauen stärken",
+     "اعتماد را تقویت کردن"
+    ],
+    [
+     "sich stärken",
+     "خستگی در کردن، چیزی خوردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-260",
+   "s": "T",
+   "w": "das Gemeinschaftsprojekt, -e",
+   "fa": "پروژه‌ی گروهی، طرح مشترک",
+   "syn": "das gemeinsame Projekt",
+   "de": "Bei einem Gemeinschaftsprojekt lernen sich die Nachbarn endlich persönlich kennen.",
+   "fas": "در یک پروژه‌ی گروهی همسایه‌ها بالاخره از نزدیک با هم آشنا می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "an einem Gemeinschaftsprojekt teilnehmen",
+     "در پروژه‌ای گروهی شرکت کردن"
+    ],
+    [
+     "ein soziales Gemeinschaftsprojekt",
+     "یک پروژه‌ی اجتماعی مشترک"
+    ]
+   ]
+  },
+  {
+   "id": "L2-261",
+   "s": "T",
+   "w": "beschriften",
+   "fa": "برچسب زدن، روی چیزی نوشتن",
+   "syn": "etikettieren, mit Text versehen",
+   "de": "Ich beschrifte jede Karte für meinen Kurzvortrag mit einer klaren Überschrift.",
+   "fas": "روی هر کارت سخنرانی کوتاهم یک عنوان واضح می‌نویسم.",
+   "_t": 1,
+   "c": [
+    [
+     "Karten beschriften",
+     "روی کارت‌ها نوشتن"
+    ],
+    [
+     "eine Grafik beschriften",
+     "روی نمودار توضیح نوشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-262",
+   "s": "T",
+   "w": "das Redemittel, - (meist Pl.)",
+   "fa": "عبارت‌های کاربردی گفتاری",
+   "syn": "die Formulierung, der Ausdruck",
+   "de": "Mit passenden Redemitteln klingt ein Kurzvortrag gleich viel professioneller.",
+   "fas": "با عبارت‌های کاربردی مناسب، یک سخنرانی کوتاه خیلی حرفه‌ای‌تر به نظر می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "Redemittel verwenden",
+     "عبارت‌های کاربردی را به کار بردن"
+    ],
+    [
+     "die Redemittel helfen",
+     "عبارت‌های کاربردی کمک می‌کنند"
+    ]
+   ]
+  },
+  {
+   "id": "L2-263",
+   "s": "T",
+   "w": "freilassen (Platz ~)",
+   "fa": "خالی گذاشتن (جا خالی گذاشتن)",
+   "syn": "frei lassen, offenlassen",
+   "de": "Lassen Sie oben auf jeder Karte etwas Platz für Redemittel frei.",
+   "fas": "بالای هر کارت کمی جا برای عبارت‌های کاربردی خالی بگذارید.",
+   "_t": 1,
+   "c": [
+    [
+     "Platz freilassen",
+     "جا خالی گذاشتن"
+    ],
+    [
+     "eine Zeile freilassen",
+     "یک خط خالی گذاشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-264",
+   "s": "T",
+   "w": "die Freiheit, -en (das Gefühl von ~)",
+   "fa": "آزادی (احساس آزادی)",
+   "syn": "die Unabhängigkeit, die Ungebundenheit",
+   "de": "Große Fenster und ein offener Raum geben den Bewohnern ein Gefühl von Freiheit.",
+   "fas": "پنجره‌های بزرگ و فضای باز به ساکنان احساس آزادی می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Gefühl von Freiheit",
+     "احساس آزادی"
+    ],
+    [
+     "die persönliche Freiheit",
+     "آزادی فردی"
+    ],
+    [
+     "neue Freiheiten gewinnen",
+     "آزادی‌های تازه به دست آوردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-265",
+   "s": "T",
+   "w": "der Kurzvortrag, ¨-e",
+   "fa": "ارائه‌ی کوتاه، سخنرانی کوتاه",
+   "syn": "die Kurzpräsentation, das Referat",
+   "de": "Für den Kurzvortrag über die Frauenkirche habe ich fünf Karten vorbereitet.",
+   "fas": "برای ارائه‌ی کوتاه درباره‌ی کلیسای فراون‌کیرشه پنج کارت آماده کرده‌ام.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Kurzvortrag halten",
+     "ارائه‌ی کوتاهی انجام دادن"
+    ],
+    [
+     "einen Kurzvortrag vorbereiten",
+     "ارائه‌ی کوتاهی آماده کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-266",
+   "s": "T",
+   "w": "der Verweis, -e (~ auf + A)",
+   "fa": "ارجاع (به چیزی)",
+   "syn": "der Hinweis, die Bezugnahme",
+   "de": "Ein kurzer Verweis auf das Foto hilft den Zuhörern, dem Vortrag zu folgen.",
+   "fas": "یک ارجاع کوتاه به عکس به شنوندگان کمک می‌کند سخنرانی را دنبال کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Verweis auf die Quelle",
+     "ارجاع به منبع"
+    ],
+    [
+     "mit Verweis auf",
+     "با ارجاع به"
+    ]
+   ]
+  },
+  {
+   "id": "L2-267",
+   "s": "T",
+   "w": "deutlich",
+   "fa": "واضح، روشن، شمرده",
+   "syn": "klar, verständlich",
+   "de": "Bei einem Vortrag sollte man langsam und deutlich sprechen.",
+   "fas": "در سخنرانی باید آهسته و شمرده صحبت کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "deutlich sprechen",
+     "شمرده صحبت کردن"
+    ],
+    [
+     "deutlich machen",
+     "روشن کردن، نشان دادن"
+    ],
+    [
+     "ein deutlicher Unterschied",
+     "یک تفاوت آشکار"
+    ]
+   ]
+  },
+  {
+   "id": "L2-268",
+   "s": "T",
+   "w": "lebendig",
+   "fa": "زنده، پرجنب‌وجوش، پرشور",
+   "syn": "lebhaft, anschaulich",
+   "de": "Sie hat so lebendig erzählt, dass alle bis zum Schluss zugehört haben.",
+   "fas": "آن‌قدر پرشور تعریف کرد که همه تا آخر گوش دادند.",
+   "_t": 1,
+   "c": [
+    [
+     "lebendig sprechen",
+     "با شور و حرارت صحبت کردن"
+    ],
+    [
+     "ein lebendiges Viertel",
+     "یک محله‌ی پرجنب‌وجوش"
+    ]
+   ]
+  },
+  {
+   "id": "L2-269",
+   "s": "T",
+   "w": "nützlich",
+   "fa": "مفید، سودمند",
+   "syn": "hilfreich, sinnvoll",
+   "de": "Sachliche Kommentare sind beim Feedback nützlicher als persönliche Bewertungen.",
+   "fas": "در بازخورد، نظرهای عینی مفیدتر از ارزیابی‌های شخصی‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "nützliche Tipps",
+     "نکته‌های مفید"
+    ],
+    [
+     "sich nützlich machen",
+     "کمک کردن، مفید واقع شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-270",
+   "s": "T",
+   "w": "die Kritik, -en (positive / negative ~)",
+   "fa": "انتقاد، نقد (مثبت / منفی)",
+   "syn": "die Beurteilung, die Rückmeldung",
+   "de": "Beim Feedback sollte man nach der positiven auch die negative Kritik freundlich formulieren.",
+   "fas": "در بازخورد باید بعد از نقد مثبت، نقد منفی را هم دوستانه بیان کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "positive Kritik",
+     "نقد مثبت"
+    ],
+    [
+     "konstruktive Kritik",
+     "انتقاد سازنده"
+    ],
+    [
+     "auf Kritik reagieren",
+     "به انتقاد واکنش نشان دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-271",
+   "s": "T",
+   "w": "die Situationsbeschreibung, -en",
+   "fa": "شرح موقعیت",
+   "syn": "die Beschreibung der Lage",
+   "de": "Lesen Sie zuerst die Situationsbeschreibungen und markieren Sie die wichtigsten Wörter.",
+   "fas": "اول شرح موقعیت‌ها را بخوانید و مهم‌ترین واژه‌ها را علامت بزنید.",
+   "_t": 1,
+   "c": [
+    [
+     "die Situationsbeschreibung lesen",
+     "شرح موقعیت را خواندن"
+    ],
+    [
+     "zur Situationsbeschreibung passen",
+     "با شرح موقعیت جور بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-272",
+   "s": "T",
+   "w": "gezielt",
+   "fa": "هدفمند، دقیق و با هدف",
+   "syn": "zielgerichtet, bewusst",
+   "de": "In der Prüfung muss man gezielt nach den passenden Informationen suchen.",
+   "fas": "در امتحان باید هدفمند دنبال اطلاعات مناسب گشت.",
+   "_t": 1,
+   "c": [
+    [
+     "gezielt suchen",
+     "هدفمند جست‌وجو کردن"
+    ],
+    [
+     "gezielte Maßnahmen",
+     "اقدامات هدفمند"
+    ]
+   ]
+  },
+  {
+   "id": "L2-273",
+   "s": "T",
+   "w": "zuordnen",
+   "fa": "مرتبط کردن، به هم وصل کردن",
+   "syn": "zuweisen, verbinden",
+   "de": "Ordnen Sie jeder Situation die passende Anzeige zu.",
+   "fas": "به هر موقعیت آگهی مناسبش را وصل کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "einer Situation zuordnen",
+     "به یک موقعیت ربط دادن"
+    ],
+    [
+     "richtig zuordnen",
+     "درست مرتبط کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-274",
+   "s": "T",
+   "w": "die Anzeige, -n",
+   "fa": "آگهی",
+   "syn": "das Inserat, die Annonce",
+   "de": "Ich habe in einer Anzeige ein günstiges Wochenende in Hamburg gefunden.",
+   "fas": "در یک آگهی یک آخر هفته‌ی ارزان در هامبورگ پیدا کردم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Anzeige aufgeben",
+     "آگهی دادن"
+    ],
+    [
+     "auf eine Anzeige antworten",
+     "به آگهی‌ای پاسخ دادن"
+    ],
+    [
+     "eine Anzeige in der Zeitung",
+     "آگهی در روزنامه"
+    ]
+   ]
+  },
+  {
+   "id": "L2-275",
+   "s": "T",
+   "w": "das Niveau, -s",
+   "fa": "سطح، کیفیت",
+   "syn": "die Qualität, die Stufe",
+   "de": "Das Reitturnier in Hamburg ist ein Sportereignis von sehr hohem Niveau.",
+   "fas": "مسابقه‌ی سوارکاری هامبورگ یک رویداد ورزشی در سطح بسیار بالاست.",
+   "_t": 1,
+   "c": [
+    [
+     "auf hohem Niveau",
+     "در سطح بالا"
+    ],
+    [
+     "das Niveau steigern",
+     "سطح را بالا بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-276",
+   "s": "T",
+   "w": "profund",
+   "fa": "عمیق، گسترده (دانش)",
+   "syn": "gründlich, fundiert",
+   "de": "Unsere Stadtführerin hat ein profundes Wissen über die Geschichte des Hafens.",
+   "fas": "راهنمای تور ما دانش عمیقی درباره‌ی تاریخ بندر دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "profundes Wissen",
+     "دانش عمیق"
+    ],
+    [
+     "ein profunder Kenner",
+     "یک کارشناس خبره"
+    ]
+   ]
+  },
+  {
+   "id": "L2-277",
+   "s": "T",
+   "w": "berühmt-berüchtigt",
+   "fa": "معروف و بدنام",
+   "syn": "legendär, verrufen",
+   "de": "Die Reeperbahn ist das berühmt-berüchtigte Partyviertel von Hamburg.",
+   "fas": "رپربان محله‌ی معروف و بدنام مهمانی‌ها و تفریحات شبانه‌ی هامبورگ است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein berühmt-berüchtigtes Viertel",
+     "یک محله‌ی معروف و بدنام"
+    ],
+    [
+     "berühmt-berüchtigt sein für",
+     "به‌خاطر چیزی معروف و بدنام بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-278",
+   "s": "T",
+   "w": "spannend",
+   "fa": "هیجان‌انگیز، جذاب",
+   "syn": "aufregend, fesselnd",
+   "de": "Der Stadtführer erzählt spannende Geschichten über die Musiker des Viertels.",
+   "fas": "راهنمای تور داستان‌های جذابی درباره‌ی موسیقی‌دانان محله تعریف می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine spannende Geschichte",
+     "یک داستان هیجان‌انگیز"
+    ],
+    [
+     "etwas spannend finden",
+     "چیزی را جذاب دانستن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-279",
+   "s": "T",
+   "w": "der Einblick, -e (~ geben in + A)",
+   "fa": "آشنایی، نگاهی به درون (چیزی)",
+   "syn": "der Eindruck, die Kenntnis",
+   "de": "Die Führung gibt Einblicke in das Alltagsleben der Menschen im Viertel.",
+   "fas": "این تور نگاهی به زندگی روزمره‌ی مردم محله ارائه می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "Einblicke geben in",
+     "آشنایی با چیزی فراهم کردن"
+    ],
+    [
+     "einen Einblick bekommen",
+     "با چیزی آشنا شدن"
+    ],
+    [
+     "ein tiefer Einblick",
+     "یک نگاه عمیق"
+    ]
+   ]
+  },
+  {
+   "id": "L2-280",
+   "s": "T",
+   "w": "das Alltagsleben (nur Sg.)",
+   "fa": "زندگی روزمره",
+   "syn": "der Alltag, das tägliche Leben",
+   "de": "Im Szeneviertel kann man das multikulturelle Alltagsleben der Stadt erleben.",
+   "fas": "در محله‌ی پرطرفدار می‌توان زندگی روزمره‌ی چندفرهنگی شهر را تجربه کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "das Alltagsleben der Menschen",
+     "زندگی روزمره‌ی مردم"
+    ],
+    [
+     "im Alltagsleben",
+     "در زندگی روزمره"
+    ]
+   ]
+  },
+  {
+   "id": "L2-281",
+   "s": "T",
+   "w": "der Kiez, -e",
+   "fa": "محله (به‌ویژه در هامبورگ و برلین)",
+   "syn": "das Viertel, die Nachbarschaft",
+   "de": "Zum Schluss der Tour trinken wir etwas in einer typischen Kneipe im Kiez.",
+   "fas": "در پایان تور در یک میخانه‌ی معمولی محله چیزی می‌نوشیم.",
+   "_t": 1,
+   "c": [
+    [
+     "im Kiez wohnen",
+     "در محله زندگی کردن"
+    ],
+    [
+     "der Hamburger Kiez",
+     "محله‌ی معروف هامبورگ"
+    ]
+   ]
+  },
+  {
+   "id": "L2-282",
+   "s": "T",
+   "w": "die Laune, -n (gute / schlechte ~)",
+   "fa": "حال، خلق‌وخو (سرحال / بدخلق)",
+   "syn": "die Stimmung, die Verfassung",
+   "de": "Die Stadtführer begleiten die Gäste mit guter Laune durch das Viertel.",
+   "fas": "راهنماهای تور با حال خوب مهمانان را در محله همراهی می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "gute Laune haben",
+     "سرحال بودن"
+    ],
+    [
+     "schlechte Laune",
+     "بدخلقی"
+    ],
+    [
+     "mit guter Laune",
+     "با حال خوب"
+    ]
+   ]
+  },
+  {
+   "id": "L2-283",
+   "s": "T",
+   "w": "mit ganz anderen Augen sehen",
+   "fa": "از زاویه‌ای کاملاً متفاوت دیدن",
+   "syn": "anders betrachten, neu wahrnehmen",
+   "de": "Nach der Führung sieht man das Viertel mit ganz anderen Augen.",
+   "fas": "بعد از این تور، محله را از زاویه‌ای کاملاً متفاوت می‌بینی.",
+   "_t": 1,
+   "c": [
+    [
+     "die Stadt mit anderen Augen sehen",
+     "شهر را جور دیگری دیدن"
+    ],
+    [
+     "etwas mit neuen Augen sehen",
+     "چیزی را با نگاهی تازه دیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-284",
+   "s": "T",
+   "w": "das Welterbe (nur Sg.)",
+   "fa": "میراث جهانی",
+   "syn": "das Weltkulturerbe, das Weltnaturerbe",
+   "de": "Das Wattenmeer zählt seit 2009 zum UNESCO-Welterbe.",
+   "fas": "دریای وادن از سال ۲۰۰۹ جزو میراث جهانی یونسکو است.",
+   "_t": 1,
+   "c": [
+    [
+     "zum Welterbe zählen",
+     "جزو میراث جهانی بودن"
+    ],
+    [
+     "UNESCO-Welterbe",
+     "میراث جهانی یونسکو"
+    ]
+   ]
+  },
+  {
+   "id": "L2-285",
+   "s": "T",
+   "w": "das Wattenmeer (nur Sg.)",
+   "fa": "دریای وادن، پهنه‌ی جزر و مدی",
+   "syn": "das Watt, die Gezeitenküste",
+   "de": "Im Wattenmeer kann man bei Ebbe kilometerweit über den Meeresboden wandern.",
+   "fas": "در دریای وادن هنگام جزر می‌توان کیلومترها روی بستر دریا پیاده‌روی کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "Nationalpark Wattenmeer",
+     "پارک ملی دریای وادن"
+    ],
+    [
+     "durchs Wattenmeer wandern",
+     "در پهنه‌ی جزر و مدی پیاده‌روی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-286",
+   "s": "T",
+   "w": "die Vogelwelt (nur Sg.)",
+   "fa": "دنیای پرندگان، انواع پرندگان یک منطقه",
+   "syn": "die Vogelarten, die Vögel",
+   "de": "Der Biologe zeigt beeindruckende Fotos von der Vogelwelt an der Nordsee.",
+   "fas": "این زیست‌شناس عکس‌های چشمگیری از پرندگان ساحل دریای شمال نشان می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "die heimische Vogelwelt",
+     "پرندگان بومی"
+    ],
+    [
+     "die Vogelwelt beobachten",
+     "پرندگان را تماشا کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-287",
+   "s": "T",
+   "w": "grandios",
+   "fa": "باشکوه، فوق‌العاده",
+   "syn": "großartig, überwältigend",
+   "de": "Von der Plaza der Elbphilharmonie hat man eine grandiose Aussicht auf den Hafen.",
+   "fas": "از پلازای البفیلارمونی منظره‌ی باشکوهی از بندر دیده می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine grandiose Aussicht",
+     "منظره‌ای باشکوه"
+    ],
+    [
+     "grandios scheitern",
+     "به‌طرز مفتضحانه‌ای شکست خوردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-288",
+   "s": "T",
+   "w": "rasten",
+   "fa": "استراحت کردن، توقف کوتاه (در سفر)",
+   "syn": "pausieren, Rast machen",
+   "de": "Auf ihrem langen Weg nach Süden rasten viele Zugvögel im Watt.",
+   "fas": "بسیاری از پرندگان مهاجر در مسیر طولانی‌شان به جنوب در پهنه‌ی جزر و مدی استراحت می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Weile rasten",
+     "مدتی استراحت کردن"
+    ],
+    [
+     "am Wegrand rasten",
+     "کنار راه توقف کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-289",
+   "s": "T",
+   "w": "der Zugvogel, ¨-",
+   "fa": "پرنده‌ی مهاجر",
+   "syn": "der Wandervogel",
+   "de": "Jedes Jahr fliegen Millionen Zugvögel tausende Kilometer in den warmen Süden.",
+   "fas": "هر سال میلیون‌ها پرنده‌ی مهاجر هزاران کیلومتر به جنوب گرم پرواز می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "Zugvögel beobachten",
+     "پرندگان مهاجر را تماشا کردن"
+    ],
+    [
+     "die Rückkehr der Zugvögel",
+     "بازگشت پرندگان مهاجر"
+    ]
+   ]
+  },
+  {
+   "id": "L2-290",
+   "s": "T",
+   "w": "das Brutgebiet, -e",
+   "fa": "زیستگاه جوجه‌آوری، محل تخم‌گذاری",
+   "syn": "der Nistplatz, das Brutrevier",
+   "de": "Im Sommer fliegen die Vögel zurück in ihre Brutgebiete im Norden.",
+   "fas": "در تابستان پرندگان به زیستگاه‌های جوجه‌آوری‌شان در شمال برمی‌گردند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein geschütztes Brutgebiet",
+     "زیستگاه جوجه‌آوری حفاظت‌شده"
+    ],
+    [
+     "ins Brutgebiet zurückkehren",
+     "به محل جوجه‌آوری برگشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-291",
+   "s": "T",
+   "w": "die Intensität, -en",
+   "fa": "شدت، قوت",
+   "syn": "die Stärke, die Kraft",
+   "de": "Die Fotos zeigen die Farben der Vögel in einer selten gesehenen Intensität.",
+   "fas": "این عکس‌ها رنگ پرندگان را با شدتی کم‌نظیر نشان می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "mit großer Intensität",
+     "با شدت زیاد"
+    ],
+    [
+     "die Intensität erhöhen",
+     "شدت را افزایش دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-292",
+   "s": "T",
+   "w": "das Highlight, -s",
+   "fa": "نقطه‌ی اوج، بخش برجسته",
+   "syn": "der Höhepunkt",
+   "de": "Ein besonderes Highlight der Tagestour ist die Fahrt zur Nachbarinsel.",
+   "fas": "یکی از بخش‌های ویژه‌ی تور یک‌روزه، سفر به جزیره‌ی همسایه است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein besonderes Highlight",
+     "یک نقطه‌ی اوج ویژه"
+    ],
+    [
+     "das Highlight des Abends",
+     "بخش برجسته‌ی شب"
+    ]
+   ]
+  },
+  {
+   "id": "L2-293",
+   "s": "T",
+   "w": "die Tonaufnahme, -n",
+   "fa": "ضبط صدا، صدای ضبط‌شده",
+   "syn": "die Aufzeichnung, die Aufnahme",
+   "de": "Der Biologe spielt im Vortrag seine Tonaufnahmen von Vogelstimmen vor.",
+   "fas": "زیست‌شناس در سخنرانی‌اش صداهای ضبط‌شده‌ی پرندگان را پخش می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Tonaufnahme machen",
+     "صدا ضبط کردن"
+    ],
+    [
+     "eine alte Tonaufnahme",
+     "یک ضبط صدای قدیمی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-294",
+   "s": "T",
+   "w": "die Partie, -n (eine ~ Squash spielen)",
+   "fa": "دست، بازی (یک دست بازی)",
+   "syn": "das Spiel, die Runde",
+   "de": "Nach der Arbeit spielen wir oft eine Partie Badminton im Sportzentrum.",
+   "fas": "بعد از کار اغلب یک دست بدمینتون در مرکز ورزشی بازی می‌کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Partie Schach",
+     "یک دست شطرنج"
+    ],
+    [
+     "eine Partie gewinnen",
+     "یک دست بازی را بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-295",
+   "s": "T",
+   "w": "der / die Fortgeschrittene, -n",
+   "fa": "فرد پیشرفته (در یادگیری یا ورزش)",
+   "syn": "der Erfahrene ≠ der Anfänger",
+   "de": "Der Verein bietet Kurse für Anfänger und Fortgeschrittene an.",
+   "fas": "این باشگاه برای مبتدی‌ها و افراد پیشرفته دوره برگزار می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "Kurse für Fortgeschrittene",
+     "دوره‌های پیشرفته"
+    ],
+    [
+     "Anfänger und Fortgeschrittene",
+     "مبتدی‌ها و پیشرفته‌ها"
+    ]
+   ]
+  },
+  {
+   "id": "L2-296",
+   "s": "T",
+   "w": "perfektionieren",
+   "fa": "کامل کردن، به حد کمال رساندن",
+   "syn": "verfeinern, verbessern",
+   "de": "Im Fortgeschrittenenkurs kann man seine Technik beim Squash perfektionieren.",
+   "fas": "در دوره‌ی پیشرفته می‌توان تکنیک اسکواش را به حد کمال رساند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Technik perfektionieren",
+     "تکنیک را کامل کردن"
+    ],
+    [
+     "seine Sprachkenntnisse perfektionieren",
+     "مهارت زبانی را کامل کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-297",
+   "s": "T",
+   "w": "begehrt",
+   "fa": "پرطرفدار، مورد تقاضا",
+   "syn": "gefragt, beliebt",
+   "de": "Karten für Konzerte in der Elbphilharmonie sind sehr begehrt.",
+   "fas": "بلیت کنسرت‌های البفیلارمونی خیلی پرطرفدار است.",
+   "_t": 1,
+   "c": [
+    [
+     "sehr begehrt sein",
+     "خیلی پرطرفدار بودن"
+    ],
+    [
+     "ein begehrter Preis",
+     "یک جایزه‌ی پرطرفدار"
+    ]
+   ]
+  },
+  {
+   "id": "L2-298",
+   "s": "T",
+   "w": "hochklassig",
+   "fa": "درجه‌یک، سطح بالا",
+   "syn": "erstklassig, hochwertig",
+   "de": "Das Reitturnier ist ein hochklassiger Wettbewerb mit den besten Reitern der Welt.",
+   "fas": "این مسابقه‌ی سوارکاری رقابتی درجه‌یک با بهترین سوارکاران جهان است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein hochklassiger Wettbewerb",
+     "یک رقابت درجه‌یک"
+    ],
+    [
+     "hochklassiger Sport",
+     "ورزش سطح بالا"
+    ]
+   ]
+  },
+  {
+   "id": "L2-299",
+   "s": "T",
+   "w": "der Publikumsmagnet, -e(n)",
+   "fa": "آهنربای جذب تماشاگر، جاذبه‌ی پرطرفدار",
+   "syn": "die Attraktion, der Zuschauermagnet",
+   "de": "Die neue Konzerthalle ist zum Publikumsmagneten der ganzen Region geworden.",
+   "fas": "سالن کنسرت جدید به جاذبه‌ی پرطرفدار کل منطقه تبدیل شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein echter Publikumsmagnet",
+     "یک جاذبه‌ی واقعی برای تماشاگران"
+    ],
+    [
+     "sich zum Publikumsmagneten entwickeln",
+     "به جاذبه‌ای پرطرفدار تبدیل شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-300",
+   "s": "T",
+   "w": "sich etw. nicht entgehen lassen",
+   "fa": "چیزی را از دست ندادن",
+   "syn": "etw. nicht verpassen",
+   "de": "Dieses Musical solltest du dir bei deinem Besuch in Hamburg nicht entgehen lassen.",
+   "fas": "این موزیکال را در سفرت به هامبورگ نباید از دست بدهی.",
+   "_t": 1,
+   "c": [
+    [
+     "sich die Chance nicht entgehen lassen",
+     "فرصت را از دست ندادن"
+    ],
+    [
+     "sich ein Highlight nicht entgehen lassen",
+     "یک برنامه‌ی ویژه را از دست ندادن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-301",
+   "s": "T",
+   "w": "die Spielstätte, -n",
+   "fa": "محل اجرا، سالن نمایش",
+   "syn": "die Bühne, das Theater",
+   "de": "Hamburg hat viele erfolgreiche Musical-Spielstätten rund um die Reeperbahn.",
+   "fas": "هامبورگ اطراف رپربان سالن‌های موفق زیادی برای اجرای موزیکال دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine bekannte Spielstätte",
+     "یک سالن نمایش معروف"
+    ],
+    [
+     "die Spielstätte wechseln",
+     "محل اجرا را عوض کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-302",
+   "s": "T",
+   "w": "sorgfältig",
+   "fa": "با دقت، دقیق",
+   "syn": "genau, gründlich",
+   "de": "Für das Musical-Wochenende wurden die Hotels sorgfältig ausgewählt.",
+   "fas": "برای آخر هفته‌ی موزیکال، هتل‌ها با دقت انتخاب شده‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "sorgfältig auswählen",
+     "با دقت انتخاب کردن"
+    ],
+    [
+     "sorgfältig arbeiten",
+     "با دقت کار کردن"
+    ],
+    [
+     "eine sorgfältige Planung",
+     "برنامه‌ریزی دقیق"
+    ]
+   ]
+  },
+  {
+   "id": "L2-303",
+   "s": "T",
+   "w": "die Beweglichkeit (nur Sg.)",
+   "fa": "انعطاف‌پذیری بدن، تحرک",
+   "syn": "die Flexibilität, die Gelenkigkeit",
+   "de": "Yoga und Pilates verbessern die Beweglichkeit und stärken den Rücken.",
+   "fas": "یوگا و پیلاتس انعطاف‌پذیری بدن را بهتر و کمر را قوی می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Beweglichkeit trainieren",
+     "انعطاف بدن را تمرین دادن"
+    ],
+    [
+     "Ausdauer und Beweglichkeit",
+     "استقامت و انعطاف‌پذیری"
+    ]
+   ]
+  },
+  {
+   "id": "L2-304",
+   "s": "T",
+   "w": "die Räumlichkeiten (nur Pl.)",
+   "fa": "فضا، محل، اتاق‌ها (یک مکان)",
+   "syn": "die Räume, das Gebäude",
+   "de": "Das Fitnessstudio hat moderne Räumlichkeiten mit Blick auf den See.",
+   "fas": "این باشگاه فضاهای مدرنی با منظره‌ی دریاچه دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "moderne Räumlichkeiten",
+     "فضاهای مدرن"
+    ],
+    [
+     "die Räumlichkeiten mieten",
+     "محل را اجاره کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-305",
+   "s": "T",
+   "w": "einweisen (jdn. in + A ~)",
+   "fa": "آموزش اولیه دادن، آشنا کردن با کار",
+   "syn": "einarbeiten, anleiten",
+   "de": "Neue Mitglieder werden von einem Trainer in die Geräte eingewiesen.",
+   "fas": "اعضای جدید را یک مربی با دستگاه‌ها آشنا می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "jemanden in die Arbeit einweisen",
+     "کسی را با کار آشنا کردن"
+    ],
+    [
+     "persönlich eingewiesen werden",
+     "شخصاً آموزش اولیه دیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-306",
+   "s": "T",
+   "w": "der Schläger, -",
+   "fa": "راکت",
+   "syn": "das Racket",
+   "de": "Für Squash braucht man einen leichten Schläger und gute Hallenschuhe.",
+   "fas": "برای اسکواش یک راکت سبک و کفش سالنی خوب لازم است.",
+   "_t": 1,
+   "c": [
+    [
+     "den Schläger halten",
+     "راکت را در دست گرفتن"
+    ],
+    [
+     "mit dem Schläger in der Hand",
+     "با راکت در دست"
+    ]
+   ]
+  },
+  {
+   "id": "L2-307",
+   "s": "T",
+   "w": "sich fit halten",
+   "fa": "تناسب اندام خود را حفظ کردن",
+   "syn": "in Form bleiben, fit bleiben",
+   "de": "Viele Großstädter halten sich nach der Arbeit im Fitnessstudio fit.",
+   "fas": "بسیاری از ساکنان کلان‌شهر بعد از کار در باشگاه تناسب اندامشان را حفظ می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "sich mit Sport fit halten",
+     "با ورزش سرحال ماندن"
+    ],
+    [
+     "sich körperlich fit halten",
+     "از نظر جسمی سرحال ماندن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-308",
+   "s": "T",
+   "w": "komfortabel",
+   "fa": "راحت، با آسایش",
+   "syn": "bequem, angenehm",
+   "de": "Mit dem Katamaran kommt man schnell und komfortabel nach Helgoland.",
+   "fas": "با کاتاماران می‌توان سریع و راحت به هلیگولند رفت.",
+   "_t": 1,
+   "c": [
+    [
+     "komfortabel reisen",
+     "راحت سفر کردن"
+    ],
+    [
+     "eine komfortable Wohnung",
+     "یک آپارتمان راحت"
+    ]
+   ]
+  },
+  {
+   "id": "L2-309",
+   "s": "T",
+   "w": "malerisch",
+   "fa": "زیبا و دیدنی، مثل نقاشی",
+   "syn": "idyllisch, pittoresk",
+   "de": "Nach einem Spaziergang über die malerische Insel essen wir frischen Fisch.",
+   "fas": "بعد از قدم زدن در جزیره‌ی زیبا و دیدنی، ماهی تازه می‌خوریم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein malerisches Dorf",
+     "یک روستای زیبا و دیدنی"
+    ],
+    [
+     "malerisch gelegen",
+     "در جای زیبا و دیدنی واقع‌شده"
+    ]
+   ]
+  },
+  {
+   "id": "L2-310",
+   "s": "T",
+   "w": "fangfrisch",
+   "fa": "تازه صیدشده",
+   "syn": "ganz frisch (Fisch)",
+   "de": "Im Hafenrestaurant gibt es jeden Tag fangfrischen Fisch.",
+   "fas": "در رستوران بندر هر روز ماهی تازه صیدشده هست.",
+   "_t": 1,
+   "c": [
+    [
+     "fangfrischer Fisch",
+     "ماهی تازه صیدشده"
+    ],
+    [
+     "fangfrisch auf den Tisch",
+     "تازه صیدشده سر سفره"
+    ]
+   ]
+  },
+  {
+   "id": "L2-311",
+   "s": "T",
+   "w": "die Spezialität, -en",
+   "fa": "غذای مخصوص، تخصص",
+   "syn": "das typische Gericht, die Besonderheit",
+   "de": "Probieren Sie unbedingt die Inselspezialitäten aus frischem Hummer.",
+   "fas": "حتماً غذاهای مخصوص جزیره با خرچنگ تازه را امتحان کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "eine regionale Spezialität",
+     "غذای مخصوص منطقه"
+    ],
+    [
+     "die Spezialität des Hauses",
+     "غذای مخصوص رستوران"
+    ]
+   ]
+  },
+  {
+   "id": "L2-312",
+   "s": "T",
+   "w": "die Robbe, -n",
+   "fa": "فوک (پستاندار دریایی)",
+   "syn": "der Seehund",
+   "de": "Auf der Düne kann man Robben ganz aus der Nähe beobachten.",
+   "fas": "در جزیره‌ی دونه می‌توان فوک‌ها را از فاصله‌ی خیلی نزدیک تماشا کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "Robben beobachten",
+     "فوک‌ها را تماشا کردن"
+    ],
+    [
+     "eine Robbe am Strand",
+     "یک فوک در ساحل"
+    ]
+   ]
+  },
+  {
+   "id": "L2-313",
+   "s": "T",
+   "w": "unvergesslich",
+   "fa": "فراموش‌نشدنی",
+   "syn": "einmalig, unvergessen",
+   "de": "Der Ausflug auf die Hochseeinsel war ein unvergessliches Erlebnis.",
+   "fas": "گردش به جزیره‌ی دورافتاده تجربه‌ای فراموش‌نشدنی بود.",
+   "_t": 1,
+   "c": [
+    [
+     "ein unvergesslicher Tag",
+     "یک روز فراموش‌نشدنی"
+    ],
+    [
+     "unvergessliche Momente",
+     "لحظه‌های فراموش‌نشدنی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-314",
+   "s": "T",
+   "w": "die Bauzeit, -en",
+   "fa": "مدت ساخت",
+   "syn": "die Bauphase, die Bauarbeiten",
+   "de": "Nach fast zehn Jahren Bauzeit wurde die Konzerthalle endlich eröffnet.",
+   "fas": "سالن کنسرت بعد از تقریباً ده سال ساخت بالاخره افتتاح شد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine lange Bauzeit",
+     "مدت ساخت طولانی"
+    ],
+    [
+     "die Bauzeit verkürzen",
+     "مدت ساخت را کوتاه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-315",
+   "s": "T",
+   "w": "der Klang, ¨-e",
+   "fa": "صدا، طنین",
+   "syn": "der Ton, die Akustik",
+   "de": "Die Elbphilharmonie ist für ihren besonderen Klang weltweit bekannt.",
+   "fas": "البفیلارمونی به‌خاطر طنین خاصش در سراسر جهان معروف است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein schöner Klang",
+     "صدای زیبا"
+    ],
+    [
+     "der Klang der Stimme",
+     "طنین صدا"
+    ]
+   ]
+  },
+  {
+   "id": "L2-316",
+   "s": "T",
+   "w": "markant",
+   "fa": "برجسته، چشمگیر، متمایز",
+   "syn": "auffällig, prägnant",
+   "de": "Mit ihrer markanten Architektur ist die Konzerthalle ein neues Wahrzeichen geworden.",
+   "fas": "این سالن کنسرت با معماری برجسته‌اش به نماد تازه‌ای تبدیل شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein markantes Gebäude",
+     "یک ساختمان چشمگیر"
+    ],
+    [
+     "markante Gesichtszüge",
+     "چهره‌ی متمایز"
+    ]
+   ]
+  },
+  {
+   "id": "L2-317",
+   "s": "T",
+   "w": "gelangen (zu / auf / in + A)",
+   "fa": "رسیدن (به جایی)",
+   "syn": "kommen, erreichen",
+   "de": "Über eine lange Rolltreppe gelangt man auf die Aussichtsplattform.",
+   "fas": "با یک پله‌برقی طولانی به سکوی دیدبانی می‌رسید.",
+   "_t": 1,
+   "c": [
+    [
+     "ans Ziel gelangen",
+     "به هدف رسیدن"
+    ],
+    [
+     "zu einer Lösung gelangen",
+     "به راه‌حلی رسیدن"
+    ],
+    [
+     "an die Öffentlichkeit gelangen",
+     "به اطلاع عموم رسیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-318",
+   "s": "T",
+   "w": "atemberaubend",
+   "fa": "نفس‌گیر، خیره‌کننده",
+   "syn": "fantastisch, überwältigend",
+   "de": "Von oben hat man einen atemberaubenden Blick über die ganze Stadt.",
+   "fas": "از بالا منظره‌ای نفس‌گیر از کل شهر دیده می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "ein atemberaubender Blick",
+     "منظره‌ای نفس‌گیر"
+    ],
+    [
+     "atemberaubend schön",
+     "به‌طرز خیره‌کننده‌ای زیبا"
+    ]
+   ]
+  },
+  {
+   "id": "L2-319",
+   "s": "T",
+   "w": "einen Blick werfen (in / auf + A)",
+   "fa": "نگاهی انداختن (به)",
+   "syn": "kurz ansehen, hineinschauen",
+   "de": "Während der Führung dürfen wir auch einen Blick in den großen Konzertsaal werfen.",
+   "fas": "در طول تور اجازه داریم نگاهی هم به سالن بزرگ کنسرت بیندازیم.",
+   "_t": 1,
+   "c": [
+    [
+     "einen kurzen Blick werfen",
+     "نگاهی کوتاه انداختن"
+    ],
+    [
+     "einen Blick hinter die Kulissen werfen",
+     "نگاهی به پشت صحنه انداختن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-320",
+   "s": "T",
+   "w": "akustisch",
+   "fa": "صوتی، مربوط به آکوستیک",
+   "syn": "klanglich, den Schall betreffend",
+   "de": "Ein kurzer Film erklärt die akustischen Besonderheiten des Konzertsaals.",
+   "fas": "یک فیلم کوتاه ویژگی‌های صوتی سالن کنسرت را توضیح می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "akustische Probleme",
+     "مشکلات صوتی"
+    ],
+    [
+     "etwas akustisch verstehen",
+     "صدایی را درست شنیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-321",
+   "s": "T",
+   "w": "anschaulich",
+   "fa": "ملموس، روشن و قابل‌تصور",
+   "syn": "verständlich, bildhaft",
+   "de": "Mit vielen Fotos hat sie die Geschichte des Gebäudes sehr anschaulich erklärt.",
+   "fas": "او با عکس‌های زیاد تاریخچه‌ی ساختمان را خیلی ملموس توضیح داد.",
+   "_t": 1,
+   "c": [
+    [
+     "anschaulich erklären",
+     "به‌طور ملموس توضیح دادن"
+    ],
+    [
+     "ein anschauliches Beispiel",
+     "یک مثال روشن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-322",
+   "s": "T",
+   "w": "der Konzertsaal, -säle",
+   "fa": "سالن کنسرت",
+   "syn": "die Konzerthalle",
+   "de": "Der große Konzertsaal bietet Platz für über zweitausend Besucher.",
+   "fas": "سالن بزرگ کنسرت برای بیش از دو هزار بازدیدکننده جا دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein voller Konzertsaal",
+     "سالن کنسرت پر"
+    ],
+    [
+     "im Konzertsaal sitzen",
+     "در سالن کنسرت نشستن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-323",
+   "s": "T",
+   "w": "der Nationalpark, -s",
+   "fa": "پارک ملی",
+   "syn": "das Naturschutzgebiet",
+   "de": "Im Nationalpark sind viele seltene Tiere und Pflanzen geschützt.",
+   "fas": "در پارک ملی بسیاری از حیوانات و گیاهان کمیاب حفاظت می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Nationalpark besuchen",
+     "از پارک ملی بازدید کردن"
+    ],
+    [
+     "im Nationalpark wandern",
+     "در پارک ملی پیاده‌روی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-324",
+   "s": "T",
+   "w": "betroffen (von + D)",
+   "fa": "آسیب‌دیده، درگیر (با چیزی)",
+   "syn": "belastet, beeinträchtigt",
+   "de": "Von den hohen Mieten sind vor allem Studierende und Familien betroffen.",
+   "fas": "از اجاره‌های بالا بیش از همه دانشجوها و خانواده‌ها آسیب می‌بینند.",
+   "_t": 1,
+   "c": [
+    [
+     "stark betroffen sein",
+     "به‌شدت آسیب دیدن"
+    ],
+    [
+     "die betroffenen Personen",
+     "افراد آسیب‌دیده"
+    ]
+   ]
+  },
+  {
+   "id": "L2-325",
+   "s": "T",
+   "w": "sich hineindenken (in + A)",
+   "fa": "خود را جای چیزی/کسی گذاشتن، در موضوعی فرو رفتن",
+   "syn": "sich einfühlen, sich vertraut machen mit",
+   "de": "Die Grafiken helfen, sich vor dem Hören in das Thema hineinzudenken.",
+   "fas": "نمودارها کمک می‌کنند پیش از شنیدن، ذهن آدم وارد موضوع شود.",
+   "_t": 1,
+   "c": [
+    [
+     "sich in ein Thema hineindenken",
+     "وارد فضای یک موضوع شدن"
+    ],
+    [
+     "sich in eine Person hineindenken",
+     "خود را جای کسی گذاشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-326",
+   "s": "T",
+   "w": "heraushören",
+   "fa": "از میان شنیده‌ها تشخیص دادن",
+   "syn": "durch Zuhören erkennen",
+   "de": "Die wichtigen Zahlen muss man aus dem Vortrag selbst heraushören.",
+   "fas": "عددهای مهم را باید خودت از میان سخنرانی تشخیص بدهی.",
+   "_t": 1,
+   "c": [
+    [
+     "Informationen heraushören",
+     "اطلاعات را از شنیده‌ها بیرون کشیدن"
+    ],
+    [
+     "Kritik heraushören",
+     "انتقاد را از لحن کسی فهمیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-327",
+   "s": "T",
+   "w": "die Beantwortung, -en",
+   "fa": "پاسخ‌گویی، پاسخ دادن",
+   "syn": "die Antwort",
+   "de": "Für die Beantwortung der Fragen haben Sie nach dem Video drei Minuten Zeit.",
+   "fas": "برای پاسخ دادن به سؤال‌ها بعد از ویدئو سه دقیقه وقت دارید.",
+   "_t": 1,
+   "c": [
+    [
+     "die Beantwortung der Fragen",
+     "پاسخ‌گویی به سؤال‌ها"
+    ],
+    [
+     "bei der Beantwortung helfen",
+     "در پاسخ دادن کمک کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-328",
+   "s": "T",
+   "w": "eintippen",
+   "fa": "تایپ کردن، وارد کردن (در کامپیوتر)",
+   "syn": "eingeben, tippen",
+   "de": "Im TestDaF müssen Sie Ihre Lösungen direkt am Computer eintippen.",
+   "fas": "در تست‌داف باید پاسخ‌هایتان را مستقیم در کامپیوتر تایپ کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Nummer eintippen",
+     "شماره‌ای را وارد کردن"
+    ],
+    [
+     "das Passwort eintippen",
+     "رمز را تایپ کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-329",
+   "s": "T",
+   "w": "die Mietwohnung, -en",
+   "fa": "آپارتمان اجاره‌ای",
+   "syn": "die gemietete Wohnung",
+   "de": "In deutschen Großstädten gibt es viel zu wenige bezahlbare Mietwohnungen.",
+   "fas": "در کلان‌شهرهای آلمان آپارتمان اجاره‌ای مقرون‌به‌صرفه خیلی کم است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Mietwohnung suchen",
+     "دنبال آپارتمان اجاره‌ای گشتن"
+    ],
+    [
+     "in einer Mietwohnung leben",
+     "در آپارتمان اجاره‌ای زندگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-330",
+   "s": "T",
+   "w": "zur Miete wohnen",
+   "fa": "مستأجر بودن، اجاره‌نشین بودن",
+   "syn": "eine Wohnung mieten ≠ Eigentümer sein",
+   "de": "In Deutschland wohnt etwa die Hälfte der Bevölkerung zur Miete.",
+   "fas": "در آلمان حدود نیمی از مردم اجاره‌نشین‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "noch zur Miete wohnen",
+     "هنوز اجاره‌نشین بودن"
+    ],
+    [
+     "lieber zur Miete wohnen",
+     "ترجیحاً اجاره‌نشین بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-331",
+   "s": "T",
+   "w": "der Standard, -s",
+   "fa": "استاندارد، سطح کیفیت",
+   "syn": "das Niveau, die Norm",
+   "de": "Viele Mieter wünschen sich einen höheren Standard, können ihn aber nicht bezahlen.",
+   "fas": "بسیاری از مستأجران سطح کیفیت بالاتری می‌خواهند ولی نمی‌توانند هزینه‌اش را بپردازند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen hohen Standard haben",
+     "سطح کیفیت بالایی داشتن"
+    ],
+    [
+     "dem Standard entsprechen",
+     "با استاندارد مطابقت داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-332",
+   "s": "T",
+   "w": "preiswert",
+   "fa": "ارزان، مقرون‌به‌صرفه",
+   "syn": "günstig, bezahlbar",
+   "de": "Beim sozialen Wohnungsbau vermietet der Staat Wohnungen preiswert an Menschen mit wenig Geld.",
+   "fas": "در طرح مسکن اجتماعی، دولت آپارتمان‌ها را ارزان به افراد کم‌درآمد اجاره می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "preiswert wohnen",
+     "ارزان زندگی کردن"
+    ],
+    [
+     "ein preiswertes Angebot",
+     "یک پیشنهاد مقرون‌به‌صرفه"
+    ]
+   ]
+  },
+  {
+   "id": "L2-333",
+   "s": "T",
+   "w": "die Wohnsituation, -en",
+   "fa": "وضعیت مسکن",
+   "syn": "die Wohnverhältnisse",
+   "de": "Die Wohnsituation von Studierenden ist in München besonders schwierig.",
+   "fas": "وضعیت مسکن دانشجوها در مونیخ به‌ویژه دشوار است.",
+   "_t": 1,
+   "c": [
+    [
+     "die Wohnsituation verbessern",
+     "وضعیت مسکن را بهتر کردن"
+    ],
+    [
+     "eine schwierige Wohnsituation",
+     "وضعیت مسکن دشوار"
+    ]
+   ]
+  },
+  {
+   "id": "L2-334",
+   "s": "T",
+   "w": "der Staat, -en",
+   "fa": "دولت، کشور",
+   "syn": "die Regierung, das Land",
+   "de": "Der Staat sollte mehr Geld in bezahlbaren Wohnraum investieren.",
+   "fas": "دولت باید پول بیشتری در مسکن مقرون‌به‌صرفه سرمایه‌گذاری کند.",
+   "_t": 1,
+   "c": [
+    [
+     "vom Staat gefördert",
+     "با حمایت دولت"
+    ],
+    [
+     "die Aufgabe des Staates",
+     "وظیفه‌ی دولت"
+    ]
+   ]
+  },
+  {
+   "id": "L2-335",
+   "s": "T",
+   "w": "die Folie, -n (die PowerPoint-~)",
+   "fa": "اسلاید (پاورپوینت)",
+   "syn": "die Präsentationsseite, das Slide",
+   "de": "Auf der ersten Folie stelle ich die drei Punkte meiner Präsentation vor.",
+   "fas": "در اسلاید اول سه نکته‌ی ارائه‌ام را معرفی می‌کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Folie zeigen",
+     "اسلایدی را نشان دادن"
+    ],
+    [
+     "auf der nächsten Folie",
+     "در اسلاید بعدی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-336",
+   "s": "T",
+   "w": "der Studienanfänger, - / die Studienanfängerin, -nen",
+   "fa": "دانشجوی سال اول، دانشجوی تازه‌وارد",
+   "syn": "der Erstsemester, der Studienbeginner",
+   "de": "Viele Studienanfänger wohnen zuerst im Wohnheim oder bei den Eltern.",
+   "fas": "بسیاری از دانشجوهای سال اول ابتدا در خوابگاه یا پیش پدر و مادرشان زندگی می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "Tipps für Studienanfänger",
+     "نکته‌هایی برای دانشجوهای تازه‌وارد"
+    ],
+    [
+     "als Studienanfänger",
+     "به‌عنوان دانشجوی سال اول"
+    ]
+   ]
+  },
+  {
+   "id": "L2-337",
+   "s": "T",
+   "w": "frei sprechen",
+   "fa": "بدون روخوانی صحبت کردن",
+   "syn": "ohne Manuskript sprechen",
+   "de": "In der Prüfung müssen Sie frei sprechen und dürfen keine ganzen Sätze ablesen.",
+   "fas": "در امتحان باید بدون روخوانی صحبت کنید و نباید جمله‌های کامل را از رو بخوانید.",
+   "_t": 1,
+   "c": [
+    [
+     "frei vor Publikum sprechen",
+     "بدون متن جلوی جمع صحبت کردن"
+    ],
+    [
+     "das freie Sprechen üben",
+     "صحبت آزاد را تمرین کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-338",
+   "s": "T",
+   "w": "anhand + G",
+   "fa": "بر اساس، به کمک",
+   "syn": "mithilfe von, auf der Grundlage von",
+   "de": "Halten Sie den Kurzvortrag anhand der vorgegebenen Leitpunkte.",
+   "fas": "ارائه‌ی کوتاه را بر اساس نکته‌های راهنمای داده‌شده انجام دهید.",
+   "_t": 1,
+   "c": [
+    [
+     "anhand eines Beispiels",
+     "به کمک یک مثال"
+    ],
+    [
+     "anhand der Notizen",
+     "بر اساس یادداشت‌ها"
+    ]
+   ]
+  },
+  {
+   "id": "L2-339",
+   "s": "T",
+   "w": "der Leitpunkt, -e",
+   "fa": "نکته‌ی راهنما، محور اصلی",
+   "syn": "der Orientierungspunkt, der Stichpunkt",
+   "de": "Die Leitpunkte auf dem Aufgabenblatt helfen, den Vortrag zu strukturieren.",
+   "fas": "نکته‌های راهنمای برگه‌ی تمرین به ساختاربندی سخنرانی کمک می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "anhand von Leitpunkten",
+     "بر اساس نکته‌های راهنما"
+    ],
+    [
+     "alle Leitpunkte behandeln",
+     "به همه‌ی محورها پرداختن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-340",
+   "s": "T",
+   "w": "etw. zum Anlass nehmen",
+   "fa": "چیزی را بهانه یا فرصتی قرار دادن",
+   "syn": "etw. als Gelegenheit nutzen",
+   "de": "Nehmen Sie die Frage zum Anlass, etwas Inhaltliches zum Thema zu sagen.",
+   "fas": "سؤال را فرصتی قرار دهید تا درباره‌ی محتوای موضوع چیزی بگویید.",
+   "_t": 1,
+   "c": [
+    [
+     "etwas zum Anlass nehmen, um …",
+     "از چیزی به‌عنوان فرصت استفاده کردن برای …"
+    ],
+    [
+     "aus aktuellem Anlass",
+     "به مناسبت رویداد اخیر"
+    ]
+   ]
+  },
+  {
+   "id": "L2-341",
+   "s": "T",
+   "w": "inhaltlich",
+   "fa": "از نظر محتوا، محتوایی",
+   "syn": "den Inhalt betreffend",
+   "de": "Ihr Vortrag war inhaltlich sehr gut, aber etwas zu schnell.",
+   "fas": "سخنرانی‌ات از نظر محتوا خیلی خوب بود ولی کمی تند.",
+   "_t": 1,
+   "c": [
+    [
+     "inhaltlich richtig",
+     "از نظر محتوا درست"
+    ],
+    [
+     "inhaltliche Fragen",
+     "سؤال‌های محتوایی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-342",
+   "s": "T",
+   "w": "angespannt (der Wohnungsmarkt ist ~)",
+   "fa": "پرتنش، تحت فشار (بازار مسکن)",
+   "syn": "schwierig, kritisch",
+   "de": "In München ist der Wohnungsmarkt seit Jahren sehr angespannt.",
+   "fas": "بازار مسکن مونیخ سال‌هاست به‌شدت تحت فشار است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine angespannte Lage",
+     "وضعیت پرتنش"
+    ],
+    [
+     "angespannt wirken",
+     "مضطرب به نظر رسیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-343",
+   "s": "T",
+   "w": "rückläufig",
+   "fa": "رو به کاهش، نزولی",
+   "syn": "sinkend, abnehmend",
+   "de": "In manchen Kleinstädten ist die Nachfrage nach Wohnungen rückläufig.",
+   "fas": "در برخی شهرهای کوچک تقاضا برای آپارتمان رو به کاهش است.",
+   "_t": 1,
+   "c": [
+    [
+     "rückläufige Zahlen",
+     "آمار رو به کاهش"
+    ],
+    [
+     "eine rückläufige Entwicklung",
+     "روندی نزولی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-344",
+   "s": "T",
+   "w": "die Demonstration, -en",
+   "fa": "تظاهرات، راهپیمایی اعتراضی",
+   "syn": "der Protestmarsch, die Kundgebung",
+   "de": "Tausende Menschen gingen zu einer Demonstration für bezahlbaren Wohnraum.",
+   "fas": "هزاران نفر در تظاهراتی برای مسکن مقرون‌به‌صرفه شرکت کردند.",
+   "_t": 1,
+   "c": [
+    [
+     "an einer Demonstration teilnehmen",
+     "در تظاهرات شرکت کردن"
+    ],
+    [
+     "eine Demonstration organisieren",
+     "تظاهراتی برگزار کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-345",
+   "s": "T",
+   "w": "das Privileg, -ien",
+   "fa": "امتیاز ویژه، مزیت انحصاری",
+   "syn": "das Vorrecht, der Vorzug",
+   "de": "In der Nähe des Arbeitsplatzes zu wohnen, ist für viele ein Privileg geworden.",
+   "fas": "زندگی نزدیک محل کار برای خیلی‌ها به یک امتیاز ویژه تبدیل شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Privileg genießen",
+     "از امتیازی برخوردار بودن"
+    ],
+    [
+     "ein großes Privileg sein",
+     "امتیاز بزرگی بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-346",
+   "s": "T",
+   "w": "bestätigen",
+   "fa": "تأیید کردن",
+   "syn": "belegen, bekräftigen",
+   "de": "Neue Zahlen bestätigen, dass die Mieten in Großstädten weiter steigen.",
+   "fas": "آمار جدید تأیید می‌کند که اجاره‌ها در کلان‌شهرها همچنان بالا می‌رود.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Termin bestätigen",
+     "وقتی را تأیید کردن"
+    ],
+    [
+     "eine Vermutung bestätigen",
+     "حدسی را تأیید کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-347",
+   "s": "T",
+   "w": "das Wohnkonzept, -e",
+   "fa": "طرح سکونت، شیوه‌ی جدید زندگی و مسکن",
+   "syn": "die Wohnidee, die Wohnform",
+   "de": "Immer mehr Menschen interessieren sich für alternative Wohnkonzepte.",
+   "fas": "آدم‌های بیشتری به شیوه‌های جایگزین مسکن علاقه‌مند می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "alternative Wohnkonzepte",
+     "طرح‌های جایگزین مسکن"
+    ],
+    [
+     "ein neues Wohnkonzept entwickeln",
+     "طرح مسکن جدیدی ابداع کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-348",
+   "s": "T",
+   "w": "die Sendung, -en",
+   "fa": "برنامه (تلویزیون یا رادیو)",
+   "syn": "das Programm, die Fernsehsendung",
+   "de": "Gestern habe ich eine interessante Sendung über Tiny Houses gesehen.",
+   "fas": "دیروز برنامه‌ی جالبی درباره‌ی خانه‌های خیلی کوچک دیدم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Sendung ansehen",
+     "برنامه‌ای را تماشا کردن"
+    ],
+    [
+     "eine Sendung über",
+     "برنامه‌ای درباره‌ی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-349",
+   "s": "T",
+   "w": "die Baugruppe, -n",
+   "fa": "گروه ساخت (مسکن)، تعاونی ساخت خانه",
+   "syn": "die Baugemeinschaft",
+   "de": "In unserer Baugruppe haben zwölf Familien gemeinsam ein Haus geplant und gebaut.",
+   "fas": "در گروه ساخت ما دوازده خانواده با هم یک خانه طراحی کردند و ساختند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Baugruppe gründen",
+     "گروه ساختی تشکیل دادن"
+    ],
+    [
+     "Mitglied einer Baugruppe",
+     "عضو گروه ساخت"
+    ]
+   ]
+  },
+  {
+   "id": "L2-350",
+   "s": "T",
+   "w": "der Schiffscontainer, -",
+   "fa": "کانتینر کشتی",
+   "syn": "der Frachtcontainer",
+   "de": "Die Studentenwohnungen in Kopenhagen bestehen aus umgebauten Schiffscontainern.",
+   "fas": "خوابگاه‌های دانشجویی کپنهاگ از کانتینرهای کشتیِ تغییرکاربری‌داده ساخته شده‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "umgebaute Schiffscontainer",
+     "کانتینرهای کشتی بازسازی‌شده"
+    ],
+    [
+     "in einem Schiffscontainer wohnen",
+     "در کانتینر کشتی زندگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-351",
+   "s": "T",
+   "w": "die Wohnform, -en",
+   "fa": "شیوه‌ی سکونت، نوع مسکن",
+   "syn": "die Art zu wohnen",
+   "de": "Die Wohngemeinschaft ist bei Studierenden die beliebteste Wohnform.",
+   "fas": "خانه‌ی اشتراکی محبوب‌ترین نوع سکونت میان دانشجوهاست.",
+   "_t": 1,
+   "c": [
+    [
+     "eine alternative Wohnform",
+     "نوع مسکن جایگزین"
+    ],
+    [
+     "sich für eine Wohnform entscheiden",
+     "یک نوع سکونت را انتخاب کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-352",
+   "s": "T",
+   "w": "das Mehrfamilienhaus, ¨-er",
+   "fa": "ساختمان چندخانواری",
+   "syn": "das Wohnhaus, das Mietshaus",
+   "de": "Die Baugruppe hat am Stadtrand ein modernes Mehrfamilienhaus errichtet.",
+   "fas": "گروه ساخت در حاشیه‌ی شهر یک ساختمان چندخانواری مدرن بنا کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "in einem Mehrfamilienhaus wohnen",
+     "در ساختمان چندخانواری زندگی کردن"
+    ],
+    [
+     "ein Mehrfamilienhaus bauen",
+     "ساختمان چندخانواری ساختن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-353",
+   "s": "T",
+   "w": "der Initiator, -en / die Initiatorin, -nen",
+   "fa": "آغازگر، بنیان‌گذار طرح",
+   "syn": "der Gründer, der Ideengeber",
+   "de": "Der Initiator der Baugruppe lobt vor allem die gute Zusammenarbeit.",
+   "fas": "آغازگر گروه ساخت به‌ویژه همکاری خوب را تحسین می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "der Initiator des Projekts",
+     "آغازگر پروژه"
+    ],
+    [
+     "als Initiator auftreten",
+     "نقش آغازگر را داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-354",
+   "s": "T",
+   "w": "die Nutzungsdauer (nur Sg.)",
+   "fa": "مدت استفاده، عمر مفید",
+   "syn": "die Lebensdauer, die Gebrauchszeit",
+   "de": "Die geplante Nutzungsdauer des Tiny House liegt bei etwa dreißig Jahren.",
+   "fas": "عمر مفید پیش‌بینی‌شده‌ی این خانه‌ی کوچک حدود سی سال است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine lange Nutzungsdauer",
+     "عمر مفید طولانی"
+    ],
+    [
+     "die geplante Nutzungsdauer",
+     "مدت استفاده‌ی پیش‌بینی‌شده"
+    ]
+   ]
+  },
+  {
+   "id": "L2-355",
+   "s": "T",
+   "w": "die Lebenssituation, -en",
+   "fa": "موقعیت زندگی، شرایط زندگی",
+   "syn": "die Lebenslage, die Umstände",
+   "de": "Ihre aktuelle Lebenssituation erlaubt es dem Paar, flexibel umzuziehen.",
+   "fas": "شرایط فعلی زندگی این زوج به آن‌ها اجازه می‌دهد آزادانه جابه‌جا شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "die aktuelle Lebenssituation",
+     "شرایط فعلی زندگی"
+    ],
+    [
+     "sich der Lebenssituation anpassen",
+     "خود را با شرایط زندگی تطبیق دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-356",
+   "s": "T",
+   "w": "die Lebensgestaltung (nur Sg.)",
+   "fa": "شیوه‌ی زندگی، نحوه‌ی سامان دادن زندگی",
+   "syn": "die Lebensführung, der Lebensstil",
+   "de": "Ein Tiny House bietet neue Freiheiten für die Lebensgestaltung.",
+   "fas": "یک خانه‌ی کوچک آزادی‌های تازه‌ای برای شیوه‌ی زندگی فراهم می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine freie Lebensgestaltung",
+     "زندگی به سلیقه‌ی خود"
+    ],
+    [
+     "Raum für die Lebensgestaltung",
+     "فضا برای سامان دادن زندگی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-357",
+   "s": "T",
+   "w": "ausstatten (mit + D)",
+   "fa": "مجهز کردن (به)",
+   "syn": "einrichten, versehen mit",
+   "de": "Die Container-Apartments sind mit Küche, Bad und großen Fenstern ausgestattet.",
+   "fas": "آپارتمان‌های کانتینری به آشپزخانه، حمام و پنجره‌های بزرگ مجهزند.",
+   "_t": 1,
+   "c": [
+    [
+     "gut ausgestattet sein",
+     "خوب مجهز بودن"
+    ],
+    [
+     "mit modernster Technik ausstatten",
+     "به جدیدترین فناوری مجهز کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-358",
+   "s": "T",
+   "w": "derzeitig",
+   "fa": "فعلی، کنونی",
+   "syn": "aktuell, gegenwärtig",
+   "de": "Welche Alternative zu Ihrer derzeitigen Wohnung können Sie sich vorstellen?",
+   "fas": "چه جایگزینی برای خانه‌ی فعلی‌تان را می‌توانید تصور کنید؟",
+   "_t": 1,
+   "c": [
+    [
+     "die derzeitige Lage",
+     "وضعیت کنونی"
+    ],
+    [
+     "der derzeitige Stand",
+     "وضعیت فعلی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-359",
+   "s": "T",
+   "w": "der Filmausschnitt, -e",
+   "fa": "بخشی از فیلم، قطعه‌ی فیلم",
+   "syn": "die Filmszene, die Sequenz",
+   "de": "Im zweiten Filmausschnitt erfährt man, warum das Paar im Tiny House lebt.",
+   "fas": "در بخش دوم فیلم می‌فهمیم چرا این زوج در خانه‌ی کوچک زندگی می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Filmausschnitt sehen",
+     "بخشی از فیلم را دیدن"
+    ],
+    [
+     "im ersten Filmausschnitt",
+     "در بخش اول فیلم"
+    ]
+   ]
+  },
+  {
+   "id": "L2-360",
+   "s": "T",
+   "w": "somit",
+   "fa": "بنابراین، به این ترتیب",
+   "syn": "also, folglich",
+   "de": "Die Gruppe entscheidet, wer aufgenommen wird und somit später Nachbar wird.",
+   "fas": "گروه تصمیم می‌گیرد چه کسی پذیرفته شود و به این ترتیب بعداً همسایه شود.",
+   "_t": 1,
+   "c": [
+    [
+     "und somit",
+     "و بنابراین"
+    ],
+    [
+     "somit ist klar, dass",
+     "بنابراین روشن است که"
+    ]
+   ]
+  },
+  {
+   "id": "L2-361",
+   "s": "T",
+   "w": "prächtig",
+   "fa": "باشکوه، مجلل",
+   "syn": "prunkvoll, herrlich",
+   "de": "Am Marktplatz steht das prächtige Rathaus aus der Renaissance.",
+   "fas": "در میدان شهر ساختمان باشکوه شهرداری از دوره‌ی رنسانس قرار دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein prächtiges Gebäude",
+     "یک ساختمان باشکوه"
+    ],
+    [
+     "sich prächtig amüsieren",
+     "حسابی خوش گذراندن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-362",
+   "s": "T",
+   "w": "der Kaufmann, -leute",
+   "fa": "بازرگان، تاجر",
+   "syn": "der Händler, der Geschäftsmann",
+   "de": "Ein reicher Kaufmann ließ im 16. Jahrhundert Wohnungen für arme Familien bauen.",
+   "fas": "یک بازرگان ثروتمند در قرن شانزدهم برای خانواده‌های فقیر خانه ساخت.",
+   "_t": 1,
+   "c": [
+    [
+     "ein reicher Kaufmann",
+     "یک بازرگان ثروتمند"
+    ],
+    [
+     "als Kaufmann arbeiten",
+     "بازرگان بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-363",
+   "s": "T",
+   "w": "die Siedlung, -en",
+   "fa": "شهرک، مجتمع مسکونی",
+   "syn": "die Wohnanlage, die Kolonie",
+   "de": "Am Stadtrand entsteht eine neue Siedlung mit günstigen Wohnungen.",
+   "fas": "در حاشیه‌ی شهر یک شهرک جدید با آپارتمان‌های ارزان ساخته می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine neue Siedlung",
+     "یک شهرک جدید"
+    ],
+    [
+     "in einer Siedlung wohnen",
+     "در یک مجتمع مسکونی زندگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-364",
+   "s": "T",
+   "w": "stark befahren",
+   "fa": "پرتردد، شلوغ (خیابان)",
+   "syn": "verkehrsreich, viel befahren",
+   "de": "Wer an einer stark befahrenen Straße wohnt, leidet oft unter Lärm.",
+   "fas": "کسی که کنار خیابان پرتردد زندگی می‌کند، اغلب از سروصدا رنج می‌برد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine stark befahrene Straße",
+     "یک خیابان پرتردد"
+    ],
+    [
+     "eine stark befahrene Kreuzung",
+     "یک چهارراه شلوغ"
+    ]
+   ]
+  },
+  {
+   "id": "L2-365",
+   "s": "T",
+   "w": "der Berufsverkehr (nur Sg.)",
+   "fa": "ترافیک ساعت رفت‌وآمد کاری",
+   "syn": "der Stoßverkehr, die Rushhour",
+   "de": "Während des Berufsverkehrs stehen Autofahrer oft lange im Stau.",
+   "fas": "در ساعت‌های شلوغ رفت‌وآمد کاری، رانندگان اغلب مدت زیادی در ترافیک می‌مانند.",
+   "_t": 1,
+   "c": [
+    [
+     "im Berufsverkehr",
+     "در ترافیک ساعات اوج"
+    ],
+    [
+     "den Berufsverkehr vermeiden",
+     "از ترافیک ساعات اوج دوری کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-366",
+   "s": "T",
+   "w": "auf engem Raum",
+   "fa": "در فضایی تنگ، فشرده",
+   "syn": "dicht gedrängt, eng zusammen",
+   "de": "In Großstädten leben und arbeiten viele Menschen auf engem Raum zusammen.",
+   "fas": "در کلان‌شهرها آدم‌های زیادی در فضایی تنگ کنار هم زندگی و کار می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "auf engem Raum leben",
+     "در فضای تنگ زندگی کردن"
+    ],
+    [
+     "viel auf engem Raum",
+     "چیزهای زیاد در فضای کم"
+    ]
+   ]
+  },
+  {
+   "id": "L2-367",
+   "s": "T",
+   "w": "die Abkürzung, -en",
+   "fa": "مخفف، کوتاه‌نوشت؛ میان‌بر",
+   "syn": "das Kürzel; der kürzere Weg",
+   "de": "In Notizen kann man viele Abkürzungen wie z. B. oder usw. benutzen.",
+   "fas": "در یادداشت‌ها می‌توان مخفف‌های زیادی مثل z. B. یا usw. به کار برد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Abkürzung verwenden",
+     "مخففی به کار بردن"
+    ],
+    [
+     "eine Abkürzung nehmen",
+     "از میان‌بر رفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-368",
+   "s": "T",
+   "w": "abkürzen",
+   "fa": "خلاصه کردن، مخفف نوشتن",
+   "syn": "verkürzen, kürzer schreiben",
+   "de": "Beim Mitschreiben kürze ich lange Wörter ab und lasse Artikel weg.",
+   "fas": "هنگام یادداشت‌برداری کلمه‌های بلند را مخفف می‌نویسم و حرف تعریف‌ها را حذف می‌کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Wort abkürzen",
+     "کلمه‌ای را مخفف کردن"
+    ],
+    [
+     "den Weg abkürzen",
+     "راه را میان‌بر زدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-369",
+   "s": "T",
+   "w": "gegebenenfalls (ggf.)",
+   "fa": "در صورت لزوم",
+   "syn": "falls nötig, eventuell",
+   "de": "Schreiben Sie Ihre Lösung gegebenenfalls direkt in den Computer.",
+   "fas": "در صورت لزوم پاسخ‌تان را مستقیم در کامپیوتر بنویسید.",
+   "_t": 1,
+   "c": [
+    [
+     "gegebenenfalls ändern",
+     "در صورت لزوم تغییر دادن"
+    ],
+    [
+     "gegebenenfalls nachfragen",
+     "در صورت لزوم دوباره پرسیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-370",
+   "s": "T",
+   "w": "in der Regel (i. d. R.)",
+   "fa": "معمولاً، به‌طور معمول",
+   "syn": "normalerweise, meistens",
+   "de": "In der Regel darf man in deutschen Orten nur 50 km/h fahren.",
+   "fas": "معمولاً در مناطق مسکونی آلمان فقط با سرعت ۵۰ کیلومتر می‌توان رانندگی کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "in der Regel gilt",
+     "معمولاً این قاعده برقرار است"
+    ],
+    [
+     "in der Regel funktionieren",
+     "معمولاً کار کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-371",
+   "s": "T",
+   "w": "vor allem (v. a.)",
+   "fa": "به‌ویژه، بیش از همه",
+   "syn": "besonders, hauptsächlich",
+   "de": "Vor allem junge Menschen ziehen in die Städte, weil es dort mehr Jobs gibt.",
+   "fas": "به‌ویژه جوان‌ها به شهرها می‌روند، چون آنجا شغل بیشتری هست.",
+   "_t": 1,
+   "c": [
+    [
+     "vor allem deshalb",
+     "به‌ویژه به همین دلیل"
+    ],
+    [
+     "aber vor allem",
+     "اما بیش از همه"
+    ]
+   ]
+  },
+  {
+   "id": "L2-372",
+   "s": "T",
+   "w": "zum Teil (z. T.)",
+   "fa": "تا حدی، بخشی از",
+   "syn": "teilweise, teils",
+   "de": "Die Zugvögel fliegen zum Teil tausende Kilometer weit.",
+   "fas": "پرندگان مهاجر گاهی هزاران کیلومتر پرواز می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "zum Teil stimmen",
+     "تا حدی درست بودن"
+    ],
+    [
+     "zum Teil sehr teuer",
+     "بعضاً خیلی گران"
+    ]
+   ]
+  },
+  {
+   "id": "L2-373",
+   "s": "T",
+   "w": "teilweise",
+   "fa": "تا حدی، بخشی",
+   "syn": "zum Teil, partiell",
+   "de": "Mit dem eigenen Garten kann man sich teilweise selbst mit Gemüse versorgen.",
+   "fas": "با باغ شخصی می‌توان تا حدی سبزیجات خود را تأمین کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "nur teilweise zustimmen",
+     "فقط تا حدی موافق بودن"
+    ],
+    [
+     "teilweise richtig",
+     "تا حدی درست"
+    ]
+   ]
+  },
+  {
+   "id": "L2-374",
+   "s": "T",
+   "w": "der Fahrradverkehr (nur Sg.)",
+   "fa": "تردد دوچرخه",
+   "syn": "der Radverkehr",
+   "de": "Münster hat schon früh viel Platz für den Fahrradverkehr geschaffen.",
+   "fas": "مونستر خیلی زود فضای زیادی برای تردد دوچرخه ایجاد کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "den Fahrradverkehr fördern",
+     "تردد دوچرخه را تشویق کردن"
+    ],
+    [
+     "der Anteil des Fahrradverkehrs",
+     "سهم تردد دوچرخه"
+    ]
+   ]
+  },
+  {
+   "id": "L2-375",
+   "s": "T",
+   "w": "fahrradfreundlich",
+   "fa": "مناسب دوچرخه‌سواری، دوستدار دوچرخه",
+   "syn": "für Radfahrer gut geeignet",
+   "de": "Mit breiten Radwegen will die Stadt fahrradfreundlicher werden.",
+   "fas": "شهر می‌خواهد با مسیرهای پهن دوچرخه برای دوچرخه‌سواری مناسب‌تر شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine fahrradfreundliche Stadt",
+     "شهری مناسب دوچرخه‌سواری"
+    ],
+    [
+     "fahrradfreundlicher werden",
+     "برای دوچرخه مناسب‌تر شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-376",
+   "s": "T",
+   "w": "umstrukturieren",
+   "fa": "بازسازمان‌دهی کردن، ساختار را تغییر دادن",
+   "syn": "umorganisieren, neu ordnen",
+   "de": "Die Stadt hat den Verkehr umstrukturiert, damit Radfahrer sicherer sind.",
+   "fas": "شهر ساختار ترافیک را تغییر داد تا دوچرخه‌سواران امن‌تر باشند.",
+   "_t": 1,
+   "c": [
+    [
+     "den Verkehr umstrukturieren",
+     "ترافیک را بازسازمان‌دهی کردن"
+    ],
+    [
+     "eine Firma umstrukturieren",
+     "شرکتی را بازسازمان‌دهی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-377",
+   "s": "T",
+   "w": "der Radschnellweg, -e",
+   "fa": "بزرگراه دوچرخه",
+   "syn": "die Fahrradautobahn",
+   "de": "Ein neuer Radschnellweg verbindet die beiden größten Städte der Region.",
+   "fas": "یک بزرگراه دوچرخه‌ی جدید دو شهر بزرگ منطقه را به هم وصل می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Radschnellweg bauen",
+     "بزرگراه دوچرخه ساختن"
+    ],
+    [
+     "auf dem Radschnellweg fahren",
+     "در بزرگراه دوچرخه رکاب زدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-378",
+   "s": "T",
+   "w": "anlegen (einen Radweg / Garten ~)",
+   "fa": "احداث کردن، ایجاد کردن (مسیر، باغ)",
+   "syn": "bauen, einrichten",
+   "de": "Die Stadt hat in der Innenstadt breite Radwege angelegt.",
+   "fas": "شهر در مرکز، مسیرهای پهن دوچرخه احداث کرده است.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Garten anlegen",
+     "باغی ایجاد کردن"
+    ],
+    [
+     "einen Park anlegen",
+     "پارکی احداث کردن"
+    ],
+    [
+     "eine Liste anlegen",
+     "فهرستی درست کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-379",
+   "s": "T",
+   "w": "innerstädtisch",
+   "fa": "درون‌شهری",
+   "syn": "in der Stadt, städtisch",
+   "de": "Neue innerstädtische Radwege machen das Fahrradfahren für Kinder deutlich sicherer.",
+   "fas": "مسیرهای جدید دوچرخه‌ی درون‌شهری دوچرخه‌سواری را برای بچه‌ها خیلی امن‌تر می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "innerstädtischer Verkehr",
+     "ترافیک درون‌شهری"
+    ],
+    [
+     "innerstädtische Flächen",
+     "زمین‌های درون‌شهری"
+    ]
+   ]
+  },
+  {
+   "id": "L2-380",
+   "s": "T",
+   "w": "die Kombination, -en",
+   "fa": "ترکیب",
+   "syn": "die Verbindung, die Zusammenstellung",
+   "de": "Besonders erfolgreich ist die Kombination aus Fahrrad und öffentlichem Nahverkehr.",
+   "fas": "ترکیب دوچرخه و حمل‌ونقل عمومی به‌ویژه موفق است.",
+   "_t": 1,
+   "c": [
+    [
+     "in Kombination mit",
+     "در ترکیب با"
+    ],
+    [
+     "eine gelungene Kombination",
+     "ترکیبی موفق"
+    ]
+   ]
+  },
+  {
+   "id": "L2-381",
+   "s": "T",
+   "w": "der Fahrradständer, -",
+   "fa": "جای پارک دوچرخه",
+   "syn": "der Radständer, der Fahrradparkplatz",
+   "de": "An jedem Bahnhof sollte es ausreichend Fahrradständer geben.",
+   "fas": "در هر ایستگاه قطار باید به اندازه‌ی کافی جای پارک دوچرخه باشد.",
+   "_t": 1,
+   "c": [
+    [
+     "das Rad am Fahrradständer abschließen",
+     "دوچرخه را به جای پارک قفل کردن"
+    ],
+    [
+     "neue Fahrradständer aufstellen",
+     "جاهای پارک دوچرخه‌ی جدید نصب کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-382",
+   "s": "T",
+   "w": "unkompliziert",
+   "fa": "ساده، بی‌دردسر",
+   "syn": "einfach, problemlos",
+   "de": "Am neuen Bahnhof kann man unkompliziert vom Zug aufs Fahrrad umsteigen.",
+   "fas": "در ایستگاه جدید می‌توان بی‌دردسر از قطار به دوچرخه تغییر وسیله داد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine unkomplizierte Lösung",
+     "راه‌حلی ساده"
+    ],
+    [
+     "unkompliziert sein",
+     "بی‌دردسر بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-383",
+   "s": "T",
+   "w": "der politische Wille (nur Sg.)",
+   "fa": "اراده‌ی سیاسی",
+   "syn": "die politische Entschlossenheit",
+   "de": "Für eine echte Verkehrswende braucht man vor allem politischen Willen.",
+   "fas": "برای تحول واقعی در حمل‌ونقل بیش از همه اراده‌ی سیاسی لازم است.",
+   "_t": 1,
+   "c": [
+    [
+     "es fehlt am politischen Willen",
+     "اراده‌ی سیاسی وجود ندارد"
+    ],
+    [
+     "mit politischem Willen",
+     "با اراده‌ی سیاسی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-384",
+   "s": "T",
+   "w": "beanspruchen",
+   "fa": "اشغال کردن، نیاز داشتن؛ ادعا کردن",
+   "syn": "in Anspruch nehmen, benötigen",
+   "de": "Der neue Radweg beansprucht einen Teil des Fußwegs.",
+   "fas": "مسیر جدید دوچرخه بخشی از پیاده‌رو را اشغال می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "viel Platz beanspruchen",
+     "جای زیادی گرفتن"
+    ],
+    [
+     "viel Zeit beanspruchen",
+     "وقت زیادی گرفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-385",
+   "s": "T",
+   "w": "der Verkehrsteilnehmer, - / die Verkehrsteilnehmerin, -nen",
+   "fa": "استفاده‌کننده از راه (راننده، عابر، دوچرخه‌سوار)",
+   "syn": "Fußgänger, Rad- und Autofahrer",
+   "de": "Konflikte zwischen den Verkehrsteilnehmern lassen sich in engen Straßen kaum vermeiden.",
+   "fas": "در خیابان‌های تنگ به‌سختی می‌شود از درگیری میان استفاده‌کنندگان از راه جلوگیری کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "alle Verkehrsteilnehmer",
+     "همه‌ی استفاده‌کنندگان از راه"
+    ],
+    [
+     "schwächere Verkehrsteilnehmer",
+     "استفاده‌کنندگان آسیب‌پذیرتر"
+    ]
+   ]
+  },
+  {
+   "id": "L2-386",
+   "s": "T",
+   "w": "weglassen",
+   "fa": "حذف کردن، کنار گذاشتن",
+   "syn": "auslassen, streichen",
+   "de": "In Notizen kann man Artikel und einfache Verben weglassen.",
+   "fas": "در یادداشت‌ها می‌توان حرف تعریف‌ها و فعل‌های ساده را حذف کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Wort weglassen",
+     "کلمه‌ای را حذف کردن"
+    ],
+    [
+     "Details weglassen",
+     "جزئیات را کنار گذاشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-387",
+   "s": "T",
+   "w": "gegensätzlich",
+   "fa": "متضاد، مخالف",
+   "syn": "widersprüchlich, konträr",
+   "de": "Radfahrer und Autofahrer haben oft gegensätzliche Interessen.",
+   "fas": "دوچرخه‌سواران و رانندگان اغلب منافع متضادی دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "gegensätzliche Interessen",
+     "منافع متضاد"
+    ],
+    [
+     "gegensätzliche Meinungen",
+     "نظرهای مخالف"
+    ]
+   ]
+  },
+  {
+   "id": "L2-388",
+   "s": "T",
+   "w": "die Nennung, -en",
+   "fa": "ذکر، نام بردن",
+   "syn": "die Erwähnung",
+   "de": "Im Passivsatz ist die Nennung der handelnden Person oft überflüssig.",
+   "fas": "در جمله‌ی مجهول ذکر شخص انجام‌دهنده اغلب زائد است.",
+   "_t": 1,
+   "c": [
+    [
+     "ohne Nennung des Namens",
+     "بدون ذکر نام"
+    ],
+    [
+     "die Nennung der Quelle",
+     "ذکر منبع"
+    ]
+   ]
+  },
+  {
+   "id": "L2-389",
+   "s": "T",
+   "w": "die Wiedervereinigung (nur Sg.)",
+   "fa": "اتحاد دوباره (آلمان)",
+   "syn": "die deutsche Einheit",
+   "de": "Nach der Wiedervereinigung wurden in Berlin viele neue Gebäude errichtet.",
+   "fas": "پس از اتحاد دوباره‌ی آلمان، در برلین ساختمان‌های جدید زیادی ساخته شد.",
+   "_t": 1,
+   "c": [
+    [
+     "nach der Wiedervereinigung",
+     "پس از اتحاد دوباره"
+    ],
+    [
+     "seit der Wiedervereinigung",
+     "از زمان اتحاد دوباره"
+    ]
+   ]
+  },
+  {
+   "id": "L2-390",
+   "s": "T",
+   "w": "erklären (zu + D) (zur Hauptstadt ~)",
+   "fa": "اعلام کردن، (به‌عنوان چیزی) برگزیدن",
+   "syn": "ernennen zu, bestimmen als",
+   "de": "1990 wurde Berlin zur Hauptstadt des vereinten Deutschlands erklärt.",
+   "fas": "در ۱۹۹۰ برلین پایتخت آلمان متحد اعلام شد.",
+   "_t": 1,
+   "c": [
+    [
+     "zum Sieger erklären",
+     "برنده اعلام کردن"
+    ],
+    [
+     "zur Hauptstadt erklären",
+     "پایتخت اعلام کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-391",
+   "s": "T",
+   "w": "die Auslandskrankenversicherung, -en",
+   "fa": "بیمه‌ی درمانی مسافرتی (خارج از کشور)",
+   "syn": "die Reisekrankenversicherung",
+   "de": "Vor der Reise nach Berlin habe ich eine Auslandskrankenversicherung abgeschlossen.",
+   "fas": "قبل از سفر به برلین یک بیمه‌ی درمانی مسافرتی گرفتم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Auslandskrankenversicherung abschließen",
+     "بیمه‌ی مسافرتی گرفتن"
+    ],
+    [
+     "die Kosten der Auslandskrankenversicherung",
+     "هزینه‌ی بیمه‌ی مسافرتی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-392",
+   "s": "T",
+   "w": "das Besichtigungsprogramm, -e",
+   "fa": "برنامه‌ی بازدید",
+   "syn": "der Besichtigungsplan, das Reiseprogramm",
+   "de": "Das Besichtigungsprogramm für Berlin ist für drei Tage fast zu voll.",
+   "fas": "برنامه‌ی بازدید برلین برای سه روز تقریباً خیلی فشرده است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein volles Besichtigungsprogramm",
+     "برنامه‌ی بازدید فشرده"
+    ],
+    [
+     "das Besichtigungsprogramm planen",
+     "برنامه‌ی بازدید را تنظیم کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-393",
+   "s": "T",
+   "w": "einscannen",
+   "fa": "اسکن کردن",
+   "syn": "scannen, digitalisieren",
+   "de": "Für den Visumantrag muss man die Reisepässe einscannen.",
+   "fas": "برای درخواست ویزا باید گذرنامه‌ها را اسکن کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Dokument einscannen",
+     "سندی را اسکن کردن"
+    ],
+    [
+     "Fotos einscannen",
+     "عکس‌ها را اسکن کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-394",
+   "s": "T",
+   "w": "die Untergrundbahn, -en",
+   "fa": "قطار زیرزمینی، مترو",
+   "syn": "die U-Bahn, die Metro",
+   "de": "Schon im 19. Jahrhundert fuhr in London eine Untergrundbahn unter der Stadt.",
+   "fas": "از قرن نوزدهم در لندن یک قطار زیرزمینی زیر شهر حرکت می‌کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "mit der Untergrundbahn fahren",
+     "با مترو رفتن"
+    ],
+    [
+     "eine Untergrundbahn bauen",
+     "مترو ساختن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-395",
+   "s": "T",
+   "w": "verlegen (in einen Tunnel ~)",
+   "fa": "منتقل کردن، جابه‌جا کردن (به جای دیگر)",
+   "syn": "verlagern, versetzen",
+   "de": "Man hat die Bahnlinie unter die Erde in einen Tunnel verlegt.",
+   "fas": "خط راه‌آهن را به زیر زمین و داخل یک تونل منتقل کردند.",
+   "_t": 1,
+   "c": [
+    [
+     "unter die Erde verlegen",
+     "به زیر زمین منتقل کردن"
+    ],
+    [
+     "einen Termin verlegen",
+     "وقتی را جابه‌جا کردن"
+    ],
+    [
+     "Kabel verlegen",
+     "کابل‌کشی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-396",
+   "s": "T",
+   "w": "rasant",
+   "fa": "سریع و شدید، پرشتاب",
+   "syn": "sehr schnell, stürmisch",
+   "de": "Mit dem rasanten Wachstum der Städte braucht man neue Verkehrskonzepte.",
+   "fas": "با رشد پرشتاب شهرها به طرح‌های حمل‌ونقل جدید نیاز است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine rasante Entwicklung",
+     "تحولی پرشتاب"
+    ],
+    [
+     "rasant steigen",
+     "به‌سرعت بالا رفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-397",
+   "s": "T",
+   "w": "anpflanzen",
+   "fa": "کاشتن، نشاندن (گیاه)",
+   "syn": "pflanzen, anbauen",
+   "de": "Auf dem Dach der Schule haben die Kinder Kräuter angepflanzt.",
+   "fas": "بچه‌ها روی پشت‌بام مدرسه سبزی معطر کاشتند.",
+   "_t": 1,
+   "c": [
+    [
+     "Bäume anpflanzen",
+     "درخت کاشتن"
+    ],
+    [
+     "Gemüse anpflanzen",
+     "سبزیجات کاشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-398",
+   "s": "T",
+   "w": "beschaffen",
+   "fa": "تهیه کردن، فراهم کردن",
+   "syn": "besorgen, organisieren",
+   "de": "Für den Gemeinschaftsgarten mussten zuerst Werkzeuge beschafft werden.",
+   "fas": "برای باغ اشتراکی ابتدا باید ابزار تهیه می‌شد.",
+   "_t": 1,
+   "c": [
+    [
+     "Geld beschaffen",
+     "پول فراهم کردن"
+    ],
+    [
+     "Informationen beschaffen",
+     "اطلاعات جمع کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-399",
+   "s": "T",
+   "w": "mithelfen",
+   "fa": "کمک کردن، همکاری کردن",
+   "syn": "mitwirken, unterstützen",
+   "de": "Bei der Ernte im Stadtgarten helfen auch die Kinder aus der Nachbarschaft mit.",
+   "fas": "در برداشت محصول باغ شهری، بچه‌های محله هم کمک می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "bei der Arbeit mithelfen",
+     "در کار کمک کردن"
+    ],
+    [
+     "im Haushalt mithelfen",
+     "در کارهای خانه کمک کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-400",
+   "s": "T",
+   "w": "auf diese Weise",
+   "fa": "به این شکل، از این راه",
+   "syn": "so, dadurch",
+   "de": "Auf diese Weise können Familien einen Teil ihres Gemüses selbst ernten.",
+   "fas": "به این شکل خانواده‌ها می‌توانند بخشی از سبزیجات خود را خودشان برداشت کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "auf diese Weise lernen",
+     "به این روش یاد گرفتن"
+    ],
+    [
+     "auf andere Weise",
+     "به روشی دیگر"
+    ]
+   ]
+  },
+  {
+   "id": "L2-401",
+   "s": "T",
+   "w": "die Geschwindigkeitsbegrenzung, -en",
+   "fa": "محدودیت سرعت",
+   "syn": "das Tempolimit",
+   "de": "Auf vielen deutschen Autobahnen gibt es keine generelle Geschwindigkeitsbegrenzung.",
+   "fas": "در بسیاری از بزرگراه‌های آلمان محدودیت سرعت عمومی وجود ندارد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Geschwindigkeitsbegrenzung einführen",
+     "محدودیت سرعت وضع کردن"
+    ],
+    [
+     "die Geschwindigkeitsbegrenzung beachten",
+     "محدودیت سرعت را رعایت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-402",
+   "s": "T",
+   "w": "die Landstraße, -n",
+   "fa": "جاده‌ی بین‌شهری (فرعی)",
+   "syn": "die Überlandstraße",
+   "de": "Auf Landstraßen darf man in Deutschland höchstens 100 km/h fahren.",
+   "fas": "در جاده‌های بین‌شهری آلمان حداکثر با سرعت ۱۰۰ کیلومتر می‌توان رانندگی کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "auf der Landstraße fahren",
+     "در جاده‌ی بین‌شهری رانندگی کردن"
+    ],
+    [
+     "eine kurvige Landstraße",
+     "یک جاده‌ی پرپیچ‌وخم"
+    ]
+   ]
+  },
+  {
+   "id": "L2-403",
+   "s": "T",
+   "w": "die Schnellstraße, -n",
+   "fa": "بزرگراه، جاده‌ی سریع‌السیر",
+   "syn": "die Kraftfahrstraße",
+   "de": "Die neue Schnellstraße führt direkt vom Flughafen in die Innenstadt.",
+   "fas": "بزرگراه جدید مستقیم از فرودگاه به مرکز شهر می‌رود.",
+   "_t": 1,
+   "c": [
+    [
+     "über die Schnellstraße fahren",
+     "از بزرگراه رفتن"
+    ],
+    [
+     "eine Schnellstraße bauen",
+     "بزرگراه ساختن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-404",
+   "s": "T",
+   "w": "die Kleinstadt, ¨-e",
+   "fa": "شهر کوچک",
+   "syn": "die kleine Stadt ≠ die Großstadt",
+   "de": "In einer Kleinstadt sind die Mieten meist niedriger und man wohnt näher an der Natur.",
+   "fas": "در یک شهر کوچک اجاره‌ها معمولاً پایین‌تر است و آدم به طبیعت نزدیک‌تر زندگی می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "in einer Kleinstadt aufwachsen",
+     "در شهر کوچکی بزرگ شدن"
+    ],
+    [
+     "eine ruhige Kleinstadt",
+     "یک شهر کوچک آرام"
+    ]
+   ]
+  },
+  {
+   "id": "L2-405",
+   "s": "T",
+   "w": "das Umzugsunternehmen, -",
+   "fa": "شرکت اسباب‌کشی",
+   "syn": "die Umzugsfirma, die Spedition",
+   "de": "Für den Umzug in die neue Wohnung haben wir ein Umzugsunternehmen beauftragt.",
+   "fas": "برای اسباب‌کشی به آپارتمان جدید یک شرکت باربری گرفتیم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Umzugsunternehmen beauftragen",
+     "به شرکت باربری سفارش دادن"
+    ],
+    [
+     "ein günstiges Umzugsunternehmen",
+     "شرکت اسباب‌کشی ارزان"
+    ]
+   ]
+  },
+  {
+   "id": "L2-406",
+   "s": "T",
+   "w": "betonen",
+   "fa": "تأکید کردن؛ تکیه دادن (روی هجا یا کلمه)",
+   "syn": "hervorheben, unterstreichen",
+   "de": "Wer die wichtigen Wörter betont, macht seinen Vortrag verständlicher.",
+   "fas": "کسی که روی کلمه‌های مهم تأکید کند، سخنرانی‌اش را قابل‌فهم‌تر می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "ausdrücklich betonen",
+     "صریحاً تأکید کردن"
+    ],
+    [
+     "ein Wort betonen",
+     "روی یک کلمه تکیه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-407",
+   "s": "T",
+   "w": "die Ruine, -n",
+   "fa": "ویرانه، خرابه",
+   "syn": "die Trümmer, die Überreste",
+   "de": "Nach dem Krieg blieb von der Frauenkirche nur eine Ruine übrig.",
+   "fas": "بعد از جنگ از کلیسای فراون‌کیرشه فقط یک ویرانه باقی ماند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Ruine besichtigen",
+     "از یک ویرانه بازدید کردن"
+    ],
+    [
+     "in Ruinen liegen",
+     "ویران بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-408",
+   "s": "T",
+   "w": "barock",
+   "fa": "باروک (سبک هنری قرن ۱۷ و ۱۸)",
+   "syn": "im Barockstil",
+   "de": "Die Frauenkirche ist eine barocke Kirche aus dem 18. Jahrhundert.",
+   "fas": "فراون‌کیرشه کلیسایی به سبک باروک از قرن هجدهم است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine barocke Kirche",
+     "کلیسایی به سبک باروک"
+    ],
+    [
+     "barocke Musik",
+     "موسیقی باروک"
+    ]
+   ]
+  },
+  {
+   "id": "L2-409",
+   "s": "T",
+   "w": "achteckig",
+   "fa": "هشت‌ضلعی",
+   "syn": "mit acht Ecken, oktogonal",
+   "de": "Die achteckige Form der Kirche ist für diese Zeit eher ungewöhnlich.",
+   "fas": "شکل هشت‌ضلعی کلیسا برای آن دوره نسبتاً غیرعادی است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein achteckiger Turm",
+     "برجی هشت‌ضلعی"
+    ],
+    [
+     "ein achteckiger Grundriss",
+     "نقشه‌ی هشت‌ضلعی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-410",
+   "s": "T",
+   "w": "der Haupteingang, ¨-e",
+   "fa": "ورودی اصلی",
+   "syn": "das Hauptportal",
+   "de": "Die Kirche hat keinen Haupteingang, sondern sieben gleich große Eingänge.",
+   "fas": "کلیسا ورودی اصلی ندارد، بلکه هفت ورودی هم‌اندازه دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "am Haupteingang warten",
+     "کنار ورودی اصلی منتظر ماندن"
+    ],
+    [
+     "durch den Haupteingang gehen",
+     "از ورودی اصلی رد شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-411",
+   "s": "T",
+   "w": "der Wiederaufbau (nur Sg.)",
+   "fa": "بازسازی (پس از تخریب)",
+   "syn": "die Rekonstruktion, der Neuaufbau",
+   "de": "1991 wurde der Wiederaufbau der zerstörten Kirche beschlossen.",
+   "fas": "در ۱۹۹۱ تصمیم به بازسازی کلیسای ویران‌شده گرفته شد.",
+   "_t": 1,
+   "c": [
+    [
+     "der Wiederaufbau nach dem Krieg",
+     "بازسازی پس از جنگ"
+    ],
+    [
+     "den Wiederaufbau finanzieren",
+     "هزینه‌ی بازسازی را تأمین کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-412",
+   "s": "T",
+   "w": "rekonstruieren",
+   "fa": "بازسازی کردن (بر اساس طرح اصلی)",
+   "syn": "nachbilden, wiederherstellen",
+   "de": "Mit Computerprogrammen wurde die Kirche genau rekonstruiert.",
+   "fas": "کلیسا با کمک نرم‌افزارهای کامپیوتری دقیقاً بازسازی شد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Gebäude rekonstruieren",
+     "ساختمانی را بازسازی کردن"
+    ],
+    [
+     "den Ablauf rekonstruieren",
+     "روند رویداد را بازسازی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-413",
+   "s": "T",
+   "w": "einweihen",
+   "fa": "افتتاح کردن (رسمی)، تقدیس کردن",
+   "syn": "eröffnen, feierlich übergeben",
+   "de": "Die neu gebaute Kirche wurde im Oktober 2005 feierlich eingeweiht.",
+   "fas": "کلیسای تازه‌ساخت در اکتبر ۲۰۰۵ به‌طور رسمی افتتاح شد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Gebäude einweihen",
+     "ساختمانی را افتتاح کردن"
+    ],
+    [
+     "jemanden in ein Geheimnis einweihen",
+     "کسی را محرم رازی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-414",
+   "s": "T",
+   "w": "die Silbe, -n",
+   "fa": "هجا، بخش",
+   "syn": "der Wortteil",
+   "de": "Im Wort „Prognose“ liegt der Akzent auf der letzten Silbe.",
+   "fas": "در کلمه‌ی Prognose تکیه روی هجای آخر است.",
+   "_t": 1,
+   "c": [
+    [
+     "die betonte Silbe",
+     "هجای تکیه‌دار"
+    ],
+    [
+     "die erste Silbe",
+     "هجای اول"
+    ]
+   ]
+  },
+  {
+   "id": "L2-415",
+   "s": "T",
+   "w": "der Wortakzent, -e",
+   "fa": "تکیه‌ی واژه",
+   "syn": "die Wortbetonung",
+   "de": "Ein falscher Wortakzent kann das Verstehen schwierig machen.",
+   "fas": "تکیه‌ی اشتباه روی واژه می‌تواند فهمیدن را دشوار کند.",
+   "_t": 1,
+   "c": [
+    [
+     "auf den Wortakzent achten",
+     "به تکیه‌ی واژه توجه کردن"
+    ],
+    [
+     "den Wortakzent markieren",
+     "تکیه‌ی واژه را علامت زدن"
+    ]
+   ]
+  },
+  {
+   "id": "L2-416",
+   "s": "T",
+   "w": "generell",
+   "fa": "به‌طور کلی، عمومی",
+   "syn": "allgemein, grundsätzlich",
+   "de": "In vielen Städten gilt generell Tempo 30 in Wohngebieten.",
+   "fas": "در بسیاری از شهرها به‌طور کلی در مناطق مسکونی سرعت ۳۰ مجاز است.",
+   "_t": 1,
+   "c": [
+    [
+     "generell gelten",
+     "به‌طور کلی برقرار بودن"
+    ],
+    [
+     "eine generelle Regel",
+     "یک قاعده‌ی کلی"
+    ]
+   ]
+  },
+  {
+   "id": "L2-417",
+   "s": "T",
+   "w": "außerhalb + G",
+   "fa": "خارج از، بیرون از",
+   "syn": "draußen, jenseits von",
+   "de": "Außerhalb des Zentrums ist es meist leichter, einen Parkplatz zu finden.",
+   "fas": "بیرون از مرکز شهر معمولاً پیدا کردن جای پارک راحت‌تر است.",
+   "_t": 1,
+   "c": [
+    [
+     "außerhalb der Stadt",
+     "خارج از شهر"
+    ],
+    [
+     "außerhalb der Öffnungszeiten",
+     "خارج از ساعات کاری"
+    ]
+   ]
+  },
+  {
+   "id": "L2-418",
+   "s": "T",
+   "w": "die Hochbahn, -en",
+   "fa": "قطار شهری هوایی (روی پل)",
+   "syn": "die Schwebebahn, die Stadtbahn",
+   "de": "Im 19. Jahrhundert wurden die ersten Hochbahnen in Berlin gebaut.",
+   "fas": "در قرن نوزدهم نخستین قطارهای شهری هوایی در برلین ساخته شدند.",
+   "_t": 1,
+   "c": [
+    [
+     "mit der Hochbahn fahren",
+     "با قطار هوایی رفتن"
+    ],
+    [
+     "die Hamburger Hochbahn",
+     "قطار هوایی هامبورگ"
+    ]
+   ]
   }
  ],
  "grammar": [
   {
    "id": "t1",
-   "title": "Das Vorgangspassiv: Bildung und Gebrauch",
-   "title_fa": "مجهول (Vorgangspassiv): ساختار و کاربرد",
-   "goal_de": "Im Passiv steht die Handlung im Mittelpunkt, nicht die handelnde Person. Man bildet es mit werden + Partizip II. Nicht jeder Satz kann ins Passiv gesetzt werden.",
-   "goal_fa": "در جمله‌ی مجهول خودِ کار مهم است، نه کسی که آن را انجام می‌دهد. مجهول با werden + اسم مفعول (Partizip II) ساخته می‌شود. هر جمله‌ای را نمی‌توان مجهول کرد.",
+   "title": "Passiv in Gegenwart und Vergangenheit – Wiederholung",
+   "title_fa": "مجهول در زمان حال و گذشته – مرور",
+   "goal_de": "Sie wiederholen die Bildung des Vorgangspassivs im Präsens, Präteritum, Perfekt und Plusquamperfekt und erkennen Passivformen in Texten über das Leben in der Stadt.",
+   "goal_fa": "در این بخش ساختِ مجهول (Vorgangspassiv) را در چهار زمان مرور می‌کنید: حال، گذشته‌ی ساده، ماضی نقلی و ماضی بعید. هدف این است که شکل‌های مجهول را در متن‌های مربوط به شهر و شهرسازی سریع تشخیص دهید و خودتان هم درست بسازید.",
    "rules": [
     {
-     "head": "werden + Partizip II",
-     "de": "Das konjugierte Verb werden steht auf Position 2, das Partizip II am Satzende. Das Akkusativobjekt des Aktivsatzes wird zum Subjekt (Nominativ) des Passivsatzes.",
-     "fa": "فعل werden صرف می‌شود و در جایگاه دوم می‌آید و Partizip II به آخر جمله می‌رود. مفعول مستقیم (Akkusativ) جمله‌ی معلوم در جمله‌ی مجهول فاعل (Nominativ) می‌شود.",
+     "head": "Grundmuster: werden + Partizip II",
+     "de": "Das Vorgangspassiv besteht aus einer konjugierten Form des Hilfsverbs „werden“ und dem Partizip II (= Partizip Perfekt) des Vollverbs. Im Hauptsatz steht die Form von „werden“ auf Position 2, das Partizip II steht am Satzende. Das Akkusativobjekt des Aktivsatzes wird zum Subjekt im Nominativ; „werden“ richtet sich in Person und Zahl nach diesem neuen Subjekt.",
+     "fa": "مجهول دو جزء دارد: فعل کمکی werden که صرف می‌شود، و اسم مفعولِ (Partizip II) فعل اصلی. در جمله‌ی اصلی werden در جایگاه دوم می‌نشیند و Partizip II به آخر جمله می‌رود؛ این دو مثل یک «گیره» بقیه‌ی جمله را بین خودشان می‌گیرند. چیزی که در جمله‌ی معلوم مفعول مستقیم (Akkusativ) بود، در جمله‌ی مجهول فاعل (Nominativ) می‌شود و werden باید از نظر شخص و مفرد/جمع با همین فاعل جدید جور باشد.",
      "ex": [
       [
-       "Die Stadt baut einen neuen Park. → Ein neuer Park wird gebaut.",
-       "شهر یک پارک جدید می‌سازد. ← یک پارک جدید ساخته می‌شود."
-      ]
-     ]
-    },
-    {
-     "head": "man-Sätze → Passiv",
-     "de": "Sätze mit man eignen sich besonders gut für das Passiv, weil die handelnde Person unbekannt oder unwichtig ist. man fällt im Passivsatz einfach weg.",
-     "fa": "جمله‌هایی که با man (کسی، آدم) ساخته شده‌اند برای مجهول خیلی مناسب‌اند، چون انجام‌دهنده نامعلوم یا بی‌اهمیت است. در جمله‌ی مجهول man به‌کلی حذف می‌شود.",
-     "ex": [
-      [
-       "Man plant viele Hochhäuser. → Viele Hochhäuser werden geplant.",
-       "برج‌های زیادی را برنامه‌ریزی می‌کنند. ← برج‌های زیادی برنامه‌ریزی می‌شوند."
-      ]
-     ]
-    },
-    {
-     "head": "von + Dativ / durch + Akkusativ",
-     "de": "Will man die handelnde Person nennen, benutzt man von + Dativ. Ein Mittel oder eine Ursache nennt man oft mit durch + Akkusativ.",
-     "fa": "اگر بخواهیم انجام‌دهنده را بگوییم، از von + Dativ استفاده می‌کنیم. وسیله یا علت را معمولاً با durch + Akkusativ بیان می‌کنیم.",
-     "ex": [
-      [
-       "Der Garten wird von den Nachbarn gepflegt.",
-       "باغ به دست همسایه‌ها نگهداری می‌شود."
+       "Die Stadt saniert den alten Bahnhof. → Der alte Bahnhof wird saniert.",
+       "شهرداری ایستگاه قدیمی را نوسازی می‌کند. ← ایستگاه قدیمی نوسازی می‌شود."
       ],
       [
-       "Die Luft wird durch Abgase verschmutzt.",
-       "هوا به‌وسیله‌ی دود خودروها آلوده می‌شود."
+       "Am Stadtrand werden zwei neue Schulen gebaut.",
+       "در حاشیه‌ی شهر دو مدرسه‌ی جدید ساخته می‌شود."
       ]
      ]
     },
     {
-     "head": "Passiv möglich oder nicht?",
-     "de": "Ein normales Passiv mit Subjekt bildet man nur mit Verben, die ein Akkusativobjekt haben (bauen, planen, gießen). Verben ohne Akkusativobjekt wie zunehmen, wachsen, schaden + D oder Verben der Bewegung ohne Objekt (gehen, kommen) bilden kein solches Passiv. Auch haben, bekommen, kennen und Reflexivverben bilden kein Passiv.",
-     "fa": "مجهولِ معمولی با فاعل فقط با فعل‌هایی ساخته می‌شود که مفعول مستقیم (Akkusativ) دارند (bauen، planen، gießen). فعل‌های بدون مفعول مستقیم مثل zunehmen، wachsen، schaden + D یا فعل‌های حرکتیِ بدون مفعول (gehen، kommen) چنین مجهولی ندارند. haben، bekommen، kennen و فعل‌های انعکاسی هم مجهول نمی‌شوند.",
+     "head": "Präsens und Präteritum",
+     "de": "Im Präsens konjugiert man „werden“ im Präsens (ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden), im Präteritum steht „werden“ im Präteritum (wurde, wurdest, wurde, wurden, wurdet, wurden). Das Partizip II bleibt immer gleich.",
+     "fa": "در زمان حال، werden را در حال صرف می‌کنیم: werde، wirst، wird، werden، werdet، werden. برای گذشته‌ی ساده فقط کافی است werden را به گذشته ببریم: wurde، wurdest، wurde، wurden، wurdet، wurden. اسم مفعول (Partizip II) در هر دو حالت ثابت می‌ماند و فقط werden عوض می‌شود.",
      "ex": [
       [
-       "Der Verkehr hat stark zugenommen. → kein Passiv möglich",
-       "ترافیک خیلی زیاد شده است. ← مجهول ممکن نیست."
+       "Jeden Morgen wird der Marktplatz gereinigt.",
+       "هر روز صبح میدانِ بازار تمیز می‌شود."
       ],
       [
-       "Lärm schadet der Gesundheit. → kein Passiv mit Subjekt",
-       "سروصدا به سلامتی آسیب می‌زند. ← مجهول با فاعل ممکن نیست."
-      ]
-     ]
-    }
-   ],
-   "table": [
-    [
-     "werden + Partizip II",
-     "Grundform",
-     "Der Park wird gebaut.",
-     "werden جایگاه ۲، Partizip آخر"
-    ],
-    [
-     "Akkusativobjekt → Subjekt",
-     "Umformung",
-     "den Park → der Park",
-     "مفعول ← فاعل"
-    ],
-    [
-     "man fällt weg",
-     "man-Sätze",
-     "Man baut … → … wird gebaut.",
-     "man حذف می‌شود"
-    ],
-    [
-     "von + D / durch + A",
-     "Agens / Mittel",
-     "von der Stadt / durch Lärm",
-     "انجام‌دهنده / وسیله"
-    ],
-    [
-     "kein Passiv",
-     "ohne Akkusativobjekt; auch haben, bekommen",
-     "zunehmen, wachsen, haben",
-     "فعل بدون مفعول مستقیم؛ همچنین haben و bekommen"
-    ]
-   ]
-  },
-  {
-   "id": "t2",
-   "title": "Passiv in verschiedenen Zeitformen",
-   "title_fa": "مجهول در زمان‌های مختلف",
-   "goal_de": "Im Passiv zeigt das Verb werden die Zeit an. Im Perfekt und Plusquamperfekt benutzt man das Hilfsverb sein und die Form worden (ohne ge-).",
-   "goal_fa": "در مجهول، زمان جمله را فعل werden نشان می‌دهد. در Perfekt و Plusquamperfekt فعل کمکی sein به کار می‌رود و شکل worden (بدون ge-).",
-   "rules": [
-    {
-     "head": "Präsens: wird / werden + Partizip II",
-     "de": "Im Präsens konjugiert man werden im Präsens: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden.",
-     "fa": "در زمان حال، werden را در حال صرف می‌کنیم: ich werde، du wirst، er/sie/es wird، wir werden، ihr werdet، sie werden.",
-     "ex": [
-      [
-       "Jedes Jahr wird ein Weihnachtsmarkt eröffnet.",
-       "هر سال یک بازار کریسمس افتتاح می‌شود."
+       "Im Jahr 1975 wurden hier die ersten Hochhäuser errichtet.",
+       "در سال ۱۹۷۵ نخستین برج‌ها این‌جا ساخته شدند."
       ]
      ]
     },
     {
-     "head": "Präteritum: wurde / wurden + Partizip II",
-     "de": "Im Präteritum steht werden im Präteritum (wurde, wurdest, wurde, wurden, wurdet, wurden). Diese Form ist typisch für Berichte und Zeitungstexte.",
-     "fa": "در گذشته‌ی ساده، werden به شکل گذشته می‌آید (wurde، wurdest، wurde، wurden، wurdet، wurden). این شکل در گزارش و متن‌های خبری رایج است.",
+     "head": "Perfekt und Plusquamperfekt: sein + Partizip II + worden",
+     "de": "Das Perfekt Passiv bildet man mit „ist/sind“ + Partizip II + „worden“, das Plusquamperfekt mit „war/waren“ + Partizip II + „worden“. Das Hilfsverb ist immer „sein“, nie „haben“. Das Partizip von „werden“ verliert im Passiv das „ge-“: nicht „geworden“, sondern „worden“. Am Satzende stehen also zwei Partizipien: gebaut worden. Das Plusquamperfekt zeigt eine Handlung, die vor einer anderen Handlung in der Vergangenheit abgeschlossen war (oft mit „nachdem“).",
+     "fa": "برای ماضی نقلیِ مجهول از ist/sind + Partizip II + worden و برای ماضی بعید از war/waren + Partizip II + worden استفاده می‌کنیم. فعل کمکی همیشه sein است، هیچ‌وقت haben. نکته‌ی مهم: اسم مفعولِ werden در مجهول بدون ge- می‌آید؛ یعنی worden، نه geworden. پس آخر جمله دو اسم مفعول کنار هم داریم: gebaut worden. ماضی بعید را وقتی به کار می‌بریم که کاری در گذشته پیش از کار دیگری تمام شده بود؛ معمولاً همراه nachdem.",
      "ex": [
       [
-       "Das alte Kino wurde 2015 abgerissen.",
-       "سینمای قدیمی در سال ۲۰۱۵ تخریب شد."
+       "In unserem Viertel ist ein neuer Spielplatz eröffnet worden.",
+       "در محله‌ی ما یک زمین بازی جدید افتتاح شده است."
+      ],
+      [
+       "Nachdem die Fassade gestrichen worden war, sah das Haus wie neu aus.",
+       "بعد از این‌که نمای ساختمان رنگ شده بود، خانه مثل نو به نظر می‌رسید."
       ]
      ]
     },
     {
-     "head": "Perfekt: ist / sind + Partizip II + worden",
-     "de": "Im Perfekt bildet man das Passiv mit sein + Partizip II + worden. Achtung: worden, nicht geworden! worden steht ganz am Ende.",
-     "fa": "در ماضی نقلی، مجهول با sein + Partizip II + worden ساخته می‌شود. دقت کنید: worden، نه geworden! worden در آخرِ آخر جمله می‌آید.",
+     "head": "worden oder geworden? – Drei Funktionen von werden",
+     "de": "Nicht jeder Satz mit „werden“ ist ein Passivsatz. „werden“ + Partizip II = Passiv; „werden“ + Infinitiv = Futur (Aktiv); „werden“ allein oder mit Adjektiv/Nomen = Vollverb (sich verändern). Nur das Vollverb hat das Partizip „geworden“, im Passiv heißt es „worden“.",
+     "fa": "هر جمله‌ای که werden دارد مجهول نیست. werden سه نقش دارد: اگر با Partizip II بیاید، مجهول است؛ اگر با مصدر بیاید، آینده‌ی معلوم (Futur) است؛ اگر تنها یا با صفت و اسم بیاید، فعل اصلی به معنی «شدن، تغییر کردن» است. فقط همین فعل اصلی اسم مفعولش geworden است؛ در مجهول همیشه worden می‌گوییم.",
      "ex": [
       [
-       "Der Turm ist komplett umgebaut worden.",
-       "برج به‌طور کامل بازسازی شده است."
+       "Die Mieten sind teurer geworden. (Vollverb)",
+       "اجاره‌ها گران‌تر شده‌اند. (فعل اصلی «شدن»)"
+      ],
+      [
+       "Die Wohnungen sind modernisiert worden. (Passiv)",
+       "آپارتمان‌ها نوسازی شده‌اند. (مجهول)"
+      ],
+      [
+       "Die Stadt wird bald neue Radwege bauen. (Futur)",
+       "شهر به‌زودی مسیرهای دوچرخه‌ی جدید خواهد ساخت. (آینده)"
       ]
      ]
     },
     {
-     "head": "Plusquamperfekt: war / waren + Partizip II + worden",
-     "de": "Im Plusquamperfekt steht sein im Präteritum (war, waren). Man benutzt es für eine Handlung, die vor einer anderen Handlung in der Vergangenheit passiert ist.",
-     "fa": "در ماضی بعید، sein به شکل گذشته می‌آید (war، waren). برای کاری به کار می‌رود که در گذشته پیش از کار دیگری انجام شده بود.",
+     "head": "Präteritum oder Perfekt?",
+     "de": "Beide Zeitformen beschreiben die Vergangenheit. In formellen und schriftlichen Texten (Berichte, Zeitungsartikel, Vorträge) verwendet man eher das Passiv Präteritum, in informeller, gesprochener Sprache eher das Passiv Perfekt.",
+     "fa": "هر دو زمان درباره‌ی گذشته‌اند، اما سبکشان فرق دارد. در متن‌های رسمی و نوشتاری مثل گزارش، مقاله‌ی روزنامه یا سخنرانی بیشتر گذشته‌ی ساده (wurde + Partizip) می‌آید؛ در گفت‌وگوی روزمره و غیررسمی بیشتر ماضی نقلی (ist + Partizip + worden) را می‌شنوید.",
      "ex": [
       [
-       "Als ich ankam, waren die Lichterketten schon aufgehängt worden.",
-       "وقتی رسیدم، ریسه‌های نورانی از قبل آویزان شده بودند."
-      ]
-     ]
-    },
-    {
-     "head": "Im Nebensatz",
-     "de": "Im Nebensatz steht das konjugierte Verb am Ende: … , weil der Park gebaut wird / gebaut wurde / gebaut worden ist.",
-     "fa": "در جمله‌ی وابسته فعل صرف‌شده به آخر می‌رود: … , weil der Park gebaut wird / gebaut wurde / gebaut worden ist.",
-     "ex": [
+       "Der Turm wurde 1998 fertiggestellt. (Zeitungsbericht)",
+       "برج در سال ۱۹۹۸ تکمیل شد. (گزارش خبری)"
+      ],
       [
-       "Ich weiß, dass das Haus renoviert worden ist.",
-       "می‌دانم که خانه بازسازی شده است."
+       "Stell dir vor, unser Haus ist endlich renoviert worden! (Gespräch)",
+       "فکرش را بکن، بالاخره خانه‌مان بازسازی شده! (گفت‌وگو)"
       ]
      ]
     }
@@ -5396,33 +9047,170 @@
    "table": [
     [
      "Präsens",
-     "wird + Partizip II",
-     "Der Baum wird gepflanzt.",
-     "حال"
+     "wird/werden + Partizip II",
+     "Der Platz wird umgestaltet.",
+     "حال: werden صرف‌شده در جایگاه ۲"
     ],
     [
      "Präteritum",
-     "wurde + Partizip II",
-     "Der Baum wurde gepflanzt.",
-     "گذشته‌ی ساده"
+     "wurde/wurden + Partizip II",
+     "Der Platz wurde umgestaltet.",
+     "گذشته‌ی ساده؛ رایج در متن رسمی"
     ],
     [
      "Perfekt",
-     "ist + Partizip II + worden",
-     "Der Baum ist gepflanzt worden.",
-     "worden بدون ge-"
+     "ist/sind + Partizip II + worden",
+     "Der Platz ist umgestaltet worden.",
+     "ماضی نقلی؛ رایج در گفتار"
     ],
     [
      "Plusquamperfekt",
-     "war + Partizip II + worden",
-     "Der Baum war gepflanzt worden.",
-     "ماضی بعید"
+     "war/waren + Partizip II + worden",
+     "Der Platz war umgestaltet worden.",
+     "ماضی بعید؛ کارِ پیش‌تر در گذشته"
     ],
     [
-     "Nebensatz",
-     "Verb am Ende",
-     "…, dass der Baum gepflanzt worden ist.",
-     "فعل صرف‌شده در آخر"
+     "worden ↔ geworden",
+     "Passiv ↔ Vollverb werden",
+     "Es ist gebaut worden. / Es ist kalt geworden.",
+     "worden فقط در مجهول، بدون ge-"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Passiv: Verwendung – Handlung im Vordergrund, Agens mit „von“",
+   "title_fa": "کاربرد مجهول: تمرکز بر خودِ کار، انجام‌دهنده با von",
+   "goal_de": "Sie verstehen, wann man das Passiv statt des Aktivs verwendet, wie man das Agens mit „von“ (oder eine Ursache mit „durch“) nennt und wie man Sätze sinngleich zwischen Aktiv und Passiv umformt (Satzvarianten).",
+   "goal_fa": "یاد می‌گیرید چه وقت به‌جای جمله‌ی معلوم از مجهول استفاده کنیم، انجام‌دهنده را چطور با von (و علت یا وسیله را با durch) بیاوریم، و چطور یک جمله را بدون تغییر معنی از معلوم به مجهول و برعکس برگردانیم؛ این همان تمرین «Satzvarianten» است که در آزمون‌هایی مثل DSH زیاد می‌آید.",
+   "rules": [
+    {
+     "head": "Aktiv oder Passiv?",
+     "de": "Im Aktivsatz steht die Person oder Sache, die etwas tut oder bewirkt (= das Agens), im Vordergrund. Im Passivsatz liegt der Fokus auf der Handlung oder dem Prozess. Deshalb benutzt man das Passiv, wenn das Agens unbekannt, unwichtig oder selbstverständlich ist – typisch in Berichten, Statistiken, Nachrichten und Beschreibungen von Abläufen. Sätze, in denen das Agens wichtig ist, bleiben im Aktiv.",
+     "fa": "در جمله‌ی معلوم، کسی یا چیزی که کار را انجام می‌دهد (Agens) در مرکز توجه است. در جمله‌ی مجهول خودِ کار یا روند مهم است. پس وقتی انجام‌دهنده معلوم نیست، اهمیتی ندارد یا برای همه روشن است، مجهول را انتخاب می‌کنیم؛ برای همین در گزارش، آمار، خبر و توضیح مراحل یک کار خیلی دیده می‌شود. اما اگر بخواهیم بگوییم دقیقاً چه کسی کاری کرده، معلوم طبیعی‌تر است.",
+     "ex": [
+      [
+       "Bekannte Architekten entwerfen das neue Museum. (Agens wichtig)",
+       "معماران مشهوری موزه‌ی جدید را طراحی می‌کنند. (انجام‌دهنده مهم است)"
+      ],
+      [
+       "Das neue Museum wird nach umweltschonenden Plänen gebaut. (Vorgang wichtig)",
+       "موزه‌ی جدید بر اساس طرح‌های دوستدار محیط زیست ساخته می‌شود. (خودِ روند مهم است)"
+      ]
+     ]
+    },
+    {
+     "head": "Das Agens mit von + Dativ",
+     "de": "Wenn man das Agens im Passivsatz trotzdem nennen will, steht es mit der Präposition „von“ + Dativ. Man nennt es nur, wenn es eine neue oder wichtige Information ist. Ist das Agens selbstverständlich (der Kontrolleur kontrolliert Fahrkarten) oder allgemein (man, jemand, die Leute), lässt man es weg.",
+     "fa": "اگر با این حال بخواهیم انجام‌دهنده را در جمله‌ی مجهول بگوییم، از von + Dativ استفاده می‌کنیم (von der Stadt، vom Verein، von den Nachbarn). ولی فقط وقتی آن را می‌آوریم که اطلاع تازه یا مهمی باشد. اگر انجام‌دهنده بدیهی است (مثلاً بلیت را همیشه مأمور کنترل بررسی می‌کند) یا کلی است (man، jemand، مردم)، آوردنش زائد است و حذفش می‌کنیم.",
+     "ex": [
+      [
+       "Der Gemeinschaftsgarten wird von einem Verein verwaltet.",
+       "باغ اشتراکی به دست یک انجمن اداره می‌شود."
+      ],
+      [
+       "Die Fahrkarten werden kontrolliert. (von einem Kontrolleur = überflüssig)",
+       "بلیت‌ها کنترل می‌شوند. (گفتنِ «به دست مأمور کنترل» زائد است)"
+      ]
+     ]
+    },
+    {
+     "head": "durch + Akkusativ: Ursache oder Mittel",
+     "de": "Ist das, was etwas bewirkt, keine handelnde Person, sondern eine Ursache, ein Mittel oder ein Vorgang (Lärm, Abgase, ein Brief, eine Maßnahme), verwendet man im Passiv oft „durch“ + Akkusativ. Bei Satzvarianten wird ein Sach-Subjekt des Aktivsatzes daher meist zu „durch + Akkusativ“.",
+     "fa": "اگر چیزی که باعث کار شده یک «شخصِ انجام‌دهنده» نیست بلکه علت، وسیله یا یک روند است (سروصدا، دود اگزوز، یک نامه، یک اقدام)، در مجهول معمولاً از durch + Akkusativ استفاده می‌کنیم. پس وقتی فاعلِ جمله‌ی معلوم یک «چیز» است، در جمله‌ی مجهول اغلب با durch می‌آید. یک قاعده‌ی ساده برای به خاطر سپردن: von ≈ «به دست چه کسی»، durch ≈ «به‌وسیله‌ی / به‌خاطرِ چه چیزی».",
+     "ex": [
+      [
+       "Abgase verschmutzen die Luft. → Die Luft wird durch Abgase verschmutzt.",
+       "دود اگزوز هوا را آلوده می‌کند. ← هوا به‌وسیله‌ی دود اگزوز آلوده می‌شود."
+      ],
+      [
+       "Die Bewohner wurden durch einen Brief der Hausverwaltung informiert.",
+       "ساکنان از طریق نامه‌ی مدیریت ساختمان مطلع شدند."
+      ]
+     ]
+    },
+    {
+     "head": "Satzvarianten: Aktiv ↔ Passiv",
+     "de": "Aktiv → Passiv: Das Akkusativobjekt wird Subjekt, das Verb wird zu werden + Partizip II, das Aktivsubjekt fällt weg oder steht mit „von“/„durch“. „man“ fällt immer weg – „von man“ gibt es nicht. Passiv → Aktiv: Gibt es kein Agens, nimmt man „man“ als Subjekt; das Agens mit „von“ wird Subjekt im Nominativ. In beiden Richtungen muss die Zeitform gleich bleiben.",
+     "fa": "از معلوم به مجهول: مفعول مستقیم فاعل می‌شود، فعل به شکل werden + Partizip II درمی‌آید و فاعلِ قبلی یا حذف می‌شود یا با von/durch می‌آید. man همیشه حذف می‌شود؛ چیزی به اسم «von man» وجود ندارد. از مجهول به معلوم: اگر انجام‌دهنده‌ای ذکر نشده، man را فاعل می‌گذاریم؛ اگر با von آمده، همان را فاعل (Nominativ) می‌کنیم و فعل را با آن هماهنگ می‌کنیم. در هر دو جهت زمان جمله نباید عوض شود.",
+     "ex": [
+      [
+       "Man hat die alte Brücke abgerissen. → Die alte Brücke ist abgerissen worden.",
+       "پل قدیمی را تخریب کرده‌اند. ← پل قدیمی تخریب شده است."
+      ],
+      [
+       "Der Bauantrag wurde von der Stadt genehmigt. → Die Stadt genehmigte den Bauantrag.",
+       "درخواست ساخت توسط شهرداری تأیید شد. ← شهرداری درخواست ساخت را تأیید کرد."
+      ]
+     ]
+    },
+    {
+     "head": "Passiv ohne Subjekt (unpersönliches Passiv)",
+     "de": "Auch Verben ohne Akkusativobjekt (z. B. diskutieren über, helfen, arbeiten) oder Sätze ohne Objekt („Man baut viel.“) können ein Passiv bilden. Dieser Passivsatz hat kein Subjekt; das Verb steht immer in der 3. Person Singular. Auf Position 1 steht „es“ oder ein anderes Satzglied – dann fällt „es“ weg. Ein Dativobjekt bleibt im Dativ.",
+     "fa": "فعل‌هایی که مفعول مستقیم ندارند (مثل diskutieren über، helfen، arbeiten) یا جمله‌های بدون مفعول (Man baut viel) هم می‌توانند مجهول شوند. این نوع مجهول فاعل ندارد و فعل همیشه سوم‌شخص مفرد است (wird، wurde). در جایگاه اول یا es می‌آید یا یک جزء دیگر جمله؛ اگر جزء دیگری اول بیاید، es حذف می‌شود. مفعول با واسطه (Dativ) هم Dativ باقی می‌ماند و فاعل نمی‌شود.",
+     "ex": [
+      [
+       "Man baut in der Innenstadt viel. → In der Innenstadt wird viel gebaut.",
+       "در مرکز شهر زیاد ساخت‌وساز می‌کنند. ← در مرکز شهر ساخت‌وساز زیادی می‌شود."
+      ],
+      [
+       "Es wird über neue Radwege diskutiert. / Den Mietern wird geholfen.",
+       "درباره‌ی مسیرهای دوچرخه‌ی جدید بحث می‌شود. / به مستأجران کمک می‌شود."
+      ]
+     ]
+    },
+    {
+     "head": "Kein Passiv möglich",
+     "de": "Kein Passiv bilden: Verben des Habens und Wissens (haben, besitzen, bekommen, kennen, wissen), „es gibt“, reflexive Verben (sich freuen, sich wohlfühlen) und Verben, die einen Prozess ohne handelnde Person ausdrücken (wachsen, steigen, zunehmen, passieren). Sätze, in denen die handelnde Person wichtig ist, setzt man ebenfalls nicht ins Passiv.",
+     "fa": "بعضی فعل‌ها اصلاً مجهول نمی‌شوند: فعل‌های «داشتن و دانستن» (haben، besitzen، bekommen، kennen، wissen)، عبارت es gibt، فعل‌های انعکاسی (sich freuen، sich wohlfühlen) و فعل‌هایی که روندی را بدون انجام‌دهنده نشان می‌دهند (wachsen، steigen، zunehmen، passieren). در فارسی هم نمی‌گوییم «جمعیت رشد کرده شد»؛ این‌جا هم همین منطق برقرار است.",
+     "ex": [
+      [
+       "Die Bevölkerung der Stadt wächst schnell. → kein Passiv",
+       "جمعیت شهر سریع رشد می‌کند. ← مجهول ندارد."
+      ],
+      [
+       "Wir bekommen nächsten Monat eine neue Wohnung. → kein Passiv",
+       "ما ماه آینده یک آپارتمان جدید می‌گیریم. ← مجهول ندارد."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "Aktiv",
+     "Agens im Vordergrund",
+     "Die Stadt plant einen Park.",
+     "انجام‌دهنده مهم است"
+    ],
+    [
+     "Passiv ohne Agens",
+     "Handlung im Vordergrund",
+     "Ein Park wird geplant.",
+     "خودِ کار مهم است"
+    ],
+    [
+     "von + Dativ",
+     "handelnde Person / Institution",
+     "… von der Stadt geplant.",
+     "انجام‌دهنده (شخص یا نهاد)"
+    ],
+    [
+     "durch + Akkusativ",
+     "Ursache / Mittel",
+     "… durch Lärm gestört.",
+     "علت یا وسیله"
+    ],
+    [
+     "man → Passiv",
+     "man fällt immer weg",
+     "Man baut viel. → Es wird viel gebaut.",
+     "man هرگز در مجهول نمی‌آید"
+    ],
+    [
+     "kein Passiv",
+     "haben, bekommen, kennen, es gibt, sich …, wachsen",
+     "Die Stadt wächst.",
+     "بدون انجام‌دهنده یا انعکاسی"
     ]
    ]
   },
@@ -5430,88 +9218,374 @@
    "id": "t3",
    "title": "Passiv mit Modalverben",
    "title_fa": "مجهول با افعال وجهی",
-   "goal_de": "Mit Modalverben sagt man im Passiv, was gemacht werden kann, muss, soll oder darf. Am Satzende steht der Passiv-Infinitiv: Partizip II + werden.",
-   "goal_fa": "با افعال وجهی در مجهول می‌گوییم چه کاری می‌تواند، باید یا اجازه دارد انجام شود. در آخر جمله «مصدر مجهول» می‌آید: Partizip II + werden.",
+   "goal_de": "Sie können sagen, was gemacht werden kann, muss, soll oder darf – in der Gegenwart und in der Vergangenheit –, und kennen die seltenen Formen im Perfekt und Plusquamperfekt.",
+   "goal_fa": "یاد می‌گیرید بگویید چه کاری «می‌تواند، باید، قرار است یا اجازه دارد» انجام شود، هم در حال و هم در گذشته. شکل‌های نادرِ ماضی نقلی و ماضی بعید را هم می‌شناسید تا اگر در متنی دیدید، گیج نشوید.",
    "rules": [
     {
-     "head": "Modalverb + Partizip II + werden",
-     "de": "Das Modalverb ist konjugiert und steht auf Position 2. Am Ende stehen Partizip II und der Infinitiv werden.",
-     "fa": "فعل وجهی صرف می‌شود و در جایگاه دوم می‌آید. در آخر جمله Partizip II و سپس مصدر werden می‌آید.",
+     "head": "Modalverb + Infinitiv Passiv",
+     "de": "Das Modalverb ist konjugiert und steht auf Position 2. Am Satzende steht der Infinitiv Passiv: Partizip II + „werden“. Das Modalverb richtet sich nach dem Subjekt (Singular: kann, muss – Plural: können, müssen).",
+     "fa": "فعل وجهی (können، müssen، sollen، dürfen، wollen) صرف می‌شود و در جایگاه دوم می‌آید. آخر جمله «مصدر مجهول» می‌نشیند: Partizip II + werden. خودِ werden دیگر صرف نمی‌شود، چون فعل وجهی جای فعل صرف‌شده را گرفته است. فعل وجهی با فاعل هماهنگ است: مفرد kann/muss، جمع können/müssen.",
      "ex": [
       [
-       "Die Pflanzen müssen täglich gegossen werden.",
-       "گیاهان باید هر روز آب داده شوند."
+       "Auf dem Dach können Tomaten angebaut werden.",
+       "روی پشت‌بام می‌شود گوجه‌فرنگی کاشت."
       ],
       [
-       "Bäume können im Winter beschnitten werden.",
-       "درخت‌ها را می‌شود زمستان هرس کرد."
+       "Die Pflanzen müssen regelmäßig gegossen werden.",
+       "گیاهان باید مرتب آب داده شوند."
       ]
      ]
     },
     {
-     "head": "Präteritum: konnte / musste … + Partizip II + werden",
-     "de": "In der Vergangenheit setzt man nur das Modalverb ins Präteritum. Der Passiv-Infinitiv am Ende bleibt gleich.",
-     "fa": "در گذشته فقط فعل وجهی به گذشته می‌رود. مصدر مجهول در آخر جمله تغییری نمی‌کند.",
+     "head": "Präteritum: nur das Modalverb ändert sich",
+     "de": "In der Vergangenheit setzt man nur das Modalverb ins Präteritum (konnte, musste, sollte, durfte). Der Infinitiv Passiv am Satzende bleibt unverändert. Das ist die übliche Vergangenheitsform des Passivs mit Modalverben.",
+     "fa": "برای گذشته فقط فعل وجهی را به گذشته‌ی ساده می‌بریم (konnte، musste، sollte، durfte) و مصدر مجهول در آخر جمله دست نمی‌خورد. این رایج‌ترین و طبیعی‌ترین شکلِ گذشته برای مجهول با فعل وجهی است.",
      "ex": [
       [
-       "Das Gebäude musste abgerissen werden.",
-       "ساختمان باید تخریب می‌شد."
+       "Für das Projekt musste zuerst eine freie Fläche gefunden werden.",
+       "برای این پروژه اول باید یک زمین خالی پیدا می‌شد."
+      ],
+      [
+       "Die alten Bäume konnten zum Glück gerettet werden.",
+       "خوشبختانه درخت‌های قدیمی را توانستند نجات دهند (نجات داده شدند)."
       ]
      ]
     },
     {
-     "head": "Im Nebensatz",
-     "de": "Im Nebensatz steht das Modalverb ganz am Ende, nach werden.",
-     "fa": "در جمله‌ی وابسته فعل وجهی در آخرِ آخر و بعد از werden می‌آید.",
+     "head": "Perfekt und Plusquamperfekt (sehr selten)",
+     "de": "Im Perfekt und Plusquamperfekt ist das Hilfsverb „haben“ (nicht „sein“!): hat/hatte + Partizip II + „werden“ + Modalverb im Infinitiv. Am Satzende stehen also drei Verbformen. Diese Formen sind schwerfällig und werden sehr selten verwendet; man nimmt stattdessen fast immer das Präteritum.",
+     "fa": "در ماضی نقلی و ماضی بعید فعل کمکی haben است، نه sein (چون فعل وجهی با haben صرف می‌شود): hat/hatte + Partizip II + werden + مصدرِ فعل وجهی. یعنی آخر جمله سه فعل پشت هم می‌آید. این ساختار سنگین است و تقریباً به کار نمی‌رود؛ آلمانی‌زبان‌ها به‌جایش گذشته‌ی ساده را می‌گویند. فقط باید بتوانید آن را بشناسید.",
      "ex": [
       [
-       "Ich glaube, dass die Fläche besser genutzt werden kann.",
-       "فکر می‌کنم از این زمین می‌شود بهتر استفاده کرد."
+       "Das Gebäude hat abgerissen werden müssen. → besser: Das Gebäude musste abgerissen werden.",
+       "ساختمان مجبور بود تخریب شود. ← بهتر: با گذشته‌ی ساده بگوییم."
+      ],
+      [
+       "Der Architekt hatte nicht rechtzeitig informiert werden können.",
+       "نتوانسته بودند به معمار به‌موقع خبر بدهند."
       ]
      ]
     },
     {
-     "head": "Bedeutung der Modalverben",
-     "de": "können = es ist möglich, müssen = es ist nötig, dürfen + nicht = es ist verboten, sollen = es wird empfohlen oder gefordert.",
-     "fa": "können یعنی ممکن است، müssen یعنی لازم است، nicht dürfen یعنی ممنوع است، sollen یعنی توصیه یا خواسته شده است.",
+     "head": "Bedeutung der Modalverben im Passiv",
+     "de": "können = möglich; müssen = notwendig; sollen = geplant, gefordert oder empfohlen; dürfen = erlaubt; nicht dürfen = verboten. Achtung: „nicht müssen“ bedeutet „nicht nötig“, nicht „verboten“.",
+     "fa": "معنی فعل‌های وجهی در مجهول همان معنی همیشگی است: können امکان، müssen لزوم، sollen برنامه یا خواسته یا توصیه، dürfen اجازه، و nicht dürfen ممنوعیت. مراقب باشید: nicht müssen یعنی «لازم نیست»، نه «ممنوع است». این یکی از اشتباه‌های رایج فارسی‌زبان‌هاست، چون «نباید» در فارسی هر دو معنی را می‌رساند.",
      "ex": [
       [
-       "Exotische Pflanzen dürfen nicht zu oft gegossen werden.",
-       "گیاهان استوایی نباید زیادی آب داده شوند."
+       "Auf dieser Wiese darf nicht gebaut werden. (verboten)",
+       "روی این چمنزار نباید ساخت‌وساز شود. (ممنوع است)"
+      ],
+      [
+       "Der Rasen muss heute nicht gemäht werden. (nicht nötig)",
+       "امروز لازم نیست چمن کوتاه شود."
+      ]
+     ]
+    },
+    {
+     "head": "Satzvarianten: man + Modalverb → Passiv",
+     "de": "Aus „man + Modalverb + Infinitiv“ wird „Subjekt + Modalverb + Partizip II + werden“. „man“ fällt weg, das Akkusativobjekt wird Subjekt, Modalverb und Zeitform bleiben gleich; das Modalverb passt sich an das neue Subjekt an.",
+     "fa": "جمله‌ی «man + فعل وجهی + مصدر» را این‌طور مجهول می‌کنیم: man حذف می‌شود، مفعول مستقیم فاعل می‌شود، فعل وجهی و زمان جمله عوض نمی‌شوند، و در آخر جمله Partizip II + werden می‌آید. فقط حواستان باشد فعل وجهی با فاعل جدید هماهنگ شود (مثلاً kann ← können اگر فاعل جمع باشد).",
+     "ex": [
+      [
+       "Man muss die Waschmaschine anschließen. → Die Waschmaschine muss angeschlossen werden.",
+       "باید ماشین لباسشویی را وصل کرد. ← ماشین لباسشویی باید وصل شود."
+      ],
+      [
+       "Man konnte den Mietvertrag nicht kündigen. → Der Mietvertrag konnte nicht gekündigt werden.",
+       "نمی‌شد قرارداد اجاره را فسخ کرد. ← قرارداد اجاره قابل فسخ نبود."
       ]
      ]
     }
    ],
    "table": [
     [
-     "können",
-     "Modalverb + P. II + werden",
-     "Das kann repariert werden.",
-     "امکان"
-    ],
-    [
-     "müssen",
-     "Modalverb + P. II + werden",
-     "Das muss gemacht werden.",
-     "لزوم"
-    ],
-    [
-     "dürfen + nicht",
-     "Modalverb + P. II + werden",
-     "Hier darf nicht geparkt werden.",
-     "ممنوعیت"
-    ],
-    [
-     "sollen",
-     "Modalverb + P. II + werden",
-     "Das Dach soll begrünt werden.",
-     "توصیه / قرار"
+     "Präsens",
+     "Modalverb + Partizip II + werden",
+     "Das Dach kann begrünt werden.",
+     "فقط فعل وجهی صرف می‌شود"
     ],
     [
      "Präteritum",
-     "konnte / musste + P. II + werden",
-     "Es musste abgerissen werden.",
-     "فقط فعل وجهی گذشته می‌شود"
+     "konnte/musste … + Partizip II + werden",
+     "Das Dach musste repariert werden.",
+     "رایج‌ترین شکل گذشته"
+    ],
+    [
+     "Perfekt (selten)",
+     "hat + Partizip II + werden + Modalverb",
+     "Das Dach hat repariert werden müssen.",
+     "فعل کمکی haben، نه sein"
+    ],
+    [
+     "Plusquamperfekt (selten)",
+     "hatte + Partizip II + werden + Modalverb",
+     "Das Dach hatte repariert werden müssen.",
+     "در عمل به‌جایش Präteritum"
+    ],
+    [
+     "nicht dürfen ↔ nicht müssen",
+     "verboten ↔ nicht nötig",
+     "Hier darf nicht geparkt werden.",
+     "ممنوع ≠ لازم نیست"
+    ]
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Passiv mit Modalverben im Nebensatz – Passiv in Nebensätzen",
+   "title_fa": "مجهول (با فعل وجهی و بدون آن) در جمله‌ی وابسته",
+   "goal_de": "Sie bilden Passivsätze in allen Zeitformen und mit Modalverben als Nebensätze (dass, weil, obwohl, ob, W-Fragen, Relativsätze) und können damit z. B. Vor- und Nachteile formulieren.",
+   "goal_fa": "یاد می‌گیرید جمله‌ی مجهول را در همه‌ی زمان‌ها و با فعل وجهی به شکل جمله‌ی وابسته بسازید (بعد از dass، weil، obwohl، ob، کلمات پرسشی و در جمله‌ی موصولی). با این ساختار مثلاً می‌توانید مزایا و معایب یک طرح شهری را بیان کنید: «یک عیبش این است که …».",
+   "rules": [
+    {
+     "head": "Das konjugierte Verb steht ganz am Ende",
+     "de": "Im Nebensatz steht das konjugierte Verb am Satzende, also hinter dem Partizip II. Präsens: … gebaut wird. Präteritum: … gebaut wurde. Das gilt nach allen Konnektoren (dass, weil, obwohl, wenn, ob, W-Wörter) und in Relativsätzen.",
+     "fa": "در جمله‌ی وابسته فعل صرف‌شده به آخرِ آخر می‌رود، یعنی بعد از Partizip II. در حال: … gebaut wird و در گذشته‌ی ساده: … gebaut wurde. این قاعده بعد از همه‌ی حرف ربط‌های وابسته‌ساز (dass، weil، obwohl، wenn، ob، کلمات پرسشی) و در جمله‌ی موصولی یکسان است.",
+     "ex": [
+      [
+       "Es gibt viele Staus, weil die Hauptstraße erneuert wird.",
+       "ترافیک زیادی هست، چون خیابان اصلی دارد نوسازی می‌شود."
+      ],
+      [
+       "Es fehlen Wohnungen, obwohl in den letzten Jahren viel gebaut wurde.",
+       "با این‌که در سال‌های اخیر ساخت‌وساز زیادی شده، آپارتمان کم است."
+      ]
+     ]
+    },
+    {
+     "head": "Perfekt und Plusquamperfekt: Partizip II + worden + ist/war",
+     "de": "Im Perfekt und Plusquamperfekt steht die Form von „sein“ als konjugiertes Verb am Ende, nach „worden“: … gegründet worden ist / … zerstört worden war.",
+     "fa": "در ماضی نقلی و ماضی بعید، فعل صرف‌شده یعنی ist/sind یا war/waren به آخر می‌رود و بعد از worden قرار می‌گیرد. ترتیب ثابت است: Partizip II ← worden ← ist/war.",
+     "ex": [
+      [
+       "Ich weiß nicht, wann das Rathaus errichtet worden ist.",
+       "نمی‌دانم ساختمان شهرداری کی ساخته شده است."
+      ],
+      [
+       "Nachdem die Ruine gesichert worden war, begann der Wiederaufbau.",
+       "بعد از این‌که ویرانه ایمن‌سازی شده بود، بازسازی آغاز شد."
+      ]
+     ]
+    },
+    {
+     "head": "Mit Modalverb: Partizip II + werden + Modalverb",
+     "de": "Mit Modalverb steht im Nebensatz zuerst das Partizip II, dann der Infinitiv „werden“ und ganz am Ende das konjugierte Modalverb: … gelöst werden kann / … gelöst werden konnte.",
+     "fa": "اگر فعل وجهی داشته باشیم، در جمله‌ی وابسته اول Partizip II، بعد مصدر werden و در آخرِ آخر فعل وجهیِ صرف‌شده می‌آید: … gelöst werden kann. یک ترفند: جمله‌ی اصلی را بنویسید و فقط فعل وجهی را از جایگاه دوم بردارید و به انتهای جمله ببرید.",
+     "ex": [
+      [
+       "Es ist klar, dass mehr Grünflächen geschaffen werden müssen.",
+       "روشن است که باید فضای سبز بیشتری ایجاد شود."
+      ],
+      [
+       "Ein Nachteil ist, dass die Hochhausgärten beleuchtet werden müssen.",
+       "یک عیب این است که باغ‌های داخل برج باید نورپردازی شوند."
+      ]
+     ]
+    },
+    {
+     "head": "Relativsätze und indirekte Fragen",
+     "de": "Passiv steht oft in Relativsätzen und indirekten Fragen. Das Relativpronomen ist dann meist das Subjekt im Nominativ (der, die, das, die). Indirekte Fragen beginnen mit „ob“ (Ja/Nein-Frage) oder einem W-Wort.",
+     "fa": "مجهول زیاد در جمله‌ی موصولی و پرسش غیرمستقیم می‌آید. ضمیر موصولی معمولاً فاعل جمله‌ی مجهول است و در حالت Nominativ می‌آید (der، die، das، die). پرسش غیرمستقیم برای سؤال بله/خیر با ob و برای سؤال‌های دیگر با کلمه‌ی پرسشی (wann، wo، warum …) شروع می‌شود.",
+     "ex": [
+      [
+       "Das ist eine Frage, die bisher nicht beantwortet werden konnte.",
+       "این سؤالی است که تا حالا نتوانسته‌اند به آن پاسخ دهند."
+      ],
+      [
+       "Ich frage mich, ob das alte Kino gerettet werden kann.",
+       "از خودم می‌پرسم آیا می‌شود سینمای قدیمی را نجات داد."
+      ]
+     ]
+    },
+    {
+     "head": "Sonderfall: Perfekt mit Modalverb im Nebensatz",
+     "de": "Steht ein Passiv mit Modalverb im Perfekt im Nebensatz, rückt „haben“ vor die drei Infinitive bzw. Partizipien: …, dass die Halle hat abgerissen werden müssen. Diese Form ist sehr selten; besser ist das Präteritum: …, dass die Halle abgerissen werden musste.",
+     "fa": "یک استثنای مهم: اگر مجهولِ با فعل وجهی در ماضی نقلی داخل جمله‌ی وابسته بیاید، hat به آخر نمی‌رود، بلکه قبل از گروه فعل‌ها می‌نشیند: …, dass die Halle hat abgerissen werden müssen. این شکل بسیار نادر است؛ بهتر است با گذشته‌ی ساده بگویید: …, dass die Halle abgerissen werden musste.",
+     "ex": [
+      [
+       "Schade, dass die Halle hat abgerissen werden müssen. → besser: …, dass die Halle abgerissen werden musste.",
+       "حیف که سالن را مجبور شدند تخریب کنند. ← بهتر: با گذشته‌ی ساده."
+      ],
+      [
+       "Er erzählte, dass der Park nicht hat erweitert werden können.",
+       "او تعریف کرد که نتوانسته‌اند پارک را گسترش دهند."
+      ]
+     ]
+    },
+    {
+     "head": "Hauptsatz → Nebensatz umformen",
+     "de": "Will man einen Passiv-Hauptsatz in einen Nebensatz verwandeln, wandert das konjugierte Verb von Position 2 ans Ende; alle anderen Teile bleiben in derselben Reihenfolge. Einleitende Ausdrücke sind z. B.: Denk daran, dass … / Vergiss nicht, dass … / Ein Vorteil ist, dass …",
+     "fa": "برای تبدیل جمله‌ی اصلیِ مجهول به جمله‌ی وابسته، فقط فعل صرف‌شده از جایگاه دوم به آخر جمله منتقل می‌شود و ترتیب بقیه‌ی اجزا تغییر نمی‌کند. عبارت‌های شروع مفید: Denk daran, dass … (یادت باشد که …)، Vergiss nicht, dass … (فراموش نکن که …)، Ein Vorteil/Nachteil ist, dass … (یک مزیت/عیب این است که …).",
+     "ex": [
+      [
+       "Die Heizung muss repariert werden. → Vergiss nicht, dass die Heizung repariert werden muss.",
+       "شوفاژ باید تعمیر شود. ← فراموش نکن که شوفاژ باید تعمیر شود."
+      ],
+      [
+       "Die alten Schlüssel werden abgegeben. → Denk daran, dass die alten Schlüssel abgegeben werden.",
+       "کلیدهای قدیمی تحویل داده می‌شوند. ← یادت باشد که کلیدهای قدیمی تحویل داده شوند."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "Präsens",
+     "… Partizip II + wird/werden",
+     "…, weil die Brücke saniert wird.",
+     "فعل صرف‌شده در آخر"
+    ],
+    [
+     "Präteritum",
+     "… Partizip II + wurde/wurden",
+     "…, obwohl viel gebaut wurde.",
+     "wurde در آخر"
+    ],
+    [
+     "Perfekt",
+     "… Partizip II + worden + ist/sind",
+     "…, wann die Stadt gegründet worden ist.",
+     "ist بعد از worden"
+    ],
+    [
+     "Plusquamperfekt",
+     "… Partizip II + worden + war/waren",
+     "…, nachdem es zerstört worden war.",
+     "war بعد از worden"
+    ],
+    [
+     "mit Modalverb",
+     "… Partizip II + werden + Modalverb",
+     "…, dass es gelöst werden kann.",
+     "فعل وجهی در آخرِ آخر"
+    ],
+    [
+     "Relativsatz",
+     "Relativpronomen … Partizip II + werden + Modalverb",
+     "ein Problem, das gelöst werden muss",
+     "همان ترتیب جمله‌ی وابسته"
+    ]
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Wortbildung: Zusammengesetzte Nomen aus Adjektiv / Adverb + Nomen",
+   "title_fa": "واژه‌سازی: اسم‌های مرکب از صفت/قید + اسم",
+   "goal_de": "Sie bilden und verstehen Komposita wie Großstadt, Hochhaus, Innenhof oder Grünfläche und kennen die Regeln für Artikel, Schreibung und Wortakzent.",
+   "goal_fa": "یاد می‌گیرید اسم‌های مرکبی مثل Großstadt، Hochhaus، Innenhof یا Grünfläche را بسازید و بفهمید، و قاعده‌های حرف تعریف، نوشتن و تکیه‌ی این کلمه‌ها را می‌شناسید. این کلمه‌ها در موضوع شهر و ترافیک خیلی پرکاربردند.",
+   "rules": [
+    {
+     "head": "Bestimmungswort + Grundwort",
+     "de": "Ein Kompositum besteht aus einem Bestimmungswort (hier: Adjektiv oder Adverb) und einem Grundwort (Nomen). Das Grundwort steht am Ende und bestimmt Artikel, Plural und Grundbedeutung; das Bestimmungswort präzisiert es.",
+     "fa": "اسم مرکب از دو بخش ساخته می‌شود: «کلمه‌ی تعیین‌کننده» (این‌جا صفت یا قید) در اول، و «کلمه‌ی پایه» (اسم) در آخر. کلمه‌ی آخر تعیین می‌کند حرف تعریف، جمع و معنی اصلی چیست؛ بخش اول فقط نوعش را مشخص می‌کند. پس Großstadt نوعی Stadt است و چون die Stadt است، می‌شود die Großstadt.",
+     "ex": [
+      [
+       "die Stadt → die Großstadt, die Kleinstadt, die Altstadt",
+       "شهر ← کلان‌شهر، شهر کوچک، بافت قدیمی شهر"
+      ],
+      [
+       "der Hof → der Innenhof; die Kurve → die Linkskurve",
+       "حیاط ← حیاط داخلی؛ پیچ ← پیچ به چپ"
+      ]
+     ]
+    },
+    {
+     "head": "Adjektiv ohne Endung",
+     "de": "Das Adjektiv steht im Kompositum in der Grundform, ohne Deklinationsendung: groß + die Stadt = die Großstadt (nicht: Großestadt). Auch bei „hoch“ bleibt die Grundform: das Hochhaus, die Hochbahn (obwohl es „ein hohes Haus“ heißt).",
+     "fa": "صفت در اسم مرکب بدون پسوند صرفی و به شکل ساده می‌آید: groß + Stadt می‌شود Großstadt، نه Großestadt. صفت hoch هم که در حالت صرفی به hohe/hohes تبدیل می‌شود، در کلمه‌ی مرکب همان hoch می‌ماند: das Hochhaus، die Hochbahn.",
+     "ex": [
+      [
+       "schnell + die Straße = die Schnellstraße",
+       "سریع + خیابان = بزرگراه شهری (جاده‌ی سریع‌السیر)"
+      ],
+      [
+       "tief + die Garage = die Tiefgarage",
+       "عمیق + گاراژ = پارکینگ زیرزمینی"
+      ]
+     ]
+    },
+    {
+     "head": "Schreibung: zusammen und groß",
+     "de": "Zusammengesetzte Nomen schreibt man in einem Wort und mit großem Anfangsbuchstaben – auch wenn das erste Wort ein Adjektiv oder Adverb ist: die Grünfläche, die Innenstadt, das Kleingeld.",
+     "fa": "اسم‌های مرکب را سرهم و با حرف اول بزرگ می‌نویسیم، حتی اگر بخش اول صفت یا قید باشد. پس «grün Fläche» یا «die grünfläche» غلط است؛ درستش die Grünfläche است.",
+     "ex": [
+      [
+       "Parks und Grünflächen verbessern die Luft.",
+       "پارک‌ها و فضاهای سبز هوا را بهتر می‌کنند."
+      ],
+      [
+       "In der Innenstadt findet man kaum einen Parkplatz.",
+       "در مرکز شهر به‌سختی جای پارک پیدا می‌شود."
+      ]
+     ]
+    },
+    {
+     "head": "Bedeutung: oft ein fester Begriff",
+     "de": "Ein Kompositum ist oft ein fester Begriff und nicht dasselbe wie Adjektiv + Nomen: eine Großstadt ist eine Stadtkategorie (ab 100.000 Einwohnern), „eine große Stadt“ ist nur eine Beschreibung; Kleingeld sind Münzen, nicht „wenig Geld“. Nicht jede denkbare Kombination existiert – im Zweifel im Wörterbuch nachsehen.",
+     "fa": "کلمه‌ی مرکب اغلب یک مفهوم ثابت و جاافتاده است و دقیقاً با «صفت + اسم» یکی نیست. مثلاً Großstadt یک دسته‌بندی رسمی است (شهر بالای ۱۰۰ هزار نفر)، اما eine große Stadt فقط توصیف «شهری بزرگ» است. Kleingeld یعنی «پول خرد، سکه»، نه «پول کم». همه‌ی ترکیب‌های ممکن هم در آلمانی وجود ندارند؛ اگر مطمئن نیستید، فرهنگ لغت را نگاه کنید.",
+     "ex": [
+      [
+       "Hast du Kleingeld für den Parkautomaten?",
+       "پول خرد برای دستگاه پارکومتر داری؟"
+      ],
+      [
+       "Am Wochenende essen wir oft schnell etwas am Schnellimbiss.",
+       "آخر هفته‌ها اغلب در اغذیه‌فروشی سرپایی سریع چیزی می‌خوریم."
+      ]
+     ]
+    },
+    {
+     "head": "Adverbien als Bestimmungswort und Wortakzent",
+     "de": "Auch Adverbien wie innen, links, rechts bilden Komposita: die Innenstadt, der Innenhof, die Rechtskurve. Der Wortakzent liegt bei Komposita normalerweise auf dem Bestimmungswort, also auf dem ersten Teil: GROSSstadt, KLEINstadt, INnenhof.",
+     "fa": "قیدهایی مثل innen، links و rechts هم اسم مرکب می‌سازند: die Innenstadt، der Innenhof، die Rechtskurve. تکیه‌ی کلمه‌ی مرکب معمولاً روی بخش اول (کلمه‌ی تعیین‌کننده) است: GROSSstadt، KLEINstadt، INnenhof. همین تکیه به شنونده کمک می‌کند Großstadt و Kleinstadt را از هم تشخیص دهد.",
+     "ex": [
+      [
+       "Vorsicht, gleich kommt eine scharfe Linkskurve!",
+       "مواظب باش، الان یک پیچ تند به چپ می‌رسد!"
+      ],
+      [
+       "Im Innenhof wachsen Kräuter und Blumen.",
+       "در حیاط داخلی سبزی‌های معطر و گل می‌روید."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "hoch + das Haus",
+     "das Hochhaus",
+     "Im Hochhaus gibt es 30 Etagen.",
+     "برج؛ hoch بدون پسوند"
+    ],
+    [
+     "groß / klein / alt + die Stadt",
+     "die Groß- / Klein- / Altstadt",
+     "Die Altstadt ist autofrei.",
+     "کلان‌شهر / شهر کوچک / بافت قدیم"
+    ],
+    [
+     "innen + die Stadt / der Hof",
+     "die Innenstadt, der Innenhof",
+     "Der Innenhof ist begrünt.",
+     "مرکز شهر، حیاط داخلی"
+    ],
+    [
+     "links / rechts + die Kurve",
+     "die Links- / Rechtskurve",
+     "Nach der Rechtskurve kommt die Ampel.",
+     "پیچ به چپ / راست"
+    ],
+    [
+     "grün + die Fläche",
+     "die Grünfläche",
+     "Die Stadt braucht mehr Grünflächen.",
+     "فضای سبز"
+    ],
+    [
+     "schnell / tief / klein + Nomen",
+     "die Schnellstraße, die Tiefgarage, das Kleingeld",
+     "Ich parke in der Tiefgarage.",
+     "حرف تعریف از کلمه‌ی آخر"
     ]
    ]
   }
@@ -5521,314 +9595,595 @@
    "id": "L2-g1",
    "t": "t1",
    "type": "mc",
-   "q": "Man baut in der Stadt viele neue Wohnungen. – Passiv:",
+   "q": "Im Stadtzentrum ___ zurzeit ein neues Einkaufszentrum gebaut.",
    "opts": [
-    "In der Stadt werden viele neue Wohnungen gebaut.",
-    "In der Stadt wird viele neue Wohnungen gebaut.",
-    "In der Stadt werden man viele neue Wohnungen gebaut.",
-    "In der Stadt sind viele neue Wohnungen bauen."
+    "wird",
+    "werden",
+    "wirst",
+    "worden"
    ],
    "a": 0,
-   "de": "Subjekt ist jetzt „viele neue Wohnungen“ (Plural) → werden + gebaut; man fällt weg.",
-   "fa": "فاعل حالا «viele neue Wohnungen» (جمع) است ← werden + gebaut؛ man حذف می‌شود."
+   "de": "Subjekt „ein neues Einkaufszentrum“ ist 3. Person Singular, „zurzeit“ verlangt Präsens → wird.",
+   "fa": "فاعل «ein neues Einkaufszentrum» سوم‌شخص مفرد است و zurzeit زمان حال می‌خواهد ← wird."
   },
   {
    "id": "L2-g2",
    "t": "t1",
    "type": "mc",
-   "q": "Welchen Satz kann man NICHT ins Passiv setzen?",
+   "q": "Welcher Satz steht im Passiv?",
    "opts": [
-    "Die Stadt plant ein neues Viertel.",
-    "Man gießt die Blumen jeden Tag.",
-    "Der Autoverkehr hat stark zugenommen.",
-    "Die Nachbarn gründen einen Verein."
+    "Viele junge Leute ziehen in die Großstadt.",
+    "Die Mieten werden immer höher.",
+    "In der Umfrage wurden 2.000 Bewohner befragt.",
+    "Die Stadt wird bald einen neuen Park eröffnen."
    ],
    "a": 2,
-   "de": "zunehmen hat kein Akkusativobjekt → kein Passiv möglich.",
-   "fa": "zunehmen مفعول مستقیم ندارد ← مجهول ممکن نیست."
+   "de": "Nur hier steht werden + Partizip II. werden + Adjektiv = Vollverb, werden + Infinitiv = Futur.",
+   "fa": "فقط این‌جا werden + Partizip II داریم. werden + صفت فعل اصلی «شدن» است و werden + مصدر آینده‌ی معلوم."
   },
   {
    "id": "L2-g3",
    "t": "t1",
-   "type": "mc",
-   "q": "Der Gemeinschaftsgarten wird ___ vielen Nachbarn gepflegt.",
-   "opts": [
-    "durch",
-    "von",
-    "mit",
-    "bei"
+   "type": "gap",
+   "q": "Der alte Wasserturm ___ im Jahr 2012 zu einem Hotel umgebaut. (werden, Präteritum)",
+   "a": [
+    "wurde"
    ],
-   "a": 1,
-   "de": "Die handelnden Personen nennt man mit von + Dativ.",
-   "fa": "انجام‌دهنده‌ها (اشخاص) با von + Dativ بیان می‌شوند."
+   "de": "Präteritum Passiv, 3. Person Singular: wurde + Partizip II.",
+   "fa": "مجهولِ گذشته‌ی ساده، سوم‌شخص مفرد: wurde + Partizip II."
   },
   {
    "id": "L2-g4",
    "t": "t1",
-   "type": "mc",
-   "q": "Welcher Satz ist richtig?",
-   "opts": [
-    "Lärm wird der Gesundheit geschadet.",
-    "Die Gesundheit wird durch Lärm geschädigt.",
-    "Die Gesundheit wird von Lärm geschadet.",
-    "Die Gesundheit ist durch Lärm schädigen."
+   "type": "gap",
+   "q": "Seit 2020 sind in unserem Viertel drei Spielplätze eröffnet ___. (Perfekt Passiv)",
+   "a": [
+    "worden"
    ],
-   "a": 1,
-   "de": "schädigen hat ein Akkusativobjekt (die Gesundheit) → Passiv möglich; Ursache mit durch.",
-   "fa": "schädigen مفعول مستقیم دارد (die Gesundheit) ← مجهول ممکن است؛ علت با durch می‌آید."
+   "de": "Perfekt Passiv: sind + Partizip II + worden (ohne ge-).",
+   "fa": "مجهولِ ماضی نقلی: sind + Partizip II + worden (بدون ge-)."
   },
   {
    "id": "L2-g5",
    "t": "t1",
    "type": "mc",
-   "q": "Welcher Satz kann ins Passiv gesetzt werden?",
+   "q": "Man hat die Fassade komplett erneuert. – Passiv Perfekt:",
    "opts": [
-    "Die Pflanzen wachsen schnell.",
-    "Die Mieten steigen jedes Jahr.",
-    "Viele junge Leute ziehen in die Stadt.",
-    "Man erarbeitet ein neues Verkehrskonzept."
+    "Die Fassade ist komplett erneuert worden.",
+    "Die Fassade hat komplett erneuert worden.",
+    "Die Fassade ist komplett erneuert geworden.",
+    "Die Fassade wird komplett erneuert worden."
    ],
-   "a": 3,
-   "de": "Nur erarbeiten hat ein Akkusativobjekt (ein Konzept). wachsen, steigen, ziehen haben keins.",
-   "fa": "فقط erarbeiten مفعول مستقیم دارد (ein Konzept). wachsen، steigen و ziehen ندارند."
+   "a": 0,
+   "de": "Perfekt Passiv immer mit sein und „worden“; man fällt weg.",
+   "fa": "ماضی نقلیِ مجهول همیشه با sein و worden ساخته می‌شود و man حذف می‌شود."
   },
   {
    "id": "L2-g6",
    "t": "t1",
-   "type": "gap",
-   "q": "Im Park ___ (werden) jedes Jahr neue Bäume gepflanzt. (Präsens)",
-   "a": [
-    "werden"
+   "type": "mc",
+   "q": "Nachdem die alte Fabrik ___, begann man mit dem Bau der Wohnungen.",
+   "opts": [
+    "abgerissen worden war",
+    "abgerissen geworden war",
+    "abgerissen wurde worden",
+    "abgerissen worden hatte"
    ],
-   "de": "Subjekt „neue Bäume“ ist Plural → werden.",
-   "fa": "فاعل «neue Bäume» جمع است ← werden."
+   "a": 0,
+   "de": "Vorzeitigkeit nach „nachdem“ → Plusquamperfekt Passiv: Partizip II + worden + war.",
+   "fa": "بعد از nachdem کارِ پیش‌تر را با ماضی بعیدِ مجهول می‌گوییم: Partizip II + worden + war."
   },
   {
    "id": "L2-g7",
    "t": "t1",
-   "type": "gap",
-   "q": "Das Dach wird von den Bewohnern ___ (begrünen).",
-   "a": [
-    "begrünt"
+   "type": "mc",
+   "q": "In den 1960er-Jahren ___ in vielen Städten Hochhäuser ___.",
+   "opts": [
+    "wurde … gebaut",
+    "wurden … gebaut",
+    "wurden … gebauen",
+    "werden … geworden"
    ],
-   "de": "Partizip II von begrünen (untrennbar, ohne ge-) → begrünt.",
-   "fa": "Partizip II فعل begrünen (جدانشدنی، بدون ge-) ← begrünt."
+   "a": 1,
+   "de": "Subjekt „Hochhäuser“ ist Plural, Vergangenheit → wurden + gebaut.",
+   "fa": "فاعل «Hochhäuser» جمع است و زمان گذشته ← wurden + gebaut."
   },
   {
    "id": "L2-g8",
-   "t": "t2",
-   "type": "mc",
-   "q": "Das alte Kino ___ letztes Jahr abgerissen.",
-   "opts": [
-    "wird",
-    "wurde",
-    "ist",
-    "hat"
+   "t": "t1",
+   "type": "gap",
+   "q": "In der Altstadt ___ die Straßen jeden Morgen gereinigt. (werden, Präsens)",
+   "a": [
+    "werden"
    ],
-   "a": 1,
-   "de": "letztes Jahr → Vergangenheit; ohne worden am Ende → Präteritum: wurde.",
-   "fa": "letztes Jahr ← گذشته؛ چون worden در آخر نیست ← گذشته‌ی ساده: wurde."
+   "de": "Subjekt „die Straßen“ ist Plural → werden.",
+   "fa": "فاعل «die Straßen» جمع است ← werden."
   },
   {
    "id": "L2-g9",
-   "t": "t2",
+   "t": "t1",
    "type": "mc",
-   "q": "Der Turm ist komplett umgebaut ___.",
+   "q": "Die Stadt ist in den letzten Jahren viel grüner ___.",
    "opts": [
+    "worden",
     "geworden",
     "werden",
-    "worden",
     "wurde"
    ],
-   "a": 2,
-   "de": "Perfekt Passiv: sein + Partizip II + worden (nicht geworden).",
-   "fa": "مجهولِ ماضی نقلی: sein + Partizip II + worden (نه geworden)."
+   "a": 1,
+   "de": "Hier ist werden Vollverb (+ Adjektiv) → Partizip „geworden“. „worden“ nur im Passiv.",
+   "fa": "این‌جا werden فعل اصلی «شدن» است (همراه صفت) ← geworden. worden فقط در مجهول به کار می‌رود."
   },
   {
    "id": "L2-g10",
-   "t": "t2",
+   "t": "t1",
    "type": "mc",
-   "q": "Welcher Satz steht im Perfekt Passiv?",
+   "q": "Welche Aussage zum Passiv in der Vergangenheit stimmt?",
    "opts": [
-    "Der Markt ist eröffnet worden.",
-    "Der Markt wurde eröffnet.",
-    "Der Markt war eröffnet worden.",
-    "Der Markt wird eröffnet."
+    "In Berichten und Zeitungstexten verwendet man eher das Präteritum, im Gespräch eher das Perfekt.",
+    "Im Perfekt Passiv verwendet man das Hilfsverb „haben“.",
+    "Im Passiv heißt das Partizip von werden „geworden“.",
+    "Das Plusquamperfekt Passiv bildet man mit „wird“ + „worden“."
    ],
    "a": 0,
-   "de": "Präsens von sein (ist) + Partizip II + worden = Perfekt.",
-   "fa": "sein در زمان حال (ist) + Partizip II + worden = ماضی نقلی."
+   "de": "Formell/schriftlich: Präteritum; informell/mündlich: Perfekt. Die anderen Aussagen sind falsch (sein, worden, war).",
+   "fa": "در متن رسمی و نوشتاری گذشته‌ی ساده و در گفتار غیررسمی ماضی نقلی رایج است. بقیه‌ی گزینه‌ها غلط‌اند (sein، worden، war)."
   },
   {
    "id": "L2-g11",
    "t": "t2",
    "type": "mc",
-   "q": "Als wir ankamen, ___ der Baum schon geschmückt worden.",
+   "q": "Der Gemeinschaftsgarten wird ___ einem Verein verwaltet.",
    "opts": [
-    "ist",
-    "wurde",
-    "wird",
-    "war"
+    "von",
+    "durch",
+    "mit",
+    "bei"
    ],
-   "a": 3,
-   "de": "Vorzeitigkeit in der Vergangenheit + worden → Plusquamperfekt: war.",
-   "fa": "کاری پیش از کار دیگر در گذشته + worden ← ماضی بعید: war."
+   "a": 0,
+   "de": "Das Agens (handelnde Person/Institution) steht mit „von“ + Dativ (einem).",
+   "fa": "انجام‌دهنده (شخص یا نهاد) با von + Dativ می‌آید؛ einem هم Dativ است."
   },
   {
    "id": "L2-g12",
    "t": "t2",
    "type": "mc",
-   "q": "Man hat die Lichterketten gestern aufgehängt. – Passiv:",
+   "q": "Die Luft in der Innenstadt wird ___ Autoabgase verschmutzt.",
    "opts": [
-    "Die Lichterketten haben gestern aufgehängt worden.",
-    "Die Lichterketten sind gestern aufgehängt worden.",
-    "Die Lichterketten sind gestern aufgehängt geworden.",
-    "Die Lichterketten werden gestern aufgehängt worden."
+    "von",
+    "durch",
+    "mit",
+    "aus"
    ],
    "a": 1,
-   "de": "Perfekt Passiv immer mit sein (sind) und worden.",
-   "fa": "مجهولِ ماضی نقلی همیشه با sein (sind) و worden ساخته می‌شود."
+   "de": "Ursache/Mittel → „durch“ + Akkusativ (Autoabgase = Akkusativ Plural; „von“ bräuchte Dativ: Autoabgasen).",
+   "fa": "علت یا وسیله ← durch + Akkusativ. Autoabgase این‌جا Akkusativ جمع است؛ برای von باید Dativ می‌آمد (Autoabgasen)."
   },
   {
    "id": "L2-g13",
    "t": "t2",
    "type": "mc",
-   "q": "Welcher Nebensatz ist richtig?",
+   "q": "Die Hausverwaltung informierte die Mieter rechtzeitig. – Passiv:",
    "opts": [
-    "…, weil die Straße gesperrt worden ist.",
-    "…, weil die Straße ist gesperrt worden.",
-    "…, weil die Straße gesperrt ist worden.",
-    "…, weil die Straße worden gesperrt ist."
+    "Die Mieter wurden von der Hausverwaltung rechtzeitig informiert.",
+    "Die Mieter wurde von der Hausverwaltung rechtzeitig informiert.",
+    "Die Mieter sind durch die Hausverwaltung rechtzeitig informiert geworden.",
+    "Von den Mietern wurde die Hausverwaltung rechtzeitig informiert."
    ],
    "a": 0,
-   "de": "Im Nebensatz steht das konjugierte Verb (ist) ganz am Ende.",
-   "fa": "در جمله‌ی وابسته فعل صرف‌شده (ist) در آخرِ آخر می‌آید."
+   "de": "Präteritum bleibt, Akkusativobjekt „die Mieter“ (Plural) wird Subjekt → wurden; Agens mit von + Dativ.",
+   "fa": "زمان گذشته‌ی ساده حفظ می‌شود، مفعول «die Mieter» (جمع) فاعل می‌شود ← wurden؛ انجام‌دهنده با von + Dativ."
   },
   {
    "id": "L2-g14",
    "t": "t2",
-   "type": "gap",
-   "q": "Der Verein ___ 2010 gegründet. (werden, Präteritum)",
-   "a": [
-    "wurde"
+   "type": "mc",
+   "q": "Für 2050 wird prognostiziert, dass die Städte stark wachsen. – Aktiv:",
+   "opts": [
+    "Man prognostiziert für 2050, dass die Städte stark wachsen.",
+    "Man wird für 2050 prognostiziert, dass die Städte stark wachsen.",
+    "Man prognostizierte für 2050, dass die Städte stark gewachsen werden.",
+    "Es prognostiziert man für 2050, dass die Städte stark wachsen."
    ],
-   "de": "Präteritum von werden, 3. Person Singular → wurde.",
-   "fa": "گذشته‌ی ساده‌ی werden، سوم‌شخص مفرد ← wurde."
+   "a": 0,
+   "de": "Ohne Agens → „man“ als Subjekt, Präsens bleibt Präsens.",
+   "fa": "انجام‌دهنده ذکر نشده ← man فاعل می‌شود و زمان حال هم حال می‌ماند."
   },
   {
    "id": "L2-g15",
    "t": "t2",
-   "type": "gap",
-   "q": "Viele Nachbarschaftsprojekte sind schon gegründet ___. (Perfekt Passiv)",
-   "a": [
-    "worden"
+   "type": "mc",
+   "q": "Welchen Satz kann man NICHT ins Passiv setzen?",
+   "opts": [
+    "Die Nachbarn gründen einen Verein.",
+    "Die Bevölkerung der Stadt wächst jedes Jahr.",
+    "Man reißt das alte Kaufhaus ab.",
+    "Die Stadt erarbeitet ein Verkehrskonzept."
    ],
-   "de": "Perfekt Passiv: sind + Partizip II + worden.",
-   "fa": "مجهولِ ماضی نقلی: sind + Partizip II + worden."
+   "a": 1,
+   "de": "„wachsen“ beschreibt einen Prozess ohne handelndes Agens und hat kein Objekt → kein Passiv.",
+   "fa": "wachsen روندی بدون انجام‌دهنده است و مفعول ندارد ← مجهول نمی‌شود."
   },
   {
    "id": "L2-g16",
    "t": "t2",
-   "type": "gap",
-   "q": "Die Geschäfte sind sehr hübsch ___ worden. (dekorieren)",
-   "a": [
-    "dekoriert"
+   "type": "mc",
+   "q": "In welchem Satz ist die Nennung des Agens überflüssig?",
+   "opts": [
+    "Das Rathaus wurde von einem berühmten Architekten entworfen.",
+    "Die Fahrkarten werden im Zug vom Kontrolleur kontrolliert.",
+    "Der Preis wurde vom Bürgermeister persönlich überreicht.",
+    "Das Konzept wurde von Studierenden der Universität erarbeitet."
    ],
-   "de": "Verben auf -ieren bilden das Partizip II ohne ge- → dekoriert.",
-   "fa": "فعل‌های ‎-ieren‎ اسم مفعول را بدون ge- می‌سازند ← dekoriert."
+   "a": 1,
+   "de": "Dass der Kontrolleur Fahrkarten kontrolliert, ist selbstverständlich – keine neue Information.",
+   "fa": "این‌که مأمور کنترل بلیت‌ها را بررسی می‌کند بدیهی است و اطلاع تازه‌ای نیست."
   },
   {
    "id": "L2-g17",
-   "t": "t3",
-   "type": "mc",
-   "q": "Die Pflanzen müssen jeden Tag ___.",
-   "opts": [
-    "gegossen werden",
-    "gegossen worden",
-    "werden gegossen",
-    "gießen werden"
+   "t": "t2",
+   "type": "gap",
+   "q": "Man diskutiert in der Stadt über neue Radwege. → In der Stadt ___ über neue Radwege diskutiert. (werden, Präsens)",
+   "a": [
+    "wird"
    ],
-   "a": 0,
-   "de": "Modalverb + Partizip II + werden (Infinitiv) am Ende.",
-   "fa": "فعل وجهی + Partizip II + werden (مصدر) در آخر جمله."
+   "de": "Unpersönliches Passiv ohne Subjekt: Verb immer 3. Person Singular → wird.",
+   "fa": "مجهولِ بدون فاعل: فعل همیشه سوم‌شخص مفرد است ← wird."
   },
   {
    "id": "L2-g18",
-   "t": "t3",
+   "t": "t2",
    "type": "mc",
-   "q": "Man kann Bäume zweimal im Jahr beschneiden. – Passiv:",
+   "q": "Der Verkehrslärm stört den Schlaf vieler Anwohner. – Passiv:",
    "opts": [
-    "Bäume werden zweimal im Jahr beschnitten können.",
-    "Bäume können zweimal im Jahr beschnitten werden.",
-    "Bäume können zweimal im Jahr beschnitten worden.",
-    "Bäume kann zweimal im Jahr beschnitten werden."
+    "Der Schlaf vieler Anwohner wird durch den Verkehrslärm gestört.",
+    "Der Schlaf vieler Anwohner wird durch dem Verkehrslärm gestört.",
+    "Der Schlaf vieler Anwohner wurde durch den Verkehrslärm gestört.",
+    "Vieler Anwohner wird der Schlaf durch den Verkehrslärm gestört."
    ],
-   "a": 1,
-   "de": "Subjekt im Plural (Bäume) → können; am Ende beschnitten werden.",
-   "fa": "فاعل جمع است (Bäume) ← können؛ در آخر beschnitten werden."
+   "a": 0,
+   "de": "Ursache mit durch + Akkusativ (den), die Zeitform Präsens muss erhalten bleiben.",
+   "fa": "علت با durch + Akkusativ (den) می‌آید و زمان حال باید حفظ شود."
   },
   {
    "id": "L2-g19",
    "t": "t3",
    "type": "mc",
-   "q": "Das baufällige Gebäude ___ abgerissen werden.",
+   "q": "Auf dem Dach der Parkgarage ___ Gemüse angebaut werden.",
    "opts": [
-    "wurde",
+    "kann",
+    "können",
     "ist",
-    "musste",
     "hat"
    ],
-   "a": 2,
-   "de": "Vor „abgerissen werden“ (Passiv-Infinitiv) steht ein Modalverb → musste.",
-   "fa": "قبل از «abgerissen werden» (مصدر مجهول) فعل وجهی لازم است ← musste."
+   "a": 0,
+   "de": "Vor dem Infinitiv Passiv steht ein Modalverb; Subjekt „Gemüse“ ist Singular → kann.",
+   "fa": "قبل از مصدر مجهول فعل وجهی لازم است؛ فاعل «Gemüse» مفرد است ← kann."
   },
   {
    "id": "L2-g20",
    "t": "t3",
    "type": "mc",
-   "q": "Welcher Nebensatz ist richtig?",
+   "q": "Die Pflanzen müssen bei Hitze täglich ___.",
    "opts": [
-    "…, dass die Fläche kann besser genutzt werden.",
-    "…, dass die Fläche besser genutzt kann werden.",
-    "…, dass die Fläche besser kann genutzt werden.",
-    "…, dass die Fläche besser genutzt werden kann."
+    "gegossen werden",
+    "gegossen worden",
+    "gießen werden",
+    "werden gegossen"
    ],
-   "a": 3,
-   "de": "Im Nebensatz steht das Modalverb ganz am Ende: genutzt werden kann.",
-   "fa": "در جمله‌ی وابسته فعل وجهی در آخرِ آخر می‌آید: genutzt werden kann."
+   "a": 0,
+   "de": "Nach dem Modalverb steht am Ende der Infinitiv Passiv: Partizip II + werden.",
+   "fa": "بعد از فعل وجهی، آخر جمله مصدر مجهول می‌آید: Partizip II + werden."
   },
   {
    "id": "L2-g21",
    "t": "t3",
-   "type": "gap",
-   "q": "Exotische Pflanzen dürfen nicht so oft gegossen ___.",
-   "a": [
-    "werden"
+   "type": "mc",
+   "q": "Man konnte das alte Kino nicht retten. – Passiv:",
+   "opts": [
+    "Das alte Kino konnte nicht gerettet werden.",
+    "Das alte Kino wurde nicht gerettet werden können.",
+    "Das alte Kino konnte nicht gerettet worden.",
+    "Das alte Kino kann nicht gerettet werden."
    ],
-   "de": "Passiv-Infinitiv nach Modalverb: Partizip II + werden.",
-   "fa": "بعد از فعل وجهی مصدر مجهول می‌آید: Partizip II + werden."
+   "a": 0,
+   "de": "Präteritum bleibt (konnte), am Ende Partizip II + werden; man fällt weg.",
+   "fa": "زمان گذشته حفظ می‌شود (konnte) و آخر جمله Partizip II + werden می‌آید؛ man حذف می‌شود."
   },
   {
    "id": "L2-g22",
    "t": "t3",
    "type": "gap",
-   "q": "Das Dach soll im Frühling ___ werden. (begrünen)",
+   "q": "Für den neuen Garten ___ zuerst Werkzeug gekauft werden. (müssen, Präteritum)",
    "a": [
-    "begrünt"
+    "musste"
    ],
-   "de": "Partizip II von begrünen → begrünt.",
-   "fa": "Partizip II فعل begrünen ← begrünt."
+   "de": "Nur das Modalverb steht im Präteritum; Subjekt „Werkzeug“ ist Singular → musste.",
+   "fa": "فقط فعل وجهی به گذشته می‌رود؛ فاعل «Werkzeug» مفرد است ← musste."
   },
   {
    "id": "L2-g23",
    "t": "t3",
+   "type": "mc",
+   "q": "Welcher Satz ist richtig? (Passiv mit Modalverb im Perfekt)",
+   "opts": [
+    "Die Halle hat abgerissen werden müssen.",
+    "Die Halle ist abgerissen werden müssen.",
+    "Die Halle hat abgerissen worden müssen.",
+    "Die Halle ist abgerissen worden müssen."
+   ],
+   "a": 0,
+   "de": "Perfekt mit Modalverb: haben + Partizip II + werden + Modalverb im Infinitiv.",
+   "fa": "ماضی نقلی با فعل وجهی: haben + Partizip II + werden + مصدر فعل وجهی."
+  },
+  {
+   "id": "L2-g24",
+   "t": "t3",
+   "type": "mc",
+   "q": "Die Wiese ist ein Naturschutzgebiet. Bauen ist dort verboten. → Auf der Wiese ___ nicht gebaut werden.",
+   "opts": [
+    "darf",
+    "muss",
+    "kann",
+    "will"
+   ],
+   "a": 0,
+   "de": "Verbot = nicht dürfen. „nicht müssen“ = nicht nötig, „nicht können“ = nicht möglich.",
+   "fa": "ممنوعیت = nicht dürfen. nicht müssen یعنی لازم نیست و nicht können یعنی ممکن نیست."
+  },
+  {
+   "id": "L2-g25",
+   "t": "t3",
+   "type": "mc",
+   "q": "„Der Rasen im Innenhof muss heute nicht gemäht werden.“ bedeutet:",
+   "opts": [
+    "Es ist nicht nötig, den Rasen heute zu mähen.",
+    "Es ist verboten, den Rasen heute zu mähen.",
+    "Der Rasen kann heute nicht gemäht werden.",
+    "Der Rasen ist heute schon gemäht worden."
+   ],
+   "a": 0,
+   "de": "„nicht müssen“ drückt aus, dass etwas nicht notwendig ist.",
+   "fa": "nicht müssen یعنی کاری لازم نیست، نه این‌که ممنوع باشد."
+  },
+  {
+   "id": "L2-g26",
+   "t": "t3",
    "type": "gap",
-   "q": "Das Problem ___ schnell gelöst werden. (können, Präteritum, Singular)",
+   "q": "Die alten Bäume im Park konnten zum Glück gerettet ___.",
+   "a": [
+    "werden"
+   ],
+   "de": "Infinitiv Passiv nach Modalverb: Partizip II + werden.",
+   "fa": "بعد از فعل وجهی مصدر مجهول می‌آید: Partizip II + werden."
+  },
+  {
+   "id": "L2-g27",
+   "t": "t3",
+   "type": "mc",
+   "q": "Man muss die Waschmaschine in der neuen Wohnung anschließen. – Passiv:",
+   "opts": [
+    "Die Waschmaschine muss in der neuen Wohnung angeschlossen werden.",
+    "Die Waschmaschine müssen in der neuen Wohnung angeschlossen werden.",
+    "Die Waschmaschine wird in der neuen Wohnung anschließen müssen.",
+    "Die Waschmaschine muss in der neuen Wohnung angeschlossen worden."
+   ],
+   "a": 0,
+   "de": "Modalverb bleibt (muss, Singular), am Ende Partizip II + werden.",
+   "fa": "فعل وجهی می‌ماند (muss، مفرد) و در آخر Partizip II + werden می‌آید."
+  },
+  {
+   "id": "L2-g28",
+   "t": "t4",
+   "type": "mc",
+   "q": "Ich frage mich, ob das alte Fabrikgebäude ___.",
+   "opts": [
+    "umgebaut werden kann",
+    "umgebaut kann werden",
+    "kann umgebaut werden",
+    "werden umgebaut kann"
+   ],
+   "a": 0,
+   "de": "Im Nebensatz: Partizip II + werden + konjugiertes Modalverb am Ende.",
+   "fa": "در جمله‌ی وابسته: Partizip II + werden و در آخر فعل وجهیِ صرف‌شده."
+  },
+  {
+   "id": "L2-g29",
+   "t": "t4",
+   "type": "mc",
+   "q": "Es fehlen Wohnungen, obwohl in den letzten Jahren viel ___.",
+   "opts": [
+    "gebaut wurde",
+    "wurde gebaut",
+    "gebaut worden",
+    "gebaut geworden ist"
+   ],
+   "a": 0,
+   "de": "Nach „obwohl“ steht das konjugierte Verb (wurde) am Ende.",
+   "fa": "بعد از obwohl فعل صرف‌شده (wurde) به آخر جمله می‌رود."
+  },
+  {
+   "id": "L2-g30",
+   "t": "t4",
+   "type": "mc",
+   "q": "Weißt du, wann unsere Stadt ___?",
+   "opts": [
+    "gegründet worden ist",
+    "gegründet ist worden",
+    "ist gegründet worden",
+    "worden gegründet ist"
+   ],
+   "a": 0,
+   "de": "Perfekt Passiv im Nebensatz: Partizip II + worden + ist.",
+   "fa": "ماضی نقلیِ مجهول در جمله‌ی وابسته: Partizip II + worden + ist."
+  },
+  {
+   "id": "L2-g31",
+   "t": "t4",
+   "type": "gap",
+   "q": "Das ist eine Frage, die bisher nicht beantwortet werden ___. (können, Präteritum)",
    "a": [
     "konnte"
    ],
-   "de": "Nur das Modalverb steht im Präteritum → konnte.",
-   "fa": "فقط فعل وجهی به گذشته می‌رود ← konnte."
+   "de": "Relativsatz: Modalverb im Präteritum ganz am Ende; Relativpronomen „die“ (Singular) → konnte.",
+   "fa": "جمله‌ی موصولی: فعل وجهی در گذشته‌ی ساده در آخرِ آخر؛ ضمیر die مفرد است ← konnte."
+  },
+  {
+   "id": "L2-g32",
+   "t": "t4",
+   "type": "mc",
+   "q": "Die Heizung muss repariert werden. → Vergiss nicht, …",
+   "opts": [
+    "dass die Heizung repariert werden muss.",
+    "dass die Heizung muss repariert werden.",
+    "dass die Heizung repariert muss werden.",
+    "dass muss die Heizung repariert werden."
+   ],
+   "a": 0,
+   "de": "Beim Umformen wandert das konjugierte Modalverb von Position 2 ans Ende.",
+   "fa": "هنگام تبدیل، فعل وجهیِ صرف‌شده از جایگاه دوم به آخر جمله منتقل می‌شود."
+  },
+  {
+   "id": "L2-g33",
+   "t": "t4",
+   "type": "mc",
+   "q": "Ein Vorteil der vertikalen Landwirtschaft ist, dass das Gemüse direkt in der Stadt ___.",
+   "opts": [
+    "verkauft werden kann",
+    "verkauft können werden",
+    "kann verkauft werden",
+    "verkauft worden kann"
+   ],
+   "a": 0,
+   "de": "dass-Satz mit Modalverb: Partizip II + werden + Modalverb.",
+   "fa": "جمله‌ی dass با فعل وجهی: Partizip II + werden + فعل وجهی."
+  },
+  {
+   "id": "L2-g34",
+   "t": "t4",
+   "type": "mc",
+   "q": "Nachdem die Baupläne ___, konnten die Arbeiten beginnen.",
+   "opts": [
+    "genehmigt worden waren",
+    "genehmigt waren worden",
+    "waren genehmigt worden",
+    "genehmigt geworden waren"
+   ],
+   "a": 0,
+   "de": "Plusquamperfekt Passiv im Nebensatz: Partizip II + worden + waren.",
+   "fa": "ماضی بعیدِ مجهول در جمله‌ی وابسته: Partizip II + worden + waren."
+  },
+  {
+   "id": "L2-g35",
+   "t": "t4",
+   "type": "mc",
+   "q": "Welcher Nebensatz ist richtig? (Passiv mit Modalverb im Perfekt – sehr selten)",
+   "opts": [
+    "…, dass die Halle hat abgerissen werden müssen.",
+    "…, dass die Halle abgerissen werden müssen hat.",
+    "…, dass die Halle hat abgerissen worden müssen.",
+    "…, dass die Halle abgerissen worden müssen hat."
+   ],
+   "a": 0,
+   "de": "Sonderfall: Bei drei Verbformen steht „hat“ im Nebensatz vor den anderen Verben.",
+   "fa": "حالت استثنا: وقتی سه فعل در انتها داریم، hat در جمله‌ی وابسته قبل از بقیه‌ی فعل‌ها می‌آید."
+  },
+  {
+   "id": "L2-g36",
+   "t": "t4",
+   "type": "gap",
+   "q": "Der Park, der im letzten Sommer eröffnet ___, ist schon sehr beliebt. (werden, Präteritum)",
+   "a": [
+    "wurde"
+   ],
+   "de": "Relativsatz: konjugiertes Verb am Ende; Präteritum Singular → wurde.",
+   "fa": "جمله‌ی موصولی: فعل صرف‌شده در آخر؛ گذشته‌ی ساده‌ی مفرد ← wurde."
+  },
+  {
+   "id": "L2-g37",
+   "t": "t5",
+   "type": "mc",
+   "q": "Wie heißt das Kompositum aus „groß“ + „die Stadt“?",
+   "opts": [
+    "die Großstadt",
+    "die Großestadt",
+    "das Großstadt",
+    "die groß Stadt"
+   ],
+   "a": 0,
+   "de": "Adjektiv ohne Endung, zusammen und groß geschrieben; Artikel vom Grundwort (die Stadt).",
+   "fa": "صفت بدون پسوند، سرهم و با حرف بزرگ؛ حرف تعریف از کلمه‌ی آخر (die Stadt) می‌آید."
+  },
+  {
+   "id": "L2-g38",
+   "t": "t5",
+   "type": "mc",
+   "q": "Ein sehr hohes Gebäude mit vielen Etagen ist ein ___.",
+   "opts": [
+    "Hochhaus",
+    "Hohehaus",
+    "Hochhäuser",
+    "Hohhaus"
+   ],
+   "a": 0,
+   "de": "Im Kompositum bleibt die Grundform „hoch“ → das Hochhaus (Singular nach „ein“).",
+   "fa": "در کلمه‌ی مرکب شکل ساده‌ی hoch می‌ماند ← das Hochhaus (بعد از ein مفرد لازم است)."
+  },
+  {
+   "id": "L2-g39",
+   "t": "t5",
+   "type": "gap",
+   "q": "Unter dem Einkaufszentrum gibt es eine ___ mit 500 Parkplätzen. (tief + Garage)",
+   "a": [
+    "Tiefgarage"
+   ],
+   "de": "tief + die Garage = die Tiefgarage (zusammen, groß).",
+   "fa": "tief + die Garage = die Tiefgarage (سرهم و با حرف بزرگ)."
+  },
+  {
+   "id": "L2-g40",
+   "t": "t5",
+   "type": "mc",
+   "q": "Welcher Artikel ist richtig? ___ Innenhof (Nominativ)",
+   "opts": [
+    "der",
+    "die",
+    "das",
+    "dem"
+   ],
+   "a": 0,
+   "de": "Das Grundwort „der Hof“ bestimmt den Artikel → der Innenhof.",
+   "fa": "کلمه‌ی پایه der Hof حرف تعریف را تعیین می‌کند ← der Innenhof."
+  },
+  {
+   "id": "L2-g41",
+   "t": "t5",
+   "type": "mc",
+   "q": "Was bedeutet „Kleingeld“?",
+   "opts": [
+    "Münzen, die man z. B. für einen Automaten braucht",
+    "ein sehr niedriges Gehalt",
+    "Taschengeld für Kinder",
+    "ein Kredit für kleine Firmen"
+   ],
+   "a": 0,
+   "de": "Komposita sind oft feste Begriffe: Kleingeld = Münzen, nicht „wenig Geld“.",
+   "fa": "کلمه‌های مرکب اغلب معنی ثابتی دارند: Kleingeld یعنی پول خرد و سکه، نه «پول کم»."
+  },
+  {
+   "id": "L2-g42",
+   "t": "t5",
+   "type": "mc",
+   "q": "Wo liegt der Wortakzent in „Innenstadt“?",
+   "opts": [
+    "auf „In-“",
+    "auf „-nen-“",
+    "auf „-stadt“",
+    "alle Silben gleich stark"
+   ],
+   "a": 0,
+   "de": "Bei Komposita ist meist das Bestimmungswort (erster Teil) betont: INnenstadt.",
+   "fa": "در کلمه‌های مرکب معمولاً بخش اول تکیه دارد: INnenstadt."
   }
  ]
 });

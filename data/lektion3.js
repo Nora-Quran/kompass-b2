@@ -26,6 +26,10 @@
   {
    "id": "F",
    "title": "Themenwortschatz: Lügen, Betrug und Vertrauen"
+  },
+  {
+   "id": "T",
+   "title": "Wörter aus den Buchtexten"
   }
  ],
  "cards": [
@@ -5539,69 +5543,4112 @@
      "به‌موقع پرداخت کردن"
     ]
    ]
+  },
+  {
+   "id": "L3-257",
+   "s": "T",
+   "w": "jdm. weh tun",
+   "fa": "به کسی آسیب زدن، کسی را رنجاندن",
+   "syn": "jdn. verletzen, jdn. kränken",
+   "de": "Viele Menschen schwindeln aus Rücksicht, weil sie ihren Freunden nicht weh tun wollen.",
+   "fas": "خیلی‌ها از روی ملاحظه دروغ می‌گویند، چون نمی‌خواهند دوستانشان را برنجانند.",
+   "_t": 1,
+   "c": [
+    [
+     "jdm. seelisch weh tun",
+     "کسی را از نظر روحی آزردن"
+    ],
+    [
+     "das tut mir weh",
+     "این مرا می‌رنجاند"
+    ],
+    [
+     "niemandem weh tun wollen",
+     "نخواستن کسی را برنجاند"
+    ]
+   ]
+  },
+  {
+   "id": "L3-258",
+   "s": "T",
+   "w": "der Erzieher, - / die Erzieherin, -nen",
+   "fa": "مربی (مهدکودک)",
+   "syn": "der Kindergärtner, die pädagogische Fachkraft",
+   "de": "Die Erzieherin lobt jedes Bild, damit die Kinder motiviert bleiben.",
+   "fas": "مربی هر نقاشی را تحسین می‌کند تا بچه‌ها باانگیزه بمانند.",
+   "_t": 1,
+   "c": [
+    [
+     "als Erzieherin arbeiten",
+     "به‌عنوان مربی کار کردن"
+    ],
+    [
+     "die Erzieherin im Kindergarten",
+     "مربی مهدکودک"
+    ],
+    [
+     "eine Ausbildung zum Erzieher",
+     "دوره‌ی آموزش مربی‌گری"
+    ]
+   ]
+  },
+  {
+   "id": "L3-259",
+   "s": "T",
+   "w": "dagegen (Verbindungsadverb)",
+   "fa": "در مقابل، برعکس",
+   "syn": "hingegen, im Gegensatz dazu",
+   "de": "Männer übertreiben oft ihre Erfolge, Frauen spielen dagegen eher ihre Schwächen herunter.",
+   "fas": "مردها اغلب در موفقیت‌هایشان اغراق می‌کنند، در مقابل زن‌ها بیشتر ضعف‌هایشان را کم‌رنگ جلوه می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "ich dagegen",
+     "من برعکس"
+    ],
+    [
+     "dagegen spricht, dass …",
+     "در مخالفت با آن این است که …"
+    ],
+    [
+     "im Vergleich dagegen",
+     "در مقایسه با آن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-260",
+   "s": "T",
+   "w": "hingegen",
+   "fa": "در عوض، در حالی که، برعکس",
+   "syn": "dagegen, jedoch",
+   "de": "Kleine Kinder lügen ungeschickt, Erwachsene hingegen manipulieren oft sehr geschickt.",
+   "fas": "بچه‌های کوچک ناشیانه دروغ می‌گویند، در عوض بزرگسالان اغلب خیلی ماهرانه دیگران را بازی می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "er hingegen",
+     "او در عوض"
+    ],
+    [
+     "hier hingegen",
+     "اما اینجا"
+    ],
+    [
+     "ganz im Gegensatz hingegen",
+     "کاملاً برعکس"
+    ]
+   ]
+  },
+  {
+   "id": "L3-261",
+   "s": "T",
+   "w": "im Gegensatz zu + D",
+   "fa": "برخلافِ، در تضاد با",
+   "syn": "anders als, im Unterschied zu",
+   "de": "Im Gegensatz zu Tieren können Menschen ganz bewusst lügen.",
+   "fas": "برخلاف حیوانات، انسان‌ها می‌توانند کاملاً آگاهانه دروغ بگویند.",
+   "_t": 1,
+   "c": [
+    [
+     "im Gegensatz dazu",
+     "برخلاف آن"
+    ],
+    [
+     "im Gegensatz zu früher",
+     "برخلاف گذشته"
+    ],
+    [
+     "ganz im Gegensatz zu",
+     "کاملاً برخلافِ"
+    ]
+   ]
+  },
+  {
+   "id": "L3-262",
+   "s": "T",
+   "w": "im Unterschied zu + D",
+   "fa": "به تفاوت با، برخلافِ",
+   "syn": "im Gegensatz zu, anders als",
+   "de": "Im Unterschied zu Erwachsenen geben Kinder ihre Lügen oft schnell zu.",
+   "fas": "برخلاف بزرگسالان، بچه‌ها اغلب زود به دروغشان اعتراف می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "im Unterschied dazu",
+     "برخلاف آن"
+    ],
+    [
+     "im Unterschied zum Vorjahr",
+     "در مقایسه با سال گذشته"
+    ],
+    [
+     "im Unterschied zu anderen",
+     "برخلاف دیگران"
+    ]
+   ]
+  },
+  {
+   "id": "L3-263",
+   "s": "T",
+   "w": "der Unterschied, -e (ein ~ besteht darin, dass …)",
+   "fa": "تفاوت (تفاوت در این است که …)",
+   "syn": "die Differenz, die Abweichung",
+   "de": "Ein wichtiger Unterschied besteht darin, dass Notlügen niemandem schaden sollen.",
+   "fas": "یک تفاوت مهم در این است که دروغ‌های مصلحتی قرار نیست به کسی آسیب بزنند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Unterschied machen",
+     "فرق ایجاد کردن"
+    ],
+    [
+     "ein auffälliger Unterschied",
+     "تفاوتی چشمگیر"
+    ],
+    [
+     "Unterschiede zwischen den Geschlechtern",
+     "تفاوت‌های میان دو جنس"
+    ]
+   ]
+  },
+  {
+   "id": "L3-264",
+   "s": "T",
+   "w": "das Kompliment, -e",
+   "fa": "تعریف، تمجید",
+   "syn": "das Lob, die Schmeichelei",
+   "de": "Viele Leute machen ein Kompliment, auch wenn sie es nicht ehrlich meinen.",
+   "fas": "خیلی‌ها تعریف می‌کنند، حتی اگر از ته دل نباشد.",
+   "_t": 1,
+   "c": [
+    [
+     "jdm. ein Kompliment machen",
+     "از کسی تعریف کردن"
+    ],
+    [
+     "ein ehrliches Kompliment",
+     "تعریفی صادقانه"
+    ],
+    [
+     "Komplimente verteilen",
+     "تعریف و تمجید کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-265",
+   "s": "T",
+   "w": "das Sprichwort, ¨-er",
+   "fa": "ضرب‌المثل",
+   "syn": "die Redensart, die Volksweisheit",
+   "de": "Ein bekanntes Sprichwort sagt, dass Lügen kurze Beine haben.",
+   "fas": "یک ضرب‌المثل معروف می‌گوید که دروغ پای کوتاهی دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein altes Sprichwort",
+     "ضرب‌المثلی قدیمی"
+    ],
+    [
+     "wie das Sprichwort sagt",
+     "همان‌طور که ضرب‌المثل می‌گوید"
+    ],
+    [
+     "ein deutsches Sprichwort",
+     "ضرب‌المثلی آلمانی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-266",
+   "s": "T",
+   "w": "Ehrlich währt am längsten.",
+   "fa": "صداقت بیشترین دوام را دارد؛ راستی رستگاری است",
+   "syn": "Ehrlichkeit zahlt sich aus",
+   "de": "Meine Oma sagte immer: „Ehrlich währt am längsten“, und sie hatte recht.",
+   "fas": "مادربزرگم همیشه می‌گفت «راستی رستگاری است» و حق داشت.",
+   "_t": 1,
+   "c": [
+    [
+     "nach dem Motto „Ehrlich währt am längsten“",
+     "با این شعار که صداقت ماندگار است"
+    ],
+    [
+     "daran glauben, dass ehrlich am längsten währt",
+     "به ماندگاری صداقت باور داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-267",
+   "s": "T",
+   "w": "ab und zu",
+   "fa": "گاهی، هرازگاهی",
+   "syn": "manchmal, gelegentlich",
+   "de": "Ich behaupte, sportlich zu sein, aber ich gehe nur ab und zu joggen.",
+   "fas": "ادعا می‌کنم ورزشکارم، اما فقط هرازگاهی می‌روم دویدن.",
+   "_t": 1,
+   "c": [
+    [
+     "nur ab und zu",
+     "فقط گاه‌گاهی"
+    ],
+    [
+     "ab und zu schwindeln",
+     "گاهی دروغ کوچک گفتن"
+    ],
+    [
+     "ab und zu vorbeikommen",
+     "هرازگاهی سر زدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-268",
+   "s": "T",
+   "w": "betonen",
+   "fa": "تأکید کردن",
+   "syn": "hervorheben, unterstreichen",
+   "de": "Er betont gern, wie gesund er lebt, doch abends isst er Chips.",
+   "fas": "او دوست دارد تأکید کند که چقدر سالم زندگی می‌کند، اما شب‌ها چیپس می‌خورد.",
+   "_t": 1,
+   "c": [
+    [
+     "ausdrücklich betonen",
+     "صریحاً تأکید کردن"
+    ],
+    [
+     "ein Wort betonen",
+     "روی یک کلمه تکیه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-269",
+   "s": "T",
+   "w": "zuordnen + D",
+   "fa": "(به چیزی) نسبت دادن، مرتبط کردن، دسته‌بندی کردن",
+   "syn": "zuweisen, einordnen",
+   "de": "Welche Begriffe würdest du eher der Lüge und welche dem Betrug zuordnen?",
+   "fas": "کدام اصطلاحات را بیشتر به دروغ و کدام را به کلاه‌برداری نسبت می‌دهی؟",
+   "_t": 1,
+   "c": [
+    [
+     "Überschriften zuordnen",
+     "عنوان‌ها را جور کردن"
+    ],
+    [
+     "etw. einer Kategorie zuordnen",
+     "چیزی را در یک دسته قرار دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-270",
+   "s": "T",
+   "w": "klappen",
+   "fa": "جور شدن، درست از آب درآمدن",
+   "syn": "gelingen, funktionieren",
+   "de": "Sie wollte die Stelle unbedingt, aber leider hat es mit der Bewerbung nicht geklappt.",
+   "fas": "او واقعاً آن شغل را می‌خواست، اما متأسفانه درخواستش جور نشد.",
+   "_t": 1,
+   "c": [
+    [
+     "es hat geklappt",
+     "جور شد"
+    ],
+    [
+     "gut klappen",
+     "خوب پیش رفتن"
+    ],
+    [
+     "auf Anhieb klappen",
+     "همان بار اول جواب دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-271",
+   "s": "T",
+   "w": "schimpfen über + A",
+   "fa": "غر زدن (درباره‌ی)، بد گفتن (از)",
+   "syn": "meckern, sich beschweren über",
+   "de": "Im Büro lächelt er, aber zu Hause schimpft er ständig über seine Kollegen.",
+   "fas": "در اداره لبخند می‌زند، اما در خانه مدام از همکارانش بد می‌گوید.",
+   "_t": 1,
+   "c": [
+    [
+     "laut schimpfen",
+     "بلند غر زدن"
+    ],
+    [
+     "über den Chef schimpfen",
+     "از رئیس بد گفتن"
+    ],
+    [
+     "mit jdm. schimpfen",
+     "سر کسی غر زدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-272",
+   "s": "T",
+   "w": "ärgern",
+   "fa": "اذیت کردن، عصبانی کردن؛ (sich ~) عصبانی شدن",
+   "syn": "reizen, nerven",
+   "de": "Der Junge ärgert in der Pause die ganze Klasse mit seinen Streichen.",
+   "fas": "آن پسر در زنگ تفریح با شیطنت‌هایش کل کلاس را اذیت می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "sich ärgern über + A",
+     "از چیزی عصبانی شدن"
+    ],
+    [
+     "jdn. absichtlich ärgern",
+     "کسی را عمداً اذیت کردن"
+    ],
+    [
+     "sich schwarz ärgern",
+     "حسابی حرص خوردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-273",
+   "s": "T",
+   "w": "sich (D) etw. ausdenken",
+   "fa": "(چیزی را) از خود درآوردن، سرهم کردن",
+   "syn": "erfinden, sich überlegen",
+   "de": "Wer oft zu spät kommt, muss sich immer neue Ausreden ausdenken.",
+   "fas": "کسی که اغلب دیر می‌آید، باید مدام بهانه‌های تازه از خودش دربیاورد.",
+   "_t": 1,
+   "c": [
+    [
+     "sich eine Ausrede ausdenken",
+     "بهانه‌ای سرهم کردن"
+    ],
+    [
+     "sich eine Geschichte ausdenken",
+     "داستانی از خود ساختن"
+    ],
+    [
+     "frei ausgedacht",
+     "کاملاً ساختگی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-274",
+   "s": "T",
+   "w": "die Selbstlüge, -n",
+   "fa": "دروغ به خود، خودفریبی",
+   "syn": "der Selbstbetrug, die Selbsttäuschung",
+   "de": "Die Selbstlüge hilft uns, unangenehme Wahrheiten über uns selbst zu ertragen.",
+   "fas": "دروغ به خود کمک می‌کند حقیقت‌های ناخوشایند درباره‌ی خودمان را تحمل کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "eine bequeme Selbstlüge",
+     "دروغی راحت به خود"
+    ],
+    [
+     "die Selbstlüge durchschauen",
+     "دروغ به خود را تشخیص دادن"
+    ],
+    [
+     "in Selbstlügen leben",
+     "با خودفریبی زندگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-275",
+   "s": "T",
+   "w": "die Statuslüge, -n",
+   "fa": "دروغ برای پز دادن، دروغ برای کسب جایگاه",
+   "syn": "die Angeberei, die Prahlerei",
+   "de": "Wer bei Erlebnissen übertreibt, um bewundert zu werden, erzählt eine typische Statuslüge.",
+   "fas": "کسی که برای تحسین‌شدن در تعریف تجربه‌هایش اغراق می‌کند، دروغی معمولی برای پز دادن می‌گوید.",
+   "_t": 1,
+   "c": [
+    [
+     "eine typische Statuslüge",
+     "دروغ پز دادنِ رایج"
+    ],
+    [
+     "Statuslügen im Beruf",
+     "دروغ‌های جایگاهی در کار"
+    ],
+    [
+     "zu Statuslügen neigen",
+     "به دروغ پز دادن تمایل داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-276",
+   "s": "T",
+   "w": "rücksichtslos",
+   "fa": "بی‌ملاحظه، بی‌رحم",
+   "syn": "egoistisch, skrupellos",
+   "de": "Wer nur an seinen Erfolg denkt und anderen schadet, handelt rücksichtslos.",
+   "fas": "کسی که فقط به موفقیت خودش فکر می‌کند و به دیگران آسیب می‌زند، بی‌ملاحظه رفتار می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "rücksichtslos handeln",
+     "بی‌ملاحظه رفتار کردن"
+    ],
+    [
+     "ein rücksichtsloser Mensch",
+     "آدمی بی‌ملاحظه"
+    ],
+    [
+     "rücksichtslos fahren",
+     "بی‌احتیاط رانندگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-277",
+   "s": "T",
+   "w": "unangenehm",
+   "fa": "ناخوشایند، ناراحت‌کننده",
+   "syn": "peinlich, lästig",
+   "de": "Manche Menschen lügen, um unangenehmen Gesprächen mit ihrem Chef aus dem Weg zu gehen.",
+   "fas": "بعضی‌ها دروغ می‌گویند تا از گفت‌وگوهای ناخوشایند با رئیسشان فرار کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine unangenehme Situation",
+     "موقعیتی ناخوشایند"
+    ],
+    [
+     "jdm. unangenehm sein",
+     "برای کسی ناخوشایند بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-278",
+   "s": "T",
+   "w": "etw. unter Kontrolle haben",
+   "fa": "چیزی را تحت کنترل داشتن",
+   "syn": "etw. beherrschen, etw. im Griff haben",
+   "de": "Durch kleine Selbstlügen glauben wir, unser Leben unter Kontrolle zu haben.",
+   "fas": "با دروغ‌های کوچک به خود، فکر می‌کنیم زندگی‌مان را تحت کنترل داریم.",
+   "_t": 1,
+   "c": [
+    [
+     "die Lage unter Kontrolle haben",
+     "اوضاع را در دست داشتن"
+    ],
+    [
+     "unter Kontrolle bringen",
+     "تحت کنترل درآوردن"
+    ],
+    [
+     "außer Kontrolle geraten",
+     "از کنترل خارج شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-279",
+   "s": "T",
+   "w": "erröten",
+   "fa": "سرخ شدن (از خجالت)",
+   "syn": "rot werden",
+   "de": "Kleine Kinder erröten oft, wenn sie bei einer Lüge ertappt werden.",
+   "fas": "بچه‌های کوچک اغلب وقتی سر دروغی گیر می‌افتند، سرخ می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "vor Scham erröten",
+     "از شرم سرخ شدن"
+    ],
+    [
+     "leicht erröten",
+     "زود سرخ شدن"
+    ],
+    [
+     "ohne zu erröten",
+     "بی‌آنکه سرخ شود"
+    ]
+   ]
+  },
+  {
+   "id": "L3-280",
+   "s": "T",
+   "w": "erneuern",
+   "fa": "تجدید کردن، نو کردن",
+   "syn": "wiederherstellen, auffrischen",
+   "de": "Wenn das Vertrauen einmal verloren ist, lässt es sich nur schwer erneuern.",
+   "fas": "وقتی اعتماد یک بار از دست برود، به‌سختی می‌شود دوباره آن را برقرار کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "das Vertrauen erneuern",
+     "اعتماد را از نو ساختن"
+    ],
+    [
+     "einen Vertrag erneuern",
+     "قراردادی را تمدید کردن"
+    ],
+    [
+     "die Freundschaft erneuern",
+     "دوستی را تازه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-281",
+   "s": "T",
+   "w": "der Klatsch (nur Sg.)",
+   "fa": "شایعه، غیبت، حرف مردم",
+   "syn": "der Tratsch, das Gerede",
+   "de": "Im Büro verbreitet sich Klatsch oft schneller als die offiziellen Informationen.",
+   "fas": "در اداره شایعه اغلب سریع‌تر از اطلاعات رسمی پخش می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "Klatsch und Tratsch",
+     "غیبت و شایعه"
+    ],
+    [
+     "der neueste Klatsch",
+     "تازه‌ترین شایعه"
+    ],
+    [
+     "Klatsch verbreiten",
+     "شایعه پخش کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-282",
+   "s": "T",
+   "w": "authentisch",
+   "fa": "واقعی، اصیل، بی‌ریا",
+   "syn": "echt, glaubwürdig",
+   "de": "Wer stabile Freundschaften möchte, sollte ehrlich und authentisch auftreten.",
+   "fas": "کسی که دوستی‌های پایدار می‌خواهد، باید صادق و بی‌ریا رفتار کند.",
+   "_t": 1,
+   "c": [
+    [
+     "authentisch wirken",
+     "واقعی به نظر رسیدن"
+    ],
+    [
+     "authentisch bleiben",
+     "خود واقعی ماندن"
+    ],
+    [
+     "eine authentische Person",
+     "آدمی بی‌ریا"
+    ]
+   ]
+  },
+  {
+   "id": "L3-283",
+   "s": "T",
+   "w": "jdm. Vertrauen schenken",
+   "fa": "به کسی اعتماد کردن",
+   "syn": "jdm. vertrauen, jdm. glauben",
+   "de": "Nach seiner Lüge fällt es mir schwer, ihm wieder Vertrauen zu schenken.",
+   "fas": "بعد از دروغش، برایم سخت است دوباره به او اعتماد کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "jdm. volles Vertrauen schenken",
+     "به کسی کاملاً اعتماد کردن"
+    ],
+    [
+     "das Vertrauen verlieren",
+     "اعتماد را از دست دادن"
+    ],
+    [
+     "Vertrauen aufbauen",
+     "اعتماد ساختن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-284",
+   "s": "T",
+   "w": "der Freundeskreis, -e",
+   "fa": "جمع دوستان، حلقه‌ی دوستان",
+   "syn": "der Bekanntenkreis, die Clique",
+   "de": "Wer seinen Freundeskreis erweitern möchte, sollte offen auf andere zugehen.",
+   "fas": "کسی که می‌خواهد جمع دوستانش را گسترش دهد، باید با روی باز با دیگران برخورد کند.",
+   "_t": 1,
+   "c": [
+    [
+     "im Freundeskreis",
+     "در جمع دوستان"
+    ],
+    [
+     "den Freundeskreis erweitern",
+     "حلقه‌ی دوستان را گسترش دادن"
+    ],
+    [
+     "ein großer Freundeskreis",
+     "جمع دوستانی بزرگ"
+    ]
+   ]
+  },
+  {
+   "id": "L3-285",
+   "s": "T",
+   "w": "betragen",
+   "fa": "بالغ شدن بر، بودن (مقدار)",
+   "syn": "ausmachen, sich belaufen auf",
+   "de": "Die Zustimmung zu dieser Art von Lüge beträgt bei Männern etwa vierzig Prozent.",
+   "fas": "میزان موافقت با این نوع دروغ در میان مردان حدود چهل درصد است.",
+   "_t": 1,
+   "c": [
+    [
+     "der Anteil beträgt …",
+     "سهم … است"
+    ],
+    [
+     "die Kosten betragen …",
+     "هزینه‌ها بالغ بر … است"
+    ],
+    [
+     "insgesamt betragen",
+     "در مجموع بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-286",
+   "s": "T",
+   "w": "die Gemeinsamkeit, -en",
+   "fa": "وجه اشتراک، شباهت",
+   "syn": "die Übereinstimmung, die Ähnlichkeit",
+   "de": "Bei Notlügen für Freunde gibt es eine große Gemeinsamkeit zwischen Männern und Frauen.",
+   "fas": "در دروغ‌های مصلحتی برای دوستان، میان زنان و مردان وجه اشتراک بزرگی وجود دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "Gemeinsamkeiten haben",
+     "نقاط مشترک داشتن"
+    ],
+    [
+     "Gemeinsamkeiten und Unterschiede",
+     "شباهت‌ها و تفاوت‌ها"
+    ],
+    [
+     "eine wichtige Gemeinsamkeit",
+     "یک شباهت مهم"
+    ]
+   ]
+  },
+  {
+   "id": "L3-287",
+   "s": "T",
+   "w": "die Bestrafung, -en",
+   "fa": "تنبیه، مجازات",
+   "syn": "die Strafe, die Sanktion",
+   "de": "Viele Kinder lügen aus Angst vor einer Bestrafung durch ihre Eltern.",
+   "fas": "بسیاری از بچه‌ها از ترس تنبیه پدر و مادرشان دروغ می‌گویند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Bestrafung vermeiden",
+     "از تنبیه فرار کردن"
+    ],
+    [
+     "eine harte Bestrafung",
+     "مجازاتی سخت"
+    ],
+    [
+     "aus Angst vor Bestrafung",
+     "از ترس مجازات"
+    ]
+   ]
+  },
+  {
+   "id": "L3-288",
+   "s": "T",
+   "w": "bestätigen",
+   "fa": "تأیید کردن",
+   "syn": "bekräftigen, belegen",
+   "de": "Andere Studien bestätigen, dass Männer eher zum Lügen bereit sind.",
+   "fas": "تحقیقات دیگر تأیید می‌کنند که مردان آمادگی بیشتری برای دروغ گفتن دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Termin bestätigen",
+     "وقتی را تأیید کردن"
+    ],
+    [
+     "eine Vermutung bestätigen",
+     "حدسی را تأیید کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-289",
+   "s": "T",
+   "w": "zugeben",
+   "fa": "اعتراف کردن، پذیرفتن",
+   "syn": "eingestehen, einräumen",
+   "de": "Es fällt vielen Erwachsenen schwer zuzugeben, dass sie etwas vergessen haben.",
+   "fas": "برای خیلی از بزرگسالان سخت است بپذیرند که چیزی را فراموش کرده‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Fehler zugeben",
+     "به اشتباهی اعتراف کردن"
+    ],
+    [
+     "offen zugeben",
+     "رک اعتراف کردن"
+    ],
+    [
+     "ungern zugeben",
+     "با اکراه پذیرفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-290",
+   "s": "T",
+   "w": "gegenüberstellen",
+   "fa": "مقایسه کردن، در برابر هم قرار دادن",
+   "syn": "vergleichen, kontrastieren",
+   "de": "Im Referat stellen wir das Verhalten von Kindern und Erwachsenen einander gegenüber.",
+   "fas": "در ارائه، رفتار کودکان و بزرگسالان را با هم مقایسه می‌کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "einander gegenüberstellen",
+     "در برابر هم گذاشتن"
+    ],
+    [
+     "Vor- und Nachteile gegenüberstellen",
+     "مزایا و معایب را مقایسه کردن"
+    ],
+    [
+     "Positionen gegenüberstellen",
+     "دیدگاه‌ها را مقایسه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-291",
+   "s": "T",
+   "w": "schmerzhaft",
+   "fa": "دردناک",
+   "syn": "qualvoll, verletzend",
+   "de": "Eine Lüge kann verletzen, doch manchmal ist die Wahrheit noch viel schmerzhafter.",
+   "fas": "دروغ می‌تواند آزار بدهد، اما گاهی حقیقت خیلی دردناک‌تر است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine schmerzhafte Erfahrung",
+     "تجربه‌ای دردناک"
+    ],
+    [
+     "schmerzhaft sein",
+     "دردناک بودن"
+    ],
+    [
+     "schmerzhafte Erkenntnis",
+     "واقعیتی تلخ"
+    ]
+   ]
+  },
+  {
+   "id": "L3-292",
+   "s": "T",
+   "w": "fähig sein zu + D",
+   "fa": "توانایی (کاری را) داشتن",
+   "syn": "in der Lage sein, imstande sein",
+   "de": "Kleine Kinder sind noch nicht fähig zu einer geschickten Manipulation.",
+   "fas": "بچه‌های کوچک هنوز توانایی بازی دادنِ ماهرانه را ندارند.",
+   "_t": 1,
+   "c": [
+    [
+     "zu allem fähig sein",
+     "از هر کاری برآمدن"
+    ],
+    [
+     "dazu nicht fähig sein",
+     "توانش را نداشتن"
+    ],
+    [
+     "fähig sein, etw. zu tun",
+     "قادر بودن کاری انجام دهد"
+    ]
+   ]
+  },
+  {
+   "id": "L3-293",
+   "s": "T",
+   "w": "geschickt",
+   "fa": "ماهرانه، زرنگ",
+   "syn": "gewandt, raffiniert",
+   "de": "Gute Lügner lenken das Gespräch geschickt auf ein anderes Thema.",
+   "fas": "دروغگوهای ماهر گفت‌وگو را ماهرانه به موضوع دیگری می‌کشانند.",
+   "_t": 1,
+   "c": [
+    [
+     "geschickt vorgehen",
+     "زیرکانه عمل کردن"
+    ],
+    [
+     "geschickt argumentieren",
+     "ماهرانه استدلال کردن"
+    ],
+    [
+     "sich geschickt anstellen",
+     "زرنگی به خرج دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-294",
+   "s": "T",
+   "w": "ungenau",
+   "fa": "نادقیق، مبهم",
+   "syn": "unpräzise, vage",
+   "de": "Wahre Aussagen sind oft ungenau, während Lügen bis ins Detail vorbereitet sind.",
+   "fas": "گفته‌های راست اغلب نادقیق‌اند، در حالی که دروغ‌ها تا جزئیات آماده شده‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "ungenaue Angaben",
+     "اطلاعات نادقیق"
+    ],
+    [
+     "ungenau arbeiten",
+     "بی‌دقت کار کردن"
+    ],
+    [
+     "eher ungenau",
+     "نسبتاً مبهم"
+    ]
+   ]
+  },
+  {
+   "id": "L3-295",
+   "s": "T",
+   "w": "zusammenbrechen",
+   "fa": "قطع شدن، از کار افتادن؛ فروپاشیدن",
+   "syn": "ausfallen, zusammenfallen",
+   "de": "Während des Videoanrufs bricht die Internetverbindung ständig zusammen.",
+   "fas": "در طول تماس تصویری، اتصال اینترنت مدام قطع می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "die Verbindung bricht zusammen",
+     "ارتباط قطع می‌شود"
+    ],
+    [
+     "das System bricht zusammen",
+     "سیستم از کار می‌افتد"
+    ],
+    [
+     "vor Erschöpfung zusammenbrechen",
+     "از خستگی از پا افتادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-296",
+   "s": "T",
+   "w": "sich fortpflanzen",
+   "fa": "تولیدمثل کردن",
+   "syn": "sich vermehren, Nachkommen zeugen",
+   "de": "Viele Tiere nutzen Tricks, um sich erfolgreich fortpflanzen zu können.",
+   "fas": "بسیاری از حیوانات از ترفندها استفاده می‌کنند تا بتوانند با موفقیت تولیدمثل کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "sich schnell fortpflanzen",
+     "سریع تولیدمثل کردن"
+    ],
+    [
+     "sich erfolgreich fortpflanzen",
+     "با موفقیت تولیدمثل کردن"
+    ],
+    [
+     "sich nicht fortpflanzen können",
+     "نتوانستن تولیدمثل کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-297",
+   "s": "T",
+   "w": "überleben",
+   "fa": "زنده ماندن، جان سالم به در بردن",
+   "syn": "am Leben bleiben, durchkommen",
+   "de": "Manche Käfer stellen sich tot, um einen Angriff zu überleben.",
+   "fas": "بعضی سوسک‌ها خود را به مردن می‌زنند تا از حمله جان سالم به در ببرند.",
+   "_t": 1,
+   "c": [
+    [
+     "das Überleben sichern",
+     "بقا را تضمین کردن"
+    ],
+    [
+     "knapp überleben",
+     "به‌زحمت زنده ماندن"
+    ],
+    [
+     "ums Überleben kämpfen",
+     "برای بقا جنگیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-298",
+   "s": "T",
+   "w": "die Bedrohung, -en",
+   "fa": "تهدید",
+   "syn": "die Gefahr, die Gefährdung",
+   "de": "Für kleine Vögel stellt eine Katze im Garten eine große Bedrohung dar.",
+   "fas": "برای پرندگان کوچک، گربه در باغ تهدیدی بزرگ است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Bedrohung darstellen",
+     "تهدید به شمار رفتن"
+    ],
+    [
+     "eine ernste Bedrohung",
+     "تهدیدی جدی"
+    ],
+    [
+     "auf eine Bedrohung reagieren",
+     "به تهدید واکنش نشان دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-299",
+   "s": "T",
+   "w": "das Lebewesen, -",
+   "fa": "موجود زنده",
+   "syn": "der Organismus, das Geschöpf",
+   "de": "Täuschung ist nicht nur bei Menschen, sondern bei vielen Lebewesen verbreitet.",
+   "fas": "فریب فقط در انسان‌ها نیست، بلکه در بسیاری از موجودات زنده رایج است.",
+   "_t": 1,
+   "c": [
+    [
+     "alle Lebewesen",
+     "همه‌ی موجودات زنده"
+    ],
+    [
+     "ein winziges Lebewesen",
+     "موجودی ریز"
+    ],
+    [
+     "Lebewesen auf der Erde",
+     "موجودات زنده‌ی روی زمین"
+    ]
+   ]
+  },
+  {
+   "id": "L3-300",
+   "s": "T",
+   "w": "brüllen",
+   "fa": "نعره زدن، غرش کردن، فریاد زدن",
+   "syn": "schreien, laut rufen",
+   "de": "Der Brüllaffe brüllt so laut, dass man ihn kilometerweit hören kann.",
+   "fas": "میمون زوزه‌کش آن‌قدر بلند نعره می‌زند که صدایش تا کیلومترها شنیده می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "laut brüllen",
+     "بلند نعره زدن"
+    ],
+    [
+     "vor Wut brüllen",
+     "از خشم فریاد زدن"
+    ],
+    [
+     "vor Lachen brüllen",
+     "از خنده ریسه رفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-301",
+   "s": "T",
+   "w": "kilometerweit",
+   "fa": "تا کیلومترها، از فاصله‌ی چندین کیلومتری",
+   "syn": "sehr weit, über große Entfernung",
+   "de": "Das Geschrei der Affen ist im Regenwald kilometerweit zu hören.",
+   "fas": "فریاد میمون‌ها در جنگل بارانی تا چندین کیلومتر شنیده می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "kilometerweit hören",
+     "از کیلومترها دورتر شنیدن"
+    ],
+    [
+     "kilometerweit laufen",
+     "کیلومترها پیاده رفتن"
+    ],
+    [
+     "kilometerweit entfernt",
+     "کیلومترها دور"
+    ]
+   ]
+  },
+  {
+   "id": "L3-302",
+   "s": "T",
+   "w": "bellen",
+   "fa": "پارس کردن",
+   "syn": "kläffen, anschlagen",
+   "de": "Der Hund bellt jedes Mal, wenn ein Fremder sich dem Haus nähert.",
+   "fas": "سگ هر بار که غریبه‌ای به خانه نزدیک می‌شود، پارس می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "laut bellen",
+     "بلند پارس کردن"
+    ],
+    [
+     "die ganze Nacht bellen",
+     "تمام شب پارس کردن"
+    ],
+    [
+     "Hunde, die bellen, beißen nicht",
+     "سگی که پارس می‌کند، گاز نمی‌گیرد"
+    ]
+   ]
+  },
+  {
+   "id": "L3-303",
+   "s": "T",
+   "w": "das Gebell (nur Sg.)",
+   "fa": "پارس (مداوم و آزاردهنده)",
+   "syn": "das ständige Bellen, das Kläffen",
+   "de": "Die Nachbarn beschweren sich über das nächtliche Gebell des Hundes.",
+   "fas": "همسایه‌ها از پارس‌های شبانه‌ی سگ شکایت می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "lautes Gebell",
+     "پارس بلند"
+    ],
+    [
+     "das ständige Gebell",
+     "پارس بی‌وقفه"
+    ],
+    [
+     "sich durch Gebell gestört fühlen",
+     "از پارس‌ها آزرده شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-304",
+   "s": "T",
+   "w": "die Sicherung, -en",
+   "fa": "تضمین، حفظ؛ (رایانه) ذخیره‌ی پشتیبان",
+   "syn": "die Gewährleistung, der Schutz",
+   "de": "Für viele seltene Tierarten geht es in Zoos um die Sicherung ihrer Existenz.",
+   "fas": "برای بسیاری از گونه‌های کمیاب، در باغ‌وحش‌ها پای حفظ بقایشان در میان است.",
+   "_t": 1,
+   "c": [
+    [
+     "die Sicherung der Existenz",
+     "تضمین بقا"
+    ],
+    [
+     "zur Sicherung der Daten",
+     "برای پشتیبان‌گیری از داده‌ها"
+    ],
+    [
+     "die Sicherung der Fortpflanzung",
+     "تضمین تولیدمثل"
+    ]
+   ]
+  },
+  {
+   "id": "L3-305",
+   "s": "T",
+   "w": "in der Kritik stehen",
+   "fa": "مورد انتقاد بودن",
+   "syn": "kritisiert werden, umstritten sein",
+   "de": "Zoos stehen in der Kritik, weil viele Tiere dort nicht artgerecht leben.",
+   "fas": "باغ‌وحش‌ها مورد انتقادند، چون بسیاری از حیوانات آنجا متناسب با طبیعتشان زندگی نمی‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "stark in der Kritik stehen",
+     "به‌شدت مورد انتقاد بودن"
+    ],
+    [
+     "in die Kritik geraten",
+     "زیر تیغ انتقاد رفتن"
+    ],
+    [
+     "öffentlich in der Kritik stehen",
+     "آشکارا مورد انتقاد بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-306",
+   "s": "T",
+   "w": "jdm. etw. verbieten",
+   "fa": "چیزی را برای کسی ممنوع کردن، اجازه ندادن",
+   "syn": "untersagen, nicht erlauben",
+   "de": "Ein Gericht will Hundebesitzern verbieten, ihre Hunde sonntags im Garten bellen zu lassen.",
+   "fas": "یک دادگاه می‌خواهد صاحبان سگ را منع کند که روزهای یکشنبه بگذارند سگ‌هایشان در حیاط پارس کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "gesetzlich verbieten",
+     "قانوناً ممنوع کردن"
+    ],
+    [
+     "streng verboten sein",
+     "اکیداً ممنوع بودن"
+    ],
+    [
+     "jdm. den Mund verbieten",
+     "دهان کسی را بستن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-307",
+   "s": "T",
+   "w": "sich gestört fühlen durch + A",
+   "fa": "(از چیزی) آزرده شدن، احساس مزاحمت کردن",
+   "syn": "sich belästigt fühlen, sich geärgert fühlen",
+   "de": "Viele Bewohner fühlen sich durch das laute Krähen des Hahns gestört.",
+   "fas": "بسیاری از ساکنان از قوقولی‌قوقوی بلند خروس احساس مزاحمت می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "sich durch Lärm gestört fühlen",
+     "از سر و صدا آزرده شدن"
+    ],
+    [
+     "sich in seiner Ruhe gestört fühlen",
+     "احساس کردن آرامش آدم به هم خورده"
+    ],
+    [
+     "sich nicht gestört fühlen",
+     "احساس مزاحمت نکردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-308",
+   "s": "T",
+   "w": "der Angreifer, -",
+   "fa": "مهاجم",
+   "syn": "der Aggressor, der Feind",
+   "de": "Wenn sich der Angreifer zurückzieht, hat die Abschreckung funktioniert.",
+   "fas": "وقتی مهاجم عقب‌نشینی کند، ترساندن او مؤثر بوده است.",
+   "_t": 1,
+   "c": [
+    [
+     "den Angreifer abwehren",
+     "مهاجم را دفع کردن"
+    ],
+    [
+     "den Angreifer täuschen",
+     "مهاجم را فریب دادن"
+    ],
+    [
+     "vor dem Angreifer fliehen",
+     "از دست مهاجم گریختن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-309",
+   "s": "T",
+   "w": "das Weibchen, - ≠ das Männchen, -",
+   "fa": "(جانور) ماده ≠ نر",
+   "syn": "das weibliche Tier ≠ das männliche Tier",
+   "de": "Das Männchen täuscht Interesse an einem anderen Weibchen vor, um den Konkurrenten zu verwirren.",
+   "fas": "جانور نر به ماده‌ی دیگری تظاهر به علاقه می‌کند تا رقیب را گیج کند.",
+   "_t": 1,
+   "c": [
+    [
+     "das Weibchen anlocken",
+     "ماده را جذب کردن"
+    ],
+    [
+     "um ein Weibchen kämpfen",
+     "بر سر یک ماده جنگیدن"
+    ],
+    [
+     "Männchen und Weibchen",
+     "نر و ماده"
+    ]
+   ]
+  },
+  {
+   "id": "L3-310",
+   "s": "T",
+   "w": "die Tierart, -en",
+   "fa": "گونه‌ی جانوری",
+   "syn": "die Spezies, die Art",
+   "de": "Einige Tierarten können ihre Hautfarbe ändern, um sich zu tarnen.",
+   "fas": "بعضی گونه‌های جانوری می‌توانند رنگ پوستشان را برای استتار تغییر دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine seltene Tierart",
+     "گونه‌ای کمیاب"
+    ],
+    [
+     "bedrohte Tierarten",
+     "گونه‌های در معرض خطر"
+    ],
+    [
+     "eine Tierart schützen",
+     "از گونه‌ای محافظت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-311",
+   "s": "T",
+   "w": "krähen",
+   "fa": "قوقولی‌قوقو کردن (خروس)",
+   "syn": "rufen (Hahn)",
+   "de": "Der Hahn kräht jeden Morgen um fünf und weckt das ganze Dorf.",
+   "fas": "خروس هر صبح ساعت پنج قوقولی‌قوقو می‌کند و کل روستا را بیدار می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "laut krähen",
+     "بلند خواندن"
+    ],
+    [
+     "früh am Morgen krähen",
+     "صبح زود خواندن"
+    ],
+    [
+     "danach kräht kein Hahn",
+     "کسی اهمیت نمی‌دهد"
+    ]
+   ]
+  },
+  {
+   "id": "L3-312",
+   "s": "T",
+   "w": "die Abkürzung, -en",
+   "fa": "اختصار، کوته‌نوشت؛ میان‌بر",
+   "syn": "die Kurzform, das Kürzel",
+   "de": "Beim Hören ist es hilfreich, Abkürzungen zu verwenden, um schneller Notizen zu machen.",
+   "fas": "هنگام شنیدن، استفاده از اختصار برای یادداشت‌برداری سریع‌تر مفید است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Abkürzung verwenden",
+     "مخففی به کار بردن"
+    ],
+    [
+     "eine Abkürzung nehmen",
+     "از میان‌بر رفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-313",
+   "s": "T",
+   "w": "heraushören",
+   "fa": "(از میان شنیده‌ها) تشخیص دادن، بیرون کشیدن",
+   "syn": "erkennen, wahrnehmen",
+   "de": "Im Radiogespräch soll man gezielt die wichtigsten Informationen heraushören.",
+   "fas": "در گفت‌وگوی رادیویی باید هدفمند مهم‌ترین اطلاعات را تشخیص داد.",
+   "_t": 1,
+   "c": [
+    [
+     "Informationen heraushören",
+     "اطلاعات را از شنیده‌ها بیرون کشیدن"
+    ],
+    [
+     "Kritik heraushören",
+     "انتقاد را از لحن کسی فهمیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-314",
+   "s": "T",
+   "w": "gezielt",
+   "fa": "هدفمند، دقیق و حساب‌شده",
+   "syn": "zielgerichtet, bewusst",
+   "de": "Der Biologe erklärt, dass Tiere zwar täuschen, aber nicht gezielt lügen.",
+   "fas": "آن زیست‌شناس توضیح می‌دهد که حیوانات فریب می‌دهند، اما هدفمند دروغ نمی‌گویند.",
+   "_t": 1,
+   "c": [
+    [
+     "gezielt suchen",
+     "هدفمند جست‌وجو کردن"
+    ],
+    [
+     "gezielte Maßnahmen",
+     "اقدامات هدفمند"
+    ]
+   ]
+  },
+  {
+   "id": "L3-315",
+   "s": "T",
+   "w": "das Nutztier, -e",
+   "fa": "حیوان اهلی (پرورشی)",
+   "syn": "das Haustier (in der Landwirtschaft), das Vieh",
+   "de": "Landwirte halten Nutztiere, um Menschen mit Fleisch, Milch und Eiern zu versorgen.",
+   "fas": "کشاورزان حیوانات پرورشی نگه می‌دارند تا مردم را با گوشت، شیر و تخم‌مرغ تأمین کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "Nutztiere halten",
+     "دام نگه داشتن"
+    ],
+    [
+     "artgerechte Nutztierhaltung",
+     "پرورش دام متناسب با گونه"
+    ],
+    [
+     "Nutztiere füttern",
+     "به دام‌ها غذا دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-316",
+   "s": "T",
+   "w": "der Landwirt, -e / die Landwirtin, -nen",
+   "fa": "کشاورز، دامدار",
+   "syn": "der Bauer, die Bäuerin",
+   "de": "Der Landwirt hält auf seinem Hof Schweine, Rinder und Hühner.",
+   "fas": "آن کشاورز در مزرعه‌اش خوک، گاو و مرغ نگه می‌دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "als Landwirt arbeiten",
+     "کشاورز بودن"
+    ],
+    [
+     "ein Landwirt aus der Region",
+     "کشاورزی از منطقه"
+    ],
+    [
+     "Landwirte unterstützen",
+     "از کشاورزان حمایت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-317",
+   "s": "T",
+   "w": "herstellen (Nähe ~)",
+   "fa": "ایجاد کردن (صمیمیت)؛ تولید کردن",
+   "syn": "schaffen, aufbauen",
+   "de": "Um Nähe herzustellen, schauen Lügner ihrem Gegenüber besonders oft in die Augen.",
+   "fas": "دروغگوها برای ایجاد صمیمیت، به‌خصوص زیاد در چشم طرف مقابل نگاه می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "Kontakt herstellen",
+     "ارتباط برقرار کردن"
+    ],
+    [
+     "Nähe herstellen",
+     "نزدیکی ایجاد کردن"
+    ],
+    [
+     "Waren herstellen",
+     "کالا تولید کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-318",
+   "s": "T",
+   "w": "überdecken",
+   "fa": "پوشاندن، پنهان کردن",
+   "syn": "verbergen, kaschieren",
+   "de": "Manche Menschen lachen zu viel, um ihre wahren Gefühle zu überdecken.",
+   "fas": "بعضی آدم‌ها زیاد می‌خندند تا احساسات واقعی‌شان را بپوشانند.",
+   "_t": 1,
+   "c": [
+    [
+     "Gefühle überdecken",
+     "احساسات را پنهان کردن"
+    ],
+    [
+     "die Unsicherheit überdecken",
+     "ناامنی را پوشاندن"
+    ],
+    [
+     "einen Geruch überdecken",
+     "بویی را پوشاندن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-319",
+   "s": "T",
+   "w": "das Gesprächsthema, -themen",
+   "fa": "موضوع گفت‌وگو",
+   "syn": "das Thema, der Gesprächsstoff",
+   "de": "Wenn er sich unsicher fühlt, versucht er schnell, das Gesprächsthema zu wechseln.",
+   "fas": "وقتی احساس ناامنی می‌کند، سعی می‌کند سریع موضوع صحبت را عوض کند.",
+   "_t": 1,
+   "c": [
+    [
+     "das Gesprächsthema wechseln",
+     "موضوع صحبت را عوض کردن"
+    ],
+    [
+     "ein beliebtes Gesprächsthema",
+     "موضوع گفت‌وگوی محبوب"
+    ],
+    [
+     "das Gesprächsthema Nummer eins",
+     "داغ‌ترین موضوع گفت‌وگو"
+    ]
+   ]
+  },
+  {
+   "id": "L3-320",
+   "s": "T",
+   "w": "überweisen",
+   "fa": "(پول) حواله کردن، واریز کردن",
+   "syn": "transferieren, einzahlen",
+   "de": "Um Geld online zu überweisen, sollte man niemals ein offenes WLAN nutzen.",
+   "fas": "برای واریز آنلاین پول هرگز نباید از وای‌فای عمومی استفاده کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "Geld überweisen",
+     "پول واریز کردن"
+    ],
+    [
+     "auf ein Konto überweisen",
+     "به حسابی واریز کردن"
+    ],
+    [
+     "online überweisen",
+     "آنلاین انتقال دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-321",
+   "s": "T",
+   "w": "der Kredit, -e (einen ~ aufnehmen)",
+   "fa": "وام (وام گرفتن)",
+   "syn": "das Darlehen",
+   "de": "Für die Gründung ihrer Firma hat sie einen Kredit mit hohen Zinsen aufgenommen.",
+   "fas": "او برای تأسیس شرکتش وامی با سود بالا گرفته است.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Kredit aufnehmen",
+     "وام گرفتن"
+    ],
+    [
+     "einen Kredit zurückzahlen",
+     "وامی را بازپرداخت کردن"
+    ],
+    [
+     "einen Kredit beantragen",
+     "درخواست وام دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-322",
+   "s": "T",
+   "w": "das Wechselobjektiv, -e",
+   "fa": "لنز قابل تعویض",
+   "syn": "das austauschbare Objektiv",
+   "de": "Zum Lieferumfang der Kamera gehören laut Anzeige zwei Wechselobjektive.",
+   "fas": "طبق آگهی، دو لنز قابل تعویض جزو اقلام ارسالی دوربین است.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Wechselobjektiv kaufen",
+     "یک لنز قابل تعویض خریدن"
+    ],
+    [
+     "Kamera mit Wechselobjektiv",
+     "دوربین با لنز قابل تعویض"
+    ],
+    [
+     "das Wechselobjektiv fehlt",
+     "لنز قابل تعویض موجود نیست"
+    ]
+   ]
+  },
+  {
+   "id": "L3-323",
+   "s": "T",
+   "w": "der Einstieg (nur Sg.)",
+   "fa": "شروع، ورود (به کاری)",
+   "syn": "der Anfang, der Beginn",
+   "de": "Eine verständliche Anleitung erleichtert Anfängern den Einstieg in die Fotografie.",
+   "fas": "یک راهنمای قابل‌فهم شروع کار عکاسی را برای تازه‌کارها آسان می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "der Einstieg in den Beruf",
+     "ورود به حرفه"
+    ],
+    [
+     "den Einstieg finden",
+     "سر نخ کار را پیدا کردن"
+    ],
+    [
+     "zum Einstieg",
+     "برای شروع"
+    ]
+   ]
+  },
+  {
+   "id": "L3-324",
+   "s": "T",
+   "w": "auspacken",
+   "fa": "باز کردن (بسته)، از بسته درآوردن",
+   "syn": "öffnen, herausnehmen",
+   "de": "Beim Auspacken des Pakets stellte ich fest, dass das Zubehör fehlte.",
+   "fas": "هنگام باز کردن بسته متوجه شدم که لوازم جانبی نیست.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Paket auspacken",
+     "بسته‌ای را باز کردن"
+    ],
+    [
+     "den Koffer auspacken",
+     "چمدان را خالی کردن"
+    ],
+    [
+     "Geschenke auspacken",
+     "کادوها را باز کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-325",
+   "s": "T",
+   "w": "anschalten ≠ ausschalten",
+   "fa": "روشن کردن ≠ خاموش کردن",
+   "syn": "einschalten ≠ abschalten",
+   "de": "Gleich nach dem Anschalten zeigte die Kamera eine Fehlermeldung an.",
+   "fas": "دوربین بلافاصله بعد از روشن شدن پیغام خطا نشان داد.",
+   "_t": 1,
+   "c": [
+    [
+     "das Gerät anschalten",
+     "دستگاه را روشن کردن"
+    ],
+    [
+     "das Licht anschalten",
+     "چراغ را روشن کردن"
+    ],
+    [
+     "nach dem Anschalten",
+     "پس از روشن کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-326",
+   "s": "T",
+   "w": "umschalten",
+   "fa": "تغییر دادن (تنظیم)، سوئیچ کردن",
+   "syn": "wechseln, umstellen",
+   "de": "Ohne Bedienungsanleitung kann ich die Menüsprache nicht auf Deutsch umschalten.",
+   "fas": "بدون دفترچه‌ی راهنما نمی‌توانم زبان منو را به آلمانی تغییر دهم.",
+   "_t": 1,
+   "c": [
+    [
+     "auf Deutsch umschalten",
+     "به آلمانی تغییر دادن"
+    ],
+    [
+     "den Sender umschalten",
+     "کانال را عوض کردن"
+    ],
+    [
+     "in den Ruhemodus umschalten",
+     "به حالت استراحت بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-327",
+   "s": "T",
+   "w": "der Kaufvertrag, ¨-e",
+   "fa": "قرارداد خرید",
+   "syn": "der Vertrag, die Kaufvereinbarung",
+   "de": "Wenn der Händler nicht reagiert, werde ich den Kaufvertrag widerrufen.",
+   "fas": "اگر فروشنده واکنشی نشان ندهد، قرارداد خرید را فسخ خواهم کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "den Kaufvertrag widerrufen",
+     "قرارداد خرید را فسخ کردن"
+    ],
+    [
+     "einen Kaufvertrag abschließen",
+     "قرارداد خرید بستن"
+    ],
+    [
+     "laut Kaufvertrag",
+     "طبق قرارداد خرید"
+    ]
+   ]
+  },
+  {
+   "id": "L3-328",
+   "s": "T",
+   "w": "das Konto, Konten",
+   "fa": "حساب (بانکی)",
+   "syn": "das Bankkonto",
+   "de": "Die Bank soll den Betrag wieder auf mein Konto zurückbuchen.",
+   "fas": "بانک باید مبلغ را دوباره به حسابم برگرداند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Konto eröffnen",
+     "حساب باز کردن"
+    ],
+    [
+     "Geld aufs Konto überweisen",
+     "پول به حساب واریز کردن"
+    ],
+    [
+     "das Konto belasten",
+     "از حساب برداشت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-329",
+   "s": "T",
+   "w": "die Zollgebühr, -en",
+   "fa": "عوارض گمرکی",
+   "syn": "der Zoll, die Einfuhrabgabe",
+   "de": "Auf der Rechnung standen plötzlich zusätzliche Zollgebühren, die nirgends erwähnt waren.",
+   "fas": "در صورت‌حساب ناگهان عوارض گمرکی اضافه‌ای آمده بود که هیچ‌جا ذکر نشده بود.",
+   "_t": 1,
+   "c": [
+    [
+     "Zollgebühren bezahlen",
+     "عوارض گمرکی پرداختن"
+    ],
+    [
+     "ohne Zollgebühren",
+     "بدون عوارض گمرکی"
+    ],
+    [
+     "hohe Zollgebühren",
+     "عوارض گمرکی سنگین"
+    ]
+   ]
+  },
+  {
+   "id": "L3-330",
+   "s": "T",
+   "w": "die Grußformel, -n",
+   "fa": "عبارت پایانی نامه",
+   "syn": "der Schlussgruß",
+   "de": "Vergessen Sie in einer Beschwerde nicht Betreff, Anrede und Grußformel.",
+   "fas": "در نامه‌ی شکایت موضوع، خطاب و عبارت پایانی را فراموش نکنید.",
+   "_t": 1,
+   "c": [
+    [
+     "eine höfliche Grußformel",
+     "عبارت پایانی مؤدبانه"
+    ],
+    [
+     "die Grußformel „Mit freundlichen Grüßen“",
+     "عبارت پایانی «با احترام»"
+    ],
+    [
+     "Anrede und Grußformel",
+     "خطاب و عبارت پایانی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-331",
+   "s": "T",
+   "w": "die Bezahlung (nur Sg.)",
+   "fa": "پرداخت",
+   "syn": "die Zahlung, das Bezahlen",
+   "de": "Die Bezahlung erfolgte direkt bei der Bestellung per Kreditkarte.",
+   "fas": "پرداخت مستقیماً هنگام سفارش با کارت اعتباری انجام شد.",
+   "_t": 1,
+   "c": [
+    [
+     "die Bezahlung erfolgt …",
+     "پرداخت … انجام می‌شود"
+    ],
+    [
+     "Bezahlung per Kreditkarte",
+     "پرداخت با کارت اعتباری"
+    ],
+    [
+     "gegen Bezahlung",
+     "در ازای پرداخت"
+    ]
+   ]
+  },
+  {
+   "id": "L3-332",
+   "s": "T",
+   "w": "der Erhalt (nur Sg.)",
+   "fa": "دریافت",
+   "syn": "der Empfang, das Bekommen",
+   "de": "Gleich nach Erhalt des Druckers habe ich ihn ausprobiert.",
+   "fas": "بلافاصله پس از دریافت پرینتر، آن را امتحان کردم.",
+   "_t": 1,
+   "c": [
+    [
+     "nach Erhalt der Ware",
+     "پس از دریافت کالا"
+    ],
+    [
+     "den Erhalt bestätigen",
+     "دریافت را تأیید کردن"
+    ],
+    [
+     "ab Erhalt der Rechnung",
+     "از زمان دریافت صورت‌حساب"
+    ]
+   ]
+  },
+  {
+   "id": "L3-333",
+   "s": "T",
+   "w": "etw. in Betrieb nehmen",
+   "fa": "چیزی را راه‌اندازی کردن، به کار انداختن",
+   "syn": "einschalten, zum ersten Mal benutzen",
+   "de": "Ich habe das Gerät sofort nach der Lieferung in Betrieb genommen.",
+   "fas": "دستگاه را بلافاصله بعد از تحویل راه‌اندازی کردم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Gerät in Betrieb nehmen",
+     "دستگاهی را راه‌اندازی کردن"
+    ],
+    [
+     "außer Betrieb sein",
+     "از کار افتاده بودن"
+    ],
+    [
+     "in Betrieb sein",
+     "در حال کار بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-334",
+   "s": "T",
+   "w": "entsprechen + D",
+   "fa": "مطابقت داشتن با، برآورده کردن",
+   "syn": "übereinstimmen mit, gerecht werden",
+   "de": "Die Druckqualität entspricht leider überhaupt nicht meinen Erwartungen.",
+   "fas": "کیفیت چاپ متأسفانه اصلاً با انتظارات من مطابقت ندارد.",
+   "_t": 1,
+   "c": [
+    [
+     "den Erwartungen entsprechen",
+     "انتظارات را برآورده کردن"
+    ],
+    [
+     "der Wahrheit entsprechen",
+     "با حقیقت مطابقت داشتن"
+    ],
+    [
+     "der Beschreibung entsprechen",
+     "با توضیحات جور بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-335",
+   "s": "T",
+   "w": "zurücknehmen",
+   "fa": "پس گرفتن",
+   "syn": "zurückerstatten, umtauschen",
+   "de": "Ich bitte Sie, das defekte Gerät zurückzunehmen und mir den Kaufpreis zu erstatten.",
+   "fas": "از شما می‌خواهم دستگاه معیوب را پس بگیرید و بهای خرید را به من برگردانید.",
+   "_t": 1,
+   "c": [
+    [
+     "die Ware zurücknehmen",
+     "کالا را پس گرفتن"
+    ],
+    [
+     "eine Aussage zurücknehmen",
+     "حرفی را پس گرفتن"
+    ],
+    [
+     "ein Versprechen zurücknehmen",
+     "قولی را پس گرفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-336",
+   "s": "T",
+   "w": "gutschreiben",
+   "fa": "به حساب کسی واریز کردن (بستانکار کردن)",
+   "syn": "zurückbuchen, anrechnen",
+   "de": "Die Bank wird mir den Betrag innerhalb einer Woche wieder gutschreiben.",
+   "fas": "بانک ظرف یک هفته مبلغ را دوباره به حسابم برمی‌گرداند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Betrag gutschreiben",
+     "مبلغی را به حساب منظور کردن"
+    ],
+    [
+     "dem Konto gutschreiben",
+     "به حساب واریز کردن"
+    ],
+    [
+     "Punkte gutschreiben",
+     "امتیاز به حساب افزودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-337",
+   "s": "T",
+   "w": "der Rechnungsbetrag, ¨-e",
+   "fa": "مبلغ صورت‌حساب",
+   "syn": "der Gesamtpreis, die Summe",
+   "de": "Der Rechnungsbetrag ist innerhalb von zehn Tagen zu überweisen.",
+   "fas": "مبلغ صورت‌حساب باید ظرف ده روز واریز شود.",
+   "_t": 1,
+   "c": [
+    [
+     "den Rechnungsbetrag überweisen",
+     "مبلغ صورت‌حساب را واریز کردن"
+    ],
+    [
+     "der offene Rechnungsbetrag",
+     "مبلغ پرداخت‌نشده"
+    ],
+    [
+     "den Rechnungsbetrag zurückerstatten",
+     "مبلغ صورت‌حساب را بازپرداخت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-338",
+   "s": "T",
+   "w": "der Kaufbeleg, -e",
+   "fa": "رسید خرید، فاکتور",
+   "syn": "die Quittung, der Kassenbon",
+   "de": "Für eine Reklamation sollten Sie unbedingt den Kaufbeleg aufbewahren.",
+   "fas": "برای مرجوعی حتماً باید رسید خرید را نگه دارید.",
+   "_t": 1,
+   "c": [
+    [
+     "den Kaufbeleg aufbewahren",
+     "رسید خرید را نگه داشتن"
+    ],
+    [
+     "den Kaufbeleg vorlegen",
+     "رسید خرید را ارائه دادن"
+    ],
+    [
+     "ohne Kaufbeleg",
+     "بدون رسید"
+    ]
+   ]
+  },
+  {
+   "id": "L3-339",
+   "s": "T",
+   "w": "die Abrechnung, -en",
+   "fa": "صورت‌حساب، تسویه‌حساب",
+   "syn": "die Rechnung, die Aufstellung",
+   "de": "In der monatlichen Abrechnung fand ich eine Gebühr, die ich nicht kannte.",
+   "fas": "در صورت‌حساب ماهانه هزینه‌ای پیدا کردم که از آن خبر نداشتم.",
+   "_t": 1,
+   "c": [
+    [
+     "die monatliche Abrechnung",
+     "صورت‌حساب ماهانه"
+    ],
+    [
+     "eine Abrechnung erstellen",
+     "صورت‌حساب تهیه کردن"
+    ],
+    [
+     "die Abrechnung prüfen",
+     "صورت‌حساب را بررسی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-340",
+   "s": "T",
+   "w": "die Allgemeinen Geschäftsbedingungen (AGB) (Pl.)",
+   "fa": "شرایط و ضوابط عمومی (قرارداد)",
+   "syn": "die Vertragsbedingungen, das Kleingedruckte",
+   "de": "Vor einer Online-Bestellung sollte man die Allgemeinen Geschäftsbedingungen genau lesen.",
+   "fas": "قبل از سفارش آنلاین باید شرایط و ضوابط عمومی را با دقت خواند.",
+   "_t": 1,
+   "c": [
+    [
+     "die AGB lesen",
+     "شرایط و ضوابط را خواندن"
+    ],
+    [
+     "den AGB zustimmen",
+     "با شرایط و ضوابط موافقت کردن"
+    ],
+    [
+     "laut AGB",
+     "طبق شرایط و ضوابط"
+    ]
+   ]
+  },
+  {
+   "id": "L3-341",
+   "s": "T",
+   "w": "der Vertragsabschluss, ¨-e",
+   "fa": "انعقاد قرارداد",
+   "syn": "das Zustandekommen eines Vertrags",
+   "de": "Mit dem Klick auf „Bestellen“ kommt der Vertragsabschluss zustande.",
+   "fas": "با کلیک روی «سفارش» قرارداد منعقد می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "bei Vertragsabschluss",
+     "هنگام انعقاد قرارداد"
+    ],
+    [
+     "vor Vertragsabschluss",
+     "پیش از بستن قرارداد"
+    ],
+    [
+     "der Vertragsabschluss erfolgt",
+     "قرارداد منعقد می‌شود"
+    ]
+   ]
+  },
+  {
+   "id": "L3-342",
+   "s": "T",
+   "w": "das Widerrufsrecht (nur Sg.)",
+   "fa": "حق انصراف (فسخ)",
+   "syn": "das Rücktrittsrecht",
+   "de": "Bei Online-Käufen haben Kunden in der Regel ein Widerrufsrecht von vierzehn Tagen.",
+   "fas": "در خریدهای آنلاین، مشتریان معمولاً چهارده روز حق انصراف دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "das Widerrufsrecht nutzen",
+     "از حق انصراف استفاده کردن"
+    ],
+    [
+     "ein Widerrufsrecht haben",
+     "حق فسخ داشتن"
+    ],
+    [
+     "über das Widerrufsrecht informieren",
+     "درباره‌ی حق انصراف اطلاع دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-343",
+   "s": "T",
+   "w": "die Mängelhaftung (nur Sg.)",
+   "fa": "مسئولیت در قبال عیب کالا",
+   "syn": "die Gewährleistung, die Sachmängelhaftung",
+   "de": "Bei gebrauchten Waren ist die Mängelhaftung des Verkäufers oft eingeschränkt.",
+   "fas": "در کالاهای دست‌دوم، مسئولیت فروشنده در قبال عیب کالا اغلب محدود است.",
+   "_t": 1,
+   "c": [
+    [
+     "die gesetzliche Mängelhaftung",
+     "مسئولیت قانونی عیب کالا"
+    ],
+    [
+     "die Mängelhaftung ausschließen",
+     "مسئولیت عیب را مستثنا کردن"
+    ],
+    [
+     "Ansprüche aus Mängelhaftung",
+     "ادعاهای ناشی از عیب کالا"
+    ]
+   ]
+  },
+  {
+   "id": "L3-344",
+   "s": "T",
+   "w": "die Zahlungsbedingungen (Pl.)",
+   "fa": "شرایط پرداخت",
+   "syn": "die Zahlungsmodalitäten",
+   "de": "Laut den Zahlungsbedingungen ist der Kaufpreis erst nach der Lieferung fällig.",
+   "fas": "طبق شرایط پرداخت، بهای خرید تازه پس از تحویل قابل پرداخت است.",
+   "_t": 1,
+   "c": [
+    [
+     "die Zahlungsbedingungen beachten",
+     "شرایط پرداخت را رعایت کردن"
+    ],
+    [
+     "günstige Zahlungsbedingungen",
+     "شرایط پرداخت مناسب"
+    ],
+    [
+     "laut Zahlungsbedingungen",
+     "طبق شرایط پرداخت"
+    ]
+   ]
+  },
+  {
+   "id": "L3-345",
+   "s": "T",
+   "w": "der Endpreis, -e",
+   "fa": "قیمت نهایی",
+   "syn": "der Gesamtpreis",
+   "de": "Die angezeigten Preise sind Endpreise, die Mehrwertsteuer ist schon enthalten.",
+   "fas": "قیمت‌های نشان‌داده‌شده قیمت نهایی‌اند و مالیات بر ارزش افزوده در آن‌ها لحاظ شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "der Endpreis inklusive Steuer",
+     "قیمت نهایی با مالیات"
+    ],
+    [
+     "den Endpreis angeben",
+     "قیمت نهایی را اعلام کردن"
+    ],
+    [
+     "Endpreis ohne Versand",
+     "قیمت نهایی بدون هزینه‌ی ارسال"
+    ]
+   ]
+  },
+  {
+   "id": "L3-346",
+   "s": "T",
+   "w": "die Umsatzsteuer (nur Sg.)",
+   "fa": "مالیات بر ارزش افزوده",
+   "syn": "die Mehrwertsteuer",
+   "de": "Auf der Rechnung muss die Umsatzsteuer gesondert ausgewiesen werden.",
+   "fas": "در صورت‌حساب باید مالیات بر ارزش افزوده جداگانه ذکر شود.",
+   "_t": 1,
+   "c": [
+    [
+     "inklusive Umsatzsteuer",
+     "با احتساب مالیات بر ارزش افزوده"
+    ],
+    [
+     "die gesetzliche Umsatzsteuer",
+     "مالیات بر ارزش افزوده‌ی قانونی"
+    ],
+    [
+     "zuzüglich Umsatzsteuer",
+     "به‌علاوه‌ی مالیات بر ارزش افزوده"
+    ]
+   ]
+  },
+  {
+   "id": "L3-347",
+   "s": "T",
+   "w": "der Warenkorb, ¨-e",
+   "fa": "سبد خرید (فروشگاه اینترنتی)",
+   "syn": "der Einkaufswagen (online)",
+   "de": "Zuerst legt der Kunde die gewünschten Artikel in den Warenkorb.",
+   "fas": "اول مشتری اقلام موردنظر را در سبد خرید می‌گذارد.",
+   "_t": 1,
+   "c": [
+    [
+     "in den Warenkorb legen",
+     "به سبد خرید افزودن"
+    ],
+    [
+     "den Warenkorb ansehen",
+     "سبد خرید را دیدن"
+    ],
+    [
+     "aus dem Warenkorb entfernen",
+     "از سبد خرید حذف کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-348",
+   "s": "T",
+   "w": "der Bestellvorgang, ¨-e",
+   "fa": "فرایند سفارش",
+   "syn": "die Bestellung, der Bestellprozess",
+   "de": "Während des Bestellvorgangs wurde nirgends auf Zusatzkosten hingewiesen.",
+   "fas": "در طول فرایند سفارش هیچ‌جا به هزینه‌های اضافی اشاره نشد.",
+   "_t": 1,
+   "c": [
+    [
+     "den Bestellvorgang abschließen",
+     "فرایند سفارش را تمام کردن"
+    ],
+    [
+     "den Bestellvorgang abbrechen",
+     "سفارش را نیمه‌کاره رها کردن"
+    ],
+    [
+     "im Bestellvorgang",
+     "در فرایند سفارش"
+    ]
+   ]
+  },
+  {
+   "id": "L3-349",
+   "s": "T",
+   "w": "die Zusammenfassung, -en",
+   "fa": "خلاصه",
+   "syn": "der Überblick, das Resümee",
+   "de": "Am Ende erscheint eine Zusammenfassung aller Bestell- und Vertragsdaten.",
+   "fas": "در پایان خلاصه‌ای از همه‌ی اطلاعات سفارش و قرارداد نمایش داده می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine kurze Zusammenfassung",
+     "خلاصه‌ای کوتاه"
+    ],
+    [
+     "eine Zusammenfassung schreiben",
+     "خلاصه نوشتن"
+    ],
+    [
+     "zur Zusammenfassung",
+     "به‌طور خلاصه"
+    ]
+   ]
+  },
+  {
+   "id": "L3-350",
+   "s": "T",
+   "w": "verbindlich",
+   "fa": "الزام‌آور، قطعی",
+   "syn": "bindend, verpflichtend",
+   "de": "Mit dem Klick auf den Button gibt der Kunde ein verbindliches Angebot ab.",
+   "fas": "مشتری با کلیک روی دکمه یک پیشنهاد الزام‌آور ارائه می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "verbindlich bestellen",
+     "قطعی سفارش دادن"
+    ],
+    [
+     "eine verbindliche Zusage",
+     "قول قطعی"
+    ],
+    [
+     "rechtlich verbindlich",
+     "از نظر حقوقی الزام‌آور"
+    ]
+   ]
+  },
+  {
+   "id": "L3-351",
+   "s": "T",
+   "w": "ein Angebot abgeben",
+   "fa": "پیشنهاد (رسمی) دادن",
+   "syn": "ein Angebot machen, anbieten",
+   "de": "Mit der Bestätigung der Daten gibt man ein Angebot zum Kauf der Ware ab.",
+   "fas": "با تأیید اطلاعات، آدم پیشنهاد خرید کالا را ارائه می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein verbindliches Angebot abgeben",
+     "پیشنهاد الزام‌آور دادن"
+    ],
+    [
+     "ein Angebot annehmen",
+     "پیشنهادی را پذیرفتن"
+    ],
+    [
+     "ein Angebot ablehnen",
+     "پیشنهادی را رد کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-352",
+   "s": "T",
+   "w": "gebraucht",
+   "fa": "دست‌دوم، کارکرده",
+   "syn": "aus zweiter Hand, benutzt",
+   "de": "Bei gebrauchten Kameras sollte man vor dem Kauf alle Funktionen testen.",
+   "fas": "در دوربین‌های دست‌دوم باید پیش از خرید همه‌ی عملکردها را امتحان کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "gebraucht kaufen",
+     "دست‌دوم خریدن"
+    ],
+    [
+     "gebrauchte Ware",
+     "کالای دست‌دوم"
+    ],
+    [
+     "kaum gebraucht",
+     "تقریباً نو"
+    ]
+   ]
+  },
+  {
+   "id": "L3-353",
+   "s": "T",
+   "w": "ausgeschlossen sein",
+   "fa": "مستثنا بودن، منتفی بودن",
+   "syn": "nicht möglich sein, entfallen",
+   "de": "Bei Schäden durch falsche Bedienung ist jeder Anspruch auf Ersatz ausgeschlossen.",
+   "fas": "در خسارت‌های ناشی از استفاده‌ی نادرست، هر گونه ادعای جبران منتفی است.",
+   "_t": 1,
+   "c": [
+    [
+     "vom Umtausch ausgeschlossen",
+     "غیرقابل تعویض"
+    ],
+    [
+     "es ist nicht ausgeschlossen, dass …",
+     "بعید نیست که …"
+    ],
+    [
+     "völlig ausgeschlossen",
+     "کاملاً منتفی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-354",
+   "s": "T",
+   "w": "der Ablauf, ¨-e (nach ~ + G)",
+   "fa": "سپری شدن؛ روند",
+   "syn": "das Ende, der Verlauf",
+   "de": "Nach Ablauf der Frist kann man die Ware nicht mehr zurückschicken.",
+   "fas": "پس از پایان مهلت دیگر نمی‌توان کالا را پس فرستاد.",
+   "_t": 1,
+   "c": [
+    [
+     "nach Ablauf eines Jahres",
+     "پس از گذشت یک سال"
+    ],
+    [
+     "vor Ablauf der Frist",
+     "پیش از پایان مهلت"
+    ],
+    [
+     "ein reibungsloser Ablauf",
+     "روندی بی‌دردسر"
+    ]
+   ]
+  },
+  {
+   "id": "L3-355",
+   "s": "T",
+   "w": "auf Rechnung bestellen",
+   "fa": "با پرداخت پس از دریافت فاکتور سفارش دادن",
+   "syn": "nachträglich bezahlen",
+   "de": "Viele Kunden bestellen lieber auf Rechnung, damit sie die Ware erst prüfen können.",
+   "fas": "بسیاری از مشتریان ترجیح می‌دهند با فاکتور پس‌پرداخت سفارش بدهند تا اول کالا را بررسی کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "per Rechnung zahlen",
+     "با فاکتور پرداخت کردن"
+    ],
+    [
+     "Kauf auf Rechnung",
+     "خرید پس‌پرداخت"
+    ],
+    [
+     "die Rechnung begleichen",
+     "صورت‌حساب را تسویه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-356",
+   "s": "T",
+   "w": "der Kaufpreis, -e",
+   "fa": "بهای خرید",
+   "syn": "der Preis, der Rechnungsbetrag",
+   "de": "Der Kaufpreis wird erst nach Lieferung der Ware fällig.",
+   "fas": "بهای خرید تازه پس از تحویل کالا قابل پرداخت می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "den Kaufpreis erstatten",
+     "بهای خرید را بازپرداخت کردن"
+    ],
+    [
+     "der volle Kaufpreis",
+     "تمام بهای خرید"
+    ],
+    [
+     "den Kaufpreis zahlen",
+     "بهای خرید را پرداختن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-357",
+   "s": "T",
+   "w": "die Bewerbung, -en",
+   "fa": "درخواست شغل، تقاضانامه",
+   "syn": "das Bewerbungsschreiben, die Anfrage",
+   "de": "Etwa ein Viertel der Befragten übertreibt bei Bewerbungen, um seine Chancen zu verbessern.",
+   "fas": "حدود یک‌چهارم پاسخ‌دهندگان در درخواست‌های شغلی اغراق می‌کنند تا شانسشان را بیشتر کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Bewerbung schreiben",
+     "درخواست شغل نوشتن"
+    ],
+    [
+     "die Bewerbung abschicken",
+     "تقاضانامه را فرستادن"
+    ],
+    [
+     "bei Bewerbungen übertreiben",
+     "در درخواست شغل اغراق کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-358",
+   "s": "T",
+   "w": "das Umfeld (nur Sg.)",
+   "fa": "محیط اطراف، پیرامون",
+   "syn": "die Umgebung, das Milieu",
+   "de": "Zu welchen Menschen in Ihrem Umfeld waren Sie gestern unehrlich?",
+   "fas": "دیروز با کدام آدم‌های اطرافتان ناصادق بودید؟",
+   "_t": 1,
+   "c": [
+    [
+     "das soziale Umfeld",
+     "محیط اجتماعی"
+    ],
+    [
+     "im beruflichen Umfeld",
+     "در محیط کاری"
+    ],
+    [
+     "das private Umfeld",
+     "اطرافیان خصوصی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-359",
+   "s": "T",
+   "w": "die Biographie, -n",
+   "fa": "زندگی‌نامه، سابقه‌ی زندگی",
+   "syn": "der Lebenslauf, die Lebensgeschichte",
+   "de": "Manche Politiker haben Teile ihrer Biographie erfunden, um besser dazustehen.",
+   "fas": "بعضی سیاستمداران بخش‌هایی از زندگی‌نامه‌شان را از خود ساخته‌اند تا وجهه‌ی بهتری داشته باشند.",
+   "_t": 1,
+   "c": [
+    [
+     "die eigene Biographie",
+     "زندگی‌نامه‌ی خود"
+    ],
+    [
+     "eine Biographie schreiben",
+     "زندگی‌نامه نوشتن"
+    ],
+    [
+     "Lücken in der Biographie",
+     "خلأهای سابقه‌ی زندگی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-360",
+   "s": "T",
+   "w": "dazugehören",
+   "fa": "جزوِ (جمعی) بودن، تعلق داشتن",
+   "syn": "Teil sein von, zugehörig sein",
+   "de": "Viele Jugendliche lügen, weil sie unbedingt zu einer Gruppe dazugehören wollen.",
+   "fas": "بسیاری از نوجوانان دروغ می‌گویند، چون به هر قیمتی می‌خواهند جزو یک گروه باشند.",
+   "_t": 1,
+   "c": [
+    [
+     "unbedingt dazugehören wollen",
+     "به هر قیمتی خواستن جزو جمع باشد"
+    ],
+    [
+     "das gehört dazu",
+     "این هم بخشی از کار است"
+    ],
+    [
+     "nicht dazugehören",
+     "غریبه بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-361",
+   "s": "T",
+   "w": "so tun, als ob …",
+   "fa": "وانمود کردن که …",
+   "syn": "vortäuschen, sich verstellen",
+   "de": "Er tut so, als ob er fleißig wäre, dabei surft er nur im Internet.",
+   "fas": "وانمود می‌کند که سخت‌کوش است، در حالی که فقط در اینترنت می‌چرخد.",
+   "_t": 1,
+   "c": [
+    [
+     "so tun, als ob nichts wäre",
+     "وانمود کردن که چیزی نشده"
+    ],
+    [
+     "nur so tun",
+     "فقط ادا درآوردن"
+    ],
+    [
+     "so tun, als wüsste man alles",
+     "وانمود کردن که همه‌چیز را می‌داند"
+    ]
+   ]
+  },
+  {
+   "id": "L3-362",
+   "s": "T",
+   "w": "vorliegen",
+   "fa": "موجود بودن، در دست بودن",
+   "syn": "vorhanden sein, existieren",
+   "de": "Zum Thema Ehrlichkeit liegt eine aktuelle Studie aus Hamburg vor.",
+   "fas": "درباره‌ی موضوع صداقت، یک پژوهش جدید از هامبورگ در دست است.",
+   "_t": 1,
+   "c": [
+    [
+     "es liegt eine Studie vor",
+     "پژوهشی در دست است"
+    ],
+    [
+     "Ergebnisse liegen vor",
+     "نتایج موجود است"
+    ],
+    [
+     "schriftlich vorliegen",
+     "به‌صورت مکتوب موجود بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-363",
+   "s": "T",
+   "w": "abschließend",
+   "fa": "در پایان، در جمع‌بندی",
+   "syn": "zum Schluss, zusammenfassend",
+   "de": "Abschließend lässt sich festhalten, dass fast jeder Mensch täglich lügt.",
+   "fas": "در پایان می‌توان نتیجه گرفت که تقریباً هر انسانی هر روز دروغ می‌گوید.",
+   "_t": 1,
+   "c": [
+    [
+     "abschließend möchte ich sagen",
+     "در پایان می‌خواهم بگویم"
+    ],
+    [
+     "abschließend lässt sich feststellen",
+     "در جمع‌بندی می‌توان گفت"
+    ]
+   ]
+  },
+  {
+   "id": "L3-364",
+   "s": "T",
+   "w": "darüber hinaus",
+   "fa": "علاوه بر این، افزون بر آن",
+   "syn": "außerdem, zusätzlich",
+   "de": "Darüber hinaus spielt die Beziehung zum Gesprächspartner eine wichtige Rolle.",
+   "fas": "علاوه بر این، رابطه با طرف گفت‌وگو نقش مهمی دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "darüber hinaus gilt",
+     "علاوه بر این صادق است که"
+    ],
+    [
+     "und darüber hinaus",
+     "و فراتر از آن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-365",
+   "s": "T",
+   "w": "der Vortag, -e",
+   "fa": "روز قبل",
+   "syn": "der vorherige Tag, gestern",
+   "de": "Vier von zehn Befragten waren am Vortag gegenüber Bekannten unehrlich.",
+   "fas": "چهار نفر از هر ده پاسخ‌دهنده روز قبل با آشنایان ناصادق بوده‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "am Vortag",
+     "روز قبل"
+    ],
+    [
+     "seit dem Vortag",
+     "از روز قبل"
+    ],
+    [
+     "der Vortag der Prüfung",
+     "روز قبل از امتحان"
+    ]
+   ]
+  },
+  {
+   "id": "L3-366",
+   "s": "T",
+   "w": "gegenüber + D",
+   "fa": "در برابرِ، نسبت به",
+   "syn": "zu, in Bezug auf",
+   "de": "Gegenüber Vorgesetzten sind die meisten Menschen seltener unehrlich als gegenüber Freunden.",
+   "fas": "بیشتر آدم‌ها نسبت به رؤسایشان کمتر از دوستانشان ناصادق‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "gegenüber Kollegen",
+     "نسبت به همکاران"
+    ],
+    [
+     "ehrlich gegenüber sich selbst",
+     "صادق با خود"
+    ],
+    [
+     "mir gegenüber",
+     "در برابر من"
+    ]
+   ]
+  },
+  {
+   "id": "L3-367",
+   "s": "T",
+   "w": "der Zeitraum, ¨-e",
+   "fa": "بازه‌ی زمانی، مدت",
+   "syn": "die Zeitspanne, die Periode",
+   "de": "Im gleichen Zeitraum hat jeder Dritte seinen Partner mindestens einmal belogen.",
+   "fas": "در همان بازه‌ی زمانی، از هر سه نفر یکی دست‌کم یک بار به شریک زندگی‌اش دروغ گفته است.",
+   "_t": 1,
+   "c": [
+    [
+     "im gleichen Zeitraum",
+     "در همان بازه"
+    ],
+    [
+     "über einen längeren Zeitraum",
+     "در مدتی طولانی‌تر"
+    ],
+    [
+     "in einem kurzen Zeitraum",
+     "در مدتی کوتاه"
+    ]
+   ]
+  },
+  {
+   "id": "L3-368",
+   "s": "T",
+   "w": "langjährig",
+   "fa": "چندساله، دیرینه",
+   "syn": "lange bestehend, dauerhaft",
+   "de": "Manche lügen, um eine langjährige Freundschaft nicht zu gefährden.",
+   "fas": "بعضی‌ها دروغ می‌گویند تا یک دوستی چندساله را به خطر نیندازند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine langjährige Beziehung",
+     "رابطه‌ای دیرینه"
+    ],
+    [
+     "langjährige Erfahrung",
+     "تجربه‌ی چندساله"
+    ],
+    [
+     "ein langjähriger Mitarbeiter",
+     "کارمندی قدیمی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-369",
+   "s": "T",
+   "w": "die Lage, -n (sich in einer schwierigen ~ befinden)",
+   "fa": "وضعیت، موقعیت",
+   "syn": "die Situation, die Verfassung",
+   "de": "Wer sich in einer schwierigen Lage befindet, greift eher zu einer Notlüge.",
+   "fas": "کسی که در وضعیت دشواری است، زودتر به دروغ مصلحتی رو می‌آورد.",
+   "_t": 1,
+   "c": [
+    [
+     "in einer schwierigen Lage",
+     "در وضعیتی دشوار"
+    ],
+    [
+     "die Lage einschätzen",
+     "اوضاع را ارزیابی کردن"
+    ],
+    [
+     "die aktuelle Lage",
+     "وضعیت کنونی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-370",
+   "s": "T",
+   "w": "betreffen",
+   "fa": "مربوط بودن به، شامل شدن",
+   "syn": "angehen, sich beziehen auf",
+   "de": "Das Problem mit gefälschten Bewertungen betrifft viele Onlineshops.",
+   "fas": "مشکل نظرهای جعلی بسیاری از فروشگاه‌های اینترنتی را شامل می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "was mich betrifft",
+     "تا جایی که به من مربوط است"
+    ],
+    [
+     "betroffen sein von",
+     "تحت تأثیر قرار گرفتن"
+    ],
+    [
+     "alle Bereiche betreffen",
+     "همه‌ی حوزه‌ها را شامل شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-371",
+   "s": "T",
+   "w": "Sinn ergeben",
+   "fa": "منطقی بودن، معنا داشتن",
+   "syn": "sinnvoll sein, logisch sein",
+   "de": "Seine Ausrede ergibt keinen Sinn, denn der Bus fuhr heute ganz normal.",
+   "fas": "بهانه‌اش منطقی نیست، چون اتوبوس امروز کاملاً عادی حرکت می‌کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "keinen Sinn ergeben",
+     "بی‌معنا بودن"
+    ],
+    [
+     "durchaus Sinn ergeben",
+     "کاملاً منطقی بودن"
+    ],
+    [
+     "einen Sinn ergeben",
+     "معنایی داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-372",
+   "s": "T",
+   "w": "jdm. Sorgen bereiten",
+   "fa": "کسی را نگران کردن",
+   "syn": "jdn. beunruhigen, jdm. Kummer machen",
+   "de": "Es bereitet mir Sorge, dass mein Sohn mich immer öfter anlügt.",
+   "fas": "این که پسرم هر روز بیشتر به من دروغ می‌گوید، نگرانم می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "große Sorgen bereiten",
+     "بسیار نگران کردن"
+    ],
+    [
+     "jdm. Kopfzerbrechen bereiten",
+     "کسی را به فکر فرو بردن"
+    ],
+    [
+     "sich Sorgen machen um",
+     "نگرانِ … بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-373",
+   "s": "T",
+   "w": "der Kurzvortrag, ¨-e",
+   "fa": "ارائه‌ی کوتاه، سخنرانی کوتاه",
+   "syn": "das Kurzreferat, die Präsentation",
+   "de": "In der Prüfung muss jeder einen Kurzvortrag zum Thema Lügen halten.",
+   "fas": "در امتحان هر کس باید یک ارائه‌ی کوتاه درباره‌ی دروغ بدهد.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Kurzvortrag halten",
+     "ارائه‌ی کوتاهی انجام دادن"
+    ],
+    [
+     "einen Kurzvortrag vorbereiten",
+     "ارائه‌ی کوتاهی آماده کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-374",
+   "s": "T",
+   "w": "neutral",
+   "fa": "بی‌طرف، خنثی",
+   "syn": "objektiv, unparteiisch",
+   "de": "Zahlen wirken neutral, doch sie können genauso täuschen wie Worte.",
+   "fas": "اعداد بی‌طرف به نظر می‌رسند، اما می‌توانند درست مثل کلمات فریب بدهند.",
+   "_t": 1,
+   "c": [
+    [
+     "neutral wirken",
+     "بی‌طرف به نظر رسیدن"
+    ],
+    [
+     "neutral bleiben",
+     "بی‌طرف ماندن"
+    ],
+    [
+     "eine neutrale Haltung",
+     "موضعی بی‌طرفانه"
+    ]
+   ]
+  },
+  {
+   "id": "L3-375",
+   "s": "T",
+   "w": "trauen + D",
+   "fa": "اعتماد کردن به",
+   "syn": "vertrauen, glauben",
+   "de": "Man sollte nicht jeder Statistik trauen, die man in den Medien sieht.",
+   "fas": "نباید به هر آماری که در رسانه‌ها می‌بینیم اعتماد کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "jdm. nicht trauen",
+     "به کسی اعتماد نداشتن"
+    ],
+    [
+     "seinen Augen nicht trauen",
+     "به چشمان خود باور نداشتن"
+    ],
+    [
+     "dem Frieden nicht trauen",
+     "به آرامش ظاهری اطمینان نکردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-376",
+   "s": "T",
+   "w": "die Monarchie, -n",
+   "fa": "پادشاهی، سلطنت",
+   "syn": "das Königtum",
+   "de": "Laut der Umfrage wünscht sich die Mehrheit der Leser eine Monarchie in Deutschland.",
+   "fas": "طبق این نظرسنجی، اکثر خوانندگان خواهان نظام پادشاهی در آلمان هستند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine konstitutionelle Monarchie",
+     "پادشاهی مشروطه"
+    ],
+    [
+     "die Monarchie abschaffen",
+     "سلطنت را برانداختن"
+    ],
+    [
+     "Anhänger der Monarchie",
+     "هوادار سلطنت"
+    ]
+   ]
+  },
+  {
+   "id": "L3-377",
+   "s": "T",
+   "w": "die Publikumszeitschrift, -en",
+   "fa": "مجله‌ی عامه‌پسند",
+   "syn": "die Illustrierte, das Unterhaltungsmagazin",
+   "de": "Diese Publikumszeitschrift berichtet vor allem über Stars und Königsfamilien.",
+   "fas": "این مجله‌ی عامه‌پسند بیشتر درباره‌ی ستاره‌ها و خانواده‌های سلطنتی گزارش می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine bekannte Publikumszeitschrift",
+     "مجله‌ای عامه‌پسند و معروف"
+    ],
+    [
+     "Leser einer Publikumszeitschrift",
+     "خوانندگان مجله‌ی عامه‌پسند"
+    ],
+    [
+     "in einer Publikumszeitschrift erscheinen",
+     "در مجله‌ای عامه‌پسند چاپ شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-378",
+   "s": "T",
+   "w": "irritierend",
+   "fa": "گیج‌کننده، عجیب",
+   "syn": "verwirrend, befremdlich",
+   "de": "Das Ergebnis der Umfrage ist auf den ersten Blick ziemlich irritierend.",
+   "fas": "نتیجه‌ی این نظرسنجی در نگاه اول نسبتاً گیج‌کننده است.",
+   "_t": 1,
+   "c": [
+    [
+     "irritierend wirken",
+     "عجیب به نظر رسیدن"
+    ],
+    [
+     "eine irritierende Zahl",
+     "رقمی گیج‌کننده"
+    ],
+    [
+     "etw. irritierend finden",
+     "چیزی را عجیب دانستن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-379",
+   "s": "T",
+   "w": "auf den ersten Blick",
+   "fa": "در نگاه اول",
+   "syn": "zunächst, beim ersten Hinsehen",
+   "de": "Auf den ersten Blick wirkt das Angebot günstig, doch es gibt versteckte Kosten.",
+   "fas": "در نگاه اول پیشنهاد ارزان به نظر می‌رسد، اما هزینه‌های پنهانی دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "Liebe auf den ersten Blick",
+     "عشق در نگاه اول"
+    ],
+    [
+     "auf den zweiten Blick",
+     "با دقت بیشتر"
+    ],
+    [
+     "schon auf den ersten Blick",
+     "از همان نگاه اول"
+    ]
+   ]
+  },
+  {
+   "id": "L3-380",
+   "s": "T",
+   "w": "sich relativieren",
+   "fa": "نسبی شدن، کم‌اهمیت‌تر جلوه کردن",
+   "syn": "an Bedeutung verlieren, sich abschwächen",
+   "de": "Wenn man die Leserschaft kennt, relativiert sich das überraschende Ergebnis schnell.",
+   "fas": "وقتی مخاطبان را بشناسی، آن نتیجه‌ی غافلگیرکننده زود کم‌رنگ می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Aussage relativieren",
+     "گفته‌ای را تعدیل کردن"
+    ],
+    [
+     "das relativiert sich",
+     "این نسبی می‌شود"
+    ],
+    [
+     "Zahlen relativieren",
+     "اعداد را در بافت قرار دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-381",
+   "s": "T",
+   "w": "es handelt sich um + A",
+   "fa": "موضوع (دربارهٔ) … است، … مطرح است",
+   "syn": "es geht um, es ist",
+   "de": "Bei dieser Umfrage handelt es sich um eine selektive Stichprobe.",
+   "fas": "در این نظرسنجی موضوع یک نمونه‌گیری گزینشی است.",
+   "_t": 1,
+   "c": [
+    [
+     "worum handelt es sich?",
+     "موضوع چیست؟"
+    ],
+    [
+     "es handelt sich dabei um",
+     "در اینجا منظور … است"
+    ],
+    [
+     "es handelt sich nicht um",
+     "موضوع … نیست"
+    ]
+   ]
+  },
+  {
+   "id": "L3-382",
+   "s": "T",
+   "w": "spezialisiert sein auf + A",
+   "fa": "تخصص داشتن در، متمرکز بودن بر",
+   "syn": "sich konzentrieren auf, Experte sein für",
+   "de": "Das Magazin ist vor allem auf Berichte über Königsfamilien spezialisiert.",
+   "fas": "این مجله بیشتر در گزارش درباره‌ی خانواده‌های سلطنتی تخصص دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "auf ein Thema spezialisiert sein",
+     "در موضوعی تخصص داشتن"
+    ],
+    [
+     "ein spezialisierter Anbieter",
+     "ارائه‌دهنده‌ای تخصصی"
+    ],
+    [
+     "sich spezialisieren auf",
+     "متخصص شدن در"
+    ]
+   ]
+  },
+  {
+   "id": "L3-383",
+   "s": "T",
+   "w": "prominent",
+   "fa": "مشهور، سرشناس",
+   "syn": "berühmt, bekannt",
+   "de": "Neben prominenten Unterhaltungsstars zeigt die Zeitschrift viele Fotos von Adeligen.",
+   "fas": "این مجله در کنار ستاره‌های مشهور سرگرمی، عکس‌های زیادی از اشراف نشان می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine prominente Person",
+     "فردی سرشناس"
+    ],
+    [
+     "prominente Gäste",
+     "مهمانان مشهور"
+    ],
+    [
+     "an prominenter Stelle",
+     "در جایگاهی برجسته"
+    ]
+   ]
+  },
+  {
+   "id": "L3-384",
+   "s": "T",
+   "w": "sich (D) die Mühe machen",
+   "fa": "زحمت (کاری را) به خود دادن",
+   "syn": "sich bemühen, sich anstrengen",
+   "de": "Nur wenige Leser machen sich die Mühe, die Methode einer Umfrage zu prüfen.",
+   "fas": "فقط معدودی از خوانندگان به خود زحمت می‌دهند روش یک نظرسنجی را بررسی کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "sich viel Mühe machen",
+     "زحمت زیادی کشیدن"
+    ],
+    [
+     "die Mühe lohnt sich",
+     "می‌ارزد زحمتش را"
+    ],
+    [
+     "sich keine Mühe machen",
+     "زحمتی به خود ندادن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-385",
+   "s": "T",
+   "w": "etw. in Frage stellen",
+   "fa": "چیزی را زیر سؤال بردن",
+   "syn": "bezweifeln, hinterfragen",
+   "de": "Kritische Leser stellen die Ergebnisse solcher Umfragen grundsätzlich in Frage.",
+   "fas": "خوانندگان نکته‌سنج اصولاً نتایج چنین نظرسنجی‌هایی را زیر سؤال می‌برند.",
+   "_t": 1,
+   "c": [
+    [
+     "kritisch in Frage stellen",
+     "منتقدانه زیر سؤال بردن"
+    ],
+    [
+     "das kommt nicht in Frage",
+     "این اصلاً مطرح نیست"
+    ],
+    [
+     "alles in Frage stellen",
+     "همه‌چیز را زیر سؤال بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-386",
+   "s": "T",
+   "w": "hinterfragen",
+   "fa": "(به‌طور انتقادی) بررسی کردن، چون‌وچرا کردن",
+   "syn": "kritisch prüfen, in Frage stellen",
+   "de": "Wir sollten Statistiken genauso hinterfragen wie die Aussagen von Politikern.",
+   "fas": "باید آمارها را همان‌قدر بررسی انتقادی کنیم که گفته‌های سیاستمداران را.",
+   "_t": 1,
+   "c": [
+    [
+     "kritisch hinterfragen",
+     "منتقدانه بررسی کردن"
+    ],
+    [
+     "Methoden hinterfragen",
+     "روش‌ها را زیر سؤال بردن"
+    ],
+    [
+     "sich selbst hinterfragen",
+     "خود را محک زدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-387",
+   "s": "T",
+   "w": "exakt",
+   "fa": "دقیق",
+   "syn": "genau, präzise",
+   "de": "Wenn keine exakten Daten vorhanden sind, arbeitet man oft mit groben Schätzungen.",
+   "fas": "وقتی داده‌های دقیق در دست نیست، اغلب با تخمین‌های کلی کار می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "exakte Daten",
+     "داده‌های دقیق"
+    ],
+    [
+     "exakt berechnen",
+     "دقیق محاسبه کردن"
+    ],
+    [
+     "exakt gleich",
+     "دقیقاً یکسان"
+    ]
+   ]
+  },
+  {
+   "id": "L3-388",
+   "s": "T",
+   "w": "vorhanden sein",
+   "fa": "موجود بودن",
+   "syn": "existieren, da sein",
+   "de": "Für siebenhundert Berufe waren überhaupt keine genauen Daten vorhanden.",
+   "fas": "برای هفتصد شغل اصلاً داده‌ی دقیقی موجود نبود.",
+   "_t": 1,
+   "c": [
+    [
+     "ausreichend vorhanden sein",
+     "به اندازه‌ی کافی موجود بودن"
+    ],
+    [
+     "nicht mehr vorhanden",
+     "دیگر موجود نیست"
+    ],
+    [
+     "bereits vorhanden",
+     "از قبل موجود"
+    ]
+   ]
+  },
+  {
+   "id": "L3-389",
+   "s": "T",
+   "w": "bestimmen",
+   "fa": "تعیین کردن، مشخص کردن",
+   "syn": "festlegen, ermitteln",
+   "de": "Mit groben Annahmen versucht man, die Zahl der bedrohten Arbeitsplätze zu bestimmen.",
+   "fas": "با فرض‌های کلی سعی می‌کنند تعداد شغل‌های در خطر را مشخص کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "genau bestimmen",
+     "دقیق تعیین کردن"
+    ],
+    [
+     "den Preis bestimmen",
+     "قیمت را تعیین کردن"
+    ],
+    [
+     "über etw. bestimmen",
+     "درباره‌ی چیزی تصمیم گرفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-390",
+   "s": "T",
+   "w": "wegfallen",
+   "fa": "حذف شدن، از بین رفتن",
+   "syn": "entfallen, verschwinden",
+   "de": "Durch künstliche Intelligenz könnten in Zukunft viele Arbeitsplätze wegfallen.",
+   "fas": "به‌خاطر هوش مصنوعی ممکن است در آینده بسیاری از شغل‌ها از بین بروند.",
+   "_t": 1,
+   "c": [
+    [
+     "Arbeitsplätze fallen weg",
+     "شغل‌ها از بین می‌روند"
+    ],
+    [
+     "ersatzlos wegfallen",
+     "بدون جایگزین حذف شدن"
+    ],
+    [
+     "die Gebühr fällt weg",
+     "هزینه حذف می‌شود"
+    ]
+   ]
+  },
+  {
+   "id": "L3-391",
+   "s": "T",
+   "w": "die Generalisierung, -en",
+   "fa": "تعمیم",
+   "syn": "die Verallgemeinerung",
+   "de": "Die Ergebnisse der Studie beruhen auf Vermutungen und gewagten Generalisierungen.",
+   "fas": "نتایج این مطالعه بر پایه‌ی حدس‌ها و تعمیم‌های جسورانه است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine unzulässige Generalisierung",
+     "تعمیمی نادرست"
+    ],
+    [
+     "vor Generalisierungen warnen",
+     "نسبت به تعمیم هشدار دادن"
+    ],
+    [
+     "auf Generalisierungen beruhen",
+     "بر تعمیم استوار بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-392",
+   "s": "T",
+   "w": "verallgemeinern",
+   "fa": "تعمیم دادن",
+   "syn": "generalisieren, pauschalisieren",
+   "de": "Man darf die Meinung von zehn Experten nicht einfach auf alle Berufe verallgemeinern.",
+   "fas": "نمی‌توان نظر ده متخصص را به‌سادگی به همه‌ی مشاغل تعمیم داد.",
+   "_t": 1,
+   "c": [
+    [
+     "vorschnell verallgemeinern",
+     "شتاب‌زده تعمیم دادن"
+    ],
+    [
+     "man kann nicht verallgemeinern",
+     "نمی‌شود تعمیم داد"
+    ],
+    [
+     "verallgemeinernde Annahmen",
+     "فرض‌های تعمیم‌دهنده"
+    ]
+   ]
+  },
+  {
+   "id": "L3-393",
+   "s": "T",
+   "w": "die Gesundheitsvorsorge (nur Sg.)",
+   "fa": "پیشگیری و مراقبت بهداشتی",
+   "syn": "die Prävention, die Vorsorge",
+   "de": "Gerade im Bereich der Gesundheitsvorsorge werden Zahlen oft geschickt dargestellt.",
+   "fas": "به‌ویژه در حوزه‌ی مراقبت‌های پیشگیرانه‌ی بهداشتی اعداد اغلب زیرکانه ارائه می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "die private Gesundheitsvorsorge",
+     "مراقبت بهداشتی خصوصی"
+    ],
+    [
+     "Maßnahmen der Gesundheitsvorsorge",
+     "اقدامات پیشگیری بهداشتی"
+    ],
+    [
+     "in die Gesundheitsvorsorge investieren",
+     "روی پیشگیری بهداشتی سرمایه‌گذاری کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-394",
+   "s": "T",
+   "w": "die Prozentangabe, -n",
+   "fa": "رقم درصدی، درصد ذکرشده",
+   "syn": "die Prozentzahl, der Prozentwert",
+   "de": "Werbung wählt gern Prozentangaben, die besonders groß und beeindruckend aussehen.",
+   "fas": "تبلیغات دوست دارند ارقام درصدی‌ای انتخاب کنند که به‌خصوص بزرگ و چشمگیر به نظر برسند.",
+   "_t": 1,
+   "c": [
+    [
+     "ungenaue Prozentangaben",
+     "ارقام درصدی نادقیق"
+    ],
+    [
+     "Prozentangaben vergleichen",
+     "درصدها را مقایسه کردن"
+    ],
+    [
+     "laut Prozentangabe",
+     "طبق درصد ذکرشده"
+    ]
+   ]
+  },
+  {
+   "id": "L3-395",
+   "s": "T",
+   "w": "der Prozentpunkt, -e",
+   "fa": "واحد درصد",
+   "syn": "der Punkt (bei Prozentwerten)",
+   "de": "Das Risiko sinkt nur um einen Prozentpunkt, von fünf auf vier Prozent.",
+   "fas": "ریسک فقط یک واحد درصد کاهش می‌یابد، از پنج به چهار درصد.",
+   "_t": 1,
+   "c": [
+    [
+     "um einen Prozentpunkt sinken",
+     "یک واحد درصد کاهش یافتن"
+    ],
+    [
+     "mehrere Prozentpunkte",
+     "چند واحد درصد"
+    ],
+    [
+     "um zwei Prozentpunkte steigen",
+     "دو واحد درصد افزایش یافتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-396",
+   "s": "T",
+   "w": "das Sterberisiko, -risiken",
+   "fa": "خطر مرگ",
+   "syn": "das Todesrisiko, die Sterblichkeit",
+   "de": "Das neue Medikament senkt das Sterberisiko nur geringfügig.",
+   "fas": "داروی جدید خطر مرگ را فقط اندکی کاهش می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "das Sterberisiko senken",
+     "خطر مرگ را کاهش دادن"
+    ],
+    [
+     "ein erhöhtes Sterberisiko",
+     "خطر مرگ بالاتر"
+    ],
+    [
+     "das Sterberisiko verringern",
+     "خطر مرگ را کم کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-397",
+   "s": "T",
+   "w": "das Medikament, -e",
+   "fa": "دارو",
+   "syn": "das Arzneimittel, das Mittel",
+   "de": "Viele Ärzte halten den Nutzen eines Medikaments für größer, als er wirklich ist.",
+   "fas": "بسیاری از پزشکان فایده‌ی یک دارو را بیشتر از آنچه واقعاً هست می‌دانند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Medikament einnehmen",
+     "دارو مصرف کردن"
+    ],
+    [
+     "ein Medikament verschreiben",
+     "دارو تجویز کردن"
+    ],
+    [
+     "ein neues Medikament testen",
+     "داروی جدیدی را آزمایش کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-398",
+   "s": "T",
+   "w": "beeindruckend",
+   "fa": "چشمگیر، تأثیرگذار",
+   "syn": "eindrucksvoll, imposant",
+   "de": "Eine Verbesserung um zwanzig Prozent klingt viel beeindruckender als ein Prozentpunkt.",
+   "fas": "بهبود بیست‌درصدی خیلی چشمگیرتر از یک واحد درصد به نظر می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "beeindruckende Zahlen",
+     "اعداد چشمگیر"
+    ],
+    [
+     "wenig beeindruckend",
+     "نه چندان چشمگیر"
+    ],
+    [
+     "ein beeindruckendes Ergebnis",
+     "نتیجه‌ای چشمگیر"
+    ]
+   ]
+  },
+  {
+   "id": "L3-399",
+   "s": "T",
+   "w": "etw. halten für + A",
+   "fa": "چیزی را … دانستن، تصور کردن",
+   "syn": "ansehen als, einschätzen als",
+   "de": "Viele halten Zahlen für objektiver als Worte, doch das ist ein Irrtum.",
+   "fas": "خیلی‌ها اعداد را عینی‌تر از کلمات می‌دانند، اما این اشتباه است.",
+   "_t": 1,
+   "c": [
+    [
+     "etw. für wahr halten",
+     "چیزی را درست پنداشتن"
+    ],
+    [
+     "jdn. für ehrlich halten",
+     "کسی را صادق دانستن"
+    ],
+    [
+     "etw. für möglich halten",
+     "چیزی را ممکن دانستن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-400",
+   "s": "T",
+   "w": "die Faulheit (nur Sg.)",
+   "fa": "تنبلی",
+   "syn": "die Trägheit, die Bequemlichkeit",
+   "de": "Aus einer gewissen Faulheit des Denkens prüfen wir Statistiken selten genauer.",
+   "fas": "از سر نوعی تنبلی فکری، به‌ندرت آمارها را دقیق‌تر بررسی می‌کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "aus reiner Faulheit",
+     "از سر تنبلی محض"
+    ],
+    [
+     "die Faulheit überwinden",
+     "بر تنبلی غلبه کردن"
+    ],
+    [
+     "Faulheit des Denkens",
+     "تنبلی فکری"
+    ]
+   ]
+  },
+  {
+   "id": "L3-401",
+   "s": "T",
+   "w": "die Berechnung, -en",
+   "fa": "محاسبه",
+   "syn": "die Kalkulation, die Rechnung",
+   "de": "Die Berechnungen der Studie lassen sich von Laien kaum überprüfen.",
+   "fas": "محاسبات این پژوهش را افراد غیرمتخصص به‌سختی می‌توانند بررسی کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine genaue Berechnung",
+     "محاسبه‌ای دقیق"
+    ],
+    [
+     "nach meiner Berechnung",
+     "طبق محاسبه‌ی من"
+    ]
+   ]
+  },
+  {
+   "id": "L3-402",
+   "s": "T",
+   "w": "die Interessengruppe, -n",
+   "fa": "گروه ذی‌نفع، گروه فشار",
+   "syn": "die Lobby, der Interessenverband",
+   "de": "Interessengruppen nutzen gern dramatische Statistiken, um ihre Forderungen zu begründen.",
+   "fas": "گروه‌های ذی‌نفع دوست دارند از آمارهای هیجان‌انگیز برای توجیه خواسته‌هایشان استفاده کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "mächtige Interessengruppen",
+     "گروه‌های ذی‌نفع قدرتمند"
+    ],
+    [
+     "im Auftrag einer Interessengruppe",
+     "به سفارش یک گروه فشار"
+    ],
+    [
+     "die Interessen vertreten",
+     "از منافع دفاع کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-403",
+   "s": "T",
+   "w": "der Lobbyist, -en / die Lobbyistin, -nen",
+   "fa": "لابی‌گر",
+   "syn": "der Interessenvertreter",
+   "de": "Lobbyisten versuchen, Politiker mit scheinbar eindeutigen Zahlen zu überzeugen.",
+   "fas": "لابی‌گرها سعی می‌کنند سیاستمداران را با اعداد به‌ظاهر روشن قانع کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein einflussreicher Lobbyist",
+     "لابی‌گری بانفوذ"
+    ],
+    [
+     "Lobbyisten der Industrie",
+     "لابی‌گران صنعت"
+    ],
+    [
+     "als Lobbyist tätig sein",
+     "به‌عنوان لابی‌گر فعالیت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-404",
+   "s": "T",
+   "w": "dramatisch",
+   "fa": "هیجان‌انگیز، نگران‌کننده، شدید",
+   "syn": "alarmierend, aufsehenerregend",
+   "de": "Die Medien berichteten über dramatische Zahlen, die sich später als übertrieben erwiesen.",
+   "fas": "رسانه‌ها از آمارهای نگران‌کننده‌ای گزارش دادند که بعداً معلوم شد اغراق‌آمیز بوده‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "dramatisch ansteigen",
+     "به‌شدت افزایش یافتن"
+    ],
+    [
+     "eine dramatische Entwicklung",
+     "تحولی نگران‌کننده"
+    ],
+    [
+     "dramatisch wirken",
+     "هیجان‌انگیز به نظر رسیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-405",
+   "s": "T",
+   "w": "wünschenswert",
+   "fa": "مطلوب، خوب (است اگر)",
+   "syn": "erstrebenswert, sinnvoll",
+   "de": "Eine bessere Statistikausbildung für Journalisten wäre durchaus wünschenswert.",
+   "fas": "آموزش بهتر آمار برای روزنامه‌نگاران کاملاً مطلوب خواهد بود.",
+   "_t": 1,
+   "c": [
+    [
+     "es wäre wünschenswert, dass …",
+     "خوب بود اگر …"
+    ],
+    [
+     "durchaus wünschenswert",
+     "کاملاً مطلوب"
+    ],
+    [
+     "ein wünschenswertes Ziel",
+     "هدفی مطلوب"
+    ]
+   ]
+  },
+  {
+   "id": "L3-406",
+   "s": "T",
+   "w": "keinesfalls",
+   "fa": "به هیچ وجه",
+   "syn": "auf keinen Fall, keineswegs",
+   "de": "Bei Zahlen sollte man keinesfalls weniger kritisch sein als bei Worten.",
+   "fas": "در مورد اعداد به هیچ وجه نباید کمتر از کلمات نقاد بود.",
+   "_t": 1,
+   "c": [
+    [
+     "keinesfalls vergessen",
+     "به هیچ وجه فراموش نکردن"
+    ],
+    [
+     "das ist keinesfalls so",
+     "به هیچ وجه این‌طور نیست"
+    ],
+    [
+     "keinesfalls zustimmen",
+     "به هیچ وجه موافقت نکردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-407",
+   "s": "T",
+   "w": "prinzipiell",
+   "fa": "اصولاً، در اصل",
+   "syn": "grundsätzlich, im Prinzip",
+   "de": "Ich bin prinzipiell gegen Notlügen, aber manchmal sind sie kaum zu vermeiden.",
+   "fas": "من اصولاً مخالف دروغ مصلحتی هستم، اما گاهی به‌سختی می‌شود از آن پرهیز کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "prinzipiell möglich",
+     "در اصل ممکن"
+    ],
+    [
+     "prinzipiell dagegen sein",
+     "اصولاً مخالف بودن"
+    ],
+    [
+     "aus prinzipiellen Gründen",
+     "به دلایل اصولی"
+    ]
+   ]
+  },
+  {
+   "id": "L3-408",
+   "s": "T",
+   "w": "die Genauigkeit (nur Sg.)",
+   "fa": "دقت",
+   "syn": "die Präzision, die Exaktheit",
+   "de": "Viele verbinden Zahlen automatisch mit Genauigkeit und Sicherheit.",
+   "fas": "خیلی‌ها اعداد را خودبه‌خود با دقت و اطمینان مرتبط می‌دانند.",
+   "_t": 1,
+   "c": [
+    [
+     "mit großer Genauigkeit",
+     "با دقت زیاد"
+    ],
+    [
+     "die Genauigkeit der Daten",
+     "دقت داده‌ها"
+    ],
+    [
+     "auf Genauigkeit achten",
+     "به دقت توجه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-409",
+   "s": "T",
+   "w": "die Prozentzahl, -en",
+   "fa": "درصد، عدد درصدی",
+   "syn": "die Prozentangabe, der Anteil",
+   "de": "Die hohe Prozentzahl wirkt auf den ersten Blick sehr überzeugend.",
+   "fas": "این درصد بالا در نگاه اول خیلی قانع‌کننده به نظر می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine hohe Prozentzahl",
+     "درصدی بالا"
+    ],
+    [
+     "Prozentzahlen vergleichen",
+     "درصدها را مقایسه کردن"
+    ],
+    [
+     "mit Prozentzahlen arbeiten",
+     "با درصدها کار کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-410",
+   "s": "T",
+   "w": "unbeliebt",
+   "fa": "نامحبوب",
+   "syn": "unpopulär, ungeliebt",
+   "de": "Lügner sind in den meisten Gruppen schnell unbeliebt.",
+   "fas": "دروغگوها در بیشتر گروه‌ها زود نامحبوب می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "sich unbeliebt machen",
+     "خود را منفور کردن"
+    ],
+    [
+     "bei jdm. unbeliebt sein",
+     "نزد کسی محبوب نبودن"
+    ],
+    [
+     "eine unbeliebte Aufgabe",
+     "کاری ناخوشایند"
+    ]
+   ]
+  },
+  {
+   "id": "L3-411",
+   "s": "T",
+   "w": "überzeugend",
+   "fa": "قانع‌کننده",
+   "syn": "glaubwürdig, schlüssig",
+   "de": "Die Studie über künstliche Intelligenz ist nicht überzeugend, weil sie auf Vermutungen beruht.",
+   "fas": "پژوهش درباره‌ی هوش مصنوعی قانع‌کننده نیست، چون بر حدس و گمان استوار است.",
+   "_t": 1,
+   "c": [
+    [
+     "überzeugend argumentieren",
+     "قانع‌کننده استدلال کردن"
+    ],
+    [
+     "wenig überzeugend",
+     "نه چندان قانع‌کننده"
+    ],
+    [
+     "ein überzeugender Beweis",
+     "مدرکی قانع‌کننده"
+    ]
+   ]
+  },
+  {
+   "id": "L3-412",
+   "s": "T",
+   "w": "die Verständlichkeit (nur Sg.)",
+   "fa": "قابل‌فهم بودن، وضوح",
+   "syn": "die Klarheit, die Deutlichkeit",
+   "de": "In der Prüfung wird nur der Inhalt und die Verständlichkeit der Antwort bewertet.",
+   "fas": "در امتحان فقط محتوا و قابل‌فهم بودن پاسخ ارزیابی می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "die Verständlichkeit verbessern",
+     "وضوح را بهتر کردن"
+    ],
+    [
+     "auf Verständlichkeit achten",
+     "به قابل‌فهم بودن توجه کردن"
+    ],
+    [
+     "der Verständlichkeit halber",
+     "برای وضوح بیشتر"
+    ]
+   ]
+  },
+  {
+   "id": "L3-413",
+   "s": "T",
+   "w": "anfertigen",
+   "fa": "تهیه کردن، ساختن",
+   "syn": "herstellen, erstellen",
+   "de": "Im Studium muss man viele Hausarbeiten anfertigen und dabei korrekt zitieren.",
+   "fas": "در دانشگاه باید مقاله‌های زیادی تهیه کرد و در آن‌ها درست نقل‌قول کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Kopie anfertigen",
+     "نسخه‌ای تهیه کردن"
+    ],
+    [
+     "eine Hausarbeit anfertigen",
+     "مقاله‌ی درسی نوشتن"
+    ],
+    [
+     "ein Protokoll anfertigen",
+     "صورت‌جلسه تهیه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-414",
+   "s": "T",
+   "w": "beraten",
+   "fa": "مشاوره دادن، راهنمایی کردن",
+   "syn": "Ratschläge geben, unterstützen",
+   "de": "In der Schreibberatung werden Studierende bei Fragen zum wissenschaftlichen Schreiben beraten.",
+   "fas": "در مشاوره‌ی نگارش به دانشجویان درباره‌ی پرسش‌های نگارش علمی مشاوره داده می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "jdn. gut beraten",
+     "کسی را خوب راهنمایی کردن"
+    ],
+    [
+     "sich beraten lassen",
+     "مشاوره گرفتن"
+    ],
+    [
+     "gut beraten sein",
+     "کار عاقلانه‌ای کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-415",
+   "s": "T",
+   "w": "plagiieren",
+   "fa": "سرقت ادبی کردن",
+   "syn": "abschreiben, Ideen stehlen",
+   "de": "Manche Studierende plagiieren, weil sie keine Lust haben, selbst zu formulieren.",
+   "fas": "بعضی دانشجویان سرقت ادبی می‌کنند، چون حوصله ندارند خودشان بنویسند.",
+   "_t": 1,
+   "c": [
+    [
+     "aus dem Internet plagiieren",
+     "از اینترنت سرقت ادبی کردن"
+    ],
+    [
+     "beim Plagiieren erwischt werden",
+     "هنگام سرقت ادبی گیر افتادن"
+    ],
+    [
+     "bewusst plagiieren",
+     "آگاهانه سرقت ادبی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-416",
+   "s": "T",
+   "w": "das Drittel, -",
+   "fa": "یک‌سوم",
+   "syn": "der dritte Teil",
+   "de": "Ein Drittel der Studierenden hat Probleme mit wichtigen Schreibtechniken.",
+   "fas": "یک‌سوم دانشجویان با فنون مهم نگارش مشکل دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Drittel der Befragten",
+     "یک‌سوم پاسخ‌دهندگان"
+    ],
+    [
+     "zwei Drittel",
+     "دوسوم"
+    ],
+    [
+     "um ein Drittel steigen",
+     "یک‌سوم افزایش یافتن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-417",
+   "s": "T",
+   "w": "die Schreibtechnik, -en",
+   "fa": "فن نگارش",
+   "syn": "die Schreibmethode, die Schreibstrategie",
+   "de": "Wichtige Schreibtechniken sollte man nicht nur im ersten Semester trainieren.",
+   "fas": "فنون مهم نگارش را نباید فقط در ترم اول تمرین کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "Schreibtechniken lernen",
+     "فنون نگارش را یاد گرفتن"
+    ],
+    [
+     "wissenschaftliche Schreibtechniken",
+     "فنون نگارش علمی"
+    ],
+    [
+     "Schreibtechniken trainieren",
+     "فنون نگارش را تمرین کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-418",
+   "s": "T",
+   "w": "reflektieren",
+   "fa": "تأمل کردن (در)، بازاندیشی کردن",
+   "syn": "nachdenken über, überdenken",
+   "de": "Nach dem Test sollten Sie Ihr Vorgehen beim Hören kurz reflektieren.",
+   "fas": "بعد از آزمون باید کمی درباره‌ی روش خود در شنیدن تأمل کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "das eigene Verhalten reflektieren",
+     "در رفتار خود تأمل کردن"
+    ],
+    [
+     "kritisch reflektieren",
+     "منتقدانه بازاندیشی کردن"
+    ],
+    [
+     "über etw. reflektieren",
+     "درباره‌ی چیزی اندیشیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L3-419",
+   "s": "T",
+   "w": "das Vorgehen (nur Sg.)",
+   "fa": "روش کار، شیوه‌ی عمل",
+   "syn": "die Vorgehensweise, die Methode",
+   "de": "Ihr Vorgehen beim Markieren der Schlüsselwörter war sehr effektiv.",
+   "fas": "روش شما در علامت‌گذاری کلیدواژه‌ها بسیار مؤثر بود.",
+   "_t": 1,
+   "c": [
+    [
+     "ein systematisches Vorgehen",
+     "روشی نظام‌مند"
+    ],
+    [
+     "das Vorgehen planen",
+     "روند کار را برنامه‌ریزی کردن"
+    ],
+    [
+     "gemeinsames Vorgehen",
+     "اقدام مشترک"
+    ]
+   ]
   }
  ],
  "grammar": [
   {
    "id": "t1",
-   "title": "Gegensätze formulieren",
-   "title_fa": "بیان تضاد و مقایسه",
-   "goal_de": "Man stellt zwei Dinge gegenüber: mit einem Nebensatz (während), mit Adverbien (jedoch, dagegen, doch), mit der zweiteiligen Konjunktion zwar … aber oder mit einem Nomen (im Gegensatz zu + Dativ). Wichtig ist jedes Mal die Position des Verbs.",
-   "goal_fa": "دو چیز را در برابر هم قرار می‌دهیم: با جمله‌ی وابسته (während)، با قیدها (jedoch، dagegen، doch)، با حرف ربط دوبخشی zwar … aber یا با یک اسم (im Gegensatz zu + Dativ). نکته‌ی اصلی در هر حالت جای فعل است.",
+   "title": "Wortstellung in Haupt- und Nebensätzen (Wiederholung)",
+   "title_fa": "ترتیب کلمات در جمله‌ی اصلی و جمله‌ی وابسته (مرور)",
+   "goal_de": "Bevor man Gegensätze und Ziele ausdrückt, muss man wissen, wohin das Verb gehört: Hauptsatzkonnektoren stehen auf Position 0, Verbindungsadverbien auf Position 1 oder im Mittelfeld, Nebensatzkonnektoren schicken das Verb ans Ende, und Angaben mit Präposition besetzen eine eigene Position im Satz.",
+   "goal_fa": "پیش از آن‌که تضاد و هدف را بیان کنیم، باید بدانیم فعل کجا می‌نشیند: حروف ربط جمله‌ی اصلی در جایگاه صفر می‌آیند، قیدهای ربطی در جایگاه اول یا وسط جمله، حروف ربط جمله‌ی وابسته فعل را به آخر جمله می‌فرستند و عبارت‌های حرف‌اضافه‌ای خودشان یک جایگاه کامل در جمله می‌گیرند.",
+   "rules": [
+    {
+     "head": "Hauptsatzkonnektoren auf Position 0 (»aduso«)",
+     "de": "aber, denn, und, sondern, oder (Merkwort »aduso«) und auch doch verbinden zwei gleichwertige Hauptsätze. Sie zählen nicht als Satzglied: Nach ihnen folgt die normale Wortstellung mit dem Verb auf Position 2. aber und doch nennen einen Gegensatz, denn einen Grund, sondern eine Alternative zu einem verneinten Teil, oder eine Alternative. Vor aber, denn und sondern steht immer ein Komma. Sind Subjekt oder Verb in beiden Sätzen gleich, darf man sie im zweiten Satz weglassen – aber nicht nach denn.",
+     "fa": "aber، denn، und، sondern، oder (برای حفظ کردن: «aduso») و همین‌طور doch دو جمله‌ی اصلی هم‌ارزش را به هم وصل می‌کنند. این کلمه‌ها جزو جمله حساب نمی‌شوند و جایگاه صفر دارند؛ یعنی بعد از آن‌ها ترتیب معمولی می‌آید و فعل همچنان جایگاه دوم است. aber و doch تضاد را نشان می‌دهند، denn دلیل، sondern جایگزینِ یک بخشِ منفی‌شده و oder انتخاب. قبل از aber، denn و sondern همیشه ویرگول می‌گذاریم. اگر فاعل یا فعل در دو جمله یکی باشد، می‌توانیم در جمله‌ی دوم حذفش کنیم؛ فقط بعد از denn این حذف مجاز نیست.",
+     "ex": [
+      [
+       "Ich glaube ihm nicht, denn er hat schon oft geflunkert.",
+       "حرفش را باور نمی‌کنم، چون قبلاً بارها خالی بسته است."
+      ],
+      [
+       "Sie hat nicht geschummelt, sondern (sie hat) einfach gut gelernt.",
+       "او تقلب نکرده، بلکه فقط خوب درس خوانده است."
+      ],
+      [
+       "Er wollte die Wahrheit sagen, doch ihm fehlte der Mut.",
+       "می‌خواست حقیقت را بگوید، اما جرئتش را نداشت."
+      ]
+     ]
+    },
+    {
+     "head": "Verbindungsadverbien auf Position 1",
+     "de": "Verbindungsadverbien wie deshalb, trotzdem, stattdessen, folglich, dadurch, jedoch, dagegen oder hingegen verbinden ebenfalls zwei Hauptsätze. Anders als die aduso-Konnektoren sind sie ein Satzglied: Stehen sie am Anfang des zweiten Satzes (Position 1), folgt sofort das konjugierte Verb und erst danach das Subjekt.",
+     "fa": "قیدهای ربطی مثل deshalb، trotzdem، stattdessen، folglich، dadurch، jedoch، dagegen یا hingegen هم دو جمله‌ی اصلی را وصل می‌کنند، ولی برخلاف گروه aduso خودشان یک جزء جمله‌اند. پس اگر اول جمله‌ی دوم بیایند (جایگاه اول)، فعل صرف‌شده بلافاصله بعدشان می‌آید و فاعل پشت فعل می‌رود. اشتباه رایج فارسی‌زبان‌ها این است که فاعل را قبل از فعل می‌گذارند.",
+     "ex": [
+      [
+       "Der Händler hat uns getäuscht, deshalb schreiben wir eine Beschwerde.",
+       "فروشنده ما را فریب داده، به همین دلیل شکایت‌نامه می‌نویسیم."
+      ],
+      [
+       "Das Paket war unvollständig. Trotzdem hat der Kunde nicht reklamiert.",
+       "بسته ناقص بود. با این حال مشتری اعتراضی نکرد."
+      ]
+     ]
+    },
+    {
+     "head": "Verbindungsadverbien im Mittelfeld",
+     "de": "Die meisten Verbindungsadverbien können auch im Mittelfeld stehen, also nach dem konjugierten Verb. Dann bleibt das Subjekt (oder ein anderes Satzglied) auf Position 1. Oft steht das Adverb nach den Pronomen und vor der wichtigen neuen Information.",
+     "fa": "بیشتر قیدهای ربطی می‌توانند وسط جمله هم بیایند، یعنی بعد از فعل صرف‌شده. در این حالت فاعل (یا یک جزء دیگر) جایگاه اول را نگه می‌دارد. معمولاً قید بعد از ضمیرها و قبل از اطلاعات تازه و مهم می‌نشیند.",
+     "ex": [
+      [
+       "Die Kamera war teuer. Die Kundin hat sie trotzdem bestellt.",
+       "دوربین گران بود. مشتری با این حال سفارشش داد."
+      ],
+      [
+       "Er hat sich entschuldigt. Sie glaubt ihm jedoch kein Wort.",
+       "او عذرخواهی کرد. اما زن یک کلمه از حرفش را هم باور نمی‌کند."
+      ]
+     ]
+    },
+    {
+     "head": "Nebensätze: Konnektor … Verb am Ende",
+     "de": "Ein Nebensatz beginnt mit einem Nebensatzkonnektor (z. B. weil, obwohl, anstatt dass, während, damit, wenn, sodass, indem). Das konjugierte Verb steht ganz am Ende, zwischen Haupt- und Nebensatz steht ein Komma. Der Nebensatz kann meistens vor oder nach dem Hauptsatz stehen; eine Ausnahme ist sodass, das immer nach dem Hauptsatz kommt.",
+     "fa": "جمله‌ی وابسته با یک حرف ربط وابسته شروع می‌شود (مثلاً weil، obwohl، anstatt dass، während، damit، wenn، sodass، indem) و فعل صرف‌شده به آخرِ آخر جمله می‌رود. بین جمله‌ی اصلی و وابسته ویرگول لازم است. جمله‌ی وابسته معمولاً می‌تواند قبل یا بعد از جمله‌ی اصلی بیاید؛ فقط sodass همیشه بعد از جمله‌ی اصلی می‌آید.",
+     "ex": [
+      [
+       "Viele Kinder schwindeln, weil sie Ärger vermeiden wollen.",
+       "خیلی از بچه‌ها دروغ کوچک می‌گویند، چون می‌خواهند از دردسر فرار کنند."
+      ],
+      [
+       "Die Lieferung kam zu spät, sodass ich die Kamera nicht mitnehmen konnte.",
+       "سفارش دیر رسید، طوری که نتوانستم دوربین را با خودم ببرم."
+      ]
+     ]
+    },
+    {
+     "head": "Nebensatz vor dem Hauptsatz",
+     "de": "Steht der Nebensatz am Anfang, besetzt er als Ganzes die Position 1. Deshalb folgt nach dem Komma sofort das konjugierte Verb des Hauptsatzes – es entsteht das typische Muster »Verb, Verb«.",
+     "fa": "اگر جمله‌ی وابسته اول بیاید، کل آن جایگاه اول را پر می‌کند. پس بعد از ویرگول بلافاصله فعل جمله‌ی اصلی می‌آید و الگوی معروف «فعل، فعل» ساخته می‌شود. این را مثل یک قانون ثابت به خاطر بسپارید.",
+     "ex": [
+      [
+       "Weil die Anleitung fehlte, konnte sie die Menüsprache nicht ändern.",
+       "چون دفترچه‌ی راهنما نبود، نتوانست زبان منو را عوض کند."
+      ],
+      [
+       "Obwohl er oft lügt, mögen ihn alle.",
+       "با این‌که اغلب دروغ می‌گوید، همه دوستش دارند."
+      ]
+     ]
+    },
+    {
+     "head": "Angaben mit Präposition",
+     "de": "Auch mit einer Präposition kann man Grund, Gegensatz, Zweck oder Art und Weise ausdrücken (z. B. wegen, trotz, statt, im Gegensatz zu, zu, für, infolge, durch). Eine solche Angabe hat kein eigenes Verb. Sie steht meistens am Satzanfang – dann folgt direkt das Verb – oder im Mittelfeld.",
+     "fa": "با یک حرف اضافه هم می‌توان دلیل، تضاد، هدف یا شیوه را گفت (مثلاً wegen، trotz، statt، im Gegensatz zu، zu، für، infolge، durch). این عبارت‌ها فعل ندارند و فقط یک جزء جمله‌اند. معمولاً یا اول جمله می‌آیند (و بعدشان فوراً فعل) یا وسط جمله.",
+     "ex": [
+      [
+       "Trotz der Entschuldigung bleibt sie misstrauisch.",
+       "با وجود عذرخواهی، او همچنان بدبین است."
+      ],
+      [
+       "Sie bleibt trotz der Entschuldigung misstrauisch.",
+       "او با وجود عذرخواهی همچنان بدبین است."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "aber / denn / und / sondern / oder / doch",
+     "Hauptsatzkonnektor (Position 0)",
+     "…, aber er lügt.",
+     "بعدش ترتیب عادی"
+    ],
+    [
+     "deshalb / trotzdem / jedoch / dagegen …",
+     "Verbindungsadverb (Position 1)",
+     "…, deshalb lügt er.",
+     "فعل بلافاصله بعدش"
+    ],
+    [
+     "deshalb / trotzdem / jedoch / dagegen …",
+     "Verbindungsadverb (Mittelfeld)",
+     "Er lügt deshalb oft.",
+     "بعد از فعل صرف‌شده"
+    ],
+    [
+     "weil / obwohl / während / damit …",
+     "Nebensatzkonnektor",
+     "…, weil er lügt.",
+     "فعل صرف‌شده در آخر"
+    ],
+    [
+     "Nebensatz + Hauptsatz",
+     "Nebensatz = Position 1",
+     "Weil er lügt, glaube ich ihm nicht.",
+     "الگوی «فعل، فعل»"
+    ],
+    [
+     "wegen / trotz / zu / im Gegensatz zu …",
+     "Angabe mit Präposition",
+     "Trotz der Lüge vertraut sie ihm.",
+     "بدون فعل؛ اول یا وسط جمله"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Adversative Sätze – Gegensätze ausdrücken",
+   "title_fa": "جمله‌های تقابلی – بیان تضاد",
+   "goal_de": "Man stellt zwei Sachverhalte gegenüber (früher – heute, x – y): mit dem Nebensatzkonnektor während, mit den Verbindungsadverbien dagegen, hingegen und jedoch, mit den Hauptsatzkonnektoren aber, doch und nicht/kein … sondern oder mit der Präposition im Gegensatz zu + Dativ.",
+   "goal_fa": "دو موضوع را در برابر هم می‌گذاریم (گذشته – حال، این – آن): با حرف ربط وابسته‌ی während، با قیدهای ربطی dagegen، hingegen و jedoch، با حروف ربط aber، doch و nicht/kein … sondern یا با حرف اضافه‌ی im Gegensatz zu + Dativ. برای هر کدام باید جای فعل را بدانید.",
    "rules": [
     {
      "head": "während + Nebensatz",
-     "de": "während leitet einen Nebensatz ein: Das konjugierte Verb steht am Ende. Hier bedeutet während nicht »zur gleichen Zeit«, sondern einen Gegensatz. Der Nebensatz kann vor oder nach dem Hauptsatz stehen.",
-     "fa": "während جمله‌ی وابسته می‌سازد و فعل صرف‌شده به آخر جمله می‌رود. این‌جا während به معنای «در حالی که» (تضاد) است، نه «هم‌زمان». جمله‌ی وابسته می‌تواند قبل یا بعد از جمله‌ی اصلی بیاید.",
+     "de": "Der Nebensatz mit während nennt einen Gegensatz und beantwortet Fragen wie »Wie war es früher, wie ist es heute?« oder »Wie ist x, wie ist y?«. Man benutzt ihn auch, um zwei Informationen direkt zu vergleichen. Das Verb steht am Ende; der Nebensatz kann vor oder nach dem Hauptsatz stehen. Achtung: während kann auch zeitlich sein (»zur gleichen Zeit«) – der Kontext entscheidet.",
+     "fa": "جمله‌ی وابسته با während تضاد را بیان می‌کند، به معنای «در حالی که». جواب سؤال‌هایی مثل «قبلاً چطور بود و حالا چطور است؟» یا «این چطور است و آن چطور؟» را می‌دهد و برای مقایسه‌ی مستقیم دو اطلاع هم به کار می‌رود. فعل در آخر است و جمله می‌تواند قبل یا بعد از جمله‌ی اصلی بیاید. دقت کنید: während معنای زمانی («هم‌زمان با») هم دارد؛ فقط از متن می‌فهمیم کدام منظور است.",
      "ex": [
       [
-       "Während Menschen bewusst lügen, täuschen Tiere instinktiv.",
-       "در حالی که انسان‌ها آگاهانه دروغ می‌گویند، حیوانات غریزی فریب می‌دهند."
+       "Während Kinder oft aus Angst lügen, flunkern Erwachsene eher aus Höflichkeit.",
+       "در حالی که بچه‌ها اغلب از ترس دروغ می‌گویند، بزرگ‌سال‌ها بیشتر از روی ادب خالی می‌بندند."
       ],
       [
-       "Mein Bruder flunkert oft, während ich immer ehrlich bin.",
-       "برادرم اغلب خالی می‌بندد، در حالی که من همیشه صادقم."
+       "Früher kaufte man im Geschäft, während heute fast alle online bestellen.",
+       "قبلاً از مغازه خرید می‌کردند، در حالی که امروز تقریباً همه آنلاین سفارش می‌دهند."
       ]
      ]
     },
     {
-     "head": "jedoch / dagegen / doch (zweiter Hauptsatz)",
-     "de": "jedoch, dagegen und doch nennen den Gegensatz im zweiten Hauptsatz. Am Satzanfang (Position 1) folgt direkt das Verb, dann das Subjekt. doch steht aber oft auch wie aber auf Position 0: Doch das Zubehör fehlte. jedoch und dagegen können auch nach dem Verb oder direkt nach dem Subjekt stehen: Ich dagegen bin ehrlich. / Er hat jedoch nichts gesagt.",
-     "fa": "jedoch (اما)، dagegen (در مقابل) و doch (ولی) تضاد را در جمله‌ی اصلی دوم بیان می‌کنند. اگر اول جمله بیایند، فعل بلافاصله بعد از آن‌ها و فاعل بعد از فعل می‌آید. البته doch اغلب مثل aber در جایگاه صفر هم می‌آید: Doch das Zubehör fehlte. jedoch و dagegen می‌توانند وسط جمله، بعد از فعل یا بعد از فاعل هم بیایند.",
+     "head": "dagegen / hingegen / jedoch (Verbindungsadverbien)",
+     "de": "dagegen, hingegen und jedoch stehen im zweiten Hauptsatz und nennen den Gegensatz. Auf Position 1 folgt direkt das konjugierte Verb. Im Mittelfeld stehen sie nach dem Verb. Wer den Gegensatz besonders betonen will, stellt sie direkt hinter das erste Satzglied (siehe t3). Sie können nie auf Position 0 stehen.",
+     "fa": "dagegen (در مقابل)، hingegen (برعکس) و jedoch (اما، با این حال) در جمله‌ی اصلی دوم می‌آیند. اگر اول جمله باشند، فعل صرف‌شده فوراً بعدشان می‌آید؛ اگر وسط جمله باشند، بعد از فعل قرار می‌گیرند. برای تأکید بیشتر، آن‌ها را درست بعد از اولین جزء جمله می‌گذاریم (موضوع t3). این سه هرگز جایگاه صفر ندارند، یعنی نمی‌شود بعدشان مستقیم فاعل گذاشت.",
      "ex": [
       [
-       "Kinder lügen selten. Erwachsene lügen dagegen fast täglich.",
-       "بچه‌ها به‌ندرت دروغ می‌گویند. در مقابل، بزرگ‌سالان تقریباً هر روز دروغ می‌گویند."
+       "Männer lügen oft aus Statusgründen. Dagegen ist Frauen die Harmonie wichtiger.",
+       "مردها اغلب به خاطر جایگاه اجتماعی دروغ می‌گویند. در مقابل، برای زن‌ها هماهنگی و آرامش مهم‌تر است."
       ],
       [
-       "Das Angebot klang gut, jedoch fehlte das Zubehör.",
-       "پیشنهاد خوب به نظر می‌رسید، اما لوازم جانبی‌اش ناقص بود."
+       "Am Samstag habe ich Zeit, am Sonntag muss ich jedoch arbeiten.",
+       "شنبه وقت دارم، اما یکشنبه باید کار کنم."
       ]
      ]
     },
     {
-     "head": "zwar … aber",
-     "de": "Mit zwar … aber gibt man im ersten Satz etwas zu und schränkt es im zweiten Satz ein. zwar steht im ersten Hauptsatz meist nach dem Verb, aber steht am Anfang des zweiten Hauptsatzes auf Position 0 (danach Subjekt – Verb).",
-     "fa": "با zwar … aber در جمله‌ی اول چیزی را می‌پذیریم و در جمله‌ی دوم آن را محدود می‌کنیم («درست است که …، اما …»). zwar معمولاً بعد از فعل جمله‌ی اول می‌آید؛ aber در ابتدای جمله‌ی دوم جایگاه صفر دارد و بعد از آن ترتیب عادی (فاعل – فعل) می‌آید.",
+     "head": "aber / doch (Hauptsatzkonnektoren)",
+     "de": "aber und doch drücken ebenfalls einen Gegensatz aus und stehen als Konnektor auf Position 0, danach folgt die normale Wortstellung. aber kann zusätzlich wie ein Adverb im Mittelfeld oder direkt hinter dem ersten Satzglied stehen. Verwandt ist die zweiteilige Form zwar … aber: Man gibt etwas zu und schränkt es dann ein.",
+     "fa": "aber و doch هم تضاد را نشان می‌دهند و به عنوان حرف ربط در جایگاه صفر می‌آیند؛ بعد از آن‌ها ترتیب عادی جمله (مثلاً فاعل – فعل) می‌آید. aber یک ویژگی اضافه دارد: می‌تواند مثل قید وسط جمله یا درست بعد از اولین جزء جمله هم بیاید. شکل دوبخشی zwar … aber هم از همین خانواده است: اول چیزی را می‌پذیریم («درست است که…») و بعد محدودش می‌کنیم.",
      "ex": [
       [
-       "Notlügen sind zwar nicht ehrlich, aber sie schützen oft Gefühle.",
-       "درست است که دروغ مصلحتی صادقانه نیست، اما اغلب از احساسات محافظت می‌کند."
+       "Die Notlüge war gut gemeint. Aber sie hat alles schlimmer gemacht.",
+       "دروغ مصلحتی با نیت خوب بود. اما همه چیز را بدتر کرد."
+      ],
+      [
+       "Die Notlüge war gut gemeint. Sie hat aber alles schlimmer gemacht.",
+       "دروغ مصلحتی با نیت خوب بود، ولی همه چیز را بدتر کرد."
+      ],
+      [
+       "Das Angebot ist zwar günstig, aber das Zubehör fehlt.",
+       "درست است که پیشنهاد ارزان است، اما لوازم جانبی‌اش کم است."
       ]
      ]
     },
     {
-     "head": "im Gegensatz zu + Dativ",
-     "de": "Mit im Gegensatz zu (+ Dativ) nennt man den Gegensatz mit einem Nomen statt mit einem Satz. Beachte die Kurzform zum / zur: im Gegensatz zum Menschen, im Gegensatz zur Studie.",
-     "fa": "با im Gegensatz zu (+ Dativ) تضاد را با یک اسم بیان می‌کنیم، نه با جمله («برخلافِ …»). به شکل کوتاه‌شده دقت کنید: zu + dem = zum، zu + der = zur.",
+     "head": "nicht / kein …, sondern",
+     "de": "sondern steht auf Position 0 und korrigiert einen verneinten Teil des ersten Satzes: Das Erste stimmt nicht, das Zweite stimmt. Im ersten Satz muss deshalb nicht oder kein stehen. Gleiche Teile kann man im zweiten Satz weglassen. Unterschied: Nach einer Verneinung ersetzt sondern die Information, aber fügt nur eine Einschränkung hinzu (»nicht billig, aber gut«).",
+     "fa": "sondern به معنای «بلکه» است و در جایگاه صفر می‌آید. با آن یک بخشِ منفی‌شده در جمله‌ی اول را اصلاح می‌کنیم: اولی درست نیست، دومی درست است. برای همین در جمله‌ی اول حتماً nicht یا kein لازم است. بخش‌های تکراری را می‌توان در جمله‌ی دوم حذف کرد. فرقش با aber: بعد از جمله‌ی منفی، sondern اطلاعات را «جایگزین» می‌کند، ولی aber فقط یک محدودیت یا نکته‌ی دیگر «اضافه» می‌کند.",
      "ex": [
       [
-       "Im Gegensatz zum Menschen kann ein Tier nicht bewusst lügen.",
-       "برخلاف انسان، حیوان نمی‌تواند آگاهانه دروغ بگوید."
+       "Er hat nicht gelogen, sondern nur etwas übertrieben.",
+       "او دروغ نگفت، بلکه فقط کمی اغراق کرد."
       ],
       [
-       "Während ältere Menschen selten lügen, … → Im Gegensatz zu älteren Menschen …",
-       "در حالی که افراد مسن به‌ندرت دروغ می‌گویند … ← برخلاف افراد مسن …"
+       "Das Hotel ist nicht billig, aber der Service ist ausgezeichnet.",
+       "هتل ارزان نیست، اما خدماتش عالی است."
+      ]
+     ]
+    },
+    {
+     "head": "im Gegensatz zu / im Unterschied zu + Dativ",
+     "de": "Mit der Präposition im Gegensatz zu (oder im Unterschied zu) + Dativ nennt man den Gegensatz mit einem Nomen statt mit einem Satz. Die Angabe steht am Satzanfang (dann direkt das Verb) oder im Mittelfeld. Achtung auf zum (zu + dem) und zur (zu + der) und auf das -n im Dativ Plural.",
+     "fa": "با im Gegensatz zu یا im Unterschied zu + Dativ («برخلافِ…»، «در مقایسه با…») تضاد را با یک اسم بیان می‌کنیم، نه با یک جمله‌ی کامل. این عبارت یا اول جمله می‌آید (و فوراً بعدش فعل) یا وسط جمله. به شکل‌های کوتاه zum (zu + dem) و zur (zu + der) و به ‎-n در Dativ جمع (den Kindern) دقت کنید.",
+     "ex": [
+      [
+       "Im Gegensatz zu Tieren können Menschen bewusst lügen.",
+       "برخلاف حیوانات، انسان‌ها می‌توانند آگاهانه دروغ بگویند."
+      ],
+      [
+       "Jugendliche schummeln im Unterschied zu älteren Schülern seltener.",
+       "نوجوان‌ها در مقایسه با دانش‌آموزان بزرگ‌تر کمتر تقلب می‌کنند."
+      ]
+     ]
+    },
+    {
+     "head": "im Gegensatz dazu / im Unterschied dazu",
+     "de": "Will man sich auf den ganzen vorherigen Satz beziehen, benutzt man im Gegensatz dazu bzw. im Unterschied dazu. Der Ausdruck funktioniert wie ein Verbindungsadverb: Auf Position 1 folgt direkt das Verb.",
+     "fa": "اگر بخواهیم به کلِ جمله‌ی قبلی اشاره کنیم، می‌گوییم im Gegensatz dazu یا im Unterschied dazu («در مقابلِ آن»). این عبارت مثل یک قید ربطی رفتار می‌کند: اگر اول جمله باشد، فعل بلافاصله بعدش می‌آید.",
+     "ex": [
+      [
+       "Die S-Bahn war pünktlich. Im Gegensatz dazu hatte der Bus eine halbe Stunde Verspätung.",
+       "قطار شهری سر وقت بود. در مقابل، اتوبوس نیم ساعت تأخیر داشت."
+      ],
+      [
+       "Viele Frauen lügen aus Rücksicht. Im Unterschied dazu wollen Männer oft besser dastehen.",
+       "بسیاری از زن‌ها از روی ملاحظه دروغ می‌گویند. در مقابل، مردها اغلب می‌خواهند بهتر جلوه کنند."
       ]
      ]
     }
@@ -5609,120 +9656,488 @@
    "table": [
     [
      "während",
-     "Nebensatz",
-     "…, während er lügt.",
+     "Nebensatzkonnektor",
+     "…, während sie ehrlich ist.",
      "فعل در آخر"
     ],
     [
-     "jedoch / dagegen / doch",
-     "Hauptsatz (Pos. 1)",
-     "Dagegen lügt er nie.",
-     "فعل بلافاصله بعدش"
+     "dagegen / hingegen / jedoch",
+     "Verbindungsadverb (Pos. 1 / Mittelfeld)",
+     "Dagegen ist sie ehrlich.",
+     "هرگز جایگاه صفر"
     ],
     [
-     "jedoch / dagegen",
-     "Hauptsatz (Mittelfeld)",
-     "Er lügt dagegen nie.",
-     "بعد از فعل یا فاعل"
+     "aber / doch",
+     "Hauptsatzkonnektor (Position 0)",
+     "Aber sie ist ehrlich.",
+     "بعدش ترتیب عادی"
     ],
     [
-     "zwar … aber",
-     "zwei Hauptsätze",
-     "Es ist zwar teuer, aber gut.",
-     "aber جایگاه صفر"
+     "nicht / kein …, sondern",
+     "Hauptsatzkonnektor nach Verneinung",
+     "nicht gelogen, sondern übertrieben",
+     "«بلکه»؛ فقط بعد از نفی"
     ],
     [
-     "im Gegensatz zu",
-     "+ Dativ (Nomen)",
-     "im Gegensatz zum Bruder",
+     "im Gegensatz zu / im Unterschied zu",
+     "Präposition + Dativ",
+     "im Gegensatz zur Studie",
      "اسم، نه جمله"
+    ],
+    [
+     "im Gegensatz dazu / im Unterschied dazu",
+     "bezieht sich auf den Satz davor",
+     "Im Gegensatz dazu lügt er.",
+     "مثل قید ربطی"
     ]
    ]
   },
   {
-   "id": "t2",
-   "title": "Zweck oder Ziel ausdrücken",
-   "title_fa": "بیان هدف («برای اینکه …»)",
-   "goal_de": "Man sagt, wozu man etwas tut: mit einem Nebensatz (damit), mit einem Infinitiv (um … zu) oder mit einem Nomen (zu + Dativ, oft zum / zur + Nominalisierung).",
-   "goal_fa": "می‌گوییم کاری را برای چه هدفی انجام می‌دهیم: با جمله‌ی وابسته (damit)، با مصدر (um … zu) یا با اسم (zu + Dativ، اغلب zum / zur + اسمِ ساخته‌شده از فعل).",
+   "id": "t3",
+   "title": "Wortstellung in adversativen Sätzen mit Verbindungsadverbien",
+   "title_fa": "ترتیب کلمات در جمله‌های تقابلی با قیدهای ربطی",
+   "goal_de": "dagegen, hingegen, jedoch (und aber) können an drei Stellen stehen. Je nach Stelle ändert sich die Wortstellung – und wie stark der Gegensatz betont wird.",
+   "goal_fa": "dagegen، hingegen، jedoch (و aber) می‌توانند در سه جای جمله بیایند. بسته به جایشان، ترتیب کلمات و میزان تأکید روی تضاد تغییر می‌کند. این موضوع در نوشتن متن‌های رسمی و امتحان B2 خیلی کاربرد دارد.",
    "rules": [
     {
-     "head": "um … zu + Infinitiv (gleiches Subjekt)",
-     "de": "Wenn Hauptsatz und Zielsatz dasselbe Subjekt haben, benutzt man um … zu. Der Infinitiv mit zu steht am Ende, ein Subjekt gibt es im um-Satz nicht. Bei trennbaren Verben steht zu in der Mitte: anzulocken, abzuschrecken.",
-     "fa": "وقتی فاعل جمله‌ی اصلی و جمله‌ی هدف یکی است، از um … zu استفاده می‌کنیم. مصدر با zu در آخر می‌آید و جمله‌ی um فاعل ندارد. در فعل‌های جداشدنی zu وسط فعل می‌نشیند: anzulocken، abzuschrecken.",
+     "head": "Drei mögliche Stellen",
+     "de": "1. Position 1: Jedoch kann die Wahrheit mehr wehtun. – 2. Mittelfeld (nach dem Verb): Die Wahrheit kann jedoch mehr wehtun. – 3. Am Ende von Position 1, also direkt hinter dem ersten Satzglied: Die Wahrheit jedoch kann mehr wehtun. In allen drei Varianten steht das konjugierte Verb auf Position 2.",
+     "fa": "سه جای ممکن: ۱) جایگاه اول: Jedoch kann … ۲) وسط جمله، بعد از فعل: Die Wahrheit kann jedoch … ۳) انتهای جایگاه اول، یعنی درست بعد از اولین جزء جمله: Die Wahrheit jedoch kann … در هر سه حالت فعل صرف‌شده در جایگاه دوم می‌ماند؛ این نکته‌ی کلیدی است.",
      "ex": [
       [
-       "Der Vogel stellt sich verletzt, um den Feind wegzulocken.",
-       "پرنده خود را زخمی نشان می‌دهد تا دشمن را دور کند."
+       "Lügen sind oft genau geplant. Wahre Geschichten sind jedoch meist ungenau.",
+       "دروغ‌ها اغلب دقیق برنامه‌ریزی شده‌اند. اما داستان‌های واقعی معمولاً دقیق نیستند."
       ],
       [
-       "Viele Menschen lügen, um einen Streit zu vermeiden.",
-       "بسیاری از مردم دروغ می‌گویند تا از دعوا پرهیز کنند."
+       "Lügen sind oft genau geplant. Wahre Geschichten jedoch sind meist ungenau.",
+       "دروغ‌ها اغلب دقیق برنامه‌ریزی شده‌اند. اما داستان‌های واقعی، معمولاً دقیق نیستند. (با تأکید)"
       ]
      ]
     },
     {
-     "head": "damit + Nebensatz (verschiedene Subjekte)",
-     "de": "Wenn die Subjekte verschieden sind, braucht man damit. damit leitet einen Nebensatz ein, das konjugierte Verb steht am Ende. Bei gleichem Subjekt ist damit auch möglich, um … zu klingt aber besser.",
-     "fa": "وقتی فاعل‌ها متفاوت‌اند، باید damit به کار ببریم. damit جمله‌ی وابسته می‌سازد و فعل صرف‌شده به آخر می‌رود. اگر فاعل یکی باشد، damit هم غلط نیست، اما um … zu طبیعی‌تر است.",
+     "head": "Betonung: direkt hinter dem ersten Satzglied",
+     "de": "Möchte man den Gegensatz besonders hervorheben, stellt man das Verbindungsadverb direkt hinter das erste Satzglied. Das erste Satzglied und das Adverb bilden zusammen die Position 1, deshalb folgt danach sofort das Verb. Beim Sprechen liegt ein starker Akzent auf dem Satzglied vor dem Adverb.",
+     "fa": "وقتی بخواهیم تضاد را پررنگ کنیم، قید ربطی را درست پشت اولین جزء جمله می‌گذاریم. در این حالت آن جزء و قید با هم جایگاه اول حساب می‌شوند، پس فعل بلافاصله بعد از قید می‌آید. در گفتار، روی کلمه‌ی قبل از قید تکیه‌ی محکمی می‌گذاریم؛ انگار می‌گوییم «امّا اینْ یکی…».",
      "ex": [
       [
-       "Ich sage dir die Wahrheit, damit du mir wieder vertraust.",
-       "حقیقت را به تو می‌گویم تا دوباره به من اعتماد کنی."
-      ]
-     ]
-    },
-    {
-     "head": "Modalverben im Zielsatz vermeiden",
-     "de": "In damit- und um … zu-Sätzen benutzt man normalerweise keine Modalverben wie wollen, sollen oder möchten, denn der Zweck steckt schon in der Konjunktion. können ist aber möglich: …, damit du schlafen kannst.",
-     "fa": "در جمله‌های damit و um … zu معمولاً فعل‌های وجهی مثل wollen، sollen یا möchten نمی‌آوریم (können مشکلی ندارد: damit du schlafen kannst)، چون معنای هدف در خود حرف ربط هست.",
-     "ex": [
-      [
-       "Falsch: …, damit er pünktlich kommen soll. → Richtig: …, damit er pünktlich kommt.",
-       "نادرست: … damit er … kommen soll. ← درست: … damit er pünktlich kommt."
-      ]
-     ]
-    },
-    {
-     "head": "zu / zum / zur + Nomen (Dativ)",
-     "de": "In der Schriftsprache nennt man den Zweck oft mit zu + Nomen. Aus dem Verb wird ein Nomen: Infinitiv als Nomen (das Lernen → zum Lernen) oder ein anderes Nomen, oft auf -ung (verteidigen → die Verteidigung → zur Verteidigung; schützen → der Schutz → zum Schutz). zu + dem = zum, zu + der = zur.",
-     "fa": "در زبان نوشتاری هدف را اغلب با zu + اسم بیان می‌کنیم. از فعل یک اسم می‌سازیم: مصدرِ اسم‌شده (das Lernen ← zum Lernen) یا اسمی دیگر، اغلب با پسوند ‎-ung (schützen ← der Schutz؛ verteidigen ← die Verteidigung ← zur Verteidigung). zu + dem = zum و zu + der = zur.",
-     "ex": [
-      [
-       "Um ihr Revier zu verteidigen, brüllen die Affen. → Zur Verteidigung ihres Reviers brüllen die Affen.",
-       "میمون‌ها برای دفاع از قلمروشان نعره می‌کشند."
+       "Erwachsene können gut manipulieren. Kleine Kinder dagegen können das kaum.",
+       "بزرگ‌سال‌ها خوب می‌توانند دیگران را فریب دهند. اما بچه‌های کوچک، تقریباً از پسش برنمی‌آیند."
       ],
       [
-       "Er braucht die Brille zum Lesen.",
-       "او برای خواندن به عینک نیاز دارد."
+       "Beim Arzt antworten viele ehrlich. Beim Thema Sport hingegen wird gern geschummelt.",
+       "پیش پزشک خیلی‌ها صادقانه جواب می‌دهند. اما وقتی بحث ورزش می‌شود، حسابی تقلب می‌کنند."
+      ]
+     ]
+    },
+    {
+     "head": "Position 1: Verb direkt danach",
+     "de": "Steht das Adverb allein auf Position 1, muss sofort das konjugierte Verb folgen, das Subjekt steht dahinter. dagegen, hingegen und jedoch sind keine Konnektoren auf Position 0 – ein Satz wie »Dagegen Kinder können …« ist falsch.",
+     "fa": "اگر قید به تنهایی اول جمله بیاید، فعل صرف‌شده باید فوراً بعدش بیاید و فاعل پشت فعل قرار می‌گیرد. dagegen، hingegen و jedoch حرف ربطِ جایگاه صفر نیستند؛ پس جمله‌ای مثل «Dagegen Kinder können …» غلط است.",
+     "ex": [
+      [
+       "Die Kamera war günstig. Hingegen waren die Objektive sehr teuer.",
+       "دوربین ارزان بود. برعکس، لنزها خیلی گران بودند."
+      ],
+      [
+       "Er sagt, er sei sportlich. Jedoch fährt er nur selten Rad.",
+       "می‌گوید ورزشکار است. اما فقط به‌ندرت دوچرخه‌سواری می‌کند."
+      ]
+     ]
+    },
+    {
+     "head": "Mittelfeld: neutrale Variante",
+     "de": "Im Mittelfeld steht das Adverb nach dem konjugierten Verb und meist nach Pronomen, aber vor der neuen, wichtigen Information. Das ist die neutralste Variante ohne besondere Betonung.",
+     "fa": "وقتی قید وسط جمله باشد، بعد از فعل صرف‌شده و معمولاً بعد از ضمیرها، ولی قبل از اطلاعات تازه و مهم می‌آید. این خنثی‌ترین حالت است و تأکید خاصی ندارد؛ در نوشتار روزمره بیشتر از همه دیده می‌شود.",
+     "ex": [
+      [
+       "Die Firma hat sich entschuldigt. Das Geld hat sie mir jedoch nicht zurückgebucht.",
+       "شرکت عذرخواهی کرد. اما پول را به حسابم برنگرداند."
+      ],
+      [
+       "Am Telefon lügen wenige. Im direkten Gespräch lügen dagegen viele.",
+       "پشت تلفن عده‌ی کمی دروغ می‌گویند. در مقابل، در گفت‌وگوی رودررو خیلی‌ها دروغ می‌گویند."
+      ]
+     ]
+    },
+    {
+     "head": "aber: Konnektor oder Adverb",
+     "de": "aber ist flexibel: Es kann als Konnektor auf Position 0 stehen (Aber die Wahrheit kann …), im Mittelfeld (Die Wahrheit kann aber …) oder betont hinter dem ersten Satzglied (Die Wahrheit aber kann …). Nur doch und sondern bleiben als Konnektoren immer auf Position 0.",
+     "fa": "aber انعطاف بیشتری دارد: می‌تواند حرف ربط در جایگاه صفر باشد (Aber die Wahrheit kann …)، وسط جمله بیاید (Die Wahrheit kann aber …) یا با تأکید پشت اولین جزء جمله بنشیند (Die Wahrheit aber kann …). در این درس، doch و sondern به عنوان حرف ربط همیشه در جایگاه صفرند.",
+     "ex": [
+      [
+       "Eine Ausrede ist bequem. Die Wahrheit aber ist auf Dauer besser.",
+       "بهانه آوردن راحت است. اما حقیقت در درازمدت بهتر است."
+      ],
+      [
+       "Eine Ausrede ist bequem. Aber die Wahrheit ist auf Dauer besser.",
+       "بهانه آوردن راحت است. ولی حقیقت در درازمدت بهتر است."
       ]
      ]
     }
    ],
    "table": [
     [
-     "um … zu",
-     "gleiches Subjekt (Infinitiv)",
-     "…, um Geld zu sparen.",
-     "فاعل یکی، بدون فاعل"
+     "Position 1",
+     "Adverb + Verb + Subjekt",
+     "Jedoch ist die Wahrheit härter.",
+     "فعل بلافاصله بعد از قید"
     ],
     [
+     "Mittelfeld",
+     "Subjekt + Verb + Adverb",
+     "Die Wahrheit ist jedoch härter.",
+     "حالت خنثی"
+    ],
+    [
+     "Ende von Position 1",
+     "Satzglied + Adverb + Verb",
+     "Die Wahrheit jedoch ist härter.",
+     "تأکید قوی روی تضاد"
+    ],
+    [
+     "aber",
+     "Position 0, Mittelfeld oder betont",
+     "Die Wahrheit aber ist härter.",
+     "هر سه جا ممکن است"
+    ],
+    [
+     "falsch",
+     "Adverb + Subjekt + Verb",
+     "*Dagegen Kinder können …",
+     "قید ربطی جایگاه صفر ندارد"
+    ]
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Finale Sätze – Zweck oder Ziel ausdrücken",
+   "title_fa": "جمله‌های هدفی – بیان منظور یا هدف",
+   "goal_de": "Man sagt, wozu jemand etwas tut: mit dem Nebensatzkonnektor damit, mit der Infinitivkonstruktion um … zu oder mit den Präpositionen zu + Dativ und für + Akkusativ. Entscheidend ist, ob das Subjekt in beiden Teilen gleich ist.",
+   "goal_fa": "می‌گوییم کسی کاری را «برای چه» انجام می‌دهد: با حرف ربط وابسته‌ی damit، با ساختار مصدری um … zu یا با حرف‌های اضافه‌ی zu + Dativ و für + Akkusativ. نکته‌ی تعیین‌کننده این است که فاعل دو بخش یکی است یا نه.",
+   "rules": [
+    {
+     "head": "damit + Nebensatz",
+     "de": "Ein Nebensatz mit damit nennt einen Zweck oder ein Ziel und beantwortet die Frage »Wozu?« oder »Mit welchem Ziel?«. Das konjugierte Verb steht am Ende, der Nebensatz kann vor oder nach dem Hauptsatz stehen. Häufig benutzt man im damit-Satz das Modalverb können oder das Passiv.",
+     "fa": "جمله‌ی وابسته با damit («تا»، «برای این‌که») هدف را بیان می‌کند و جواب سؤال «Wozu?» (برای چه؟) است. فعل صرف‌شده در آخر می‌آید و جمله می‌تواند قبل یا بعد از جمله‌ی اصلی باشد. در جمله‌ی damit زیاد از فعل وجهی können یا از مجهول استفاده می‌شود.",
+     "ex": [
+      [
+       "Die Mutter flüstert, damit das Baby weiterschlafen kann.",
+       "مادر آهسته حرف می‌زند تا نوزاد بتواند به خوابش ادامه دهد."
+      ],
+      [
+       "Damit die Feinde sie nicht entdecken, verändern manche Tiere ihre Farbe.",
+       "برخی حیوانات رنگشان را تغییر می‌دهند تا دشمنان پیدایشان نکنند."
+      ]
+     ]
+    },
+    {
+     "head": "um … zu + Infinitiv",
+     "de": "um … zu + Infinitiv hat kein eigenes Subjekt: Gemeint ist das Subjekt des Hauptsatzes. um steht am Anfang, zu + Infinitiv am Ende. Bei trennbaren Verben steht zu zwischen Präfix und Verb (anzulocken, wegzulocken). Auch Passiv ist möglich: um nicht gefressen zu werden. Vor um steht ein Komma.",
+     "fa": "um … zu + مصدر فاعل جداگانه ندارد؛ فاعلش همان فاعل جمله‌ی اصلی است. um اول می‌آید و zu + مصدر در آخر. در فعل‌های جداشدنی، zu وسط پیشوند و فعل می‌نشیند (anzulocken، wegzulocken). با مجهول هم می‌شود: um nicht gefressen zu werden («تا خورده نشود»). قبل از um ویرگول می‌گذاریم.",
+     "ex": [
+      [
+       "Das Opossum stellt sich tot, um nicht gefressen zu werden.",
+       "اپاسوم خودش را به مردن می‌زند تا خورده نشود."
+      ],
+      [
+       "Der Hahn kräht laut, um die Henne anzulocken.",
+       "خروس بلند می‌خواند تا مرغ را به سمت خودش بکشاند."
+      ]
+     ]
+    },
+    {
+     "head": "Gleiches oder verschiedenes Subjekt?",
+     "de": "Sind die Subjekte in Haupt- und Nebensatz verschieden, ist nur damit möglich. Ist das Subjekt gleich, kann man beide Formen benutzen, meistens wählt man aber um … zu, weil es kürzer und eleganter ist.",
+     "fa": "این مهم‌ترین قانون است: اگر فاعل جمله‌ی اصلی و جمله‌ی هدف «فرق» داشته باشد، فقط damit درست است. اگر فاعل «یکی» باشد، هر دو ممکن است، ولی um … zu کوتاه‌تر و طبیعی‌تر است و بیشتر به کار می‌رود. پس همیشه اول بپرسید: چه کسی کار هدف را انجام می‌دهد؟",
+     "ex": [
+      [
+       "Ich spare Geld, um mir eine Kamera zu kaufen. (ich – ich)",
+       "پول پس‌انداز می‌کنم تا برای خودم دوربین بخرم. (فاعل یکی)"
+      ],
+      [
+       "Ich spare Geld, damit meine Tochter studieren kann. (ich – meine Tochter)",
+       "پول پس‌انداز می‌کنم تا دخترم بتواند درس بخواند. (فاعل‌ها متفاوت)"
+      ]
+     ]
+    },
+    {
+     "head": "Keine Absicht doppelt ausdrücken",
+     "de": "Der Zweck steckt schon in damit bzw. um … zu. Deshalb benutzt man im Zielsatz normalerweise nicht wollen, sollen oder möchten. können ist dagegen sehr üblich, besonders in damit-Sätzen.",
+     "fa": "معنای «هدف» از قبل در damit و um … zu هست؛ پس در جمله‌ی هدف معمولاً wollen، sollen یا möchten نمی‌آوریم، چون حرف تکراری می‌شود. اما können کاملاً رایج است، به خصوص در جمله‌های damit.",
+     "ex": [
+      [
+       "Falsch: …, damit er die Wahrheit sagen soll. – Richtig: …, damit er die Wahrheit sagt.",
+       "نادرست: … damit er … sagen soll. – درست: … damit er die Wahrheit sagt."
+      ],
+      [
+       "Ich erkläre es langsam, damit alle mitschreiben können.",
+       "آهسته توضیح می‌دهم تا همه بتوانند یادداشت بردارند."
+      ]
+     ]
+    },
+    {
+     "head": "Finale Angaben: zu + Dativ / für + Akkusativ",
+     "de": "Auch mit zu + Dativ (zum / zur) oder für + Akkusativ nennt man einen Zweck. Meist folgt ein Nomen, das aus einem Verb gebildet ist (die Abschreckung, das Überleben, der Schutz). zu benutzt man eher, wenn die Handlung betont wird. Die Angabe steht am Satzanfang (dann direkt das Verb) oder im Mittelfeld. Typisch ist auch dienen zu + Dativ: Das Gebrüll dient zur Abschreckung.",
+     "fa": "با zu + Dativ (zum / zur) یا für + Akkusativ هم می‌شود هدف را گفت. معمولاً بعدشان اسمی می‌آید که از فعل ساخته شده (die Abschreckung، das Überleben، der Schutz). zu بیشتر وقتی به کار می‌رود که روی خودِ عمل تأکید داریم. این عبارت یا اول جمله است (و بعدش فوراً فعل) یا وسط جمله. ساختار dienen zu + Dativ («به کار … آمدن») هم خیلی رایج است.",
+     "ex": [
+      [
+       "Zur Verteidigung ihres Reviers schreien die Affen laut.",
+       "میمون‌ها برای دفاع از قلمروشان بلند فریاد می‌کشند."
+      ],
+      [
+       "Viele Tiere riskieren für den Schutz ihrer Jungen ihr Leben.",
+       "بسیاری از حیوانات برای محافظت از بچه‌هایشان جانشان را به خطر می‌اندازند."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
      "damit",
-     "Nebensatz",
-     "…, damit du es weißt.",
-     "فاعل‌های متفاوت، فعل در آخر"
+     "Nebensatz, Verb am Ende",
+     "…, damit er nicht frisst.",
+     "فاعل‌ها متفاوت یا یکسان"
+    ],
+    [
+     "um … zu",
+     "Infinitivkonstruktion, kein Subjekt",
+     "…, um zu überleben.",
+     "فقط فاعل یکسان"
     ],
     [
      "zum + Nomen",
-     "zu + dem (maskulin/neutral)",
+     "zu + dem (mask. / neutr.)",
      "zum Schutz der Jungen",
-     "اسم مذکر یا خنثی"
+     "تأکید روی عمل"
     ],
     [
      "zur + Nomen",
      "zu + der (feminin)",
      "zur Abschreckung",
      "اسم مؤنث"
+    ],
+    [
+     "für + Akkusativ",
+     "Präposition",
+     "für das Überleben",
+     "حالت مفعولی"
+    ]
+   ]
+  },
+  {
+   "id": "t5",
+   "title": "Satzvarianten formulieren – finale Angaben ↔ um … zu / damit",
+   "title_fa": "بازنویسی جمله – عبارت هدفی با اسم ↔ um … zu / damit",
+   "goal_de": "Denselben Zweck kann man im Verbalstil (um … zu, damit) oder im Nominalstil (zu / für + Nomen) ausdrücken. Für DSH und TestDaF muss man beide Richtungen sicher beherrschen: Nominalisierung und Verbalisierung.",
+   "goal_fa": "یک هدف را می‌شود با سبک فعلی (um … zu، damit) یا با سبک اسمی (zu / für + اسم) بیان کرد. در آزمون‌های DSH و TestDaF باید بتوانید در هر دو جهت بازنویسی کنید: اسم‌سازی و فعل‌سازی.",
+   "rules": [
+    {
+     "head": "Verbalstil → Nominalstil",
+     "de": "1. Aus dem Verb wird ein Nomen: mit -ung (gründen → die Gründung), als Infinitiv (überdecken → das Überdecken) oder in einer anderen Form (kaufen → der Kauf, schützen → der Schutz, teilnehmen → die Teilnahme, kontrollieren → die Kontrolle). 2. Das Akkusativobjekt wird zum Genitivattribut (die Wahrheit verbergen → zum Verbergen der Wahrheit); ohne Artikel nimmt man von + Dativ (Zeit gewinnen → zur Gewinnung von Zeit). 3. Das Genus entscheidet über zum, zur oder für den / die / das.",
+     "fa": "قدم‌ها: ۱) فعل را به اسم تبدیل کنید: با ‎-ung (gründen ← die Gründung)، با مصدرِ اسم‌شده (überdecken ← das Überdecken) یا شکل دیگر (kaufen ← der Kauf، schützen ← der Schutz، teilnehmen ← die Teilnahme). ۲) مفعول صریح به مضاف‌الیه (Genitiv) تبدیل می‌شود؛ اگر حرف تعریف نداشت، از von + Dativ استفاده کنید (Zeit gewinnen ← zur Gewinnung von Zeit). ۳) جنس اسم تعیین می‌کند zum بگوییم یا zur یا für den/die/das.",
+     "ex": [
+      [
+       "Um ihre Schwächen zu verbergen, übertreiben manche. → Zum Verbergen ihrer Schwächen übertreiben manche.",
+       "بعضی‌ها برای پنهان کردن ضعف‌هایشان اغراق می‌کنند."
+      ],
+      [
+       "Um Geld zu sparen, kauft er gebraucht. → Zum Sparen von Geld kauft er gebraucht.",
+       "او برای صرفه‌جویی در پول، کالای دست‌دوم می‌خرد."
+      ]
+     ]
+    },
+    {
+     "head": "Nominalstil → Verbalstil",
+     "de": "Rückwärts: Das Nomen wird wieder zum Verb, das Genitivattribut (oder von + Dativ) wird zum Akkusativobjekt, ein Possessivartikel zeigt oft, wer das Subjekt oder Objekt ist, und ein Adjektiv wird zum Adverb: zur schnellen Kontrolle der Rechnung → um die Rechnung schnell zu kontrollieren.",
+     "fa": "برعکس: اسم دوباره فعل می‌شود، مضاف‌الیه (یا von + Dativ) مفعول صریح می‌شود، ضمیر ملکی (ihr، sein) معمولاً نشان می‌دهد فاعل یا مفعول کیست و صفت به قید تبدیل می‌شود: zur schnellen Kontrolle der Rechnung ← um die Rechnung schnell zu kontrollieren.",
+     "ex": [
+      [
+       "Für die Teilnahme am Kurs braucht man ein Zertifikat. → Um am Kurs teilzunehmen, braucht man ein Zertifikat.",
+       "برای شرکت در دوره به گواهی نیاز است."
+      ],
+      [
+       "Zur Herstellung von Vertrauen hört sie gut zu. → Um Vertrauen herzustellen, hört sie gut zu.",
+       "او برای ایجاد اعتماد، خوب گوش می‌دهد."
+      ]
+     ]
+    },
+    {
+     "head": "um … zu oder damit?",
+     "de": "Bei der Verbalisierung prüft man das Subjekt: Handelt das Subjekt des Hauptsatzes selbst, nimmt man um … zu. Ist ein anderes Subjekt gemeint oder passt nur das Passiv, nimmt man damit: zur Rettung der Jungen → damit die Jungen gerettet werden.",
+     "fa": "وقتی عبارت اسمی را به جمله تبدیل می‌کنید، فاعل را بررسی کنید: اگر خودِ فاعل جمله‌ی اصلی کار را انجام می‌دهد، um … zu؛ اگر فاعل دیگری در کار است یا فقط ساختار مجهول جور درمی‌آید، damit. مثلاً zur Rettung der Jungen می‌تواند damit die Jungen gerettet werden بشود.",
+     "ex": [
+      [
+       "Zur Sicherung des Nestes bleibt der Vogel in der Nähe. → Damit das Nest sicher ist, bleibt der Vogel in der Nähe.",
+       "پرنده برای امنیت لانه در نزدیکی آن می‌ماند."
+      ],
+      [
+       "Zur Beruhigung der Kunden schickt die Firma eine E-Mail. → Damit die Kunden sich beruhigen, schickt die Firma eine E-Mail.",
+       "شرکت برای آرام کردن مشتری‌ها ایمیل می‌فرستد."
+      ]
+     ]
+    },
+    {
+     "head": "Stil und Wortstellung",
+     "de": "Der Nominalstil ist kurz und typisch für Fach- und Zeitungstexte, der Verbalstil ist leichter verständlich und typisch für die gesprochene Sprache. In beiden Fällen gilt: Steht die Angabe oder der Nebensatz am Anfang, folgt direkt das konjugierte Verb.",
+     "fa": "سبک اسمی کوتاه و فشرده است و در متن‌های علمی و روزنامه‌ای زیاد دیده می‌شود؛ سبک فعلی ساده‌تر فهمیده می‌شود و در گفتار رایج است. در هر دو حالت قانون جای فعل پابرجاست: اگر عبارت اسمی یا جمله‌ی um/damit اول بیاید، فعل صرف‌شده فوراً بعدش می‌آید.",
+     "ex": [
+      [
+       "Zur Kontrolle der Rechnung nehme ich mir Zeit.",
+       "برای بررسی صورت‌حساب وقت می‌گذارم."
+      ],
+      [
+       "Um die Rechnung zu kontrollieren, nehme ich mir Zeit.",
+       "برای این‌که صورت‌حساب را بررسی کنم، وقت می‌گذارم."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "um … zu → zu + Nomen",
+     "Nominalisierung",
+     "um Zeit zu gewinnen → zur Gewinnung von Zeit",
+     "مفعول ← Genitiv / von"
+    ],
+    [
+     "zu / für + Nomen → um … zu",
+     "Verbalisierung (gleiches Subjekt)",
+     "für den Kauf eines Autos → um ein Auto zu kaufen",
+     "Genitiv ← مفعول"
+    ],
+    [
+     "zu + Nomen → damit",
+     "Verbalisierung (anderes Subjekt / Passiv)",
+     "zur Rettung der Jungen → damit die Jungen gerettet werden",
+     "اغلب با مجهول"
+    ],
+    [
+     "Adjektiv → Adverb",
+     "Verbalisierung",
+     "zur genauen Prüfung → um genau zu prüfen",
+     "صفت ← قید"
+    ]
+   ]
+  },
+  {
+   "id": "t6",
+   "title": "Wortbildung: Verben mit be-, er-, ver- und Nomen aus Verben",
+   "title_fa": "واژه‌سازی: فعل‌ها با be-، er-، ver- و اسم‌سازی از فعل",
+   "goal_de": "In dieser Lektion bildet man Verben aus Adjektiven mit er- und ver-, unterscheidet Verben mit den Vorsilben be-, er- und ver- und bildet aus Verben verschiedene Nomen (Infinitiv, -ung, -erei, Ge-…e).",
+   "goal_fa": "در این درس از صفت‌ها با er- و ver- فعل می‌سازیم، فعل‌های دارای پیشوند be-، er- و ver- را از هم تشخیص می‌دهیم و از فعل‌ها انواع اسم می‌سازیم (مصدر، ‎-ung، ‎-erei، Ge-…e). این‌ها برای فهم متن و نوشتن رسمی بسیار مفیدند.",
+   "rules": [
+    {
+     "head": "Verben aus Adjektiven mit er-",
+     "de": "Aus manchen Adjektiven entsteht mit er- ein Verb auf -en oder -ern; a, o, u werden manchmal zum Umlaut. Die Bedeutung ist oft »Adjektiv + werden« oder »Adjektiv + machen«: rot → erröten (rot werden), leicht → erleichtern, neu → erneuern, hoch → erhöhen, weit → erweitern.",
+     "fa": "از بعضی صفت‌ها با پیشوند er- فعل ساخته می‌شود که به ‎-en یا ‎-ern ختم می‌شود و گاهی a، o، u به Umlaut تبدیل می‌شوند. معنا معمولاً «… شدن» یا «… کردن» است: rot ← erröten (سرخ شدن)، leicht ← erleichtern (آسان کردن)، neu ← erneuern (نو کردن)، hoch ← erhöhen (بالا بردن)، weit ← erweitern (گسترش دادن).",
+     "ex": [
+      [
+       "Wenn sie lügt, errötet sie sofort.",
+       "وقتی دروغ می‌گوید، فوراً سرخ می‌شود."
+      ],
+      [
+       "Kleine Notlügen erleichtern oft den Alltag.",
+       "دروغ‌های مصلحتی کوچک اغلب زندگی روزمره را آسان‌تر می‌کنند."
+      ]
+     ]
+    },
+    {
+     "head": "Verben aus Adjektiven mit ver-",
+     "de": "Auch mit ver- bildet man aus Adjektiven Verben, meist mit der Bedeutung »machen«: groß → vergrößern (größer machen), breit → verbreiten, tief → vertiefen, heimlich → verheimlichen, besser → verbessern. Oft steht der Komparativ in der Basis.",
+     "fa": "با ver- هم از صفت فعل می‌سازیم، معمولاً با معنای «… کردن»: groß ← vergrößern (بزرگ‌تر کردن)، breit ← verbreiten (پخش کردن)، tief ← vertiefen (عمیق کردن)، heimlich ← verheimlichen (پنهان کردن)، besser ← verbessern (بهتر کردن). دقت کنید که گاهی صفت تفضیلی (größer، besser) پایه‌ی فعل است.",
+     "ex": [
+      [
+       "Gerüchte verbreiten sich im Netz sehr schnell.",
+       "شایعه‌ها در اینترنت خیلی سریع پخش می‌شوند."
+      ],
+      [
+       "Er verheimlicht seine Schulden vor der Familie.",
+       "او بدهی‌هایش را از خانواده پنهان می‌کند."
+      ]
+     ]
+    },
+    {
+     "head": "Nomen aus Verben: Infinitiv, -ung, -erei, Ge-…(e)",
+     "de": "Aus einem Verb kann man verschiedene Nomen bilden: der Infinitiv als Nomen (das Täuschen, immer neutral) betont die Handlung selbst; Stamm + -ung (die Täuschung, feminin) nennt den Vorgang oder das Ergebnis; Stamm + -erei (die Trickserei, feminin) und Ge- + Stamm (+ e) (das Geschrei, das Gebell, das Gebrüll, neutral) haben oft eine negative Bedeutung: etwas Lästiges, das sich ständig wiederholt. Nicht jedes Verb hat alle Formen.",
+     "fa": "از یک فعل می‌شود چند نوع اسم ساخت: مصدرِ اسم‌شده (das Täuschen، همیشه خنثی) روی خودِ عمل تأکید می‌کند؛ ستاک + ‎-ung (die Täuschung، مؤنث) فرایند یا نتیجه را نام می‌برد؛ ستاک + ‎-erei (die Trickserei، مؤنث) و Ge- + ستاک (+e) (das Geschrei، das Gebell، das Gebrüll، خنثی) اغلب بار منفی دارند: چیزی آزاردهنده که مدام تکرار می‌شود. هر فعلی همه‌ی این شکل‌ها را ندارد؛ باید در فرهنگ لغت چک کنید.",
+     "ex": [
+      [
+       "Das ständige Gebell des Hundes stört die Nachbarn.",
+       "پارس کردن مداوم سگ همسایه‌ها را اذیت می‌کند."
+      ],
+      [
+       "Die Sicherung der Daten dauert nur wenige Sekunden.",
+       "ذخیره‌سازی امن داده‌ها فقط چند ثانیه طول می‌کشد."
+      ]
+     ]
+    },
+    {
+     "head": "Vorsilben be-, er-, ver- verändern die Bedeutung",
+     "de": "Vorsilben können die Bedeutung eines Verbs völlig verändern: finden – erfinden – sich befinden; halten – erhalten – sich verhalten; fragen – befragen – erfragen. be- macht ein Verb oft transitiv (mit Akkusativ): jemanden befragen, jemanden belügen. Weitere wichtige Verben der Lektion: bestehen, bereiten, betreffen, ergeben, erreichen, verbergen, vermeiden, verbessern, verbinden.",
+     "fa": "پیشوندها می‌توانند معنای فعل را کاملاً عوض کنند: finden (پیدا کردن) – erfinden (اختراع کردن، از خود ساختن) – sich befinden (قرار داشتن)؛ halten – erhalten (حفظ کردن، دریافت کردن) – sich verhalten (رفتار کردن). be- اغلب فعل را متعدی می‌کند (با Akkusativ): jemanden befragen (از کسی پرسش کردن)، jemanden belügen (به کسی دروغ گفتن). این فعل‌ها را هم به خاطر بسپارید: bestehen، bereiten، betreffen، ergeben، erreichen، verbergen، vermeiden، verbessern، verbinden.",
+     "ex": [
+      [
+       "Für die Umfrage hat man 1.000 Personen befragt.",
+       "برای این نظرسنجی از ۱۰۰۰ نفر پرسش شده است."
+      ],
+      [
+       "Er hat die ganze Geschichte nur erfunden.",
+       "او کل ماجرا را از خودش ساخته است."
+      ]
+     ]
+    },
+    {
+     "head": "Feste Verbindungen mit be-, er-, ver-",
+     "de": "Viele dieser Verben benutzt man in festen Ausdrücken: von etwas betroffen sein, eine Geschichte erfinden, etwas ergibt (keinen) Sinn, ein Unterschied besteht darin, dass …, Schwächen verbergen, etwas bereitet jemandem Sorge / Freude.",
+     "fa": "خیلی از این فعل‌ها در ترکیب‌های ثابت می‌آیند و بهتر است همان‌طور یکجا حفظشان کنید: von etwas betroffen sein (تحت تأثیر چیزی بودن)، eine Geschichte erfinden (داستان سرهم کردن)، etwas ergibt Sinn (منطقی بودن)، ein Unterschied besteht darin, dass … (تفاوت در این است که…)، Schwächen verbergen (ضعف‌ها را پنهان کردن)، etwas bereitet mir Sorge (چیزی مرا نگران می‌کند).",
+     "ex": [
+      [
+       "Der Unterschied besteht darin, dass Tiere nicht bewusst lügen.",
+       "تفاوت در این است که حیوانات آگاهانه دروغ نمی‌گویند."
+      ],
+      [
+       "Seine Ausrede ergibt überhaupt keinen Sinn.",
+       "بهانه‌اش اصلاً منطقی نیست."
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "er- + Adjektiv",
+     "»werden« / »machen«",
+     "rot → erröten",
+     "سرخ شدن"
+    ],
+    [
+     "ver- + Adjektiv",
+     "meist »machen«",
+     "groß → vergrößern",
+     "بزرگ‌تر کردن"
+    ],
+    [
+     "das + Infinitiv",
+     "betont die Handlung (neutral)",
+     "das Täuschen",
+     "خودِ عمل"
+    ],
+    [
+     "Stamm + -ung",
+     "Vorgang / Ergebnis (feminin)",
+     "die Täuschung",
+     "فرایند یا نتیجه"
+    ],
+    [
+     "Stamm + -erei / Ge-…(e)",
+     "oft negativ, lästig",
+     "die Trickserei, das Geschrei",
+     "بار منفی"
+    ],
+    [
+     "be- / er- / ver- + Verb",
+     "neue Bedeutung",
+     "finden → erfinden",
+     "معنای تازه"
     ]
    ]
   }
@@ -5732,305 +10147,570 @@
    "id": "L3-g1",
    "t": "t1",
    "type": "mc",
-   "q": "___ Tiere instinktiv täuschen, lügen Menschen bewusst.",
+   "q": "Er hat die Wahrheit nicht gesagt, ___ er wollte seine Freundin nicht verletzen.",
    "opts": [
-    "Jedoch",
-    "Während",
-    "Dagegen",
-    "Im Gegensatz zu"
+    "denn",
+    "weil",
+    "deshalb",
+    "damit"
    ],
-   "a": 1,
-   "de": "Das Verb (täuschen) steht am Ende → Nebensatz → während.",
-   "fa": "فعل (täuschen) در آخر آمده؛ جمله‌ی وابسته است، پس während."
+   "a": 0,
+   "de": "Nach der Lücke folgt Subjekt – Verb (er wollte): Konnektor auf Position 0, der einen Grund nennt → denn.",
+   "fa": "بعد از جای خالی «فاعل – فعل» آمده (er wollte)؛ پس حرف ربط جایگاه صفر لازم است که دلیل را بگوید: denn. weil و damit فعل را به آخر می‌فرستند و بعد از deshalb باید فوراً فعل بیاید."
   },
   {
    "id": "L3-g2",
    "t": "t1",
    "type": "mc",
-   "q": "Kinder lügen selten. Erwachsene ___ lügen fast jeden Tag.",
+   "q": "Welcher Satz ist richtig?",
    "opts": [
-    "während",
-    "zwar",
-    "dagegen",
-    "im Gegensatz zu"
+    "Die Kamera war defekt, deshalb ich habe eine Beschwerde geschrieben.",
+    "Die Kamera war defekt, deshalb habe ich eine Beschwerde geschrieben.",
+    "Die Kamera war defekt, deshalb ich eine Beschwerde geschrieben habe.",
+    "Die Kamera war defekt, deshalb eine Beschwerde ich habe geschrieben."
    ],
-   "a": 2,
-   "de": "dagegen kann direkt nach dem Subjekt stehen: Erwachsene dagegen lügen …",
-   "fa": "dagegen می‌تواند بلافاصله بعد از فاعل بیاید: Erwachsene dagegen lügen …"
+   "a": 1,
+   "de": "deshalb ist ein Verbindungsadverb auf Position 1 → direkt danach das konjugierte Verb (habe).",
+   "fa": "deshalb قید ربطی در جایگاه اول است؛ پس بلافاصله بعدش فعل صرف‌شده (habe) و بعد فاعل می‌آید."
   },
   {
    "id": "L3-g3",
    "t": "t1",
    "type": "mc",
-   "q": "___ Menschen können Tiere nicht bewusst lügen.",
+   "q": "Welche Fortsetzung ist richtig? »Obwohl das Paket pünktlich eingetroffen ist, …«",
    "opts": [
-    "Während",
-    "Im Gegensatz zu",
-    "Dagegen",
-    "Zwar"
+    "… die Kundin ist unzufrieden.",
+    "… ist die Kundin unzufrieden.",
+    "… unzufrieden die Kundin ist.",
+    "… die Kundin unzufrieden ist."
    ],
    "a": 1,
-   "de": "Danach folgt nur ein Nomen im Dativ (Menschen), kein Satz → im Gegensatz zu.",
-   "fa": "بعدش فقط یک اسم در حالت Dativ آمده، نه جمله؛ پس im Gegensatz zu."
+   "de": "Der Nebensatz steht auf Position 1, deshalb folgt direkt das Verb des Hauptsatzes (ist).",
+   "fa": "جمله‌ی وابسته جایگاه اول را گرفته، پس بعد از ویرگول فوراً فعل جمله‌ی اصلی (ist) می‌آید: الگوی «فعل، فعل»."
   },
   {
    "id": "L3-g4",
    "t": "t1",
-   "type": "mc",
-   "q": "Die Kamera ist ___ günstig, aber das Zubehör fehlt.",
-   "opts": [
-    "zwar",
-    "dagegen",
-    "während",
-    "jedoch"
+   "type": "gap",
+   "q": "Viele Menschen lügen nicht aus Bosheit, ___ aus Unsicherheit. (Hauptsatzkonnektor: Korrektur nach Verneinung)",
+   "a": [
+    "sondern"
    ],
-   "a": 0,
-   "de": "Im zweiten Satz steht aber → zweiteilige Konjunktion zwar … aber.",
-   "fa": "در جمله‌ی دوم aber آمده؛ پس حرف ربط دوبخشی zwar … aber."
+   "de": "Nach einer Verneinung (nicht aus Bosheit) korrigiert sondern die Information.",
+   "fa": "بعد از نفی (nicht aus Bosheit) اطلاعات را با sondern («بلکه») اصلاح می‌کنیم."
   },
   {
    "id": "L3-g5",
    "t": "t1",
    "type": "mc",
-   "q": "Welcher Satz ist richtig?",
+   "q": "Welcher Satz ist falsch?",
    "opts": [
-    "Er lügt oft. Dagegen seine Schwester ist immer ehrlich.",
-    "Er lügt oft. Dagegen ist seine Schwester immer ehrlich.",
-    "Er lügt oft, dagegen seine Schwester immer ehrlich ist.",
-    "Er lügt oft. Seine Schwester dagegen immer ehrlich ist."
+    "Wegen der fehlenden Objektive schreibt sie eine Beschwerde.",
+    "Sie schreibt wegen der fehlenden Objektive eine Beschwerde.",
+    "Wegen der fehlenden Objektive sie schreibt eine Beschwerde.",
+    "Sie schreibt eine Beschwerde wegen der fehlenden Objektive."
    ],
-   "a": 1,
-   "de": "dagegen auf Position 1 → direkt danach das Verb: Dagegen ist seine Schwester …",
-   "fa": "dagegen در جایگاه اول است، پس فعل بلافاصله بعد از آن می‌آید: Dagegen ist seine Schwester …"
+   "a": 2,
+   "de": "Steht die Angabe mit Präposition auf Position 1, muss sofort das Verb folgen: Wegen … schreibt sie.",
+   "fa": "وقتی عبارت حرف‌اضافه‌ای اول جمله باشد، فعل باید فوراً بعدش بیاید: Wegen … schreibt sie. گزینه‌ی سوم این قانون را رعایت نکرده است."
   },
   {
    "id": "L3-g6",
    "t": "t1",
-   "type": "mc",
-   "q": "Welcher Satz ist richtig?",
-   "opts": [
-    "Während ich ehrlich bin, mein Bruder flunkert oft.",
-    "Während ich bin ehrlich, flunkert mein Bruder oft.",
-    "Während ich ehrlich bin, flunkert mein Bruder oft.",
-    "Während ich ehrlich bin, mein Bruder oft flunkert."
+   "type": "gap",
+   "q": "Ich gebe dir das Geld zurück, ___ du mich darum bittest. (Nebensatzkonnektor: Bedingung)",
+   "a": [
+    "wenn",
+    "falls",
+    "sofern"
    ],
-   "a": 2,
-   "de": "Im während-Satz steht das Verb am Ende; der Nebensatz steht auf Position 1, also folgt danach direkt das Verb des Hauptsatzes (flunkert).",
-   "fa": "در جمله‌ی während فعل در آخر است؛ این جمله جایگاه اول را گرفته، پس بعدش بلافاصله فعل جمله‌ی اصلی (flunkert) می‌آید."
+   "de": "Bedingung + Verb am Ende (bittest) → wenn (auch: falls, sofern).",
+   "fa": "شرط بیان شده و فعل (bittest) در آخر آمده؛ پس wenn (یا falls و sofern)."
   },
   {
    "id": "L3-g7",
-   "t": "t1",
+   "t": "t2",
    "type": "mc",
-   "q": "Welcher Satz ist richtig?",
+   "q": "___ Kinder oft aus Angst lügen, flunkern Erwachsene eher aus Höflichkeit.",
    "opts": [
-    "Die Lüge ist zwar klein, aber hat sie großen Schaden angerichtet.",
-    "Zwar die Lüge ist klein, aber sie hat großen Schaden angerichtet.",
-    "Die Lüge zwar klein ist, aber sie hat großen Schaden angerichtet.",
-    "Die Lüge ist zwar klein, aber sie hat großen Schaden angerichtet."
+    "Während",
+    "Dagegen",
+    "Im Gegensatz zu",
+    "Jedoch"
    ],
-   "a": 3,
-   "de": "zwar steht nach dem Verb im ersten Hauptsatz; aber steht auf Position 0, danach Subjekt – Verb.",
-   "fa": "zwar بعد از فعل جمله‌ی اول می‌آید؛ aber جایگاه صفر دارد و بعد از آن فاعل و سپس فعل می‌آید."
+   "a": 0,
+   "de": "Im ersten Teil steht das Verb am Ende (lügen) → Nebensatz → während.",
+   "fa": "در بخش اول فعل (lügen) در آخر آمده؛ پس جمله‌ی وابسته است و فقط während جور درمی‌آید."
   },
   {
    "id": "L3-g8",
-   "t": "t1",
+   "t": "t2",
    "type": "mc",
-   "q": "Ältere Menschen lügen selten. – Gleiche Aussage mit im Gegensatz zu:",
+   "q": "Männer übertreiben gern bei Bewerbungen. Frauen ___ reden sich Dinge eher schön.",
    "opts": [
-    "Im Gegensatz zu den älteren Menschen lügen junge Leute oft.",
-    "Im Gegensatz zu die älteren Menschen lügen junge Leute oft.",
-    "Im Gegensatz zu den älteren Menschen junge Leute lügen oft.",
-    "Im Gegensatz zu der älteren Menschen lügen junge Leute oft."
+    "hingegen",
+    "während",
+    "sondern",
+    "im Gegensatz zu"
    ],
    "a": 0,
-   "de": "im Gegensatz zu + Dativ Plural: den älteren Menschen; danach steht das Verb auf Position 2.",
-   "fa": "im Gegensatz zu + Dativ جمع: den älteren Menschen؛ بعد از آن فعل در جایگاه دوم می‌آید."
+   "de": "hingegen kann direkt hinter dem Subjekt stehen; danach folgt das Verb (reden).",
+   "fa": "hingegen می‌تواند درست بعد از فاعل بیاید و بعدش فعل (reden). während و sondern این جا جایی ندارند و im Gegensatz zu به اسم در حالت Dativ نیاز دارد."
   },
   {
    "id": "L3-g9",
-   "t": "t1",
-   "type": "mc",
-   "q": "Er hat sich entschuldigt, ___ glaubt ihm niemand.",
-   "opts": [
-    "während",
-    "zwar",
-    "jedoch",
-    "im Gegensatz zu"
-   ],
-   "a": 2,
-   "de": "Nach der Lücke folgt direkt das Verb (glaubt) → Adverb auf Position 1 → jedoch.",
-   "fa": "بعد از جای خالی فعل (glaubt) بلافاصله آمده؛ پس قید jedoch در جایگاه اول."
-  },
-  {
-   "id": "L3-g10",
-   "t": "t1",
+   "t": "t2",
    "type": "gap",
-   "q": "Im Gegensatz ___ Studie (die Studie) aus Berlin zeigt diese Umfrage andere Ergebnisse.",
-   "a": [
-    "zur"
-   ],
-   "de": "im Gegensatz zu + Dativ, feminin: zu + der = zur.",
-   "fa": "im Gegensatz zu + Dativ؛ Studie مؤنث است: zu + der = zur."
-  },
-  {
-   "id": "L3-g11",
-   "t": "t1",
-   "type": "gap",
-   "q": "Im Gegensatz ___ Hund (der Hund) kann eine Katze gut klettern.",
+   "q": "Im Gegensatz ___ Fuchs (der Fuchs) kann sich das Opossum tot stellen.",
    "a": [
     "zum"
    ],
    "de": "im Gegensatz zu + Dativ, maskulin: zu + dem = zum.",
-   "fa": "im Gegensatz zu + Dativ؛ Hund مذکر است: zu + dem = zum."
+   "fa": "im Gegensatz zu با Dativ می‌آید؛ Fuchs مذکر است: zu + dem = zum."
+  },
+  {
+   "id": "L3-g10",
+   "t": "t2",
+   "type": "mc",
+   "q": "Er hat nicht gelogen, ___ nur ein wenig übertrieben.",
+   "opts": [
+    "aber",
+    "sondern",
+    "doch",
+    "jedoch"
+   ],
+   "a": 1,
+   "de": "Der erste Teil ist verneint und wird korrigiert → sondern.",
+   "fa": "بخش اول منفی است و بخش دوم آن را اصلاح می‌کند («بلکه»)؛ پس sondern."
+  },
+  {
+   "id": "L3-g11",
+   "t": "t2",
+   "type": "mc",
+   "q": "Das Hotel ist nicht billig, ___ der Service ist ausgezeichnet.",
+   "opts": [
+    "sondern",
+    "aber",
+    "während",
+    "im Gegensatz zu"
+   ],
+   "a": 1,
+   "de": "Hier wird nichts korrigiert, sondern eine Einschränkung hinzugefügt; danach Subjekt – Verb → aber (Position 0).",
+   "fa": "این‌جا چیزی اصلاح نمی‌شود («ارزان نیست» درست می‌ماند)، فقط نکته‌ای اضافه می‌شود؛ پس aber در جایگاه صفر. sondern غلط است چون جایگزین نمی‌کند."
   },
   {
    "id": "L3-g12",
-   "t": "t1",
-   "type": "gap",
-   "q": "Das Produkt ist zwar teuer, ___ die Qualität ist sehr gut. (zweiter Teil)",
-   "a": [
-    "aber",
-    "doch"
+   "t": "t2",
+   "type": "mc",
+   "q": "Die S-Bahn war pünktlich. Der Bus hatte Verspätung. – Mit »im Gegensatz zu«:",
+   "opts": [
+    "Im Gegensatz zur S-Bahn hatte der Bus Verspätung.",
+    "Im Gegensatz zu die S-Bahn hatte der Bus Verspätung.",
+    "Im Gegensatz zur S-Bahn der Bus hatte Verspätung.",
+    "Im Gegensatz zur S-Bahn war pünktlich, hatte der Bus Verspätung."
    ],
-   "de": "zwar … aber (oder zwar … doch); aber/doch steht auf Position 0, danach Subjekt – Verb.",
-   "fa": "zwar … aber (یا zwar … doch)؛ aber/doch در جایگاه صفر است و بعد از آن فاعل و فعل می‌آید."
+   "a": 0,
+   "de": "im Gegensatz zu + Dativ (zur S-Bahn), danach direkt das Verb; die Angabe hat kein eigenes Verb.",
+   "fa": "im Gegensatz zu + Dativ (zur S-Bahn)، بعدش فوراً فعل (hatte). این عبارت فعل جداگانه ندارد."
   },
   {
    "id": "L3-g13",
    "t": "t2",
    "type": "mc",
-   "q": "Der Vogel stellt sich verletzt, ___ den Feind vom Nest wegzulocken.",
+   "q": "Am Telefon lügen nur wenige. Im direkten Gespräch lügen viele. – Mit »während«:",
    "opts": [
-    "damit",
-    "um",
-    "zum",
-    "dass"
+    "Während am Telefon nur wenige lügen, lügen im direkten Gespräch viele.",
+    "Während am Telefon nur wenige lügen, im direkten Gespräch viele lügen.",
+    "Während lügen am Telefon nur wenige, lügen im direkten Gespräch viele.",
+    "Am Telefon lügen nur wenige, während lügen im direkten Gespräch viele."
    ],
-   "a": 1,
-   "de": "Gleiches Subjekt und zu-Infinitiv am Ende (wegzulocken) → um … zu.",
-   "fa": "فاعل یکی است و مصدر با zu در آخر آمده (wegzulocken)؛ پس um … zu."
+   "a": 0,
+   "de": "Im während-Satz steht das Verb am Ende; danach folgt das Verb des Hauptsatzes (Verb, Verb).",
+   "fa": "در جمله‌ی während فعل در آخر است و بعد از ویرگول فعل جمله‌ی اصلی می‌آید (الگوی «فعل، فعل»)."
   },
   {
    "id": "L3-g14",
    "t": "t2",
    "type": "mc",
-   "q": "Ich erkläre es dir noch einmal, ___ du es richtig verstehst.",
+   "q": "Ich darf keine schweren Kisten tragen. ___ kann ich beim Auspacken helfen.",
    "opts": [
-    "um",
-    "damit",
-    "zum",
-    "zu"
+    "Während",
+    "Sondern",
+    "Im Gegensatz dazu",
+    "Im Gegensatz zu"
    ],
-   "a": 1,
-   "de": "Verschiedene Subjekte (ich / du) und Verb am Ende → damit.",
-   "fa": "فاعل‌ها متفاوت‌اند (ich / du) و فعل در آخر آمده؛ پس damit."
+   "a": 2,
+   "de": "Bezug auf den ganzen vorherigen Satz und direkt danach das Verb → im Gegensatz dazu.",
+   "fa": "به کل جمله‌ی قبل اشاره می‌کنیم و بعدش فوراً فعل آمده؛ پس im Gegensatz dazu. im Gegensatz zu به یک اسم نیاز دارد."
   },
   {
    "id": "L3-g15",
    "t": "t2",
-   "type": "mc",
-   "q": "Die grellen Farben des Frosches dienen ___ Abschreckung.",
-   "opts": [
-    "zum",
-    "um",
-    "damit",
-    "zur"
+   "type": "gap",
+   "q": "Für die Bachelorarbeit hatten wir viel Zeit. Für die Masterarbeit hatten wir ___ viel zu wenig Zeit. (Verbindungsadverb, beginnt mit h-)",
+   "a": [
+    "hingegen"
    ],
-   "a": 3,
-   "de": "die Abschreckung ist feminin → zu + der = zur.",
-   "fa": "Abschreckung مؤنث است؛ zu + der = zur."
+   "de": "Verbindungsadverb im Mittelfeld nach dem Verb → hingegen.",
+   "fa": "قید ربطی وسط جمله و بعد از فعل؛ با حرف h-: hingegen."
   },
   {
    "id": "L3-g16",
    "t": "t2",
    "type": "mc",
-   "q": "Welcher Satz ist richtig?",
+   "q": "Welche Aussage ist richtig?",
    "opts": [
-    "Er lügt, um er seine Eltern nicht enttäuscht.",
-    "Er lügt, damit seine Eltern nicht zu enttäuschen.",
-    "Er lügt, um seine Eltern nicht enttäuschen.",
-    "Er lügt, um seine Eltern nicht zu enttäuschen."
+    "»während« ist ein Hauptsatzkonnektor auf Position 0.",
+    "»sondern« steht nur nach einer Verneinung im ersten Satz.",
+    "»dagegen« leitet einen Nebensatz mit dem Verb am Ende ein.",
+    "»im Gegensatz zu« steht mit dem Akkusativ."
    ],
-   "a": 3,
-   "de": "um … zu + Infinitiv ohne eigenes Subjekt: um … nicht zu enttäuschen.",
-   "fa": "um … zu + مصدر، بدون فاعل جداگانه: um … nicht zu enttäuschen."
+   "a": 1,
+   "de": "sondern braucht im ersten Satz nicht oder kein; während ist Nebensatzkonnektor, dagegen ein Verbindungsadverb, im Gegensatz zu steht mit Dativ.",
+   "fa": "sondern فقط بعد از nicht یا kein می‌آید. während حرف ربط وابسته است، dagegen قید ربطی و im Gegensatz zu با Dativ می‌آید."
   },
   {
    "id": "L3-g17",
-   "t": "t2",
+   "t": "t3",
    "type": "mc",
-   "q": "Welcher Satz ist richtig?",
+   "q": "»Lügen sind oft sehr detailliert. …« In welcher Fortsetzung wird der Gegensatz besonders betont?",
    "opts": [
-    "Die Mutter flüstert, damit das Baby weiterschläft.",
-    "Die Mutter flüstert, um das Baby weiterschläft.",
-    "Die Mutter flüstert, damit das Baby weiterzuschlafen.",
-    "Die Mutter flüstert, um das Baby weiterzuschlafen."
+    "Wahre Aussagen sind jedoch oft ungenau.",
+    "Wahre Aussagen jedoch sind oft ungenau.",
+    "Jedoch sind wahre Aussagen oft ungenau.",
+    "Wahre Aussagen sind oft ungenau, jedoch."
    ],
-   "a": 0,
-   "de": "Verschiedene Subjekte (die Mutter / das Baby) → damit + Nebensatz mit Verb am Ende.",
-   "fa": "فاعل‌ها متفاوت‌اند (مادر / نوزاد)؛ پس damit و جمله‌ی وابسته با فعل در آخر."
+   "a": 1,
+   "de": "Betonung: das Adverb steht direkt hinter dem ersten Satzglied (am Ende von Position 1).",
+   "fa": "برای تأکید، قید ربطی درست پشت اولین جزء جمله (انتهای جایگاه اول) قرار می‌گیرد: Wahre Aussagen jedoch sind …"
   },
   {
    "id": "L3-g18",
-   "t": "t2",
+   "t": "t3",
    "type": "mc",
-   "q": "Um sich vor Feinden zu schützen, stellen sich manche Tiere tot. – Gleiche Bedeutung mit zu + Nomen:",
+   "q": "Welcher Satz ist falsch?",
    "opts": [
-    "Zur Schutz vor Feinden stellen sich manche Tiere tot.",
-    "Zum Schützen vor Feinden manche Tiere stellen sich tot.",
-    "Zum Schutz vor Feinden stellen sich manche Tiere tot.",
-    "Um Schutz vor Feinden stellen sich manche Tiere tot."
+    "Kinder dagegen können noch nicht gut manipulieren.",
+    "Dagegen können Kinder noch nicht gut manipulieren.",
+    "Kinder können dagegen noch nicht gut manipulieren.",
+    "Dagegen Kinder können noch nicht gut manipulieren."
    ],
-   "a": 2,
-   "de": "schützen → der Schutz (maskulin) → zum Schutz; danach Verb auf Position 2.",
-   "fa": "schützen ← der Schutz (مذکر) ← zum Schutz؛ بعد از آن فعل در جایگاه دوم می‌آید."
+   "a": 3,
+   "de": "dagegen kann nicht auf Position 0 stehen; auf Position 1 folgt sofort das Verb.",
+   "fa": "dagegen جایگاه صفر ندارد؛ اگر اول جمله باشد باید فوراً فعل بیاید. پس گزینه‌ی چهارم غلط است."
   },
   {
    "id": "L3-g19",
-   "t": "t2",
+   "t": "t3",
    "type": "gap",
-   "q": "Der Affe brüllt laut, um Feinde ___ (abschrecken).",
+   "q": "Beim Arzt antworten die meisten ehrlich. Beim Thema Sport hingegen ___ gern geschummelt. (werden, Präsens)",
    "a": [
-    "abzuschrecken"
+    "wird"
    ],
-   "de": "Trennbares Verb: zu steht zwischen Präfix und Verb → abzuschrecken.",
-   "fa": "فعل جداشدنی است؛ zu بین پیشوند و فعل می‌آید ← abzuschrecken."
+   "de": "»Beim Thema Sport hingegen« ist zusammen Position 1, also steht das Verb (wird) auf Position 2.",
+   "fa": "«Beim Thema Sport hingegen» با هم جایگاه اول است، پس فعل (wird) در جایگاه دوم می‌آید."
   },
   {
    "id": "L3-g20",
-   "t": "t2",
-   "type": "gap",
-   "q": "Ich schicke Ihnen die Rechnung, ___ Sie mir den Betrag zurückbuchen. (Nebensatz)",
-   "a": [
-    "damit"
+   "t": "t3",
+   "type": "mc",
+   "q": "Formulieren Sie so um, dass der Gegensatz besonders betont wird: »Erwachsene lügen oft. Dagegen sind kleine Kinder meist ehrlich.«",
+   "opts": [
+    "Kleine Kinder dagegen sind meist ehrlich.",
+    "Kleine Kinder sind dagegen meist ehrlich.",
+    "Dagegen kleine Kinder sind meist ehrlich.",
+    "Kleine Kinder dagegen meist ehrlich sind."
    ],
-   "de": "Verschiedene Subjekte (ich / Sie), Verb am Ende → damit.",
-   "fa": "فاعل‌ها متفاوت‌اند (ich / Sie) و فعل در آخر است ← damit."
+   "a": 0,
+   "de": "Für die Betonung: erstes Satzglied + dagegen + Verb.",
+   "fa": "برای تأکید: اولین جزء جمله + dagegen + فعل. گزینه‌ی دوم درست است ولی تأکید ندارد (حالت خنثی)."
   },
   {
    "id": "L3-g21",
-   "t": "t2",
-   "type": "gap",
-   "q": "Wir brauchen mehr Zeit ___ Auswerten (das Auswerten) der Umfrage.",
-   "a": [
-    "zum",
-    "fürs"
+   "t": "t3",
+   "type": "mc",
+   "q": "Wo steht das Verbindungsadverb, wenn man den Gegensatz besonders betonen will?",
+   "opts": [
+    "auf Position 0, vor dem Subjekt",
+    "am Ende von Position 1, direkt hinter dem ersten Satzglied",
+    "ganz am Satzende",
+    "direkt nach dem Infinitiv"
    ],
-   "de": "Nominalisierter Infinitiv ist neutral: zu + dem = zum Auswerten (auch möglich: fürs Auswerten).",
-   "fa": "مصدرِ اسم‌شده خنثی است: zu + dem = zum Auswerten (fürs Auswerten هم درست است)."
+   "a": 1,
+   "de": "Betonte Variante: erstes Satzglied + Adverb, dann das Verb.",
+   "fa": "در حالت تأکیدی، قید درست بعد از اولین جزء جمله و قبل از فعل می‌آید."
   },
   {
    "id": "L3-g22",
-   "t": "t2",
-   "type": "gap",
-   "q": "Er spart jeden Monat Geld, um sich ein neues Objektiv ___ (kaufen).",
-   "a": [
-    "zu kaufen"
+   "t": "t4",
+   "type": "mc",
+   "q": "Das Opossum stellt sich tot, ___ nicht gefressen zu werden.",
+   "opts": [
+    "damit",
+    "um",
+    "zum",
+    "für"
    ],
-   "de": "um … zu + Infinitiv → zu kaufen.",
-   "fa": "um … zu + مصدر ← zu kaufen."
+   "a": 1,
+   "de": "zu + Infinitiv am Ende (zu werden) und kein Subjekt → um … zu.",
+   "fa": "در آخر zu + مصدر (zu werden) آمده و فاعلی نیست؛ پس um … zu."
+  },
+  {
+   "id": "L3-g23",
+   "t": "t4",
+   "type": "mc",
+   "q": "Seltene Tiere leben in Zoos, ___ sie nicht aussterben.",
+   "opts": [
+    "um",
+    "damit",
+    "zu",
+    "für"
+   ],
+   "a": 1,
+   "de": "Eigenes Subjekt (sie) und Verb am Ende (aussterben) → damit.",
+   "fa": "جمله‌ی دوم فاعل دارد (sie) و فعلش در آخر است؛ پس damit."
+  },
+  {
+   "id": "L3-g24",
+   "t": "t4",
+   "type": "gap",
+   "q": "Der Hahn lockt die Henne an, ___ er sich fortpflanzen kann. (Zweck, Nebensatzkonnektor)",
+   "a": [
+    "damit"
+   ],
+   "de": "Zweck + Nebensatz mit Verb am Ende (kann) → damit; können ist im damit-Satz typisch.",
+   "fa": "هدف بیان شده و فعل (kann) در آخر است؛ پس damit. فعل können در جمله‌ی damit کاملاً رایج است."
+  },
+  {
+   "id": "L3-g25",
+   "t": "t4",
+   "type": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "opts": [
+    "Manche Vögel stellen sich krank, um die Feinde vom Nest wegzulocken.",
+    "Manche Vögel stellen sich krank, um die Feinde vom Nest zu weglocken.",
+    "Manche Vögel stellen sich krank, damit die Feinde vom Nest wegzulocken.",
+    "Manche Vögel stellen sich krank, um sie die Feinde vom Nest weglocken."
+   ],
+   "a": 0,
+   "de": "Trennbares Verb: zu steht zwischen Präfix und Verb (wegzulocken); um … zu hat kein Subjekt.",
+   "fa": "فعل جداشدنی است و zu وسط پیشوند و فعل می‌آید (wegzulocken). um … zu فاعل جداگانه ندارد و damit با مصدر نمی‌آید."
+  },
+  {
+   "id": "L3-g26",
+   "t": "t4",
+   "type": "mc",
+   "q": "Ich schreibe dem Onlineshop, ___ er mir das fehlende Zubehör zusendet.",
+   "opts": [
+    "um",
+    "damit",
+    "zur",
+    "für"
+   ],
+   "a": 1,
+   "de": "Verschiedene Subjekte (ich / er) und Verb am Ende → damit.",
+   "fa": "فاعل‌ها متفاوت‌اند (ich / er) و فعل در آخر است؛ پس damit."
+  },
+  {
+   "id": "L3-g27",
+   "t": "t4",
+   "type": "mc",
+   "q": "Das Kind soll öfter die Wahrheit sagen. Welcher Satz drückt das richtig aus?",
+   "opts": [
+    "Die Eltern loben das Kind, um es die Wahrheit öfter sagt.",
+    "Die Eltern loben das Kind, damit es öfter die Wahrheit sagt.",
+    "Die Eltern loben das Kind, um öfter die Wahrheit zu sagen.",
+    "Die Eltern loben das Kind, damit öfter die Wahrheit zu sagen."
+   ],
+   "a": 1,
+   "de": "Das Subjekt des Ziels (das Kind) ist ein anderes als im Hauptsatz (die Eltern) → nur damit. Mit um … zu würden die Eltern die Wahrheit sagen.",
+   "fa": "فاعل هدف (کودک) با فاعل جمله‌ی اصلی (والدین) فرق دارد؛ پس فقط damit. با um … zu معنی این می‌شد که خودِ والدین راست بگویند."
+  },
+  {
+   "id": "L3-g28",
+   "t": "t4",
+   "type": "gap",
+   "q": "Der Brüllaffe brüllt ___ Verteidigung (die Verteidigung) seines Reviers. (zu + Artikel)",
+   "a": [
+    "zur"
+   ],
+   "de": "die Verteidigung ist feminin: zu + der = zur.",
+   "fa": "Verteidigung مؤنث است: zu + der = zur."
+  },
+  {
+   "id": "L3-g29",
+   "t": "t4",
+   "type": "mc",
+   "q": "Tiere bringen sich ___ das Überleben ihres Nachwuchses in Gefahr.",
+   "opts": [
+    "für",
+    "zum",
+    "um",
+    "damit"
+   ],
+   "a": 0,
+   "de": "Nach der Lücke steht ein Akkusativ (das Überleben) → für + Akkusativ.",
+   "fa": "بعد از جای خالی اسم در حالت Akkusativ آمده (das Überleben)؛ پس für. zum خودش حرف تعریف دارد و با das جمع نمی‌شود."
+  },
+  {
+   "id": "L3-g30",
+   "t": "t4",
+   "type": "gap",
+   "q": "Bei der Polizei werden Hunde eingesetzt, um Drogen ___ (finden).",
+   "a": [
+    "zu finden"
+   ],
+   "de": "um … zu + Infinitiv am Ende → zu finden.",
+   "fa": "um … zu + مصدر در آخر جمله ← zu finden."
+  },
+  {
+   "id": "L3-g31",
+   "t": "t5",
+   "type": "mc",
+   "q": "Zur Kontrolle der Angaben ruft die Firma den Bewerber an. – Mit »um … zu«:",
+   "opts": [
+    "Um die Angaben zu kontrollieren, ruft die Firma den Bewerber an.",
+    "Um die Angaben kontrollieren, ruft die Firma den Bewerber an.",
+    "Um die Angaben zu kontrollieren, die Firma ruft den Bewerber an.",
+    "Damit die Angaben zu kontrollieren, ruft die Firma den Bewerber an."
+   ],
+   "a": 0,
+   "de": "die Kontrolle → kontrollieren; Genitiv (der Angaben) → Akkusativobjekt; danach direkt das Verb.",
+   "fa": "die Kontrolle ← kontrollieren؛ مضاف‌الیه (der Angaben) مفعول صریح می‌شود؛ چون جمله‌ی um اول آمده، فعل اصلی فوراً بعدش می‌آید."
+  },
+  {
+   "id": "L3-g32",
+   "t": "t5",
+   "type": "mc",
+   "q": "Um ihre Schwächen zu verbergen, übertreiben manche Menschen. – Mit »zu« + Nomen:",
+   "opts": [
+    "Zum Verbergen ihrer Schwächen übertreiben manche Menschen.",
+    "Zur Verbergen ihrer Schwächen übertreiben manche Menschen.",
+    "Zum Verbergen ihre Schwächen übertreiben manche Menschen.",
+    "Zum Verbergen ihrer Schwächen manche Menschen übertreiben."
+   ],
+   "a": 0,
+   "de": "das Verbergen ist neutral → zum; das Objekt wird Genitiv (ihrer Schwächen); danach direkt das Verb.",
+   "fa": "das Verbergen خنثی است ← zum؛ مفعول به Genitiv تبدیل می‌شود (ihrer Schwächen) و بعد فوراً فعل می‌آید."
+  },
+  {
+   "id": "L3-g33",
+   "t": "t5",
+   "type": "gap",
+   "q": "Für den ___ (kaufen → Nomen) eines Objektivs spart er jeden Monat Geld.",
+   "a": [
+    "Kauf"
+   ],
+   "de": "kaufen → der Kauf (maskulin, passt zu »den«).",
+   "fa": "kaufen ← der Kauf (مذکر، با den جور است). das Kaufen با حرف تعریف den نمی‌خواند."
+  },
+  {
+   "id": "L3-g34",
+   "t": "t5",
+   "type": "mc",
+   "q": "Für die Gründung ihrer Firma hat sie einen Kredit aufgenommen. – Mit »um … zu«:",
+   "opts": [
+    "Sie hat einen Kredit aufgenommen, um ihre Firma zu gründen.",
+    "Sie hat einen Kredit aufgenommen, um ihre Firma gründen.",
+    "Sie hat einen Kredit aufgenommen, um die Gründung ihrer Firma zu.",
+    "Sie hat einen Kredit aufgenommen, damit ihre Firma zu gründen."
+   ],
+   "a": 0,
+   "de": "die Gründung → gründen; gleiches Subjekt (sie) → um … zu + Infinitiv.",
+   "fa": "die Gründung ← gründen؛ فاعل یکی است (sie)، پس um … zu + مصدر."
+  },
+  {
+   "id": "L3-g35",
+   "t": "t5",
+   "type": "mc",
+   "q": "Zur Rettung der Jungen greift die Vogelmutter den Fuchs an. – Mit »damit«:",
+   "opts": [
+    "Damit die Jungen gerettet werden, greift die Vogelmutter den Fuchs an.",
+    "Damit die Jungen zu retten, greift die Vogelmutter den Fuchs an.",
+    "Damit die Jungen gerettet werden, die Vogelmutter greift den Fuchs an.",
+    "Damit die Jungen werden gerettet, greift die Vogelmutter den Fuchs an."
+   ],
+   "a": 0,
+   "de": "Neues Subjekt (die Jungen) im Passiv, Verb am Ende; danach direkt das Verb des Hauptsatzes.",
+   "fa": "فاعل تازه (die Jungen) با ساختار مجهول و فعل در آخر؛ بعد از ویرگول فوراً فعل جمله‌ی اصلی (greift)."
+  },
+  {
+   "id": "L3-g36",
+   "t": "t6",
+   "type": "gap",
+   "q": "Viele Kinder ___ (rot → Verb mit er-), wenn sie lügen.",
+   "a": [
+    "erröten"
+   ],
+   "de": "rot + er- + Umlaut → erröten (= rot werden); 3. Person Plural.",
+   "fa": "rot با پیشوند er- و Umlaut ← erröten (سرخ شدن)؛ سوم‌شخص جمع."
+  },
+  {
+   "id": "L3-g37",
+   "t": "t6",
+   "type": "gap",
+   "q": "Halbwahrheiten ___ (breit → Verb mit ver-) sich im Internet sehr schnell.",
+   "a": [
+    "verbreiten"
+   ],
+   "de": "breit → verbreiten; sich verbreiten = sich ausbreiten.",
+   "fa": "breit ← verbreiten؛ sich verbreiten یعنی «پخش شدن»."
+  },
+  {
+   "id": "L3-g38",
+   "t": "t6",
+   "type": "mc",
+   "q": "Was bedeutet »vergrößern«?",
+   "opts": [
+    "größer machen",
+    "groß sein",
+    "kleiner werden",
+    "größer aussehen"
+   ],
+   "a": 0,
+   "de": "ver- + Adjektiv bedeutet oft »machen«: vergrößern = größer machen.",
+   "fa": "ver- + صفت اغلب معنای «… کردن» دارد: vergrößern یعنی «بزرگ‌تر کردن»."
+  },
+  {
+   "id": "L3-g39",
+   "t": "t6",
+   "type": "mc",
+   "q": "Welches Nomen hat eine eher negative Bedeutung (lästig, ständig wiederholt)?",
+   "opts": [
+    "die Täuschung",
+    "das Täuschen",
+    "die Trickserei",
+    "die Sicherung"
+   ],
+   "a": 2,
+   "de": "Nomen auf -erei (und mit Ge-…e) klingen oft negativ.",
+   "fa": "اسم‌هایی که با ‎-erei (یا Ge-…e) ساخته می‌شوند اغلب بار منفی دارند."
+  },
+  {
+   "id": "L3-g40",
+   "t": "t6",
+   "type": "mc",
+   "q": "Für die Umfrage wurden 800 Studierende ___.",
+   "opts": [
+    "befragt",
+    "erfragt",
+    "verraten",
+    "erfunden"
+   ],
+   "a": 0,
+   "de": "jemanden befragen (+ Akkusativ der Person); etwas erfragen bezieht sich auf eine Information, nicht auf Personen.",
+   "fa": "jemanden befragen یعنی «از کسی سؤال کردن» (مفعولش شخص است). erfragen برای یک اطلاع به کار می‌رود، نه برای آدم‌ها."
+  },
+  {
+   "id": "L3-g41",
+   "t": "t6",
+   "type": "gap",
+   "q": "Manche lügen, um eine lange Freundschaft zu ___ (halten mit der Vorsilbe er-).",
+   "a": [
+    "erhalten"
+   ],
+   "de": "erhalten = bewahren, weiter bestehen lassen.",
+   "fa": "erhalten این‌جا یعنی «حفظ کردن» (نه «دریافت کردن»)."
   }
  ]
 });

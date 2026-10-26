@@ -26,6 +26,10 @@
   {
    "id": "F",
    "title": "Themenwortschatz: Digitale Welt und Datensicherheit"
+  },
+  {
+   "id": "T",
+   "title": "Wörter aus den Buchtexten"
   }
  ],
  "cards": [
@@ -5724,166 +5728,3329 @@
      "با تجهیزات به‌روز"
     ]
    ]
+  },
+  {
+   "id": "L4-263",
+   "s": "T",
+   "w": "rund um die Uhr",
+   "fa": "شبانه‌روزی، بیست‌وچهار ساعته",
+   "syn": "ständig, Tag und Nacht",
+   "de": "Im Internet bekommt man rund um die Uhr Nachrichten aus aller Welt.",
+   "fas": "در اینترنت شبانه‌روز از سراسر دنیا خبر دریافت می‌کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "rund um die Uhr erreichbar",
+     "شبانه‌روز در دسترس"
+    ],
+    [
+     "rund um die Uhr geöffnet",
+     "شبانه‌روزی باز"
+    ],
+    [
+     "rund um die Uhr arbeiten",
+     "شبانه‌روز کار کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-264",
+   "s": "T",
+   "w": "der Oberbegriff, -e",
+   "fa": "مفهوم کلی، اصطلاح فراگیر",
+   "syn": "der Sammelbegriff, die übergeordnete Bezeichnung",
+   "de": "„Digitale Medien“ ist ein Oberbegriff für Smartphones, Tablets und Computer.",
+   "fas": "«رسانه‌های دیجیتال» اصطلاحی کلی برای گوشی هوشمند، تبلت و رایانه است.",
+   "_t": 1,
+   "c": [
+    [
+     "unter einem Oberbegriff zusammenfassen",
+     "زیر یک مفهوم کلی جمع کردن"
+    ],
+    [
+     "der Oberbegriff für etw.",
+     "مفهوم کلیِ چیزی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-265",
+   "s": "T",
+   "w": "der Vorspann, -e",
+   "fa": "مقدمه‌ی کوتاه مقاله، لید",
+   "syn": "die Einleitung eines Artikels, der Lead",
+   "de": "Schon der Vorspann des Artikels verrät, dass es um Telemedizin geht.",
+   "fas": "همان مقدمه‌ی کوتاه مقاله نشان می‌دهد که موضوع پزشکی از راه دور است.",
+   "_t": 1,
+   "c": [
+    [
+     "den Vorspann lesen",
+     "مقدمه‌ی مقاله را خواندن"
+    ],
+    [
+     "im Vorspann stehen",
+     "در مقدمه آمدن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-266",
+   "s": "T",
+   "w": "verbunden sein mit + D",
+   "fa": "همراه بودن با، در پی داشتن",
+   "syn": "einhergehen mit, mit sich bringen",
+   "de": "Der Einsatz neuer Technik ist oft mit hohen Kosten verbunden.",
+   "fas": "به‌کارگیری فناوری جدید اغلب با هزینه‌های بالایی همراه است.",
+   "_t": 1,
+   "c": [
+    [
+     "mit Kosten verbunden sein",
+     "هزینه داشتن"
+    ],
+    [
+     "mit Risiken verbunden sein",
+     "با خطر همراه بودن"
+    ],
+    [
+     "mit Aufwand verbunden sein",
+     "زحمت داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-267",
+   "s": "T",
+   "w": "der Aufbau (nur Sg.)",
+   "fa": "ساختار، چیدمان",
+   "syn": "die Struktur, die Gliederung",
+   "de": "Eine gute Erörterung hat einen klaren Aufbau mit Einleitung, Hauptteil und Schluss.",
+   "fas": "یک متن استدلالی خوب ساختاری روشن با مقدمه، بدنه و نتیجه دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "der Aufbau eines Textes",
+     "ساختار یک متن"
+    ],
+    [
+     "einen klaren Aufbau haben",
+     "ساختار روشنی داشتن"
+    ],
+    [
+     "auf den Aufbau achten",
+     "به ساختار توجه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-268",
+   "s": "T",
+   "w": "die Überprüfung, -en",
+   "fa": "بررسی، وارسی",
+   "syn": "die Kontrolle, die Prüfung",
+   "de": "Die IT-Systeme der Praxis brauchen eine regelmäßige Überprüfung auf Sicherheitslücken.",
+   "fas": "سیستم‌های فناوری اطلاعات مطب به بررسی منظم از نظر حفره‌های امنیتی نیاز دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine regelmäßige Überprüfung",
+     "بررسی منظم"
+    ],
+    [
+     "zur Überprüfung",
+     "برای بررسی"
+    ],
+    [
+     "die Überprüfung der Daten",
+     "بررسی داده‌ها"
+    ]
+   ]
+  },
+  {
+   "id": "L4-269",
+   "s": "T",
+   "w": "eine Diagnose stellen",
+   "fa": "تشخیص دادن (بیماری)",
+   "syn": "diagnostizieren, eine Krankheit feststellen",
+   "de": "Inzwischen dürfen Ärzte auch per Videochat eine Diagnose stellen.",
+   "fas": "اکنون پزشکان اجازه دارند از طریق تماس تصویری هم بیماری را تشخیص دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine falsche Diagnose stellen",
+     "تشخیص اشتباه دادن"
+    ],
+    [
+     "per Video eine Diagnose stellen",
+     "با ویدیو تشخیص دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-270",
+   "s": "T",
+   "w": "ein Rezept ausstellen",
+   "fa": "نسخه نوشتن، نسخه صادر کردن",
+   "syn": "ein Medikament verschreiben, verordnen",
+   "de": "Nach dem Online-Gespräch hat mir die Ärztin ein Rezept ausgestellt.",
+   "fas": "پس از گفت‌وگوی آنلاین، خانم دکتر برایم نسخه نوشت.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Rezept per App ausstellen",
+     "با اپ نسخه صادر کردن"
+    ],
+    [
+     "ein elektronisches Rezept ausstellen",
+     "نسخه‌ی الکترونیکی صادر کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-271",
+   "s": "T",
+   "w": "via",
+   "fa": "از طریق، به‌واسطه‌ی",
+   "syn": "über, per",
+   "de": "Viele Patienten lassen sich heute via Internet ärztlich beraten.",
+   "fas": "امروزه بسیاری از بیماران از طریق اینترنت مشاوره‌ی پزشکی می‌گیرند.",
+   "_t": 1,
+   "c": [
+    [
+     "via Internet",
+     "از طریق اینترنت"
+    ],
+    [
+     "via E-Mail",
+     "از طریق ایمیل"
+    ],
+    [
+     "via Videochat",
+     "از طریق تماس تصویری"
+    ]
+   ]
+  },
+  {
+   "id": "L4-272",
+   "s": "T",
+   "w": "anschließend",
+   "fa": "سپس، پس از آن",
+   "syn": "danach, im Anschluss",
+   "de": "Der Arzt hat die Symptome eingeschätzt und anschließend eine Therapie empfohlen.",
+   "fas": "پزشک علائم را ارزیابی کرد و سپس درمانی را توصیه کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "anschließend besprechen",
+     "سپس بحث کردن"
+    ],
+    [
+     "die anschließende Diskussion",
+     "بحث پس از آن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-273",
+   "s": "T",
+   "w": "darüber hinaus",
+   "fa": "علاوه بر این، افزون بر آن",
+   "syn": "außerdem, zusätzlich",
+   "de": "Telemedizin spart Zeit; darüber hinaus entlastet sie die Arztpraxen.",
+   "fas": "پزشکی از راه دور در وقت صرفه‌جویی می‌کند؛ علاوه بر این بار مطب‌ها را سبک می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "darüber hinaus gilt",
+     "علاوه بر این صادق است که"
+    ],
+    [
+     "und darüber hinaus",
+     "و فراتر از آن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-274",
+   "s": "T",
+   "w": "die Notfallambulanz, -en",
+   "fa": "اورژانس سرپایی، بخش اورژانس",
+   "syn": "die Notaufnahme, die Rettungsstelle",
+   "de": "Am Wochenende ist die Notfallambulanz oft völlig überfüllt.",
+   "fas": "آخر هفته‌ها بخش اورژانس اغلب کاملاً شلوغ است.",
+   "_t": 1,
+   "c": [
+    [
+     "in die Notfallambulanz gehen",
+     "به اورژانس رفتن"
+    ],
+    [
+     "die überfüllte Notfallambulanz",
+     "اورژانس شلوغ"
+    ]
+   ]
+  },
+  {
+   "id": "L4-275",
+   "s": "T",
+   "w": "der Notfallpatient, -en / die Notfallpatientin, -nen",
+   "fa": "بیمار اورژانسی",
+   "syn": "der Akutpatient, der dringende Fall",
+   "de": "Notfallpatienten werden im Krankenhaus immer zuerst behandelt.",
+   "fas": "در بیمارستان بیماران اورژانسی همیشه زودتر درمان می‌شوند.",
+   "_t": 1,
+   "c": [
+    [
+     "Notfallpatienten versorgen",
+     "به بیماران اورژانسی رسیدگی کردن"
+    ],
+    [
+     "Notfallpatienten zuerst behandeln",
+     "اول بیماران اورژانسی را درمان کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-276",
+   "s": "T",
+   "w": "betragen",
+   "fa": "بالغ شدن بر، بودن (مقدار)",
+   "syn": "ausmachen, sich belaufen auf",
+   "de": "Die Wartezeit in der Notaufnahme beträgt manchmal über vier Stunden.",
+   "fas": "زمان انتظار در اورژانس گاهی به بیش از چهار ساعت می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "der Anteil beträgt …",
+     "سهم … است"
+    ],
+    [
+     "die Kosten betragen …",
+     "هزینه‌ها بالغ بر … است"
+    ],
+    [
+     "insgesamt betragen",
+     "در مجموع بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-277",
+   "s": "T",
+   "w": "dringend",
+   "fa": "فوری، اضطراری",
+   "syn": "eilig, akut",
+   "de": "Per Videochat kann der Arzt dringende Fälle schneller erkennen.",
+   "fas": "پزشک از طریق تماس تصویری می‌تواند موارد فوری را سریع‌تر تشخیص دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein dringender Fall",
+     "یک مورد فوری"
+    ],
+    [
+     "dringend nötig",
+     "به‌شدت لازم"
+    ],
+    [
+     "dringend empfehlen",
+     "اکیداً توصیه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-278",
+   "s": "T",
+   "w": "zutreffend",
+   "fa": "درست، صحیح، صادق",
+   "syn": "richtig, passend",
+   "de": "Kreuzen Sie an, welche Aussage über die Telemedizin zutreffend ist.",
+   "fas": "علامت بزنید کدام جمله درباره‌ی پزشکی از راه دور درست است.",
+   "_t": 1,
+   "c": [
+    [
+     "Zutreffendes ankreuzen",
+     "موارد درست را علامت زدن"
+    ],
+    [
+     "eine zutreffende Beschreibung",
+     "توصیفی درست"
+    ]
+   ]
+  },
+  {
+   "id": "L4-279",
+   "s": "T",
+   "w": "in Bezug auf + A",
+   "fa": "در رابطه با، درباره‌ی",
+   "syn": "hinsichtlich, bezüglich",
+   "de": "In Bezug auf den Datenschutz haben viele Patienten noch Bedenken.",
+   "fas": "بسیاری از بیماران درباره‌ی حفاظت از داده‌ها هنوز نگرانی دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "in Bezug auf das Thema",
+     "در رابطه با موضوع"
+    ],
+    [
+     "in Bezug darauf",
+     "در این مورد"
+    ]
+   ]
+  },
+  {
+   "id": "L4-280",
+   "s": "T",
+   "w": "das Fernbehandlungsverbot (nur Sg.)",
+   "fa": "ممنوعیت درمان از راه دور",
+   "syn": "das Verbot der Behandlung aus der Ferne",
+   "de": "Seit das Fernbehandlungsverbot aufgehoben wurde, sind Online-Sprechstunden erlaubt.",
+   "fas": "از وقتی ممنوعیت درمان از راه دور لغو شد، ویزیت آنلاین مجاز است.",
+   "_t": 1,
+   "c": [
+    [
+     "das Fernbehandlungsverbot aufheben",
+     "ممنوعیت درمان از راه دور را لغو کردن"
+    ],
+    [
+     "die Lockerung des Fernbehandlungsverbots",
+     "کاهش محدودیت درمان از راه دور"
+    ]
+   ]
+  },
+  {
+   "id": "L4-281",
+   "s": "T",
+   "w": "berühmt (für + A)",
+   "fa": "مشهور، معروف (به)",
+   "syn": "bekannt, prominent",
+   "de": "Der Forscher wurde für seine Erfindung des World Wide Web berühmt.",
+   "fas": "این پژوهشگر به خاطر اختراع وب جهان‌گستر مشهور شد.",
+   "_t": 1,
+   "c": [
+    [
+     "weltweit berühmt",
+     "مشهور در سراسر جهان"
+    ],
+    [
+     "berühmt werden",
+     "مشهور شدن"
+    ],
+    [
+     "eine berühmte Erfindung",
+     "اختراعی مشهور"
+    ]
+   ]
+  },
+  {
+   "id": "L4-282",
+   "s": "T",
+   "w": "der Entdecker, - / die Entdeckerin, -nen",
+   "fa": "کاشف",
+   "syn": "der Erforscher, der Finder",
+   "de": "Der Entdecker des Penicillins hat die Medizin für immer verändert.",
+   "fas": "کاشف پنی‌سیلین پزشکی را برای همیشه دگرگون کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "der Entdecker Amerikas",
+     "کاشف آمریکا"
+    ],
+    [
+     "ein berühmter Entdecker",
+     "کاشفی مشهور"
+    ]
+   ]
+  },
+  {
+   "id": "L4-283",
+   "s": "T",
+   "w": "die Komposition, -en",
+   "fa": "قطعه‌ی موسیقی، آهنگسازی",
+   "syn": "das Musikstück, das Werk",
+   "de": "Diese Komposition von Beethoven kennt fast jeder.",
+   "fas": "این قطعه‌ی بتهوون را تقریباً همه می‌شناسند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Komposition von Mozart",
+     "قطعه‌ای از موتسارت"
+    ],
+    [
+     "eine eigene Komposition",
+     "یک قطعه‌ی شخصی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-284",
+   "s": "T",
+   "w": "das Endgerät, -e",
+   "fa": "دستگاه کاربر (گوشی، تبلت و …)",
+   "syn": "das Gerät, das Smartphone oder Tablet",
+   "de": "Die Gesundheits-App läuft auf fast allen Endgeräten, auch auf älteren Handys.",
+   "fas": "این اپلیکیشن سلامت تقریباً روی همه‌ی دستگاه‌ها اجرا می‌شود، حتی گوشی‌های قدیمی‌تر.",
+   "_t": 1,
+   "c": [
+    [
+     "ein mobiles Endgerät",
+     "دستگاه همراه"
+    ],
+    [
+     "auf allen Endgeräten",
+     "روی همه‌ی دستگاه‌ها"
+    ]
+   ]
+  },
+  {
+   "id": "L4-285",
+   "s": "T",
+   "w": "die Bedienung (hier nur Sg.)",
+   "fa": "کار با دستگاه، نحوه‌ی استفاده",
+   "syn": "die Handhabung, die Nutzung",
+   "de": "Die Bedienung der Gesundheits-App ist auch für ältere Menschen einfach.",
+   "fas": "کار با این اپلیکیشن سلامت برای سالمندان هم آسان است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine einfache Bedienung",
+     "کارکرد آسان"
+    ],
+    [
+     "die Bedienung der App",
+     "نحوه‌ی کار با اپ"
+    ]
+   ]
+  },
+  {
+   "id": "L4-286",
+   "s": "T",
+   "w": "der Internetauftritt, -e",
+   "fa": "وب‌سایت، حضور اینترنتی",
+   "syn": "die Webseite, die Internetpräsenz",
+   "de": "Ein moderner Internetauftritt ist für jede Arztpraxis heute unverzichtbar.",
+   "fas": "امروزه یک وب‌سایت مدرن برای هر مطب پزشکی ضروری است.",
+   "_t": 1,
+   "c": [
+    [
+     "den Internetauftritt gestalten",
+     "وب‌سایت را طراحی کردن"
+    ],
+    [
+     "ein professioneller Internetauftritt",
+     "حضور اینترنتی حرفه‌ای"
+    ]
+   ]
+  },
+  {
+   "id": "L4-287",
+   "s": "T",
+   "w": "nützlich",
+   "fa": "مفید، سودمند",
+   "syn": "hilfreich, brauchbar",
+   "de": "Die Erfahrungen anderer Patienten können für chronisch Kranke sehr nützlich sein.",
+   "fas": "تجربه‌های بیماران دیگر می‌تواند برای بیماران مزمن بسیار مفید باشد.",
+   "_t": 1,
+   "c": [
+    [
+     "nützliche Tipps",
+     "نکته‌های مفید"
+    ],
+    [
+     "sich nützlich machen",
+     "کمک کردن، مفید واقع شدن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-288",
+   "s": "T",
+   "w": "durchführen",
+   "fa": "انجام دادن، اجرا کردن",
+   "syn": "machen, ausführen",
+   "de": "Die Klinik hat eine Umfrage unter Patienten der Online-Sprechstunde durchgeführt.",
+   "fas": "کلینیک نظرسنجی‌ای میان بیماران ویزیت آنلاین انجام داد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Reparatur durchführen",
+     "تعمیری را انجام دادن"
+    ],
+    [
+     "einen Test durchführen",
+     "آزمونی را اجرا کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-289",
+   "s": "T",
+   "w": "die Jobmesse, -n",
+   "fa": "نمایشگاه کار و استخدام",
+   "syn": "die Karrieremesse, die Recruiting-Messe",
+   "de": "Auf der Jobmesse stellen sich viele junge Unternehmen den Studierenden vor.",
+   "fas": "در نمایشگاه کار شرکت‌های جوان زیادی خود را به دانشجویان معرفی می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "auf der Jobmesse",
+     "در نمایشگاه کار"
+    ],
+    [
+     "eine Jobmesse besuchen",
+     "از نمایشگاه کار بازدید کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-290",
+   "s": "T",
+   "w": "die Folie, -n",
+   "fa": "اسلاید (ارائه)",
+   "syn": "die Präsentationsseite, das Slide",
+   "de": "Auf der ersten Folie zeigt die Gründerin ihren beruflichen Hintergrund.",
+   "fas": "بنیان‌گذار در اسلاید اول سابقه‌ی شغلی‌اش را نشان می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "auf der nächsten Folie",
+     "در اسلاید بعدی"
+    ],
+    [
+     "eine Folie zeigen",
+     "اسلایدی را نشان دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-291",
+   "s": "T",
+   "w": "der Hauptkunde, -n / die Hauptkundin, -nen",
+   "fa": "مشتری اصلی",
+   "syn": "der wichtigste Kunde, der Großkunde",
+   "de": "Unsere Hauptkunden sind Firmen, die Tagungen und Meetings organisieren.",
+   "fas": "مشتریان اصلی ما شرکت‌هایی هستند که همایش و جلسه برگزار می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "unsere Hauptkunden sind",
+     "مشتریان اصلی ما … هستند"
+    ],
+    [
+     "den Hauptkunden verlieren",
+     "مشتری اصلی را از دست دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-292",
+   "s": "T",
+   "w": "sich kümmern um + A",
+   "fa": "رسیدگی کردن به، مراقبت کردن از",
+   "syn": "sich sorgen um, erledigen",
+   "de": "Wir kümmern uns um alles, vom Catering bis zur Technik.",
+   "fas": "ما به همه‌چیز رسیدگی می‌کنیم، از پذیرایی تا تجهیزات فنی.",
+   "_t": 1,
+   "c": [
+    [
+     "sich um alles kümmern",
+     "به همه‌چیز رسیدگی کردن"
+    ],
+    [
+     "sich um die Kunden kümmern",
+     "به مشتریان رسیدگی کردن"
+    ],
+    [
+     "sich um die Kinder kümmern",
+     "از بچه‌ها مراقبت کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-293",
+   "s": "T",
+   "w": "überzeugt sein von + D",
+   "fa": "متقاعد بودن به، اطمینان داشتن از",
+   "syn": "sicher sein, an etw. glauben",
+   "de": "Wir sind von unserer Geschäftsidee absolut überzeugt.",
+   "fas": "ما کاملاً به ایده‌ی کسب‌وکارمان اطمینان داریم.",
+   "_t": 1,
+   "c": [
+    [
+     "fest überzeugt sein",
+     "کاملاً متقاعد بودن"
+    ],
+    [
+     "von einer Idee überzeugt sein",
+     "به ایده‌ای باور داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-294",
+   "s": "T",
+   "w": "das Besondere (an + D) (nur Sg.)",
+   "fa": "ویژگی خاص، نکته‌ی متمایز",
+   "syn": "das Außergewöhnliche, die Besonderheit",
+   "de": "Das Besondere an dieser Plattform ist der persönliche Service.",
+   "fas": "ویژگی خاص این پلتفرم خدمات شخصی آن است.",
+   "_t": 1,
+   "c": [
+    [
+     "das Besondere daran ist",
+     "نکته‌ی خاص آن این است"
+    ],
+    [
+     "etwas Besonderes",
+     "چیزی خاص"
+    ]
+   ]
+  },
+  {
+   "id": "L4-295",
+   "s": "T",
+   "w": "das Geschäftskonzept, -e",
+   "fa": "طرح کسب‌وکار",
+   "syn": "der Businessplan, das Geschäftsmodell",
+   "de": "Bevor man gründet, sollte man ein klares Geschäftskonzept entwickeln.",
+   "fas": "قبل از تأسیس شرکت باید یک طرح کسب‌وکار روشن تهیه کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Geschäftskonzept entwickeln",
+     "طرح کسب‌وکار تهیه کردن"
+    ],
+    [
+     "ein überzeugendes Geschäftskonzept",
+     "طرح کسب‌وکار قانع‌کننده"
+    ]
+   ]
+  },
+  {
+   "id": "L4-296",
+   "s": "T",
+   "w": "die Mitarbeitersuche (nur Sg.)",
+   "fa": "جذب نیرو، جست‌وجوی کارمند",
+   "syn": "die Personalsuche, das Recruiting",
+   "de": "Bei schnellem Wachstum wird die Mitarbeitersuche zur großen Herausforderung.",
+   "fas": "در رشد سریع، جذب نیرو به چالشی بزرگ تبدیل می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "bei der Mitarbeitersuche",
+     "در جذب نیرو"
+    ],
+    [
+     "die Mitarbeitersuche im Internet",
+     "جذب نیرو در اینترنت"
+    ]
+   ]
+  },
+  {
+   "id": "L4-297",
+   "s": "T",
+   "w": "der Neukunde, -n / die Neukundin, -nen",
+   "fa": "مشتری جدید",
+   "syn": "der neue Kunde",
+   "de": "Mit gezieltem Marketing wollen wir vor allem Neukunden gewinnen.",
+   "fas": "با بازاریابی هدفمند می‌خواهیم به‌ویژه مشتری جدید جذب کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "Neukunden gewinnen",
+     "مشتری جدید جذب کردن"
+    ],
+    [
+     "ein Angebot für Neukunden",
+     "پیشنهادی برای مشتریان جدید"
+    ]
+   ]
+  },
+  {
+   "id": "L4-298",
+   "s": "T",
+   "w": "ein Risiko eingehen",
+   "fa": "ریسک کردن، خطر کردن",
+   "syn": "etw. riskieren, wagen",
+   "de": "Wer ein Unternehmen ausbaut, muss manchmal ein Risiko eingehen.",
+   "fas": "کسی که شرکتش را توسعه می‌دهد، گاهی باید ریسک کند.",
+   "_t": 1,
+   "c": [
+    [
+     "kein Risiko eingehen",
+     "ریسک نکردن"
+    ],
+    [
+     "ein großes Risiko eingehen",
+     "ریسک بزرگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-299",
+   "s": "T",
+   "w": "der Veranstaltungsort, -e",
+   "fa": "محل برگزاری",
+   "syn": "die Location, die Eventlocation",
+   "de": "Über unsere Plattform finden Sie den passenden Veranstaltungsort für Ihre Feier.",
+   "fas": "از طریق پلتفرم ما محل مناسب برای جشن‌تان را پیدا می‌کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Veranstaltungsort buchen",
+     "محل برگزاری رزرو کردن"
+    ],
+    [
+     "der passende Veranstaltungsort",
+     "محل برگزاری مناسب"
+    ]
+   ]
+  },
+  {
+   "id": "L4-300",
+   "s": "T",
+   "w": "die Belieferung, -en",
+   "fa": "تأمین و تحویل کالا",
+   "syn": "die Versorgung, die Lieferung",
+   "de": "Für die Belieferung mit Essen und Getränken arbeiten wir mit Caterern zusammen.",
+   "fas": "برای تأمین غذا و نوشیدنی با شرکت‌های پذیرایی همکاری می‌کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "die Belieferung mit Waren",
+     "تأمین کالا"
+    ],
+    [
+     "die Belieferung der Kunden",
+     "تحویل به مشتریان"
+    ]
+   ]
+  },
+  {
+   "id": "L4-301",
+   "s": "T",
+   "w": "die Verkaufsförderung (nur Sg.)",
+   "fa": "ترویج فروش",
+   "syn": "das Marketing, die Absatzförderung",
+   "de": "Gute Fotos im Netz sind ein wichtiges Mittel der Verkaufsförderung.",
+   "fas": "عکس‌های خوب در اینترنت ابزار مهمی برای ترویج فروش است.",
+   "_t": 1,
+   "c": [
+    [
+     "Maßnahmen zur Verkaufsförderung",
+     "اقدامات ترویج فروش"
+    ],
+    [
+     "der Verkaufsförderung dienen",
+     "در خدمت ترویج فروش بودن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-302",
+   "s": "T",
+   "w": "marktorientiert",
+   "fa": "بازارمحور",
+   "syn": "am Markt ausgerichtet, kundenorientiert",
+   "de": "Ein junges Unternehmen muss marktorientiert denken, um zu überleben.",
+   "fas": "یک شرکت جوان برای ماندگاری باید بازارمحور فکر کند.",
+   "_t": 1,
+   "c": [
+    [
+     "marktorientiert denken",
+     "بازارمحور فکر کردن"
+    ],
+    [
+     "marktorientiert handeln",
+     "بازارمحور عمل کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-303",
+   "s": "T",
+   "w": "der Auszug, ¨-e",
+   "fa": "بخشی از متن، گزیده",
+   "syn": "der Ausschnitt, der Teil",
+   "de": "Lesen Sie den Auszug aus der Präsentation und ergänzen Sie die Lücken.",
+   "fas": "بخشی از ارائه را بخوانید و جاهای خالی را پر کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Auszug aus einem Vortrag",
+     "بخشی از یک سخنرانی"
+    ],
+    [
+     "in Auszügen",
+     "به‌صورت گزیده"
+    ]
+   ]
+  },
+  {
+   "id": "L4-304",
+   "s": "T",
+   "w": "umsetzen",
+   "fa": "عملی کردن، اجرا کردن",
+   "syn": "verwirklichen, realisieren",
+   "de": "Schon im Studium wollte sie ihre eigene Geschäftsidee umsetzen.",
+   "fas": "او از همان دوران دانشجویی می‌خواست ایده‌ی کسب‌وکار خودش را عملی کند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Idee umsetzen",
+     "ایده‌ای را عملی کردن"
+    ],
+    [
+     "einen Plan umsetzen",
+     "نقشه‌ای را اجرا کردن"
+    ],
+    [
+     "in die Tat umsetzen",
+     "جامه‌ی عمل پوشاندن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-305",
+   "s": "T",
+   "w": "unabhängig (von + D)",
+   "fa": "مستقل (از)",
+   "syn": "selbstständig, frei",
+   "de": "Als Gründerin ist man zwar unabhängig, trägt aber auch mehr Verantwortung.",
+   "fas": "آدم به‌عنوان بنیان‌گذار مستقل است، اما مسئولیت بیشتری هم دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "finanziell unabhängig",
+     "مستقل از نظر مالی"
+    ],
+    [
+     "unabhängig davon, ob",
+     "صرف‌نظر از اینکه"
+    ]
+   ]
+  },
+  {
+   "id": "L4-306",
+   "s": "T",
+   "w": "vorwärtsbringen",
+   "fa": "پیش بردن، به جلو راندن",
+   "syn": "voranbringen, weiterbringen",
+   "de": "Lange Diskussionen im Team haben unser Projekt wirklich vorwärtsgebracht.",
+   "fas": "بحث‌های طولانی در تیم واقعاً پروژه‌مان را پیش برد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Projekt vorwärtsbringen",
+     "پروژه‌ای را پیش بردن"
+    ],
+    [
+     "jdn. beruflich vorwärtsbringen",
+     "کسی را از نظر شغلی جلو بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-307",
+   "s": "T",
+   "w": "die Geburtsurkunde, -n",
+   "fa": "شناسنامه، گواهی تولد",
+   "syn": "der Geburtsnachweis",
+   "de": "Für die Einschreibung an der Uni braucht man manchmal eine Geburtsurkunde.",
+   "fas": "برای ثبت‌نام در دانشگاه گاهی گواهی تولد لازم است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Geburtsurkunde beantragen",
+     "درخواست گواهی تولد دادن"
+    ],
+    [
+     "die Kopie der Geburtsurkunde",
+     "کپی گواهی تولد"
+    ]
+   ]
+  },
+  {
+   "id": "L4-308",
+   "s": "T",
+   "w": "die Erörterung, -en",
+   "fa": "متن استدلالی، بحث و بررسی",
+   "syn": "die Argumentation, der Erörterungsaufsatz",
+   "de": "In der Erörterung stellt man Pro- und Contra-Argumente gegenüber.",
+   "fas": "در متن استدلالی، دلایل موافق و مخالف را در برابر هم قرار می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Erörterung schreiben",
+     "متن استدلالی نوشتن"
+    ],
+    [
+     "eine dialektische Erörterung",
+     "متن استدلالی موافق و مخالف"
+    ]
+   ]
+  },
+  {
+   "id": "L4-309",
+   "s": "T",
+   "w": "die Textsorte, -n",
+   "fa": "نوع متن، گونه‌ی متن",
+   "syn": "die Textart, das Genre",
+   "de": "Eine Erörterung ist eine typische Textsorte in deutschen Prüfungen.",
+   "fas": "متن استدلالی گونه‌ای رایج در آزمون‌های آلمانی است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine typische Textsorte",
+     "گونه‌ی رایج متن"
+    ],
+    [
+     "die Merkmale einer Textsorte",
+     "ویژگی‌های یک نوع متن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-310",
+   "s": "T",
+   "w": "intelligent",
+   "fa": "هوشمند",
+   "syn": "smart, klug",
+   "de": "Ein intelligenter Kühlschrank meldet, wenn die Milch fast leer ist.",
+   "fas": "یخچال هوشمند خبر می‌دهد وقتی شیر تقریباً تمام شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "intelligente Geräte",
+     "دستگاه‌های هوشمند"
+    ],
+    [
+     "intelligente Vernetzung",
+     "شبکه‌سازی هوشمند"
+    ]
+   ]
+  },
+  {
+   "id": "L4-311",
+   "s": "T",
+   "w": "das Sicherheitssystem, -e",
+   "fa": "سیستم امنیتی",
+   "syn": "die Alarmanlage, die Sicherheitstechnik",
+   "de": "Das Sicherheitssystem schickt bei einem Einbruch sofort eine Nachricht aufs Handy.",
+   "fas": "سیستم امنیتی هنگام دزدی فوراً پیامی به گوشی می‌فرستد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Sicherheitssystem installieren",
+     "سیستم امنیتی نصب کردن"
+    ],
+    [
+     "ein modernes Sicherheitssystem",
+     "سیستم امنیتی مدرن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-312",
+   "s": "T",
+   "w": "die Überwachungskamera, -s",
+   "fa": "دوربین مداربسته",
+   "syn": "die Sicherheitskamera",
+   "de": "Über das Smartphone kann man die Überwachungskamera auch von unterwegs steuern.",
+   "fas": "از طریق گوشی هوشمند می‌توان دوربین مداربسته را از بیرون خانه هم کنترل کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Überwachungskamera anbringen",
+     "دوربین مداربسته نصب کردن"
+    ],
+    [
+     "die Überwachungskamera ausschalten",
+     "دوربین مداربسته را خاموش کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-313",
+   "s": "T",
+   "w": "die Haustechnik (nur Sg.)",
+   "fa": "تأسیسات ساختمان",
+   "syn": "die Gebäudetechnik, die Installationen",
+   "de": "Im Smart Home lässt sich die gesamte Haustechnik zentral steuern.",
+   "fas": "در خانه‌ی هوشمند همه‌ی تأسیسات ساختمان را می‌توان به‌صورت متمرکز کنترل کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "die Haustechnik steuern",
+     "تأسیسات ساختمان را کنترل کردن"
+    ],
+    [
+     "moderne Haustechnik",
+     "تأسیسات مدرن ساختمان"
+    ]
+   ]
+  },
+  {
+   "id": "L4-314",
+   "s": "T",
+   "w": "hinzukommen",
+   "fa": "اضافه شدن، افزوده شدن",
+   "syn": "dazukommen, sich ergänzen",
+   "de": "Zu den hohen Kosten kommt noch das Risiko hinzu, gehackt zu werden.",
+   "fas": "به هزینه‌های بالا، خطر هک شدن هم اضافه می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "hinzu kommt, dass",
+     "افزون بر این"
+    ],
+    [
+     "neue Kosten kommen hinzu",
+     "هزینه‌های جدید اضافه می‌شود"
+    ]
+   ]
+  },
+  {
+   "id": "L4-315",
+   "s": "T",
+   "w": "aus Gründen + G",
+   "fa": "به دلایلِ",
+   "syn": "wegen, aufgrund von",
+   "de": "Aus Gründen der Sicherheit sollte man das Passwort regelmäßig ändern.",
+   "fas": "به دلایل امنیتی باید رمز عبور را مرتب عوض کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "aus Gründen der Sicherheit",
+     "به دلایل امنیتی"
+    ],
+    [
+     "aus Gründen der Bequemlichkeit",
+     "به دلیل راحتی"
+    ],
+    [
+     "aus persönlichen Gründen",
+     "به دلایل شخصی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-316",
+   "s": "T",
+   "w": "meiner Meinung nach",
+   "fa": "به نظر من",
+   "syn": "ich finde, aus meiner Sicht",
+   "de": "Meiner Meinung nach überwiegen die Vorteile eines Smart Homes.",
+   "fas": "به نظر من مزایای خانه‌ی هوشمند بیشتر است.",
+   "_t": 1,
+   "c": [
+    [
+     "meiner Meinung nach sollte man",
+     "به نظر من باید"
+    ],
+    [
+     "meiner Meinung nach ist das richtig",
+     "به نظر من این درست است"
+    ]
+   ]
+  },
+  {
+   "id": "L4-317",
+   "s": "T",
+   "w": "sprechen für / gegen + A",
+   "fa": "به نفع / علیه چیزی بودن (دلیل)",
+   "syn": "ein Argument sein für / gegen",
+   "de": "Für die Telemedizin spricht vor allem die kürzere Wartezeit.",
+   "fas": "به‌ویژه زمان انتظار کوتاه‌تر به نفع پزشکی از راه دور است.",
+   "_t": 1,
+   "c": [
+    [
+     "dafür spricht, dass",
+     "به نفع این است که"
+    ],
+    [
+     "dagegen spricht, dass",
+     "مخالف این است که"
+    ],
+    [
+     "viel spricht dafür",
+     "دلایل زیادی به نفع آن است"
+    ]
+   ]
+  },
+  {
+   "id": "L4-318",
+   "s": "T",
+   "w": "der Verbesserungsvorschlag, ¨-e",
+   "fa": "پیشنهاد اصلاحی",
+   "syn": "der Änderungsvorschlag, die Anregung",
+   "de": "Meine Partnerin hat mir zu meiner Erörterung viele Verbesserungsvorschläge gemacht.",
+   "fas": "هم‌گروهی‌ام برای متن استدلالی‌ام پیشنهادهای اصلاحی زیادی داد.",
+   "_t": 1,
+   "c": [
+    [
+     "Verbesserungsvorschläge machen",
+     "پیشنهاد اصلاحی دادن"
+    ],
+    [
+     "einen Verbesserungsvorschlag annehmen",
+     "پیشنهاد اصلاحی را پذیرفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-319",
+   "s": "T",
+   "w": "überarbeiten",
+   "fa": "بازنویسی کردن، اصلاح کردن",
+   "syn": "korrigieren, verbessern",
+   "de": "Nach dem Feedback habe ich meinen Text noch einmal gründlich überarbeitet.",
+   "fas": "پس از بازخورد، متنم را یک بار دیگر به‌دقت بازنویسی کردم.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Text überarbeiten",
+     "متنی را بازنویسی کردن"
+    ],
+    [
+     "gründlich überarbeiten",
+     "به‌دقت اصلاح کردن"
+    ],
+    [
+     "die überarbeitete Fassung",
+     "نسخه‌ی اصلاح‌شده"
+    ]
+   ]
+  },
+  {
+   "id": "L4-320",
+   "s": "T",
+   "w": "die Checkliste, -n",
+   "fa": "چک‌لیست، فهرست بازبینی",
+   "syn": "die Kontrollliste",
+   "de": "Mit der Checkliste kann man prüfen, ob der Text logisch aufgebaut ist.",
+   "fas": "با چک‌لیست می‌توان بررسی کرد که آیا متن منطقی ساختاربندی شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Checkliste erstellen",
+     "چک‌لیست تهیه کردن"
+    ],
+    [
+     "die Checkliste durchgehen",
+     "چک‌لیست را مرور کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-321",
+   "s": "T",
+   "w": "logisch",
+   "fa": "منطقی",
+   "syn": "folgerichtig, schlüssig",
+   "de": "Achten Sie darauf, dass Ihre Argumente logisch aufeinander aufbauen.",
+   "fas": "دقت کنید که استدلال‌هایتان به‌طور منطقی بر هم استوار باشند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine logische Folge",
+     "یک نتیجه‌ی منطقی"
+    ],
+    [
+     "logisch denken",
+     "منطقی فکر کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-322",
+   "s": "T",
+   "w": "der Konnektor, -en",
+   "fa": "حرف ربط، کلمه‌ی پیونددهنده",
+   "syn": "das Bindewort, der Verbinder",
+   "de": "Konnektoren wie „außerdem“ oder „dagegen“ machen eine Erörterung flüssiger.",
+   "fas": "کلمات پیونددهنده‌ای مانند «علاوه بر این» یا «در مقابل» متن را روان‌تر می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Konnektor verwenden",
+     "حرف ربطی را به کار بردن"
+    ],
+    [
+     "kausale Konnektoren",
+     "حروف ربط علّی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-323",
+   "s": "T",
+   "w": "das Erklärvideo, -s",
+   "fa": "ویدیوی آموزشی و توضیحی",
+   "syn": "das Lernvideo, das Tutorial",
+   "de": "In unserem Erklärvideo zeigen wir die Vor- und Nachteile der Telemedizin.",
+   "fas": "در ویدیوی توضیحی‌مان مزایا و معایب پزشکی از راه دور را نشان می‌دهیم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Erklärvideo drehen",
+     "ویدیوی توضیحی ساختن"
+    ],
+    [
+     "ein Erklärvideo erstellen",
+     "ویدیوی توضیحی تهیه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-324",
+   "s": "T",
+   "w": "die Definition, -en",
+   "fa": "تعریف",
+   "syn": "die Begriffsbestimmung, die Erklärung",
+   "de": "Das Video beginnt mit einer kurzen Definition des Begriffs „Smart Home“.",
+   "fas": "ویدیو با تعریفی کوتاه از مفهوم «خانه‌ی هوشمند» شروع می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine kurze Definition",
+     "تعریفی کوتاه"
+    ],
+    [
+     "laut Definition",
+     "طبق تعریف"
+    ],
+    [
+     "eine Definition geben",
+     "تعریف ارائه دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-325",
+   "s": "T",
+   "w": "vorherig",
+   "fa": "قبلی، پیشین",
+   "syn": "früher, vorangehend",
+   "de": "Nehmen Sie den Text von der vorherigen Seite als Grundlage für Ihr Video.",
+   "fas": "متن صفحه‌ی قبل را مبنای ویدیوی خود قرار دهید.",
+   "_t": 1,
+   "c": [
+    [
+     "die vorherige Seite",
+     "صفحه‌ی قبل"
+    ],
+    [
+     "ohne vorherige Anmeldung",
+     "بدون ثبت‌نام قبلی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-326",
+   "s": "T",
+   "w": "das Resultat, -e",
+   "fa": "نتیجه، حاصل",
+   "syn": "das Ergebnis",
+   "de": "Das Resultat unserer Gruppenarbeit präsentieren wir nächste Woche im Kurs.",
+   "fas": "نتیجه‌ی کار گروهی‌مان را هفته‌ی آینده در کلاس ارائه می‌دهیم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein gutes Resultat",
+     "نتیجه‌ی خوب"
+    ],
+    [
+     "das Resultat präsentieren",
+     "نتیجه را ارائه دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-327",
+   "s": "T",
+   "w": "das Skript, -e",
+   "fa": "متن نوشتاری، فیلم‌نامه",
+   "syn": "das Manuskript, die Textvorlage",
+   "de": "Bevor wir das Video drehen, schreiben wir ein genaues Skript.",
+   "fas": "قبل از فیلم‌برداری، یک متن دقیق می‌نویسیم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Skript schreiben",
+     "متن نوشتن"
+    ],
+    [
+     "vom Skript ablesen",
+     "از روی متن خواندن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-328",
+   "s": "T",
+   "w": "ablesen",
+   "fa": "از روی (متن) خواندن",
+   "syn": "vorlesen, vom Blatt lesen",
+   "de": "Wer den Text nur vom Skript abliest, wirkt im Video oft steif.",
+   "fas": "کسی که متن را فقط از روی نوشته می‌خواند، در ویدیو اغلب خشک به نظر می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "vom Blatt ablesen",
+     "از روی کاغذ خواندن"
+    ],
+    [
+     "den Text ablesen",
+     "متن را از رو خواندن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-329",
+   "s": "T",
+   "w": "frei sprechen",
+   "fa": "بدون یادداشت صحبت کردن",
+   "syn": "ohne Vorlage sprechen",
+   "de": "Bei einer Präsentation sollte man möglichst frei sprechen.",
+   "fas": "در ارائه تا جای ممکن باید بدون یادداشت صحبت کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "frei vor Publikum sprechen",
+     "بدون متن جلوی جمع صحبت کردن"
+    ],
+    [
+     "das freie Sprechen üben",
+     "صحبت آزاد را تمرین کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-330",
+   "s": "T",
+   "w": "aus der Erinnerung",
+   "fa": "از حافظه، از بر",
+   "syn": "aus dem Gedächtnis, auswendig",
+   "de": "Der Moderator hat seinen Text aus der Erinnerung vorgetragen, ganz ohne Zettel.",
+   "fas": "مجری متنش را از حافظه و کاملاً بدون یادداشت ارائه کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "aus der Erinnerung erzählen",
+     "از حافظه تعریف کردن"
+    ],
+    [
+     "aus der Erinnerung zeichnen",
+     "از روی حافظه کشیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-331",
+   "s": "T",
+   "w": "animieren",
+   "fa": "پویانمایی کردن، متحرک‌سازی کردن",
+   "syn": "in Bewegung bringen, als Trickfilm gestalten",
+   "de": "Wir wollen unser Erklärvideo mit einfachen Zeichnungen animieren.",
+   "fas": "می‌خواهیم ویدیوی توضیحی‌مان را با طراحی‌های ساده متحرک کنیم.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Video animieren",
+     "ویدیو را متحرک‌سازی کردن"
+    ],
+    [
+     "animierte Grafiken",
+     "گرافیک‌های متحرک"
+    ]
+   ]
+  },
+  {
+   "id": "L4-332",
+   "s": "T",
+   "w": "illustrieren",
+   "fa": "مصور کردن، با تصویر نشان دادن",
+   "syn": "bebildern, veranschaulichen",
+   "de": "Mit Fotos und Kärtchen kann man das Video gut illustrieren.",
+   "fas": "با عکس و کارت‌های کوچک می‌توان ویدیو را به‌خوبی مصور کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "mit Fotos illustrieren",
+     "با عکس مصور کردن"
+    ],
+    [
+     "ein Buch illustrieren",
+     "کتابی را تصویرگری کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-333",
+   "s": "T",
+   "w": "der Nominalstil (nur Sg.)",
+   "fa": "سبک اسمی (نگارش)",
+   "syn": "die nominale Ausdrucksweise",
+   "de": "Im Erklärvideo sollte man den Nominalstil vermeiden und lieber Verben benutzen.",
+   "fas": "در ویدیوی توضیحی باید از سبک اسمی پرهیز کرد و بیشتر فعل به کار برد.",
+   "_t": 1,
+   "c": [
+    [
+     "im Nominalstil schreiben",
+     "به سبک اسمی نوشتن"
+    ],
+    [
+     "Nominalstil und Verbalstil",
+     "سبک اسمی و سبک فعلی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-334",
+   "s": "T",
+   "w": "ansprechend",
+   "fa": "جذاب، گیرا",
+   "syn": "attraktiv, anziehend",
+   "de": "Eine lebendige Sprache macht das Video für die Zuschauer ansprechender.",
+   "fas": "زبان زنده ویدیو را برای بینندگان جذاب‌تر می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "ansprechend gestaltet",
+     "جذاب طراحی‌شده"
+    ],
+    [
+     "eine ansprechende Präsentation",
+     "ارائه‌ای جذاب"
+    ]
+   ]
+  },
+  {
+   "id": "L4-335",
+   "s": "T",
+   "w": "betonen",
+   "fa": "تأکید کردن، با تکیه تلفظ کردن",
+   "syn": "hervorheben, akzentuieren",
+   "de": "Achten Sie darauf, die wichtigen Wörter im Satz richtig zu betonen.",
+   "fas": "دقت کنید که کلمات مهم جمله را درست با تکیه بگویید.",
+   "_t": 1,
+   "c": [
+    [
+     "ausdrücklich betonen",
+     "صریحاً تأکید کردن"
+    ],
+    [
+     "ein Wort betonen",
+     "روی یک کلمه تکیه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-336",
+   "s": "T",
+   "w": "deutlich",
+   "fa": "واضح، روشن",
+   "syn": "klar, verständlich",
+   "de": "Sprechen Sie die Umlaute deutlich aus, damit man Sie gut versteht.",
+   "fas": "املاوت‌ها را واضح تلفظ کنید تا حرفتان را خوب بفهمند.",
+   "_t": 1,
+   "c": [
+    [
+     "deutlich sprechen",
+     "شمرده صحبت کردن"
+    ],
+    [
+     "deutlich machen",
+     "روشن کردن، نشان دادن"
+    ],
+    [
+     "ein deutlicher Unterschied",
+     "یک تفاوت آشکار"
+    ]
+   ]
+  },
+  {
+   "id": "L4-337",
+   "s": "T",
+   "w": "die Schallplatte, -n",
+   "fa": "صفحه‌ی گرامافون",
+   "syn": "die Platte, die Vinylplatte",
+   "de": "Mein Vater hat noch hunderte Schallplatten aus den Siebzigern.",
+   "fas": "پدرم هنوز صدها صفحه‌ی گرامافون از دهه‌ی هفتاد دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Schallplatte auflegen",
+     "صفحه گذاشتن"
+    ],
+    [
+     "Schallplatten sammeln",
+     "صفحه‌ی گرامافون جمع کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-338",
+   "s": "T",
+   "w": "die Datei, -en",
+   "fa": "فایل",
+   "syn": "das Dokument, die digitale Datei",
+   "de": "Eine MP3-Datei kann man in Sekunden auf jedes Gerät kopieren.",
+   "fas": "یک فایل MP3 را می‌توان در چند ثانیه روی هر دستگاهی کپی کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Datei speichern",
+     "فایلی را ذخیره کردن"
+    ],
+    [
+     "eine Datei herunterladen",
+     "فایلی را دانلود کردن"
+    ],
+    [
+     "eine Datei öffnen",
+     "فایلی را باز کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-339",
+   "s": "T",
+   "w": "künstlerisch",
+   "fa": "هنری",
+   "syn": "kreativ, ästhetisch",
+   "de": "Durch die Digitalisierung haben Fans neue künstlerische Möglichkeiten mit Musik.",
+   "fas": "با دیجیتالی‌شدن، طرفداران امکانات هنری تازه‌ای با موسیقی دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "künstlerische Freiheit",
+     "آزادی هنری"
+    ],
+    [
+     "künstlerisch tätig sein",
+     "فعالیت هنری داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-340",
+   "s": "T",
+   "w": "eingehend",
+   "fa": "دقیق، مفصل، عمیق",
+   "syn": "gründlich, intensiv",
+   "de": "Früher hat man sich mit einem Album viel eingehender beschäftigt.",
+   "fas": "قدیم‌ها آدم خیلی عمیق‌تر به یک آلبوم می‌پرداخت.",
+   "_t": 1,
+   "c": [
+    [
+     "sich eingehend beschäftigen",
+     "به‌طور عمیق پرداختن"
+    ],
+    [
+     "eine eingehende Prüfung",
+     "بررسی دقیق"
+    ]
+   ]
+  },
+  {
+   "id": "L4-341",
+   "s": "T",
+   "w": "das Merchandising (nur Sg.)",
+   "fa": "فروش کالاهای تبلیغاتی (مرچندایز)",
+   "syn": "der Verkauf von Fanartikeln",
+   "de": "Viele Bands verdienen heute mehr mit Merchandising als mit ihrer Musik.",
+   "fas": "بسیاری از گروه‌ها امروز از فروش کالاهای تبلیغاتی بیشتر درآمد دارند تا از موسیقی‌شان.",
+   "_t": 1,
+   "c": [
+    [
+     "mit Merchandising verdienen",
+     "از فروش کالای تبلیغاتی درآمد داشتن"
+    ],
+    [
+     "Merchandising-Produkte",
+     "محصولات تبلیغاتی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-342",
+   "s": "T",
+   "w": "die Publikation, -en",
+   "fa": "انتشار، نشر",
+   "syn": "die Veröffentlichung",
+   "de": "Die Publikation eines Songs im Netz dauert heute nur wenige Minuten.",
+   "fas": "انتشار یک آهنگ در اینترنت امروز فقط چند دقیقه طول می‌کشد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine wissenschaftliche Publikation",
+     "انتشار علمی"
+    ],
+    [
+     "die Publikation im Netz",
+     "انتشار در اینترنت"
+    ]
+   ]
+  },
+  {
+   "id": "L4-343",
+   "s": "T",
+   "w": "der Stellenwert, -e",
+   "fa": "جایگاه، اهمیت",
+   "syn": "die Bedeutung, der Rang",
+   "de": "Musik hat in meinem Alltag einen sehr hohen Stellenwert.",
+   "fas": "موسیقی در زندگی روزمره‌ی من جایگاه بسیار بالایی دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "einen hohen Stellenwert haben",
+     "جایگاه بالایی داشتن"
+    ],
+    [
+     "an Stellenwert verlieren",
+     "اهمیت خود را از دست دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-344",
+   "s": "T",
+   "w": "widerspiegeln",
+   "fa": "بازتاب دادن، منعکس کردن",
+   "syn": "zeigen, wiedergeben",
+   "de": "Die Umfrage spiegelt wider, wie stark Jugendliche vom Handy abhängig sind.",
+   "fas": "این نظرسنجی منعکس می‌کند که نوجوانان تا چه حد به گوشی وابسته‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Meinung widerspiegeln",
+     "نظر را منعکس کردن"
+    ],
+    [
+     "sich in etw. widerspiegeln",
+     "در چیزی بازتاب یافتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-345",
+   "s": "T",
+   "w": "thematisch",
+   "fa": "از نظر موضوعی، موضوعی",
+   "syn": "inhaltlich, vom Thema her",
+   "de": "Ordnen Sie jedem Abschnitt die thematisch passende Überschrift zu.",
+   "fas": "به هر بخش عنوانی بدهید که از نظر موضوعی مناسب باشد.",
+   "_t": 1,
+   "c": [
+    [
+     "thematisch passend",
+     "از نظر موضوعی مناسب"
+    ],
+    [
+     "thematisch ordnen",
+     "بر اساس موضوع مرتب کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-346",
+   "s": "T",
+   "w": "zuordnen",
+   "fa": "مرتبط کردن، جور کردن",
+   "syn": "zuweisen, verbinden",
+   "de": "In dieser Aufgabe muss man sieben Aussagen den Positionen „früher“ und „heute“ zuordnen.",
+   "fas": "در این تمرین باید هفت جمله را با موضع‌های «گذشته» و «امروز» جور کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "einer Situation zuordnen",
+     "به یک موقعیت ربط دادن"
+    ],
+    [
+     "richtig zuordnen",
+     "درست مرتبط کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-347",
+   "s": "T",
+   "w": "authentisch",
+   "fa": "اصیل، واقعی",
+   "syn": "echt, glaubwürdig",
+   "de": "Viele Fans suchen bei Konzerten nach einem authentischen Erlebnis.",
+   "fas": "بسیاری از طرفداران در کنسرت‌ها به دنبال تجربه‌ای اصیل‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "authentisch wirken",
+     "واقعی به نظر رسیدن"
+    ],
+    [
+     "authentisch bleiben",
+     "خود واقعی ماندن"
+    ],
+    [
+     "eine authentische Person",
+     "آدمی بی‌ریا"
+    ]
+   ]
+  },
+  {
+   "id": "L4-348",
+   "s": "T",
+   "w": "der Werbezweck, -e (meist Pl.: zu Werbezwecken)",
+   "fa": "هدف تبلیغاتی",
+   "syn": "die Werbung, die Reklame",
+   "de": "Viele Songs werden heute vor allem zu Werbezwecken eingesetzt.",
+   "fas": "امروزه بسیاری از آهنگ‌ها بیشتر برای اهداف تبلیغاتی به کار می‌روند.",
+   "_t": 1,
+   "c": [
+    [
+     "zu Werbezwecken nutzen",
+     "برای اهداف تبلیغاتی استفاده کردن"
+    ],
+    [
+     "für Werbezwecke einsetzen",
+     "برای تبلیغات به کار بردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-349",
+   "s": "T",
+   "w": "folgendermaßen",
+   "fa": "به این ترتیب، به شرح زیر",
+   "syn": "so, auf folgende Weise",
+   "de": "Gehen Sie bei dieser Prüfungsaufgabe folgendermaßen vor: Lesen Sie zuerst die Aussagen.",
+   "fas": "در این تمرین آزمون این‌طور عمل کنید: اول جمله‌ها را بخوانید.",
+   "_t": 1,
+   "c": [
+    [
+     "folgendermaßen funktionieren",
+     "به این شکل کار کردن"
+    ],
+    [
+     "folgendermaßen vorgehen",
+     "به این ترتیب عمل کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-350",
+   "s": "T",
+   "w": "die Kategorie, -n",
+   "fa": "دسته، طبقه",
+   "syn": "die Gruppe, die Klasse",
+   "de": "Entscheiden Sie, zu welcher Kategorie jede Aussage passt.",
+   "fas": "تصمیم بگیرید که هر جمله به کدام دسته تعلق دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "in Kategorien einteilen",
+     "دسته‌بندی کردن"
+    ],
+    [
+     "zu einer Kategorie gehören",
+     "به دسته‌ای تعلق داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-351",
+   "s": "T",
+   "w": "verfügbar",
+   "fa": "در دسترس، موجود",
+   "syn": "erhältlich, zugänglich",
+   "de": "Dank Streaming ist fast jedes Lied jederzeit verfügbar.",
+   "fas": "به لطف استریم تقریباً هر آهنگی همیشه در دسترس است.",
+   "_t": 1,
+   "c": [
+    [
+     "jederzeit verfügbar",
+     "همیشه در دسترس"
+    ],
+    [
+     "online verfügbar",
+     "به‌صورت آنلاین موجود"
+    ],
+    [
+     "nicht mehr verfügbar",
+     "دیگر در دسترس نیست"
+    ]
+   ]
+  },
+  {
+   "id": "L4-352",
+   "s": "T",
+   "w": "in Anspruch nehmen",
+   "fa": "(وقت و …) گرفتن، استفاده کردن از",
+   "syn": "beanspruchen, brauchen",
+   "de": "Die Suche nach einer seltenen Platte nahm früher viel Zeit in Anspruch.",
+   "fas": "پیدا کردن یک صفحه‌ی کمیاب قدیم‌ها وقت زیادی می‌گرفت.",
+   "_t": 1,
+   "c": [
+    [
+     "viel Zeit in Anspruch nehmen",
+     "وقت زیادی گرفتن"
+    ],
+    [
+     "Hilfe in Anspruch nehmen",
+     "از کمک استفاده کردن"
+    ],
+    [
+     "eine Leistung in Anspruch nehmen",
+     "از خدمتی استفاده کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-353",
+   "s": "T",
+   "w": "etw. auf sich nehmen",
+   "fa": "(زحمت و …) به جان خریدن",
+   "syn": "etw. ertragen, sich einer Sache unterziehen",
+   "de": "Für ihre Lieblingsband nahmen die Fans lange Wege auf sich.",
+   "fas": "طرفداران برای گروه محبوبشان راه‌های طولانی را به جان می‌خریدند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Mühe auf sich nehmen",
+     "زحمت را به جان خریدن"
+    ],
+    [
+     "ein Risiko auf sich nehmen",
+     "خطری را پذیرفتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-354",
+   "s": "T",
+   "w": "ausführlich",
+   "fa": "مفصل، با جزئیات",
+   "syn": "detailliert, eingehend",
+   "de": "Die Studie beschreibt ausführlich, wie sich unser Musikkonsum verändert hat.",
+   "fas": "این پژوهش به‌تفصیل شرح می‌دهد که مصرف موسیقی ما چگونه تغییر کرده است.",
+   "_t": 1,
+   "c": [
+    [
+     "ausführlich berichten",
+     "مفصل گزارش دادن"
+    ],
+    [
+     "eine ausführliche Antwort",
+     "پاسخی مفصل"
+    ]
+   ]
+  },
+  {
+   "id": "L4-355",
+   "s": "T",
+   "w": "das Verfahren, -",
+   "fa": "روش، فرایند",
+   "syn": "die Methode, die Technik",
+   "de": "Neue technische Verfahren machen es möglich, Musik überall zu hören.",
+   "fas": "روش‌های فنی جدید امکان شنیدن موسیقی در همه‌جا را فراهم می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "ein technisches Verfahren",
+     "یک روش فنی"
+    ],
+    [
+     "ein neues Verfahren entwickeln",
+     "روش جدیدی ابداع کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-356",
+   "s": "T",
+   "w": "nahezu",
+   "fa": "تقریباً",
+   "syn": "fast, beinahe",
+   "de": "Mit einem Abo kann man nahezu jeden Song der Welt hören.",
+   "fas": "با یک اشتراک می‌توان تقریباً هر آهنگی در دنیا را شنید.",
+   "_t": 1,
+   "c": [
+    [
+     "nahezu unbegrenzt",
+     "تقریباً نامحدود"
+    ],
+    [
+     "nahezu jeder",
+     "تقریباً هر کسی"
+    ],
+    [
+     "nahezu unmöglich",
+     "تقریباً غیرممکن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-357",
+   "s": "T",
+   "w": "unbegrenzt",
+   "fa": "نامحدود",
+   "syn": "grenzenlos, unbeschränkt",
+   "de": "Viele Streamingdienste bieten unbegrenzten Zugang zu Millionen von Liedern.",
+   "fas": "بسیاری از سرویس‌های استریم دسترسی نامحدود به میلیون‌ها آهنگ ارائه می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "unbegrenzt gültig",
+     "نامحدود معتبر"
+    ],
+    [
+     "unbegrenzte Möglichkeiten",
+     "امکانات نامحدود"
+    ]
+   ]
+  },
+  {
+   "id": "L4-358",
+   "s": "T",
+   "w": "archivieren",
+   "fa": "بایگانی کردن",
+   "syn": "aufbewahren, speichern",
+   "de": "Ich archiviere meine Lieblingsalben in einer eigenen Playlist.",
+   "fas": "آلبوم‌های محبوبم را در یک فهرست پخش جداگانه بایگانی می‌کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "Daten archivieren",
+     "داده‌ها را بایگانی کردن"
+    ],
+    [
+     "digital archivieren",
+     "به‌صورت دیجیتال بایگانی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-359",
+   "s": "T",
+   "w": "die Auffassung vertreten",
+   "fa": "بر این عقیده بودن",
+   "syn": "der Meinung sein, die Ansicht vertreten",
+   "de": "Der Soziologe vertritt die Auffassung, dass Musik an Wert verloren hat.",
+   "fas": "این جامعه‌شناس بر این عقیده است که موسیقی ارزشش را از دست داده است.",
+   "_t": 1,
+   "c": [
+    [
+     "die Auffassung vertreten, dass",
+     "بر این عقیده بودن که"
+    ],
+    [
+     "eine andere Auffassung vertreten",
+     "عقیده‌ی دیگری داشتن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-360",
+   "s": "T",
+   "w": "die Massenware, -n",
+   "fa": "کالای انبوه، جنس بازاری",
+   "syn": "das Massenprodukt",
+   "de": "Durch das Internet ist Musik für viele zur Massenware geworden.",
+   "fas": "با اینترنت موسیقی برای بسیاری به کالایی انبوه تبدیل شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "zur Massenware werden",
+     "به کالای انبوه تبدیل شدن"
+    ],
+    [
+     "billige Massenware",
+     "جنس بازاری ارزان"
+    ]
+   ]
+  },
+  {
+   "id": "L4-361",
+   "s": "T",
+   "w": "aufgrund + G",
+   "fa": "به دلیلِ، به علتِ",
+   "syn": "wegen, infolge",
+   "de": "Aufgrund sinkender CD-Verkäufe verdienen viele Künstler weniger.",
+   "fas": "به دلیل کاهش فروش سی‌دی، بسیاری از هنرمندان درآمد کمتری دارند.",
+   "_t": 1,
+   "c": [
+    [
+     "aufgrund der Kosten",
+     "به دلیل هزینه‌ها"
+    ],
+    [
+     "aufgrund dessen",
+     "به همین دلیل"
+    ]
+   ]
+  },
+  {
+   "id": "L4-362",
+   "s": "T",
+   "w": "die Verkaufszahl, -en (meist Pl.)",
+   "fa": "آمار فروش، رقم فروش",
+   "syn": "der Absatz, die Verkäufe",
+   "de": "Die Verkaufszahlen von Vinyl steigen seit einigen Jahren wieder.",
+   "fas": "آمار فروش صفحه‌های وینیل چند سالی است دوباره رو به افزایش است.",
+   "_t": 1,
+   "c": [
+    [
+     "steigende Verkaufszahlen",
+     "آمار فروش رو به افزایش"
+    ],
+    [
+     "sinkende Verkaufszahlen",
+     "کاهش آمار فروش"
+    ]
+   ]
+  },
+  {
+   "id": "L4-363",
+   "s": "T",
+   "w": "zurückgehen",
+   "fa": "کاهش یافتن، پایین آمدن",
+   "syn": "sinken, abnehmen",
+   "de": "Die Einnahmen aus CD-Verkäufen gehen immer weiter zurück.",
+   "fas": "درآمد حاصل از فروش سی‌دی مدام کاهش می‌یابد.",
+   "_t": 1,
+   "c": [
+    [
+     "stark zurückgehen",
+     "به‌شدت کاهش یافتن"
+    ],
+    [
+     "die Zahlen gehen zurück",
+     "ارقام کاهش می‌یابد"
+    ],
+    [
+     "zurückgehen auf + A",
+     "ناشی شدن از"
+    ]
+   ]
+  },
+  {
+   "id": "L4-364",
+   "s": "T",
+   "w": "die Vermarktung, -en",
+   "fa": "بازاریابی، عرضه به بازار",
+   "syn": "das Marketing, der Vertrieb",
+   "de": "Für junge Musiker ist die Vermarktung im Netz heute entscheidend.",
+   "fas": "برای نوازندگان جوان، بازاریابی در اینترنت امروز تعیین‌کننده است.",
+   "_t": 1,
+   "c": [
+    [
+     "die Vermarktung im Internet",
+     "بازاریابی در اینترنت"
+    ],
+    [
+     "die Vermarktung eines Produkts",
+     "عرضه‌ی یک محصول به بازار"
+    ]
+   ]
+  },
+  {
+   "id": "L4-365",
+   "s": "T",
+   "w": "der Fanartikel, -",
+   "fa": "کالای هواداری",
+   "syn": "das Merchandisingprodukt",
+   "de": "Nach dem Konzert habe ich mir ein T-Shirt am Stand für Fanartikel gekauft.",
+   "fas": "بعد از کنسرت از غرفه‌ی کالاهای هواداری یک تی‌شرت خریدم.",
+   "_t": 1,
+   "c": [
+    [
+     "Fanartikel verkaufen",
+     "کالای هواداری فروختن"
+    ],
+    [
+     "offizielle Fanartikel",
+     "کالاهای هواداری رسمی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-366",
+   "s": "T",
+   "w": "bedeutend",
+   "fa": "مهم، قابل‌توجه",
+   "syn": "wichtig, beträchtlich",
+   "de": "Ticketverkäufe machen einen bedeutenden Teil des Einkommens von Musikern aus.",
+   "fas": "فروش بلیت بخش قابل‌توجهی از درآمد نوازندگان را تشکیل می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein bedeutender Anteil",
+     "سهمی قابل‌توجه"
+    ],
+    [
+     "bedeutend besser",
+     "به‌مراتب بهتر"
+    ],
+    [
+     "ein bedeutender Künstler",
+     "هنرمندی برجسته"
+    ]
+   ]
+  },
+  {
+   "id": "L4-367",
+   "s": "T",
+   "w": "wiederum",
+   "fa": "به نوبه‌ی خود، از سوی دیگر",
+   "syn": "seinerseits, andererseits",
+   "de": "Günstige Abos locken mehr Hörer an, das wiederum senkt den Wert der Musik.",
+   "fas": "اشتراک‌های ارزان شنونده‌ی بیشتری جذب می‌کنند و این به نوبه‌ی خود ارزش موسیقی را پایین می‌آورد.",
+   "_t": 1,
+   "c": [
+    [
+     "das wiederum bedeutet",
+     "این به نوبه‌ی خود یعنی"
+    ],
+    [
+     "dies führt wiederum dazu",
+     "این به نوبه‌ی خود منجر می‌شود به"
+    ]
+   ]
+  },
+  {
+   "id": "L4-368",
+   "s": "T",
+   "w": "schmälern",
+   "fa": "کاستن، کم کردن (ارزش، اعتبار)",
+   "syn": "verringern, mindern",
+   "de": "Die ständige Verfügbarkeit von Songs schmälert ihren besonderen Wert.",
+   "fas": "در دسترس بودن دائمی آهنگ‌ها از ارزش ویژه‌ی آن‌ها می‌کاهد.",
+   "_t": 1,
+   "c": [
+    [
+     "den Wert schmälern",
+     "از ارزش کاستن"
+    ],
+    [
+     "den Erfolg schmälern",
+     "از موفقیت کاستن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-369",
+   "s": "T",
+   "w": "gegenüberstehen + D",
+   "fa": "در برابرِ … قرار داشتن",
+   "syn": "entgegenstehen, kontrastieren",
+   "de": "Den Nachteilen des Streamings stehen viele neue kreative Möglichkeiten gegenüber.",
+   "fas": "در برابر معایب استریم، امکانات خلاقانه‌ی تازه‌ی زیادی قرار دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "dem gegenüber steht",
+     "در مقابل آن"
+    ],
+    [
+     "einer Idee skeptisch gegenüberstehen",
+     "به ایده‌ای با تردید نگاه کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-370",
+   "s": "T",
+   "w": "nie dagewesen",
+   "fa": "بی‌سابقه، بی‌نظیر",
+   "syn": "beispiellos, völlig neu",
+   "de": "Die Digitalisierung bietet Musikern nie dagewesene Möglichkeiten.",
+   "fas": "دیجیتالی‌شدن امکانات بی‌سابقه‌ای در اختیار نوازندگان می‌گذارد.",
+   "_t": 1,
+   "c": [
+    [
+     "nie dagewesene Möglichkeiten",
+     "امکانات بی‌سابقه"
+    ],
+    [
+     "in nie dagewesener Form",
+     "به شکلی بی‌سابقه"
+    ]
+   ]
+  },
+  {
+   "id": "L4-371",
+   "s": "T",
+   "w": "beinhalten",
+   "fa": "دربر داشتن، شامل شدن",
+   "syn": "enthalten, umfassen",
+   "de": "Das Premium-Abo beinhaltet auch den Download von Songs.",
+   "fas": "اشتراک ویژه دانلود آهنگ را هم دربر دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "Kosten beinhalten",
+     "هزینه‌ها را دربر داشتن"
+    ],
+    [
+     "das Angebot beinhaltet",
+     "این پیشنهاد شامل … است"
+    ]
+   ]
+  },
+  {
+   "id": "L4-372",
+   "s": "T",
+   "w": "sampeln",
+   "fa": "نمونه‌برداری صوتی کردن (سمپل کردن)",
+   "syn": "Tonausschnitte übernehmen und neu verwenden",
+   "de": "Der DJ hat ein altes Lied gesampelt und daraus einen neuen Hit gemacht.",
+   "fas": "دی‌جی از یک آهنگ قدیمی سمپل گرفت و از آن یک آهنگ پرطرفدار تازه ساخت.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Song sampeln",
+     "از یک آهنگ سمپل گرفتن"
+    ],
+    [
+     "Musik sampeln und neu mischen",
+     "موسیقی را سمپل و دوباره میکس کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-373",
+   "s": "T",
+   "w": "tiefgehend",
+   "fa": "عمیق، ژرف",
+   "syn": "gründlich, intensiv",
+   "de": "Das Remixen ermöglicht eine tiefgehende Auseinandersetzung mit einem Song.",
+   "fas": "ریمیکس کردن امکان پرداختن عمیق به یک آهنگ را فراهم می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine tiefgehende Analyse",
+     "تحلیلی عمیق"
+    ],
+    [
+     "tiefgehende Gespräche",
+     "گفت‌وگوهای عمیق"
+    ]
+   ]
+  },
+  {
+   "id": "L4-374",
+   "s": "T",
+   "w": "nach wie vor",
+   "fa": "هنوز هم، همچنان",
+   "syn": "immer noch, weiterhin",
+   "de": "Live-Konzerte sind nach wie vor sehr beliebt.",
+   "fas": "کنسرت‌های زنده همچنان بسیار محبوب‌اند.",
+   "_t": 1,
+   "c": [
+    [
+     "nach wie vor beliebt",
+     "همچنان محبوب"
+    ],
+    [
+     "nach wie vor wichtig",
+     "هنوز هم مهم"
+    ]
+   ]
+  },
+  {
+   "id": "L4-375",
+   "s": "T",
+   "w": "sinnlich",
+   "fa": "حسی، مربوط به حواس",
+   "syn": "mit den Sinnen erfahrbar, körperlich",
+   "de": "Ein Konzert ist ein sinnliches Erlebnis, das keine Datei ersetzen kann.",
+   "fas": "کنسرت تجربه‌ای حسی است که هیچ فایلی جایش را نمی‌گیرد.",
+   "_t": 1,
+   "c": [
+    [
+     "ein sinnliches Erlebnis",
+     "تجربه‌ای حسی"
+    ],
+    [
+     "sinnliche Erfahrung",
+     "تجربه‌ی حسی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-376",
+   "s": "T",
+   "w": "abspielen",
+   "fa": "پخش کردن (صدا، فیلم)",
+   "syn": "wiedergeben, laufen lassen",
+   "de": "Das Abspielen eines Songs auf dem Handy ist mit einem Konzert nicht vergleichbar.",
+   "fas": "پخش آهنگ روی گوشی با کنسرت قابل مقایسه نیست.",
+   "_t": 1,
+   "c": [
+    [
+     "ein Video abspielen",
+     "ویدیویی را پخش کردن"
+    ],
+    [
+     "Musik abspielen",
+     "موسیقی پخش کردن"
+    ],
+    [
+     "sich abspielen",
+     "رخ دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-377",
+   "s": "T",
+   "w": "in keiner Weise",
+   "fa": "به هیچ وجه",
+   "syn": "überhaupt nicht, keineswegs",
+   "de": "Das Hören im Netz ist in keiner Weise mit einem Live-Auftritt zu vergleichen.",
+   "fas": "شنیدن در اینترنت به هیچ وجه با اجرای زنده قابل مقایسه نیست.",
+   "_t": 1,
+   "c": [
+    [
+     "in keiner Weise vergleichbar",
+     "به هیچ وجه قابل مقایسه نیست"
+    ],
+    [
+     "in keiner Weise zufrieden",
+     "به هیچ وجه راضی نیست"
+    ]
+   ]
+  },
+  {
+   "id": "L4-378",
+   "s": "T",
+   "w": "die Authentizität (nur Sg.)",
+   "fa": "اصالت، واقعی بودن",
+   "syn": "die Echtheit, die Glaubwürdigkeit",
+   "de": "Der Wunsch nach Authentizität führt viele Fans zurück zur Schallplatte.",
+   "fas": "میل به اصالت بسیاری از طرفداران را به صفحه‌ی گرامافون برمی‌گرداند.",
+   "_t": 1,
+   "c": [
+    [
+     "der Wunsch nach Authentizität",
+     "میل به اصالت"
+    ],
+    [
+     "an Authentizität verlieren",
+     "اصالت خود را از دست دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-379",
+   "s": "T",
+   "w": "verstärkt",
+   "fa": "بیشتر، فزاینده",
+   "syn": "zunehmend, vermehrt",
+   "de": "Junge Leute interessieren sich verstärkt für alte Plattenspieler.",
+   "fas": "جوانان به‌طور فزاینده‌ای به گرامافون‌های قدیمی علاقه نشان می‌دهند.",
+   "_t": 1,
+   "c": [
+    [
+     "verstärkt einsetzen",
+     "بیشتر به کار گرفتن"
+    ],
+    [
+     "sich verstärkt um etw. kümmern",
+     "بیشتر به چیزی رسیدگی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-380",
+   "s": "T",
+   "w": "bestehen bleiben",
+   "fa": "باقی ماندن، پابرجا ماندن",
+   "syn": "erhalten bleiben, fortbestehen",
+   "de": "Trotz Streaming bleibt das Bedürfnis nach echten Konzerten bestehen.",
+   "fas": "با وجود استریم، نیاز به کنسرت‌های واقعی پابرجا می‌ماند.",
+   "_t": 1,
+   "c": [
+    [
+     "das Problem bleibt bestehen",
+     "مشکل باقی می‌ماند"
+    ],
+    [
+     "das Bedürfnis bleibt bestehen",
+     "نیاز پابرجا می‌ماند"
+    ]
+   ]
+  },
+  {
+   "id": "L4-381",
+   "s": "T",
+   "w": "antizipieren",
+   "fa": "پیش‌بینی کردن، از پیش حدس زدن",
+   "syn": "vorwegnehmen, vorhersehen",
+   "de": "Wenn man die Fragen vorher liest, kann man den Inhalt des Vortrags antizipieren.",
+   "fas": "اگر سؤال‌ها را از قبل بخوانی، می‌توانی محتوای سخنرانی را پیش‌بینی کنی.",
+   "_t": 1,
+   "c": [
+    [
+     "den Inhalt antizipieren",
+     "محتوا را پیش‌بینی کردن"
+    ],
+    [
+     "Probleme antizipieren",
+     "مشکلات را پیش‌بینی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-382",
+   "s": "T",
+   "w": "sorgfältig",
+   "fa": "با دقت، دقیق",
+   "syn": "genau, gründlich",
+   "de": "Lesen Sie die Antwortoptionen sorgfältig, bevor Sie den Vortrag hören.",
+   "fas": "قبل از شنیدن سخنرانی، گزینه‌های پاسخ را با دقت بخوانید.",
+   "_t": 1,
+   "c": [
+    [
+     "sorgfältig auswählen",
+     "با دقت انتخاب کردن"
+    ],
+    [
+     "sorgfältig arbeiten",
+     "با دقت کار کردن"
+    ],
+    [
+     "eine sorgfältige Planung",
+     "برنامه‌ریزی دقیق"
+    ]
+   ]
+  },
+  {
+   "id": "L4-383",
+   "s": "T",
+   "w": "gezielt",
+   "fa": "هدفمند",
+   "syn": "zielgerichtet, bewusst",
+   "de": "Mit klaren Hypothesen kann man beim Hören gezielter auf Informationen achten.",
+   "fas": "با فرضیه‌های روشن می‌توان هنگام شنیدن هدفمندتر به اطلاعات توجه کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "gezielt suchen",
+     "هدفمند جست‌وجو کردن"
+    ],
+    [
+     "gezielte Maßnahmen",
+     "اقدامات هدفمند"
+    ]
+   ]
+  },
+  {
+   "id": "L4-384",
+   "s": "T",
+   "w": "mangelnd",
+   "fa": "ناکافی، کمبودِ",
+   "syn": "fehlend, unzureichend",
+   "de": "Wegen mangelnder Bewegung im Krankenhaus fühlen sich viele junge Patienten schlapp.",
+   "fas": "به دلیل تحرک ناکافی در بیمارستان، بسیاری از بیماران جوان احساس بی‌حالی می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "mangelnder Kontakt",
+     "کمبود ارتباط"
+    ],
+    [
+     "mangelnde Erfahrung",
+     "کمبود تجربه"
+    ],
+    [
+     "mangelnde Bewegung",
+     "تحرک ناکافی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-385",
+   "s": "T",
+   "w": "die Beteiligung, -en (an + D)",
+   "fa": "مشارکت (در)",
+   "syn": "die Teilnahme, die Mitwirkung",
+   "de": "Dank der Technik ist eine aktive Beteiligung an Gruppenarbeiten auch vom Krankenbett aus möglich.",
+   "fas": "به لطف این فناوری، مشارکت فعال در کارهای گروهی از روی تخت بیمارستان هم ممکن است.",
+   "_t": 1,
+   "c": [
+    [
+     "die Beteiligung am Unterricht",
+     "مشارکت در کلاس"
+    ],
+    [
+     "eine aktive Beteiligung",
+     "مشارکت فعال"
+    ]
+   ]
+  },
+  {
+   "id": "L4-386",
+   "s": "T",
+   "w": "die Leitfrage, -n",
+   "fa": "پرسش راهنما",
+   "syn": "die zentrale Frage, die Orientierungsfrage",
+   "de": "Notieren Sie beim Hören Informationen zu den drei Leitfragen.",
+   "fas": "هنگام شنیدن، اطلاعات مربوط به سه پرسش راهنما را یادداشت کنید.",
+   "_t": 1,
+   "c": [
+    [
+     "anhand von Leitfragen",
+     "با کمک پرسش‌های راهنما"
+    ],
+    [
+     "die Leitfragen beantworten",
+     "به پرسش‌های راهنما پاسخ دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-387",
+   "s": "T",
+   "w": "heraushören",
+   "fa": "از میان صحبت‌ها تشخیص دادن",
+   "syn": "beim Hören erkennen, wahrnehmen",
+   "de": "Man muss aus dem Vortrag die wichtigsten Informationen heraushören.",
+   "fas": "باید مهم‌ترین اطلاعات را از دل سخنرانی تشخیص داد.",
+   "_t": 1,
+   "c": [
+    [
+     "Informationen heraushören",
+     "اطلاعات را از شنیده‌ها بیرون کشیدن"
+    ],
+    [
+     "Kritik heraushören",
+     "انتقاد را از لحن کسی فهمیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-388",
+   "s": "T",
+   "w": "der / die Erkrankte, -n",
+   "fa": "بیمار، فرد مبتلا",
+   "syn": "der Kranke, der Patient",
+   "de": "Über ein Tablet kann der Erkrankte jederzeit mit seiner Klasse sprechen.",
+   "fas": "فرد بیمار از طریق تبلت می‌تواند هر وقت بخواهد با کلاسش صحبت کند.",
+   "_t": 1,
+   "c": [
+    [
+     "die Erkrankten versorgen",
+     "به بیماران رسیدگی کردن"
+    ],
+    [
+     "schwer Erkrankte",
+     "بیماران سخت"
+    ]
+   ]
+  },
+  {
+   "id": "L4-389",
+   "s": "T",
+   "w": "außerhalb + G",
+   "fa": "خارج از، بیرون از",
+   "syn": "nicht innerhalb, jenseits",
+   "de": "Auch außerhalb der Schulzeit bleibt das kranke Kind über den Roboter mit seinen Freunden in Kontakt.",
+   "fas": "کودک بیمار بیرون از ساعت مدرسه هم از طریق ربات با دوستانش در ارتباط می‌ماند.",
+   "_t": 1,
+   "c": [
+    [
+     "außerhalb der Stadt",
+     "خارج از شهر"
+    ],
+    [
+     "außerhalb der Öffnungszeiten",
+     "خارج از ساعات کاری"
+    ]
+   ]
+  },
+  {
+   "id": "L4-390",
+   "s": "T",
+   "w": "gesundheitlich",
+   "fa": "مربوط به سلامت، بهداشتی",
+   "syn": "die Gesundheit betreffend",
+   "de": "Bei gesundheitlichen Problemen suchen viele zuerst im Netz nach Rat.",
+   "fas": "بسیاری هنگام مشکلات سلامتی ابتدا در اینترنت دنبال راهنمایی می‌گردند.",
+   "_t": 1,
+   "c": [
+    [
+     "gesundheitliche Probleme",
+     "مشکلات سلامتی"
+    ],
+    [
+     "aus gesundheitlichen Gründen",
+     "به دلایل پزشکی"
+    ],
+    [
+     "die gesundheitliche Versorgung",
+     "مراقبت‌های بهداشتی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-391",
+   "s": "T",
+   "w": "souverän",
+   "fa": "با اعتمادبه‌نفس، مسلط",
+   "syn": "selbstsicher, überlegen",
+   "de": "Wer sich vorher informiert hat, wirkt im Arztgespräch viel souveräner.",
+   "fas": "کسی که از قبل اطلاعات کسب کرده، در گفت‌وگو با پزشک بسیار مسلط‌تر به نظر می‌رسد.",
+   "_t": 1,
+   "c": [
+    [
+     "souverän auftreten",
+     "با اعتمادبه‌نفس ظاهر شدن"
+    ],
+    [
+     "souverän reagieren",
+     "مسلط واکنش نشان دادن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-392",
+   "s": "T",
+   "w": "herausarbeiten",
+   "fa": "استخراج کردن، برجسته کردن",
+   "syn": "deutlich machen, hervorheben",
+   "de": "In der Stellungnahme soll man den Widerspruch zur Grafik herausarbeiten.",
+   "fas": "در اظهارنظر باید تناقض با نمودار را برجسته کرد.",
+   "_t": 1,
+   "c": [
+    [
+     "den Widerspruch herausarbeiten",
+     "تناقض را برجسته کردن"
+    ],
+    [
+     "die Unterschiede herausarbeiten",
+     "تفاوت‌ها را بیرون کشیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-393",
+   "s": "T",
+   "w": "der Leitpunkt, -e",
+   "fa": "نکته‌ی راهنما، محور",
+   "syn": "der Stichpunkt, die Orientierungshilfe",
+   "de": "Die drei Leitpunkte helfen Ihnen, den Kurzvortrag zu strukturieren.",
+   "fas": "سه نکته‌ی راهنما به شما کمک می‌کند سخنرانی کوتاهتان را ساختار دهید.",
+   "_t": 1,
+   "c": [
+    [
+     "anhand von Leitpunkten",
+     "بر اساس نکته‌های راهنما"
+    ],
+    [
+     "alle Leitpunkte behandeln",
+     "به همه‌ی محورها پرداختن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-394",
+   "s": "T",
+   "w": "die Entziehungskur, -en",
+   "fa": "دوره‌ی ترک اعتیاد",
+   "syn": "die Entzugstherapie, der Entzug",
+   "de": "Nach Wochen ohne Pause am Handy macht sie jetzt eine digitale Entziehungskur.",
+   "fas": "پس از هفته‌ها استفاده‌ی بی‌وقفه از گوشی، او حالا دوره‌ی ترک دیجیتال را می‌گذراند.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Entziehungskur machen",
+     "دوره‌ی ترک را گذراندن"
+    ],
+    [
+     "eine digitale Entziehungskur",
+     "ترک دیجیتال"
+    ]
+   ]
+  },
+  {
+   "id": "L4-395",
+   "s": "T",
+   "w": "sich etw. abgewöhnen",
+   "fa": "ترک کردن (عادت)",
+   "syn": "mit etw. aufhören, sich etw. abtrainieren",
+   "de": "Ich will mir abgewöhnen, morgens als Erstes aufs Handy zu schauen.",
+   "fas": "می‌خواهم عادت نگاه کردن به گوشی را به‌عنوان اولین کار صبح ترک کنم.",
+   "_t": 1,
+   "c": [
+    [
+     "sich das Rauchen abgewöhnen",
+     "سیگار را ترک کردن"
+    ],
+    [
+     "sich eine Gewohnheit abgewöhnen",
+     "عادتی را ترک کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-396",
+   "s": "T",
+   "w": "sich frei machen von + D",
+   "fa": "خود را رها کردن از",
+   "syn": "sich lösen von, sich befreien",
+   "de": "Es ist nicht leicht, sich vom ständigen Druck der Nachrichten frei zu machen.",
+   "fas": "رها کردن خود از فشار دائمی پیام‌ها آسان نیست.",
+   "_t": 1,
+   "c": [
+    [
+     "sich von Zwängen frei machen",
+     "خود را از اجبارها رها کردن"
+    ],
+    [
+     "sich vom Stress frei machen",
+     "خود را از استرس رها کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-397",
+   "s": "T",
+   "w": "die Vorliebe, -n (für + A)",
+   "fa": "علاقه‌ی خاص، تمایل (به)",
+   "syn": "die Neigung, das Faible",
+   "de": "Meine Schwester hat eine Vorliebe für Serien aus Skandinavien.",
+   "fas": "خواهرم علاقه‌ی خاصی به سریال‌های اسکاندیناویایی دارد.",
+   "_t": 1,
+   "c": [
+    [
+     "eine Vorliebe haben für",
+     "علاقه‌ی خاصی داشتن به"
+    ],
+    [
+     "mit Vorliebe",
+     "با علاقه‌ی خاص"
+    ]
+   ]
+  },
+  {
+   "id": "L4-398",
+   "s": "T",
+   "w": "lebendig",
+   "fa": "زنده، سرزنده",
+   "syn": "lebhaft, voller Leben",
+   "de": "Viele Nutzer fühlen sich durch ständige Nachrichten lebendig und verbunden.",
+   "fas": "بسیاری از کاربران با پیام‌های دائمی احساس سرزندگی و ارتباط می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "lebendig sprechen",
+     "با شور و حرارت صحبت کردن"
+    ],
+    [
+     "ein lebendiges Viertel",
+     "یک محله‌ی پرجنب‌وجوش"
+    ]
+   ]
+  },
+  {
+   "id": "L4-399",
+   "s": "T",
+   "w": "der Fachausdruck, ¨-e",
+   "fa": "اصطلاح تخصصی",
+   "syn": "der Fachbegriff, der Terminus",
+   "de": "Im Film erklärt eine Expertin drei Fachausdrücke zur Handynutzung.",
+   "fas": "در فیلم یک کارشناس سه اصطلاح تخصصی درباره‌ی استفاده از گوشی را توضیح می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Fachausdruck erklären",
+     "اصطلاح تخصصی را توضیح دادن"
+    ],
+    [
+     "medizinische Fachausdrücke",
+     "اصطلاحات پزشکی"
+    ]
+   ]
+  },
+  {
+   "id": "L4-400",
+   "s": "T",
+   "w": "die Aufmerksamkeitsspanne, -n",
+   "fa": "دامنه‌ی توجه، مدت تمرکز",
+   "syn": "die Konzentrationsdauer",
+   "de": "Durch ständiges Scrollen wird die Aufmerksamkeitsspanne immer kürzer.",
+   "fas": "با اسکرول کردن مداوم، مدت تمرکز مدام کوتاه‌تر می‌شود.",
+   "_t": 1,
+   "c": [
+    [
+     "eine kurze Aufmerksamkeitsspanne",
+     "دامنه‌ی توجه کوتاه"
+    ],
+    [
+     "die Aufmerksamkeitsspanne sinkt",
+     "مدت تمرکز کاهش می‌یابد"
+    ]
+   ]
+  },
+  {
+   "id": "L4-401",
+   "s": "T",
+   "w": "priorisieren",
+   "fa": "اولویت‌بندی کردن",
+   "syn": "Prioritäten setzen, gewichten",
+   "de": "Wer ständig abgelenkt ist, kann Aufgaben schlechter priorisieren.",
+   "fas": "کسی که مدام حواسش پرت است، کارها را بدتر اولویت‌بندی می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "Aufgaben priorisieren",
+     "کارها را اولویت‌بندی کردن"
+    ],
+    [
+     "richtig priorisieren",
+     "درست اولویت‌بندی کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-402",
+   "s": "T",
+   "w": "der / die Süchtige, -n",
+   "fa": "معتاد",
+   "syn": "der Abhängige",
+   "de": "Manche Smartphone-Nutzer verhalten sich fast wie Süchtige.",
+   "fas": "برخی کاربران گوشی هوشمند تقریباً مثل معتادها رفتار می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "wie ein Süchtiger",
+     "مثل یک معتاد"
+    ],
+    [
+     "Süchtigen helfen",
+     "به معتادان کمک کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-403",
+   "s": "T",
+   "w": "jdm. auf die Nerven gehen",
+   "fa": "اعصاب کسی را خرد کردن",
+   "syn": "jdn. nerven, jdn. stören",
+   "de": "Die ständigen Push-Nachrichten gehen mir total auf die Nerven.",
+   "fas": "اعلان‌های دائمی واقعاً اعصابم را خرد می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "total auf die Nerven gehen",
+     "حسابی اعصاب را خرد کردن"
+    ],
+    [
+     "Das geht mir auf die Nerven.",
+     "این اعصابم را خرد می‌کند."
+    ]
+   ]
+  },
+  {
+   "id": "L4-404",
+   "s": "T",
+   "w": "keine Ahnung haben (von + D)",
+   "fa": "هیچ اطلاعی نداشتن (از)",
+   "syn": "nichts wissen von, sich nicht auskennen",
+   "de": "Viele Erwachsene haben keine Ahnung von der digitalen Welt der Jugendlichen.",
+   "fas": "بسیاری از بزرگسالان هیچ اطلاعی از دنیای دیجیتال نوجوانان ندارند.",
+   "_t": 1,
+   "c": [
+    [
+     "keine Ahnung haben von Technik",
+     "از فناوری سر در نیاوردن"
+    ],
+    [
+     "Ich habe keine Ahnung.",
+     "هیچ نمی‌دانم."
+    ]
+   ]
+  },
+  {
+   "id": "L4-405",
+   "s": "T",
+   "w": "checken",
+   "fa": "چک کردن، بررسی کردن",
+   "syn": "kontrollieren, nachsehen",
+   "de": "Selbst beim Essen checkt er alle paar Minuten seine Nachrichten.",
+   "fas": "او حتی سر غذا هم هر چند دقیقه پیام‌هایش را چک می‌کند.",
+   "_t": 1,
+   "c": [
+    [
+     "E-Mails checken",
+     "ایمیل‌ها را چک کردن"
+    ],
+    [
+     "die Nachrichten checken",
+     "پیام‌ها را چک کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-406",
+   "s": "T",
+   "w": "unruhig",
+   "fa": "بی‌قرار، ناآرام",
+   "syn": "nervös, rastlos",
+   "de": "Kurz vor der Pause werden viele Schüler unruhig, weil sie an ihr Handy denken.",
+   "fas": "کمی قبل از زنگ تفریح، بسیاری از دانش‌آموزان بی‌قرار می‌شوند چون به گوشی‌شان فکر می‌کنند.",
+   "_t": 1,
+   "c": [
+    [
+     "unruhig werden",
+     "بی‌قرار شدن"
+    ],
+    [
+     "unruhig schlafen",
+     "ناآرام خوابیدن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-407",
+   "s": "T",
+   "w": "unkonzentriert",
+   "fa": "بی‌تمرکز، حواس‌پرت",
+   "syn": "abgelenkt, zerstreut",
+   "de": "Nach zu viel Zeit am Bildschirm bin ich oft müde und unkonzentriert.",
+   "fas": "پس از زمان زیاد پای صفحه‌نمایش، اغلب خسته و بی‌تمرکزم.",
+   "_t": 1,
+   "c": [
+    [
+     "unkonzentriert sein",
+     "بی‌تمرکز بودن"
+    ],
+    [
+     "unkonzentriert arbeiten",
+     "بی‌تمرکز کار کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-408",
+   "s": "T",
+   "w": "ungenau",
+   "fa": "نادقیق، سرسری",
+   "syn": "nachlässig, oberflächlich",
+   "de": "Wer zu schnell arbeitet, erledigt Aufgaben oft ungenau.",
+   "fas": "کسی که خیلی سریع کار می‌کند، کارها را اغلب سرسری انجام می‌دهد.",
+   "_t": 1,
+   "c": [
+    [
+     "ungenaue Angaben",
+     "اطلاعات نادقیق"
+    ],
+    [
+     "ungenau arbeiten",
+     "بی‌دقت کار کردن"
+    ],
+    [
+     "eher ungenau",
+     "نسبتاً مبهم"
+    ]
+   ]
+  },
+  {
+   "id": "L4-409",
+   "s": "T",
+   "w": "der Tick, -s",
+   "fa": "عادت عصبی، تیک",
+   "syn": "die Marotte, die schlechte Angewohnheit",
+   "de": "Ständig aufs Display zu schauen, ist bei mir schon ein richtiger Tick.",
+   "fas": "مدام نگاه کردن به صفحه‌ی گوشی برای من دیگر یک عادت عصبی واقعی شده است.",
+   "_t": 1,
+   "c": [
+    [
+     "einen Tick haben",
+     "عادت عصبی داشتن"
+    ],
+    [
+     "der Handytick",
+     "عادت عصبی به گوشی"
+    ],
+    [
+     "einen Tick besser",
+     "کمی بهتر"
+    ]
+   ]
+  },
+  {
+   "id": "L4-410",
+   "s": "T",
+   "w": "errechnen",
+   "fa": "محاسبه کردن",
+   "syn": "ausrechnen, berechnen",
+   "de": "Wir haben im Kurs errechnet, wie viele Stunden wir täglich online sind.",
+   "fas": "در کلاس محاسبه کردیم که روزانه چند ساعت آنلاین هستیم.",
+   "_t": 1,
+   "c": [
+    [
+     "den Durchschnitt errechnen",
+     "میانگین را محاسبه کردن"
+    ],
+    [
+     "die Kosten errechnen",
+     "هزینه‌ها را حساب کردن"
+    ]
+   ]
+  },
+  {
+   "id": "L4-411",
+   "s": "T",
+   "w": "sich (D) Zeit nehmen (für + A)",
+   "fa": "وقت گذاشتن (برای)",
+   "syn": "sich Zeit lassen, Zeit einplanen",
+   "de": "Nimm dir abends bewusst Zeit für ein Buch statt für soziale Medien.",
+   "fas": "شب‌ها آگاهانه برای کتاب وقت بگذار نه برای شبکه‌های اجتماعی.",
+   "_t": 1,
+   "c": [
+    [
+     "sich bewusst Zeit nehmen",
+     "آگاهانه وقت گذاشتن"
+    ],
+    [
+     "sich Zeit für sich nehmen",
+     "برای خود وقت گذاشتن"
+    ]
+   ]
   }
  ],
  "grammar": [
   {
    "id": "t1",
-   "title": "Das Passiv",
-   "title_fa": "ساخت مجهول",
-   "goal_de": "Im Passiv steht die Handlung im Mittelpunkt, nicht die Person, die handelt. Man bildet es mit werden + Partizip II. Das ist typisch für Sachtexte, Berichte und Beschreibungen von Abläufen (z. B. in Medizin und Technik).",
-   "goal_fa": "در ساخت مجهول، خودِ کار مهم است، نه کسی که آن را انجام می‌دهد. این ساخت با werden + Partizip II ساخته می‌شود و در متن‌های علمی، گزارش‌ها و توضیح مراحل یک کار (مثلاً در پزشکی و فناوری) بسیار رایج است.",
+   "title": "Relativsätze – Wiederholung",
+   "title_fa": "جمله‌های موصولی – مرور",
+   "goal_de": "Sie wiederholen, wie man mit einem Relativsatz ein Nomen genauer beschreibt: Wie findet man das passende Relativpronomen (Genus, Numerus, Kasus), wie verbindet man es mit einer Präposition, und an welcher Stelle im Satz steht der Relativsatz?",
+   "goal_fa": "در این بخش جمله‌های موصولی را مرور می‌کنیم: چطور ضمیر موصولیِ درست را پیدا کنیم (جنس، تعداد و حالت)، چطور آن را با حرف اضافه به کار ببریم و جمله‌ی موصولی دقیقاً کجای جمله قرار می‌گیرد. این ساخت در متن‌های خبری و علمی، مثل متن‌های مربوط به پزشکی از راه دور، بسیار پرکاربرد است.",
    "rules": [
     {
-     "head": "Präsens und Präteritum: werden / wurde + Partizip II",
-     "de": "Das konjugierte werden steht auf Position 2, das Partizip II am Satzende. Im Präteritum benutzt man wurde / wurden. Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes.",
-     "fa": "فعل werden صرف می‌شود و در جایگاه دوم می‌آید و Partizip II به آخر جمله می‌رود. در گذشته‌ی ساده wurde / wurden به کار می‌رود. مفعول مستقیم (Akkusativ) جمله‌ی معلوم در جمله‌ی مجهول فاعل می‌شود.",
+     "head": "Relativsatz = Nebensatz: Komma, Pronomen vorn, Verb am Ende",
+     "de": "Ein Relativsatz ist ein Nebensatz, der ein Nomen im Hauptsatz näher erklärt. Er wird durch Kommas abgetrennt. Am Anfang steht das Relativpronomen (eventuell mit einer Präposition davor), das konjugierte Verb steht ganz am Ende. Genus (der/das/die) und Numerus (Singular/Plural) übernimmt das Pronomen vom Bezugsnomen.",
+     "fa": "جمله‌ی موصولی یک جمله‌ی وابسته است که اسمی را در جمله‌ی اصلی توضیح می‌دهد؛ چیزی شبیه «که …» در فارسی. با ویرگول جدا می‌شود، ضمیر موصولی (گاهی همراه حرف اضافه) اولِ آن می‌آید و فعلِ صرف‌شده به آخر می‌رود. جنس و مفرد/جمع بودنِ ضمیر را از اسمی می‌گیریم که به آن برمی‌گردد.",
      "ex": [
       [
-       "Die Messwerte werden automatisch an die Praxis übertragen.",
-       "مقادیر اندازه‌گیری‌شده به‌طور خودکار به مطب فرستاده می‌شوند."
+       "Patienten, die auf dem Land wohnen, haben oft weite Wege zur Praxis.",
+       "بیمارانی که در روستا زندگی می‌کنند، اغلب راه درازی تا مطب دارند."
       ],
       [
-       "Die Firma wurde 2015 in Berlin gegründet.",
-       "این شرکت در سال ۲۰۱۵ در برلین تأسیس شد."
+       "Das Tablet, das auf dem Schreibtisch liegt, gehört der Ärztin.",
+       "تبلتی که روی میز است، مال خانم دکتر است."
       ]
      ]
     },
     {
-     "head": "Perfekt: sein + Partizip II + worden",
-     "de": "Im Perfekt Passiv benutzt man sein als Hilfsverb. Am Ende steht das Partizip II des Vollverbs und dann worden (nicht geworden!).",
-     "fa": "در ماضی نقلیِ مجهول، فعل کمکی sein است. در آخر جمله اول Partizip II فعل اصلی و بعد worden می‌آید (نه geworden!).",
+     "head": "Der Kasus kommt aus dem Relativsatz",
+     "de": "Den Kasus bestimmt nicht der Hauptsatz, sondern die Rolle des Pronomens im Relativsatz: Ist es Subjekt → Nominativ. Ist es Ergänzung eines Verbs mit Akkusativ (sehen, nutzen, brauchen, empfehlen) → Akkusativ. Ist es Ergänzung eines Verbs mit Dativ (helfen, nützen, vertrauen, danken, schicken an jemanden) → Dativ. Tipp: Bilden Sie den Relativsatz zuerst als Hauptsatz – dann sieht man den Kasus.",
+     "fa": "مهم‌ترین نکته: حالتِ ضمیر را جمله‌ی اصلی تعیین نمی‌کند، بلکه نقشی که ضمیر داخلِ خودِ جمله‌ی موصولی دارد. اگر فاعل است ← Nominativ؛ اگر مفعولِ فعلی مثل sehen یا nutzen است ← Akkusativ؛ اگر مفعولِ فعلی مثل helfen یا nützen است ← Dativ. ترفند: جمله‌ی موصولی را اول به شکل یک جمله‌ی مستقل بسازید (Wir haben den Sensor eingebaut) تا حالت را راحت ببینید.",
      "ex": [
       [
-       "Die Diagnose ist von einem Spezialisten bestätigt worden.",
-       "تشخیص توسط یک متخصص تأیید شده است."
+       "Ein Arzt, der online berät, spart seinen Patienten viel Zeit.",
+       "پزشکی که آنلاین مشاوره می‌دهد، وقتِ زیادی برای بیمارانش صرفه‌جویی می‌کند. (فاعل ← der)"
+      ],
+      [
+       "Der Sensor, den wir eingebaut haben, meldet jeden Brand.",
+       "حسگری که نصب کرده‌ایم، هر آتش‌سوزی را خبر می‌دهد. (مفعول مستقیم ← den)"
+      ],
+      [
+       "Die Patientin, der die Videosprechstunde geholfen hat, ist begeistert.",
+       "بیماری که ویزیت تصویری به او کمک کرده، خیلی راضی است. (helfen + Dativ ← der)"
       ]
      ]
     },
     {
-     "head": "Passiv mit Modalverb: Modalverb + Partizip II + werden",
-     "de": "Das Modalverb wird konjugiert und steht auf Position 2. Am Satzende steht der Infinitiv Passiv: Partizip II + werden.",
-     "fa": "فعل وجهی صرف می‌شود و در جایگاه دوم می‌آید. در آخر جمله «مصدر مجهول» می‌آید: Partizip II + werden.",
+     "head": "Formen wie der bestimmte Artikel – außer Dativ Plural und Genitiv",
+     "de": "Die Relativpronomen sehen aus wie der bestimmte Artikel. Es gibt nur zwei Abweichungen: Dativ Plural heißt denen (nicht den), und im Genitiv heißt es dessen (maskulin, neutral) bzw. deren (feminin, Plural). Besonders häufig ist der Fehler den statt denen.",
+     "fa": "ضمیرهای موصولی تقریباً همان حرف تعریف معین‌اند. فقط دو جا فرق دارند: Dativِ جمع می‌شود denen (نه den) و در Genitiv شکل‌های dessen و deren به کار می‌روند. اشتباه رایجِ فارسی‌زبانان این است که در Dativِ جمع den می‌گویند؛ حواستان باشد!",
      "ex": [
       [
-       "Persönliche Daten müssen besser geschützt werden.",
-       "داده‌های شخصی باید بهتر محافظت شوند."
+       "Viele Nutzer, denen ihre Daten wichtig sind, lesen die Datenschutzerklärung genau.",
+       "بسیاری از کاربرانی که داده‌هایشان برایشان مهم است، سیاست حریم خصوصی را با دقت می‌خوانند."
       ],
       [
-       "Ein Arztbesuch kann nicht ganz ersetzt werden.",
-       "مراجعه به پزشک را نمی‌توان کاملاً جایگزین کرد."
+       "Die Kollegen, denen ich die Präsentation geschickt habe, haben schon geantwortet.",
+       "همکارانی که ارائه را برایشان فرستادم، جواب داده‌اند."
       ]
      ]
     },
     {
-     "head": "von + Dativ / durch + Akkusativ",
-     "de": "Die handelnde Person nennt man mit von + Dativ (vom Arzt). Ein Mittel oder eine Ursache nennt man oft mit durch + Akkusativ (durch einen Sensor). Oft lässt man den Handelnden ganz weg.",
-     "fa": "کننده‌ی کار (شخص) را با von + Dativ می‌آوریم (vom Arzt). وسیله یا علت را معمولاً با durch + Akkusativ بیان می‌کنیم (durch einen Sensor). اغلب کننده‌ی کار اصلاً ذکر نمی‌شود.",
+     "head": "Präposition + Relativpronomen",
+     "de": "Braucht das Verb oder der Ausdruck im Relativsatz eine Präposition (teilnehmen an, sich verlassen auf, sinnvoll sein für, arbeiten bei) oder steht eine Ortsangabe mit Präposition (in, mit, bei), dann steht die Präposition am Anfang des Relativsatzes direkt vor dem Pronomen. Jetzt bestimmt die Präposition den Kasus: an + Dativ → an dem, für + Akkusativ → für die. Die Präposition darf nicht ans Satzende rutschen wie im Englischen.",
+     "fa": "اگر فعل یا عبارتِ داخل جمله‌ی موصولی حرف اضافه بخواهد (مثل teilnehmen an یا sich verlassen auf)، حرف اضافه اولِ جمله‌ی موصولی و درست قبل از ضمیر می‌آید و حالتِ ضمیر را هم همین حرف اضافه تعیین می‌کند. برخلاف انگلیسی، حرف اضافه هرگز به آخر جمله نمی‌رود. در فارسی می‌گوییم «کارگاهی که در آن شرکت کردم»؛ در آلمانی «در آن» به اولِ جمله منتقل می‌شود: an dem.",
      "ex": [
       [
-       "Die Erkrankung wird vom Hausarzt festgestellt.",
-       "بیماری توسط پزشک خانواده تشخیص داده می‌شود."
+       "Der Workshop, an dem ich teilgenommen habe, war sehr praktisch.",
+       "کارگاهی که در آن شرکت کردم، خیلی کاربردی بود."
       ],
       [
-       "Der Brand wurde durch einen Rauchmelder entdeckt.",
-       "آتش‌سوزی به وسیله‌ی یک آشکارساز دود کشف شد."
+       "Es gibt Gesundheits-Apps, auf die man sich nicht verlassen sollte.",
+       "اپلیکیشن‌های سلامتی هست که نباید به آن‌ها اعتماد کرد."
+      ],
+      [
+       "Die Klinik, in der meine Schwester arbeitet, setzt Telemedizin ein.",
+       "کلینیکی که خواهرم در آن کار می‌کند، از پزشکی از راه دور استفاده می‌کند."
+      ]
+     ]
+    },
+    {
+     "head": "Stellung (1): direkt nach dem Nomen – oder nach der ganzen Nominalgruppe",
+     "de": "Normalerweise folgt der Relativsatz unmittelbar auf sein Bezugsnomen. Gehört dieses Nomen aber zu einer Nominalgruppe mit Genitivattribut oder Präposition (die Sicherheit der Daten, die Beratung von Menschen), setzt man den Relativsatz erst hinter die ganze Gruppe. Genus, Numerus und Verbform zeigen dann, auf welches Nomen er sich bezieht.",
+     "fa": "معمولاً جمله‌ی موصولی بلافاصله بعد از اسمی می‌آید که توصیفش می‌کند. اما اگر آن اسم بخشی از یک گروه اسمی باشد (مثلاً با Genitiv یا حرف اضافه: die Sicherheit der Daten)، جمله‌ی موصولی را بعد از کلِ گروه می‌گذاریم، نه وسط آن. از جنس و تعداد ضمیر و از صرف فعل می‌فهمیم به کدام اسم برمی‌گردد.",
+     "ex": [
+      [
+       "Die Sicherheit der Daten, die online übertragen werden, ist ein großes Thema.",
+       "امنیتِ داده‌هایی که آنلاین منتقل می‌شوند، موضوع مهمی است. (die + werden ← Daten، جمع)"
+      ],
+      [
+       "Die Beratung von Menschen, die auf dem Land leben, wird durch Videochats einfacher.",
+       "مشاوره به افرادی که در روستا زندگی می‌کنند، با تماس تصویری آسان‌تر می‌شود."
+      ]
+     ]
+    },
+    {
+     "head": "Stellung (2): Relativsatz nach dem Hauptsatz",
+     "de": "Wenn nach dem Bezugsnomen nur noch ein Verb oder ein Verbteil (Partizip II, Infinitiv, trennbares Präfix) folgen würde, stellt man den Relativsatz meistens ans Ende, also hinter den Hauptsatz. So bleibt das kurze Verbteil nicht allein nach einem langen Nebensatz stehen und der Satz ist leichter zu verstehen.",
+     "fa": "اگر بعد از اسمِ مرجع فقط یک فعل یا بخشی از فعل (Partizip II، مصدر یا پیشوندِ جداشدنی) باقی مانده باشد، جمله‌ی موصولی را معمولاً به بعد از جمله‌ی اصلی منتقل می‌کنیم. این‌طوری آن بخش کوچکِ فعل بعد از یک جمله‌ی طولانی تنها نمی‌ماند و جمله روان‌تر می‌شود.",
+     "ex": [
+      [
+       "Die Praxis hat ein System eingeführt, das Termine automatisch vergibt.",
+       "مطب سیستمی راه انداخته که نوبت‌ها را خودکار می‌دهد."
+      ],
+      [
+       "Morgen ruft mich der Spezialist an, den mein Hausarzt empfohlen hat.",
+       "فردا متخصصی که پزشک خانواده‌ام معرفی کرده، به من زنگ می‌زند."
       ]
      ]
     }
    ],
    "table": [
     [
-     "Präsens",
-     "werden + Partizip II",
-     "Die Daten werden gesendet.",
-     "حال: فرستاده می‌شوند"
+     "der / das / die / die",
+     "Nominativ: Subjekt",
+     "der Arzt, der online berät",
+     "فاعلِ جمله‌ی موصولی"
     ],
     [
-     "Präteritum",
-     "wurde + Partizip II",
-     "Die Daten wurden gesendet.",
-     "گذشته: فرستاده شدند"
+     "den / das / die / die",
+     "Akkusativ: sehen, nutzen …",
+     "die App, die ich nutze",
+     "مفعول مستقیم"
     ],
     [
-     "Perfekt",
-     "sein + Partizip II + worden",
-     "Die Daten sind gesendet worden.",
-     "worden، نه geworden"
+     "dem / dem / der / denen",
+     "Dativ: helfen, nützen …",
+     "Nutzer, denen das hilft",
+     "جمع: denen، نه den"
     ],
     [
-     "mit Modalverb",
-     "Modalverb + Partizip II + werden",
-     "Die Daten müssen gesendet werden.",
-     "باید فرستاده شوند"
+     "Präposition + Pronomen",
+     "Präposition bestimmt den Kasus",
+     "der Kurs, an dem ich teilnehme",
+     "حرف اضافه اولِ جمله"
     ],
     [
-     "Handelnder",
-     "von + D / durch + A",
-     "vom Arzt / durch einen Sensor",
-     "شخص / وسیله"
+     "Stellung 1",
+     "nach Nomen bzw. ganzer Nominalgruppe",
+     "die Sicherheit der Daten, die …",
+     "بعد از کل گروه اسمی"
+    ],
+    [
+     "Stellung 2",
+     "nach dem Hauptsatz",
+     "… ein System eingeführt, das …",
+     "وقتی فقط فعل مانده"
     ]
    ]
   },
   {
    "id": "t2",
-   "title": "Relativsätze mit Relativpronomen",
-   "title_fa": "جمله‌های موصولی با ضمیر موصولی",
-   "goal_de": "Ein Relativsatz beschreibt ein Nomen genauer. Das Relativpronomen richtet sich im Genus und Numerus nach dem Nomen, im Kasus aber nach seiner Funktion im Relativsatz. Das Verb steht am Ende.",
-   "goal_fa": "جمله‌ی موصولی یک اسم را دقیق‌تر توصیف می‌کند. ضمیر موصولی از نظر جنس و تعداد از اسم پیروی می‌کند، اما حالت (Kasus) آن به نقشش در خودِ جمله‌ی موصولی بستگی دارد. فعل در آخر جمله می‌آید.",
+   "title": "Relativpronomen im Genitiv",
+   "title_fa": "ضمیر موصولی در حالت Genitiv",
+   "goal_de": "Mit dessen und deren drücken Sie aus, dass etwas zu einer Person oder Sache gehört. Sie lernen, welche Form man wählt, was nach dem Pronomen folgt und wie man zwei Sätze mit sein-/ihr- zu einem Satz verbindet.",
+   "goal_fa": "با dessen و deren می‌گوییم چیزی به کسی یا چیزی تعلق دارد؛ مثل «که … ـَش» در فارسی («بیماری که پرونده‌اش …»). یاد می‌گیریم کدام شکل را انتخاب کنیم، بعد از آن چه می‌آید و چطور دو جمله با sein- یا ihr- را به یک جمله تبدیل کنیم.",
    "rules": [
     {
-     "head": "Formen: der, die, das, denen, dessen, deren",
-     "de": "Die Relativpronomen sehen fast wie der bestimmte Artikel aus. Ausnahmen: Dativ Plural denen, Genitiv dessen (maskulin, neutral) und deren (feminin, Plural).",
-     "fa": "ضمیرهای موصولی تقریباً مثل حرف تعریف معین‌اند. استثناها: Dativ جمع denen، و Genitiv: dessen (مذکر و خنثی) و deren (مؤنث و جمع).",
+     "head": "dessen / deren: Besitz und Zugehörigkeit",
+     "de": "Das Relativpronomen im Genitiv benutzt man, wenn das Bezugsnomen etwas 'besitzt' oder wenn etwas zu ihm gehört. Es übernimmt die Aufgabe eines Possessivartikels (sein-, ihr-) oder eines Genitivattributs: Die Ärztin hat eine Praxis. Ihre Praxis ist modern. → die Ärztin, deren Praxis modern ist.",
+     "fa": "ضمیر موصولیِ Genitiv زمانی به کار می‌رود که اسمِ مرجع چیزی را «دارد» یا چیزی به آن تعلق دارد. در واقع جای صفت ملکی (sein- / ihr-) را می‌گیرد. فارسی این را با «که … ـَش» می‌گوید: «خانم دکتری که مطبش مدرن است» ← die Ärztin, deren Praxis modern ist.",
      "ex": [
       [
-       "Das ist der Arzt, den ich gestern konsultiert habe.",
-       "این همان پزشکی است که دیروز به او مراجعه کردم."
+       "Die Ärztin, deren Praxis ganz neu ist, bietet auch Videosprechstunden an.",
+       "خانم دکتری که مطبش کاملاً نو است، ویزیت تصویری هم دارد."
       ],
       [
-       "Die Kunden, denen wir helfen, sind zufrieden.",
-       "مشتریانی که به آن‌ها کمک می‌کنیم راضی‌اند."
+       "Ein Gerät, dessen Akku schnell leer ist, nützt im Alltag wenig.",
+       "دستگاهی که باتری‌اش زود خالی می‌شود، در زندگی روزمره فایده‌ی چندانی ندارد."
       ]
      ]
     },
     {
-     "head": "Kasus = Funktion im Relativsatz",
-     "de": "Man fragt: Welche Rolle spielt das Pronomen im Relativsatz? Subjekt → Nominativ, Objekt von sehen → Akkusativ, Objekt von helfen → Dativ.",
-     "fa": "باید پرسید: ضمیر در جمله‌ی موصولی چه نقشی دارد؟ اگر فاعل است ← Nominativ؛ اگر مفعول فعلی مثل sehen است ← Akkusativ؛ اگر مفعول فعلی مثل helfen است ← Dativ.",
+     "head": "Die Form richtet sich nach dem Bezugsnomen (dem 'Besitzer')",
+     "de": "Maskulinum und Neutrum → dessen; Femininum und Plural → deren. Entscheidend ist nur das Nomen im Hauptsatz, also der 'Besitzer' – nicht das Nomen, das nach dem Pronomen kommt: der Arzt, dessen Patientinnen …; die Klinik, deren Arzt …",
+     "fa": "انتخاب بین dessen و deren فقط به «دارنده» یعنی اسمِ جمله‌ی اصلی بستگی دارد: مذکر و خنثی ← dessen، مؤنث و جمع ← deren. اسمی که بعد از ضمیر می‌آید هیچ تأثیری ندارد. پس «der Arzt, dessen Patientinnen …» درست است، حتی اگر Patientinnen مؤنثِ جمع باشد.",
      "ex": [
       [
-       "Die App, die ich jeden Tag nutze, ist kostenlos.",
-       "اپلیکیشنی که هر روز از آن استفاده می‌کنم رایگان است."
+       "Der Patient, dessen Akte verloren gegangen ist, muss alle Befunde neu besorgen.",
+       "بیماری که پرونده‌اش گم شده، باید همه‌ی جواب آزمایش‌ها را دوباره بگیرد."
+      ],
+      [
+       "Die Klinik, deren Arzt auch online berät, ist sehr beliebt.",
+       "کلینیکی که پزشکش آنلاین هم مشاوره می‌دهد، خیلی محبوب است."
       ]
      ]
     },
     {
-     "head": "Präposition + Relativpronomen",
-     "de": "Braucht das Verb oder der Ausdruck eine Präposition, steht sie vor dem Relativpronomen am Anfang des Relativsatzes. Die Präposition bestimmt den Kasus.",
-     "fa": "اگر فعل یا عبارت به حرف اضافه نیاز داشته باشد، حرف اضافه در ابتدای جمله‌ی موصولی و قبل از ضمیر موصولی می‌آید و حالت ضمیر را هم همان حرف اضافه تعیین می‌کند.",
+     "head": "Nach dessen / deren: Nomen ohne Artikel, Adjektiv mit starker Endung",
+     "de": "Nach dessen und deren steht das Nomen immer ohne Artikel (nicht: deren die Praxis). Steht ein Adjektiv vor dem Nomen, bekommt es die starke Endung, so als gäbe es keinen Artikel: dessen neues System, deren moderne Geräte, dessen erster Kunde.",
+     "fa": "بعد از dessen و deren اسم هرگز حرف تعریف نمی‌گیرد (نه deren die Praxis). اگر صفتی قبل از اسم باشد، صرفِ قوی می‌گیرد، یعنی مثل حالتی که هیچ حرف تعریفی نیست: dessen neues System، deren moderne Geräte. خودِ dessen و deren هم هیچ‌وقت پایانه نمی‌گیرند.",
      "ex": [
       [
-       "Das ist das Tablet, mit dem das Kind am Unterricht teilnimmt.",
-       "این همان تبلتی است که کودک با آن در کلاس شرکت می‌کند."
+       "Die Firma, deren neue App gerade getestet wird, sucht Mitarbeiter.",
+       "شرکتی که اپ جدیدش در حال آزمایش است، دنبال کارمند است."
       ],
       [
-       "Die Regionen, in denen es zu wenige Ärzte gibt, liegen auf dem Land.",
-       "مناطقی که در آن‌ها پزشک کم است، در روستاها هستند."
+       "Ein Start-up, dessen erster Kunde eine große Bank war, wächst schnell.",
+       "استارتاپی که اولین مشتری‌اش یک بانک بزرگ بود، سریع رشد می‌کند."
       ]
      ]
     },
     {
-     "head": "Genitiv: dessen / deren + Nomen",
-     "de": "dessen und deren zeigen Besitz oder Zugehörigkeit. Das folgende Nomen steht ohne Artikel.",
-     "fa": "dessen و deren مالکیت یا تعلق را نشان می‌دهند (که … اش). اسمِ بعد از آن‌ها بدون حرف تعریف می‌آید.",
+     "head": "Kasus des folgenden Nomens und Präposition + dessen / deren",
+     "de": "dessen und deren selbst verändern sich nie. Das Nomen danach (und ein Adjektiv) steht in dem Kasus, den es im Relativsatz braucht. Braucht der Relativsatz eine Präposition, steht sie vor dem Genitivpronomen: mit deren Hilfe, in dessen Praxis, von deren Erfahrung.",
+     "fa": "dessen و deren همیشه ثابت‌اند. اما اسمِ بعد از آن‌ها حالتی را می‌گیرد که در جمله‌ی موصولی لازم دارد (مثلاً مفعول باشد ← Akkusativ). اگر حرف اضافه لازم باشد، قبل از dessen/deren می‌آید: mit deren Hilfe یعنی «که با کمکِ او …».",
      "ex": [
       [
-       "Ein Symptom, dessen Ursache unklar ist, muss untersucht werden.",
-       "علامتی که علتش روشن نیست باید بررسی شود."
+       "Der Gründer, dessen Idee ich sehr spannend finde, stellt sich heute vor.",
+       "بنیان‌گذاری که ایده‌اش را خیلی جذاب می‌دانم، امروز خودش را معرفی می‌کند."
       ],
       [
-       "Die Firma, deren Gründerin heute spricht, kommt aus Berlin.",
-       "شرکتی که بنیان‌گذارش امروز صحبت می‌کند، اهل برلین است."
+       "Die Nachbarin, mit deren Hilfe ich die App eingerichtet habe, ist Informatikerin.",
+       "همسایه‌ای که با کمکش اپ را راه انداختم، برنامه‌نویس است."
+      ],
+      [
+       "Mein Hausarzt, in dessen Praxis es jetzt Online-Termine gibt, ist sehr modern.",
+       "پزشک خانواده‌ام که حالا در مطبش نوبت آنلاین هست، خیلی امروزی است."
+      ]
+     ]
+    },
+    {
+     "head": "Umformen: Relativsatz ↔ Genitivattribut / Possessivartikel",
+     "de": "Zur Kontrolle kann man den Relativsatz in einen Hauptsatz mit Genitiv zurückverwandeln: die Klinik, deren Wartezimmer voll ist → Das Wartezimmer der Klinik ist voll. Umgekehrt verbindet man zwei Sätze, deren zweiter einen Possessivartikel (sein-/ihr-) enthält, mit dessen/deren: Der Possessivartikel fällt weg, das Pronomen tritt an seine Stelle am Anfang.",
+     "fa": "برای اطمینان می‌توانیم جمله‌ی موصولی را به یک جمله‌ی ساده با Genitiv برگردانیم: deren Wartezimmer voll ist ← Das Wartezimmer der Klinik ist voll. برعکس، وقتی دو جمله داریم و در جمله‌ی دوم sein- یا ihr- هست، صفت ملکی حذف می‌شود و dessen/deren جایش در اولِ جمله‌ی موصولی می‌نشیند.",
+     "ex": [
+      [
+       "Das Krankenhaus, dessen Website sehr informativ ist … → Die Website des Krankenhauses ist sehr informativ.",
+       "بیمارستانی که وب‌سایتش پر از اطلاعات است … ← وب‌سایتِ بیمارستان پر از اطلاعات است."
+      ],
+      [
+       "Lena trägt eine Smartwatch. Ihr Akku hält eine Woche. → Lena trägt eine Smartwatch, deren Akku eine Woche hält.",
+       "لنا ساعت هوشمندی دارد که باتری‌اش یک هفته دوام می‌آورد."
       ]
      ]
     }
@@ -5891,96 +9058,144 @@
    "table": [
     [
      "Nominativ",
-     "Subjekt",
-     "der / die / das / die",
-     "فاعل"
+     "der / das / die / die",
+     "der Arzt, der …",
+     "مثل حرف تعریف"
     ],
     [
      "Akkusativ",
-     "direktes Objekt",
-     "den / die / das / die",
-     "مفعول مستقیم"
+     "den / das / die / die",
+     "der Arzt, den …",
+     "مثل حرف تعریف"
     ],
     [
      "Dativ",
-     "indirektes Objekt",
-     "dem / der / dem / denen",
+     "dem / dem / der / denen",
+     "die Ärzte, denen …",
      "جمع: denen"
     ],
     [
      "Genitiv",
-     "Besitz",
-     "dessen / deren / dessen / deren",
-     "اسم بعدش بی‌حرف تعریف"
+     "dessen / dessen / deren / deren",
+     "die Klinik, deren Ärzte …",
+     "اسم بعدی بی‌حرف تعریف"
     ],
     [
-     "Präposition",
-     "Präp. + Pronomen",
-     "mit dem, in denen, für die",
-     "حرف اضافه اول"
+     "sein- → dessen",
+     "Besitzer maskulin oder neutral",
+     "das Gerät, dessen Akku …",
+     "دارنده مذکر/خنثی"
+    ],
+    [
+     "ihr- → deren",
+     "Besitzer feminin oder Plural",
+     "die Ärzte, deren Patienten …",
+     "دارنده مؤنث/جمع"
     ]
    ]
   },
   {
    "id": "t3",
-   "title": "Relativsätze mit was, wo und wo(r) + Präposition",
-   "title_fa": "جمله‌های موصولی با was، wo و wo(r) + حرف اضافه",
-   "goal_de": "Nach unbestimmten Wörtern (alles, etwas, nichts, vieles, das Beste) und nach einem ganzen Satz benutzt man was. Bei Präpositionen wird daraus wo(r) + Präposition. Nach Orten kann man wo benutzen.",
-   "goal_fa": "بعد از کلمات نامعین (alles، etwas، nichts، vieles، das Beste) و وقتی به کل یک جمله اشاره می‌کنیم، از was استفاده می‌شود. اگر حرف اضافه لازم باشد، شکل wo(r) + حرف اضافه به کار می‌رود. بعد از اسم مکان هم می‌توان wo آورد.",
+   "title": "Relativsätze mit \"was\" und \"wo(r)\" + Präposition",
+   "title_fa": "جمله‌های موصولی با was و wo(r) + حرف اضافه",
+   "goal_de": "Nicht jeder Relativsatz bezieht sich auf ein konkretes Nomen. Nach unbestimmten Wörtern, nach nominalisierten Superlativen, nach dem Pronomen das und bei Bezug auf einen ganzen Satz benutzt man was – und bei Verben mit Präposition wo(r) + Präposition.",
+   "goal_fa": "همه‌ی جمله‌های موصولی به یک اسمِ مشخص برنمی‌گردند. بعد از کلمات نامعین (alles، etwas، nichts)، بعد از صفت عالیِ اسم‌شده (das Beste)، بعد از ضمیر das و وقتی به کلِ یک جمله اشاره می‌کنیم، از was استفاده می‌کنیم؛ و اگر فعل حرف اضافه بخواهد، از wo(r) + حرف اضافه.",
    "rules": [
     {
-     "head": "was nach alles, etwas, nichts, vieles …",
-     "de": "Nach Indefinitpronomen und nach substantivierten Superlativen (das Beste, das Einzige) steht was, nicht das.",
-     "fa": "بعد از ضمیرهای نامعین و صفت‌های عالیِ اسم‌شده (das Beste، das Einzige) از was استفاده می‌کنیم، نه das.",
+     "head": "was nach unbestimmten Zahlwörtern / Indefinitpronomen",
+     "de": "Nach alles, etwas, nichts, einiges, vieles, manches und weniges steht als Relativpronomen was, nicht das. Der Relativsatz ist ein normaler Nebensatz mit dem Verb am Ende. Steht was als Objekt, bleibt es trotzdem was – es hat keine eigenen Kasusformen.",
+     "fa": "بعد از alles، etwas، nichts، einiges، vieles، manches و weniges ضمیر موصولی was است، نه das. چون این کلمات به چیز مشخصی اشاره نمی‌کنند، از ضمیر «نامعین» was استفاده می‌شود. was صرف نمی‌شود و چه فاعل باشد چه مفعول، همان was می‌ماند. فعل هم مثل همه‌ی جمله‌های وابسته به آخر می‌رود.",
      "ex": [
       [
-       "Sagen Sie dem Arzt alles, was Ihnen Sorgen macht.",
-       "هر چیزی را که نگرانتان می‌کند به پزشک بگویید."
+       "Die App kann einiges, was ich nicht erwartet hätte.",
+       "این اپ کارهایی بلد است که انتظارش را نداشتم."
       ],
       [
-       "Das Beste, was du tun kannst, ist eine Zweitmeinung.",
-       "بهترین کاری که می‌توانی بکنی گرفتن نظر دوم است."
+       "Im Online-Shop findet man alles, was man für ein Smart Home braucht.",
+       "در فروشگاه اینترنتی هر چیزی که برای خانه‌ی هوشمند لازم است پیدا می‌شود."
+      ],
+      [
+       "Es gibt nichts, was mich an diesem Job stört.",
+       "هیچ چیزی در این شغل نیست که اذیتم کند."
       ]
      ]
     },
     {
-     "head": "was bezieht sich auf den ganzen Satz",
-     "de": "Bezieht sich der Relativsatz auf die ganze Aussage davor (nicht auf ein Nomen), steht was.",
-     "fa": "اگر جمله‌ی موصولی به کل جمله‌ی قبلی اشاره کند (نه به یک اسم)، از was استفاده می‌شود (که این موضوع …).",
+     "head": "was nach nominalisierten Superlativen im Neutrum",
+     "de": "Nach einem Superlativ, der als Nomen im Neutrum gebraucht wird (das Beste, das Schönste, das Wichtigste, das Interessanteste), steht was. Achtung: Steht der Superlativ als Adjektiv vor einem echten Nomen (die beste Idee, der wichtigste Punkt), nimmt man das normale Relativpronomen: die beste Idee, die …",
+     "fa": "بعد از صفت عالی‌ای که خودش اسم شده و خنثی است (das Beste، das Wichtigste، das Interessanteste) از was استفاده می‌کنیم. ولی دقت کنید: اگر صفت عالی فقط صفتِ یک اسمِ واقعی باشد (die beste Idee)، ضمیر موصولیِ معمولی می‌آید: die beste Idee, die …",
      "ex": [
       [
-       "Die Praxis hat jetzt Videosprechstunden, was viele Patienten freut.",
-       "مطب حالا ویزیت تصویری دارد که این موضوع بسیاری از بیماران را خوشحال می‌کند."
+       "Das Wichtigste, was ein Arzt braucht, ist Zeit für seine Patienten.",
+       "مهم‌ترین چیزی که یک پزشک لازم دارد، وقت برای بیمارانش است."
+      ],
+      [
+       "Das war die beste Entscheidung, die ich je getroffen habe.",
+       "این بهترین تصمیمی بود که تا حالا گرفته‌ام. (اسم واقعی: die Entscheidung ← die)"
       ]
      ]
     },
     {
-     "head": "wo(r) + Präposition",
-     "de": "Braucht das Verb eine Präposition und bezieht sich der Satz auf alles, etwas, nichts oder einen ganzen Satz, bildet man wo + Präposition. Beginnt die Präposition mit einem Vokal, kommt ein r dazu: worauf, worüber, woran; aber: womit, wofür, wovon.",
-     "fa": "اگر فعل حرف اضافه بخواهد و جمله به alles، etwas، nichts یا کل یک جمله برگردد، wo + حرف اضافه ساخته می‌شود. اگر حرف اضافه با مصوت شروع شود، یک r اضافه می‌شود: worauf، worüber، woran؛ اما: womit، wofür، wovon.",
+     "head": "was nach dem Pronomen das und nach da(r) + Präposition",
+     "de": "Auch nach dem Demonstrativpronomen das (Das, was …; Das ist es, was …) und nach einem Präpositionalpronomen wie darüber (= über das), davon, daran steht was. Das Präpositionalpronomen gehört zum Verb des Hauptsatzes, der Relativsatz erklärt, was gemeint ist.",
+     "fa": "بعد از ضمیر اشاره‌ی das (مثلاً Das, was du sagst … یا Das ist es, was …) و بعد از ضمیرهای حرف‌اضافه‌دار مثل darüber (= über das)، davon و daran هم was می‌آید. darüber به فعلِ جمله‌ی اصلی تعلق دارد (sprechen über) و جمله‌ی موصولی توضیح می‌دهد «درباره‌ی چه چیزی».",
      "ex": [
       [
-       "Das ist etwas, worauf ich mich sehr freue.",
-       "این چیزی است که خیلی منتظرش هستم."
+       "Das, was du beschreibst, klingt nach einer Allergie.",
+       "چیزی که توصیف می‌کنی، شبیه آلرژی است."
       ],
       [
-       "Es gibt nichts, wovor du Angst haben musst.",
-       "هیچ چیزی نیست که لازم باشد از آن بترسی."
+       "Ich erzähle euch jetzt davon, was wir im ersten Jahr erreicht haben.",
+       "حالا برایتان تعریف می‌کنم که در سال اول به چه چیزهایی رسیدیم."
       ]
      ]
     },
     {
-     "head": "wo bei Orten",
-     "de": "Nach Ortsangaben (Stadt, Land, Region) kann wo statt in dem / in der stehen. Nach Städte- und Ländernamen ohne Artikel benutzt man immer wo.",
-     "fa": "بعد از اسم‌های مکان (شهر، کشور، منطقه) می‌توان به‌جای in dem / in der از wo استفاده کرد. بعد از نام شهرها و کشورهای بدون حرف تعریف همیشه wo می‌آید.",
+     "head": "was mit Bezug auf den ganzen Satz",
+     "de": "Kommentiert der Relativsatz die gesamte Aussage des Hauptsatzes (und nicht ein einzelnes Nomen), steht was. Ein solcher Relativsatz steht immer nach dem Hauptsatz. Er drückt oft eine Bewertung oder Folge aus: …, was mich freut / was viel Zeit kostet / was praktisch ist.",
+     "fa": "اگر جمله‌ی موصولی درباره‌ی کلِ جمله‌ی قبل نظر بدهد (نه درباره‌ی یک اسم)، was به کار می‌رود. معادلش در فارسی «که این موضوع …» یا «و این …» است. این نوع جمله‌ی موصولی همیشه بعد از جمله‌ی اصلی می‌آید و معمولاً یک ارزیابی یا نتیجه را بیان می‌کند.",
      "ex": [
       [
-       "Die Stadt, wo ich wohne, hat eine große Gründerszene.",
-       "شهری که در آن زندگی می‌کنم، فضای استارتاپی بزرگی دارد."
+       "Unsere Plattform wächst sehr schnell, was uns natürlich freut.",
+       "پلتفرم ما خیلی سریع رشد می‌کند که البته خوشحالمان می‌کند."
       ],
       [
-       "Ich ziehe nach Hamburg, wo meine Firma sitzt.",
-       "به هامبورگ می‌روم، جایی که شرکتم در آن است."
+       "Die Kamera lässt sich auch per App steuern, was sehr praktisch ist.",
+       "دوربین با اپ هم کنترل می‌شود و این خیلی کاربردی است."
+      ]
+     ]
+    },
+    {
+     "head": "wo(r) + Präposition bei Verben und Ausdrücken mit Präposition",
+     "de": "In allen vier Fällen gilt: Braucht das Verb oder der Ausdruck im Relativsatz eine Präposition (sich freuen über, rechnen mit, stolz sein auf, arbeiten an), ersetzt man was durch wo + Präposition. Beginnt die Präposition mit einem Vokal, wird ein r eingeschoben: woran, worauf, woraus, worin, worüber, worum, worunter. Ohne r: wobei, wodurch, wofür, wogegen, womit, wonach, wovon, wovor, wozu.",
+     "fa": "در هر چهار حالتِ بالا اگر فعل یا عبارتِ جمله‌ی موصولی حرف اضافه بخواهد (مثل sich freuen über یا rechnen mit)، به‌جای was شکل wo + حرف اضافه را می‌سازیم. اگر حرف اضافه با مصوت شروع شود، یک r میانجی اضافه می‌شود: worauf، worüber، woran. با حرف بی‌صدا r لازم نیست: womit، wofür، wovon. اول باید حرف اضافه‌ی ثابتِ فعل را بدانید!",
+     "ex": [
+      [
+       "Das ist etwas, wofür ich mich sehr interessiere.",
+       "این چیزی است که خیلی به آن علاقه دارم. (sich interessieren für)"
+      ],
+      [
+       "Wir haben in drei neue Städte expandiert, worauf wir sehr stolz sind.",
+       "ما در سه شهر جدید گسترش پیدا کردیم و به این خیلی افتخار می‌کنیم. (stolz sein auf)"
+      ],
+      [
+       "Das Spannendste, woran wir gerade arbeiten, ist eine neue App.",
+       "هیجان‌انگیزترین چیزی که الان رویش کار می‌کنیم، یک اپ جدید است. (arbeiten an)"
+      ]
+     ]
+    },
+    {
+     "head": "Nicht verwechseln: konkretes Nomen → der/die/das",
+     "de": "was und wo(r) + Präposition benutzt man nur in den genannten Fällen. Bezieht sich der Relativsatz auf ein konkretes Nomen, nimmt man das normale Relativpronomen, mit Präposition z. B. über das, an dem, mit der. Also: das Projekt, an dem ich arbeite – aber: etwas, woran ich arbeite.",
+     "fa": "was و wo(r) + حرف اضافه فقط در همان حالت‌های گفته‌شده می‌آیند. اگر جمله‌ی موصولی به یک اسمِ مشخص برگردد، ضمیر موصولیِ معمولی لازم است و با حرف اضافه می‌شود مثلاً über das یا an dem. مقایسه کنید: das Projekt, an dem ich arbeite ولی etwas, woran ich arbeite.",
+     "ex": [
+      [
+       "Das Thema, über das wir heute sprechen, ist der Datenschutz.",
+       "موضوعی که امروز درباره‌اش صحبت می‌کنیم، حفاظت از داده‌هاست."
+      ],
+      [
+       "Beim Smart Home gibt es vieles, worüber wir noch sprechen müssen.",
+       "درباره‌ی خانه‌ی هوشمند چیزهای زیادی هست که هنوز باید درباره‌شان حرف بزنیم."
       ]
      ]
     }
@@ -5988,27 +9203,161 @@
    "table": [
     [
      "was",
-     "nach alles, etwas, nichts, das Beste",
+     "nach alles, etwas, nichts, einiges, vieles",
      "alles, was du brauchst",
      "بعد از کلمات نامعین"
     ],
     [
      "was",
-     "Bezug auf ganzen Satz",
+     "nach nominalisiertem Superlativ (Neutrum)",
+     "das Beste, was es gibt",
+     "das Beste / das Wichtigste"
+    ],
+    [
+     "was",
+     "nach das / darüber, davon …",
+     "das, was ich meine",
+     "بعد از das و da(r)+حرف اضافه"
+    ],
+    [
+     "was",
+     "Bezug auf den ganzen Satz",
      "…, was mich freut.",
-     "اشاره به کل جمله"
+     "«که این موضوع …»"
     ],
     [
-     "wo(r) + Präp.",
-     "Verb mit Präposition",
-     "etwas, worüber ich nachdenke",
-     "مصوت ← r اضافه"
+     "wo + Präposition",
+     "Präposition beginnt mit Konsonant",
+     "wofür, womit, wovon",
+     "بدون r"
     ],
     [
-     "wo",
-     "nach Ortsangaben",
-     "die Stadt, wo ich lebe",
-     "= in der"
+     "wor + Präposition",
+     "Präposition beginnt mit Vokal",
+     "worauf, worüber, woran",
+     "r میانجی"
+    ],
+    [
+     "Präp. + der/die/das",
+     "Bezug auf ein konkretes Nomen",
+     "das Thema, über das …",
+     "اسم مشخص ← ضمیر معمولی"
+    ]
+   ]
+  },
+  {
+   "id": "t4",
+   "title": "Wortbildung – Verben und Nomen aus dem Englischen",
+   "title_fa": "واژه‌سازی – فعل‌ها و اسم‌های برگرفته از انگلیسی",
+   "goal_de": "In der digitalen Welt benutzt man viele Wörter aus dem Englischen: chatten, posten, streamen. Sie lernen, welchen Artikel die daraus gebildeten Nomen haben und wie man diese Verben im Deutschen konjugiert.",
+   "goal_fa": "در دنیای دیجیتال کلمه‌های انگلیسیِ زیادی وارد آلمانی شده‌اند: chatten، posten، streamen. در این بخش یاد می‌گیریم اسم‌هایی که از این فعل‌ها ساخته می‌شوند چه حرف تعریفی دارند و خودِ این فعل‌ها در آلمانی چطور صرف می‌شوند.",
+   "rules": [
+    {
+     "head": "Infinitiv als Nomen → immer das",
+     "de": "Jeden Infinitiv kann man großschreiben und als Nomen benutzen; er bezeichnet dann die Tätigkeit selbst und ist immer Neutrum: das Chatten, das Bloggen, das Simsen, das Skypen. Auch nach Präposition + Artikel (beim, zum = bei dem, zu dem) erkennt man das Neutrum.",
+     "fa": "هر مصدری را می‌توان با حرف بزرگ نوشت و به‌عنوان اسم به کار برد؛ در این حالت خودِ «عمل» را نشان می‌دهد (مثل «چت کردن») و همیشه خنثی است: das Chatten، das Bloggen. در ترکیب‌هایی مثل beim و zum هم همین das پنهان است.",
+     "ex": [
+      [
+       "Das Chatten am Abend kostet mich viel Zeit.",
+       "چت کردنِ شبانه وقت زیادی از من می‌گیرد."
+      ],
+      [
+       "Beim Streamen braucht man eine schnelle Internetverbindung.",
+       "برای استریم کردن به اینترنت پرسرعت نیاز است."
+      ]
+     ]
+    },
+    {
+     "head": "Nomen aus dem Wortstamm → meist der",
+     "de": "Bildet man das Nomen aus dem Stamm des Verbs, ist es meistens Maskulinum: chatten → der Chat, bloggen → der Blog, posten → der Post, streamen → der Stream. Besonderheit: twittern → der Tweet, die Schreibung ändert sich! Bei manchen Wörtern hört man auch einen anderen Artikel (das Blog); lernen Sie hier die Form mit der.",
+     "fa": "اگر اسم را از ریشه‌ی فعل بسازیم، معمولاً مذکر است: der Chat، der Blog، der Post، der Stream. مورد خاص: از twittern اسم der Tweet ساخته می‌شود که املایش فرق دارد! برای بعضی کلمه‌ها حرف تعریف دیگری هم شنیده می‌شود (das Blog)، اما شکل استاندارد کتاب der است.",
+     "ex": [
+      [
+       "Ich habe deinen Post über das neue Smart Home gelesen.",
+       "پستت درباره‌ی خانه‌ی هوشمند جدید را خواندم."
+      ],
+      [
+       "Der Tweet des Ministers wurde tausendfach geteilt.",
+       "توییتِ وزیر هزاران بار به اشتراک گذاشته شد."
+      ]
+     ]
+    },
+    {
+     "head": "Nomen auf -ing → immer das",
+     "de": "Englische Nomen mit der Endung -ing sind im Deutschen immer Neutrum: das Streaming, das Shopping, das Marketing, das Catering, das Online-Banking, das Recruiting, das Meeting. Man schreibt sie groß und dekliniert sie wie neutrale Nomen (des Marketings).",
+     "fa": "اسم‌های انگلیسی با پسوند -ing در آلمانی همیشه خنثی‌اند: das Streaming، das Shopping، das Marketing، das Catering، das Online-Banking، das Meeting. این قاعده بی‌استثنا و خیلی به درد بخور است: هر وقت -ing دیدید، das بگذارید.",
+     "ex": [
+      [
+       "Das Online-Banking spart mir den Weg zur Bank.",
+       "بانکداری اینترنتی رفتن به بانک را برایم غیرضروری می‌کند."
+      ],
+      [
+       "Das Catering für die Messe übernimmt ein junges Start-up.",
+       "پذیرایی نمایشگاه را یک استارتاپ جوان بر عهده دارد."
+      ]
+     ]
+    },
+    {
+     "head": "Präsens: Die Verben sind regelmäßig",
+     "de": "Verben aus dem Englischen werden wie regelmäßige (schwache) Verben konjugiert: ich poste, du postest, er postet, wir posten, ihr postet, sie posten. Endet der Stamm auf -t oder -d, braucht man ein e vor -st und -t (du chattest, er chattet). Endet der Stamm auf -s, bekommt du nur -t (du simst). Verben auf -ern verlieren bei wir/sie das e der Endung: ich twittere, wir twittern.",
+     "fa": "این فعل‌ها در آلمانی کاملاً باقاعده صرف می‌شوند. اگر ریشه به -t یا -d ختم شود، قبل از -st و -t یک e اضافه می‌شود (du chattest، er chattet). اگر ریشه به -s ختم شود، برای du فقط -t می‌آید (du simst). فعل‌هایی که به -ern ختم می‌شوند: ich twittere، wir twittern.",
+     "ex": [
+      [
+       "Du chattest ja schon wieder mit deiner Schwester!",
+       "باز هم که داری با خواهرت چت می‌کنی!"
+      ],
+      [
+       "Mein Opa simst lieber, als zu telefonieren.",
+       "پدربزرگم ترجیح می‌دهد پیامک بدهد تا تلفن بزند."
+      ]
+     ]
+    },
+    {
+     "head": "Perfekt: haben + ge-…-t",
+     "de": "Alle diese Verben bilden das Perfekt mit haben und das Partizip II nach dem regelmäßigen Muster ge-…-t: gechattet, gebloggt, gepostet, gestreamt, gesimst, geskypt, getwittert, gewhatsappt. Die englische Schreibung des Stammes bleibt erhalten.",
+     "fa": "همه‌ی این فعل‌ها ماضی نقلی را با haben می‌سازند و Partizip II آن‌ها طبق الگوی باقاعده‌ی ge-…-t است: gechattet، gepostet، gestreamt، geskypt. املای انگلیسیِ ریشه تغییر نمی‌کند؛ پس geskypt درست است، نه geskaipt. بعد از ریشه‌ی مختوم به -t هم یک e می‌آید: gechattet، gepostet.",
+     "ex": [
+      [
+       "Wir haben gestern zwei Stunden mit unseren Eltern geskypt.",
+       "دیروز دو ساعت با پدر و مادرمان اسکایپ کردیم."
+      ],
+      [
+       "Hast du das Foto von der Messe schon gepostet?",
+       "عکسِ نمایشگاه را پست کرده‌ای؟"
+      ]
+     ]
+    }
+   ],
+   "table": [
+    [
+     "das + Infinitiv",
+     "Tätigkeit, immer Neutrum",
+     "das Bloggen, das Chatten",
+     "همیشه خنثی"
+    ],
+    [
+     "der + Wortstamm",
+     "meist Maskulinum",
+     "der Chat, der Blog, der Tweet (!)",
+     "معمولاً مذکر"
+    ],
+    [
+     "das + -ing",
+     "immer Neutrum",
+     "das Streaming, das Shopping",
+     "همیشه خنثی"
+    ],
+    [
+     "Präsens",
+     "regelmäßig; Stamm auf -t: + e",
+     "du chattest, er postet",
+     "صرف باقاعده"
+    ],
+    [
+     "Perfekt",
+     "haben + ge-…-t",
+     "hat gestreamt, hat gesimst",
+     "با haben"
     ]
    ]
   }
@@ -6018,328 +9367,575 @@
    "id": "L4-g1",
    "t": "t1",
    "type": "mc",
-   "q": "Jeden Tag ___ die Daten automatisch an den Arzt übertragen.",
+   "q": "Die Ärztin, ___ ich die Fotos von meinem Hautausschlag geschickt habe, hat sofort geantwortet.",
    "opts": [
-    "wird",
-    "haben",
-    "werden",
-    "worden"
+    "die",
+    "der",
+    "den",
+    "deren"
    ],
-   "a": 2,
-   "de": "Präsens Passiv: werden + Partizip II. Subjekt ist die Daten (Plural) → werden.",
-   "fa": "مجهولِ زمان حال: werden + Partizip II. فاعل die Daten جمع است، پس werden."
+   "a": 1,
+   "de": "jemandem etwas schicken → Dativ; die Ärztin ist feminin Singular → der.",
+   "fa": "schicken برای گیرنده Dativ می‌خواهد؛ Ärztin مؤنث مفرد است ← der."
   },
   {
    "id": "L4-g2",
    "t": "t1",
    "type": "mc",
-   "q": "Das Verbot der Fernbehandlung ___ 2018 aufgehoben.",
+   "q": "Es gibt viele Patienten, ___ eine Videosprechstunde den langen Weg in die Stadt erspart.",
    "opts": [
-    "wurde",
-    "wurden",
-    "hat",
-    "geworden"
+    "die",
+    "denen",
+    "den",
+    "deren"
    ],
-   "a": 0,
-   "de": "Präteritum Passiv, Subjekt im Singular (das Verbot) → wurde.",
-   "fa": "مجهولِ گذشته‌ی ساده و فاعل مفرد است (das Verbot)، پس wurde."
+   "a": 1,
+   "de": "jemandem etwas ersparen → Dativ; Plural → denen (nicht den).",
+   "fa": "ersparen برای شخص Dativ می‌خواهد و اسم جمع است ← denen، نه den."
   },
   {
    "id": "L4-g3",
    "t": "t1",
-   "type": "mc",
-   "q": "Die Diagnose ist von einem Spezialisten bestätigt ___.",
-   "opts": [
-    "geworden",
-    "worden",
-    "werden",
-    "wurde"
+   "type": "gap",
+   "q": "Das ist der Online-Kurs, an ___ ich im Moment teilnehme. (der Kurs)",
+   "a": [
+    "dem",
+    "welchem"
    ],
-   "a": 1,
-   "de": "Perfekt Passiv: sein + Partizip II + worden (nicht geworden).",
-   "fa": "ماضی نقلیِ مجهول: sein + Partizip II + worden (نه geworden)."
+   "de": "teilnehmen an + Dativ; der Kurs ist maskulin → an dem.",
+   "fa": "teilnehmen با an + Dativ می‌آید؛ Kurs مذکر است ← an dem."
   },
   {
    "id": "L4-g4",
    "t": "t1",
-   "type": "mc",
-   "q": "Die Wartezeiten in der Ambulanz müssen dringend reduziert ___.",
-   "opts": [
-    "worden",
-    "wird",
-    "geworden",
-    "werden"
+   "type": "gap",
+   "q": "Der Sensor, ___ wir im Flur installiert haben, meldet jede Bewegung. (Akkusativ)",
+   "a": [
+    "den",
+    "welchen"
    ],
-   "a": 3,
-   "de": "Passiv mit Modalverb: Modalverb + Partizip II + werden (Infinitiv).",
-   "fa": "مجهول با فعل وجهی: فعل وجهی + Partizip II + werden (مصدر)."
+   "de": "etwas installieren → Akkusativ; maskulin → den.",
+   "fa": "installieren مفعول مستقیم می‌خواهد؛ Sensor مذکر است ← den."
   },
   {
    "id": "L4-g5",
    "t": "t1",
    "type": "mc",
-   "q": "Der Einbrecher wurde ___ einen Bewegungssensor entdeckt.",
+   "q": "Es gibt Gesundheits-Apps, auf ___ man sich nicht verlassen sollte.",
    "opts": [
-    "von",
-    "durch",
-    "aus",
-    "bei"
+    "die",
+    "denen",
+    "der",
+    "dem"
    ],
-   "a": 1,
-   "de": "Ein Mittel (Sensor) nennt man mit durch + Akkusativ (einen). von würde den Dativ (einem) verlangen.",
-   "fa": "وسیله (حسگر) را با durch + Akkusativ می‌آوریم (einen). von حالت Dativ (einem) لازم دارد، پس غلط است."
+   "a": 0,
+   "de": "sich verlassen auf + Akkusativ; Plural → auf die.",
+   "fa": "sich verlassen auf با Akkusativ می‌آید؛ جمع ← auf die. denen حالت Dativ است و غلط."
   },
   {
    "id": "L4-g6",
    "t": "t1",
    "type": "mc",
-   "q": "Aktiv: Der Arzt stellt eine Erkrankung fest. – Welcher Passivsatz ist richtig?",
+   "q": "Die Telemedizin ist ein Angebot, ___ besonders Menschen auf dem Land profitieren.",
    "opts": [
-    "Eine Erkrankung wird vom Arzt feststellen.",
-    "Eine Erkrankung ist vom Arzt festgestellt werden.",
-    "Eine Erkrankung wird vom Arzt festgestellt.",
-    "Eine Erkrankung wird durch den Arzt festgestellt worden."
+    "von dem",
+    "von der",
+    "von denen",
+    "dem"
    ],
-   "a": 2,
-   "de": "Präsens Passiv: wird + Partizip II (festgestellt); die Person mit von + Dativ (vom Arzt).",
-   "fa": "مجهولِ حال: wird + Partizip II (festgestellt)؛ شخص با von + Dativ (vom Arzt)."
+   "a": 0,
+   "de": "profitieren von + Dativ; das Angebot ist neutral Singular → von dem.",
+   "fa": "profitieren با von + Dativ می‌آید؛ Angebot خنثی و مفرد است ← von dem."
   },
   {
    "id": "L4-g7",
    "t": "t1",
    "type": "gap",
-   "q": "In der Videosprechstunde ___ Bild und Ton in Echtzeit übertragen. (werden, Präsens)",
+   "q": "Die Kollegen, mit ___ ich das Projekt plane, arbeiten alle im Homeoffice. (die Kollegen)",
    "a": [
-    "werden"
+    "denen",
+    "welchen"
    ],
-   "de": "Zwei Subjekte (Bild und Ton) → Plural → werden.",
-   "fa": "دو فاعل (Bild و Ton) داریم، پس جمع است ← werden."
+   "de": "mit + Dativ; Plural → mit denen.",
+   "fa": "mit همیشه Dativ می‌خواهد و Kollegen جمع است ← mit denen."
   },
   {
    "id": "L4-g8",
    "t": "t1",
-   "type": "gap",
-   "q": "Die Event-Plattform ___ im Jahr 2015 gegründet. (werden, Präteritum)",
-   "a": [
-    "wurde"
+   "type": "mc",
+   "q": "Verbinden Sie: Die Sicherheit der Daten ist wichtig. Die Daten werden online übertragen.",
+   "opts": [
+    "Die Sicherheit der Daten, die online übertragen werden, ist wichtig.",
+    "Die Sicherheit, die online übertragen werden, der Daten ist wichtig.",
+    "Die Sicherheit der Daten, deren online übertragen werden, ist wichtig.",
+    "Die Sicherheit der Daten ist, die online übertragen werden, wichtig."
    ],
-   "de": "Präteritum Passiv, Singular → wurde.",
-   "fa": "مجهولِ گذشته‌ی ساده، مفرد ← wurde."
+   "a": 0,
+   "de": "Das Bezugsnomen gehört zu einer Nominalgruppe mit Genitiv → der Relativsatz steht nach der ganzen Gruppe; Subjekt → Nominativ Plural die.",
+   "fa": "Daten بخشی از گروه اسمیِ die Sicherheit der Daten است، پس جمله‌ی موصولی بعد از کل گروه می‌آید؛ ضمیر فاعل و جمع است ← die."
   },
   {
    "id": "L4-g9",
    "t": "t1",
-   "type": "gap",
-   "q": "Das Angebot ist im letzten Jahr stark erweitert ___. (Perfekt Passiv)",
-   "a": [
-    "worden"
+   "type": "mc",
+   "q": "Verbinden Sie: Die Klinik hat ein neues System eingeführt. Das System vergibt Termine automatisch.",
+   "opts": [
+    "Die Klinik hat ein neues System eingeführt, das Termine automatisch vergibt.",
+    "Die Klinik hat ein neues System eingeführt, das vergibt Termine automatisch.",
+    "Die Klinik hat ein neues System eingeführt, der Termine automatisch vergibt.",
+    "Die Klinik hat, das Termine automatisch vergibt, ein neues System eingeführt."
    ],
-   "de": "Perfekt Passiv endet mit worden.",
-   "fa": "ماضی نقلیِ مجهول با worden تمام می‌شود."
+   "a": 0,
+   "de": "Nach dem Nomen folgt nur noch das Partizip → Relativsatz nach dem Hauptsatz; das System = neutral → das; Verb am Ende.",
+   "fa": "بعد از اسم فقط Partizip مانده، پس جمله‌ی موصولی به بعد از جمله‌ی اصلی می‌رود؛ System خنثی است ← das و فعل در آخر."
   },
   {
    "id": "L4-g10",
    "t": "t1",
-   "type": "gap",
-   "q": "Gesundheitsdaten dürfen nicht missbraucht ___. (Passiv mit Modalverb)",
-   "a": [
-    "werden"
+   "type": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "opts": [
+    "Morgen ruft mich der Spezialist an, den mein Hausarzt empfohlen hat.",
+    "Morgen ruft mich der Spezialist an, der mein Hausarzt empfohlen hat.",
+    "Morgen ruft mich der Spezialist an, den mein Hausarzt hat empfohlen.",
+    "Morgen ruft mich der Spezialist an, dem mein Hausarzt empfohlen hat."
    ],
-   "de": "Modalverb + Partizip II + werden.",
-   "fa": "فعل وجهی + Partizip II + werden."
+   "a": 0,
+   "de": "jemanden empfehlen → Akkusativ (den); Subjekt ist mein Hausarzt; das konjugierte Verb steht am Ende.",
+   "fa": "empfehlen برای کسی که معرفی می‌شود Akkusativ می‌خواهد ← den؛ فاعل mein Hausarzt است و فعلِ صرف‌شده باید آخر بیاید."
   },
   {
    "id": "L4-g11",
-   "t": "t2",
-   "type": "mc",
-   "q": "Das ist die Spezialistin, ___ ich meine Befunde geschickt habe.",
-   "opts": [
+   "t": "t1",
+   "type": "gap",
+   "q": "Eine Diagnose, ___ schwierig ist, sollte ein zweiter Arzt prüfen. (Subjekt, die Diagnose)",
+   "a": [
     "die",
-    "deren",
-    "der",
-    "denen"
+    "welche"
    ],
-   "a": 2,
-   "de": "jemandem etwas schicken → Dativ; feminin Singular → der.",
-   "fa": "فعل schicken برای گیرنده Dativ می‌خواهد؛ مؤنث مفرد ← der."
+   "de": "Das Pronomen ist Subjekt → Nominativ; feminin → die.",
+   "fa": "ضمیر فاعلِ جمله‌ی موصولی است ← Nominativ؛ Diagnose مؤنث است ← die."
   },
   {
    "id": "L4-g12",
    "t": "t2",
    "type": "mc",
-   "q": "Die App, ___ ich jeden Tag nutze, ist kostenlos.",
+   "q": "Der Rentner, ___ Blutdruck täglich per App gemessen wird, muss seltener zum Arzt.",
    "opts": [
-    "die",
-    "der",
     "deren",
-    "welcher"
+    "dessen",
+    "den",
+    "dem"
    ],
-   "a": 0,
-   "de": "nutzen + Akkusativ; die App ist feminin → die.",
-   "fa": "nutzen مفعول Akkusativ می‌خواهد؛ App مؤنث است ← die."
+   "a": 1,
+   "de": "Besitz (sein Blutdruck); der Rentner ist maskulin → dessen.",
+   "fa": "مالکیت است (فشار خونِ او)؛ Rentner مذکر است ← dessen."
   },
   {
    "id": "L4-g13",
    "t": "t2",
    "type": "mc",
-   "q": "Ein Symptom, ___ Ursache unklar ist, sollte untersucht werden.",
+   "q": "Landärzte, ___ Wartezimmer oft voll sind, könnten von Online-Sprechstunden profitieren.",
    "opts": [
-    "deren",
     "dessen",
-    "das",
-    "dem"
+    "die",
+    "deren",
+    "denen"
    ],
-   "a": 1,
-   "de": "Besitz (die Ursache des Symptoms) → Genitiv; das Symptom ist neutral → dessen.",
-   "fa": "مالکیت است (علتِ علامت) ← Genitiv؛ Symptom خنثی است ← dessen."
+   "a": 2,
+   "de": "Besitz (ihre Wartezimmer); Bezugsnomen im Plural → deren.",
+   "fa": "مالکیت است (مطب‌هایشان)؛ اسم مرجع جمع است ← deren."
   },
   {
    "id": "L4-g14",
    "t": "t2",
    "type": "mc",
-   "q": "Die Regionen, ___ es zu wenige Ärzte gibt, liegen meist auf dem Land.",
+   "q": "Der Physiotherapeut, ___ Patientinnen die Übungen per Video machen, ist sehr modern.",
    "opts": [
-    "in die",
-    "in dem",
-    "in denen",
-    "deren"
+    "deren",
+    "dessen",
+    "die",
+    "denen"
    ],
-   "a": 2,
-   "de": "in + Dativ (wo?), Plural → in denen.",
-   "fa": "in برای «کجا؟» با Dativ می‌آید و اسم جمع است ← in denen."
+   "a": 1,
+   "de": "Entscheidend ist der Besitzer (der Physiotherapeut, maskulin) → dessen, auch wenn danach ein Plural folgt.",
+   "fa": "ملاک «دارنده» است، یعنی Physiotherapeut که مذکر است ← dessen؛ جمع بودنِ Patientinnen مهم نیست."
   },
   {
    "id": "L4-g15",
    "t": "t2",
-   "type": "mc",
-   "q": "Die Plattform, ___ Gründerin heute auf der Messe spricht, heißt EveLoc.",
-   "opts": [
-    "dessen",
-    "die",
-    "der",
-    "deren"
+   "type": "gap",
+   "q": "Das Pflegeheim, ___ Bewohner jetzt Tablets bekommen, arbeitet mit einer Klinik zusammen. (Genitiv)",
+   "a": [
+    "dessen"
    ],
-   "a": 3,
-   "de": "Besitz → Genitiv; die Plattform ist feminin → deren.",
-   "fa": "مالکیت ← Genitiv؛ Plattform مؤنث است ← deren."
+   "de": "das Pflegeheim ist neutral → dessen.",
+   "fa": "Pflegeheim خنثی است ← dessen."
   },
   {
    "id": "L4-g16",
    "t": "t2",
    "type": "gap",
-   "q": "Die Stadt, in ___ die Messe stattfindet, ist sehr teuer. (die Stadt)",
+   "q": "Die Plattform, ___ Gründerin heute auf der Messe spricht, hat schon 50 Mitarbeiter. (Genitiv)",
    "a": [
-    "der",
-    "welcher"
+    "deren"
    ],
-   "de": "in + Dativ (wo?), feminin → in der.",
-   "fa": "in برای مکان با Dativ؛ Stadt مؤنث است ← in der."
+   "de": "die Plattform ist feminin → deren.",
+   "fa": "Plattform مؤنث است ← deren."
   },
   {
    "id": "L4-g17",
    "t": "t2",
-   "type": "gap",
-   "q": "Die Kunden, ___ wir unsere Zusatzservices anbieten, sind meist Firmen. (Dativ Plural)",
-   "a": [
-    "denen",
-    "welchen"
+   "type": "mc",
+   "q": "Verbinden Sie: Sara nutzt eine Fitness-App. Ihre Bedienung ist sehr einfach.",
+   "opts": [
+    "Sara nutzt eine Fitness-App, deren Bedienung sehr einfach ist.",
+    "Sara nutzt eine Fitness-App, dessen Bedienung sehr einfach ist.",
+    "Sara nutzt eine Fitness-App, deren die Bedienung sehr einfach ist.",
+    "Sara nutzt eine Fitness-App, deren Bedienung ist sehr einfach."
    ],
-   "de": "jemandem etwas anbieten → Dativ Plural → denen.",
-   "fa": "anbieten برای گیرنده Dativ می‌خواهد؛ جمع ← denen."
+   "a": 0,
+   "de": "ihr- bezieht sich auf die App (feminin) → deren; Nomen ohne Artikel; Verb am Ende.",
+   "fa": "Ihre به App (مؤنث) برمی‌گردد ← deren؛ اسم بعدی بدون حرف تعریف و فعل در آخر."
   },
   {
    "id": "L4-g18",
    "t": "t2",
-   "type": "gap",
-   "q": "Das Gerät, mit ___ man die Heizung steuert, ist sehr klein. (das Gerät)",
-   "a": [
-    "dem",
-    "welchem"
+   "type": "mc",
+   "q": "die Firma, deren Internetauftritt sehr modern ist → Welcher Satz hat die gleiche Bedeutung?",
+   "opts": [
+    "Der Internetauftritt der Firma ist sehr modern.",
+    "Die Firma des Internetauftritts ist sehr modern.",
+    "Der Internetauftritt des Firmas ist sehr modern.",
+    "Der Internetauftritt der Firmen ist sehr modern."
    ],
-   "de": "mit + Dativ, neutral → mit dem.",
-   "fa": "mit با Dativ می‌آید؛ Gerät خنثی است ← mit dem."
+   "a": 0,
+   "de": "deren + Nomen = Genitivattribut: der Internetauftritt der Firma (Singular, feminin).",
+   "fa": "deren + اسم یعنی همان Genitiv: der Internetauftritt der Firma (مفرد و مؤنث)."
   },
   {
    "id": "L4-g19",
-   "t": "t3",
+   "t": "t2",
    "type": "mc",
-   "q": "Erzählen Sie Ihrem Arzt alles, ___ Sie beunruhigt.",
+   "q": "Das Start-up, dessen ___ Produkt ein großer Erfolg war, sucht neue Investoren.",
    "opts": [
-    "das",
-    "was",
-    "dem",
-    "wo"
+    "erste",
+    "ersten",
+    "erstes",
+    "erster"
    ],
-   "a": 1,
-   "de": "Nach alles steht was.",
-   "fa": "بعد از alles از was استفاده می‌شود."
+   "a": 2,
+   "de": "Nach dessen steht kein Artikel → starke Adjektivendung; Produkt ist neutral, Nominativ → erstes.",
+   "fa": "بعد از dessen حرف تعریف نیست، پس صفت صرف قوی می‌گیرد؛ Produkt خنثی و فاعل است ← erstes."
   },
   {
    "id": "L4-g20",
-   "t": "t3",
-   "type": "mc",
-   "q": "Beim Smart Home gibt es vieles, ___ ich mir Sorgen mache.",
-   "opts": [
-    "was",
-    "wofür",
-    "worüber",
-    "über das"
+   "t": "t2",
+   "type": "gap",
+   "q": "Die Nachbarin, mit ___ Hilfe ich das Smart Home eingerichtet habe, ist Informatikerin. (Genitiv)",
+   "a": [
+    "deren"
    ],
-   "a": 2,
-   "de": "sich Sorgen machen über + A; nach vieles → wo(r) + Präposition → worüber.",
-   "fa": "sich Sorgen machen با über می‌آید؛ بعد از vieles شکل wo(r) + حرف اضافه لازم است ← worüber."
+   "de": "Präposition + Genitiv-Relativpronomen; die Nachbarin ist feminin → mit deren Hilfe.",
+   "fa": "حرف اضافه قبل از ضمیر Genitiv می‌آید؛ Nachbarin مؤنث است ← mit deren Hilfe."
   },
   {
    "id": "L4-g21",
    "t": "t3",
    "type": "mc",
-   "q": "Er hat die Prüfung sofort bestanden, ___ alle überrascht hat.",
+   "q": "Im Online-Shop findet man alles, ___ man für ein Smart Home braucht.",
    "opts": [
-    "was",
     "das",
+    "was",
     "die",
     "wo"
    ],
-   "a": 0,
-   "de": "Der Relativsatz bezieht sich auf den ganzen Satz davor → was.",
-   "fa": "جمله‌ی موصولی به کل جمله‌ی قبل اشاره دارد ← was."
+   "a": 1,
+   "de": "Nach alles steht was.",
+   "fa": "بعد از alles ضمیر موصولی was است."
   },
   {
    "id": "L4-g22",
    "t": "t3",
-   "type": "mc",
-   "q": "Ich ziehe nach Leipzig, ___ meine neue Firma ihren Sitz hat.",
-   "opts": [
-    "was",
-    "wohin",
-    "dessen",
-    "wo"
+   "type": "gap",
+   "q": "Das Spannendste, ___ ich je erlebt habe, war die Gründung meiner Firma. (Relativpronomen)",
+   "a": [
+    "was"
    ],
-   "a": 3,
-   "de": "Nach einem Städtenamen ohne Artikel (wo?) → wo.",
-   "fa": "بعد از نام شهر بدون حرف تعریف و برای «کجا؟» ← wo."
+   "de": "Nach einem nominalisierten Superlativ im Neutrum (das Spannendste) steht was.",
+   "fa": "بعد از صفت عالیِ اسم‌شده‌ی خنثی (das Spannendste) از was استفاده می‌شود."
   },
   {
    "id": "L4-g23",
    "t": "t3",
-   "type": "gap",
-   "q": "Das ist etwas, ___ ich mich schon lange freue. (sich freuen auf)",
-   "a": [
-    "worauf"
+   "type": "mc",
+   "q": "Wir sind in drei neue Städte expandiert, ___ uns sehr stolz macht.",
+   "opts": [
+    "das",
+    "die",
+    "was",
+    "wo"
    ],
-   "de": "freuen auf + etwas → wo + r + auf = worauf.",
-   "fa": "sich freuen auf بعد از etwas ← wo + r + auf = worauf."
+   "a": 2,
+   "de": "Der Relativsatz bezieht sich auf den ganzen Satz (macht = Singular) → was.",
+   "fa": "جمله‌ی موصولی به کل جمله‌ی قبل اشاره دارد (macht مفرد است) ← was."
   },
   {
    "id": "L4-g24",
    "t": "t3",
+   "type": "mc",
+   "q": "Das war die beste Idee, ___ ich je hatte.",
+   "opts": [
+    "was",
+    "die",
+    "deren",
+    "wo"
+   ],
+   "a": 1,
+   "de": "Hier steht ein echtes Nomen (die Idee) → normales Relativpronomen die, nicht was.",
+   "fa": "اینجا اسمِ واقعی (die Idee) داریم، پس ضمیر معمولی die لازم است، نه was."
+  },
+  {
+   "id": "L4-g25",
+   "t": "t3",
    "type": "gap",
-   "q": "Das Beste, ___ du jetzt tun kannst, ist eine Zweitmeinung einzuholen.",
+   "q": "Beim Datenschutz gibt es einiges, ___ ich mir Sorgen mache. (sich Sorgen machen über)",
+   "a": [
+    "worüber"
+   ],
+   "de": "Nach einiges + Verb mit über → wo + r + über = worüber.",
+   "fa": "بعد از einiges و فعلی با über ← wo + r + über = worüber."
+  },
+  {
+   "id": "L4-g26",
+   "t": "t3",
+   "type": "mc",
+   "q": "Wir mussten die Website dreimal neu programmieren, ___ wir viel Geduld gebraucht haben.",
+   "opts": [
+    "was",
+    "wofür",
+    "für das",
+    "worauf"
+   ],
+   "a": 1,
+   "de": "Bezug auf den ganzen Satz + Geduld brauchen für → wofür.",
+   "fa": "اشاره به کل جمله + Geduld brauchen für ← wofür."
+  },
+  {
+   "id": "L4-g27",
+   "t": "t3",
+   "type": "gap",
+   "q": "Dass so viele Kunden kamen, war etwas, ___ niemand gerechnet hatte. (rechnen mit)",
+   "a": [
+    "womit"
+   ],
+   "de": "Nach etwas + rechnen mit → wo + mit = womit (kein r, weil mit mit Konsonant beginnt).",
+   "fa": "بعد از etwas و rechnen mit ← womit (چون mit با حرف بی‌صدا شروع می‌شود، r لازم نیست)."
+  },
+  {
+   "id": "L4-g28",
+   "t": "t3",
+   "type": "mc",
+   "q": "Erzähl mir doch davon, ___ du auf der Jobmesse erlebt hast.",
+   "opts": [
+    "das",
+    "was",
+    "wovon",
+    "wo"
+   ],
+   "a": 1,
+   "de": "Nach dem Präpositionalpronomen davon steht was; erleben braucht keine Präposition.",
+   "fa": "بعد از davon ضمیر was می‌آید؛ فعل erleben حرف اضافه نمی‌خواهد، پس wovon غلط است."
+  },
+  {
+   "id": "L4-g29",
+   "t": "t3",
+   "type": "mc",
+   "q": "Es gibt nichts, ___ ich mich mehr freue als auf das Wochenende.",
+   "opts": [
+    "was",
+    "worauf",
+    "auf das",
+    "wofür"
+   ],
+   "a": 1,
+   "de": "Nach nichts + sich freuen auf → worauf.",
+   "fa": "بعد از nichts و sich freuen auf ← worauf."
+  },
+  {
+   "id": "L4-g30",
+   "t": "t3",
+   "type": "gap",
+   "q": "Mein Mentor hat mir bei der Finanzplanung geholfen, ___ ich ihm sehr dankbar bin. (dankbar sein für)",
+   "a": [
+    "wofür"
+   ],
+   "de": "Bezug auf den ganzen Satz + dankbar sein für → wofür.",
+   "fa": "اشاره به کل جمله + dankbar sein für ← wofür."
+  },
+  {
+   "id": "L4-g31",
+   "t": "t3",
+   "type": "mc",
+   "q": "Verbinden Sie: Unsere App wurde 10.000-mal heruntergeladen. Darüber freuen wir uns sehr.",
+   "opts": [
+    "Unsere App wurde 10.000-mal heruntergeladen, worüber wir uns sehr freuen.",
+    "Unsere App wurde 10.000-mal heruntergeladen, was wir uns sehr freuen.",
+    "Unsere App wurde 10.000-mal heruntergeladen, darüber wir uns sehr freuen.",
+    "Unsere App wurde 10.000-mal heruntergeladen, worüber freuen wir uns sehr."
+   ],
+   "a": 0,
+   "de": "Bezug auf den ganzen Satz + sich freuen über → worüber; Verb am Ende.",
+   "fa": "اشاره به کل جمله + sich freuen über ← worüber و فعل در آخرِ جمله‌ی وابسته."
+  },
+  {
+   "id": "L4-g32",
+   "t": "t3",
+   "type": "mc",
+   "q": "Das Thema, ___ wir heute sprechen, ist der Datenschutz im Smart Home.",
+   "opts": [
+    "über die",
+    "über das",
+    "was",
+    "über dem"
+   ],
+   "a": 1,
+   "de": "Bezug auf ein konkretes Nomen (das Thema) → Präposition + Relativpronomen; sprechen über + Akkusativ, neutral → über das.",
+   "fa": "اسم مشخص (das Thema) داریم ← حرف اضافه + ضمیر معمولی؛ sprechen über با Akkusativ و خنثی ← über das."
+  },
+  {
+   "id": "L4-g33",
+   "t": "t3",
+   "type": "mc",
+   "q": "Genau das ist es, ___ mich an der Telemedizin überzeugt.",
+   "opts": [
+    "was",
+    "das",
+    "wo",
+    "worüber"
+   ],
+   "a": 0,
+   "de": "Nach dem Pronomen das (Das ist es, …) steht was; überzeugen braucht keine Präposition.",
+   "fa": "بعد از ساختِ Das ist es ضمیر was می‌آید؛ überzeugen حرف اضافه نمی‌خواهد."
+  },
+  {
+   "id": "L4-g34",
+   "t": "t3",
+   "type": "gap",
+   "q": "Die Kamera lässt sich auch von unterwegs steuern, ___ ich sehr praktisch finde. (Bezug: ganzer Satz)",
    "a": [
     "was"
    ],
-   "de": "Nach einem substantivierten Superlativ (das Beste) steht was.",
-   "fa": "بعد از صفت عالیِ اسم‌شده (das Beste) از was استفاده می‌شود."
+   "de": "Bewertung des ganzen Satzes, Verb ohne Präposition → was.",
+   "fa": "ارزیابیِ کل جمله است و فعل حرف اضافه ندارد ← was."
+  },
+  {
+   "id": "L4-g35",
+   "t": "t4",
+   "type": "mc",
+   "q": "___ Streaming von Serien ist heute ganz normal.",
+   "opts": [
+    "Der",
+    "Die",
+    "Das",
+    "Den"
+   ],
+   "a": 2,
+   "de": "Nomen auf -ing sind immer Neutrum → das Streaming.",
+   "fa": "اسم‌های مختوم به -ing همیشه خنثی‌اند ← das Streaming."
+  },
+  {
+   "id": "L4-g36",
+   "t": "t4",
+   "type": "mc",
+   "q": "Hast du ___ Tweet von der Ministerin gelesen?",
+   "opts": [
+    "den",
+    "das",
+    "die",
+    "dem"
+   ],
+   "a": 0,
+   "de": "der Tweet (Nomen aus dem Wortstamm, maskulin); lesen + Akkusativ → den.",
+   "fa": "der Tweet از ریشه‌ی فعل ساخته شده و مذکر است؛ lesen مفعول Akkusativ می‌خواهد ← den."
+  },
+  {
+   "id": "L4-g37",
+   "t": "t4",
+   "type": "gap",
+   "q": "Für ___ Bloggen braucht man viel Zeit und gute Ideen. (Artikel)",
+   "a": [
+    "das"
+   ],
+   "de": "Infinitiv als Nomen → immer Neutrum; für + Akkusativ → das.",
+   "fa": "مصدرِ اسم‌شده همیشه خنثی است؛ für با Akkusativ ← das."
+  },
+  {
+   "id": "L4-g38",
+   "t": "t4",
+   "type": "mc",
+   "q": "Du ___ ja schon wieder mit deiner Freundin! (chatten)",
+   "opts": [
+    "chatst",
+    "chattest",
+    "chattet",
+    "chatten"
+   ],
+   "a": 1,
+   "de": "Stamm auf -t → Bindungs-e: du chattest.",
+   "fa": "ریشه به -t ختم می‌شود، پس یک e میانجی لازم است ← du chattest."
+  },
+  {
+   "id": "L4-g39",
+   "t": "t4",
+   "type": "gap",
+   "q": "Wir haben gestern eine Stunde mit Oma ___. (skypen, Partizip II)",
+   "a": [
+    "geskypt"
+   ],
+   "de": "Regelmäßiges Partizip II: ge- + Stamm + -t → geskypt.",
+   "fa": "Partizip II باقاعده: ge + ریشه + t ← geskypt."
+  },
+  {
+   "id": "L4-g40",
+   "t": "t4",
+   "type": "mc",
+   "q": "Welcher Satz ist richtig?",
+   "opts": [
+    "Gestern hat sie viele Fotos von der Messe gepostet.",
+    "Gestern ist sie viele Fotos von der Messe gepostet.",
+    "Gestern hat sie viele Fotos von der Messe gepostt.",
+    "Gestern hat sie viele Fotos von der Messe geposten."
+   ],
+   "a": 0,
+   "de": "Perfekt mit haben; Stamm auf -t → Partizip gepostet.",
+   "fa": "ماضی نقلی با haben؛ ریشه به -t ختم می‌شود ← gepostet."
+  },
+  {
+   "id": "L4-g41",
+   "t": "t4",
+   "type": "gap",
+   "q": "Mein Bruder ___ mir lieber, als anzurufen. (simsen, Präsens)",
+   "a": [
+    "simst"
+   ],
+   "de": "Regelmäßig: er + Stamm sims- + -t → simst.",
+   "fa": "صرف باقاعده: er + ریشه‌ی sims + t ← simst."
+  },
+  {
+   "id": "L4-g42",
+   "t": "t4",
+   "type": "mc",
+   "q": "Ein junges Start-up übernimmt ___ Catering für die Jobmesse.",
+   "opts": [
+    "den",
+    "die",
+    "das",
+    "der"
+   ],
+   "a": 2,
+   "de": "Nomen auf -ing → Neutrum; Akkusativ → das Catering.",
+   "fa": "اسم مختوم به -ing خنثی است؛ مفعول مستقیم ← das Catering."
   }
  ]
 });
