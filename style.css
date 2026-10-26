@@ -337,3 +337,8 @@ select, .icon-btn { background: var(--panel); border: 1px solid var(--line); bor
 }
 .d-tools .btn { white-space: nowrap; }
 @media (max-width: 640px) { .d-tools { gap: 8px; } .d-tools .btn { padding: 8px 12px; font-size: 14px; } }
+.n-status { margin: 6px 0 4px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13.5px; }
+.n-status progress { width: 140px; height: 10px; }
+.ok-txt { color: var(--ok); font-weight: 600; }
+.bad-txt { color: var(--bad, #c62828); font-weight: 600; }
+.sheet .chips .chip .fa { font-size: 11.5px; }

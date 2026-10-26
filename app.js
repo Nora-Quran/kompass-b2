@@ -74,7 +74,8 @@
 
   // ---------- speech ----------
   // Uses the browser's built-in speech synthesis (Web Speech API) with a German voice.
-  const hasTTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  const sysTTS = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  const hasTTS = sysTTS || typeof Audio !== "undefined";
   let deVoice = null, faVoice = null, voicesLoaded = false, deVoices = [];
   // Higher score = more natural voice (cloud / neural voices first).
   function voiceScore(x) {
@@ -88,7 +89,7 @@
     return s;
   }
   function pickVoice() {
-    if (!hasTTS) return;
+    if (!sysTTS) return;
     const v = speechSynthesis.getVoices();
     if (v.length) voicesLoaded = true;
     deVoices = v.filter(x => /^de([-_]|$)/i.test(x.lang)).sort((a, b) => voiceScore(b) - voiceScore(a));
@@ -97,31 +98,169 @@
     updateVoiceNote();
     if (typeof settingsOpen !== "undefined" && settingsOpen) renderSettings();
   }
-  if (hasTTS) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; setTimeout(() => { voicesLoaded = true; pickVoice(); }, 2500); }
-  function speak(text) {
-    if (!hasTTS || !text) return;
-    text = String(text).replace(/_{2,}/g, " … ").replace(/\s+/g, " ").trim();
-    if (!text) return;
-    speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "de-DE"; if (deVoice) u.voice = deVoice;
-    u.rate = store.rate;
-    speechSynthesis.speak(u);
+  if (sysTTS) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; setTimeout(() => { voicesLoaded = true; pickVoice(); }, 2500); }
+  // ---------- audio engine ----------
+  // 1) real human recordings of single words (Wiktionary / Wikimedia Commons, free licences),
+  // 2) optional neural voice that runs in the browser (Piper "Thorsten", downloaded once),
+  // 3) the system voice (Web Speech API) as fallback.
+  const cleanSay = t => String(t || "").replace(/_{2,}/g, " … ").replace(/\s+/g, " ").trim();
+  const player = typeof Audio !== "undefined" ? new Audio() : null;
+  let playerRes = null, playerTimer = null;
+  const SILENT = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+  if (player) {
+    player.preload = "auto";
+    const unlock = () => { try { player.src = SILENT; const p = player.play(); if (p) p.catch(() => {}); } catch (e) {} document.removeEventListener("pointerdown", unlock, true); };
+    document.addEventListener("pointerdown", unlock, true);
   }
-  // Speak and wait until finished (for the listening mode). A timer covers browsers that never fire "end".
-  function utter(text, lang = "de") {
+  function stopPlayer() {
+    clearTimeout(playerTimer);
+    if (player) { try { player.pause(); } catch (e) {} }
+    const r = playerRes; playerRes = null; if (r) r();
+  }
+  function stopAll() { stopPlayer(); if (sysTTS) speechSynthesis.cancel(); }
+  function playUrl(url) {
+    return new Promise((res, rej) => {
+      if (!player) return rej(new Error("no audio"));
+      stopPlayer();
+      const done = () => { clearTimeout(playerTimer); if (playerRes === res) playerRes = null; res(); };
+      playerRes = res;
+      player.onended = done;
+      player.onerror = () => { clearTimeout(playerTimer); if (playerRes === res) playerRes = null; rej(new Error("audio error")); };
+      player.src = url;
+      try { player.preservesPitch = true; } catch (e) {}
+      player.defaultPlaybackRate = store.rate; player.playbackRate = store.rate;
+      player.onloadedmetadata = () => { player.playbackRate = store.rate; };
+      playerTimer = setTimeout(done, 30000);
+      const p = player.play();
+      if (p) p.catch(e => { clearTimeout(playerTimer); if (playerRes === res) playerRes = null; rej(e); });
+    });
+  }
+
+  // --- 1) human recordings from Wiktionary
+  const HUMAN_KEY = "kompass-human-audio-v1";
+  let humanCache = {};
+  try { humanCache = JSON.parse(localStorage.getItem(HUMAN_KEY) || "{}") || {}; } catch (e) {}
+  const humanPending = new Map();
+  const canOgg = (() => { try { return !!(player && player.canPlayType('audio/ogg; codecs="vorbis"')); } catch (e) { return false; } })();
+  function humanWord(text) {
+    const t = cleanSay(text).replace(/[.!?]$/, "").replace(/^(der|die|das|sich)\s+/i, "").trim();
+    return /^[A-Za-zÄÖÜäöüß]+(-[A-Za-zÄÖÜäöüß]+)?$/.test(t) && t.length > 1 ? t : null;
+  }
+  const reEsc = x => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  function findHuman(word) {
+    if (word in humanCache) return Promise.resolve(humanCache[word]);
+    if (humanPending.has(word)) return humanPending.get(word);
+    const api = "https://de.wiktionary.org/w/api.php?action=query&format=json&origin=*&generator=images&gimlimit=50&prop=imageinfo&iiprop=url&titles=" + encodeURIComponent(word);
+    const p = fetch(api).then(r => r.json()).then(j => {
+      const pages = Object.values((j.query && j.query.pages) || {});
+      const re = new RegExp("(^De-|^LL-Q188 \\(deu\\)-.*-)" + reEsc(word) + "\\d?\\.(ogg|oga|wav|mp3|flac|opus)$", "i");
+      const files = pages.filter(f => f.imageinfo && f.imageinfo[0] && re.test(f.title.replace(/^[^:]+:/, "")));
+      const rank = f => { const n = f.title.replace(/^[^:]+:/, ""); return (n.toLowerCase().startsWith("de-" + word.toLowerCase() + ".") ? 4 : 0) + (/^De-/i.test(n) ? 2 : 0) + (/\.wav$/i.test(n) ? 1 : 0); };
+      files.sort((a, b) => rank(b) - rank(a));
+      const url = files.length ? files[0].imageinfo[0].url : "";
+      humanCache[word] = url;
+      try { localStorage.setItem(HUMAN_KEY, JSON.stringify(humanCache)); } catch (e) {}
+      return url;
+    }).catch(() => "").finally(() => humanPending.delete(word));
+    humanPending.set(word, p);
+    return p;
+  }
+  function playableUrl(url) {
+    if (/\.(ogg|oga|opus|flac)$/i.test(url) && !canOgg) {
+      const m = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)(.+\/)([^/]+)$/);
+      if (m) return m[1] + "transcoded/" + m[2] + m[3] + "/" + m[3] + ".mp3";
+    }
+    return url;
+  }
+  // Look up recordings in advance (so playback starts at once).
+  function prefetchHuman(texts) {
+    if (store.human === false) return;
+    texts.forEach(t => { const w = humanWord(t); if (w && !(w in humanCache)) findHuman(w); });
+  }
+
+  // --- 2) neural voice in the browser (Piper, voice "Thorsten")
+  const NEURAL_VOICE = "de_DE-thorsten-medium";
+  const NEURAL_LIBS = ["https://cdn.jsdelivr.net/npm/@diffusionstudio/vits-web@1.0.3/+esm", "https://esm.sh/@diffusionstudio/vits-web@1.0.3"];
+  let neural = null, neuralState = "off", neuralMsg = "", neuralProgress = 0;
+  const neuralCache = new Map();
+  async function importNeural() {
+    let last;
+    for (const u of NEURAL_LIBS) { try { return await import(u); } catch (e) { last = e; } }
+    throw last;
+  }
+  async function loadNeural(download) {
+    if (neural) return neural;
+    if (neuralState === "loading") return null;
+    neuralState = "loading"; neuralMsg = ""; neuralProgress = 0; refreshSettings();
+    try {
+      const mod = await importNeural();
+      const stored = (await mod.stored().catch(() => [])) || [];
+      if (!stored.includes(NEURAL_VOICE)) {
+        if (!download) { neuralState = "off"; refreshSettings(); return null; }
+        const parts = {};
+        await mod.download(NEURAL_VOICE, p => {
+          if (p && p.total) { parts[p.url] = [p.loaded, p.total]; const v = Object.values(parts); neuralProgress = v.reduce((a, x) => a + x[0], 0) / v.reduce((a, x) => a + x[1], 0); refreshSettings(true); }
+        });
+      }
+      await mod.predict({ text: "Hallo.", voiceId: NEURAL_VOICE });   // warm-up
+      neural = mod; neuralState = "ready"; refreshSettings();
+      return mod;
+    } catch (e) {
+      console.warn("Neural voice:", e);
+      neuralState = "error"; neuralMsg = String(e && e.message || e).slice(0, 140); refreshSettings();
+      return null;
+    }
+  }
+  async function neuralUrl(text) {
+    if (neuralCache.has(text)) return neuralCache.get(text);
+    const blob = await neural.predict({ text, voiceId: NEURAL_VOICE });
+    const u = URL.createObjectURL(blob);
+    neuralCache.set(text, u);
+    if (neuralCache.size > 300) { const k = neuralCache.keys().next().value; URL.revokeObjectURL(neuralCache.get(k)); neuralCache.delete(k); }
+    return u;
+  }
+  if (store.engine === "neural") setTimeout(() => loadNeural(false), 800);
+
+  // --- 3) system voice
+  function sysUtter(text, lang) {
     return new Promise(res => {
-      if (!hasTTS || !text) return res();
-      const u = new SpeechSynthesisUtterance(String(text));
+      if (!sysTTS || !text) return res();
+      const u = new SpeechSynthesisUtterance(text);
       u.lang = lang === "fa" ? "fa-IR" : "de-DE";
       const v = lang === "fa" ? faVoice : deVoice; if (v) u.voice = v;
       u.rate = store.rate;
       let done = false;
       const fin = () => { if (!done) { done = true; clearTimeout(t); res(); } };
-      const t = setTimeout(fin, 2000 + String(text).length * 140 / store.rate);
+      const t = setTimeout(fin, 2000 + text.length * 140 / store.rate);
       u.onend = fin; u.onerror = fin;
       speechSynthesis.speak(u);
     });
+  }
+  // Speak and wait until finished (used everywhere, also in the listening mode).
+  async function utter(text, lang = "de") {
+    text = cleanSay(text);
+    if (!text) return;
+    if (lang === "de") {
+      if (store.human !== false) {
+        const w = humanWord(text);
+        if (w) { const url = await findHuman(w); if (url) { try { await playUrl(playableUrl(url)); return; } catch (e) { if (playableUrl(url) !== url) { try { await playUrl(url); return; } catch (e2) {} } } } }
+      }
+      if (store.engine === "neural" && neural) {
+        try { await playUrl(await neuralUrl(text)); return; } catch (e) { console.warn(e); }
+      }
+    }
+    return sysUtter(text, lang);
+  }
+  let speakToken = 0;
+  function speak(text) {
+    stopAll();
+    const my = ++speakToken;
+    text = cleanSay(text);
+    if (!text) return;
+    // Keep the click "user gesture" for the system voice when no other source applies.
+    const w = store.human !== false ? humanWord(text) : null;
+    if (!(w && humanCache[w] !== "") && !(store.engine === "neural" && neural)) { sysUtter(text, "de"); return; }
+    utter(text).then(() => {}, () => {}); void my;
   }
   const wait = ms => new Promise(r => setTimeout(r, ms));
   // Text to read aloud for a headword: drop grammar notes and plural markers, read both parts of "A / B" and "A ≠ B".
@@ -136,14 +275,14 @@
     hasTTS && text ? `<button type="button" class="${cls}" data-say="${esc(text)}" title="${title}" aria-label="${title}">🔊</button>` : "";
   function updateVoiceNote() {
     let n = document.getElementById("voiceNote");
-    const show = !hasTTS || (voicesLoaded && !deVoice);
+    const show = !sysTTS || (voicesLoaded && !deVoice);
     if (!show) { if (n) n.hidden = true; return; }
     if (!n) {
       n = document.createElement("p"); n.id = "voiceNote"; n.className = "lesson-note";
       const app = document.getElementById("app"); if (!app) return;
       app.parentNode.insertBefore(n, app);
     }
-    n.innerHTML = !hasTTS
+    n.innerHTML = !sysTTS
       ? `Dein Browser unterstützt keine Sprachausgabe. Bitte Chrome, Edge oder Safari benutzen.<span class="fa">مرورگر شما از خواندن متن پشتیبانی نمی‌کند؛ لطفاً از Chrome، Edge یا Safari استفاده کنید.</span>`
       : `Auf diesem Gerät ist keine deutsche Stimme installiert – die Aussprache kann falsch klingen. Installiere „Deutsch“ in den Sprach- bzw. Text-zu-Sprache-Einstellungen deines Geräts.<span class="fa">روی این دستگاه صدای آلمانی نصب نیست و تلفظ ممکن است درست نباشد. در تنظیمات دستگاه، بخش زبان / تبدیل متن به گفتار، زبان آلمانی را نصب کنید.</span>`;
     n.hidden = false;
@@ -317,6 +456,7 @@
     const sh = $("#shuf"); if (sh) sh.onclick = () => { shuffleOn = !shuffleOn; restart(); };
     $("#reset").onclick = () => restart(state.review ? { deck: mistakeCards() } : {});
     addSwipe(card);
+    prefetchHuman(d.slice(state.i, state.i + 3).map(x => sayWord(x.w)));
     if (store.auto && !faFront && !state.flipped) speak(sayWord(c.w));
   }
   function flip() {
@@ -824,13 +964,38 @@
     btn.onclick = () => { settingsOpen = !settingsOpen; sh.hidden = !settingsOpen; if (settingsOpen) renderSettings(); };
   }
   const RATES = [0.75, 1, 1.25, 1.5, 2];
+  function refreshSettings(progressOnly) {
+    if (typeof settingsOpen === "undefined" || !settingsOpen) return;
+    const pr = document.getElementById("nProg");
+    if (progressOnly && pr) { pr.value = neuralProgress; const t = document.getElementById("nPct"); if (t) t.textContent = Math.round(neuralProgress * 100) + " %"; return; }
+    renderSettings();
+  }
+  function neuralBlock() {
+    const st = neuralState;
+    const status = st === "ready" ? `<span class="ok-txt">✓ bereit · <span class="fa">آماده</span></span>`
+      : st === "loading" ? `<progress id="nProg" max="1" value="${neuralProgress}"></progress> <span id="nPct">${Math.round(neuralProgress * 100)} %</span> <span class="muted">wird geladen … · <span class="fa">در حال بارگیری</span></span>`
+      : st === "error" ? `<span class="bad-txt">Konnte nicht geladen werden · <span class="fa">بارگیری نشد</span></span> <span class="muted small">${esc(neuralMsg)}</span>`
+      : "";
+    return `<div class="lab" style="margin-top:14px">Sätze vorlesen mit · <span class="fa">خواندن جمله‌ها با</span></div>
+      <div class="chips">
+        <button class="chip ${store.engine !== "neural" ? "on" : ""}" data-engine="system">Gerätestimme · <span class="fa">صدای دستگاه</span></button>
+        <button class="chip ${store.engine === "neural" ? "on" : ""}" data-engine="neural">Natürliche KI-Stimme ★ · <span class="fa">صدای طبیعی</span></button>
+      </div>
+      <p class="muted small">KI-Stimme „Thorsten“ (Piper, freie Lizenz): klingt deutlich natürlicher, läuft direkt im Browser, einmaliger Download ca. 65 MB (WLAN empfohlen), danach auch offline.
+        <span class="fa">صدای «Thorsten» با هوش مصنوعی ساخته شده اما بسیار طبیعی‌تر از صدای کامپیوتر است. یک بار حدود ۶۵ مگابایت دانلود می‌شود (با وای‌فای) و بعد بدون اینترنت هم کار می‌کند.</span></p>
+      ${status ? `<div class="n-status">${status}</div>` : ""}`;
+  }
   function renderSettings() {
     const sh = $("#settings"); if (!sh) return;
     const opts = deVoices.map(v => `<option value="${esc(v.name)}" ${deVoice && v.name === deVoice.name ? "selected" : ""}>${esc(v.name)}${voiceScore(v) >= 6 ? " ★" : ""}</option>`).join("");
     sh.innerHTML = `
       <div class="sheet-head"><b>Stimme & Tempo</b> <span class="fa">صدا و سرعت</span><button class="gl-x" id="setClose" aria-label="Schließen">✕</button></div>
       ${!hasTTS ? `<p class="muted">Dein Browser unterstützt keine Sprachausgabe.</p>` : `
-      <label class="lab" for="voiceSel">Deutsche Stimme · <span class="fa">صدای آلمانی</span></label>
+      <label class="toggle"><input type="checkbox" id="humanSay" ${store.human !== false ? "checked" : ""}><span>🎙️ Echte Aufnahmen für einzelne Wörter · <span class="fa">صدای واقعی انسان برای کلمه‌ها</span></span></label>
+      <p class="muted small">Aufnahmen von Muttersprachlern aus Wiktionary / Wikimedia Commons (freie Lizenz). Für viele Wörter vorhanden, Nomen ohne Artikel; sonst liest die gewählte Stimme.
+        <span class="fa">تلفظ کلمه‌ها با صدای آلمانی‌زبان‌های واقعی (از ویکی‌واژه). برای بیشتر کلمه‌ها هست؛ اسم‌ها بدون آرتیکل خوانده می‌شوند. اگر ضبطی نباشد، صدای انتخاب‌شده می‌خواند.</span></p>
+      ${neuralBlock()}
+      <label class="lab" for="voiceSel" style="margin-top:14px">Gerätestimme · <span class="fa">صدای دستگاه</span></label>
       <div class="row-flex"><select id="voiceSel">${opts || `<option>Keine deutsche Stimme gefunden</option>`}</select>
         <button class="btn" id="voiceTest">▶ Testen</button></div>
       <p class="muted small">★ = natürliche Stimme. Am natürlichsten klingen: <b>Microsoft Edge</b> („… Online (Natural)“), <b>Chrome</b> („Google Deutsch“), <b>iPhone/Mac</b> (Stimmen mit „Premium/Verbessert“ in den Einstellungen laden).
@@ -841,10 +1006,16 @@
       <p class="muted small">Persische Stimme: ${faVoice ? esc(faVoice.name) + " ✓" : "nicht vorhanden – im Hören-Modus wird die Bedeutung nur angezeigt."}</p>`}`;
     $("#setClose").onclick = () => { settingsOpen = false; sh.hidden = true; };
     const vs = $("#voiceSel");
-    if (vs) vs.onchange = () => { store.voice = vs.value; persist(); pickVoice(); speak("Hallo! So klinge ich."); };
-    const vt = $("#voiceTest"); if (vt) vt.onclick = () => speak("Guten Tag! Ich lese dir die Wörter und Sätze vor.");
+    if (vs) vs.onchange = () => { store.voice = vs.value; persist(); pickVoice(); stopAll(); sysUtter("Hallo! So klinge ich.", "de"); };
+    const vt = $("#voiceTest"); if (vt) vt.onclick = () => { stopAll(); sysUtter("Guten Tag! Ich lese dir die Wörter und Sätze vor.", "de"); };
     sh.querySelectorAll("[data-rate]").forEach(b => b.onclick = () => { store.rate = +b.dataset.rate; persist(); renderSettings(); speak("Das ist mein Tempo."); if (state.mode === "listen") syncListenControls(); });
     const au = $("#autoSay"); if (au) au.onchange = () => { store.auto = au.checked; persist(); };
+    const hs = $("#humanSay"); if (hs) hs.onchange = () => { store.human = hs.checked; persist(); if (hs.checked) speak("Gesundheit"); };
+    sh.querySelectorAll("[data-engine]").forEach(b => b.onclick = async () => {
+      store.engine = b.dataset.engine; persist(); renderSettings();
+      if (store.engine === "neural") { const m = await loadNeural(true); if (m) { const h = store.human; store.human = false; await utter("Guten Tag! So klingt die natürliche Stimme."); store.human = h; } }
+      else speak("Guten Tag! Das ist die Stimme Ihres Geräts.");
+    });
   }
 
   // =====================================================================
@@ -854,7 +1025,7 @@
   function stopPlay() {
     if (!state.play) return;
     state.play.playing = false; state.play.token++;
-    if (hasTTS) speechSynthesis.cancel();
+    stopAll();
   }
   function togglePlay() {
     if (state.play.playing) { stopPlay(); syncListenControls(); return; }
@@ -912,6 +1083,7 @@
   function showListenCard() {
     const box = $("#lsCard"); if (!box) return;
     const d = state.deck, c = d[state.play.i]; if (!c) return;
+    prefetchHuman(d.slice(state.play.i, state.play.i + 3).map(x => sayWord(x.w)));
     box.innerHTML = `<div class="ls-word">${esc(c.w)} ${sayBtn(sayWord(c.w))}</div>
       <div class="fa ls-fa">${esc(c.fa)}</div>
       <div class="ex">${sent(c.de)} ${sayBtn(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div>

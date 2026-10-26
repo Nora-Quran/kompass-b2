@@ -8,10 +8,6 @@
    "title": "Wörter mit S"
   },
   {
-   "id": "T",
-   "title": "Wörter mit T"
-  },
-  {
    "id": "U",
    "title": "Wörter mit U"
   }
