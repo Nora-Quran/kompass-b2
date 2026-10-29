@@ -342,3 +342,6 @@ select, .icon-btn { background: var(--panel); border: 1px solid var(--line); bor
 .ok-txt { color: var(--ok); font-weight: 600; }
 .bad-txt { color: var(--bad, #c62828); font-weight: 600; }
 .sheet .chips .chip .fa { font-size: 11.5px; }
+.filters .opts { align-items: center; }
+.play-all { margin-inline-start: auto; white-space: nowrap; }
+@media (max-width: 640px) { .play-all { width: 100%; margin: 6px 0 0; } }

@@ -136,6 +136,30 @@
     });
   }
 
+  // --- 0) studio recordings: every word and sentence of the site, generated once with one natural voice
+  //     (Piper "Thorsten" for German, "Amir" for Persian) and stored as audio/<lang>/<xx>/<hash>.mp3
+  const APP_BASE = (() => { try { return new URL(".", document.currentScript.src).href; } catch (e) { return ""; } })();
+  function cyrb53(str, seed = 0) {
+    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+      ch = str.charCodeAt(i);
+      h1 = Math.imul(h1 ^ ch, 2654435761);
+      h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507); h1 ^= Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507); h2 ^= Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+    return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(16).padStart(14, "0");
+  }
+  const studioKey = text => cleanSay(text);
+  const studioUrl = (text, lang) => { const h = cyrb53(studioKey(text)); return `${APP_BASE}audio/${lang}/${h.slice(0, 2)}/${h}.mp3`; };
+  const studioMissing = new Set();
+  const useStudio = () => store.engine !== "system";
+  async function playStudio(text, lang) {
+    const url = studioUrl(text, lang);
+    if (studioMissing.has(url)) return false;
+    try { await playUrl(url); return true; } catch (e) { studioMissing.add(url); return false; }
+  }
+
   // --- 1) human recordings from Wiktionary
   const HUMAN_KEY = "kompass-human-audio-v1";
   let humanCache = {};
@@ -174,7 +198,7 @@
   }
   // Look up recordings in advance (so playback starts at once).
   function prefetchHuman(texts) {
-    if (store.human === false) return;
+    if (store.human !== true || useStudio()) return;
     texts.forEach(t => { const w = humanWord(t); if (w && !(w in humanCache)) findHuman(w); });
   }
 
@@ -219,7 +243,7 @@
     if (neuralCache.size > 300) { const k = neuralCache.keys().next().value; URL.revokeObjectURL(neuralCache.get(k)); neuralCache.delete(k); }
     return u;
   }
-  if (store.engine === "neural") setTimeout(() => loadNeural(false), 800);
+  if (store.engine === "neural") store.engine = "studio";   // the in-browser voice is replaced by the studio recordings
 
   // --- 3) system voice
   function sysUtter(text, lang) {
@@ -240,8 +264,9 @@
   async function utter(text, lang = "de") {
     text = cleanSay(text);
     if (!text) return;
+    if (useStudio() && await playStudio(text, lang)) return;
     if (lang === "de") {
-      if (store.human !== false) {
+      if (store.human === true) {
         const w = humanWord(text);
         if (w) { const url = await findHuman(w); if (url) { try { await playUrl(playableUrl(url)); return; } catch (e) { if (playableUrl(url) !== url) { try { await playUrl(url); return; } catch (e2) {} } } } }
       }
@@ -258,8 +283,8 @@
     text = cleanSay(text);
     if (!text) return;
     // Keep the click "user gesture" for the system voice when no other source applies.
-    const w = store.human !== false ? humanWord(text) : null;
-    if (!(w && humanCache[w] !== "") && !(store.engine === "neural" && neural)) { sysUtter(text, "de"); return; }
+    const w = store.human === true ? humanWord(text) : null;
+    if (!useStudio() && !(w && humanCache[w] !== "") && !(store.engine === "neural" && neural)) { sysUtter(text, "de"); return; }
     utter(text).then(() => {}, () => {}); void my;
   }
   const wait = ms => new Promise(r => setTimeout(r, ms));
@@ -319,6 +344,11 @@
     initSettings();
     if (!(window.TAEGLICH || []).length) { const db = $("#dailyBtn"); if (db) db.hidden = true; }
     $("#unknownOnly").onchange = e => { state.unknownOnly = e.target.checked; restart(); };
+    const pa = $("#playAll");
+    if (pa) pa.onclick = () => {
+      if (state.mode === "listen") { togglePlay(); return; }
+      setMode("listen"); state.play.i = 0; togglePlay();
+    };
     renderChips();
   }
   function applyTheme() { if (store.theme) document.documentElement.dataset.theme = store.theme; }
@@ -970,20 +1000,15 @@
     if (progressOnly && pr) { pr.value = neuralProgress; const t = document.getElementById("nPct"); if (t) t.textContent = Math.round(neuralProgress * 100) + " %"; return; }
     renderSettings();
   }
-  function neuralBlock() {
-    const st = neuralState;
-    const status = st === "ready" ? `<span class="ok-txt">✓ bereit · <span class="fa">آماده</span></span>`
-      : st === "loading" ? `<progress id="nProg" max="1" value="${neuralProgress}"></progress> <span id="nPct">${Math.round(neuralProgress * 100)} %</span> <span class="muted">wird geladen … · <span class="fa">در حال بارگیری</span></span>`
-      : st === "error" ? `<span class="bad-txt">Konnte nicht geladen werden · <span class="fa">بارگیری نشد</span></span> <span class="muted small">${esc(neuralMsg)}</span>`
-      : "";
-    return `<div class="lab" style="margin-top:14px">Sätze vorlesen mit · <span class="fa">خواندن جمله‌ها با</span></div>
+  function engineBlock() {
+    const studio = useStudio();
+    return `<div class="lab">Stimme · <span class="fa">صدا</span></div>
       <div class="chips">
-        <button class="chip ${store.engine !== "neural" ? "on" : ""}" data-engine="system">Gerätestimme · <span class="fa">صدای دستگاه</span></button>
-        <button class="chip ${store.engine === "neural" ? "on" : ""}" data-engine="neural">Natürliche KI-Stimme ★ · <span class="fa">صدای طبیعی</span></button>
+        <button class="chip ${studio ? "on" : ""}" data-engine="studio">★ Natürliche Stimme · <span class="fa">صدای طبیعی</span></button>
+        <button class="chip ${!studio ? "on" : ""}" data-engine="system">Gerätestimme · <span class="fa">صدای دستگاه</span></button>
       </div>
-      <p class="muted small">KI-Stimme „Thorsten“ (Piper, freie Lizenz): klingt deutlich natürlicher, läuft direkt im Browser, einmaliger Download ca. 65 MB (WLAN empfohlen), danach auch offline.
-        <span class="fa">صدای «Thorsten» با هوش مصنوعی ساخته شده اما بسیار طبیعی‌تر از صدای کامپیوتر است. یک بار حدود ۶۵ مگابایت دانلود می‌شود (با وای‌فای) و بعد بدون اینترنت هم کار می‌کند.</span></p>
-      ${status ? `<div class="n-status">${status}</div>` : ""}`;
+      <p class="muted small">„Natürliche Stimme“: alle Wörter, Sätze und Wendungen sind mit <b>einer</b> ruhigen, natürlichen Männerstimme aufgenommen (Persisch mit einer persischen Stimme). Nur wenn eine Aufnahme fehlt, liest die Gerätestimme.
+        <span class="fa">«صدای طبیعی»: همه‌ی کلمه‌ها، جمله‌ها و اصطلاح‌ها با <b>یک</b> صدای ثابت و طبیعی ضبط شده‌اند (معنی فارسی با صدای فارسی). فقط اگر فایلی نباشد، صدای دستگاه می‌خواند.</span></p>`;
   }
   function renderSettings() {
     const sh = $("#settings"); if (!sh) return;
@@ -991,11 +1016,11 @@
     sh.innerHTML = `
       <div class="sheet-head"><b>Stimme & Tempo</b> <span class="fa">صدا و سرعت</span><button class="gl-x" id="setClose" aria-label="Schließen">✕</button></div>
       ${!hasTTS ? `<p class="muted">Dein Browser unterstützt keine Sprachausgabe.</p>` : `
-      <label class="toggle"><input type="checkbox" id="humanSay" ${store.human !== false ? "checked" : ""}><span>🎙️ Echte Aufnahmen für einzelne Wörter · <span class="fa">صدای واقعی انسان برای کلمه‌ها</span></span></label>
-      <p class="muted small">Aufnahmen von Muttersprachlern aus Wiktionary / Wikimedia Commons (freie Lizenz). Für viele Wörter vorhanden, Nomen ohne Artikel; sonst liest die gewählte Stimme.
-        <span class="fa">تلفظ کلمه‌ها با صدای آلمانی‌زبان‌های واقعی (از ویکی‌واژه). برای بیشتر کلمه‌ها هست؛ اسم‌ها بدون آرتیکل خوانده می‌شوند. اگر ضبطی نباشد، صدای انتخاب‌شده می‌خواند.</span></p>
-      ${neuralBlock()}
-      <label class="lab" for="voiceSel" style="margin-top:14px">Gerätestimme · <span class="fa">صدای دستگاه</span></label>
+      ${engineBlock()}
+      <label class="toggle" style="margin-top:10px"><input type="checkbox" id="humanSay" ${store.human === true ? "checked" : ""}><span>🎙️ Echte Aufnahmen für einzelne Wörter · <span class="fa">صدای واقعی انسان برای کلمه‌ها</span></span></label>
+      <p class="muted small">Aufnahmen von Muttersprachlern aus Wiktionary / Wikimedia Commons (freie Lizenz). Verschiedene Sprecher, Nomen ohne Artikel – standardmäßig aus.
+        <span class="fa">تلفظ کلمه‌ها با صدای آلمانی‌زبان‌های واقعی (از ویکی‌واژه). هر کلمه را یک نفر خوانده و اسم‌ها بدون آرتیکل‌اند؛ به‌طور پیش‌فرض خاموش است.</span></p>
+      <label class="lab" for="voiceSel" style="margin-top:14px">Gerätestimme (Ersatz) · <span class="fa">صدای دستگاه (جایگزین)</span></label>
       <div class="row-flex"><select id="voiceSel">${opts || `<option>Keine deutsche Stimme gefunden</option>`}</select>
         <button class="btn" id="voiceTest">▶ Testen</button></div>
       <p class="muted small">★ = natürliche Stimme. Am natürlichsten klingen: <b>Microsoft Edge</b> („… Online (Natural)“), <b>Chrome</b> („Google Deutsch“), <b>iPhone/Mac</b> (Stimmen mit „Premium/Verbessert“ in den Einstellungen laden).
@@ -1013,8 +1038,7 @@
     const hs = $("#humanSay"); if (hs) hs.onchange = () => { store.human = hs.checked; persist(); if (hs.checked) speak("Gesundheit"); };
     sh.querySelectorAll("[data-engine]").forEach(b => b.onclick = async () => {
       store.engine = b.dataset.engine; persist(); renderSettings();
-      if (store.engine === "neural") { const m = await loadNeural(true); if (m) { const h = store.human; store.human = false; await utter("Guten Tag! So klingt die natürliche Stimme."); store.human = h; } }
-      else speak("Guten Tag! Das ist die Stimme Ihres Geräts.");
+      speak(store.engine === "system" ? "Guten Tag! Das ist die Stimme Ihres Geräts." : "Guten Tag! Ich lese dir die Wörter und Sätze vor.");
     });
   }
 
@@ -1025,7 +1049,7 @@
   function stopPlay() {
     if (!state.play) return;
     state.play.playing = false; state.play.token++;
-    stopAll();
+    stopAll(); syncPlayAll();
   }
   function togglePlay() {
     if (state.play.playing) { stopPlay(); syncListenControls(); return; }
@@ -1041,7 +1065,7 @@
       showListenCard();
       await utter(sayWord(c.w)); if (!alive()) return;
       await gap(500);
-      if (store.play.fa && faVoice) { await utter(c.fa, "fa"); if (!alive()) return; await gap(400); }
+      if (store.play.fa && (faVoice || useStudio())) { await utter(c.fa, "fa"); if (!alive()) return; await gap(400); }
       if (store.play.ex) { await utter(c.de); if (!alive()) return; await gap(600); }
       if (store.play.coll && c.c) { for (const [d] of c.c) { await utter(sayText(d)); if (!alive()) return; await gap(300); } }
       await gap(500);
@@ -1067,7 +1091,7 @@
           <div class="chips" id="lsRates">${RATES.map(r => `<button class="chip" data-rate="${r}">${r}×</button>`).join("")}</div>
           <label class="toggle"><input type="checkbox" id="lsEx" ${store.play.ex ? "checked" : ""}><span>Beispielsatz · <span class="fa">جمله</span></span></label>
           <label class="toggle"><input type="checkbox" id="lsColl" ${store.play.coll ? "checked" : ""}><span>Wendungen · <span class="fa">اصطلاحات</span></span></label>
-          <label class="toggle" ${faVoice ? "" : `title="Keine persische Stimme auf diesem Gerät"`}><input type="checkbox" id="lsFa" ${store.play.fa ? "checked" : ""} ${faVoice ? "" : "disabled"}><span>Persisch vorlesen · <span class="fa">خواندن معنی فارسی</span></span></label>
+          <label class="toggle"><input type="checkbox" id="lsFa" ${store.play.fa ? "checked" : ""} ${faVoice || useStudio() ? "" : "disabled"}><span>Persisch vorlesen · <span class="fa">خواندن معنی فارسی</span></span></label>
         </div>
         <p class="muted small">Leertaste = Start/Pause · Die Liste folgt den Filtern oben (Abschnitte, markiert, ungelernt).
           <span class="fa">همه‌ی کلمه‌های این درس پشت سر هم پخش می‌شوند؛ سرعت را با دکمه‌های ×۱ تا ×۲ عوض کنید.</span></p>
@@ -1091,7 +1115,13 @@
     bindCommon(box);
     const pr = $("#lsProg"); if (pr) pr.innerHTML = progressBar(state.play.i + 1, d.length);
   }
+  function syncPlayAll() {
+    const pa = $("#playAll"); if (!pa) return;
+    const on = state.mode === "listen" && state.play.playing;
+    pa.innerHTML = on ? `⏸ Pause · <span class="fa">توقف</span>` : `▶ Alle Wörter abspielen · <span class="fa">پخش همه‌ی کلمه‌ها</span>`;
+  }
   function syncListenControls() {
+    syncPlayAll();
     const b = $("#lsPlay"); if (!b) return;
     b.innerHTML = state.play.playing ? "⏸ Pause" : "▶ Alle abspielen";
     app.querySelectorAll("#lsRates [data-rate]").forEach(x => x.classList.toggle("on", +x.dataset.rate === store.rate));
@@ -1349,7 +1379,28 @@
     }
   });
 
-  window.KompassDebug = { fullSentence, sayWord };   // used by automated tests
+  function allTexts() {
+    const de = new Set(), fa = new Set();
+    const add = (set, t) => { t = t && studioKey(t); if (t) set.add(t); };
+    for (const L of LESSONS) {
+      for (const c of L.cards) {
+        add(de, sayWord(c.w)); add(de, cleanWord(c.w)); add(de, sayText(c.syn)); add(de, c.de); add(fa, c.fa);
+        for (const [d] of c.c || []) add(de, sayText(d));
+        const n = parseNoun(c.w); if (n && n.noun) add(de, n.arts[0] + " " + n.noun);
+      }
+      for (const t of L.grammar || []) {
+        for (const r of t.rules || []) for (const [d] of r.ex || []) add(de, d.replace(/…/g, " ").replace(/→/g, ". "));
+        for (const r of t.table || []) add(de, String(r[2]).replace(/…/g, " ").replace(/→/g, ". "));
+      }
+      for (const q of L.quiz || []) add(de, fullSentence(q));
+    }
+    for (const d of window.TAEGLICH || []) for (const x of d.s) add(de, x.de);
+    for (const [, g] of Object.entries(window.GLOSSAR || {})) add(de, g[0]);
+    try { for (const { v } of getVerbs()) { add(de, verbLabel(v)); add(de, window.Konjugation.conjugate(v).summary.replace(/ – /g, ", ")); } } catch (e) {}
+    ["Guten Tag! Ich lese dir die Wörter und Sätze vor.", "Das ist mein Tempo."].forEach(t => add(de, t));
+    return { de: [...de], fa: [...fa] };
+  }
+  window.KompassDebug = { fullSentence, sayWord, allTexts, cyrb53, studioKey };   // used by automated tests
   if (!LESSONS.length) { app.innerHTML = `<div class="panel empty">Die Inhalte werden gerade erstellt – bitte später noch einmal vorbeischauen.<br><span class="fa">محتوای این بخش در حال آماده‌سازی است.</span></div>`; return; }
   initChrome();
   restart();

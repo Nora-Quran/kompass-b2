@@ -1,0 +1,74 @@
+name: Studio recordings (TTS)
+
+on:
+  push:
+    branches: [main]
+    paths: ["tts/**", ".github/workflows/tts.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tts
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: tts
+      - name: List existing recordings
+        run: git ls-tree -r --name-only HEAD -- audio > existing.txt || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Piper and ffmpeg
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q piper-tts
+      - name: Download voices
+        run: |
+          mkdir -p voices
+          HF=https://huggingface.co/rhasspy/piper-voices/resolve/main
+          curl -sSfL -o voices/de.onnx      $HF/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx
+          curl -sSfL -o voices/de.onnx.json $HF/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json
+          curl -sSfL -o voices/fa.onnx      $HF/fa/fa_IR/amir/medium/fa_IR-amir-medium.onnx || rm -f voices/fa.onnx
+          curl -sSfL -o voices/fa.onnx.json $HF/fa/fa_IR/amir/medium/fa_IR-amir-medium.onnx.json || rm -f voices/fa.onnx
+      - name: Generate
+        run: python tts/generate.py ${{ matrix.shard }} 20 out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ matrix.shard }}
+          path: out
+          if-no-files-found: ignore
+          retention-days: 3
+
+  commit:
+    needs: generate
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: audio-*
+      - name: Commit recordings
+        run: |
+          shopt -s nullglob
+          for d in artifacts/audio-*; do cp -r "$d"/. . ; done
+          rm -rf artifacts
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "Studio recordings: $(git diff --cached --name-only | wc -l) new audio files"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 10; done
