@@ -373,7 +373,7 @@
     if (!opts.deck && m !== "mistakes") { store.mode = m; persist(); }
     document.querySelectorAll(".modes button").forEach(b => b.classList.toggle("active", b.dataset.mode === m));
     stopPlay();
-    $(".filters").hidden = (["grammar", "mistakes", "artikel", "verben", "daily"].includes(m) || !!opts.deck);
+    $(".filters").hidden = (["grammar", "mistakes", "artikel", "verben", "daily", "texte"].includes(m) || !!opts.deck);
     if (m === "grammar" && !opts.keepGrammar) { state.gview = "explain"; state.gquiz = null; }
     restart(opts);
     window.scrollTo({ top: 0 });
@@ -471,6 +471,7 @@
       case "artikel": return renderArtikel();
       case "verben": return renderVerben();
       case "daily": return renderDaily();
+      case "texte": return renderTexte();
       default: return renderList();
     }
   }
@@ -1404,6 +1405,82 @@
     };
   }
 
+  // =====================================================================
+  //  Hörtexte: listening texts with transcript, translation and questions
+  // =====================================================================
+  state.hr = { t: null, cur: -1, playing: false, showText: false, showFa: false, ans: {} };
+  function renderTexte() {
+    const L = lesson();
+    const H = ((window.HOEREN || {})[L.id] || []);
+    if (!H.length) { app.innerHTML = `<div class="panel empty">Für diesen Teil gibt es (noch) keine Hörtexte.<br><span class="fa">برای این بخش هنوز متن شنیداری نیست.</span></div>`; return; }
+    store.hrSel = store.hrSel || {};
+    let ti = state.hr.t != null && state.hr.lesson === L.id ? state.hr.t : (store.hrSel[L.id] || 0);
+    if (ti >= H.length) ti = 0;
+    if (state.hr.lesson !== L.id || state.hr.t !== ti) Object.assign(state.hr, { lesson: L.id, t: ti, cur: -1, showText: false, showFa: false, ans: {} });
+    const T = H[ti], R = state.hr;
+    const nq = T.q.length, answered = Object.keys(R.ans).length, right = Object.entries(R.ans).filter(([k, v]) => T.q[k].a === v).length;
+    app.innerHTML = `
+      <div class="chips hr-tabs">${H.map((x, i) => `<button class="chip ${i === ti ? "on" : ""}" data-t="${i}">${i + 1} · ${esc(x.type)}</button>`).join("")}</div>
+      <div class="panel hr">
+        <div class="muted small">${esc(T.type)}</div>
+        <h2 class="mtitle" style="margin:2px 0">${esc(T.title)}</h2>
+        <div class="fa hr-fa-title">${esc(T.title_fa)}</div>
+        ${T.intro_fa ? `<p class="fa hr-intro">${esc(T.intro_fa)}</p>` : ""}
+        <div class="ls-ctrl">
+          <button class="nav" id="hrPrev" aria-label="Satz zurück">⏮</button>
+          <button class="btn primary ls-play" id="hrPlay">${R.playing ? "⏸ Pause" : R.cur > 0 ? "▶ Weiter hören" : "▶ Text anhören"}</button>
+          <button class="nav" id="hrNext" aria-label="Nächster Satz">⏭</button>
+        </div>
+        <div class="ls-opts">
+          <div class="chips" id="hrRates">${RATES.map(r => `<button class="chip ${store.rate === r ? "on" : ""}" data-rate="${r}">${r}×</button>`).join("")}</div>
+          <label class="toggle"><input type="checkbox" id="hrText" ${R.showText ? "checked" : ""}><span>Text zeigen · <span class="fa">نمایش متن</span></span></label>
+          <label class="toggle"><input type="checkbox" id="hrFa" ${R.showFa ? "checked" : ""}><span>Übersetzung · <span class="fa">ترجمه</span></span></label>
+        </div>
+        <div class="hr-prog">${progressBar(Math.max(0, R.cur + (R.playing ? 0 : 0)), T.s.length)}</div>
+        ${R.showText ? `<ol class="hr-text">${T.s.map((x, i) => `<li class="${i === R.cur ? "cur" : ""}" data-si="${i}"><span class="hr-de">${sent(x.de)}</span> ${sayBtn(x.de)}
+            ${R.showFa ? `<div class="fa hr-sfa">${esc(x.fa)}</div>` : ""}</li>`).join("")}</ol>`
+          : `<p class="muted hr-hidden">Erst hören, dann die Fragen beantworten – danach den Text lesen.<br><span class="fa">اول گوش کنید و به سؤال‌ها جواب دهید، بعد متن را بخوانید. (برای دیدن متن، «Text zeigen» را بزنید.)</span></p>`}
+      </div>
+      <div class="panel hr-quiz">
+        <h3>Fragen zum Text · <span class="fa">سؤال‌ها</span> <span class="muted small">${answered ? `${right} / ${nq} richtig` : ""}</span></h3>
+        ${T.q.map((q, k) => {
+          const a = R.ans[k];
+          return `<div class="hr-q"><div class="hr-qq">${k + 1}. ${sent(q.q)}</div>
+            <div class="hr-opts">${q.opts.map((o, j) => `<button class="choice ${a != null ? (j === q.a ? "right" : j === a ? "wrong" : "") : ""}" data-q="${k}" data-o="${j}" ${a != null ? "disabled" : ""}>${esc(o)}</button>`).join("")}</div>
+            ${a != null ? `<div class="fa hr-expl">${a === q.a ? "✓ " : "✗ "}${esc(q.fa)}</div>` : ""}</div>`;
+        }).join("")}
+        ${answered === nq ? `<button class="btn" id="hrReset">Noch einmal · <span class="fa">دوباره</span></button>` : ""}
+      </div>`;
+    bindCommon(app);
+    app.querySelectorAll(".hr-tabs [data-t]").forEach(b => b.onclick = () => { stopPlay(); state.hr.playing = false; store.hrSel[L.id] = +b.dataset.t; persist(); state.hr.t = +b.dataset.t; state.hr.lesson = null; renderTexte(); });
+    $("#hrPlay").onclick = () => R.playing ? hrStop() : hrPlay(R.cur < 0 || R.cur >= T.s.length - 1 && !R.playing && R.done ? 0 : Math.max(0, R.cur));
+    $("#hrPrev").onclick = () => hrPlay(Math.max(0, (R.cur < 0 ? 0 : R.cur) - 1));
+    $("#hrNext").onclick = () => hrPlay(Math.min(T.s.length - 1, R.cur + 1));
+    app.querySelectorAll("#hrRates [data-rate]").forEach(b => b.onclick = () => { store.rate = +b.dataset.rate; persist(); app.querySelectorAll("#hrRates .chip").forEach(c => c.classList.toggle("on", +c.dataset.rate === store.rate)); });
+    $("#hrText").onchange = e => { R.showText = e.target.checked; renderTexte(); };
+    $("#hrFa").onchange = e => { R.showFa = e.target.checked; if (R.showFa) R.showText = true; renderTexte(); };
+    app.querySelectorAll(".hr-text li").forEach(li => li.ondblclick = () => hrPlay(+li.dataset.si));
+    app.querySelectorAll(".hr-opts .choice").forEach(b => b.onclick = () => { R.ans[+b.dataset.q] = +b.dataset.o; renderTexte(); });
+    const rs = $("#hrReset"); if (rs) rs.onclick = () => { R.ans = {}; renderTexte(); };
+  }
+  function hrStop() { stopPlay(); state.hr.playing = false; renderTexte(); }
+  async function hrPlay(from) {
+    const L = lesson(), H = (window.HOEREN || {})[L.id] || [], T = H[state.hr.t]; if (!T) return;
+    stopPlay();
+    const tok = state.play.token, R = state.hr;
+    R.playing = true; R.done = false; R.cur = from; renderTexte();
+    const alive = () => tok === state.play.token && state.mode === "texte" && R.playing;
+    for (let i = from; i < T.s.length; i++) {
+      R.cur = i;
+      app.querySelectorAll(".hr-text li").forEach(li => li.classList.toggle("cur", +li.dataset.si === i));
+      const pr = app.querySelector(".hr-prog"); if (pr) pr.innerHTML = progressBar(i + 1, T.s.length);
+      const cur = app.querySelector(".hr-text li.cur"); if (cur && cur.getBoundingClientRect().bottom > innerHeight) cur.scrollIntoView({ block: "center", behavior: "smooth" });
+      await utter(T.s[i].de); if (!alive()) return;
+      await wait(350 / store.rate); if (!alive()) return;
+    }
+    R.playing = false; R.done = true; renderTexte();
+  }
+
   // ---------- shared bindings ----------
   function bindCommon(root) {
     root.querySelectorAll("[data-say]").forEach(b => b.onclick = e => { e.stopPropagation(); speak(b.dataset.say); });
@@ -1455,6 +1532,7 @@
       for (const q of L.quiz || []) add(de, fullSentence(q));
     }
     for (const d of window.TAEGLICH || []) for (const x of d.s) add(de, x.de);
+    for (const L of LESSONS) for (const T of (window.HOEREN || {})[L.id] || []) { T.s.forEach(x => add(de, x.de)); T.q.forEach(q => add(de, q.q)); }
     for (const [, g] of Object.entries(window.GLOSSAR || {})) add(de, g[0]);
     try { for (const { v } of getVerbs()) { add(de, verbLabel(v)); add(de, window.Konjugation.conjugate(v).summary.replace(/ – /g, ", ")); } } catch (e) {}
     ["Guten Tag! Ich lese dir die Wörter und Sätze vor.", "Das ist mein Tempo."].forEach(t => add(de, t));

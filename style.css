@@ -345,3 +345,24 @@ select, .icon-btn { background: var(--panel); border: 1px solid var(--line); bor
 .filters .opts { align-items: center; }
 .play-all { margin-inline-start: auto; white-space: nowrap; }
 @media (max-width: 640px) { .play-all { width: 100%; margin: 6px 0 0; } }
+/* ===== v6: 11 modes, Hörtexte ===== */
+.modes { grid-template-columns: repeat(6, 1fr); }
+@media (max-width: 640px) { .modes { grid-template-columns: repeat(4, 1fr); } }
+.hr-tabs { margin: 0 0 10px; flex-wrap: wrap; }
+.hr-fa-title { color: var(--fa); }
+.hr-intro { color: var(--muted); text-align: right; margin: 6px 0 4px; }
+.hr-prog { margin: 8px 0 4px; }
+.hr-hidden { text-align: center; padding: 18px 8px; border: 1px dashed var(--line); border-radius: 12px; margin-top: 10px; }
+.hr-hidden .fa { display: block; margin-top: 6px; }
+.hr-text { padding-left: 24px; margin: 10px 0 0; }
+.hr-text li { padding: 7px 8px; border-radius: 10px; line-height: 1.6; transition: background .2s; }
+.hr-text li.cur { background: color-mix(in srgb, var(--brand) 16%, transparent); }
+.hr-de { font-size: 16.5px; }
+.hr-sfa { color: var(--fa); text-align: right; margin-top: 3px; font-size: 15px; }
+.hr-quiz h3 { margin: 0 0 8px; display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+.hr-q { padding: 10px 0; border-top: 1px solid var(--line); }
+.hr-q:first-of-type { border-top: 0; }
+.hr-qq { font-weight: 600; margin-bottom: 6px; }
+.hr-opts { display: grid; gap: 6px; }
+.hr-opts .choice { text-align: left; }
+.hr-expl { text-align: right; margin-top: 6px; font-size: 14.5px; color: var(--fa); }
