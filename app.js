@@ -29,6 +29,9 @@
     rate: saved.rate || (saved.slow ? 0.75 : 1),      // speech speed
     play: Object.assign({ ex: true, coll: false, fa: false }, saved.play || {}),
     dailyDone: saved.dailyDone || {},
+    pos: saved.pos || {},              // saved place per lesson / mode / filter: resume where you stopped
+    mode: saved.mode || "cards",       // last used mode
+    view: saved.view || {},            // lessonId -> { s: [sections], st: starOnly, un: unknownOnly }
   };
   const persist = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch { /* private mode etc. */ } };
 
@@ -325,7 +328,7 @@
     sel.innerHTML = `<optgroup label="${esc(SITE.bookLabel)}">${book.map(opt).join("")}</optgroup>` +
       (extra.length ? `<optgroup label="${esc(SITE.extraLabel)}">${extra.map(opt).join("")}</optgroup>` : "");
     sel.value = store.lesson;
-    sel.onchange = () => { store.lesson = +sel.value; persist(); state.sections.clear(); renderChips(); setMode(state.mode); };
+    sel.onchange = () => { store.lesson = +sel.value; persist(); loadView(); renderChips(); setMode(state.mode); };
 
     $("#themeBtn").onclick = () => {
       const cur = document.documentElement.dataset.theme ||
@@ -340,14 +343,14 @@
     dir.checked = store.dir === "fa";
     dir.onchange = () => { store.dir = dir.checked ? "fa" : "de"; persist(); updateDirLabel(); restart(); };
     updateDirLabel();
-    $("#starOnly").onchange = e => { state.starOnly = e.target.checked; restart(); };
+    $("#starOnly").onchange = e => { state.starOnly = e.target.checked; saveView(); restart(); };
     initSettings();
     if (!(window.TAEGLICH || []).length) { const db = $("#dailyBtn"); if (db) db.hidden = true; }
-    $("#unknownOnly").onchange = e => { state.unknownOnly = e.target.checked; restart(); };
+    $("#unknownOnly").onchange = e => { state.unknownOnly = e.target.checked; saveView(); restart(); };
     const pa = $("#playAll");
     if (pa) pa.onclick = () => {
       if (state.mode === "listen") { togglePlay(); return; }
-      setMode("listen"); state.play.i = 0; togglePlay();
+      setMode("listen"); togglePlay();
     };
     renderChips();
   }
@@ -362,11 +365,12 @@
       const s = c.dataset.s;
       if (!s) state.sections.clear();
       else state.sections.has(s) ? state.sections.delete(s) : state.sections.add(s);
-      renderChips(); restart();
+      saveView(); renderChips(); restart();
     });
   }
   function setMode(m, opts = {}) {
     state.mode = m;
+    if (!opts.deck && m !== "mistakes") { store.mode = m; persist(); }
     document.querySelectorAll(".modes button").forEach(b => b.classList.toggle("active", b.dataset.mode === m));
     stopPlay();
     $(".filters").hidden = (["grammar", "mistakes", "artikel", "verben", "daily"].includes(m) || !!opts.deck);
@@ -391,17 +395,72 @@
   }
 
   let shuffleOn = false;
+  const POS_MODES = ["cards", "listen", "learn", "write"];
+  const posKey = () => [store.lesson, state.mode, [...state.sections].sort().join(""), state.starOnly ? 1 : 0, state.unknownOnly ? 1 : 0, store.dir].join("|");
+  const idsOf = a => (a || []).map(c => c.id);
+  function savePos() {
+    if (state.review || !POS_MODES.includes(state.mode)) return;
+    let p = null;
+    if (state.mode === "cards") p = { o: idsOf(state.deck), i: state.i, g: state.round.good, b: state.round.bad, m: idsOf(state.round.missed), sh: shuffleOn ? 1 : 0 };
+    else if (state.mode === "listen") p = { o: idsOf(state.deck), i: state.play.i };
+    else if (state.mode === "learn" && state.learn) { const L = state.learn; p = { q: idsOf(L.queue), t: L.total, n: L.n, r: L.right, w: idsOf(L.wrongCards) }; }
+    else if (state.mode === "write" && state.write) { const W = state.write; p = { q: idsOf(W.queue), t: W.total, n: W.n, r: W.right, w: idsOf(W.wrongCards) }; }
+    if (!p) return;
+    p.ts = Date.now();
+    store.pos[posKey()] = p;
+    const keys = Object.keys(store.pos);
+    if (keys.length > 60) keys.sort((a, b) => store.pos[a].ts - store.pos[b].ts).slice(0, keys.length - 60).forEach(k => delete store.pos[k]);
+    persist();
+  }
+  function restorePos() {
+    const p = store.pos[posKey()]; if (!p) return false;
+    const byId = new Map(lesson().cards.map(c => [c.id, c]));
+    const get = ids => (ids || []).map(id => byId.get(id)).filter(Boolean);
+    if ((state.mode === "cards" || state.mode === "listen") && p.o) {
+      const d = get(p.o); if (!d.length) return false;
+      state.deck = d;
+      if (state.mode === "cards") { state.i = Math.min(p.i || 0, d.length); state.round = { good: p.g || 0, bad: p.b || 0, missed: get(p.m) }; shuffleOn = !!p.sh; }
+      else state.play.i = Math.min(p.i || 0, d.length - 1);
+      return true;
+    }
+    if (state.mode === "learn" && p.q) {
+      state.learn = { queue: get(p.q), total: p.t || 0, n: p.n || 0, right: p.r || 0, wrongSet: new Set(p.w || []), wrongCards: get(p.w), answered: false };
+      return true;
+    }
+    if (state.mode === "write" && p.q) {
+      state.write = { queue: get(p.q), total: p.t, n: p.n || 0, right: p.r || 0, done: false, wrongCards: get(p.w) };
+      return true;
+    }
+    return false;
+  }
+  function saveView() {
+    store.view[store.lesson] = { s: [...state.sections], st: state.starOnly ? 1 : 0, un: state.unknownOnly ? 1 : 0 };
+    persist();
+  }
+  function loadView() {
+    const v = store.view[store.lesson] || {};
+    state.sections = new Set((v.s || []).filter(x => lesson().sections.some(s => s.id === x)));
+    state.starOnly = !!v.st; state.unknownOnly = !!v.un;
+    const so = $("#starOnly"); if (so) so.checked = state.starOnly;
+    const uo = $("#unknownOnly"); if (uo) uo.checked = state.unknownOnly;
+  }
   function restart(opts = {}) {
     state.review = !!opts.deck;
     state.deck = opts.deck ? shuffle(opts.deck) : (shuffleOn ? shuffle(pool()) : pool());
     state.i = 0; state.flipped = false; state.round = { good: 0, bad: 0, missed: [] };
     state.learn = null; state.write = null;
+    if (state.play) state.play.i = 0;
+    if (!opts.deck) {
+      if (opts.fresh) { delete store.pos[posKey()]; persist(); }
+      else restorePos();
+    }
     if (state.mode !== "grammar") state.gquiz = null;
     render();
   }
 
   function render() {
     updateStats();
+    setTimeout(savePos, 0);
     switch (state.mode) {
       case "cards": return renderCards();
       case "learn": return renderLearn();
@@ -483,8 +542,8 @@
     $("#next").onclick = () => go(1);
     $("#bad").onclick = () => judge(false);
     $("#good").onclick = () => judge(true);
-    const sh = $("#shuf"); if (sh) sh.onclick = () => { shuffleOn = !shuffleOn; restart(); };
-    $("#reset").onclick = () => restart(state.review ? { deck: mistakeCards() } : {});
+    const sh = $("#shuf"); if (sh) sh.onclick = () => { shuffleOn = !shuffleOn; restart({ fresh: true }); };
+    $("#reset").onclick = () => restart(state.review ? { deck: mistakeCards() } : { fresh: true });
     addSwipe(card);
     prefetchHuman(d.slice(state.i, state.i + 3).map(x => sayWord(x.w)));
     if (store.auto && !faFront && !state.flipped) speak(sayWord(c.w));
@@ -523,7 +582,7 @@
       </div>`;
     const again = $("#again");
     if (again) again.onclick = () => { state.deck = shuffle(r.missed); state.i = 0; state.flipped = false; state.round = { good: 0, bad: 0, missed: [] }; render(); };
-    $("#restart").onclick = () => restart(state.review ? { deck: mistakeCards() } : {});
+    $("#restart").onclick = () => restart(state.review ? { deck: mistakeCards() } : { fresh: true });
     bindCommon(app);
   }
   function missedList(cards) {
@@ -704,7 +763,7 @@
         </div>
       </div>`;
     const wa = $("#wrongAgain"); if (wa) wa.onclick = () => setMode(state.mode, { deck: wrongCards });
-    $("#again").onclick = () => restart(state.review ? { deck: mistakeCards() } : {});
+    $("#again").onclick = () => restart(state.review ? { deck: mistakeCards() } : { fresh: true });
     bindCommon(app);
   }
 
@@ -1108,6 +1167,7 @@
     const box = $("#lsCard"); if (!box) return;
     const d = state.deck, c = d[state.play.i]; if (!c) return;
     prefetchHuman(d.slice(state.play.i, state.play.i + 3).map(x => sayWord(x.w)));
+    savePos();
     box.innerHTML = `<div class="ls-word">${esc(c.w)} ${sayBtn(sayWord(c.w))}</div>
       <div class="fa ls-fa">${esc(c.fa)}</div>
       <div class="ex">${sent(c.de)} ${sayBtn(c.de)}</div><div class="exfa fa">${esc(c.fas)}</div>
@@ -1403,5 +1463,8 @@
   window.KompassDebug = { fullSentence, sayWord, allTexts, cyrb53, studioKey };   // used by automated tests
   if (!LESSONS.length) { app.innerHTML = `<div class="panel empty">Die Inhalte werden gerade erstellt – bitte später noch einmal vorbeischauen.<br><span class="fa">محتوای این بخش در حال آماده‌سازی است.</span></div>`; return; }
   initChrome();
-  restart();
+  loadView(); renderChips();
+  const startBtn = document.querySelector(`.modes [data-mode="${store.mode}"]`);
+  if (store.mode !== "cards" && startBtn && !startBtn.hidden) setMode(store.mode);
+  else restart();
 })();
